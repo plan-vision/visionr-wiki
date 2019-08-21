@@ -1,4 +1,7 @@
-<!-- TITLE: Home -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- TITLE: VisionR Wiki -->
+<!-- SUBTITLE: Dokumentation der VisionR Module -->
 
 # VisionR Dokumentation
+* Benutzer
+* Administratoren
+* Entwickler
