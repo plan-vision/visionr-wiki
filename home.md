@@ -8,5 +8,5 @@
 
 # VisionR english
 * [User guide](en-US/user_guide)
-* Admin guide
+* [Admin guide](en-US/admin_guide)
 * Developer guide
