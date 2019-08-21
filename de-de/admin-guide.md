@@ -10,9 +10,11 @@ Deutsch | [English](/en-US/admin-guide)
 # Sicherungen
 # VisionR Manager
 ## Restart Manager
-Als Administrator können Sie den VisionR Manager Dienst neu starten. Mehr erfahren Sie [hier](/de-DE/manager/restart).
+Als Administrator können Sie den VisionR Manager Dienst neu starten.
+Mehr erfahren Sie [hier](/de-DE/manager/restart).
 ## Update VisionR Server
-Sie können den Version von VisionR Server über den VisionR Manager ohne direkten Dateizugriff aktualisieren. Mehr erfahren Sie [hier](/de-DE/manager/update).
+Sie können den Version von VisionR Server über den VisionR Manager ohne direkten Dateizugriff aktualisieren.
+Mehr erfahren Sie [hier](/de-DE/manager/update).
 ## Instanzen
 * [Einstellungen](/de-DE/manager/instances/config)
 * [Log](/de-DE/manager/instances/log)
