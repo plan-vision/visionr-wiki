@@ -5,9 +5,11 @@ Deutsch | [English](/en-US/modules/contacts/user)
 # 1. Beschreibung
 Das Modul wird für die Verwaltung von Kontaktdaten genutzt. Im folgenden können Sie die Schritte bei der Erstellung und Bearbeitung von Personen, Unternehmen, Organisationseinheiten usw. lesen. Die angelegten Kontaktdaten können in allen anderen Modulen genutzt werden, z.B. in Verträgen, Flächenbelegungen usw. 
 
+*Bild 1: Modul Kontakte über die Index-Seite aufrufen*
 ![Modul Kontakte Benutzer](/uploads/kontakte/modul-kontakte-forms-seiten.jpg "Modul Kontakte Benutzer")
 
 # 2. Übersicht
+*Bild 2: Übersicht im Modul Kontakte*
 ![Modul Kontakte Übersicht](/uploads/kontakte/modul-kontakte-forms-seiten-overview.jpg "Modul Kontakte Übersicht")
 # 3. Erstellen von Kontakten
 ## 3.1. Über das Menü
