@@ -1,5 +1,5 @@
 <!-- TITLE: Modul "Kontakte" für normale Benutzer -->
-<!-- SUBTITLE: Modul für die Verwaltung von Personen, Unternahmen, Gemenschaften, Organisationsstrukturen usw.-->
+<!-- SUBTITLE: Modul für die Verwaltung von Personen, Unternehmen, Gemenschaften, Organisationsstrukturen usw.-->
 
 Deutsch | [English](/en-US/modules/contacts/user)
 # 1. Beschreibung
