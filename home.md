@@ -2,8 +2,8 @@
 <!-- SUBTITLE: Dokumentation der VisionR Software | VisionR software documentation -->
 
 # VisionR Deutsch
-* [Benutzerhandbuch](de-DE/user)
-* [Administratoren](de-DE/administrator)
+* [Benutzerhandbuch](de-DE/user_guide)
+* [Administratoren](de-DE/admin_guide)
 * Entwickler
 
 # VisionR english
