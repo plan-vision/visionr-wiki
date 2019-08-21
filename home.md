@@ -2,6 +2,6 @@
 <!-- SUBTITLE: Dokumentation der VisionR Module -->
 
 # VisionR Dokumentation
-* [[de-DE/Benutzer]]
+* [Benutzer] (/de-DE/user)
 * Administratoren
 * Entwickler
