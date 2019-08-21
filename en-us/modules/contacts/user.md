@@ -1,7 +1,7 @@
 <!-- TITLE: Module "Contacts" for normal users-->
 <!-- SUBTITLE: Module for managing persons, companies, communities, organisational units data etc. -->
 
-[Deutsch](/de-DEmodules/contacts/user) | English
+[Deutsch](/de-DE/modules/contacts/user) | English
 # 1. Description
 This module is used for managing person, company, organisation units data etc.
 
