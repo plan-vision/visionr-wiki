@@ -8,10 +8,12 @@ Das Modul wird für die Verwaltung von Kontaktdaten genutzt. Im folgenden könne
 Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiten "Seiten" auswählen und den Button "Kontakte" anklicken (siehe Bild 1). Alternativ können Sie auch die direkte Moduladresse in Ihrem Browser eingeben: http://serveradresse/forms#/main/contacts
 
 *Bild 1: Modul Kontakte über die Index-Seite aufrufen*
+
 ![Modul Kontakte Benutzer](/uploads/kontakte/modul-kontakte-forms-seiten.jpg "Modul Kontakte Benutzer")
 
 # 2. Übersicht
 *Bild 2: Übersicht im Modul Kontakte*
+
 ![Modul Kontakte Übersicht](/uploads/kontakte/modul-kontakte-forms-seiten-overview.jpg "Modul Kontakte Übersicht")
 # 3. Erstellen von Kontakten
 ## 3.1. Über das Menü
