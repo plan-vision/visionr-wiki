@@ -1,4 +1,4 @@
-<!-- TITLE: Modul "Kontakte" -->
+<!-- TITLE: Modul "Kontakte" (alte Oberflächen) -->
 <!-- SUBTITLE: Modul für die Verwaltung von Personen, Unternahmen, Gemenschaften, Organisationsstrukturen usw.-->
 
 # 1. Beschreibung
