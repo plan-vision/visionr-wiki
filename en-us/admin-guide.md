@@ -1,4 +1,4 @@
-<!-- TITLE: Administrator -->
+<!-- TITLE: Administrator guide -->
 <!-- SUBTITLE: Administration tasks -->
 
 [Deutsch](/de-DE/admin-guide) | English
