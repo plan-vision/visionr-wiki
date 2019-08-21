@@ -9,7 +9,7 @@ Deutsch | [English](/en-US/admin-guide)
 # Updates
 # Sicherungen
 # VisionR Manager
-## Restart Manager
+## Den Manager neu starten
 Als Administrator können Sie den VisionR Manager Dienst neu starten.
 Mehr erfahren Sie [hier](/de-DE/manager/restart).
 ## Update VisionR Server
