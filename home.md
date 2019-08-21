@@ -3,7 +3,7 @@
 
 # VisionR Deutsch
 * [Benutzerhandbuch](de-DE/user)
-* Administratoren
+* [Administratoren](de-DE/administrator)
 * Entwickler
 
 # VisionR english
