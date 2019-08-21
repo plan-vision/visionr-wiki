@@ -1,5 +1,5 @@
 <!-- TITLE: VisionR Wiki -->
-<!-- SUBTITLE: Dokumentation der VisionR Module -->
+<!-- SUBTITLE: Dokumentation der VisionR Software -->
 
 # VisionR Dokumentation Deutsch
 * [Benutzer](de-DE/user)
