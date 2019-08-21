@@ -9,6 +9,5 @@ Das Modul wir für die Verwaltung von Kontaktdaten genutzt. Im folgenden können
 # 2. Erstellen von Kontakten
 ## 2.1. Über das Menü
 ## 2.2. Mit rechter Maustaste
-## 2.3. Allgemeine Dokumentation
 # 3. Bearbeiten von Kontakten
 # 4. Löschen von Kontakten
