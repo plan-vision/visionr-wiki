@@ -1,4 +1,4 @@
-<!-- TITLE: Benutzer -->
+<!-- TITLE: Benutzerhandbuch -->
 <!-- SUBTITLE: Dokumentation der VisionR Module -->
 
 # VisionR Module
