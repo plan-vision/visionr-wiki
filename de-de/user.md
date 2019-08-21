@@ -11,3 +11,7 @@
 * Wartung
 * Schließmanagement
 * Reservierungen
+
+# Allgemeine Bedienung
+* Neue Oberflächen mit Forms (ab Version 7)
+* Alte Oberflächen bis Version 6
