@@ -1,4 +1,4 @@
-<!-- TITLE: Administrator -->
+<!-- TITLE: Administratonshandbuch -->
 <!-- SUBTITLE: Administrative Aufgaben -->
 
 Deutsch | [English](/en-US/admin-guide)
