@@ -1,7 +1,7 @@
 <!-- TITLE: User guide -->
 <!-- SUBTITLE: Dokumentation of the VisionR modules -->
 
-[Deutsch](/de-DE/user_guide) | English
+[Deutsch](/de-DE/user-guide) | English
 # VisionR modules
 * [Contacts](/en-US/modules/contacts)
 * Documents
