@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Dokumentation der VisionR Module -->
 
 # VisionR Module
-* Kontakte
+* [Kontakte](de-DE/modules/contacts)
 * Dokumente
 * Grafik (Web-CAD)
 * Flächenmanagement
