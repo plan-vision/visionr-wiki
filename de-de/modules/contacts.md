@@ -1,6 +1,7 @@
 <!-- TITLE: Modul Kontakte -->
 <!-- SUBTITLE: Modul für Personen, Unternehmen, Organisationseinheiten usw. -->
 
+Deutsch | [English](/en-US/modules/contacts)
 # Normale Benutzer
 * Modul Kontakte für [normale Benutzer](/de-DE/modules/contacts/user)
 # Modul Admin 
