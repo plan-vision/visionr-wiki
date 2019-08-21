@@ -6,7 +6,7 @@
 * [Administratoren](de-DE/admin-guide)
 * Entwickler
 
-# VisionR english
+# VisionR English
 * [User guide](en-US/user-guide)
 * [Admin guide](en-US/admin-guide)
 * Developer guide
