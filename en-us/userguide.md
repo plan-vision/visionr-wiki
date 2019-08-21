@@ -12,3 +12,12 @@
 * Maintenance
 * Key management
 * Reservations
+
+# System modules
+* User management
+* Reports
+* Data import / export
+* Scheduler
+# General user guide
+* Neu interface with forms (from version 7)
+* Old interface (up to version 6)
