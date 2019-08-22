@@ -30,9 +30,9 @@ Wenn der Termin im Drittsystem abgesagt wird, wird eine E-Mail an das Raum-Postf
 > Bei der Einrichtung der `ICS`-Schnittstelle muss das Format der `UID` in beiden Richtungen getestet werden.
 {.is-warning}
 # Technische Voraussetzungen
-Um die Schnittstelle für Terminaustausch zwischen VisionR und ein Drittsystem (Outlook, LotusNotes, iCloud, Google Calendar) realisieren zu können, müssen in beiden Systemen Einstellungen vorgenommen werden, die administrative Berechtigungen erfordern.  
+Um die Schnittstelle für Terminaustausch zwischen VisionR und einem Drittsystem (Outlook, LotusNotes, iCloud, Google Calendar) realisieren zu können, müssen in beiden Systemen Einstellungen vorgenommen werden, die administrative Berechtigungen erfordern.  
 ## In VisionR
-IN VisionR muss ein geplanter Task mit regelmäßiger Ausführung (z.B. jede 3 Minuten) eingerichtet werden. Im geplanten Task wird ein Schnittstellen-Skript aufgeführt, welches die Postfächer von gemeinsamen Ressourcen (meistens Reservierungseinheiten: Besprechungsraum, Konferenzraum o.ä.) nach neuen E-Mail durchsucht. Falls vom Drittsystem neue Termine oder Terminänderungen oder -absagen als E-Mail im `ICS`-Format enthalten, werden Standardabläufe für Terminbestätigung oder Absage ausgelöst, die eine Antwort-E-Mail generieren.
+In VisionR muss ein geplanter Task mit regelmäßiger Ausführung (z.B. jede 3 Minuten) eingerichtet werden. Im geplanten Task wird ein Schnittstellen-Skript aufgeführt, welches die Postfächer von gemeinsamen Ressourcen (meistens Reservierungseinheiten: Besprechungsraum, Konferenzraum o.ä.) nach neuen E-Mail durchsucht. Falls vom Drittsystem neue Termine oder Terminänderungen oder -absagen als E-Mail im `ICS`-Format enthalten, werden Standardabläufe für Terminbestätigung oder Absage ausgelöst, die eine Antwort-E-Mail generieren.
 
 > **Hinweis:** Voraussetzung für die Termin-Schnittstelle auf der VisionR-Seite sind Einträge von gültigen E-Mail-Adressen und E-Mail-Postfach-Anmeldeinformationen für einen `IMAP`-Zugang notwendig. Diese Informationen werden vom Drittsystem dem VisionR-Administrator zur Verfügung gestellt. Bei Änderungen, z.B. Löschen von Postfächer oder Passwortänderungen der E-Mail-Accounts von Raum-Ressourcen muss der VisionR-Administrator benachrichtigt werden.
 {.is-warning}
