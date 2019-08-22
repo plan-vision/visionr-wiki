@@ -2,6 +2,7 @@
 <!-- SUBTITLE: Module for managing persons, companies, communities, organisational units data etc. -->
 
 [Deutsch](/de/modules/contacts/user) | English
+*You are here: [Home](/home-en) > [User guide](/en/user-guide) > [Module Contacts](/en/modules/contacts) > Normal user*
 # 1. Description
 This module is used for managing person, company, organisation units data etc.
 
