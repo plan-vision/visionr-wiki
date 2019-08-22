@@ -1,5 +1,5 @@
 <!-- TITLE: Benutzerhandbuch -->
-<!-- SUBTITLE: Dokumentation der VisionR Module -->
+<!-- SUBTITLE: Dokumentation der VisionR Oberflächen und Module -->
 
 Deutsch | [English](/en/user-guide)
 *Sie sind hier: [Home](/home) > Benutzerhandbuch*
