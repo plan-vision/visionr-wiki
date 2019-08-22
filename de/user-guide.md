@@ -3,7 +3,6 @@
 
 Deutsch | [English](/en/user-guide)
 Sie sind hier: [Home](/home) > Benutzerhandbuch
-
 # VisionR Module
 * [Kontakte](/de/modules/contacts)
 * Dokumente
