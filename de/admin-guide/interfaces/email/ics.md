@@ -1,5 +1,5 @@
 <!-- TITLE: Termine synchronisieren -->
-<!-- SUBTITLE: Terminsynchronisation über ICS in gemeinsamen IMAP-Postfächer in Outlook/LotusNotes-->
+<!-- SUBTITLE: Terminsynchronisation über ICS in gemeinsamen IMAP-Postfächer in Outlook/LotusNotes/iCloud-->
 
 # Beschreibung
 VisionR kann Termine mit anderen Systemen (Outlook, LotusNotes, iCloud u.a.) austauschen und synchronisieren.
