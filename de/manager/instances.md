@@ -12,32 +12,32 @@ Hier ein Beispiel für Instanz-Einstellungen im `JSON`-Format:
 
 
 ```json
-{
-    "code": "6_FM",
-    "path": "C:\\Plan-Vision\\VisionRServer6\\apps\\FM",
-    "autostart": true,
-    "server": {
-        "memory": "2000",
-        "mode": "production",
-        "externalAddress": "http://127.0.0.1:8585",
-        "https": {
-            "enabled": false
-        },
-        "host": "127.0.0.1",
-        "ports": {
-            "http": 8585,
-            "https": 8449
-        },
-        "registration": {
-            "enabled": true
-        },
-        "webSocketProxyPort": 7778,
-        "chromeDebuggerProxyPort": 7777
-    },
-    "additional": {
-        "core.import.languages": "en-US,de-DE,bg-BG,fr-FR"
-    }
-}
+	{
+			"code": "6_FM",
+			"path": "C:\\Plan-Vision\\VisionRServer6\\apps\\FM",
+			"autostart": true,
+			"server": {
+					"memory": "2000",
+					"mode": "production",
+					"externalAddress": "http://127.0.0.1:8585",
+					"https": {
+							"enabled": false
+					},
+					"host": "127.0.0.1",
+					"ports": {
+							"http": 8585,
+							"https": 8449
+					},
+					"registration": {
+							"enabled": true
+					},
+					"webSocketProxyPort": 7778,
+					"chromeDebuggerProxyPort": 7777
+			},
+			"additional": {
+					"core.import.languages": "en-US,de-DE,bg-BG,fr-FR"
+			}
+	}
 ```
 
 # Konsole
