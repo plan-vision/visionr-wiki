@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Dokumentation of the VisionR modules -->
 
 [Deutsch](/de/user-guide) | English
-Sie sind hier: [Home](/home-en) > User guide
+*You are here: [Home](/home-en) > User guide*
 # VisionR modules
 * [Contacts](/en/modules/contacts)
 * Documents
