@@ -31,7 +31,7 @@ Wenn der Termin im Drittsystem abgesagt wird, wird eine E-Mail an das Raum-Postf
 {.is-warning}
 # Technische Voraussetzungen
 Um die Schnittstelle für Terminaustausch zwischen VisionR und ein Drittsystem (Outlook, LotusNotes, iCloud, Google Calendar) realisieren zu können, müssen in beiden Systemen Einstellungen vorgenommen werden, die administrative Berechtigungen erfordern.  
-## Auf der VisionR-Seite
+## In VisionR
 IN VisionR muss ein geplanter Task mit regelmäßiger Ausführung (z.B. jede 3 Minuten) eingerichtet werden. Im geplanten Task wird ein Schnittstellen-Skript aufgeführt, welches die Postfächer von gemeinsamen Ressourcen (meistens Reservierungseinheiten: Besprechungsraum, Konferenzraum o.ä.) nach neuen E-Mail durchsucht. Falls vom Drittsystem neue Termine oder Terminänderungen oder -absagen als E-Mail im `ICS`-Format enthalten, werden Standardabläufe für Terminbestätigung oder Absage ausgelöst, die eine Antwort-E-Mail generieren.
 
 > **Hinweis:** Voraussetzung für die Termin-Schnittstelle auf der VisionR-Seite sind Einträge von gültigen E-Mail-Adressen und E-Mail-Postfach-Anmeldeinformationen für einen `IMAP`-Zugang notwendig. Diese Informationen werden vom Drittsystem dem VisionR-Administrator zur Verfügung gestellt. Bei Änderungen, z.B. Löschen von Postfächer oder Passwortänderungen der E-Mail-Accounts von Raum-Ressourcen muss der VisionR-Administrator benachrichtigt werden.
