@@ -1,9 +1,9 @@
 <!-- TITLE: User guide -->
 <!-- SUBTITLE: Dokumentation of the VisionR modules -->
 
-[Deutsch](/de-DE/user-guide) | English
+[Deutsch](/de/user-guide) | English
 # VisionR modules
-* [Contacts](/en-US/modules/contacts)
+* [Contacts](/en/modules/contacts)
 * Documents
 * Graphics (Web-CAD)
 * Space management
