@@ -6,7 +6,7 @@
 Die Einstellungen einer Instanz rufen Sie auf, wenn Sie im VisionR Manager die Instanz im linken Bereich markieren und anschließend den Reiter `CONFIG` anklicken.
 Die Instanz-Einstellungen werden im `JSON`-Format bearbeitet und gespeichert.
 
-> Die Einstellungen werden am Server im Instanz-Ordner unter `[VisionR-Installation]\apps\[Projektname]\etc\managed.json` gespeichert.
+> **Bemerkung:** Die Einstellungen werden am Server im Instanz-Ordner unter `[VisionR-Installation]\apps\[Projektname]\etc\managed.json` gespeichert.
 
 Hier ein Beispiel für Instanz-Einstellungen im `JSON`-Format:
 
