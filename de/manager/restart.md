@@ -5,14 +5,15 @@ Es gibt zwei Methoden den VisionR Server Dienst neu zu starten, falls Sie neue V
 # Über den Dienst-Manager in Windows
 Bei dierse Methode müssen Sie über Administratorenrechte auf der Servermschine verfügen. Um den Diest neu zu starten, müssen Sie den Windows Dienstemanager öffnen. Den Dienst-Manager können Sie in der Windows-Verwaltung finden oder per CMD Kommando `Services.msc` aufrufen. Im geöffneten Dienst-Manager müssen Sie den Dienst **VisionR Server Manager 6** (Dienstname **visionrservermanager6.exe**) in der Liste finden und diesen mit der rechten Maustaste neu starten.
 
+> Bei Updates von VisionR Server auf neue Version müssen abhängige Prozesse von LibreOffice manchmal manuell im Windows TaskManager gestoppt werden.
+> Die Prozesse finden Sie im TaskManager unter den Namen soffice.bin oder soffice.exe.
+> Für ein erfolgreiches Update müssen alle LibreOffice-Prozesse gestoppt werden, befor Sie mit der Ausführung der VisionR Update EXE DAtei fortfahren.
+{.is-warning}
+
 *Bild 1: Restart Manager von Windows Dienst-Manager*
 
 ![Manager Restart Windows](/uploads/manager/manager-restart-windows.jpg "Manager Restart Windows")
 
-> Bei Updates von VisionR Server auf neue Version müssen abhängige Prozesse von LibreOffice manchmal manuell im Windows TaskManager gestoppt werden.
-> Die Prozesse finden Sie im TaskManager unter den Namen soffice.bin oder soffice.exe.
-> Für ein erfolgreiches Update müssen alle LibreOffice-Prozesse gestoppt werden, befor Sie mit der Ausführung der VisionR Update EXE DAtei fortfahren.
-{.is-info}
 # Mit Web-Zugang über den VisionR Manager
 Bei diese Methode müssen Sie den VisionR Manager im Browser aufrufen. Dazu können Sie http oder falls eingerichtet https nutzen. Bitte beachten Sie den Port, der bei der Installation für den Manager eingerichtet wurde (standardmäßig 8282 für http und 8283 für https).
 Nachdem Sie sich als admin eingeloggt haben, können Sie den VisionR Manager Dienst über den roten Button `RESTART` im oberen rechten Bereich neu starten (siehe Bild 2).
