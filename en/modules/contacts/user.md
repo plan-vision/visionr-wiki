@@ -3,14 +3,16 @@
 
 [Deutsch](/de/modules/contacts/user) | English
 *You are here: [Home](/home-en) > [User guide](/en/user-guide) > [Module Contacts](/en/modules/contacts) > Normal user*
-# 1. Description
+# Description
 This module is used for managing person, company, organisation units data etc.
 
 ![Modul Kontakte Benutzer](/uploads/kontakte/modul-kontakte-forms-seiten.jpg "Modul Kontakte Benutzer")
 
-# 2. Overview
-# 3. New contacts
-## 3.1. Over the menu
-## 3.2. With right mouse button
-# 4. Edit contacts
-# 5. Delete contacts
+# Overview
+# New contacts
+## Over the menu
+## With right mouse button
+# Edit contacts
+## Over the menu
+## With right mouse button
+# Delete contacts
