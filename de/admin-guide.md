@@ -76,14 +76,14 @@ set datetimef=%year%%month%%day%_%hour%%min%%secs%
 
 echo datetimef=%datetimef%
 
-SET PGDUMP=C:\Plan-Vision\PostgreSQL\9.4\bin\pg_dump.exe
+SET PGDUMP=D:\Plan-Vision\PostgreSQL\10\bin\pg_dump.exe
 SET DBNAME=VISIONR_6_FM
 SET DBUSER=VISIONR
 SET PGPASSWORD=plan4vision
 SET SCHEMA1=visionr
 SET SCHEMA2=visionrg
 SET SCHEMA3=visionre
-SET DUMP=C:\Plan-Vision\Backup\%DBNAME%-full-daily.backup
+SET DUMP=D:\Backup\\%DBNAME%-full-daily.backup
 
 del /f %DUMP%.14
 move /y %DUMP%.13 %DUMP%.14
