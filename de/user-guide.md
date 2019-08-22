@@ -12,7 +12,6 @@ Deutsch | [English](/en/user-guide)
 * Wartung
 * Schließmanagement
 * Reservierungen
-
 # Systemmodule
 * Benutzerverwaltung
 * Berichte
@@ -21,3 +20,4 @@ Deutsch | [English](/en/user-guide)
 # Allgemeine Bedienung
 * Neue Oberflächen mit Forms (ab Version 7)
 * Alte Oberflächen bis Version 6
+# Unterstütze Formate
