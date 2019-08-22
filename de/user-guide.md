@@ -6,7 +6,6 @@ Deutsch | [English](/en/user-guide)
 -----
 [Home](/home) > Benutzerhandbuch
 
------
 # VisionR Module
 * [Kontakte](/de/modules/contacts)
 * Dokumente
