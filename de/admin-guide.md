@@ -22,3 +22,8 @@ Mit VisionR Manager als Hauptdienst können Sie mehrere Projekt-Instanzen verwal
 VisionR Skripte im Format VSC oder VScript erlauben die Ausführung von verschiedenen administrativen Aufgaben: Datenbankänderungen, E-Mail-Zugriff, Berichte usw. 
 Sie können auf einem separaten Link (normalerweise http://serveradresse/vsc.vsp) Skripte zu Testzwecken ausführen und parallel die Ergebnisse im Instanz-Log betrachten.
 Mehr erfahren Sie [hier](/de-DE/admin-guide/vsc).
+# Schnittstellen
+## LDAP
+## Datenbank über JDBC
+## E-Mail
+## Dateien
