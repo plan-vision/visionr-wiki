@@ -1,7 +1,8 @@
-<!-- TITLE: Administratonshandbuch -->
+<!-- TITLE: Administratorenhandbuch -->
 <!-- SUBTITLE: Administrative Aufgaben -->
 
 Deutsch | [English](/en/admin-guide)
+*Sie sind hier: [Home](/home) > Administratorenhandbuch*
 # Installation
 ## Installtion Datenbank
 ## Installation VisionR Server
