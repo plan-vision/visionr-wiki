@@ -28,3 +28,5 @@ Mehr erfahren Sie [hier](/de-DE/admin-guide/vsc).
 ## E-Mail
 * [Termine synchronisieren](/de/admin-guide/interfaces/email/ics)
 ## Dateien
+* [CSV](/de/admin-guide/interfaces/files/csv)
+* [Excel](/de/admin-guide/interfaces/files/excel)
