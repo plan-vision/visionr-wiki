@@ -1,7 +1,7 @@
 <!-- TITLE: VisionR Wiki -->
 <!-- SUBTITLE: Dokumentation der VisionR Software -->
 
-Deutsch | [English](/home-en.md)
+Deutsch | [English](/home-en)
 # VisionR Deutsch
 * [Benutzerhandbuch](de/user-guide)
 * [Administratoren](de/admin-guide)
