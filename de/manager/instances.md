@@ -10,8 +10,7 @@ Die Instanz-Einstellungen werden im `JSON`-Format bearbeitet und gespeichert.
 
 Hier ein Beispiel für Instanz-Einstellungen im `JSON`-Format:
 
-
-```json
+	```json
 	{
 			"code": "6_FM",
 			"path": "C:\\Plan-Vision\\VisionRServer6\\apps\\FM",
@@ -38,7 +37,7 @@ Hier ein Beispiel für Instanz-Einstellungen im `JSON`-Format:
 					"core.import.languages": "en-US,de-DE,bg-BG,fr-FR"
 			}
 	}
-```
+	```
 
 # Konsole
 ## Eingabe-Bereich
