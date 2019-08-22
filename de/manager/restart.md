@@ -6,7 +6,7 @@ Es gibt zwei Methoden den VisionR Server Dienst neu zu starten, falls Sie neue V
 Bei dierse Methode müssen Sie über Administratorenrechte auf der Servermschine verfügen. Um den Diest neu zu starten, müssen Sie den Windows Dienstemanager öffnen. Den Dienst-Manager können Sie in der Windows-Verwaltung finden oder per CMD Kommando `Services.msc` aufrufen. Im geöffneten Dienst-Manager müssen Sie den Dienst **VisionR Server Manager 6** (Dienstname **visionrservermanager6.exe**) in der Liste finden und diesen mit der rechten Maustaste neu starten.
 
 > Bei Updates von VisionR Server auf neue Version müssen abhängige Prozesse von LibreOffice manchmal manuell im Windows TaskManager gestoppt werden.
-> Die Prozesse finden Sie im TaskManager unter den Namen soffice.bin oder soffice.exe.
+> Die Prozesse finden Sie im TaskManager unter den Namen `soffice.bin` oder `soffice.exe`.
 > Für ein erfolgreiches Update müssen alle LibreOffice-Prozesse gestoppt werden, befor Sie mit der Ausführung der VisionR Update EXE DAtei fortfahren.
 {.is-warning}
 
