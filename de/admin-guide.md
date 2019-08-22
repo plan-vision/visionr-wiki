@@ -3,9 +3,9 @@
 
 Deutsch | [English](/en/admin-guide)
 # Installation
-* Installtion Datenbank
-* Installation VisionR Server
-* Einspielen von Projektdaten
+## Installtion Datenbank
+## Installation VisionR Server
+## Einspielen von Projektdaten
 # Updates
 # Sicherungen
 # VisionR Manager
