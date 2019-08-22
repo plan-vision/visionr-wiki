@@ -26,5 +26,5 @@ Mehr erfahren Sie [hier](/de-DE/admin-guide/vsc).
 ## LDAP
 ## Datenbank über JDBC
 ## E-Mail
-* [Termine synchronisieren](/de/admin-guide/interfaces/email/ics)
+## [Termine synchronisieren](/de/admin-guide/interfaces/email/ics)
 ## Dateien
