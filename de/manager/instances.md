@@ -1,6 +1,7 @@
-<!-- TITLE: Instanzen -->
+<!-- TITLE: VisionR Instanzen -->
 <!-- SUBTITLE: Verwaltung von mehreren Instanzen im VisionR Manager -->
 
+*Sie sind hier: [Home](/home) > [Administratorenhandbuch](/de/admin-guide) > VisionR Instanzen*
 # Neue Instanz anlegen
 # Einstellungen
 Die Einstellungen einer Instanz rufen Sie auf, wenn Sie im VisionR Manager die Instanz im linken Bereich markieren und anschließend den Reiter `CONFIG` anklicken.
