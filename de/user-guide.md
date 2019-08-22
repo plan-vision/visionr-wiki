@@ -1,9 +1,9 @@
 <!-- TITLE: Benutzerhandbuch -->
 <!-- SUBTITLE: Dokumentation der VisionR Module -->
 
-Deutsch | [English](/en-US/user-guide)
+Deutsch | [English](/en/user-guide)
 # VisionR Module
-* [Kontakte](/de-DE/modules/contacts)
+* [Kontakte](/de/modules/contacts)
 * Dokumente
 * Grafik (Web-CAD)
 * Flächenmanagement
