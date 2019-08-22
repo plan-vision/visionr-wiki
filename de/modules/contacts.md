@@ -2,6 +2,7 @@
 <!-- SUBTITLE: Modul für Personen, Unternehmen, Organisationseinheiten usw. -->
 
 Deutsch | [English](/en/modules/contacts)
+Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Modul Kontakte
 # Normale Benutzer
 * Modul Kontakte für [normale Benutzer](/de/modules/contacts/user)
 # Modul Admin 
