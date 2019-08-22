@@ -3,7 +3,7 @@
 
 Es gibt zwei Methoden den VisionR Server Dienst neu zu starten, falls Sie neue Version eingespielt haben oder der Dienst sich aus irgendeinem Grund (z.B. Windows Update) aufgehängt hat.
 # Über den Dienst-Manager in Windows
-Bei dierse Methode müssen Sie über Administratorenrechte auf der Servermschine verfügen. Um den Diest neu zu starten, müssen Sie den Windows Dienstemanager öffnen. Den Dienst-Manager können Sie in der Windows-Verwaltung finden oder per CMD Kommando "Services.msc" aufrufen. Im geöffneten Dienst-Manager müssen Sie den Dienst "VisionR Server Manager 6" (Dienstname "visionrservermanager6.exe") in der Liste finden und diesen mit der rechten Maustaste neu starten.
+Bei dierse Methode müssen Sie über Administratorenrechte auf der Servermschine verfügen. Um den Diest neu zu starten, müssen Sie den Windows Dienstemanager öffnen. Den Dienst-Manager können Sie in der Windows-Verwaltung finden oder per CMD Kommando ~Services.msc~ aufrufen. Im geöffneten Dienst-Manager müssen Sie den Dienst "VisionR Server Manager 6" (Dienstname "visionrservermanager6.exe") in der Liste finden und diesen mit der rechten Maustaste neu starten.
 
 *Bild 1: Restart Manager von Windows Dienst-Manager*
 
