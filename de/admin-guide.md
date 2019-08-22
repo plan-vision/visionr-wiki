@@ -24,6 +24,7 @@ Sie können auf einem separaten Link (normalerweise http://serveradresse/vsc.vsp
 Mehr erfahren Sie [hier](/de-DE/admin-guide/vsc).
 # Schnittstellen
 ## LDAP
+* [LDAP Schnittstellen](/de/admin-guide/interfaces/ldap)
 ## Datenbank über JDBC
 ## E-Mail
 * [Termine synchronisieren](/de/admin-guide/interfaces/email/ics)
