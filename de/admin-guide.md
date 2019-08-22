@@ -26,5 +26,7 @@ Mehr erfahren Sie [hier](/de-DE/admin-guide/vsc).
 ## LDAP
 ## Datenbank über JDBC
 ## E-Mail
-### Termine Austauschen
+### Termine synchronisieren
+* [Termine mit Outlook synchronisieren](/de/admin-guide/interfaces/email/outlook)
+* [Termine mit LotusNotes synchronisieren](/de/admin-guide/interfaces/email/lotusnotes)
 ## Dateien
