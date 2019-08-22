@@ -43,7 +43,7 @@ Bei Änderungen der Raumkonfiguration der eingerichteten Reservierungseinheiten 
 
 > **Hinweis:** Die Einrichtung eines Sammelpostfachs für alle Raum-Ressourcen mit `IMAP`-Zugang ist möglich und wünschenswert, da dadurch die Anmeldedaten auf einen zentralen Account reduziert werden und Änderungen wesentlich einfacher gehandhabt werden. Die einzelnen Räume müssen trotzdem als separate Ressourcen angelegt werden und eigene E-Mail-Adressen besitzen.
 {.is-warning}
-## In Lotus Notes
+## In LotusNotes
 In LotusNotes muss für jeden Raum, der als Reservierungseinheit zur Verfügung steht, ein eigenes Postfach mit `IMAP` und ggf. `SMTP` eingerichtet werden. Die Zugangsdaten der Postfächer müssen dem VisionR-Administrator mitgeteilt werden.
 Beim Aufbau der Schnittstelle muss ein LotusNotes-Administrator als Ansprechpartner zur Verfügung stehen, der die Tests beim Termin-Austausch unterstützen kann.
 Bei Änderungen der Raumkonfiguration der eingerichteten Reservierungseinheiten (ein Raum wird z.B. umgebaut und geschlossen) muss parallel die entsprechende Raum-Ressource in LotusNotes angepasst werden (z.B. das `IMAP`-Postfach deaktivieren oder umbenennen).
