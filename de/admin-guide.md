@@ -8,6 +8,45 @@ Deutsch | [English](/en/admin-guide)
 ## Einspielen von Projektdaten
 # Updates
 # Sicherungen
+Eine Sicherung von VisionR muss unter Windows als geplannter Task angelegt werden, der ein Skript in einer `BAT`-Datei ausführt.  Es gibt zwei Möglichkeiten die Projektrelevanten daten zu sichern:
+## Sicherung durch mit "vrs backup"
+## Sicherung der Datenbank und der Projekt-Dateien
+
+```batchfile
+set hour=%time:~0,2%
+if "%hour:~0,1%" == " " set hour=0%hour:~1,1%
+echo hour=%hour%
+set min=%time:~3,2%
+if "%min:~0,1%" == " " set min=0%min:~1,1%
+echo min=%min%
+set secs=%time:~6,2%
+if "%secs:~0,1%" == " " set secs=0%secs:~1,1%
+echo secs=%secs%
+
+set year=%date:~-4%
+echo year=%year%
+set month=%date:~3,2%
+if "%month:~0,1%" == " " set month=0%month:~1,1%
+echo month=%month%
+set day=%date:~0,2%
+if "%day:~0,1%" == " " set day=0%day:~1,1%
+echo day=%day%
+
+set datetimef=%year%%month%%day%_%hour%%min%%secs%
+
+echo datetimef=%datetimef%
+
+SET PGDUMP=D:\Plan-Vision\PostgreSQL\9\bin\pg_dump.exe
+SET DBNAME=VISIONR_6_KSK_ES
+SET DBUSER=VISIONR
+SET PGPASSWORD=plan4vision
+SET SCHEMA1=visionr
+SET SCHEMA2=visionrg
+SET SCHEMA3=visionre
+SET DUMP=D:\Backup\%DBNAME%-full-%datetimef%.backup
+%PGDUMP% -F c -v -U %DBUSER% -n %SCHEMA1% -n %SCHEMA2% -n %SCHEMA3% -f %DUMP% %DBNAME%
+```
+
 # VisionR Manager
 ## Den Manager neu starten
 Als Administrator können Sie den VisionR Manager Dienst neu starten.
