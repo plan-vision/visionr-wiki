@@ -12,6 +12,7 @@ Deutsch | [English](/en/admin-guide)
 Eine Sicherung von VisionR muss unter Windows als geplannter Task angelegt werden, der ein Skript in einer `BAT`-Datei ausführt.  Es gibt zwei Möglichkeiten die Projektrelevanten daten zu sichern:
 ## Sicherung durch mit "vrs backup"
 ## Sicherung der Datenbank und der Projekt-Dateien
+### Datenbank-Sicherung
 Für die Sicherung der Datenbank muss eine `BAT`-Datei mit folgendem Inhalt angelegt werden, die von einem geplanten Task regelmäßig ausgeführt wird (z.B. täglich, wöchentlich oder monatlich).
 
 ```batchfile
@@ -117,6 +118,7 @@ move /y %DUMP% %DUMP%.01
 %PGDUMP% -F c -v -U %DBUSER% -n %SCHEMA1% -n %SCHEMA2% -n %SCHEMA3% -f %DUMP% %DBNAME%
 ```
 
+### Datei-Sicherung
 Die Dateien (hochgeladene Dokumente oder spezifische Kundenskripte müssen vom Verzeichnis `[VisionR Installation]\apps\[Projektordner]\*` gesichert werden.
 # VisionR Manager
 ## Den Manager neu starten
