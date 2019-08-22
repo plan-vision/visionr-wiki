@@ -8,7 +8,7 @@ Der Austausch erfolgt über E-Mail mit angehängtem Termin im `ICS`-Format. Das 
 # Schnittstellenablauf
 ## Erstellung eines Termins in VisionR
 Ein Termin wird in VisionR z.B. bei der Erstellung einer Raumreservierung generiert. Dieser Termin kann an die Teilnehmer der Reservierung versendet werden.
-Um die Reservierung dem Drittsystem zu übergeben, muss der reservierte Raum ein Postfach (mit `IMAP`- und ggf. `SMTP`-Zugang) eingerichtet worden sein.
+Um die Reservierung dem Drittsystem zu übergeben, muss für den reservierten Raum ein Postfach (mit `IMAP`- und ggf. `SMTP`-Zugang) eingerichtet worden sein.
 Bei Erstellung einer neuen Reservierung wird automatisch eine E-Mail mit Termin-Anhang im `ICS`-Format an den Veranstalter (Organizer) versendet. Der Raum ist im Termin als Teilnehmer eingetragen.
 VisionR generiert eine eindeutige `UID` für den Termin, die bei Stornierung der Reservierung in VisionR gleichzeitig den Termin im Drittsystem absagt.
 
