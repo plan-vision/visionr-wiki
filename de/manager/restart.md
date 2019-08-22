@@ -10,7 +10,7 @@ Bei dierse Methode müssen Sie über Administratorenrechte auf der Servermschine
 ![Manager Restart Windows](/uploads/manager/manager-restart-windows.jpg "Manager Restart Windows")
 # Mit Web-Zugang über den VisionR Manager
 Bei diese Methode müssen Sie den VisionR Manager im Browser aufrufen. Dazu können Sie http oder falls eingerichtet https nutzen. Bitte beachten Sie den Port, der bei der Installation für den Manager eingerichtet wurde (standardmäßig 8282 für http und 8283 für https).
-Nachdem Sie sich als admin eingeloggt haben, können Sie den VisionR Manager Dienst über den roten Button "RESTART" im oberen rechten Bereich neu starten (siehe Bild 2).
+Nachdem Sie sich als admin eingeloggt haben, können Sie den VisionR Manager Dienst über den roten Button <kbd>RESTART</kbd> im oberen rechten Bereich neu starten (siehe Bild 2).
 
 *Bild 2: Restart Manager über Web-Zugang*
 
