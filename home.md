@@ -7,6 +7,6 @@
 * Entwickler
 
 # VisionR English
-* [User guide](en-US/user-guide)
-* [Admin guide](en-US/admin-guide)
+* [User guide](en/user-guide)
+* [Admin guide](en/admin-guide)
 * Developer guide
