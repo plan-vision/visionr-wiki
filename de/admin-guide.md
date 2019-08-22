@@ -26,7 +26,7 @@ Mehr erfahren Sie [hier](/de-DE/admin-guide/vsc).
 ## LDAP
 * [LDAP Schnittstellen](/de/admin-guide/interfaces/ldap)
 ## Datenbank über JDBC
-* [Datenbankzugriff - PostgreSQL, ORACLE, MSSQL Server usw.](/de/admin-guide/interfaces/database)
+* [Datenbankzugriff](/de/admin-guide/interfaces/database) - PostgreSQL, ORACLE, MSSQL Server usw.
 ## E-Mail
 * [Termine synchronisieren](/de/admin-guide/interfaces/email/ics)
 ## Dateien
