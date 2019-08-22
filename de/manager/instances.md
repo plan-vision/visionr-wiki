@@ -49,10 +49,11 @@ Hier ein Beispiel für Instanz-Einstellungen im `JSON`-Format:
 # Konsole
 ## Eingabe-Bereich
 ## Log-Bereich
-# Starten
-# Stoppen
-# Import
-# Update
-# Backup
-# CMD
-## SHELL
+# Aktionen ausführen 
+## Starten
+## Stoppen
+## Import
+## Update
+## Backup
+## CMD
+### SHELL
