@@ -116,7 +116,7 @@ move /y %DUMP% %DUMP%.01
 %PGDUMP% -F c -v -U %DBUSER% -n %SCHEMA1% -n %SCHEMA2% -n %SCHEMA3% -f %DUMP% %DBNAME%
 ```
 
-
+Die Dateien (hochgeladene Dokumente oder spezifische Kundenskripte müssen vom Verzeichnis `[VisionR Installation]\apps\[Projektordner]\*` gesichert werden.
 # VisionR Manager
 ## Den Manager neu starten
 Als Administrator können Sie den VisionR Manager Dienst neu starten.
