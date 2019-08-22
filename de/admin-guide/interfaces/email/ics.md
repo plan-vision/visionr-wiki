@@ -36,7 +36,7 @@ In VisionR muss ein geplanter Task mit regelmäßiger Ausführung (z.B. jede 3 M
 
 > **Hinweis:** Voraussetzung für die Termin-Schnittstelle auf der VisionR-Seite sind Einträge von gültigen E-Mail-Adressen und E-Mail-Postfach-Anmeldeinformationen für einen `IMAP`-Zugang notwendig. Diese Informationen werden vom Drittsystem dem VisionR-Administrator zur Verfügung gestellt. Bei Änderungen, z.B. Löschen von Postfächer oder Passwortänderungen der E-Mail-Accounts von Raum-Ressourcen, muss der VisionR-Administrator benachrichtigt werden.
 {.is-warning}
-## In Outlook (Exchange Server)
+## In Outlook (Microsoft Exchange Server)
 Im Microsoft Exchange Server muss für jeden Raum, der als Reservierungseinheit zur Verfügung steht, ein eigenes Postfach mit `IMAP` und `SMTP` eingerichtet werden. Die Zugangsdaten der Postfächer müssen dem VisionR-Administrator mitgeteilt werden.
 Beim Aufbau der Schnittstelle muss ein Exchange-Server-Administrator als Ansprechpartner zur Verfügung stehen, der die Tests beim Termin-Austausch unterstützen kann.
 Bei Änderungen der Raumkonfiguration der eingerichteten Reservierungseinheiten (ein Raum wird z.B. umgebaut und geschlossen) muss parallel die entsprechende Raum-Ressource im Exchange Server angepasst werden (z.B. das `IMAP`-Postfach deaktivieren oder umbenennen).
