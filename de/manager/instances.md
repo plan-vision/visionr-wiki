@@ -47,4 +47,5 @@ Hier ein Beispiel für Instanz-Einstellungen im `JSON`-Format:
 # Import
 # Update
 # Backup
-# CMD (SHELL)
+# CMD
+## SHELL
