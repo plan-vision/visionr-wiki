@@ -34,8 +34,14 @@ Hier ein Beispiel für Instanz-Einstellungen im `JSON`-Format:
 				"chromeDebuggerProxyPort": 7777
 		},
 		"additional": {
-				"core.import.languages": "en-US,de-DE,bg-BG,fr-FR"
-		}
+        "login.ldap.active": false,
+        "core.import.languages": "en-US,de-DE,hr-HR,en-GB",
+        "web.registration.allow": false,
+				"office.disable_powershell" : false
+    },
+    "preload": {
+        "disabled": false
+    }
 }
 ```
 
