@@ -30,25 +30,23 @@ Wenn der Termin im Drittsystem abgesagt wird, wird eine E-Mail an das Raum-Postf
 > Bei der Einrichtung der `ICS`-Schnittstelle muss das Format der `UID` in beiden Richtungen getestet werden.
 {.is-warning}
 # Technische Voraussetzungen
-Um die Schnittstelle für Terminaustausch zwischen VisionR und ein Drittsystem (Outlook, LotusNotes, iCloud, Google Calendar) realisieren zu können, müssen auf beiden Seiten Einstellungen vorgenommen werden, die administrative Berechtigungen erfordern.  
+Um die Schnittstelle für Terminaustausch zwischen VisionR und ein Drittsystem (Outlook, LotusNotes, iCloud, Google Calendar) realisieren zu können, müssen in beiden Systemen Einstellungen vorgenommen werden, die administrative Berechtigungen erfordern.  
 ## Auf der VisionR-Seite
 IN VisionR muss ein geplanter Task mit regelmäßiger Ausführung (z.B. jede 3 Minuten) eingerichten werden. Im geplanten Task wird ein Schnittstellen-Skript aufgeführt, welches die Postfächer von gemeinsamen Ressourcen (meistens Reservierungseinheiten: Besprechungsraum, Konferenzraum o.ä.) nach neuen E-Mail durchsucht. Falls vom Drittsystem neue Termine oder Terminänderungen oder -absagen als E-Mail im `ICS`-Format enthalten, werden Standardabläufe für Terminbestätigung oder Absage ausgelöst, die eine Antwort-E-Mail generieren.
 
 > Voraussetzung für die Termin-Schnittstelle auf der VisionR-Seite sind Einträge von gültigen E-Mail-Adressen und E-Mail-Postfach-Anmeldeoinformationen für einen `IMAP`-Zugang notwendig. Diese Informationen werden vom Drittsystem dem VisionR-Administrator zur Verfügung gestellt. Bei Änderungen, z.B. Löschen von Postfächer oder Passwortänderungen der E-Mail-Accounts von Raum-Ressourcen muss der VisionR-Administrator benachrichtigt werden.
 {.is-warning}
 ## In Outlook (Exchange Server)
-Im Microsoft Exchange Server muss für jeden Raum, der als Reservierungseinheit zur Verfügung steht, ein eigenes Postfach mit IMAP und SMTP eingerichtet werden. Die Zugangsdaten der Postfächer müssen dem VisionR-Administrator mitgeteilt werden.
+Im Microsoft Exchange Server muss für jeden Raum, der als Reservierungseinheit zur Verfügung steht, ein eigenes Postfach mit `IMAP` und `SMTP` eingerichtet werden. Die Zugangsdaten der Postfächer müssen dem VisionR-Administrator mitgeteilt werden.
 Beim Aufbau der Schnittstelle muss ein Exchange-Server-Administrator als Ansprechpartner zur Verfügung stehen, der die Tests beim Termin-Austausch unterstützen kann.
-Bei Änderungen der Raumkonfiguration der eingerichteten Reservierungseinheiten (ein Raum wird z.B. umgebaut und geschlossen) muss parallel die entsprechende Raum-Ressource im Exchage Server angepasst werden (z.B. das IMAP-Postfach deaktivieren oder umbenennen).
+Bei Änderungen der Raumkonfiguration der eingerichteten Reservierungseinheiten (ein Raum wird z.B. umgebaut und geschlossen) muss parallel die entsprechende Raum-Ressource im Exchage Server angepasst werden (z.B. das `IMAP`-Postfach deaktivieren oder umbenennen).
 
-> Die Einrichtung eines Sammelpostfachs für alle Raum-Ressourcen mit `IMAP`-Zugang ist möglich und wünschenswert, da dadurch die Anmeldedaten auf einen zentralen Account reduziert werden und Änderungen wesentlich einfacher gehandhabt werden.
-> Die einzelnen Räume müssen trotzdem als separate Ressourcen angelegt werden und eigene E-Mail-Adressen besitzen.
+> Die Einrichtung eines Sammelpostfachs für alle Raum-Ressourcen mit `IMAP`-Zugang ist möglich und wünschenswert, da dadurch die Anmeldedaten auf einen zentralen Account reduziert werden und Änderungen wesentlich einfacher gehandhabt werden. Die einzelnen Räume müssen trotzdem als separate Ressourcen angelegt werden und eigene E-Mail-Adressen besitzen.
 {.is-warning}
 ## In Lotus Notes
 In LotusNotes muss für jeden Raum, der als Reservierungseinheit zur Verfügung steht, ein eigenes Postfach mit `IMAP` und ggf. `SMTP` eingerichtet werden. Die Zugangsdaten der Postfächer müssen dem VisionR-Administrator mitgeteilt werden.
 Beim Aufbau der Schnittstelle muss ein LotusNotes-Administrator als Ansprechpartner zur Verfügung stehen, der die Tests beim Termin-Austausch unterstützen kann.
-Bei Änderungen der Raumkonfiguration der eingerichteten Reservierungseinheiten (ein Raum wird z.B. umgebaut und geschlossen) muss parallel die entsprechende Raum-Ressource in LotusNotes angepasst werden (z.B. das IMAP-Postfach deaktivieren oder umbenennen).
+Bei Änderungen der Raumkonfiguration der eingerichteten Reservierungseinheiten (ein Raum wird z.B. umgebaut und geschlossen) muss parallel die entsprechende Raum-Ressource in LotusNotes angepasst werden (z.B. das `IMAP`-Postfach deaktivieren oder umbenennen).
 
-> Die Einrichtung eines Sammelpostfachs für alle Raum-Ressourcen mit `IMAP`-Zugang ist möglich und wünschenswert, da dadurch die Anmeldedaten auf einen zentralen Account reduziert werden und Änderungen wesentlich einfacher gehandhabt werden.
-> Die einzelnen Räume müssen trotzdem als separate Ressourcen angelegt werden und eigene E-Mail-Adressen besitzen.
+> Die Einrichtung eines Sammelpostfachs für alle Raum-Ressourcen mit `IMAP`-Zugang ist möglich und wünschenswert, da dadurch die Anmeldedaten auf einen zentralen Account reduziert werden und Änderungen wesentlich einfacher gehandhabt werden. Die einzelnen Räume müssen trotzdem als separate Ressourcen angelegt werden und eigene E-Mail-Adressen besitzen.
 {.is-warning}
