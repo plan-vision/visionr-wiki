@@ -16,10 +16,18 @@ Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiter `Seiten` 
 *Bild 2: Übersicht im Modul Kontakte*
 
 ![Modul Kontakte Übersicht](/uploads/kontakte/modul-kontakte-forms-seiten-overview.jpg "Modul Kontakte Übersicht")
-# Erstellen von Kontakten
-## Über das Menü
-## Mit rechter Maustaste
+# Bedienung der Oberfläche
+## Ansicht ändern
+## Suchen/Filtern
+## Hierarchien nutzen
 # Bearbeiten von Kontakten
-## Über das Menü
-## Mit rechter Maustaste
-# Löschen von Kontakten
+## Bearbeitung in Tabellenansicht
+### Erstellen von Kontakten
+#### Über das Menü
+#### Mit rechter Maustaste
+### Bearbeiten von Kontakten
+#### Über das Menü
+#### Mit rechter Maustaste
+### Löschen von Kontakten
+## Bearbeitung im Modul Grafik (Web-CAD)
+
