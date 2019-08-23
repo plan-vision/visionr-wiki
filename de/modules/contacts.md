@@ -26,5 +26,6 @@ Deutsch | [English](/en/modules/contacts)
 |                 | **X**       |                  | **Unternehmen**        |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
 |                 | **X**       |                  |**Gemeinschaft**         |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
 |                 | **X**       |                  | **Team**                       |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
+| **X**       |                 |                  | **Abteilung**                |  Hauptobjekt, enthält alle Abteilungen                           | -                          |
 
 
