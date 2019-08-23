@@ -11,6 +11,7 @@ Die Instanz-Einstellungen werden im `JSON`-Format bearbeitet und gespeichert.
 
 Hier ein Beispiel für Instanz-Einstellungen im `JSON`-Format:
 
+
 ```json
 {
 	"code": "6_FM",
