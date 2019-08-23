@@ -21,13 +21,30 @@ Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiter `Seiten` 
 ## Suchen/Filtern
 ## Hierarchien nutzen
 # Bearbeiten von Kontakten
-## Bearbeitung in Tabellenansicht
+## Bearbeitung in Datenansicht
 ### Erstellen von Kontakten
 #### Über das Menü
 #### Mit rechter Maustaste
-### Bearbeiten von Kontakten
+### Ändern von Kontakten
 #### Über das Menü
 #### Mit rechter Maustaste
 ### Löschen von Kontakten
-## Bearbeitung im Modul Grafik (Web-CAD)
+## Grafische Bearbeitung
+# Bearbeitung von Organisationsstrukturen
+## Abteilungen
+### Erstellen
+### Ändern
+### Löschen
+## Kostenstellen
+### Erstellen
+### Ändern
+### Löschen
+# Bearbeitung von Raumdaten
+## Räume zuordnen
+### In Datenansicht
+### In Grafik (Web-CAD)
+## Arbeitsplätze zuordnen
+### In Datenansicht
+### In Grafik (Web-CAD)
+# Zugriffsberechtigungen
 
