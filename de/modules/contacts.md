@@ -15,12 +15,15 @@ Deutsch | [English](/en/modules/contacts)
 ## Moduldiagramm
 (In Arbeit...)
 ## Datenobjekte
-| Ebene          | Datenobjekt                     | Beschreibung                                                               | Vererbung von    |
-| ------------- |:----------------------------|:----------------------------------------------------------|:-------------------:|
-| 1                  | Kontakt                            |  Hauptobjekt, enthält alle Kontakte                             | -                          |
-||
-| 2                  | -- Person                          |   Vererbung von Kontakt, enthält alle Personentypen  | Kontakte.Kontakt |
-| 3                  | ---- Mitarbeiter                 |   Vererbung von Person, enthält alle Mitarbeiter        | Kontakte.Kontakt |
+| Ebene          | Datenobjekt                     | Beschreibung                                                                     | Vererbung von    |
+| ------------- |:----------------------------|:--------------------------------------------------------------|:-------------------:|
+| 1                  | Kontakt                            |  Hauptobjekt, enthält alle Kontakte                                  | -                          |
+|||||
+| 2                  | -- Person                          |   Vererbung von Kontakt, enthält alle Personentypen      | Kontakte.Kontakt |
+| 3                  | ---- Mitarbeiter                |   Vererbung von Person, enthält interne Mitarbeiter        | Kontakte.Person |
+| 3                  | ---- Extern                        |   Vererbung von Person, enthält externe Mitarbeiter        | Kontakte.Person |
+| 3                  | ---- Besucher                    |   Vererbung von Person, enthält Besucher                       | Kontakte.Person |
+|||||
 | 2                  | ---  Unternehmen            |    Vererbung von Kontakt                                             | Kontakte.Kontakt |
 
 
