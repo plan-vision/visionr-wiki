@@ -15,3 +15,6 @@ Deutsch | [English](/en/modules/contacts)
 ## Moduldiagramm
 (In Arbeit...)
 ## Datenobjekte
+	| Ebene | Datenobjekt |          Beschreibung         | Vererbung von |     Verknüpfungen    |
+	|--1---:| Kontakt     | Enthällt alle Kontakte        |      -        | in allen Modulen     |
+
