@@ -13,4 +13,5 @@ Deutsch | [English](/en/modules/contacts)
 * Modul Kontakte auf [alten Oberflächen](/de/modules/contacts/qooxdoo)
 # Datenmodel
 ## Moduldiagramm
+(In Arbeit...)
 ## Datenobjekte
