@@ -15,13 +15,10 @@ Deutsch | [English](/en/modules/contacts)
 ## Moduldiagramm
 (In Arbeit...)
 ## Datenobjekte
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Ebene          | Datenobjekt                     | Beschreibung                                                             | Vererbung von    |
+| ------------- |:----------------------------|:---------------------------------------------------------|:-------------------:|
+| 1                  | Kontakt                            |  Hauptobjekt, enthält alle Kontakte                            | -                          |
+| 2                  | -- Person                          |   Vererbung von Kontakt, enthält alle Kontakttypen  | Kontakte.Kontakt |
+| 2                  | ---  Unternehmen            |    Vererbung von Kontakt                                           | Kontakte.Kontakt |
 
-| Ebene | Datenobjekt |          Beschreibung         | Vererbung von |     Verknüpfungen    |
-|-----------------------|----------------------|-------------------|-------------------------|
-| 1 | Kontakt     | Enthällt alle Kontakte        |      -        | in allen Modulen     |
 
