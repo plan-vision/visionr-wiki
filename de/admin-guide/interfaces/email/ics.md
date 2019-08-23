@@ -1,6 +1,7 @@
 <!-- TITLE: Termine synchronisieren -->
 <!-- SUBTITLE: Terminsynchronisation über ICS in gemeinsamen IMAP-Postfächern in Outlook/LotusNotes/iCloud/Google Calendar -->
 
+*Sie sind hier: [Home](/home) > [Administratorenhandbuch](/de/admin-guide) > Termine synchronisieren*
 # Beschreibung
 VisionR kann Termine mit anderen Systemen (Outlook, LotusNotes, iCloud, Google Calendar o.ä.) austauschen und synchronisieren.
 Der Austausch erfolgt über E-Mail mit angehängtem Termin im `ICS`-Format. Das Format iCaledar ist im Standard [RFC5545](https://tools.ietf.org/html/rfc5545) beschrieben.
