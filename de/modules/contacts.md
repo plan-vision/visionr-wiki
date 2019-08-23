@@ -33,4 +33,4 @@ Datenobjekte aus anderen Modulen:
 
 | Ebene 1 | Ebene 2 | Ebene 3 | Datenobjekt                        | Beschreibung                                                                     | Vererbung von    |
 |:---------:|:---------:|:---------:|:------------------------------|:--------------------------------------------------------------|:-------------------|
-| **X**       |                 |                  | **Kostenstelle**                |  Hauptobjekt aus Modul "Kosten", enthält alle Kostenstellen                    | -                          |
+| **X**       |                 |                  | **Kostenstelle**                |  Hauptobjekt aus `Modul "Kosten"`, enthält alle Kostenstellen                    | -                          |
