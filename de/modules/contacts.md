@@ -27,5 +27,10 @@ Deutsch | [English](/en/modules/contacts)
 |                 | **X**       |                  |**Gemeinschaft**         |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
 |                 | **X**       |                  | **Team**                       |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
 | **X**       |                 |                  | **Abteilung**                |  Hauptobjekt, enthält alle Abteilungen                           | -                          |
+| **X**       |                 |                  | **Synchronisation**      |  Hauptobjekt, enthält alle Synchronisationsdaten          | -                          |
 
+Datenobjekte aus anderen Modulen:
 
+| Ebene 1 | Ebene 2 | Ebene 3 | Datenobjekt                        | Beschreibung                                                                     | Vererbung von    |
+|:---------:|:---------:|:---------:|:------------------------------|:--------------------------------------------------------------|:-------------------|
+| **X**       |                 |                  | **Kostenstelle**                |  Hauptobjekt, enthält alle Kostenstellen                    | -                          |
