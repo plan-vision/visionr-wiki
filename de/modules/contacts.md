@@ -3,9 +3,14 @@
 
 Deutsch | [English](/en/modules/contacts)
 *Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Modul Kontakte*
-# Normale Benutzer
+
+# Bedienung
+## Normale Benutzer
 * Modul Kontakte für [normale Benutzer](/de/modules/contacts/user)
-# Modul Admin 
+## Modul Admin 
 * Modul Kontakte für [Admins](/de/modules/contacts/admin)
-# Alte Oberfläche
+## Alte Oberfläche
 * Modul Kontakte auf [alten Oberflächen](/de/modules/contacts/qooxdoo)
+# Datenmodel
+## Moduldiagramm
+## Datenobjekte
