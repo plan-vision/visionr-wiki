@@ -21,11 +21,11 @@ Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiter `Seiten` 
 ## Suchen/Filtern
 ## Hierarchien nutzen
 # Bearbeiten von Kontakten
-## Bearbeitung in Formularansicht
+## In Formularansicht
 ### Erstellen von Kontakten
 ### Ändern von Kontakten
 ### Löschen von Kontakten
-## Bearbeitung in Tabellenansicht
+## In Tabellenansicht
 ### Erstellen von Kontakten
 ### Ändern von Kontakten
 ### Löschen von Kontakten
