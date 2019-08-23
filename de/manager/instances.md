@@ -9,8 +9,8 @@ Die Instanz-Einstellungen werden im `JSON`-Format bearbeitet und gespeichert.
 
 > **Bemerkung:** Die Einstellungen werden am Server im Instanz-Ordner unter `[VisionR-Installation]\apps\[Projektname]\etc\managed.json` gespeichert.
 
+## JSON-Einstellungen
 Hier ein Beispiel für Instanz-Einstellungen im `JSON`-Format:
-
 
  ```json
 {
