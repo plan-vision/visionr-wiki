@@ -15,16 +15,16 @@ Deutsch | [English](/en/modules/contacts)
 ## Moduldiagramm
 (In Arbeit...)
 ## Datenobjekte
-| Ebene 1   | Ebene 2   | Ebene 3   | Datenobjekt                    | Beschreibung                                                                     | Vererbung von    |
-| ---------- | ---------- | ---------- |:----------------------------|:--------------------------------------------------------------|:-------------------|
+| Ebene 1 | Ebene 2 | Ebene 3 | Datenobjekt                        | Beschreibung                                                                     | Vererbung von    |
+|:---------:|:---------:|:---------:|:------------------------------|:--------------------------------------------------------------|:-------------------|
 | **X**       |                 |                  | **Kontakt**                |  Hauptobjekt, enthält alle Kontakte                                   | -                          |
-|                 | **X**       |                  | **Person**                       |   Vererbung von Kontakt, enthält alle Personentypen       | Kontakte.Kontakt |
-|                 |                 | X               | Mitarbeiter                       |   Vererbung von Person, enthält interne Mitarbeiter         | Kontakte.Person |
-|                 |                 | X               | Extern                               |   Vererbung von Person, enthält externe Mitarbeiter        | Kontakte.Person |
-|                 |                 | X               | Ansprechpartner              |   Vererbung von Person, enthält Ansprechpartner           | Kontakte.Person |
-|                 |                 | X               | Besucher                           |   Vererbung von Person, enthält Besucher                        | Kontakte.Person |
-|                 | **X**       |                  | **Unternehmen**           |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
-|                 | **X**       |                  |**Gemeinschaft**           |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
-|                 | **X**       |                  | **Team**                         |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
+|                 | **X**       |                  | **Person**                  |   Vererbung von Kontakt, enthält alle Personentypen       | Kontakte.Kontakt |
+|                 |                 | X               | Mitarbeiter                   |   Vererbung von Person, enthält interne Mitarbeiter         | Kontakte.Person |
+|                 |                 | X               | Extern                           |   Vererbung von Person, enthält externe Mitarbeiter        | Kontakte.Person |
+|                 |                 | X               | Ansprechpartner          |   Vererbung von Person, enthält Ansprechpartner           | Kontakte.Person |
+|                 |                 | X               | Besucher                       |   Vererbung von Person, enthält Besucher                        | Kontakte.Person |
+|                 | **X**       |                  | **Unternehmen**        |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
+|                 | **X**       |                  |**Gemeinschaft**         |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
+|                 | **X**       |                  | **Team**                       |    Vererbung von Kontakt                                                 | Kontakte.Kontakt |
 
 
