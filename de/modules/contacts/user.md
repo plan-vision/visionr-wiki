@@ -46,5 +46,6 @@ Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiter `Seiten` 
 ## Arbeitsplätze zuordnen
 ### In Datenansicht
 ### In Grafik (Web-CAD)
+# Massenänderungen
 # Zugriffsberechtigungen
 
