@@ -4,5 +4,5 @@
 [Deutsch](/home) | English
 # VisionR English
 * [User guide](en/user-guide)
-* [Admin guide](en/admin-guide)
+* [System admin guide](en/admin-guide)
 * Developer guide
