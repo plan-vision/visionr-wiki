@@ -166,6 +166,9 @@ move /y %DUMP% %DUMP%.01
 
 ### Datei-Sicherung
 Die Dateien (hochgeladene Dokumente oder spezifische Kundenskripte müssen vom Verzeichnis `[VisionR Installation]\apps\[Projektordner]\*` gesichert werden.
+
+# Server umziehen
+# Projekt kopieren
 # VisionR Manager
 ## Den Manager neu starten
 Als Administrator können Sie den VisionR Manager Dienst neu starten.
