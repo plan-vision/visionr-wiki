@@ -16,11 +16,12 @@ Deutsch | [English](/en/admin-guide)
 ```
 
 * Import drawing templates manually - nach Version 6.9.218
-	.import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_EN_V2 data -k -z
-	.import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_DE_V2 data -k -z
-	--------------------------------------------------------------------------------
-######################## For Update after  ##############################
---------------------------------------------------------------------------------
+
+```text
+.import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_EN_V2 data -k -z
+.import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_DE_V2 data -k -z
+```
+
 * Settings option in JSON for LibreOffice - nach Version 6.9.206
 
 ```text
