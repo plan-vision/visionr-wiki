@@ -9,20 +9,20 @@ Deutsch | [English](/en/admin-guide)
 ## Einspielen von Projektdaten
 # Updates
 ## Kommandos im Manager
-* After import reset forms - nach Version 6.9.230
+* "Forms" zurücksetzen nach Import - nach `Version 6.9.230`
 
 ```text
 require("dev/reset")
 ```
 
-* Import drawing templates manually - nach Version 6.9.218
+* Import zeichnungsvorlagen manuell - nach `Version 6.9.218`
 
 ```text
 .import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_EN_V2 data -k -z
 .import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_DE_V2 data -k -z
 ```
 
-* Settings option in JSON for LibreOffice - nach Version 6.9.206
+* Einstellungen für LibreOffice als `JSON` in `CONFIG`, wenn der Dienst nicht gestartet werden kann - nach `Version 6.9.206`
 
 ```text
 { additional:
@@ -30,19 +30,19 @@ require("dev/reset")
 }
 ```
 
-* Run after full import - nach Version 6.9.132: 
+* Ausführen nach vollständigem Import mit `import full` - `nach Version 6.9.132`
 
 ```text
 .import share/documents/script/misc/full-tables-fix-datetime.vsc -v -t 14400
 ```
 
-*  Run SQL on PostgreSQL before import - nach Version 6.x:
+*  SQL in PostgresqL ausführen vor dem Import - `vor Version 6.x`
 
 ```text
 CREATE EXTENSION IF NOT EXISTS pg_trgm;
 ```
 
-* Run after full import - vor Version 6.x:
+* Ausführen nach vollständigem Import - `nach Version 5.x`
 
 ```text
 .import share/documents/script/misc/full-tables-fix.vsc -v -t 14400
