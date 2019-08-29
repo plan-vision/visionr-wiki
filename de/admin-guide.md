@@ -42,16 +42,16 @@ require("dev/reset")
 .import share/documents/script/misc/full-tables-fix-datetime.vsc -v -t 14400
 ```
 
+* Ausführen nach vollständigem Import - `nach Version 6.0.0`
+
+```text
+.import share/documents/script/misc/full-tables-fix.vsc -v -t 14400
+```
+
 *  SQL in PostgresqL ausführen vor dem Import - `vor Version 6.x`
 
 ```text
 CREATE EXTENSION IF NOT EXISTS pg_trgm;
-```
-
-* Ausführen nach vollständigem Import - `nach Version 5.x`
-
-```text
-.import share/documents/script/misc/full-tables-fix.vsc -v -t 14400
 ```
 
 # Sicherungen
