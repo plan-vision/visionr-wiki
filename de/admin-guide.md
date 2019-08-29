@@ -15,22 +15,30 @@ Deutsch | [English](/en/admin-guide)
 ### Datenbank-Update mit `import full`
 ## Update von PostgreSQL
 ## Kommandos im Manager
+* Sequences angleichen - nach Version 6.9.611
+
+
+```java
+.import core.fix_sequences -v -t 7200
+```
+
+
 * "Forms" zurücksetzen nach Import - nach `Version 6.9.230`
 
-```text
+```java
 require("dev/reset")
 ```
 
 * Import zeichnungsvorlagen manuell - nach `Version 6.9.218`
 
-```text
+```java
 .import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_EN_V2 data -k -z
 .import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_DE_V2 data -k -z
 ```
 
 * Einstellungen für LibreOffice als `JSON` in `CONFIG`, wenn der Dienst nicht gestartet werden kann - nach `Version 6.9.206`
 
-```text
+```json
 { additional:
 	{"office.disable_powershell" : true}
 }
@@ -38,19 +46,19 @@ require("dev/reset")
 
 * Ausführen nach vollständigem Import mit `import full` - `nach Version 6.9.132`
 
-```text
+```java
 .import share/documents/script/misc/full-tables-fix-datetime.vsc -v -t 14400
 ```
 
 * Ausführen nach vollständigem Import - `nach Version 6.0.0`
 
-```text
+```java
 .import share/documents/script/misc/full-tables-fix.vsc -v -t 14400
 ```
 
 *  SQL in PostgresqL ausführen vor dem Import - `vor Version 6.x`
 
-```text
+```sql
 CREATE EXTENSION IF NOT EXISTS pg_trgm;
 ```
 
