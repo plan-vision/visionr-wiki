@@ -12,7 +12,7 @@ Deutsch | [English](/en/admin-guide)
 * After import reset forms - nach Version 6.9.230
 
 ```text
-`require("dev/reset")`
+require("dev/reset")
 ```
 
 * Import drawing templates manually - nach Version 6.9.218
@@ -25,9 +25,9 @@ Deutsch | [English](/en/admin-guide)
 * Settings option in JSON for LibreOffice - nach Version 6.9.206
 
 ```text
-`{ additional:
+{ additional:
 	{"office.disable_powershell" : true}
-}`
+}
 ```
 
 * Run after full import - nach Version 6.9.132: 
