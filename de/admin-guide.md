@@ -8,6 +8,12 @@ Deutsch | [English](/en/admin-guide)
 ## Installation VisionR Server
 ## Einspielen von Projektdaten
 # Updates
+## Update-Schritte
+### Dienst stoppen
+### Ggf. LibreOffice stoppen
+### Update von VisionR Server inkl. Manager
+### ZIP-Datei mit Projektdaten einspielen
+### Datenbank-Update mit `import full`
 ## Kommandos im Manager
 * "Forms" zurücksetzen nach Import - nach `Version 6.9.230`
 
