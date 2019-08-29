@@ -23,20 +23,20 @@ Deutsch | [English](/en/admin-guide)
 ```
 
 
-* "Forms" zurücksetzen nach Import - nach `Version 6.9.230`
+* "Forms" zurücksetzen nach Import - `nach Version 6.9.230`
 
 ```java
 require("dev/reset")
 ```
 
-* Import zeichnungsvorlagen manuell - nach `Version 6.9.218`
+* Import zeichnungsvorlagen manuell - `nach Version 6.9.218`
 
 ```java
 .import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_EN_V2 data -k -z
 .import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_DE_V2 data -k -z
 ```
 
-* Einstellungen für LibreOffice als `JSON` in `CONFIG`, wenn der Dienst nicht gestartet werden kann - nach `Version 6.9.206`
+* Einstellungen für LibreOffice als `JSON` in `CONFIG`, wenn der Dienst nicht gestartet werden kann - `nach Version 6.9.206`
 
 ```json
 { additional:
