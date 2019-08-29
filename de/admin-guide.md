@@ -8,6 +8,45 @@ Deutsch | [English](/en/admin-guide)
 ## Installation VisionR Server
 ## Einspielen von Projektdaten
 # Updates
+## Kommandos im Manager
+* After import reset forms - nach Version 6.9.230
+
+```text
+`require("dev/reset")`
+```
+
+* Import drawing templates manually - nach Version 6.9.218
+	.import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_EN_V2 data -k -z
+	.import spaces.after.graphics.TEMPLATE_FLOOR_PLAN_DE_V2 data -k -z
+	--------------------------------------------------------------------------------
+######################## For Update after  ##############################
+--------------------------------------------------------------------------------
+* Settings option in JSON for LibreOffice - nach Version 6.9.206
+
+```text
+`{ additional:
+	{"office.disable_powershell" : true}
+}`
+```
+
+* Run after full import - nach Version 6.9.132: 
+
+```text
+.import share/documents/script/misc/full-tables-fix-datetime.vsc -v -t 14400
+```
+
+*  Run SQL on PostgreSQL before import - nach Version 6.x:
+
+```text
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
+```
+
+* Run after full import - vor Version 6.x:
+
+```text
+.import share/documents/script/misc/full-tables-fix.vsc -v -t 14400
+```
+
 # Sicherungen
 Eine Sicherung von VisionR muss unter Windows als geplannter Task angelegt werden, der ein Skript in einer `BAT`-Datei ausführt.  Es gibt zwei Möglichkeiten die Projektrelevanten daten zu sichern:
 ## Sicherung durch mit "vrs backup"
