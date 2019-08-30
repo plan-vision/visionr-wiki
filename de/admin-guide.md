@@ -15,11 +15,11 @@ Deutsch | [English](/en/admin-guide)
 ### Datenbank-Update mit `import full`
 ## Update von PostgreSQL
 ## Kommandos im Manager
-* Sequences angleichen - `nach Version 6.9.611`
+* Sequences angleichen - `nach Version 6.9.612`
 
 
 ```java
-.import core.fix_sequences -v -t 7200
+.import core.database.fix_sequences -v -t 7200
 ```
 
 
