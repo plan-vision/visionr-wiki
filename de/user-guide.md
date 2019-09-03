@@ -19,6 +19,6 @@ Deutsch | [English](/en/user-guide)
 * Datenimport/-export
 * Geplante Tasks
 # Allgemeine Bedienung
-* Neue Oberflächen mit Forms ab Version 7
-* Alte Oberflächen bis Version 6
+* Neue Oberflächen mit Forms (ab Version 7)
+* Alte Oberflächen (bis einschl. Version 6)
 # Datenaustausch
