@@ -11,8 +11,13 @@ Deutsch | [English](/en/admin-guide)
 ## Update vom Applikationsserver
 ### Dienst und ggf. LibreOffice stoppen
 Bevor Sie die neue Applikation aktualisieren, müssen Sie den VisionR Manager 6 Dienst stoppen und am besten auch den LibreOffice-Prozess beenden, damit die Daten überschreiben werden. Sonst wird der Ordner blockiert und die Installation wird unterbrochen. 
-Drucken Sie die Windows-Taste und schreiben Sie "Dienste" / "Services". Finden Sie den VisionR Manager 6 Dienst und beenden ihn.
+1. Drucken Sie die Windows-Taste und schreiben Sie "Dienste" / "Services". Finden Sie den VisionR Manager 6 Dienst und beenden ihn.
+
 ![2019 09 04 12 30 48 Visionrdienstbeenden](/uploads/administration/2019-09-04-12-30-48-visionrdienstbeenden.png "2019 09 04 12 30 48 Visionrdienstbeenden")
+
+2. Finden Sie In dem Task-Manager den LibreOffice-Prozess und beenden ihn. Falls Sie in der Registerkarte "Details" gehen, müssen Sie den Prozess soffice.bin / soffice.exe beenden. 
+
+![2019 09 04 13 07 47 Libreoffice Beenden](/uploads/administration/2019-09-04-13-07-47-libreoffice-beenden.png "2019 09 04 13 07 47 Libreoffice Beenden")
 
 ### Update von VisionR Server inkl. Manager
 ### ZIP-Datei mit Projektdaten einspielen
