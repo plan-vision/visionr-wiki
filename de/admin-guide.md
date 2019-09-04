@@ -10,6 +10,7 @@ Deutsch | [English](/en/admin-guide)
 # Updates
 ## Update vom Applikationsserver
 ### Dienst und ggf. LibreOffice stoppen
+Bevor Sie die neue Applikation installieren, müssen SIe den LibreOffice Dienst stoppen, damit die Daten überschreiben werden können. Sonst wird der Ordner blockiert und die Installation wird unterbrochen. 
 ### Update von VisionR Server inkl. Manager
 ### ZIP-Datei mit Projektdaten einspielen
 ### Datenbank-Update mit `import full`
