@@ -34,6 +34,8 @@ Klicken Sie auf **UPDATE** und laden Sie die ZIP-Datei hoch.
 Nachdem die Datei komplett hochgeladen ist, muss der Importvorgang gestartet werden. 
 
 ### Datenbank-Update mit `import full`
+Wenn die ZIP-Datei hochgeladen ist, starten Sie die Serverinstanz mit dem Button **RUN**. Warten Sie bis der Server erfolgreich gestartet ist und klicken Sie auf dem Button **IMPORT** und als Option geben Sie ***full***
+
 ## Update von PostgreSQL
 ## Kommandos im Manager
 * Sequences angleichen - `nach Version 6.9.612`
