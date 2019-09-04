@@ -27,7 +27,9 @@ Das Update ist noch nicht fertig.
 ### ZIP-Datei mit Projektdaten einspielen
 Nachdem der Server und der Manager aktualiasiert sind, können Sie die Kundendatei hochladen und das Kundensystem aktualisieren. 
 Öffnen Sie den Server - http://localhost:8282 (Standardmäßig) und stoppen Sie die Serverinstanz mit dem Button **KILL**. Sie muss gestoppt werden, damit die kundenspezifische ZIP-Datei hochgeladen wird. 
-Klicken Sie auf **UPDATE** und laden Sie die Datei hoch. 
+Klicken Sie auf **UPDATE** und laden Sie die ZIP-Datei hoch. 
+
+![2019 09 04 13 07 47 Zip Datei Hochladen](/uploads/administration/2019-09-04-13-07-47-zip-datei-hochladen.png "2019 09 04 13 07 47 Zip Datei Hochladen")
 
 ### Datenbank-Update mit `import full`
 ## Update von PostgreSQL
