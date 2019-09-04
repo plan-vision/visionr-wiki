@@ -39,6 +39,12 @@ Wenn die ZIP-Datei hochgeladen ist, starten Sie die Serverinstanz mit dem Button
 *Bemerkung*: Dieser Vorgang kann mehr als 30 Minuten dauern. Sie werden benachrichtigt, wenn der Importvorgang abgeschlossen ist. 
 
 ## Update von PostgreSQL
+Damit die Datenbank aktualisiert wird, müssen Sie den PostgreSQL-Dienst zuerst stoppen. Dafür öffnen Sie die Dienste und finden Sie den postgreSQL Eintrag und beenden Sie diesen Dienst. 
+
+![2019 09 04 13 07 47 Zip Postgresql Dienst Beenden](/uploads/administration/2019-09-04-13-07-47-zip-postgresql-dienst-beenden.png "2019 09 04 13 07 47 Zip Postgresql Dienst Beenden")
+
+Dann installieren Sie die neue PostgreSQL-Datei, die Sie heruntergeladen haben oder von uns bekommen haben. 
+
 ## Kommandos im Manager
 * Sequences angleichen - `nach Version 6.9.612`
 
