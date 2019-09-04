@@ -31,6 +31,8 @@ Klicken Sie auf **UPDATE** und laden Sie die ZIP-Datei hoch.
 
 ![2019 09 04 13 07 47 Zip Datei Hochladen](/uploads/administration/2019-09-04-13-07-47-zip-datei-hochladen.png "2019 09 04 13 07 47 Zip Datei Hochladen")
 
+Nachdem die Datei komplett hochgeladen ist, muss der Importvorgang gestartet werden. 
+
 ### Datenbank-Update mit `import full`
 ## Update von PostgreSQL
 ## Kommandos im Manager
