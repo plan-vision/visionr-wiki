@@ -20,7 +20,15 @@ Bevor Sie die neue Applikation aktualisieren, müssen Sie den VisionR Manager 6 
 ![2019 09 04 13 07 47 Libreoffice Beenden](/uploads/administration/2019-09-04-13-07-47-libreoffice-beenden.png "2019 09 04 13 07 47 Libreoffice Beenden")
 
 ### Update von VisionR Server inkl. Manager
+Nachdem den VisionR Manager Dienst gestoppt ist und der LibreOffice-Prozess beendet ist, installieren Sie die beigelieferte Installationsdatei als Administrator. Die Datei hat folgendes Format ***VisionR-Server-Setup-V.v.vvv-DatumUhrzeit.exe***. 
+Die Datein werden mit den neueren überschrieben und Sie können den Manager-Dienst wieder starten. 
+Das Update ist noch nicht fertig. 
+
 ### ZIP-Datei mit Projektdaten einspielen
+Nachdem der Server und der Manager aktualiasiert sind, können Sie die Kundendatei hochladen und das Kundensystem aktualisieren. 
+Öffnen Sie den Server - http://localhost:8282 (Standardmäßig) und stoppen Sie die Serverinstanz mit dem Button **KILL**. Sie muss gestoppt werden, damit die kundenspezifische ZIP-Datei hochgeladen wird. 
+Klicken Sie auf **UPDATE** und laden Sie die Datei hoch. 
+
 ### Datenbank-Update mit `import full`
 ## Update von PostgreSQL
 ## Kommandos im Manager
