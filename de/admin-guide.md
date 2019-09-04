@@ -36,9 +36,7 @@ Nachdem die Datei komplett hochgeladen ist, muss der Importvorgang gestartet wer
 ### Datenbank-Update mit `import full`
 Wenn die ZIP-Datei hochgeladen ist, starten Sie die Serverinstanz mit dem Button **RUN**. Warten Sie bis der Server erfolgreich gestartet ist und klicken Sie auf dem Button **IMPORT** und als Option geben Sie ***full***
 
-![2019 09 04 14 48 09 Visionr Manager Import Full](/uploads/administration/2019-09-04-14-48-09-visionr-manager-import-full.png "2019 09 04 14 48 09 Visionr Manager Import Full")
-
-Bemerkung: Dieser Vorgang kann mehr als 30 Minuten dauern. Sie werden benachrichtigt, wenn der Importvorgang abgeschlossen ist. 
+*Bemerkung*: Dieser Vorgang kann mehr als 30 Minuten dauern. Sie werden benachrichtigt, wenn der Importvorgang abgeschlossen ist. 
 
 ## Update von PostgreSQL
 ## Kommandos im Manager
