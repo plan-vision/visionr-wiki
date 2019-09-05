@@ -41,7 +41,8 @@ Wenn die ZIP-Datei hochgeladen ist, starten Sie die Serverinstanz mit dem Button
 ## Update von PostgreSQL
 Bevor Sie die Datenbank aktualisieren, wäre es sinnvoll eine Sicherung zu machen. Die Sicherung können Sie mit dem VisionR Manager, mit dem Tool pgAdmin 4, oder mit dem Befehl **pg_dump dbname > outfile** machen. 
 Empfohlen wird die Sicherung über den VisionR Manager. 
-1. Öffnen Sie die Manager-Seite - http://localhost:8282 (Standardmäßig) und wählen Sie die Serverinstanz aus der Liste links. Dann Klicken Sie auf den Button **BACKUP** und aus den angezeigten Optionen wählen Sie **CLONE**. Die Backup-Optionen sind:
+1. Öffnen Sie die Manager-Seite - http://localhost:8282 (Standardmäßig) und wählen Sie die Serverinstanz aus der Liste links. Dann Klicken Sie auf den Button **BACKUP** und aus den angezeigten Optionen wählen Sie **CLONE**. 
+2. Mögliche Backup-Optionen:
 
 *	PROJ – Sicherung nur von dem Projekt
 *	DEPS – Nur die Abhängigkeiten werden gesichert
@@ -51,9 +52,6 @@ Empfohlen wird die Sicherung über den VisionR Manager.
 *	CLONE – Sicherung vom Projekt, Abhängigkeiten, Datenbank und Hochgeladene Daten (PROJ + DEPS +DB + UPLOAD) 
 *	INSTALL – alle zusammen (FULL als Kombination wird nicht mitgesichert)
 *	SERVER – nur der Server wird gesichert. 
-
-
-
 
 Damit die Datenbank aktualisiert wird, müssen Sie den PostgreSQL-Dienst zuerst stoppen. Dafür öffnen Sie die Dienste und finden Sie den postgreSQL Eintrag und beenden Sie diesen Dienst. 
 
