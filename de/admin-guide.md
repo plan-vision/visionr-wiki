@@ -41,8 +41,8 @@ Wenn die ZIP-Datei hochgeladen ist, starten Sie die Serverinstanz mit dem Button
 ## Update von PostgreSQL
 Bevor Sie die Datenbank aktualisieren, wäre es sinnvoll eine Sicherung zu machen. Die Sicherung können Sie mit dem VisionR Manager, mit dem Tool pgAdmin 4, oder mit dem Befehl **pg_dump dbname > outfile** machen. 
 Empfohlen wird die Sicherung über den VisionR Manager. 
-1. Öffnen Sie die Manager-Seite - http://localhost:8282 (Standardmäßig) und wählen Sie die Serverinstanz aus der Liste links. Dann Klicken Sie auf den Button **BACKUP** und aus den angezeigten Optionen wählen Sie **CLONE**. 
-2. Mögliche Backup-Optionen:
+Öffnen Sie die Manager-Seite - http://localhost:8282 (Standardmäßig) und wählen Sie die Serverinstanz aus der Liste links. Dann Klicken Sie auf den Button **BACKUP** und aus den angezeigten Optionen wählen Sie **CLONE**. 
+Mögliche Backup-Optionen:
 
 *	PROJ – Sicherung nur von dem Projekt
 *	DEPS – Nur die Abhängigkeiten werden gesichert
@@ -53,11 +53,13 @@ Empfohlen wird die Sicherung über den VisionR Manager.
 *	INSTALL – alle zusammen (FULL als Kombination wird nicht mitgesichert)
 *	SERVER – nur der Server wird gesichert. 
 
+Warten Sie bis die Sicherung erstellt wird. 
 Damit die Datenbank aktualisiert wird, müssen Sie den PostgreSQL-Dienst zuerst stoppen. Dafür öffnen Sie die Dienste und finden Sie den postgreSQL Eintrag und beenden Sie diesen Dienst. 
 
 ![2019 09 04 13 07 47 Zip Postgresql Dienst Beenden](/uploads/administration/2019-09-04-13-07-47-zip-postgresql-dienst-beenden.png "2019 09 04 13 07 47 Zip Postgresql Dienst Beenden")
 
 Dann installieren Sie die neue PostgreSQL-Datei, die Sie heruntergeladen haben oder von uns bekommen haben. 
+Nach der Installation überprüfen Sie, ob die Rolle "VISIONR" erstellt ist, ob die geometrische Erweiterung PostGIS richtig eingelstellt ist und ob die Datenbank diese Erweiterung als Vorlage hat. Für mehrere Informationen bitte in der Installationsanleitung nachschauen. 
 
 ## Kommandos im Manager
 * Sequences angleichen - `nach Version 6.9.612`
