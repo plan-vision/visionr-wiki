@@ -39,7 +39,7 @@ Wenn die ZIP-Datei hochgeladen ist, starten Sie die Serverinstanz mit dem Button
 *Bemerkung*: Dieser Vorgang kann mehr als 30 Minuten dauern. Sie werden benachrichtigt, wenn der Importvorgang abgeschlossen ist. 
 
 ## Update von PostgreSQL
-Bevor Sie die Datenbank aktualisieren, wäre es sinnvoll eine Sicherung zu machen. Die Sicherung können Sie mit dem VisionR Manager, mit dem Tool pgAdmin 4, oder mit dem Befehl "" machen.
+Bevor Sie die Datenbank aktualisieren, wäre es sinnvoll eine Sicherung zu machen. Die Sicherung können Sie mit dem VisionR Manager, mit dem Tool pgAdmin 4, oder mit dem Befehl **pg_dump** machen.
 
 
 
