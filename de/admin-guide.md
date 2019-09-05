@@ -39,6 +39,10 @@ Wenn die ZIP-Datei hochgeladen ist, starten Sie die Serverinstanz mit dem Button
 *Bemerkung*: Dieser Vorgang kann mehr als 30 Minuten dauern. Sie werden benachrichtigt, wenn der Importvorgang abgeschlossen ist. 
 
 ## Update von PostgreSQL
+Bevor Sie die Datenbank aktualisieren, wäre es sinnvoll eine Sicherung zu machen. Die Sicherung können Sie mit dem VisionR Manager, mit dem Tool pgAdmin 4, oder mit dem Befehl "" machen.
+
+
+
 Damit die Datenbank aktualisiert wird, müssen Sie den PostgreSQL-Dienst zuerst stoppen. Dafür öffnen Sie die Dienste und finden Sie den postgreSQL Eintrag und beenden Sie diesen Dienst. 
 
 ![2019 09 04 13 07 47 Zip Postgresql Dienst Beenden](/uploads/administration/2019-09-04-13-07-47-zip-postgresql-dienst-beenden.png "2019 09 04 13 07 47 Zip Postgresql Dienst Beenden")
