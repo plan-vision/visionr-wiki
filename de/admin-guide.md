@@ -61,7 +61,11 @@ Damit die Datenbank aktualisiert wird, müssen Sie den PostgreSQL-Dienst zuerst 
 Dann installieren Sie die neue PostgreSQL-Datei, die Sie heruntergeladen haben oder von uns bekommen haben. 
 Nach der Installation überprüfen Sie, ob die Rolle "VISIONR" erstellt ist, ob die geometrische Erweiterung PostGIS richtig eingelstellt ist und ob die Datenbank diese Erweiterung als Vorlage hat. Für mehrere Informationen bitte in der Installationsanleitung nachschauen. 
 Sie können jetzt die Datenbank wiederherstellen. Sie haben wieder die drei Möglichkeiten - über den Manager, mit dem Tool pgAdmin 4 oder mit dem Befehl **pg_restore**. 
-Die Wiederherstellung der Datenbank ist auch in der Installationsanleitung inbegriffen. 
+Die Wiederherstellung der Datenbank ist auch in der Installationsanleitung beschrieben. 
+
+Wiederherstellung über den Manager - öffnen Sie die Manager-Seite - http://localhost:8282 (Standardmäßig) und stoppen Sie die Serverinstanz mit dem Befehl **KILL**. Wenn der Server gestoppt ist, klicken Sie auf den Button **UPDATE**. Wählen Sie die Datei aus und laden sie hoch. Der Server wird überprüfen, ob die Datei auch / nur Datenbanksicherung beinhaltet und wird Ihnen danach fragen, ob Sie die Datenbank wiederherstellen möchten. Geben Sie **YES**. 
+
+![2019 09 05 13 02 11 Dateiwaehlen Db Restore](/uploads/administration/2019-09-05-13-02-11-dateiwaehlen-db-restore.png "2019 09 05 13 02 11 Dateiwaehlen Db Restore")
 
 ## Kommandos im Manager
 * Sequences angleichen - `nach Version 6.9.612`
