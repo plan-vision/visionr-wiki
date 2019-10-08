@@ -17,3 +17,6 @@ Mit Klick auf die Überischt wird der Plan im **Lesemodus** aufgemacht. Mit Klic
 
 ![2019 10 08 12 04 12 Ubersicht](/uploads/graphics/2019-10-08-12-04-12-ubersicht.jpg "2019 10 08 12 04 12 Ubersicht")
 
+## **Zeichnung in Lesemodus**
+
+Im Lesemodus können Sie den Plan ansehen, die Referenzobjekte bearbeiten, Plan Drucken oder Exportieren und Informartionen aus der Zeichnung anzeigen lassen. Dieser Moduс
