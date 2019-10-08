@@ -6,7 +6,7 @@ Deutsch | [English](/en/user-guide)
 # VisionR Module
 * [Kontakte](/de/modules/contacts)
 * Dokumente
-* Grafik (Web-CAD)
+* Grafik (Web-CAD)(/de/modules/graphics)
 * Flächenmanagement
 * Verträge
 * Helpdesk
