@@ -19,4 +19,6 @@ Mit Klick auf die Überischt wird der Plan im **Lesemodus** aufgemacht. Mit Klic
 
 ## **Zeichnung in Lesemodus**
 
-Im Lesemodus können Sie den Plan ansehen, die Referenzobjekte bearbeiten, Plan Drucken oder Exportieren und Informartionen aus der Zeichnung anzeigen lassen. Dieser Moduс
+Im Lesemodus können Sie den Plan ansehen, die Referenzobjekte bearbeiten, Plan Drucken oder Exportieren und Informartionen aus der Zeichnung anzeigen lassen. 
+Sie können in diesem Modus die Objekte auswählen und ihre Eigenschaften bearbeiten. Jedoch können Sie die Zeichnung nicht bearbeiten, d.h. die zechnersichen Operationen sind deaktiviert. 
+Dieser Modus ist für die schnelle Übersicht, Auswertung und Druck gedacht. 
