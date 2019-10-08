@@ -10,8 +10,8 @@ Deutsch | [English](/en/modules/graphics)
 ​
 # Bedienung
 ## Normale Benutzer
-* Modul Kontakte für [normale Benutzer](/de/modules/graphics/user)
+* Modul Grafik für [normale Benutzer](/de/modules/graphics/user)
 ## Modul Admin 
-* Modul Kontakte für [Admins](/de/modules/graphics/admin)
+* Modul Grafik für [Admins](/de/modules/graphics/admin)
 ## Alte Oberfläche
-* Modul Kontakte auf [alten Oberflächen](/de/modules/graphics/qooxdoo)
+* Modul Grafik auf [alten Oberflächen](/de/modules/graphics/qooxdoo)
