@@ -1,4 +1,4 @@
-<!-- TITLE: User -->
-<!-- SUBTITLE: A quick summary of User -->
+<!-- TITLE: Normale Benutzer -->
+<!-- SUBTITLE:  -->
 
 # Header
