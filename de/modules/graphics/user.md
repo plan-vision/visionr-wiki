@@ -26,3 +26,10 @@ Dieser Modus ist für die schnelle Übersicht, Auswertung und Druck gedacht.
 Die Ansichten wechseln Sie in dem Menü links oben. 
 
 ![2019 10 08 15 54 51 Lesemodus Ansichten](/uploads/graphics/2019-10-08-15-54-51-lesemodus-ansichten.png "2019 10 08 15 54 51 Lesemodus Ansichten")
+
+Auf der rechten Seite sind die Druck- und Export funktionen.
+
+![2019 10 08 16 04 13 Lesemodus Export Print](/uploads/graphics/2019-10-08-16-04-13-lesemodus-export-print.jpg "2019 10 08 16 04 13 Lesemodus Export Print")
+
+Diese Funktionen stehen auch in dem Bearbeitungsmodus zur Verfügung und werden dann separat in Details beschrieben. 
+
