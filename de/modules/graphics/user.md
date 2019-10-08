@@ -23,4 +23,6 @@ Im Lesemodus können Sie den Plan ansehen, die Referenzobjekte bearbeiten, Plan 
 Sie können in diesem Modus die Objekte auswählen und ihre Eigenschaften bearbeiten. Jedoch können Sie die Zeichnung nicht bearbeiten, d.h. die zechnersichen Operationen sind deaktiviert. 
 Dieser Modus ist für die schnelle Übersicht, Auswertung und Druck gedacht. 
 
-Die Ansichten wechseln Sie in dem Menü links. 
+Die Ansichten wechseln Sie in dem Menü links oben. 
+
+![2019 10 08 15 54 51 Lesemodus Ansichten](/uploads/graphics/2019-10-08-15-54-51-lesemodus-ansichten.png "2019 10 08 15 54 51 Lesemodus Ansichten")
