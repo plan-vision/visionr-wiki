@@ -33,3 +33,8 @@ Auf der rechten Seite sind die Druck- und Export funktionen.
 
 Diese Funktionen stehen auch in dem Bearbeitungsmodus zur Verfügung und werden dann separat in Details beschrieben. 
 
+## **Zeichnungen in Bearbeitungsmodus**
+
+In diesem Modus sind alle zeichnerische Funktionen vorhanden, wie auch alle Optionen, Funktionen und Bearbeitungsmöglichkeiten der referenzierten Objekte. 
+
+
