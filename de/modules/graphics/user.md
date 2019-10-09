@@ -35,6 +35,8 @@ Diese Funktionen stehen auch in dem Bearbeitungsmodus zur Verfügung und werden 
 
 ## **Zeichnungen in Bearbeitungsmodus**
 
-In diesem Modus sind alle zeichnerische Funktionen vorhanden, wie auch alle Optionen, Funktionen und Bearbeitungsmöglichkeiten der referenzierten Objekte. 
+In diesem Modus sind alle zeichnerische Funktionen vorhanden, wie auch alle Optionen, Funktionen und Bearbeitungsmöglichkeiten der referenzierten Objekte. Dafür öffnen Sie die Zeichnung in Lesemodus und dann klicken Sie auf den Button **Zeichnung bearbeiten**. 
+
+*Bemerkung: Sie müssen zuerst die Zeichnung in Lesemodus aufmachen. Der Button **Bearbeiten** in orangen Farbe ist für die Eigenschaften des importierten Plans zu bearbeiten, wie z.B. Zeichnungsname, importierte Dokumente, Code, Kategorie etc.*
 
 
