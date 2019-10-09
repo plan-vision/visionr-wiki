@@ -1,6 +1,8 @@
 <!-- TITLE: Normale Benutzer -->
 <!-- SUBTITLE:  -->
 
+Deutsch | [English](/en/modules/graphics)
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Modul Web-CAD*
 # Übersicht
 Öffnen Sie die Grafik (Web-CAD Modul).
 
