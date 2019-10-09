@@ -46,3 +46,4 @@ Nachdem Sie die Zeichnung in Bearbeitungsmodus aufgemacht haben, wählen Sie ggf
 
 > **Beispiel:** Falls das Modul **Flächenmanagement** vorhanden ist, können beispielweise neue Objekte vom Typ "Raum" direkt erstellt werden. Diese werden auf den Layer *FM-Raum* gespeichert. Dafür stehen die Ansichten *Raum* und *Raumnutzung*
 {.is-info}
+
