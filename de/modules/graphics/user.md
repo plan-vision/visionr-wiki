@@ -39,4 +39,11 @@ In diesem Modus sind alle zeichnerische Funktionen vorhanden, wie auch alle Opti
 
 *Bemerkung: Sie müssen zuerst die Zeichnung in Lesemodus aufmachen. Der Button **Bearbeiten** in orangen Farbe ist für die Eigenschaften des importierten Plans zu bearbeiten, wie z.B. Zeichnungsname, importierte Dokumente, Code, Kategorie etc.*
 
+![Vr Graphics De De Edit Mode Overview](/uploads/graphics/vr-graphics-de-de-edit-mode-overview.jpg "Vr Graphics De De Edit Mode Overview")
 
+# Zeichnung bearbeiten
+Die Zeichnungen, die Sie bearbeiten können, müssen zuerst als Vektorgrafik (GXF, DWG, PDF, EPS, SVG etc.) importiert sein. Der Importvorgang ist in dem Abschnitt für die Administratoren beschrieben. 
+
+Nachdem Sie die Zeichnung in Bearbeitungsmodus aufgemacht haben, wählen Sie ggf. die richtige Ansicht, damit Sie die passende Objekte bearbeiten können. Die Ansichten sind standardmäßig vordefiniert. Eine Ansicht (Layergruppe genannt) beinhaltet Informationen welche Layers sichtbar / auswählbar / editierbar sind. Dazu ist der richtige Layer als aktiv gesetzt.
+
+**Beispiel:** Neue Objekte vom Typ "Raum" werden auf den Layer *FM-Raum* gespeichert. Dafür steht die Ansicht "Raum".
