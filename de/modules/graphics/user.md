@@ -7,7 +7,7 @@ Deutsch | [English](/en/modules/graphics)
 Öffnen Sie die Grafik (Web-CAD Modul).
 
 
-![Web Cad Forms](/uploads/graphics/web-cad-forms.jpg "Web Cad Forms" =600x)
+![Web Cad Forms](/uploads/graphics/web-cad-forms.jpg "Web Cad Forms" =50x)
 
 
 Aus dem Baum wählen Sie den Standort / Gebäude aus und aus der Übersicht wählen Sie die gewünschte Zeichnung aus. Mit Doppelklick machen Sie die Zeichnung auf. 
