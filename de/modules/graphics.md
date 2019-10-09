@@ -1,13 +1,9 @@
 <!-- TITLE: Web-CAD -->
 <!-- SUBTITLE: Modul für Bearbeitung von CAD-Pläne -->
 
-# Web-CAD
-
-
-​
 Deutsch | [English](/en/modules/graphics)
 *Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Modul Web-CAD*
-​
+# Web-CAD
 # Bedienung
 ## Normale Benutzer
 * Modul Grafik für [normale Benutzer](/de/modules/graphics/user)
