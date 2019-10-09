@@ -44,5 +44,5 @@ Die Zeichnungen, die Sie bearbeiten können, müssen zuerst als Vektorgrafik (GX
 
 Nachdem Sie die Zeichnung in Bearbeitungsmodus aufgemacht haben, wählen Sie ggf. die richtige Ansicht, damit Sie die passende Objekte bearbeiten können. Die Ansichten sind standardmäßig vordefiniert. Eine Ansicht (Layergruppe genannt) beinhaltet Informationen welche Layers sichtbar / auswählbar / editierbar sind. Dazu ist der richtige Layer als aktiv gesetzt.
 
-> **Beispiel:** Neue Objekte vom Typ "Raum" werden auf den Layer *FM-Raum* gespeichert. Dafür steht die Ansicht "Raum".
+> **Beispiel:** Falls das Modul **Flächenmanagement** vorhanden ist, können beispielweise neue Objekte vom Typ "Raum" direkt erstellt werden. Diese werden auf den Layer *FM-Raum* gespeichert. Dafür stehe die Ansichten *Raum* und *Raumnutzung*
 {.is-info}
