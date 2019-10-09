@@ -15,9 +15,11 @@ Aus dem Baum wählen Sie den Standort / Gebäude aus und aus der Übersicht wäh
 
 ![2019 10 08 12 04 12 Window](/uploads/graphics/2019-10-08-12-04-12-window.png "2019 10 08 12 04 12 Window")
 
+
 Mit Klick auf die Überischt wird der Plan im **Lesemodus** aufgemacht. Mit Klick auf Bearbeiten wird der Plan im **Barbeitungsmodus** aufgemacht.
 
 ![2019 10 08 12 04 12 Ubersicht](/uploads/graphics/2019-10-08-12-04-12-ubersicht.jpg "2019 10 08 12 04 12 Ubersicht")
+
 
 ## **Zeichnung in Lesemodus**
 
@@ -27,11 +29,15 @@ Dieser Modus ist für die schnelle Übersicht, Auswertung und Druck gedacht.
 
 Die Ansichten wechseln Sie in dem Menü links oben. 
 
+
 ![2019 10 08 15 54 51 Lesemodus Ansichten](/uploads/graphics/2019-10-08-15-54-51-lesemodus-ansichten.png "2019 10 08 15 54 51 Lesemodus Ansichten")
+
 
 Auf der rechten Seite sind die Druck- und Export funktionen.
 
+
 ![2019 10 08 16 04 13 Lesemodus Export Print](/uploads/graphics/2019-10-08-16-04-13-lesemodus-export-print.jpg "2019 10 08 16 04 13 Lesemodus Export Print")
+
 
 Diese Funktionen stehen auch in dem Bearbeitungsmodus zur Verfügung und werden dann separat in Details beschrieben. 
 
