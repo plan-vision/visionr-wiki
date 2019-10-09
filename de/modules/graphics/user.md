@@ -2,7 +2,7 @@
 <!-- SUBTITLE:  -->
 
 Deutsch | [English](/en/modules/graphics)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Modul Web-CAD*
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > [Modul Web-CAD](/de/modules/graphics) > Normale Benutzer*
 # Übersicht
 Öffnen Sie die Grafik (Web-CAD Modul).
 
