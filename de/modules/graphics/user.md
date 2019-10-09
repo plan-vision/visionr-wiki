@@ -47,3 +47,12 @@ Nachdem Sie die Zeichnung in Bearbeitungsmodus aufgemacht haben, wählen Sie ggf
 > **Beispiel:** Falls das Modul **Flächenmanagement** vorhanden ist, können beispielweise neue Objekte vom Typ "Raum" direkt erstellt werden. Diese werden auf den Layer *FM-Raum* gespeichert. Dafür stehen die Ansichten *Raum* und *Raumnutzung*
 {.is-info}
 
+Die Ansicht in diesem Modus ist in in 4 Bereichen aufgeteilt, wie auf die Abbildung oben gezeigt ist. Die Ansichtsleiste beinhaltet drei Bereichen:
+*  Zeichnung : welche Zeichnung gerade Sie bearbeiten
+*  Ansichten / Layergruppen : hier wählen Sie die Layergruppe. Die Layergruppen sind [hier](***) beschrieben.
+
+
+Die Funktionsleiste beinhaltet alle zeichnerische Operationen und Funktionen, 
+
+### Funktionsleiste
+
