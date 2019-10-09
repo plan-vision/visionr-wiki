@@ -6,20 +6,15 @@ Deutsch | [English](/en/modules/graphics)
 # Übersicht
 Öffnen Sie die Grafik (Web-CAD Modul).
 
-
 ![Vr Graphics De De Forms](/uploads/graphics/vr-graphics-de-de-forms.jpg "Vr Graphics De De Forms")
-
 
 Aus dem Baum wählen Sie den Standort / Gebäude aus und aus der Übersicht wählen Sie die gewünschte Zeichnung aus. Mit Doppelklick machen Sie die Zeichnung auf. 
 
-
 ![2019 10 08 12 04 12 Window](/uploads/graphics/2019-10-08-12-04-12-window.png "2019 10 08 12 04 12 Window")
-
 
 Mit Klick auf die Überischt wird der Plan im **Lesemodus** aufgemacht. Mit Klick auf Bearbeiten wird der Plan im **Barbeitungsmodus** aufgemacht.
 
 ![2019 10 08 12 04 12 Ubersicht](/uploads/graphics/2019-10-08-12-04-12-ubersicht.jpg "2019 10 08 12 04 12 Ubersicht")
-
 
 ## **Zeichnung in Lesemodus**
 
@@ -29,15 +24,11 @@ Dieser Modus ist für die schnelle Übersicht, Auswertung und Druck gedacht.
 
 Die Ansichten wechseln Sie in dem Menü links oben. 
 
-
 ![2019 10 08 15 54 51 Lesemodus Ansichten](/uploads/graphics/2019-10-08-15-54-51-lesemodus-ansichten.png "2019 10 08 15 54 51 Lesemodus Ansichten")
-
 
 Auf der rechten Seite sind die Druck- und Export funktionen.
 
-
 ![2019 10 08 16 04 13 Lesemodus Export Print](/uploads/graphics/2019-10-08-16-04-13-lesemodus-export-print.jpg "2019 10 08 16 04 13 Lesemodus Export Print")
-
 
 Diese Funktionen stehen auch in dem Bearbeitungsmodus zur Verfügung und werden dann separat in Details beschrieben. 
 
@@ -48,7 +39,6 @@ In diesem Modus sind alle zeichnerische Funktionen vorhanden, wie auch alle Opti
 > **Bemerkung**: Sie müssen zuerst die Zeichnung in Lesemodus aufmachen. Der Button `Bearbeiten` in orangen Farbe ist für die Eigenschaften des importierten Plans zu bearbeiten, wie z.B. Zeichnungsname, importierte Dokumente, Code, Kategorie etc. Die Bearbeitung der Zeichnungseigenschaften ist in dem Abschnitt für die administrativen Benutzer beschrieben [hier](/de/modules/graphics/admin).
 
 ![Vr Graphics De De Edit Mode Overview](/uploads/graphics/vr-graphics-de-de-edit-mode-overview.jpg "Vr Graphics De De Edit Mode Overview")
-
 # Zeichnung bearbeiten
 Die Zeichnungen, die Sie bearbeiten können, müssen zuerst als Vektorgrafik (GXF, DWG, PDF, EPS, SVG etc.) importiert sein. Der Importvorgang ist in dem Abschnitt für die Administratoren beschrieben. 
 
