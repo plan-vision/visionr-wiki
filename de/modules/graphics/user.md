@@ -78,11 +78,12 @@ Eine Layergruppe hat folgende Eigenschaften:
 
 ### Beispiele vordefinierter Layergruppen
 
-> **CAD:** Hier werden nur die Objekte aus der importieren Zeichnung angezeigt. Die reine CAD Zeichnung ist ein bisschen bereinigt, um bessere Ansicht für ein CAFM System zu erzielen. Auf der Abbildung sind Bemassungen, Achsen etc. ausgeblendet. Dies können jederzeit wieder eingeschaltet werden. 
+> **CAD:** Hier werden nur die Objekte aus der importieren Zeichnung angezeigt. Die reine CAD Zeichnung ist ein bisschen bereinigt, um bessere Ansicht für ein CAFM System zu erzielen. Auf der Abbildung sind Bemassungen, Achsen etc. ausgeblendet. Dies >können jederzeit wieder eingeschaltet werden. 
+
+
+![Vr Graphics De De Cad Layergroup](/uploads/graphics/vr-graphics-de-de-cad-layergroup.jpg "Vr Graphics De De Cad Layergroup")
+> Auf der linken Seite sind die Layer angezegit. Alle *A-..* Layers sind in dieser Layergruppe sichtbar, auswählbar und editierbar. Das heißt, dass mit dem Auswahltool alle sichtbare Objekte ausgewählt und bearbeitet werden können. 
 {.is-info}
-
-
-
 
 # Zeichnung bearbeiten
 Die Zeichnungen, die Sie bearbeiten können, müssen zuerst als Vektorgrafik (GXF, DWG, PDF, EPS, SVG etc.) importiert sein. Der Importvorgang ist in dem Abschnitt für die Administratoren beschrieben. 
