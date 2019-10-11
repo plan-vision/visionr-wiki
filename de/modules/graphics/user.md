@@ -40,10 +40,6 @@ In diesem Modus sind alle zeichnerische Funktionen vorhanden, wie auch alle Opti
 
 ![Vr Graphics De De Edit Mode Overview](/uploads/graphics/vr-graphics-de-de-edit-mode-overview.jpg "Vr Graphics De De Edit Mode Overview")
 
-## Ansicht
-
-Die Ansicht in diesem Modus ist in in 4 Bereichen aufgeteilt, wie auf die Abbildung oben gezeigt ist. 
-
 ### Ansichtsleiste
 
 Die **Ansichtsleiste** beinhaltet drei Bereichen:
@@ -56,12 +52,11 @@ Die Layergruppen sind [hier](***) beschrieben.
 
 ### Fuktionsleiste
 
-Die **Funktionsleiste** beinhaltet alle zeichnerische Objekte, Operationen und Funktionen. Hier sind alle Tools für Bearbeitung der Grafik positioniert.
+Die **Funktionsleiste** beinhaltet alle zeichnerische Objekte, Operationen und Funktionen. Hier sind alle Tools für Bearbeitung der Grafik positioniert. Details: [hier](/de/modules/graphics/admin).
 
 ### Zeichnungsleiste
 
-Die **Zeichnungsleiste** beinhaltet die Buttons `Bearbeiten`, `Löschen`, `Aktualisieren`, `Abbrechen`, `Speichern`.
-Die Ansichtsleiste ist in 3 Bereichen unterteilt:
+Die **Zeichnungsleiste** beinhaltet die Buttons `Bearbeiten`, `Löschen`, `Aktualisieren`, `Abbrechen`, `Speichern`. Details: [hier](/de/modules/graphics/admin).
 
 ## Layergruppen
 
