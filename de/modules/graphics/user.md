@@ -92,6 +92,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 > * **editierbar** - nur die Räume, die auf dem Layer *FM-Polygon-Raum* gezeichnet sind. Vorgesehen ist, dass nur diese Objekte in dieser Layergruppe zu bearbeiten sind. 
 > * **Fangmodus** - Alle Wände sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Raumes
 > * **Layer aktiv** -  *FM-Polygon-Raum* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Räume zeichnen.
+> 
 ![Vr Graphics De De Space Layergroup](/uploads/graphics/vr-graphics-de-de-space-layergroup.jpg "Vr Graphics De De Space Layergroup")
 {.is-info}
 # Zeichnung bearbeiten
