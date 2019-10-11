@@ -39,29 +39,45 @@ In diesem Modus sind alle zeichnerische Funktionen vorhanden, wie auch alle Opti
 > **Bemerkung**: Sie müssen zuerst die Zeichnung in Lesemodus aufmachen. Der Button `Bearbeiten` in orangen Farbe ist für die Eigenschaften des importierten Plans zu bearbeiten, wie z.B. Zeichnungsname, importierte Dokumente, Code, Kategorie etc. Die Bearbeitung der Zeichnungseigenschaften ist in dem Abschnitt für die administrativen Benutzer beschrieben [hier](/de/modules/graphics/admin).
 
 ![Vr Graphics De De Edit Mode Overview](/uploads/graphics/vr-graphics-de-de-edit-mode-overview.jpg "Vr Graphics De De Edit Mode Overview")
+
+### Ansicht
+
+Die Ansicht in diesem Modus ist in in 4 Bereichen aufgeteilt, wie auf die Abbildung oben gezeigt ist. 
+
+### Ansichtsleiste
+
+Die **Ansichtsleiste** beinhaltet drei Bereichen:
+*  Zeichnung : welche Zeichnung gerade Sie bearbeiten
+*  Layergruppen : hier wählen Sie aus vordefinierten Layergruppen. Eine Layergruppe beinhaltet die Layereinstellungen ( *sichtbar / auswählbar / editierbar / aktiv* ) sind und die Einfärbung der Daten nach bestimmten Kriterien. Die Layergruppen sind standardmäßig vordefiniert. 
+> **Beispiel:** *Raumnutzung nach DIN 277* - die Räume werden nach der hinterlegten Nutzung eingefärbt. Die Nutzung entspricht den DIN 277 Normen.
+{.is-info}
+Die Layergruppen sind [hier](***) beschrieben.
+*  Gespeicherte Ansichten : Sie können bestimmte Ansichten speichern und wieder aufrufen. 
+
+### Fuktionsleiste
+
+Die **Funktionsleiste** beinhaltet alle zeichnerische Objekte, Operationen und Funktionen. Hier sind alle Tools für Bearbeitung der Grafik positioniert.
+
+### Zeichnungsleiste
+
+Die **Zeichnungsleiste** beinhaltet die Buttons `Bearbeiten`, `Löschen`, `Aktualisieren`, `Abbrechen`, `Speichern`.
+Die Ansichtsleiste ist in 3 Bereichen unterteilt:
+
+## Layergruppen
+
+Links steht die geöffnete *Zeichnung* angezeigt, in der Mitte sind die *Layergruppen* und rechts stehen die gespeicherten *Ansichten*. 
+
+
 # Zeichnung bearbeiten
 Die Zeichnungen, die Sie bearbeiten können, müssen zuerst als Vektorgrafik (GXF, DWG, PDF, EPS, SVG etc.) importiert sein. Der Importvorgang ist in dem Abschnitt für die Administratoren beschrieben. 
 
-Nachdem Sie die Zeichnung in Bearbeitungsmodus aufgemacht haben, wählen Sie ggf. die richtige Ansicht, damit Sie die passende Objekte bearbeiten können. Die Ansichten sind standardmäßig vordefiniert. Eine Ansicht (Layergruppe genannt) beinhaltet Informationen welche Layers sichtbar / auswählbar / editierbar sind. Dazu ist der richtige Layer als aktiv gesetzt.
+Nachdem Sie die Zeichnung in Bearbeitungsmodus aufgemacht haben, wählen Sie ggf. die richtige Layergruppe, damit Sie die passende Objekte bearbeiten können. 
 
 > **Beispiel:** Falls das Modul **Flächenmanagement** vorhanden ist, können beispielweise neue Objekte vom Typ "Raum" direkt erstellt werden. Diese werden auf den Layer *FM-Raum* gespeichert. Dafür stehen die Ansichten *Raum* und *Raumnutzung*
 {.is-info}
 
-Die Ansicht in diesem Modus ist in in 4 Bereichen aufgeteilt, wie auf die Abbildung oben gezeigt ist. 
-Die **Ansichtsleiste** beinhaltet drei Bereichen:
-*  Zeichnung : welche Zeichnung gerade Sie bearbeiten
-*  Layergruppen : hier wählen Sie aus vordefinierten Layergruppen. Die Layergruppe beinhaltet die Layereinstellungen und die Einfärbung der Daten nach bestimmten Kriterien. 
-> **Beispiel:** *Raumnutzung nach DIN 277* - die Räume werden nach der hinterlegten Nutzung eingefärbt. Die Nutzung entspricht den DIN 277 Normen.
-{.is-info}
-Die Layergruppen sind [hier](***) beschrieben.
-*  Gespeicherte Ansichten : Sie können bestimmten Ansichten speichern und wieder aufrufen. 
 
-Die **Funktionsleiste** beinhaltet alle zeichnerische Objekte, Operationen und Funktionen. Hier sind alle Tools für Bearbeitung der Grafik positioniert.
 
-Die **Zeichnungsleiste** beinhaltet die Buttons 'Bearbeiten', 'Löschen', 'Aktualisieren', 'Abbrechen', 'Speichern'. 
 
-### Ansichtsleiste
-
-Die Ansichtsleiste ist in 3 Bereichen unterteilt:
 
 
