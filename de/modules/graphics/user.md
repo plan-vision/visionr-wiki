@@ -60,6 +60,28 @@ Die **Zeichnungsleiste** beinhaltet die Buttons `Bearbeiten`, `Löschen`, `Aktua
 
 ## Layergruppen
 
+Die Layergruppe beinhaltet die Einstellungen der eingeschalteten Layers. Die Layers sind standardmäßig versteckt, können nach Bedarf sichtbar gemacht werden und ggf. bearbeitet. 
+Die vordefinierten Layergruppen sind nach Themen unterteilt, können aber immer wieder erweitert. 
+
+![Vr Graphics De De Layergroups](/uploads/graphics/vr-graphics-de-de-layergroups.jpg "Vr Graphics De De Layergroups")
+
+Auf die Abbildung ist die aktive Layergruppe *Raumnutzung nach DIN 277 (Vorgabe)* und die Räume sind nach den eingegebenen Nuzungen gefärbt. Diese Layergruppe ist als Vorgabe gesetzt. 
+In dieser Layergruppe sind die **Räume** auswählbaren Objekte, weil die Raumnutzungen in dem Raum festgelegt werden. 
+
+Eine Layergruppe hat folgende Eigenschaften:
+
+* Welche Layers sind *sichtbar*
+* Welche Layers sind *auswählbar* - nur Objekte aus diesen Layers werden beim Auswahl selektiert. 
+* Welche Layers sind *editierbar* - nur Objekte aus diesen Layers können editiert werden. 
+* Welcher Layer ist *aktiv* - wenn neue Objekte gezeichnet werden, unabhängig von dem Typ, werden diese auf dem aktiven Layer gespeichert. Hat man keinen aktiven Layer in der Layergruppe, werden die neu gezeichneten Objekte nicht gespeichert.
+* Was für *Stil* hat der aktive Layer (für Admins) - der aktive Layer kann einen benutzerdefinierten Stil haben, sodass die Objekte unterschiedlich oder nach bestimmten Kriterien angezeigt werden.
+
+### Beispiele vordefinierter Layergruppen
+
+> **CAD:** Hier werden nur die Objekte aus der importieren Zeichnung angezeigt. Die reine CAD Zeichnung ist ein bisschen bereinigt, um bessere Ansicht für ein CAFM System zu erzielen. Auf der Abbildung sind Bemassungen, Achsen etc. ausgeblendet. Dies können jederzeit wieder eingeschaltet werden. 
+{.is-info}
+
+
 
 
 # Zeichnung bearbeiten
