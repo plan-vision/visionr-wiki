@@ -79,15 +79,14 @@ Eine Layergruppe hat folgende Eigenschaften:
 
 ### Beispiele vordefinierter Layergruppen
 
-> **CAD:** Hier werden nur die Objekte aus der importieren Zeichnung angezeigt. Die reine CAD Zeichnung ist ein bisschen bereinigt, um bessere Ansicht für ein CAFM System zu erzielen. Auf der Abbildung sind Bemassungen, Achsen etc. ausgeblendet. Dies können jederzeit wieder eingeschaltet werden. 
-Auf der linken Seite sind die Layer angezegit. Alle *A-..* Layers sind in dieser Layergruppe sichtbar, auswählbar und editierbar. Das heißt, dass mit dem Auswahltool alle sichtbare Objekte ausgewählt und bearbeitet werden können. 
+> **CAD:** Hier werden nur die Objekte aus der importieren Zeichnung angezeigt. Die reine CAD Zeichnung ist ein bisschen bereinigt, um bessere Ansicht für ein CAFM System zu erzielen. Auf der Abbildung sind Bemassungen, Achsen etc. ausgeblendet. Dies können jederzeit wieder eingeschaltet werden. Auf der linken Seite sind die Layer angezegit. Alle *A-..* Layers sind in dieser Layergruppe sichtbar, auswählbar und editierbar. Das heißt, dass mit dem Auswahltool alle sichtbare Objekte ausgewählt und bearbeitet werden können. 
 {.is-info}
 
 ![Vr Graphics De De Cad Layergroup](/uploads/graphics/vr-graphics-de-de-cad-layergroup.jpg "Vr Graphics De De Cad Layergroup")
 
 > **Raum:** *Vorraussetzung: Modul "Flächenmanagement" muss vorhanden sein.* 
-> Hier werden nur die Räume auswählbar und editierbar sein, die über die CAD Zeichnung gezeichnet sind. Diese Räume sind mit einem Raumdatensatz verknüpft. Die Räume werden hier "gelb" gefärbt, damit der Benutzer besseren Überblick hat, wo noch keine Räume gezeichnet sind. Die Räume sind als Polygone gezeichnet und sind ein bisschen durchsichtlich.
-Auf der linken Seite sind wieder die Layer angezegit. Die Layerkonfiguration ist wie folgt:
+> Hier werden nur die Räume auswählbar und editierbar sein, die über die CAD Zeichnung gezeichnet sind. Diese Räume sind mit einem Raumdatensatz verknüpft. Die Räume werden hier "gelb" gefärbt, damit der Benutzer besseren Überblick hat, wo noch keine Räume gezeichnet sind. Die Räume sind als Polygone gezeichnet und sind ein bisschen durchsichtlich. 
+> Auf der linken Seite sind wieder die Layer angezegit. Die Layerkonfiguration ist wie folgt:
 * **sichbar** - alle Wände, Möbel, Anlagen wie Aufzüge, Rolltreppen, Türe, Fenster, Sanitär etc. - die Zeichnung soll ziemlich sauber für das Zeichnen von Räumen aussehen.
 * **auswählbar** - nur die Räume, die auf dem Layer *FM-Polygon-Raum* gezeichnet sind. Dieser Layers ist standardmäßig für die FM (Facility Management) Räume vorgesehen. Deshalb werden nur Objekte aus diesem Layer ausgewählt.
 * **editierbar** - nur die Räume, die auf dem Layer *FM-Polygon-Raum* gezeichnet sind. Vorgesehen ist, dass nur diese Objekte in dieser Layergruppe zu bearbeiten sind. 
