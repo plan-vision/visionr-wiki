@@ -87,11 +87,11 @@ Eine Layergruppe hat folgende Eigenschaften:
 > **Raum:** *Vorraussetzung: Modul "Flächenmanagement" muss vorhanden sein.* 
 > Hier werden nur die Räume auswählbar und editierbar sein, die über die CAD Zeichnung gezeichnet sind. Diese Räume sind mit einem Raumdatensatz verknüpft. Die Räume werden hier "gelb" gefärbt, damit der Benutzer besseren Überblick hat, wo noch keine Räume gezeichnet sind. Die Räume sind als Polygone gezeichnet und sind ein bisschen durchsichtlich. 
 > Auf der linken Seite sind wieder die Layer angezegit. Die Layerkonfiguration ist wie folgt:
-* **sichbar** - alle Wände, Möbel, Anlagen wie Aufzüge, Rolltreppen, Türe, Fenster, Sanitär etc. - die Zeichnung soll ziemlich sauber für das Zeichnen von Räumen aussehen.
-* **auswählbar** - nur die Räume, die auf dem Layer *FM-Polygon-Raum* gezeichnet sind. Dieser Layers ist standardmäßig für die FM (Facility Management) Räume vorgesehen. Deshalb werden nur Objekte aus diesem Layer ausgewählt.
-* **editierbar** - nur die Räume, die auf dem Layer *FM-Polygon-Raum* gezeichnet sind. Vorgesehen ist, dass nur diese Objekte in dieser Layergruppe zu bearbeiten sind. 
-* **Fangmodus** - Alle Wände sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Raumes
-* **Layer aktiv** -  *FM-Polygon-Raum* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Räume zeichnen.
+> * **sichbar** - alle Wände, Möbel, Anlagen wie Aufzüge, Rolltreppen, Türe, Fenster, Sanitär etc. - die Zeichnung soll ziemlich sauber für das Zeichnen von Räumen aussehen.
+> * **auswählbar** - nur die Räume, die auf dem Layer *FM-Polygon-Raum* gezeichnet sind. Dieser Layers ist standardmäßig für die FM (Facility Management) Räume vorgesehen. Deshalb werden nur Objekte aus diesem Layer ausgewählt.
+> * **editierbar** - nur die Räume, die auf dem Layer *FM-Polygon-Raum* gezeichnet sind. Vorgesehen ist, dass nur diese Objekte in dieser Layergruppe zu bearbeiten sind. 
+> * **Fangmodus** - Alle Wände sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Raumes
+> * **Layer aktiv** -  *FM-Polygon-Raum* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Räume zeichnen.
 ![Vr Graphics De De Space Layergroup](/uploads/graphics/vr-graphics-de-de-space-layergroup.jpg "Vr Graphics De De Space Layergroup")
 {.is-info}
 # Zeichnung bearbeiten
