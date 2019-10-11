@@ -124,10 +124,19 @@ Die Zeichnungen, die Sie bearbeiten können, müssen zuerst als Vektorgrafik (GX
 
 Nachdem Sie die Zeichnung in Bearbeitungsmodus aufgemacht haben, wählen Sie ggf. die richtige Layergruppe, damit Sie die passende Objekte bearbeiten können. 
 
-> **Beispiel:** Falls das Modul **Flächenmanagement** vorhanden ist, können beispielweise neue Objekte vom Typ "Raum" direkt erstellt werden. Diese werden auf den Layer *FM-Polygon-Raum* gespeichert. Dafür stehen die Ansichten *Raum* und *Raumnutzung*
+> **Beispiel:** Falls das Modul **Flächenmanagement** vorhanden ist, können beispielweise neue Objekte vom Typ "Raum" direkt erstellt werden. Diese werden auf den Layer *FM-Polygon-Raum* gespeichert. Dafür steht die Layergruppen *Raum*
 {.is-info}
 
+Für das Auswählen, die Bearbeitung und das Zeichnen steht die Funktionsleiste zur Verfügung. Drin sind alle nötigen Funktionen.
 
+![Vr Graphics De De Function Bar](/uploads/graphics/vr-graphics-de-de-function-bar.jpg "Vr Graphics De De Function Bar")
+
+Die Leiste ist in einigen Bereichen unterteilt. 
+1. Auswahltools
+2. Zeichnen / Modifikation (Verschieben, Drehen, Skalieren)
+3. Transformieren
+4. Ansichten / Navigation
+5. Funktionen
 
 
 
