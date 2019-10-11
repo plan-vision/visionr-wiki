@@ -84,7 +84,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 ![Vr Graphics De De Cad Layergroup](/uploads/graphics/vr-graphics-de-de-cad-layergroup.jpg "Vr Graphics De De Cad Layergroup")
 {.is-info}
 
-> **Raum:** *Vorraussetzung: Modul "Flächenmanagement" muss vorhanden sein.* 
+> **Raum:** *Vorraussetzung: Modul "Flächenmanagement"* 
 > Hier werden nur die Räume auswählbar und editierbar sein, die über die CAD Zeichnung gezeichnet sind. Diese Räume sind mit einem Raumdatensatz verknüpft. Die Räume werden hier "gelb" gefärbt, damit der Benutzer besseren Überblick hat, wo noch keine Räume gezeichnet sind. Die Räume sind als Polygone gezeichnet und sind ein bisschen durchsichtlich. 
 > Auf der linken Seite sind wieder die Layer angezegit. Die Layerkonfiguration ist wie folgt:
 > * **sichbar** - alle Wände, Möbel, Anlagen wie Aufzüge, Rolltreppen, Türe, Fenster, Sanitär etc. - die Zeichnung soll ziemlich sauber für das Zeichnen von Räumen aussehen.
