@@ -40,7 +40,7 @@ In diesem Modus sind alle zeichnerische Funktionen vorhanden, wie auch alle Opti
 
 ![Vr Graphics De De Edit Mode Overview](/uploads/graphics/vr-graphics-de-de-edit-mode-overview.jpg "Vr Graphics De De Edit Mode Overview")
 
-### Ansicht
+## Ansicht
 
 Die Ansicht in diesem Modus ist in in 4 Bereichen aufgeteilt, wie auf die Abbildung oben gezeigt ist. 
 
@@ -65,7 +65,6 @@ Die Ansichtsleiste ist in 3 Bereichen unterteilt:
 
 ## Layergruppen
 
-Links steht die geöffnete *Zeichnung* angezeigt, in der Mitte sind die *Layergruppen* und rechts stehen die gespeicherten *Ansichten*. 
 
 
 # Zeichnung bearbeiten
