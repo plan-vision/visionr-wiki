@@ -99,11 +99,11 @@ Eine Layergruppe hat folgende Eigenschaften:
 > **Arbeitsplatz:** *Vorraussetzung: Modul "Flächenmanagement"* 
 > Hier werden nur die Arbeitsplätze auswählbar und editierbar sein, die über die CAD Zeichnung gezeichnet sind. Dazu sind die Personen, die auf diese Arbeitsplätze sitzen angezeigt. Diese Arbeitsplätze sind mit einem Arbeitsplatz-Datensatz verknüpft. Die APs liegen innerhalb bestimmten Räume. Deshalb ist es wichtig, dass der Raum gezeichnet ist, dann der Arbeitsplatz, damit diese Zuordnung gewährleistet ist. Die Arbeitspätze werden standardmäßig in dieser Layergruppe "lila" gezeigt. Sie sind als Polygone über die Möbel (Tisch und Stuhl) gezeichnet und sind ein bisschen durchsichtlich. 
 > Auf der linken Seite sind wieder die Layer angezegit. Die Layerkonfiguration ist wie folgt:
-> * **sichbar** - *alle Wände, Möbel, Anlagen wie Aufzüge, Rolltreppen, Türe, Fenster, Sanitär etc. - die Zeichnung soll ziemlich sauber für das Zeichnen von Arbeitsplätze aussehen.
-> * **auswählbar** - *nur die Arbeitsplätze, die auf dem Layer *FM-Arbeitsplatz* gezeichnet sind. Dieser Layers ist standardmäßig für die FM (Facility Management) Arbeitsplätze vorgesehen. Deshalb werden nur Objekte aus diesem Layer ausgewählt.
-> * **editierbar** - *nur die Arbeitsplätze, die auf dem Layer *FM-Arbeitsplatz* gezeichnet sind. Vorgesehen ist, dass nur diese Objekte in dieser Layergruppe zu bearbeiten sind. 
-> * **Fangmodus** - *Alle Möbel sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Arbeitsplatzes
-> * **Layer aktiv** -  FM-Arbeitsplatz* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Arbeitsplätze zeichnen.
+> * **sichbar** - alle Wände, Möbel, Anlagen wie Aufzüge, Rolltreppen, Türe, Fenster, Sanitär etc. - die Zeichnung soll ziemlich sauber für das Zeichnen von Arbeitsplätze aussehen.
+> * **auswählbar** - nur die Arbeitsplätze, die auf dem Layer *FM-Arbeitsplatz* gezeichnet sind. Dieser Layers ist standardmäßig für die FM (Facility Management) Arbeitsplätze vorgesehen. Deshalb werden nur Objekte aus diesem Layer ausgewählt.
+> * **editierbar** - nur die Arbeitsplätze, die auf dem Layer *FM-Arbeitsplatz* gezeichnet sind. Vorgesehen ist, dass nur diese Objekte in dieser Layergruppe zu bearbeiten sind. 
+> * **Fangmodus** - Alle Möbel sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Arbeitsplatzes
+> * **Layer aktiv** -  *FM-Arbeitsplatz* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Arbeitsplätze zeichnen.
 > 
 ![Vr Graphics De De Workplace Layergroup](/uploads/graphics/vr-graphics-de-de-workplace-layergroup.jpg "Vr Graphics De De Workplace Layergroup")
 {.is-info}
