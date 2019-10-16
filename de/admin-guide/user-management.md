@@ -26,15 +26,21 @@ Sie können hier auf die schnelle die Person und die Benutzergruppe ändern. Fal
 
 ![Vr Benutzervewaltung Benutzer Bearbeiten Admin](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-admin.jpg "Vr Benutzervewaltung Benutzer Bearbeiten Admin")
 
+![Vr Benutzervewaltung Benutzer Bearbeiten Admin 2](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-admin-2.jpg "Vr Benutzervewaltung Benutzer Bearbeiten Admin 2")
 
+Hier können Sie alle Einstellungen des Benutzers bearbeiten. Die wichtigsten sind:
 
-Hier geben Sie die Benutzer-ID, Passwort, Person und Gruppe an. Die Gruppe beinhaltet die wirksamen Einstellungen für die Berechtigung. Mit Klick auf den Menübutton in dem Feld Gruppe wird die Gruppenhierarchie der vorhandenen Berechtigungen angezeigt:
- 
+* Benutzer-ID - die Zeichenkette, mit der der Benutzer sich an meldet.
+* Passwort
+* Benutzerrolle - hier werden die wirksamen Einstellungen für die Berechtigungen definiert.
+* Person - welche Person zu diesem Benutzerkotno  zugeordnet ist
+* Aktiviert? - ob das Benutzerkonto aktiviert ist.
 
-Die Eigenschaften der Gruppe sehen Sie, wenn Sie die Gruppe öffnen – dafür klicken Sie auf den Menübutton „Bearbeiten“ oder auf „Ansehen“, um die Gruppendetails zu sehen.
- 
+Bei Bedarf schauen Sie die restlichen Einstellungen und ändern Sie diese gegebenenfalls. 
 
-Sie können in der Gruppe die Berechtigungen einstellen, ggf. welche Berechtigungen diese Gruppe an anderen weiterleitet oder welche sie von anderen übernimmt.
+Mit Klick auf den Menübutton ![Vr Menu Button](/uploads/administration/vr-menu-button.jpg "Vr Menu Button")  und dann auf `Auswählen` in dem Feld Benutzerrolle wird die Rollenhierarchie angezeigt und Sie können aus den Benutzerrollen wählen. Alternativ können Sie mit Doppelklick die Auswahlliste aufmachen und eine Benutzerrolle zuweisen ggf. ersetzen. Der Benutzer muss sich danach nur aus- und wieder einloggen. 
+
+Die Eigenschaften der Rolle selbst sehen Sie, wenn Sie die Gruppe öffnen – dafür klicken Sie auf den Menübutton `Bearbeiten`. Sie können in der Gruppe die Berechtigungen einstellen, ggf. welche Berechtigungen diese Gruppe an anderen weiterleitet oder welche sie von anderen übernimmt. Die Erstellung und die Anpassung der Benutzerrolle ist demnächst beschrieben.
 
 ## Neue Benutzer anlegen
 In der Tabelle mit den Benutzer klicken Sie auf das Menü   und dann auf Neu. Das Formular wird angezeigt. Geben Sie die Daten (Benutzer ID, Passwort, Person und Gruppe) ein und speichern Sie den Datensatz. Siehe Bilder vom Punkt 2. 
