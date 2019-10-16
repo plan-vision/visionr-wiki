@@ -16,9 +16,11 @@ Wenn die Maske geladen wird, öffnen Sie die `Benutzer`.
 ![Vr Benutzervewaltung Benutzer](/uploads/administration/vr-benutzervewaltung-benutzer.jpg "Vr Benutzervewaltung Benutzer")
 
 ## Benutzer bearbeiten
-Aus der Liste den gewünschten Benutzer auswählen und mit Doppelklick wird der Datensatz aufgemacht. Klicken Sie auf den Button `Bearbeiten`. 
+Aus der Liste den gewünschten Benutzer auswählen und mit Doppelklick wird der Datensatz aufgemacht. Klicken Sie auf den Button `Bearbeiten`. Alternativ können Sie den Datensatz selektieren, rechter Mausklick und dann `Bearbeiten` auswählen.
 
- 
+![Vr Benutzervewaltung Benutzer Bearbeiten 2](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-2.jpg "Vr Benutzervewaltung Benutzer Bearbeiten 2")
+
+![Vr Benutzervewaltung Benutzer Bearbeiten 1](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-1.jpg "Vr Benutzervewaltung Benutzer Bearbeiten 1")
 
 Hier geben Sie die Benutzer-ID, Passwort, Person und Gruppe an. Die Gruppe beinhaltet die wirksamen Einstellungen für die Berechtigung. Mit Klick auf den Menübutton in dem Feld Gruppe wird die Gruppenhierarchie der vorhandenen Berechtigungen angezeigt:
  
