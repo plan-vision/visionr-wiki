@@ -16,7 +16,7 @@ Die Benutzerverwaltung rufen Sie aus der *Startseite -> Administration -> Benutz
 
 ![Vr Benutzervewaltung Benutzer](/uploads/administration/vr-benutzervewaltung-benutzer.jpg "Vr Benutzervewaltung Benutzer")
 
-Aus der Liste den gewünschten Benutzer auswählen und mit Doppelklick wird der Datensatz aufgemacht. Klicken Sie auf den Button `Bearbeiten`. Alternativ können Sie den Datensatz selektieren, rechter Mausklick und dann `Bearbeiten` auswählen.
+Aus der Liste den gewünschten Benutzer auswählen und mit Doppelklick wird der Datensatz aufgemacht. Dann klicken Sie auf den Button `Bearbeiten`. Alternativ können Sie den Datensatz selektieren, rechter Mausklick und dann `Bearbeiten` auswählen.
 
 ![Vr Benutzervewaltung Benutzer Bearbeiten 2](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-2.jpg "Vr Benutzervewaltung Benutzer Bearbeiten 2")
 
