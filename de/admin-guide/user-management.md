@@ -78,11 +78,11 @@ Damit Sie die Benutzerrolle richtig einstellen, müssen Sie aus den vordefiniert
 ![Vr Benutzervewaltung Benutzerrolle Neu Beispiel](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-beispiel.jpg "Vr Benutzervewaltung Benutzerrolle Neu Beispiel")
 {.is-info}
 
-Die vordefinierten Benutzerrollen sind in 4 Kategorien unterteilt: 
+Die vordefinierten Benutzerrollen nach Modul sind in 4 Kategorien unterteilt: 
+* Admin
 * Lesen
+* Öffnen
 * Schreiben
-* Administration
-* Maske öffnen
 
 Sie können aus der Liste die richtigen auswählen und so die Rechte dieser Gruppe an den jeweiligen Modulen und Modi anpassen. 
 Sie müssen auch daran denken, dass jede Gruppe ihre Rechte weitergeben kann. Die Vererbung soll auch stimmen, falls diese Gruppe unter einer anderen Gruppe stehen soll. 
