@@ -83,7 +83,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 > **CAD:** Hier werden nur die Objekte aus der importieren Zeichnung angezeigt. Die reine CAD Zeichnung ist ein bisschen bereinigt, um bessere Ansicht für ein CAFM System zu erzielen. Auf der Abbildung sind Bemassungen, Achsen etc. ausgeblendet. Dies können jederzeit wieder eingeschaltet werden. Auf der linken Seite sind die Layer angezegit. Alle *A-..* Layers sind in dieser Layergruppe sichtbar, auswählbar und editierbar. Das heißt, dass mit dem Auswahltool alle sichtbare Objekte ausgewählt und bearbeitet werden können. 
 > 
 ![Vr Graphics De De Cad Layergroup](/uploads/graphics/vr-graphics-de-de-cad-layergroup.jpg "Vr Graphics De De Cad Layergroup")
-{.is-info}
+>{.is-info}
 
 > **BGF:** *Vorraussetzung: Modul "Flächenmanagement"* 
 > Hier wird nur das Geschoss auswählbar und editierbar sein, das über die CAD Zeichnung gezeichnet sind. Das Geschosspolygon gibt uns die gesamte Geschossfläche und deshalbt ist diese Layergruppe dafür vordefiniert. BGF - Brutto Geschoss Fläche. Das Geschosspolygon wird zuerst auf die Zeichnung gezeichnet, weil er den kompletten Plan umfasst. Die Räume, die auf das Geschosspolygon gezeichnet sind, werden automatisch zu dem Geschöss durch die Überlappung zugeordnet. 
@@ -95,7 +95,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 > * **Layer aktiv** -  *FM-Polygon-BGF* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie BGF Polygon zeichnen.
 > 
 ![Vr Graphics De De Bgf Layergroup](/uploads/graphics/vr-graphics-de-de-bgf-layergroup.jpg "Vr Graphics De De Bgf Layergroup")
-{.is-info}
+>{.is-info}
 
 > **Raum:** *Vorraussetzung: Modul "Flächenmanagement"* 
 > Hier werden nur die Räume auswählbar und editierbar sein, die über die CAD Zeichnung gezeichnet sind. Diese Räume sind mit einem Raumdatensatz verknüpft. Die Räume werden hier "gelb" gefärbt, damit der Benutzer besseren Überblick hat, wo noch keine Räume gezeichnet sind. Die Räume sind als Polygone gezeichnet und sind ein bisschen durchsichtlich. 
@@ -107,7 +107,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 > * **Layer aktiv** -  *FM-Polygon-Raum* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Räume zeichnen.
 > 
 ![Vr Graphics De De Space Layergroup](/uploads/graphics/vr-graphics-de-de-space-layergroup.jpg "Vr Graphics De De Space Layergroup")
-{.is-info}
+>{.is-info}
 
 > **Arbeitsplatz:** *Vorraussetzung: Modul "Flächenmanagement"* 
 > Hier werden nur die Arbeitsplätze auswählbar und editierbar sein, die über die CAD Zeichnung gezeichnet sind. Dazu sind die Personen, die auf diese Arbeitsplätze sitzen angezeigt. Diese Arbeitsplätze sind mit einem Arbeitsplatz-Datensatz verknüpft. Die APs liegen innerhalb bestimmten Räume. Deshalb ist es wichtig, dass der Raum gezeichnet ist, dann der Arbeitsplatz, damit diese Zuordnung gewährleistet ist. Die Arbeitspätze werden standardmäßig in dieser Layergruppe "lila" gezeigt. Sie sind als Polygone über die Möbel (Tisch und Stuhl) gezeichnet und sind ein bisschen durchsichtlich. 
