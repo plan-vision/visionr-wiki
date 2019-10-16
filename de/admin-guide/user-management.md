@@ -69,6 +69,13 @@ Machen Sie die folgenden Angaben:
 ![Vr Benutzervewaltung Benutzerrolle Neu 4 Kategorie Auswahl](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-4-kategorie-auswahl.jpg "Vr Benutzervewaltung Benutzerrolle Neu 4 Kategorie Auswahl")
 {.is-info}
 
+## Vererbung der Rechte
+
+Damit Sie die Benutzerrolle richtig einstellen, müssen Sie aus den vordefinierten Rechte/Rollen kombinieren, damit Sie die Rechte an Ihren Bedürfnisse anpassen. 
+
+> **Beispiel:** *Berlin 1 - OG* - Spezielle Gruppe für die Personengruppe, die das 1 OG in Berlin (aus unserem Demoprojekt) bearbeitet. Diese Gruppe kann nur diesen Plan sehen und bearbeiten. Deshalb wird nur die Rolle **Grafik (schreiben)** zugeordnet. 
+> ![Vr Benutzervewaltung Benutzerrolle Neu Beispiel](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-beispiel.jpg "Vr Benutzervewaltung Benutzerrolle Neu Beispiel")
+{.is-info}
 
 # Benutzerrolle anpassen
 Wenn Sie die Benutzergruppe bearbeiten möchten, müssen Sie diese Benutzergruppe aufmachen und die Rechte anpassen. 
