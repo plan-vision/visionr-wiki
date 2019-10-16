@@ -81,7 +81,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 ### Beispiele vordefinierter Layergruppen
 
 > **CAD:** Hier werden nur die Objekte aus der importieren Zeichnung angezeigt. Die reine CAD Zeichnung ist ein bisschen bereinigt, um bessere Ansicht für ein CAFM System zu erzielen. Auf der Abbildung sind Bemassungen, Achsen etc. ausgeblendet. Dies können jederzeit wieder eingeschaltet werden. Auf der linken Seite sind die Layer angezegit. Alle *A-..* Layers sind in dieser Layergruppe sichtbar, auswählbar und editierbar. Das heißt, dass mit dem Auswahltool alle sichtbare Objekte ausgewählt und bearbeitet werden können. 
-> {.is-info}
+{.is-info}
 ![Vr Graphics De De Cad Layergroup](/uploads/graphics/vr-graphics-de-de-cad-layergroup.jpg "Vr Graphics De De Cad Layergroup")
 
 
@@ -93,7 +93,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 > * **editierbar** - nur das Geschosspolygon, das auf dem Layer *FM-Polygon-BGF* gezeichnet ist. Theoretisch kann man mehrere Geschosspolygone haben, aber es macht keinen Sinn.
 > * **Fangmodus** - Alle Wände sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Geschosspolygones
 > * **Layer aktiv** -  *FM-Polygon-BGF* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie BGF Polygon zeichnen.
-> {.is-info}
+{.is-info}
 ![Vr Graphics De De Bgf Layergroup](/uploads/graphics/vr-graphics-de-de-bgf-layergroup.jpg "Vr Graphics De De Bgf Layergroup")
 
 
@@ -105,7 +105,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 > * **editierbar** - nur die Räume, die auf dem Layer *FM-Polygon-Raum* gezeichnet sind. Vorgesehen ist, dass nur diese Objekte in dieser Layergruppe zu bearbeiten sind. 
 > * **Fangmodus** - Alle Wände sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Raumes
 > * **Layer aktiv** -  *FM-Polygon-Raum* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Räume zeichnen.
-> {.is-info}
+{.is-info}
 ![Vr Graphics De De Space Layergroup](/uploads/graphics/vr-graphics-de-de-space-layergroup.jpg "Vr Graphics De De Space Layergroup")
 
 
@@ -117,7 +117,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 > * **editierbar** - nur die Arbeitsplätze, die auf dem Layer *FM-Arbeitsplatz* gezeichnet sind. Vorgesehen ist, dass nur diese Objekte in dieser Layergruppe zu bearbeiten sind. 
 > * **Fangmodus** - Alle Möbel sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Arbeitsplatzes
 > * **Layer aktiv** -  *FM-Arbeitsplatz* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Arbeitsplätze zeichnen.
-> {.is-info}
+{.is-info}
 ![Vr Graphics De De Workplace Layergroup](/uploads/graphics/vr-graphics-de-de-workplace-layergroup.jpg "Vr Graphics De De Workplace Layergroup")
 
 # Zeichnung bearbeiten
