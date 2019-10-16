@@ -1,4 +1,6 @@
-<!-- TITLE: User Management -->
-<!-- SUBTITLE: A quick summary of User Management -->
+<!-- TITLE: Benutzerverwaltung -->
+<!-- SUBTITLE: Überblick Benutzerverwaltung -->
 
+Deutsch | [English](/en/admin-guide)
+*Sie sind hier: [Home](/home) > Administratorenhandbuch*
 # Benutzerverwaltung
