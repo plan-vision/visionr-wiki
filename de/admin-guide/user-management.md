@@ -22,7 +22,7 @@ Aus der Liste den gewünschten Benutzer auswählen und mit Doppelklick wird der 
 
 ![Vr Benutzervewaltung Benutzer Bearbeiten 1](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-1.jpg "Vr Benutzervewaltung Benutzer Bearbeiten 1")
 
-Sie können hier auf die schnelle die Person und die Benutzergruppe ändern. Falls Sie alle Einstellungen bearbeiten möchten, gehen Sie über den Menübutton ![Vr Menu Button](/uploads/administration/vr-menu-button.jpg "Vr Menu Button") auf `Administration`.
+Sie können hier auf schnelle Weise die Person und die Benutzergruppe ändern. Falls Sie alle Einstellungen bearbeiten möchten, gehen Sie über den Menübutton ![Vr Menu Button](/uploads/administration/vr-menu-button.jpg "Vr Menu Button") auf `Administration`.
 
 ![Vr Benutzervewaltung Benutzer Bearbeiten Admin](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-admin.jpg "Vr Benutzervewaltung Benutzer Bearbeiten Admin")
 
