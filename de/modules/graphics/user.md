@@ -93,9 +93,9 @@ Eine Layergruppe hat folgende Eigenschaften:
 > * **editierbar** - nur das Geschosspolygon, das auf dem Layer *FM-Polygon-BGF* gezeichnet ist. Theoretisch kann man mehrere Geschosspolygone haben, aber es macht keinen Sinn.
 > * **Fangmodus** - Alle Wände sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Geschosspolygones
 > * **Layer aktiv** -  *FM-Polygon-BGF* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie BGF Polygon zeichnen.
-> 
-![Vr Graphics De De Bgf Layergroup](/uploads/graphics/vr-graphics-de-de-bgf-layergroup.jpg "Vr Graphics De De Bgf Layergroup")
 >{.is-info}
+![Vr Graphics De De Bgf Layergroup](/uploads/graphics/vr-graphics-de-de-bgf-layergroup.jpg "Vr Graphics De De Bgf Layergroup")
+
 
 > **Raum:** *Vorraussetzung: Modul "Flächenmanagement"* 
 > Hier werden nur die Räume auswählbar und editierbar sein, die über die CAD Zeichnung gezeichnet sind. Diese Räume sind mit einem Raumdatensatz verknüpft. Die Räume werden hier "gelb" gefärbt, damit der Benutzer besseren Überblick hat, wo noch keine Räume gezeichnet sind. Die Räume sind als Polygone gezeichnet und sind ein bisschen durchsichtlich. 
