@@ -76,8 +76,7 @@ Damit Sie die Benutzerrolle richtig einstellen, müssen Sie aus den vordefiniert
 > **Beispiel:** *Berlin 1 - OG* - Spezielle Gruppe für die Personengruppe, die das 1 OG in Berlin (aus unserem Demoprojekt) bearbeitet. 
 > Diese Gruppe kann nur diesen Plan sehen und bearbeiten. Deshalb wird nur die Rolle **Grafik (schreiben)** zugeordnet. 
 > 
-> ![Vr Benutzervewaltung Benutzerrolle Neu Beispiel](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-beispiel.jpg "Vr Benutzervewaltung Benutzerrolle Neu Beispiel")
-> 
+![Vr Benutzervewaltung Benutzerrolle Neu Beispiel](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-beispiel.jpg "Vr Benutzervewaltung Benutzerrolle Neu Beispiel")
 {.is-info}
 
 # Benutzerrolle anpassen
