@@ -11,13 +11,13 @@ Die Benutzerverwaltung rufen Sie aus der *Startseite -> Administration -> Benutz
 ![Vr Benutzervewaltung Uberblick](/uploads/administration/vr-benutzervewaltung-uberblick.jpg "Vr Benutzervewaltung Uberblick")
  
 # Maske „Benutzerverwaltung“
-Wenn die Maske geladen wird, öffnen Sie die Benutzer. 
+Wenn die Maske geladen wird, öffnen Sie die `Benutzer`. 
 
+![Vr Benutzervewaltung Benutzer](/uploads/administration/vr-benutzervewaltung-benutzer.jpg "Vr Benutzervewaltung Benutzer")
 
-
- 
 ## Benutzer bearbeiten
-Aus der Liste den gewünschten Benutzer auswählen und mit der rechten Maustaste auf Bearbeiten klicken. Das Benutzer-Formularfenster wird geöffnet:
+Aus der Liste den gewünschten Benutzer auswählen und mit Doppelklick wird der Datensatz aufgemacht. Klicken Sie auf den Button `Bearbeiten`. 
+
  
 
 Hier geben Sie die Benutzer-ID, Passwort, Person und Gruppe an. Die Gruppe beinhaltet die wirksamen Einstellungen für die Berechtigung. Mit Klick auf den Menübutton in dem Feld Gruppe wird die Gruppenhierarchie der vorhandenen Berechtigungen angezeigt:
