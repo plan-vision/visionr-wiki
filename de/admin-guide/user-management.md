@@ -78,6 +78,16 @@ Damit Sie die Benutzerrolle richtig einstellen, müssen Sie aus den vordefiniert
 ![Vr Benutzervewaltung Benutzerrolle Neu Beispiel](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-beispiel.jpg "Vr Benutzervewaltung Benutzerrolle Neu Beispiel")
 {.is-info}
 
+Die vordefinierten Benutzerrollen sind in 4 Kategorien unterteilt: 
+* Lesen
+* Schreiben
+* Administration
+* Maske öffnen
+
+Sie können aus der Liste die richtigen auswählen und so die Rechte dieser Gruppe an den jeweiligen Modulen und Modi anpassen. 
+Sie müssen auch daran denken, dass jede Gruppe ihre Rechte weitergeben kann. Die Vererbung soll auch stimmen, falls diese Gruppe unter einer anderen Gruppe stehen soll. 
+Überlegen Sie gut die Benutzerrechte, bevor Sie diese einspielen. Falls Sie Unterstützung brauchen, wenden Sie sich an unseren Support. 
+
 # Benutzerrolle anpassen
 Wenn Sie die Benutzergruppe bearbeiten möchten, müssen Sie diese Benutzergruppe aufmachen und die Rechte anpassen. 
 Dieser Vorgang ist nur von dem Administrator zu machen! Falls Sie nicht sicher sind, bitte keine Änderungen vornehmen. 
@@ -90,5 +100,5 @@ Navigieren Sie zu den Benutzerrollen und öffnen Sie die gewünschte Benutzerrol
 > Die Auswahl einer bestimmten Benutzerrolle aus der Liste mit den Benutzerrollen wird als Beispiel für die Erstellung einer neuen Rolle benutzt. {.is-info}
 
 Durch Ändern der Rechte, die von dieser Benutzergruppe geerbt sind, werden die Rechte angepasst. 
-Sie müssen auch daran denken, dass jede Gruppe ihre Rechte weitergeben kann. Überlegen Sie gut die Benutzerrechte, bevor Sie diese einspielen. Falls Sie Unterstützung brauchen, wenden Sie sich an unseren Support. 
+
 
