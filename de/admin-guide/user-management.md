@@ -40,7 +40,7 @@ Bei Bedarf schauen Sie die restlichen Einstellungen und ändern Sie diese gegebe
 
 Mit Klick auf den Menübutton ![Vr Menu Button](/uploads/administration/vr-menu-button.jpg "Vr Menu Button")  und dann auf `Auswählen` in dem Feld Benutzerrolle wird die Rollenhierarchie angezeigt und Sie können aus den Benutzerrollen wählen. Alternativ können Sie mit Doppelklick die Auswahlliste aufmachen und eine Benutzerrolle zuweisen ggf. ersetzen. Der Benutzer muss sich danach nur aus- und wieder einloggen. 
 
-Die Eigenschaften der Rolle selbst sehen Sie, wenn Sie die Gruppe öffnen – dafür klicken Sie auf den Menübutton `Bearbeiten`. Sie können in der Gruppe die Berechtigungen einstellen, ggf. welche Berechtigungen diese Gruppe an anderen weiterleitet oder welche sie von anderen übernimmt. Die Erstellung und die Anpassung der Benutzerrolle ist demnächst beschrieben.
+Die Eigenschaften der Rolle selbst sehen Sie, wenn Sie die Gruppe öffnen – dafür klicken Sie auf den Menübutton `Bearbeiten`. Sie können in der Gruppe die Berechtigungen einstellen, ggf. welche Berechtigungen diese Gruppe an anderen weiter leitet oder welche sie von anderen übernimmt. Die Erstellung und die Anpassung der Benutzerrolle ist demnächst beschrieben.
 
 # Neue Benutzer anlegen
 In der Tabelle mit den Benutzer klicken Sie auf das Menü   und dann auf Neu. Das Formular wird angezeigt. Geben Sie die Daten (Benutzer ID, Passwort, Person und Gruppe) ein und speichern Sie den Datensatz. Siehe Bilder vom Punkt 2. 
