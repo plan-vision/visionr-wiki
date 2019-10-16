@@ -22,6 +22,7 @@ Aus der Liste den gewünschten Benutzer auswählen und mit Doppelklick wird der 
 
 ![Vr Benutzervewaltung Benutzer Bearbeiten 1](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-1.jpg "Vr Benutzervewaltung Benutzer Bearbeiten 1")
 
+
 Hier geben Sie die Benutzer-ID, Passwort, Person und Gruppe an. Die Gruppe beinhaltet die wirksamen Einstellungen für die Berechtigung. Mit Klick auf den Menübutton in dem Feld Gruppe wird die Gruppenhierarchie der vorhandenen Berechtigungen angezeigt:
  
 
