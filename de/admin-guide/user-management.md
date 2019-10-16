@@ -47,7 +47,6 @@ In der Tabelle mit den Benutzer klicken Sie auf das Menübutton ![Vr Menu Button
 
 Hier ist es wichtig, dass die Benutzerrolle schon vorhanden ist und die Person zu dem Benutzer zugeordnet ist. Es ist wichtig eine Person zu zuordnen, weil sehr viele Einstellungen, wie z.B. Ansichte, angepasste Felder etc., für die bestimmte Person gespeichert werden. 
 
-
 # Benutzerrolle erstellen
 Die Benutzerrolle können Sie direkt in dem Benutzerformular erstellen oder in der Ansicht mit den Benutzerrollen. 
 Die Ansicht öffnen Sie mit Klick auf den Button `Benutzerrollen`. In der Baumstruktur sind diese nach Struktur / Vererbung angezeigt. Sie sind in 2 Typen unterteilt: **Vordefiniert** und **Benutzerdefiniert**. Die neuen Rollen erstellen Sie bitte in der Kategorie **benutzerdefiniert**. 
