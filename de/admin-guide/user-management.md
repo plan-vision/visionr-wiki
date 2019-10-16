@@ -30,11 +30,11 @@ Sie können hier auf schnelle Weise die Person und die Benutzergruppe ändern. F
 
 Hier können Sie alle Einstellungen des Benutzers bearbeiten. Die wichtigsten sind:
 
-* Benutzer-ID - die Zeichenkette, mit der der Benutzer sich an meldet.
-* Passwort
-* Benutzerrolle - hier werden die wirksamen Einstellungen für die Berechtigungen definiert.
-* Person - welche Person zu diesem Benutzerkotno  zugeordnet ist
-* Aktiviert? - ob das Benutzerkonto aktiviert ist.
+* **Benutzer-ID** - die Zeichenkette, mit der der Benutzer sich an meldet.
+* **Passwort**
+* **Benutzerrolle** - hier werden die wirksamen Einstellungen für die Berechtigungen definiert.
+* **Person** - welche Person zu diesem Benutzerkotno  zugeordnet ist
+* **Aktiviert?** - ob das Benutzerkonto aktiviert ist.
 
 Bei Bedarf schauen Sie die restlichen Einstellungen und ändern Sie diese gegebenenfalls. 
 
