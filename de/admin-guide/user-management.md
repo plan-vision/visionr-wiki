@@ -88,6 +88,10 @@ Sie können aus der Liste die richtigen auswählen und so die Rechte dieser Grup
 Sie müssen auch daran denken, dass jede Gruppe ihre Rechte weitergeben kann. Die Vererbung soll auch stimmen, falls diese Gruppe unter einer anderen Gruppe stehen soll. 
 Überlegen Sie gut die Benutzerrechte, bevor Sie diese einspielen. Falls Sie Unterstützung brauchen, wenden Sie sich an unseren Support. 
 
+## Weiterleitung der Rechte
+
+Jede Benutzerrolle kann auch ihre Rechte weitergeben (die ungekehrte Relation der Vererbung). Sie können alle vordefinierten und benutzerdefinierten nutzen, um die gewünschte Benutzerrolle zu erstellen. 
+Die Weiterleitung ist ähnlich wie die Vererbung einzustellen. Hier müssen Sie nur daran denken, dass wenn eine Rolle ihre Rechte an einer anderen Rolle weiterleitet, die zweite Rolle fügt direkt sie als Vererbung von den ersten Rolle hinzu. 
 # Benutzerrolle anpassen
 Wenn Sie die Benutzergruppe bearbeiten möchten, müssen Sie diese Benutzergruppe aufmachen und die Rechte anpassen. 
 Dieser Vorgang ist nur von dem Administrator zu machen! Falls Sie nicht sicher sind, bitte keine Änderungen vornehmen. 
