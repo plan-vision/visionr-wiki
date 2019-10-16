@@ -24,6 +24,9 @@ Aus der Liste den gewünschten Benutzer auswählen und mit Doppelklick wird der 
 
 Sie können hier auf die schnelle die Person und die Benutzergruppe ändern. Falls Sie alle Einstellungen bearbeiten möchten, gehen Sie über den Menübutton ![Vr Menu Button](/uploads/administration/vr-menu-button.jpg "Vr Menu Button") auf `Administration`.
 
+![Vr Benutzervewaltung Benutzer Bearbeiten Admin](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-admin.jpg "Vr Benutzervewaltung Benutzer Bearbeiten Admin")
+
+
 
 Hier geben Sie die Benutzer-ID, Passwort, Person und Gruppe an. Die Gruppe beinhaltet die wirksamen Einstellungen für die Berechtigung. Mit Klick auf den Menübutton in dem Feld Gruppe wird die Gruppenhierarchie der vorhandenen Berechtigungen angezeigt:
  
