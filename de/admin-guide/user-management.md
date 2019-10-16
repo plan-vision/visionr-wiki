@@ -62,13 +62,13 @@ Um eine neue Benutzerrolle zu erstellen: rechter Mausklick und dann auf `Neu`.
 
 Machen Sie die folgenden Angaben:
 
-> * **Name** - wie die Rolle heißt
-> * **Kategorie** - Bitte wählen Sie hier die Kategorie *benutzerdefiniert* 
-> * **Vererbt Rechte von** - Hier durch Kombination von den vordefinierten Benutzerrollen können Sie die neue anpassen. 
-> * **Leitet Rechte weiter an** - An welcher Benutzerrolle diese ihre Rechte weiter leitet.
-> 
+* **Name** - wie die Rolle heißt
+* **Kategorie** - Bitte wählen Sie hier die Kategorie *benutzerdefiniert* 
+* **Vererbt Rechte von** - Hier durch Kombination von den vordefinierten Benutzerrollen können Sie die neue anpassen. 
+* **Leitet Rechte weiter an** - An welcher Benutzerrolle diese ihre Rechte weiter leitet.
+
 ![Vr Benutzervewaltung Benutzerrolle Neu 4 Kategorie Auswahl](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-4-kategorie-auswahl.jpg "Vr Benutzervewaltung Benutzerrolle Neu 4 Kategorie Auswahl")
-{.is-info}
+
 
 ## Vererbung der Rechte
 
