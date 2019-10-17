@@ -43,13 +43,13 @@ In diesem Modus sind alle zeichnerische Funktionen vorhanden, wie auch alle Opti
 ### Ansichtsleiste
 
 Die **Ansichtsleiste** beinhaltet drei Bereichen:
-*  Zeichnung : welche Zeichnung gerade Sie bearbeiten
-*  Layergruppen : hier wählen Sie aus vordefinierten Layergruppen. Eine Layergruppe beinhaltet die Layereinstellungen ( *sichtbar / auswählbar / editierbar / aktiv* ) sind und die Einfärbung der Daten nach bestimmten Kriterien. Die Layergruppen sind standardmäßig vordefiniert. 
+*  *Zeichnung* : welche Zeichnung gerade Sie bearbeiten
+*  *Layergruppen* : hier wählen Sie aus vordefinierten Layergruppen. Eine Layergruppe beinhaltet die Layereinstellungen ( *sichtbar / auswählbar / editierbar / aktiv* ) sind und die Einfärbung der Daten nach bestimmten Kriterien. Die Layergruppen sind standardmäßig vordefiniert. 
 > **Beispiel:** *Raumnutzung nach DIN 277* - die Räume werden nach der hinterlegten Nutzung eingefärbt. Die Nutzung entspricht den DIN 277 Normen.
 > {.is-info}
 
 Die Layergruppen sind [hier](***) beschrieben.
-*  Gespeicherte Ansichten : Sie können bestimmte Ansichten speichern und wieder aufrufen. 
+*  *Gespeicherte Ansichten* : Sie können bestimmte Ansichten speichern und wieder aufrufen. 
 
 ### Fuktionsleiste
 
