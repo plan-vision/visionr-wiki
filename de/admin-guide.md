@@ -259,4 +259,4 @@ Mehr erfahren Sie [hier](/de-DE/admin-guide/vsc).
 * [SAP Schnittstelle](/de/admin-guide/interfaces/sap)
 
 # Benutzerverwaltung
-* [Benutzerverwaltung](http://plan-vision.com:8282/edit/de/admin-guide/user-management)
+* [Benutzerverwaltung](/de/admin-guide/user-management)
