@@ -53,11 +53,11 @@ Die Layergruppen sind [hier](***) beschrieben.
 
 ### Fuktionsleiste
 
-Die **Funktionsleiste** beinhaltet alle zeichnerische Objekte, Operationen und Funktionen. Hier sind alle Tools für Bearbeitung der Grafik positioniert. Details: [hier](/de/modules/graphics/admin/toolbar).
+Die **Funktionsleiste** beinhaltet alle zeichnerische Objekte, Operationen und Funktionen. Hier sind alle Tools für Bearbeitung der Grafik positioniert. Details: [hier](/de/modules/graphics/toolbar).
 
 ### Zeichnungsleiste
 
-Die **Zeichnungsleiste** beinhaltet die Buttons `Bearbeiten`, `Löschen`, `Aktualisieren`, `Abbrechen`, `Speichern`. Details: [hier](/de/modules/graphics/admin).
+Die **Zeichnungsleiste** beinhaltet die Buttons `Bearbeiten`, `Löschen`, `Aktualisieren`, `Abbrechen`, `Speichern`. Details: [hier](/de/modules/graphics/).
 
 ## Layergruppen
 
@@ -124,7 +124,7 @@ Nachdem Sie die Zeichnung in Bearbeitungsmodus aufgemacht haben, wählen Sie ggf
 > **Beispiel:** Falls das Modul **Flächenmanagement** vorhanden ist, können beispielweise neue Objekte vom Typ "Raum" direkt erstellt werden. Diese werden auf den Layer *FM-Polygon-Raum* gespeichert. Dafür steht die Layergruppe *Raum* zur Verfügung. Dazu können Sie auch die Layergruppe *Raumnutzung nach DIN 277* nutzen.
 {.is-info}
 
-Für das Auswählen, die Bearbeitung und das Zeichnen steht die Funktionsleiste zur Verfügung. Die detailierte Beschreibung finden Sie [hier](/de/modules/graphics/admin/toolbar).
+Für das Auswählen, die Bearbeitung und das Zeichnen steht die Funktionsleiste zur Verfügung. Die detailierte Beschreibung finden Sie [hier](/de/modules/graphics/toolbar).
 
 ![Vr Graphics De De Function Bar](/uploads/graphics/vr-graphics-de-de-function-bar.jpg "Vr Graphics De De Function Bar")
 
