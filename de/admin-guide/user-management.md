@@ -101,8 +101,7 @@ Navigieren Sie zu den Benutzerrollen und öffnen Sie die gewünschte Benutzerrol
 
 ![Vr Benutzervewaltung Benutzer Benutzerrolle Bearbeiten](/uploads/administration/vr-benutzervewaltung-benutzer-benutzerrolle-bearbeiten.jpg "Vr Benutzervewaltung Benutzer Benutzerrolle Bearbeiten")
 
-> Die Auswahl einer bestimmten Benutzerrolle aus der Liste mit den Benutzerrollen wird als Beispiel für die Erstellung einer neuen Rolle benutzt. {.is-info}
+> **Info** Die Benutzerrollen sind oberhalb beschrieben. {.is-info}
 
-Durch Ändern der Rechte, die von dieser Benutzergruppe geerbt sind, werden die Rechte angepasst. 
-
+Durch Ändern der vereerbten Rechte, passen Sie die Benutzerrolle an. 
 
