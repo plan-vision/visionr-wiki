@@ -12,7 +12,7 @@ Deutsch | [English](/en/user-guide)
 * Helpdesk
 * Wartung
 * Schließmanagement
-* Reservierungen
+* [Reservierungen](/de/modules/reservations)
 # Systemmodule
 * Benutzerverwaltung
 * Berichte
