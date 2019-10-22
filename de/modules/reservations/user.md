@@ -37,8 +37,19 @@ Mit Klick auf den Button `Bearbeiten` können Sie die Reservierung bearbeiten.
 Unter den Ansichten sind die Filter. Die Filter haben direkten Einfluss auf die Kalenderansicht. Sie können die Reservierungen sehr schnell filtern, um eine bessere Übersicht zu bekommen. Einige Beispiele:
 
 > **Beispiel:**  nach Betreff *Meeting* - alle Reservierungen, die diese Zeichenkette in dem Betreff beinhaltet werden angezeigt. Alle anderen werden ausgeblendet.
-![Vr Forms De Reservierungen Ubersicht Filter Leeren](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Leeren")
+![Vr Forms De Reservierungen Ubersicht Filter Meeting 1](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-meeting-1.png "Vr Forms De Reservierungen Ubersicht Filter Meeting 1")
 {.is-info}
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude")
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren")
+
+### Filter leeren / zurücksetzen
+
+Sie können die Filter entweder mit den Tasten `Backspace` oder `Entfernen` leeren oder mit der Funktion `Zurücksetzen` rechts in jedem Filterfeld.
+
+> **Beispiel:**  Betreff *Meeting* leeren. Raumnamen (kommagetrennt) wird identisch zurückgesetzt.
+![Vr Forms De Reservierungen Ubersicht Filter Meeting 1](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-meeting-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Meeting Leeren")
+
+> **Beispiel:**  Gebäude leeren. Geschoss / Raumeinheit / Raumtyp werden identisch zurcükgesetzt.
+![Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren")
+{.is-info}
 ## Kalender
