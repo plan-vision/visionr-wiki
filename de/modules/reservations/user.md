@@ -51,12 +51,20 @@ Mit Scrollen werden die Zeitintevallen vergrößert bzw. verkleinert.
 *Bild 5: Zeitachse*
 ![Vr Forms De Reservierungen Ubersicht Zeitachse](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-zeitachse.png "Vr Forms De Reservierungen Ubersicht Zeitachse")
 
+### Reservierungen
+
+Diese Ansicht zeigt die Reservierungen in tabellarischer Form und Sie können diese als Datensätze bearbeiten. Die Bearbeitung ist üblich für die alphanummerischen Module. 
+
+*Bild 6: Tabellarische Ansicht*
+![Vr Forms De Reservierungen Ubersicht Tabelle](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-tabelle.png "Vr Forms De Reservierungen Ubersicht Tabelle")
+
 ## Suchen/Filtern
 Unter den Ansichten sind die Filter. Die Filter haben direkten Einfluss auf die Kalenderansicht. Sie können die Reservierungen sehr schnell filtern, um eine bessere Übersicht zu bekommen. Einige Beispiele:
 
 > **Beispiel:**  nach Betreff *Meeting* - alle Reservierungen, die diese Zeichenkette in dem Betreff beinhaltet werden angezeigt. Alle anderen werden ausgeblendet.
 ![Vr Forms De Reservierungen Ubersicht Filter Meeting 1](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-meeting-1.png "Vr Forms De Reservierungen Ubersicht Filter Meeting 1")
 {.is-info}
+
 
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude")
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren")
