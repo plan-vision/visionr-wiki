@@ -93,7 +93,7 @@ Klicken Sie auf den Button oben links `+ Neue Reservierung` und dann wählen Sie
 
 > **Altermantiv:** : Navigieren Sie zum dem Datum, an dem Sie die Reservierung erstellen möchten und mit Klick auf den „+“ erstellen Sie eine neue Reservierung. Das Datum wird eingetragen. 
 
-*Bild 6: Neue Einzelraum-Reservierung Formularansicht*
+*Bild 6: Neue Einzelraum-Reservierung*
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung")
 
 *Bild 7: Einzelraum-Reservierung Formularansicht*
@@ -113,8 +113,11 @@ Machen Sie die folgenden Eingaben, damit Sie den verfügbaren Raum für Ihre Ver
 7. Fügen Sie Bewirtung oder Inventarbestellung hinzu. 
 8. Speichern Sie den Vorgang. Die Reservierung wird in der ausgewählten Ansicht erscheinen.
 
-*Bild 7: Einzelraum-Reservierung Formularansicht*
-![Vr Forms De Reservierungen Neue Einzelraum Reservierung 1](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-1.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung 1")
+*Bild 8: Einzelraum-Reservierung Formularansicht*
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung 2](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-2.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung 2")
+
+*Bild 9: Einzelraum-Reservierung Raum und Sitzanordnung wählen*
+
 
 Nachdem Sie Pflichteingaben gemacht haben, können Sie den Cateringauftrag (Bewirtung) / Inventarauftrag erstellen.
 
