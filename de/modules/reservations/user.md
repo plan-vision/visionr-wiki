@@ -49,8 +49,7 @@ Diese Ansicht ist eine Zeitachse, die Sie mit der Maus bedienen. Der Pfeil nach 
 Mit Scrollen werden die Zeitintevallen vergrößert bzw. verkleinert. 
 
 *Bild 4: Zeitachse*
-
-
+![Vr Forms De Reservierungen Ubersicht Zeitachse](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-zeitachse.png "Vr Forms De Reservierungen Ubersicht Zeitachse")
 
 ## Suchen/Filtern
 Unter den Ansichten sind die Filter. Die Filter haben direkten Einfluss auf die Kalenderansicht. Sie können die Reservierungen sehr schnell filtern, um eine bessere Übersicht zu bekommen. Einige Beispiele:
