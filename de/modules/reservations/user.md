@@ -170,7 +170,12 @@ Speichern Sie anschließend die Reservierung. Diese wird danach in der Kalendera
 Die Reservierung mehrerer Räume ist ähnlich wie die Einzelraum-Reservierung, mit weniger initialen Angaben bis die beiden Räume konsequent nicht reserviert werden. Sie müssen zuerst den ersten Raum auswählen und dann fügen Sie zusätzliche Räume hinzu. 
 Klicken Sie auf den Button oben links „+ Neue Reservierung“ und wählen Sie „Neue Reservierung mehrerer Räume“.
 
+*Bild 17: Neue Reservierung mehrerer Räume*
 
+
+*Bild 17: Neue Reservierung mehrerer Räume*
+
+*Bild 17: Neue Reservierung mehrerer Räume*
 
 # Bürolieferung
 # Benachrichtigung verschicken
