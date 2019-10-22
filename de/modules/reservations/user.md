@@ -159,7 +159,7 @@ Sie können die Personen einzeln hinzufügen oder Sie haben die Option für mehr
 *Bild 13: Teilnehmer hinzufügen*
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-teilnehmer.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer")
 
-*Bild 14: Mehrere Teilnehmer in einem Schritt hinzufügen*
+*Bilder 14 und 15: Mehrere Teilnehmer in einem Schritt hinzufügen*
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer Mehrfache Auswahl](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-teilnehmer-mehrfache-auswahl.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer Mehrfache Auswahl")
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer Mehrfache Auswahl 2](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-teilnehmer-mehrfache-auswahl-2.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer Mehrfache Auswahl 2")
 
