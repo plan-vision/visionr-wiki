@@ -120,6 +120,7 @@ Machen Sie die folgenden Eingaben, damit Sie den verfügbaren Raum für Ihre Ver
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung 3](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-3.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung 3")
 
 Nachdem Sie Pflichteingaben gemacht haben, können Sie den Cateringauftrag (Bewirtung) / Inventarauftrag erstellen.
+
 ## Bewirtung / Catering
 
 In der Formularansicht klicken Sie auf Feld „Catering“ und die vorhandenen Cateringoptionen werden angezeigt. 
@@ -132,6 +133,16 @@ Diese Optionen werden gefiltert. Zuerst müssen Sie die Zeiten und die Teilnehme
 > Anzahl Cola / Wasser eingeben.
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering 3](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-catering-3.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering 3")
 {.is-info}
+
+> **Info** Sie können mehrere Cateringaufträge für eine Veranstaltung bestellen. Dafür wählen Sie wieder aus der Cateringliste darunter einen Auftrag und fügen Sie diesen hinzu (wie oben). Passen Sie die Bestellzeiten und die Anzahl Artikel an. Speichern Sie anschließend den Auftrag. 
+> {.is-info}
+
+## Zusatzinventar
+
+Die Zusatzinventar können Sie wie die Bewirtung bestellen. Sie können wieder mehrere Bestellungen für unterschiedliche Zeiten machen. 
+
+> **Bemerkung** Jede Reservierungseinheit kann standardmäßig Technik / Inventar wie Beamer, WiFi etc. beinhalten. Diese werden mit der Raumauswahl gezeigt oder Sie können diese als Filter nutzen, wenn Sie die Reservierung erstellen. Die Räume werden danach gefiltert.  
+
 
 
 ## Neue Reservierung mehrerer Räume
