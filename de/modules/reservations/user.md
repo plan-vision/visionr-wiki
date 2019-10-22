@@ -86,4 +86,32 @@ Sie können die Filter entweder mit den Tasten `Backspace` oder `Entfernen` leer
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren")
 {.is-info}
 
-## Kalender
+# Neue Reservierung
+## Neue Einzelraum-Reservierung 
+
+Klicken Sie auf den Button oben links `+ Neue Reservierung` und dann wählen Sie aus dem Menü  `Einzelraum-Reservierung`. 
+*Alternativ*: Navigieren Sie zum dem Datum, an dem Sie die Reservierung erstellen möchten und mit Klick auf den „+“ erstellen Sie eine neue Reservierung. Das Datum wird eingetragen. 
+
+*Bild 6: Neue Einzelraum-Reservierung*
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung")
+
+*Bild 7: Einzelraum-Reservierung Formularansicht*
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung")
+
+
+
+Unten in roter Farbe werden die fehlenden Eingaben hervorgehoben. Geben Sie unbedingt diese ein.
+Die **Pflichtfelder** sind mit * gekennzeichnet. Zuerst geben Sie die Zeiten. Dann geben Sie die Anzahl Teilnehmer. 
+Die Räume werden gefiltert – also nur die Räume, die tatsächlich frei für diese Anzahl Teilnehmer und für diese Zeiten sind, werden aufgelistet. Wählen Sie einen Raum aus der Liste oder aus der Zeichnung direkt, falls das Modul ***Grafik*** vorhanden ist und die Reservierungseinheit gezeichnet ist. 
+
+
+
+
+
+
+## Neue Reservierung mehrerer Räume
+
+
+
+## Bürolieferung
+
