@@ -11,7 +11,7 @@ Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiter `Seiten` 
 
 *Bild 1: Modul Reservierungen über die Index-Seite aufrufen*
 
-![Vr Forms De Reservierungen Indexseite](/uploads/reservierungen/vr-forms-de-reservierungen-indexseite.jpg "Vr Forms De Reservierungen Indexseite")
+![Vr Forms De Reservierungen Indexseite](/uploads/reservierungen/vr-forms-de-reservierungen-indexseite.png "Vr Forms De Reservierungen Indexseite")
 
 # Übersicht
 *Bild 2: Übersicht im Modul Reservierungen*
