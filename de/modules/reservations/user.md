@@ -167,6 +167,11 @@ Speichern Sie anschließend die Reservierung. Diese wird danach in der Kalendera
 ![Res Neu Ergebnis Kalender](/uploads/reservierungen/res-neu-ergebnis-kalender.png "Res Neu Ergebnis Kalender")
 
 # Neue Reservierung mehrerer Räume
+Die Reservierung mehrerer Räume ist ähnlich wie die Einzelraum-Reservierung, mit weniger initialen Angaben bis die beiden Räume konsequent nicht reserviert werden. Sie müssen zuerst den ersten Raum auswählen und dann fügen Sie zusätzliche Räume hinzu. 
+Klicken Sie auf den Button oben links „+ Neue Reservierung“ und wählen Sie „Neue Reservierung mehrerer Räume“.
+
+
+
 # Bürolieferung
 # Benachrichtigung verschicken
 Beim Speichern der Reservierung werden Sie danach gefragt, ob Sie eine E-Mail Benachrichtigung an den Veranstalter und an die Teilnehmer verschicken möchten. 
