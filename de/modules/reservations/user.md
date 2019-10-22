@@ -48,7 +48,7 @@ Oben links können Sie das Datum ändern und linkst stehen wieder die Navigation
 Diese Ansicht ist eine Zeitachse, die Sie mit der Maus bedienen. Der Pfeil nach unten zeigt, dass mehrere Räume noch darunter sind und Sie können mit Halten der rechter Maustaste die Zeitachse bewegen - links und rechts für die Tage, nach oben und nach unten für die Räume. 
 Mit Scrollen werden die Zeitintevallen vergrößert bzw. verkleinert. 
 
-*Bild 4: Zeitachse*
+*Bild 5: Zeitachse*
 ![Vr Forms De Reservierungen Ubersicht Zeitachse](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-zeitachse.png "Vr Forms De Reservierungen Ubersicht Zeitachse")
 
 ## Suchen/Filtern
@@ -57,6 +57,7 @@ Unter den Ansichten sind die Filter. Die Filter haben direkten Einfluss auf die 
 > **Beispiel:**  nach Betreff *Meeting* - alle Reservierungen, die diese Zeichenkette in dem Betreff beinhaltet werden angezeigt. Alle anderen werden ausgeblendet.
 ![Vr Forms De Reservierungen Ubersicht Filter Meeting 1](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-meeting-1.png "Vr Forms De Reservierungen Ubersicht Filter Meeting 1")
 {.is-info}
+
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude")
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren")
 
