@@ -127,7 +127,9 @@ Diese Optionen werden gefiltert. Zuerst müssen Sie die Zeiten und die Teilnehme
 
 > **Beispiel:**  wir bestellen einige Getränke für unsere Veranstaltung
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung 3](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-catering.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering")
+> Mit Klick auf das Bild können Sie es vergrößern.
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering 2](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-catering-2.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering 2")
+> Anzahl Cola / Wasser eingeben.
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering 3](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-catering-3.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering 3")
 {.is-info}
 
