@@ -151,6 +151,18 @@ Falls Sie Zusatzinventar hinzufügen möchten, klicken Sie auf das Feld *Zusatzi
 *Bild 12: Zusatzinventar hinzufügen*
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung Inventar 2](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-inventar-1.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Inventar 1")
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung Inventar 2](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-inventar-2.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Inventar 2")
+
+## Teilnehmer hinzufügen
+Damit Sie Teilnehmer hinzufügen, wählen Sie die Person aus der Dropdown-Liste und klicken Sie auf das `+` Zeichen, damit Sie die Person hinzufügen. 
+Sie können die Personen einzeln hinzufügen oder Sie haben die Option für mehrfache Auswahl.
+
+*Bild 13: Teilnehmer hinzufügen*
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-teilnehmer.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer")
+
+*Bild 14: Mehrere Teilnehmer in einem Schritt hinzufügen*
+
+
+VR-Forms-de-Reservierungen_Neue_Einzelraum-Reservierung_Teilnehmer_mehrfache_Auswahl
 ## Neue Reservierung mehrerer Räume
 ## Bürolieferung
 
