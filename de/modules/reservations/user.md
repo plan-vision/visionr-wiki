@@ -24,7 +24,10 @@ Die Standardansicht ist die Kalenderansicht, die auf dem Bild 2 gezeigt ist. Die
 
 ### Kalender Woche
 
-Hier werden die Reservierungen in dem Kalender für eine Woche gezeigt. Sie können die Navigationspfeilen oben rechts nutzen, um die angezeigte Woche zu verschieben. Mögliche Schritte sind *Tag* und "*Woche*. 
+Hier werden die Reservierungen in dem Kalender für eine Woche gezeigt (siehe Bild 2). Sie können die Navigationspfeilen oben rechts nutzen, um die angezeigte Woche zu verschieben. Mögliche Schritte sind *Tag* und "*Woche*. 
+Mit Klick auf eine Reservierung wird sie aufgemacht und die wichtigste Daten werden angezeigt.
+
+
 
 
 
