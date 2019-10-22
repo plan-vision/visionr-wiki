@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Modul für die Online-Reservierungen von Räumen / Inventar / Arbeitsplätzen -->
 
 Deutsch | [English](/en/modules/contacts/user)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > [Modul Kontakte](/de/modules/reservations) > Normale Benutzer*
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > [Modul Reservierungen](/de/modules/reservations) > Normale Benutzer*
 # Beschreibung
 
 Das Modul  ist ein leistungsfähiges Werkzeug für Online-Reservierungen von Räumen und Inventar. Es unterstützt wiederkehrende Reservierungen, automatisches Versenden von Bestätigungs-E-Mails und Statusverfolgung von Reservierungsanfragen. Eine Kalenderansicht zeigt die Belegung von Räumen und Inventar. Das Modul kann auch für die Reservierung von Sitzplätzen eingesetzt werden. 
