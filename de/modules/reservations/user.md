@@ -148,9 +148,9 @@ Die Zusatzinventar können Sie wie die Bewirtung bestellen. Sie können wieder m
 
 Falls Sie Zusatzinventar hinzufügen möchten, klicken Sie auf das Feld *Zusatzinventar* und wählen Sie aus der Liste eine Option aus. Dann geben Sie die gewünschte Zeit an und klicken Sie auf `Hinzufügen`. Geben Sie die Anzahl an und speichern Sie diese Bestellung. 
 
-*Bild 12: Zusatzinventar*
-
-
+*Bild 12: Zusatzinventar hinzufügen*
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung Inventar 2](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-inventar-1.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Inventar 1")
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung Inventar 2](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-inventar-2.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Inventar 2")
 ## Neue Reservierung mehrerer Räume
 ## Bürolieferung
 
