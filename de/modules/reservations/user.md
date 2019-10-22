@@ -141,8 +141,14 @@ Diese Optionen werden gefiltert. Zuerst müssen Sie die Zeiten und die Teilnehme
 
 Die Zusatzinventar können Sie wie die Bewirtung bestellen. Sie können wieder mehrere Bestellungen für unterschiedliche Zeiten machen. 
 
-> **Bemerkung** Jede Reservierungseinheit kann standardmäßig Technik / Inventar wie Beamer, WiFi etc. beinhalten. Diese werden mit der Raumauswahl gezeigt oder Sie können diese als Filter nutzen, wenn Sie die Reservierung erstellen. Die Räume werden danach gefiltert.  
+> **Bemerkung** Jede Reservierungseinheit kann standardmäßig Technik / Inventar wie Beamer, WiFi etc. beinhalten. Diese werden mit der Raumauswahl gezeigt oder Sie können diese als Filter nutzen, wenn Sie die Reservierung erstellen. Die Räume werden danach gefiltert. 
 
+*Bild 11: Standardinventar für den ausgewählten Raum*
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung Inventar Vorhanden](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-inventar-vorhanden.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Inventar Vorhanden")
+
+Falls Sie Zusatzinventar hinzufügen möchten, klicken Sie auf das Feld *Zusatzinventar* und wählen Sie aus der Liste eine Option aus. Dann geben Sie die gewünschte Zeit an und klicken Sie auf `Hinzufügen`. Geben Sie die Anzahl an und speichern Sie diese Bestellung. 
+
+*Bild 12: Zusatzinventar*
 
 
 ## Neue Reservierung mehrerer Räume
