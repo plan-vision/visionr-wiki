@@ -61,13 +61,19 @@ Diese Ansicht zeigt die Reservierungen in tabellarischer Form und Sie können di
 ## Suchen/Filtern
 Unter den Ansichten sind die Filter. Die Filter haben direkten Einfluss auf die Kalenderansicht. Sie können die Reservierungen sehr schnell filtern, um eine bessere Übersicht zu bekommen. Einige Beispiele:
 
-> **Beispiel:**  nach Betreff *Meeting* - alle Reservierungen, die diese Zeichenkette in dem Betreff beinhaltet werden angezeigt. Alle anderen werden ausgeblendet.
+> **Beispiel:**  nach Betreff *Meeting* - nur die Reservierungen, die diese Zeichenkette in dem Betreffe enhalten, werden angezeigt. Alle anderen werden ausgeblendet.
 ![Vr Forms De Reservierungen Ubersicht Filter Meeting 1](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-meeting-1.png "Vr Forms De Reservierungen Ubersicht Filter Meeting 1")
 {.is-info}
 
+> **Beispiel:**  nach Veranstalter / Koordinator - nur die Reservierungen mit ausgewählten Veranstalter und / oder Koordinator werden angezeigt. Alle anderen werden Ausgeblendet. Der Einfachheit halber sind die *Ich* optionen als Häkchen dargestellt. Mit Aktivieren dieser Option werden Sie in dem Feld als Filter gesetzt. 
+![Vr Forms De Reservierungen Ubersicht Filter Veranstalter](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-veranstalter.png "Vr Forms De Reservierungen Ubersicht Filter Veranstalter")
+> oder wenn Veranstalter bin 
+![Vr Forms De Reservierungen Ubersicht Filter Veranstalter Ich](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-veranstalter-ich.png "Vr Forms De Reservierungen Ubersicht Filter Veranstalter Ich")
+{.is-info}
 
+> **Beispiel:**  nach einem Gebäude - nur die Resesrvierungen, die zu diesem Gebäude gehören, werden angezeigt. Alle anderen werden ausgeblendet. Die Filter nach Geschoss und Raumeinheit sind sehr ähnlich.
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude")
-![Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren")
+{.is-info}
 
 ### Filter leeren / zurücksetzen
 
@@ -79,4 +85,5 @@ Sie können die Filter entweder mit den Tasten `Backspace` oder `Entfernen` leer
 > **Beispiel:**  Gebäude leeren. Geschoss / Raumeinheit / Raumtyp werden identisch zurcükgesetzt.
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren")
 {.is-info}
+
 ## Kalender
