@@ -10,3 +10,5 @@ Das Modul  ist ein leistungsfähiges Werkzeug für Online-Reservierungen von Rä
 Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiter `Seiten` auswählen und den Button `Reservierungen` anklicken (siehe Bild 1). Alternativ können Sie auch die direkte Moduladresse in Ihrem Browser eingeben: http://serveradresse/forms#/main/reservations
 
 *Bild 1: Modul Reservierungen über die Index-Seite aufrufen*
+
+![Vr Forms De Reservierungen Indexseite](/uploads/reservierungen/vr-forms-de-reservierungen-indexseite.jpg "Vr Forms De Reservierungen Indexseite")
