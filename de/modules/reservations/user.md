@@ -25,11 +25,20 @@ Die Standardansicht ist die Kalenderansicht, die auf dem Bild 2 gezeigt ist. Die
 ### Kalender Woche
 
 Hier werden die Reservierungen in dem Kalender für eine Woche gezeigt (siehe Bild 2). Sie können die Navigationspfeilen oben rechts nutzen, um die angezeigte Woche zu verschieben. Mögliche Schritte sind *Tag* und "*Woche*. 
-Mit Klick auf eine Reservierung wird sie aufgemacht und die wichtigste Daten werden angezeigt.
+Mit Klick auf eine Reservierung wird sie aufgemacht und die wichtigste Daten werden angezeigt. 
 
+![Vr Forms De Reservierungen Reservierung Offnen](/uploads/reservierungen/vr-forms-de-reservierungen-reservierung-offnen.png "Vr Forms De Reservierungen Reservierung Offnen")
 
-
-
+Mit Klick auf den Button `Bearbeiten` können Sie die Reservierung bearbeiten. 
+> **Info** Mit Klick auf den `+` Button unter allen Reservierungen für den Tag erstellen Sie eine neue Reservierung mit diesem Datum. Das Datum können Sie in dem angezeigten Formular ändern. 
+> {.is-info}
 
 ## Suchen/Filtern
+Unter den Ansichten sind die Filter. Die Filter haben direkten Einfluss auf die Kalenderansicht. Sie können die Reservierungen sehr schnell filtern, um eine bessere Übersicht zu bekommen. Einige Beispiele:
+
+> **Beispiel:**  nach Betreff *Meeting* - alle Reservierungen, die diese Zeichenkette in dem Betreff beinhaltet werden angezeigt. Alle anderen werden ausgeblendet.
+
+{.is-info}
+
+
 ## Kalender
