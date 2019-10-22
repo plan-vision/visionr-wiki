@@ -171,11 +171,13 @@ Die Reservierung mehrerer Räume ist ähnlich wie die Einzelraum-Reservierung, m
 Klicken Sie auf den Button oben links „+ Neue Reservierung“ und wählen Sie „Neue Reservierung mehrerer Räume“.
 
 *Bild 17: Neue Reservierung mehrerer Räume*
+![Res Neu Mehrfach Formular](/uploads/reservierungen/res-neu-mehrfach-formular.png "Res Neu Mehrfach Formular")
 
+*Bild 18: Neue Reservierung mehrerer Räume Formularansicht*
+![Res Neu Mehrfach Formular](/uploads/reservierungen/res-neu-mehrfach-formular2.png "Res Neu Mehrfach Formular 2")
 
 *Bild 17: Neue Reservierung mehrerer Räume*
-
-*Bild 17: Neue Reservierung mehrerer Räume*
+![Res Neu Mehrfach Formular](/uploads/reservierungen/res-neu-mehrfach-formular3.png "Res Neu Mehrfach Formular 3")
 
 # Bürolieferung
 # Benachrichtigung verschicken
