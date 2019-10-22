@@ -1,0 +1,12 @@
+<!-- TITLE: Modul "Reservierungen" für normale Benutzer -->
+<!-- SUBTITLE: Modul für die Online-Reservierungen von Räumen / Inventar / Arbeitsplätzen -->
+
+Deutsch | [English](/en/modules/contacts/user)
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > [Modul Kontakte](/de/modules/reservations) > Normale Benutzer*
+# Beschreibung
+
+Das Modul  ist ein leistungsfähiges Werkzeug für Online-Reservierungen von Räumen und Inventar. Es unterstützt wiederkehrende Reservierungen, automatisches Versenden von Bestätigungs-E-Mails und Statusverfolgung von Reservierungsanfragen. Eine Kalenderansicht zeigt die Belegung von Räumen und Inventar. Das Modul kann auch für die Reservierung von Sitzplätzen eingesetzt werden. 
+
+Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiter `Seiten` auswählen und den Button `Reservierungen` anklicken (siehe Bild 1). Alternativ können Sie auch die direkte Moduladresse in Ihrem Browser eingeben: http://serveradresse/forms#/main/reservations
+
+*Bild 1: Modul Reservierungen über die Index-Seite aufrufen*
