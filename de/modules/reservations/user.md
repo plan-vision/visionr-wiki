@@ -17,4 +17,16 @@ Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiter `Seiten` 
 *Bild 2: Übersicht im Modul Reservierungen*
 
 ![Vr Forms De Reservierungen Ubersicht](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht.png "Vr Forms De Reservierungen Ubersicht")
+# Bedienung der Oberfläche
+## Ansicht ändern
 
+Die Standardansicht ist die Kalenderansicht, die auf dem Bild 2 gezeigt ist. Die Ansichten sind links under den Button `Übersicht` aufgelistet. Mit Klick darauf ändern Sie die Ansicht.
+
+### Kalender Woche
+
+Hier werden die Reservierungen in dem Kalender für eine Woche gezeigt. Sie können die Navigationspfeilen oben rechts nutzen, um die angezeigte Woche zu verschieben. Mögliche Schritte sind *Tag* und "*Woche*. 
+
+
+
+## Suchen/Filtern
+## Kalender
