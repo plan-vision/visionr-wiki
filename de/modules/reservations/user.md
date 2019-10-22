@@ -41,7 +41,7 @@ Diese Ansicht zeigt die Reservierungen nach Räumen. Statt der Tage werden die R
 *Bild 4: Ansicht nach Räumen*
 ![Vr Forms De Reservierungen Ubersicht Nach Raume](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-nach-raume.png "Vr Forms De Reservierungen Ubersicht Nach Raume")
 
-Oben links können Sie das Datum ändern und linkst stehen wieder die Navigationspfeile. 
+Oben links können Sie das Datum ändern und links stehen wieder die Navigationspfeile. 
 
 ### Zeitachse
 
