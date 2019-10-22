@@ -175,7 +175,7 @@ Standardmäßig ist diese Option aktiviert. Falls Sie das nicht wünschen, nehme
 Sie können bis innerhalb einer gewissen Zeit vor der Startzeit die Reservierung bearbeiten. Dafür klicken Sie auf die gewünschte Reservierung und in der Übersicht auf den Button „Bearbeiten“.
 
 *Bild 16: Die neu erstelle Reservierung in der Kalenderansicht*
-
+![Res Bearbeiten](/uploads/reservierungen/res-bearbeiten.png "Res Bearbeiten")
 
 ## Neue Reservierung mehrerer Räume
 ## Bürolieferung
