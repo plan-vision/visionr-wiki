@@ -123,10 +123,13 @@ Nachdem Sie Pflichteingaben gemacht haben, können Sie den Cateringauftrag (Bewi
 ## Bewirtung / Catering
 
 In der Formularansicht klicken Sie auf Feld „Catering“ und die vorhandenen Cateringoptionen werden angezeigt. 
-Diese Optionen werden gefiltert. Zuerst müssen Sie die Zeiten und die Teilnehmer eingeben, danach den Raum und hinsichtlich dieser Einstellungen werden die Cateringoptionen angezeigt. Wählen Sie eine und passen Sie die Uhrzeit an, wann diese Bewirtung geliefert werden soll. Dann klicken Sie auf den Button `Hinzufügen`. 
+Diese Optionen werden gefiltert. Zuerst müssen Sie die Zeiten und die Teilnehmer eingeben, danach den Raum und hinsichtlich dieser Einstellungen werden die Cateringoptionen angezeigt. Wählen Sie eine und passen Sie die Uhrzeit an, wann diese Bewirtung geliefert werden soll. Dann klicken Sie auf den Button `Hinzufügen` und drin geben Sie die gewünschte Anzahl ein. Die Summe wird rechts gezeigt. 
 
-*Bild 11: Einzelraum-Reservierung Bewirtung: Beispiel*
+> **Beispiel:**  wir bestellen einige Getränke für unsere Veranstaltung
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung 3](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-catering.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering")
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering 2](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-catering-2.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering 2")
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering 3](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-catering-3.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Catering 3")
+{.is-info}
 
 
 ## Neue Reservierung mehrerer Räume
