@@ -93,10 +93,10 @@ Klicken Sie auf den Button oben links `+ Neue Reservierung` und dann wählen Sie
 
 > **Altermantiv:** : Navigieren Sie zum dem Datum, an dem Sie die Reservierung erstellen möchten und mit Klick auf den „+“ erstellen Sie eine neue Reservierung. Das Datum wird eingetragen. 
 
-*Bild 6: Neue Einzelraum-Reservierung*
+*Bild 7: Neue Einzelraum-Reservierung*
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung")
 
-*Bild 7: Einzelraum-Reservierung Formularansicht*
+*Bild 8: Einzelraum-Reservierung Formularansicht*
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung 1](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-1.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung 1")
 
 Unten in roter Farbe werden die fehlenden Eingaben hervorgehoben. Geben Sie unbedingt diese ein.
@@ -113,21 +113,26 @@ Machen Sie die folgenden Eingaben, damit Sie den verfügbaren Raum für Ihre Ver
 7. Fügen Sie Bewirtung oder Inventarbestellung hinzu. 
 8. Speichern Sie den Vorgang. Die Reservierung wird in der ausgewählten Ansicht erscheinen.
 
-*Bild 8: Einzelraum-Reservierung Formularansicht*
+*Bild 9: Einzelraum-Reservierung Formularansicht*
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung 2](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-2.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung 2")
 
-*Bild 9: Einzelraum-Reservierung Raum und Sitzanordnung wählen*
-
+*Bild 10: Einzelraum-Reservierung Raum und Sitzanordnung wählen*
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung 3](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-3.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung 3")
 
 Nachdem Sie Pflichteingaben gemacht haben, können Sie den Cateringauftrag (Bewirtung) / Inventarauftrag erstellen.
+## Bewirtung / Catering
 
+In der Formularansicht klicken Sie auf Feld „Catering“ und die vorhandenen Cateringoptionen werden angezeigt. 
+Diese Optionen werden gefiltert. Zuerst müssen Sie die Zeiten und die Teilnehmer eingeben, danach den Raum und hinsichtlich dieser Einstellungen werden die Cateringoptionen angezeigt. Wählen Sie eine und passen Sie die Uhrzeit an, wann diese Bewirtung geliefert werden soll. Dann klicken Sie auf den Button `Hinzufügen`. 
 
+*Bild 11: Einzelraum-Reservierung Bewirtung: Beispiel*
 
 
 
 ## Neue Reservierung mehrerer Räume
-
-
-
 ## Bürolieferung
+
+
+
+
 
