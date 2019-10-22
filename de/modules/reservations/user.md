@@ -86,8 +86,7 @@ Sie können die Filter entweder mit den Tasten `Backspace` oder `Entfernen` leer
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren")
 {.is-info}
 
-# Neue Reservierung
-## Neue Einzelraum-Reservierung 
+# Neue Einzelraum-Reservierung 
 
 Klicken Sie auf den Button oben links `+ Neue Reservierung` und dann wählen Sie aus dem Menü  `Einzelraum-Reservierung`. 
 
@@ -167,20 +166,20 @@ Speichern Sie anschließend die Reservierung. Diese wird danach in der Kalendera
 *Bild 16: Die neu erstelle Reservierung in der Kalenderansicht*
 ![Res Neu Ergebnis Kalender](/uploads/reservierungen/res-neu-ergebnis-kalender.png "Res Neu Ergebnis Kalender")
 
-## Benachrichtigung verschicken
+
+
+
+# Neue Reservierung mehrerer Räume
+# Bürolieferung
+# Benachrichtigung verschicken
 Beim Speichern der Reservierung werden Sie danach gefragt, ob Sie eine E-Mail Benachrichtigung an den Veranstalter und an die Teilnehmer verschicken möchten. 
 Standardmäßig ist diese Option aktiviert. Falls Sie das nicht wünschen, nehmen Sie das Häkchen raus. 
 
-## Reservierung bearbeiten
+# Reservierung bearbeiten
 Sie können bis innerhalb einer gewissen Zeit vor der Startzeit die Reservierung bearbeiten. Dafür klicken Sie auf die gewünschte Reservierung und in der Übersicht auf den Button „Bearbeiten“.
 
 *Bild 16: Die neu erstelle Reservierung in der Kalenderansicht*
 ![Res Bearbeiten](/uploads/reservierungen/res-bearbeiten.png "Res Bearbeiten")
-
-## Neue Reservierung mehrerer Räume
-## Bürolieferung
-
-
 
 
 
