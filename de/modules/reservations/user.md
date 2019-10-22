@@ -67,7 +67,7 @@ Unter den Ansichten sind die Filter. Die Filter haben direkten Einfluss auf die 
 
 > **Beispiel:**  nach Veranstalter / Koordinator - nur die Reservierungen mit ausgewählten Veranstalter und / oder Koordinator werden angezeigt. Alle anderen werden Ausgeblendet. Der Einfachheit halber sind die *Ich* optionen als Häkchen dargestellt. Mit Aktivieren dieser Option werden Sie in dem Feld als Filter gesetzt. 
 ![Vr Forms De Reservierungen Ubersicht Filter Veranstalter](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-veranstalter.png "Vr Forms De Reservierungen Ubersicht Filter Veranstalter")
-> oder wenn Veranstalter bin 
+> oder wenn ich der Veranstalter bin
 ![Vr Forms De Reservierungen Ubersicht Filter Veranstalter Ich](/uploads/reservierungen/vr-forms-de-reservierungen-ubersicht-filter-veranstalter-ich.png "Vr Forms De Reservierungen Ubersicht Filter Veranstalter Ich")
 {.is-info}
 
