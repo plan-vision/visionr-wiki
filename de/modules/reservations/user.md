@@ -166,9 +166,6 @@ Speichern Sie anschließend die Reservierung. Diese wird danach in der Kalendera
 *Bild 16: Die neu erstelle Reservierung in der Kalenderansicht*
 ![Res Neu Ergebnis Kalender](/uploads/reservierungen/res-neu-ergebnis-kalender.png "Res Neu Ergebnis Kalender")
 
-
-
-
 # Neue Reservierung mehrerer Räume
 # Bürolieferung
 # Benachrichtigung verschicken
