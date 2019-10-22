@@ -173,12 +173,6 @@ Klicken Sie auf den Button oben links „+ Neue Reservierung“ und wählen Sie 
 *Bild 17: Neue Reservierung mehrerer Räume*
 ![Res Neu Mehrfach Formular](/uploads/reservierungen/res-neu-mehrfach-formular.png "Res Neu Mehrfach Formular")
 
-*Bild 18: Neue Reservierung mehrerer Räume Formularansicht*
-![Res Neu Mehrfach Formular](/uploads/reservierungen/res-neu-mehrfach-formular2.png "Res Neu Mehrfach Formular 2")
-
-*Bild 17: Neue Reservierung mehrerer Räume*
-![Res Neu Mehrfach Formular](/uploads/reservierungen/res-neu-mehrfach-formular3.png "Res Neu Mehrfach Formular 3")
-
 # Bürolieferung
 # Benachrichtigung verschicken
 Beim Speichern der Reservierung werden Sie danach gefragt, ob Sie eine E-Mail Benachrichtigung an den Veranstalter und an die Teilnehmer verschicken möchten. 
