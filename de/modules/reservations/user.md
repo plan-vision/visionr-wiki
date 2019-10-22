@@ -93,7 +93,7 @@ Klicken Sie auf den Button oben links `+ Neue Reservierung` und dann wählen Sie
 
 > **Altermantiv:** : Navigieren Sie zum dem Datum, an dem Sie die Reservierung erstellen möchten und mit Klick auf den „+“ erstellen Sie eine neue Reservierung. Das Datum wird eingetragen. 
 
-*Bild 6: Neue Einzelraum-Reservierung*
+*Bild 6: Neue Einzelraum-Reservierung Formularansicht*
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung")
 
 *Bild 7: Einzelraum-Reservierung Formularansicht*
@@ -105,9 +105,18 @@ Die Räume werden gefiltert – also nur die Räume, die tatsächlich frei für 
 Machen Sie die folgenden Eingaben, damit Sie den verfügbaren Raum für Ihre Veranstaltung schneller finden. 
 
 1. Geben Sie zuerst die Zeiten und die Anzahl Teilnehmer ein.
+2. Geben Sie den Betreff ein.
+3. Geben Sie die Beschreibung, falls nötig. Dieses Feld ist mehrzeiliges Feld. Sie können mit der *Enter-Taste* eine Neue Zeile erstellen und weiter schreiben. 
+4. Gebäude auswählen
+5. Die Räume werden gefiltert. Nur die freien Räume für diese Zeit und für diese Anzahl Teilnehmer werden in der Liste angezeigt. Wählen Sie einen Raum aus der Liste / oder aus dem Plan. 
+6. Setzen Sie die Sitzanordnung an. Dieses Feld erscheint, nachdem der Raum ausgewählt wurde. 
+7. Fügen Sie Bewirtung oder Inventarbestellung hinzu. 
+8. Speichern Sie den Vorgang. Die Reservierung wird in der ausgewählten Ansicht erscheinen.
 
+*Bild 7: Einzelraum-Reservierung Formularansicht*
+![Vr Forms De Reservierungen Neue Einzelraum Reservierung 1](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-1.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung 1")
 
-
+Nachdem Sie Pflichteingaben gemacht haben, können Sie den Cateringauftrag (Bewirtung) / Inventarauftrag erstellen.
 
 
 
