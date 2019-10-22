@@ -162,8 +162,19 @@ Sie können die Personen einzeln hinzufügen oder Sie haben die Option für mehr
 *Bilder 14 und 15: Mehrere Teilnehmer in einem Schritt hinzufügen*
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer Mehrfache Auswahl](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-teilnehmer-mehrfache-auswahl.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer Mehrfache Auswahl")
 ![Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer Mehrfache Auswahl 2](/uploads/reservierungen/vr-forms-de-reservierungen-neue-einzelraum-reservierung-teilnehmer-mehrfache-auswahl-2.png "Vr Forms De Reservierungen Neue Einzelraum Reservierung Teilnehmer Mehrfache Auswahl 2")
+Speichern Sie anschließend die Reservierung. Diese wird danach in der Kalenderansicht angezeigt. 
 
-VR-Forms-de-Reservierungen_Neue_Einzelraum-Reservierung_Teilnehmer_mehrfache_Auswahl
+*Bild 16: Die neu erstelle Reservierung in der Kalenderansicht*
+![Res Neu Ergebnis Kalender](/uploads/reservierungen/res-neu-ergebnis-kalender.png "Res Neu Ergebnis Kalender")
+
+## Benachrichtigung verschicken
+Beim Speichern der Reservierung werden Sie danach gefragt, ob Sie eine E-Mail Benachrichtigung an den Veranstalter und an die Teilnehmer verschicken möchten. 
+Standardmäßig ist diese Option aktiviert. Falls Sie das nicht wünschen, nehmen Sie das Häkchen raus. 
+
+## Reservierung bearbeiten
+Sie können bis innerhalb einer gewissen Zeit vor der Startzeit die Reservierung bearbeiten. Dafür klicken Sie auf die gewünschte Reservierung und in der Übersicht auf den Button „Bearbeiten“.
+
+
 ## Neue Reservierung mehrerer Räume
 ## Bürolieferung
 
