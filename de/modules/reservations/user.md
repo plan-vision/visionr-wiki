@@ -171,14 +171,61 @@ Die Reservierung mehrerer Räume ist ähnlich wie die Einzelraum-Reservierung, m
 Klicken Sie auf den Button oben links „+ Neue Reservierung“ und wählen Sie „Neue Reservierung mehrerer Räume“.
 
 *Bild 17: Neue Reservierung mehrerer Räume*
-![Res Neu Mehrfach Formular](/uploads/reservierungen/res-neu-mehrfach-formular.png "Res Neu Mehrfach Formular")
+![Res 1](/uploads/reservierungen/res-neu-mehrfach-formular.png "1")
 
-![Res Neu Mehrfach Form 2 1](/uploads/reservierungen/res-neu-mehrfach-form-2-1.png "Res Neu Mehrfach Form 2 1")
+Geben Sie die Zeiten ein (Begin- und Endzeit), Betreff, Anzahl Teilnehmer und die Räume. Die Abteilung und die Kostenstelle werden von der Person genommen, aber können geändert werden. Sie müssen auch die Anzahl Teilnehmer eingegeben werden. Dann wählen Sie das Gebäude aus, damit die Räume nach den gewünschten Kriterien (Datum, Uhrzeit, Teilnehmer) gefiltert werden, und wählen Sie den ersten Raum aus. 
 
-![Res Neu Mehrfach Form 3 1](/uploads/res-neu-mehrfach-form-3-1.png "Res Neu Mehrfach Form 3 1")
+*Bild 18: Neue Reservierung mehrerer Räume - erster Raum wurde reserviert*
+![Res 2](/uploads/reservierungen/RES-mehr2.png "2")
 
+Aus der Raumliste wählen Sie einen der freien Räume und klicken Sie auf „Hinzufügen“. Falls die Liste leer ist, können Sie das Gebäude ändern. Der erste Raum ist reserviert. Darunter können Sie zusätzlichen Raum hinzufügen. 
+
+*Bild 19: Neue Reservierung mehrerer Räume - zweiter Raum wurde reserviert*
+![Res 3](/uploads/reservierungen/RES-mehr3.png "3")
+
+> **Bemerkung** Sie können mehrere Räume hinzufügen. Die Vorgehensweise ist immer identisch. Die Reservierung erfolgt, wenn Sie die Hauptreservierung speichern. 
+
+Am Ende erscheinen zwei Termine/Veranstaltungen in dem Kalender, die aber zusammengehören. Das Sysmbol für Videokonferenz ist in der linken Ecke angezeigt. 
+
+*Bild 20: Neue Reservierung mehrerer Räume - in dem Kalender*
+![RES mehr4](/uploads/reservierungen/RES-mehr4.png "Reservierung mehrerer Räume Beispiel")
+
+
+## Bewirtung / Catering Mehrerer Räume
+
+Hier bestellen Sie die Bewirtung / Cateringpro reservierten Raum. Nachhdem die Reservierung gespeichert ist, d.h. dass die Räume schon für die Zeiten reserviert sind, können SIe die Reservierung aufmachen und pro reservierten Raum Bewirtung bestellen. 
+Die Bestellung ist identisch mit der Bestellung für die Einzelraum-Reservierung. Der Unterschied ist, dass es hier pro Raum eine oder mehrere Bewirtung/en möglich sind.
+
+Öffnen Sie die Reservierung mit einfachen Klick (egal welchen Teil davon), dann klicken Sie auf `Bearbeiten`, um die Reservierung aufzumachen. Wählen Sie einen der verknüpften Räume und klicken Sie dann auf `Bearbeiten`. Die Reservierung für diesen einzelnen Raum wird aufgemacht. 
+
+*Bild 21: Reservierung mehrerer Räume bearbeiten*
+![RES mehr5](/uploads/reservierungen/RES-mehr5.png "Reservierung mehrerer Räume Bearbeiten")
+
+*Bild 22: Reservierung mehrerer Räume - Raum für Bewirtung aufmachen*
+![RES mehr6](/uploads/reservierungen/RES-mehr6.png "Einen Raum für Bewirtung bearbeiten")
+
+Sie können wie oben beschrieben Bewirtung / Catering  bestellen. Die Bestellungen sind pro Raum zu machen, weil die Videokonferenzen sich auf unterschiedliche Standorte beziehen können und die Bewirtungen sich unterscheiden können.
+
+*Bild 23: Bewirtung für einen Raum bestellen*
+![RES mehr7](/uploads/reservierungen/RES-mehr7.png "Bewirtung bestellen")
+
+## Zusatzinventar Mehrerer Räume
 
 # Bürolieferung
+Klicken Sie auf den Button oben links `+ Neue Reservierung` und aus dem Auswahlmenü wählen Sie `Bürolieferung`.
+
+![RES BuerLief1](/uploads/reservierungen/RES-BuerLief1.png "Bürolieferung")
+
+Füllen Sie die Felder aus - die Zeiten, den Betreff, Beschreibung und Raum. Danach können Sie entweder Bewirtung oder Inventar für diesen Raum bestellen. Die Räume werden nach Nutzung "Büro" etc. gefiltert. 
+![RES BuerLief2](/uploads/reservierungen/RES-BuerLief2.png "Felder ausfüllen für die Bürolieferung")
+
+Als Beispiel haben wir hier Inventar für ein Büroraum bestellt. 
+> **Beispiel:**  wir bestellen einen Beamer  und einen Fernseher
+![RES BuerLief3](/uploads/reservierungen/RES-BuerLief3.png "Inventarbestellung für ein Büro")
+>Am Ende speichern wir die Bestellung und sie wird in dem Kalender erscheinen. 
+![RES BuerLief4](/uploads/reservierungen/RES-BuerLief4.png "Bürolieferung in dem Kalender")
+{.is-info}
+
 # Benachrichtigung verschicken
 Beim Speichern der Reservierung werden Sie danach gefragt, ob Sie eine E-Mail Benachrichtigung an den Veranstalter und an die Teilnehmer verschicken möchten. 
 Standardmäßig ist diese Option aktiviert. Falls Sie das nicht wünschen, nehmen Sie das Häkchen raus. 
@@ -186,7 +233,7 @@ Standardmäßig ist diese Option aktiviert. Falls Sie das nicht wünschen, nehme
 # Reservierung bearbeiten
 Sie können bis innerhalb einer gewissen Zeit vor der Startzeit die Reservierung bearbeiten. Dafür klicken Sie auf die gewünschte Reservierung und in der Übersicht auf den Button „Bearbeiten“.
 
-*Bild 16: Die neu erstelle Reservierung in der Kalenderansicht*
+*Bild 24: Die neu erstelle Reservierung in der Kalenderansicht*
 ![Res Bearbeiten](/uploads/reservierungen/res-bearbeiten.png "Res Bearbeiten")
 
 
