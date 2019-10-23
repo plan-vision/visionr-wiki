@@ -212,6 +212,19 @@ Sie können wie oben beschrieben Bewirtung / Catering  bestellen. Die Bestellung
 ## Zusatzinventar Mehrerer Räume
 
 # Bürolieferung
+Klicken Sie auf den Button oben links `+ Neue Reservierung` und aus dem Auswahlmenü wählen Sie `Bürolieferung`.
+
+![RES BuerLief1](/uploads/reservierungen/RES-BuerLief1.PNG "Bürolieferung")
+
+Füllen Sie die Felder aus - die Zeiten, den Betreff, Beschreibung und Raum. Danach können Sie entweder Bewirtung oder Inventar für diesen Raum bestellen. Die Räume werden nach Nutzung "Büro" etc. gefiltert. 
+![RES BuerLief2](/uploads/reservierungen/RES-BuerLief2.PNG "Felder ausfüllen für die Bürolieferung")
+
+Als Beispiel haben wir hier Inventar für ein Büroraum bestellt. 
+> **Beispiel:**  wir bestellen einen Beamer  und einen Fernseher
+![RES BuerLief3](/uploads/reservierungen/RES-BuerLief3.PNG "Inventarbestellung für ein Büro")
+>Am Ende speichern wir die Bestellung und sie wird in dem Kalender erscheinen. 
+![RES BuerLief4](/uploads/reservierungen/RES-BuerLief4.PNG "Bürolieferung in dem Kalender")
+{.is-info}
 
 # Benachrichtigung verschicken
 Beim Speichern der Reservierung werden Sie danach gefragt, ob Sie eine E-Mail Benachrichtigung an den Veranstalter und an die Teilnehmer verschicken möchten. 
