@@ -176,19 +176,19 @@ Klicken Sie auf den Button oben links „+ Neue Reservierung“ und wählen Sie 
 Geben Sie die Zeiten ein (Begin- und Endzeit), Betreff, Anzahl Teilnehmer und die Räume. Die Abteilung und die Kostenstelle werden von der Person genommen, aber können geändert werden. Sie müssen auch die Anzahl Teilnehmer eingegeben werden. Dann wählen Sie das Gebäude aus, damit die Räume nach den gewünschten Kriterien (Datum, Uhrzeit, Teilnehmer) gefiltert werden, und wählen Sie den ersten Raum aus. 
 
 *Bild 18: Neue Reservierung mehrerer Räume - erster Raum wurde reserviert*
-![Res 2](/uploads/reservierungen/2.png "2")
+![Res 2](/uploads/reservierungen/RES-mehr2.png "2")
 
 Aus der Raumliste wählen Sie einen der freien Räume und klicken Sie auf „Hinzufügen“. Falls die Liste leer ist, können Sie das Gebäude ändern. Der erste Raum ist reserviert. Darunter können Sie zusätzlichen Raum hinzufügen. 
 
 *Bild 19: Neue Reservierung mehrerer Räume - zweiter Raum wurde reserviert*
-![Res 3](/uploads/reservierungen/m-3.png "3")
+![Res 3](/uploads/reservierungen/RES-mehr3.png "3")
 
 > **Bemerkung** Sie können mehrere Räume hinzufügen. Die Vorgehensweise ist immer identisch. Die Reservierung erfolgt, wenn Sie die Hauptreservierung speichern. 
 
 Am Ende erscheinen zwei Termine/Veranstaltungen in dem Kalender, die aber zusammengehören. Das Sysmbol für Videokonferenz ist in der linken Ecke angezeigt. 
 
 *Bild 20: Neue Reservierung mehrerer Räume - in dem Kalender*
-![RES mehr2](/uploads/reservierungen/RES-mehr2.png "Reservierung mehrerer Räume Beispiel")
+![RES mehr4](/uploads/reservierungen/RES-mehr4.png "Reservierung mehrerer Räume Beispiel")
 
 
 ## Bewirtung / Catering
