@@ -173,7 +173,7 @@ Klicken Sie auf den Button oben links „+ Neue Reservierung“ und wählen Sie 
 *Bild 17: Neue Reservierung mehrerer Räume*
 ![Res Neu Mehrfach Formular](/uploads/reservierungen/res-neu-mehrfach-formular.png "Res Neu Mehrfach Formular")
 
-![RES Neu Mehrfach Form 2 1](/uploads/reservierungen/RES-Neu-Mehrfach_Form2-1.PNG "RES Neu Mehrfach Form 2 1")
+![Res Neu Mehrfach Formular](/uploads/reservierungen/res-neu-mehrfach-formular.png "Res Neu Mehrfach Formular")
 
 ![Res Neu Mehrfach Form 3 1](/uploads/res-neu-mehrfach-form-3-1.png "Res Neu Mehrfach Form 3 1")
 
