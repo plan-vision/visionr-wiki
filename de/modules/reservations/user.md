@@ -191,7 +191,7 @@ Am Ende erscheinen zwei Termine/Veranstaltungen in dem Kalender, die aber zusamm
 ![RES mehr4](/uploads/reservierungen/RES-mehr4.png "Reservierung mehrerer Räume Beispiel")
 
 
-## Bewirtung / Catering
+## Bewirtung / Catering Mehrerer Räume
 
 Hier bestellen Sie die Bewirtung / Cateringpro reservierten Raum. Nachhdem die Reservierung gespeichert ist, d.h. dass die Räume schon für die Zeiten reserviert sind, können SIe die Reservierung aufmachen und pro reservierten Raum Bewirtung bestellen. 
 Die Bestellung ist identisch mit der Bestellung für die Einzelraum-Reservierung. Der Unterschied ist, dass es hier pro Raum eine oder mehrere Bewirtung/en möglich sind.
@@ -209,7 +209,7 @@ Sie können wie oben beschrieben Bewirtung / Catering  bestellen. Die Bestellung
 *Bild 23: Bewirtung für einen Raum bestellen*
 ![RES mehr7](/uploads/reservierungen/RES-mehr7.png "Bewirtung bestellen")
 
-## Zusatzinventar
+## Zusatzinventar Mehrerer Räume
 
 # Bürolieferung
 
