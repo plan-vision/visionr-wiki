@@ -173,9 +173,6 @@ Klicken Sie auf den Button oben links „+ Neue Reservierung“ und wählen Sie 
 *Bild 17: Neue Reservierung mehrerer Räume*
 ![Res 1](/uploads/reservierungen/res-neu-mehrfach-formular.png "1")
 ![Res 2](/uploads/reservierungen/2.png "2")
-
-Und das Ergebnis sieht so aus:
-
 ![Res 3](/uploads/reservierungen/m-3.png "3")
 # Bürolieferung
 # Benachrichtigung verschicken
