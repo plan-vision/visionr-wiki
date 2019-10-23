@@ -172,10 +172,15 @@ Klicken Sie auf den Button oben links „+ Neue Reservierung“ und wählen Sie 
 
 *Bild 17: Neue Reservierung mehrerer Räume*
 ![Res 1](/uploads/reservierungen/res-neu-mehrfach-formular.png "1")
+
+Geben Sie die Zeiten ein (Begin- und Endzeit), Betreff, Anzahl Teilnehmer und die Räume. Die Abteilung und die Kostenstelle werden von der Person genommen, aber können geändert werden. Sie müssen auch die Anzahl Teilnehmer eingegeben werden. Dann wählen Sie das Gebäude aus, damit die Räume nach den gewünschten Kriterien (Datum, Uhrzeit, Teilnehmer) gefiltert werden, und wählen Sie den ersten Raum aus. 
+
+*Bild 18: Neue Reservierung mehrerer Räume*
 ![Res 2](/uploads/reservierungen/2.png "2")
+
+
 ![Res 3](/uploads/reservierungen/m-3.png "3")
 
-![Res test](/uploads/reservierungen/test.png "test")
 # Bürolieferung
 
 # Benachrichtigung verschicken
