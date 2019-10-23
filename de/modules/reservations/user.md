@@ -196,7 +196,18 @@ Am Ende erscheinen zwei Termine/Veranstaltungen in dem Kalender, die aber zusamm
 Hier bestellen Sie die Bewirtung / Cateringpro reservierten Raum. Nachhdem die Reservierung gespeichert ist, d.h. dass die Räume schon für die Zeiten reserviert sind, können SIe die Reservierung aufmachen und pro reservierten Raum Bewirtung bestellen. 
 Die Bestellung ist identisch mit der Bestellung für die Einzelraum-Reservierung. Der Unterschied ist, dass es hier pro Raum eine oder mehrere Bewirtung/en möglich sind.
 
-Öffnen Sie die Reservierung mit einfachen Klick (egal welchen Teil davon) und mit Klicken auf `Bearbeiten` auf einen der verknüpften Räume wird die Reservierung für diesen einzelnen Raum aufgemacht. Sie können wie oben beschrieben Bewirtung / Catering  bestellen. Die Bestellungen sind pro Raum zu machen, weil die Videokonferenzen sich auf unterschiedliche Standorte beziehen können und die Bewirtungen sich unterscheiden können.
+Öffnen Sie die Reservierung mit einfachen Klick (egal welchen Teil davon), dann klicken Sie auf `Bearbeiten`, um die Reservierung aufzumachen. Wählen Sie einen der verknüpften Räume und klicken Sie dann auf `Bearbeiten`. Die Reservierung für diesen einzelnen Raum wird aufgemacht. 
+
+*Bild 21: Reservierung mehrerer Räume bearbeiten*
+![RES mehr5](/uploads/reservierungen/RES-mehr5.png "Reservierung mehrerer Räume Bearbeiten")
+
+*Bild 22: Reservierung mehrerer Räume - Raum für Bewirtung aufmachen*
+![RES mehr6](/uploads/reservierungen/RES-mehr6.png "Einen Raum für Bewirtung bearbeiten")
+
+Sie können wie oben beschrieben Bewirtung / Catering  bestellen. Die Bestellungen sind pro Raum zu machen, weil die Videokonferenzen sich auf unterschiedliche Standorte beziehen können und die Bewirtungen sich unterscheiden können.
+
+*Bild 23: Bewirtung für einen Raum bestellen*
+![RES mehr7](/uploads/reservierungen/RES-mehr7.png "Bewirtung bestellen")
 
 ## Zusatzinventar
 
