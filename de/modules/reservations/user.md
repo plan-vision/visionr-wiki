@@ -174,6 +174,7 @@ Klicken Sie auf den Button oben links „+ Neue Reservierung“ und wählen Sie 
 ![Res 1](/uploads/reservierungen/res-neu-mehrfach-formular.png "1")
 
 ![Res m3](/uploads/reservierungen/m3.png "m3")
+![Res 2](/uploads/reservierungen/2.png "2")
 
 # Bürolieferung
 # Benachrichtigung verschicken
