@@ -10,12 +10,12 @@ Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiter `Seiten` 
 
 *Bild 1: Modul Kontakte über die Index-Seite aufrufen*
 
-![Modul Kontakte Benutzer](/uploads/kontakte/modul-kontakte-forms-seiten.jpg "Modul Kontakte Benutzer")
+![Modul Kontakte Benutzer](/uploads/de-kontakte/modul-kontakte-forms-seiten.jpg "Modul Kontakte Benutzer")
 
 # Übersicht
 *Bild 2: Übersicht im Modul Kontakte*
 
-![Modul Kontakte Übersicht](/uploads/kontakte/modul-kontakte-forms-seiten-overview.jpg "Modul Kontakte Übersicht")
+![Modul Kontakte Übersicht](/uploads/de-kontakte/modul-kontakte-forms-seiten-overview.jpg "Modul Kontakte Übersicht")
 # Bedienung der Oberfläche
 ## Ansicht ändern
 ## Suchen/Filtern
