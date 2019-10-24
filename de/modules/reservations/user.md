@@ -61,7 +61,7 @@ Diese Ansicht zeigt die Reservierungen in tabellarischer Form und Sie können di
 ## Suchen/Filtern
 Unter den Ansichten sind die Filter. Die Filter haben direkten Einfluss auf die Kalenderansicht. Sie können die Reservierungen sehr schnell filtern, um eine bessere Übersicht zu bekommen. Einige Beispiele:
 
-> **Beispiel:**  nach Betreff *Meeting* - nur die Reservierungen, die diese Zeichenkette in dem Betreffe enhalten, werden angezeigt. Alle anderen werden ausgeblendet.
+> **Beispiel:**  nach Betreff *Meeting* - nur die Reservierungen, die diese Zeichenkette in dem Betreff enhalten, werden angezeigt. Alle anderen werden ausgeblendet.
 ![Vr Forms De Reservierungen Ubersicht Filter Meeting 1](/uploads/de-reservierungen/vr-forms-de-reservierungen-ubersicht-filter-meeting-1.png "Vr Forms De Reservierungen Ubersicht Filter Meeting 1")
 {.is-info}
 
