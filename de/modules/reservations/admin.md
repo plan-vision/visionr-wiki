@@ -13,6 +13,19 @@ Sie können das Modul öffnen indem Sie auf der Index-Maske den Reiter `Seiten` 
 
 Die Adminmaske wird geladen. Links stehen die Objekte als Buttons dargestellt, daneben ist die Baumstruktur, um die Daten zu filtern und rechts werden die Daten angezeigt. 
 
-*Bild 2: Admin Applikationsmaske Raumreservierungen*
+*Bild 2: Admin Applikationsmaske*
 ![RES admin 2](/uploads/de-reservierungen/RES-admin2.png "Admin Applikationsmaske Reservierungen öffnen")
 
+Die Objekte sind in der Kategorie *Übersicht* verpackt. Darunter sind die *Einstellungen* (hier können Sie bestimmen, welche Daten in dem Arbeitsbereich angezeigt werden.
+Kurze Zusammenfassung der verknüpften Objekte:
+
+* Raumeinheit - hier werden die Raumeinheiten definiert, die eigentlich gemietet werden können. Diese werden über den Raum gezeichnet und sind anders als Räume und haben andere Eigenschaften wie Sitzanordnung, Catering / Inventar Bestellungen.
+* Raumreservierungen - hier werden die erstellen Reservierungen in tabellarischer Form angezeigt. Sie können diese hier bearbeiten.
+* Bestellungen Catering - Hier verwalten Sie die Bestellungen für Catering / Bewirtungen. 
+* Bestellungen Inventar - Hier verwalten Sie die Inventarbestellungen.
+* Einstellungen Catering
+* Einstellungen Inventar
+
+## Raumeinheit
+
+Die Raumeinheiten stellen den Raum / die Räume dar, der / die reserviert werden können. Sie beinhalten alle notwendigen Eingabefelder für die Reservierung und sind mit den darunterliegenden (falls gezeichnet) Räumen verknüpft. Die eigentlichen Eingaben werden in dieser Objektdefinition gemacht. Eine Raumeinheit kann für eine bestimmte Zeit reserviert werden. Der Raum dagegen nicht und bleibt als Grundlage mit der Einheit verknüpft. Aus dem Raum werden die Zugehörigkeiten (Raum -> Geschoss -> Gebäude - Liegenschaft) herausgezogen.  
