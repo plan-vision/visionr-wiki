@@ -13,11 +13,11 @@ Deutsch | [English](/en/admin-guide)
 Bevor Sie die neue Applikation aktualisieren, müssen Sie den VisionR Manager 6 Dienst stoppen und am besten auch den LibreOffice-Prozess beenden, damit die Daten überschreiben werden. Sonst wird der Ordner blockiert und die Installation wird unterbrochen. 
 1. Drucken Sie die Windows-Taste und schreiben Sie "Dienste" / "Services". Finden Sie den VisionR Manager 6 Dienst und beenden ihn.
 
-![2019 09 04 12 30 48 Visionrdienstbeenden](/uploads/administration/2019-09-04-12-30-48-visionrdienstbeenden.png "2019 09 04 12 30 48 Visionrdienstbeenden")
+![2019 09 04 12 30 48 Visionrdienstbeenden](/uploads/de-administration/2019-09-04-12-30-48-visionrdienstbeenden.png "2019 09 04 12 30 48 Visionrdienstbeenden")
 
 2. Finden Sie In dem Task-Manager den LibreOffice-Prozess und beenden ihn. Falls Sie in der Registerkarte "Details" gehen, müssen Sie den Prozess soffice.bin / soffice.exe beenden. 
 
-![2019 09 04 13 07 47 Libreoffice Beenden](/uploads/administration/2019-09-04-13-07-47-libreoffice-beenden.png "2019 09 04 13 07 47 Libreoffice Beenden")
+![2019 09 04 13 07 47 Libreoffice Beenden](/uploads/de-administration/2019-09-04-13-07-47-libreoffice-beenden.png "2019 09 04 13 07 47 Libreoffice Beenden")
 
 ### Update von VisionR Server inkl. Manager
 Nachdem den VisionR Manager Dienst gestoppt ist und der LibreOffice-Prozess beendet ist, installieren Sie die beigelieferte Installationsdatei als Administrator. Die Datei hat folgendes Format ***VisionR-Server-Setup-V.v.vvv-DatumUhrzeit.exe***. 
@@ -29,7 +29,7 @@ Nachdem der Server und der Manager aktualiasiert sind, können Sie die Kundendat
 Öffnen Sie den Server - http://localhost:8282 (Standardmäßig) und stoppen Sie die Serverinstanz mit dem Button **KILL**. Sie muss gestoppt werden, damit die kundenspezifische ZIP-Datei hochgeladen wird. 
 Klicken Sie auf **UPDATE** und laden Sie die ZIP-Datei hoch. 
 
-![2019 09 04 13 07 47 Zip Datei Hochladen](/uploads/administration/2019-09-04-13-07-47-zip-datei-hochladen.png "2019 09 04 13 07 47 Zip Datei Hochladen")
+![2019 09 04 13 07 47 Zip Datei Hochladen](/uploads/de-administration/2019-09-04-13-07-47-zip-datei-hochladen.png "2019 09 04 13 07 47 Zip Datei Hochladen")
 
 Nachdem die Datei komplett hochgeladen ist, muss der Importvorgang gestartet werden. 
 
@@ -56,7 +56,7 @@ Mögliche Backup-Optionen:
 Warten Sie bis die Sicherung erstellt wird. 
 Damit die Datenbank aktualisiert wird, müssen Sie den PostgreSQL-Dienst zuerst stoppen. Dafür öffnen Sie die Dienste und finden Sie den postgreSQL Eintrag und beenden Sie diesen Dienst. 
 
-![2019 09 04 13 07 47 Zip Postgresql Dienst Beenden](/uploads/administration/2019-09-04-13-07-47-zip-postgresql-dienst-beenden.png "2019 09 04 13 07 47 Zip Postgresql Dienst Beenden")
+![2019 09 04 13 07 47 Zip Postgresql Dienst Beenden](/uploads/de-administration/2019-09-04-13-07-47-zip-postgresql-dienst-beenden.png "2019 09 04 13 07 47 Zip Postgresql Dienst Beenden")
 
 Dann installieren Sie die neue PostgreSQL-Datei, die Sie heruntergeladen haben oder von uns bekommen haben. 
 Nach der Installation überprüfen Sie, ob die Rolle "VISIONR" erstellt ist, ob die geometrische Erweiterung PostGIS richtig eingelstellt ist und ob die Datenbank diese Erweiterung als Vorlage hat. Für mehrere Informationen bitte in der Installationsanleitung nachschauen. 
