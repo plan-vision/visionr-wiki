@@ -236,6 +236,3 @@ Sie können bis innerhalb einer gewissen Zeit vor der Startzeit die Reservierung
 *Bild 24: Die neu erstelle Reservierung in der Kalenderansicht*
 ![Res Bearbeiten](/uploads/reservierungen/res-bearbeiten.png "Res Bearbeiten")
 
-
-
-TEST TEST TEST FOR COMMIT!
