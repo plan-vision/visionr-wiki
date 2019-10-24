@@ -11,7 +11,7 @@ http://serveradresse
 *Bild 1: Modul Reservierungen über die Index-Seite aufrufen*
 ![RES qooxdoo 1](/uploads/reservierungen/RES-qooxdoo1.png "Indexseite Qooxdoo Oberfläche")
 
-Die folgende Abbildung zeigt die Qooxdoo Maske mit den Reservierungen als Datensätze in Tabellenansicht. Die Reservierungen rufen Sie mit Klick auf dem Button `Reservierungen` links. 
+Die folgende Abbildung zeigt die Qooxdoo Maske mit den Reservierungen als Datensätze in Tabellenansicht. Die Reservierungen rufen Sie mit Klick auf dem Button `Raumreservierungen` links. 
 
 *Bild 1: Tabelle mit den Reservierungen*
 ![RES qooxdoo 2](/uploads/reservierungen/RES-qooxdoo2.png "Reservierugnen in tabellarischer Form")
