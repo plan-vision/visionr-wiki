@@ -6,8 +6,8 @@ Deutsch | [English](/en/modules/reservations)
 
 # Bedienung
 ## Normale Benutzer
-* Modul Kontakte für [normale Benutzer](/de/modules/reservations/user)
+* Modul Reservierungen für [normale Benutzer](/de/modules/reservations/user)
 ## Modul Admin 
-* Modul Kontakte für [Admins](/de/modules/reservations/admin)
+* Modul Reservierungen für [Admins](/de/modules/reservations/admin)
 ## Alte Oberfläche
-* Modul Kontakte auf [alten Oberflächen](/de/modules/reservations/qooxdoo)
+* Modul Reservierungen auf [alten Oberflächen](/de/modules/reservations/qooxdoo)
