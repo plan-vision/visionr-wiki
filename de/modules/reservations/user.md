@@ -81,7 +81,7 @@ Sie können die Filter entweder mit den Tasten `Backspace` oder `Entfernen` leer
 
 > **Beispiel:**  Betreff *Meeting* leeren. Raumnamen (kommagetrennt) wird identisch zurückgesetzt.
 ![Vr Forms De Reservierungen Ubersicht Filter Leeren](/uploads/de-reservierungen/vr-forms-de-reservierungen-ubersicht-filter-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Leeren")
-
+{.is-info}
 > **Beispiel:**  Gebäude leeren. Geschoss / Raumeinheit / Raumtyp werden identisch zurcükgesetzt.
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren](/uploads/de-reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren")
 {.is-info}
