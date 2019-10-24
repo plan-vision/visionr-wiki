@@ -33,6 +33,9 @@ Die Raumeinheiten stellen die Räume dar, die reserviert werden können. Sie bei
 Mit Klick auf den Button `Raumeinheiten` werden diese in dem Arbeitsbereich angezeigt. Sie können die Baumstruktur nutzen, um die Daten zu filtern. Sie können hier neue Raumeinheiten erstellen, vorhandene bearbeiten, löschen etc. 
 
 > **Beispiel**: in unserem Demoprojekt haben wir folgene Raumeinheiten definiert:
-
-
+> *Bild 3: Raumeinheiten in tabellarischer Ansicht*
+![RES admin 3](/uploads/de-reservierungen/RES-admin3.png "Admin Applikationsmaske Reservierungen öffnen") 
+> *Bild 4: Raumeinheiten in Listenansicht mir Bildzeichen / Ausschnitt aus der Grafik*
+![RES admin 4](/uploads/de-reservierungen/RES-admin4.png "Admin Applikationsmaske Reservierungen öffnen") 
+{.is-info}
 
