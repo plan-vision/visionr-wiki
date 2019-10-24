@@ -8,25 +8,25 @@ Deutsch | [English](/en/admin-guide)
 
 Die Benutzerverwaltung rufen Sie aus der *Startseite -> Administration -> Benutzerverwaltung* auf.
 
-![Vr Benutzervewaltung Uberblick](/uploads/administration/vr-benutzervewaltung-uberblick.jpg "Vr Benutzervewaltung Uberblick")
+![Vr Benutzervewaltung Uberblick](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-uberblick.jpg "Vr Benutzervewaltung Uberblick")
  
 # Benutzer bearbeiten
 
 Öffnen Sie die Applikationsmaske und dann klicken Sie auf `Benutzer`. 
 
-![Vr Benutzervewaltung Benutzer](/uploads/administration/vr-benutzervewaltung-benutzer.jpg "Vr Benutzervewaltung Benutzer")
+![Vr Benutzervewaltung Benutzer](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzer.jpg "Vr Benutzervewaltung Benutzer")
 
 Aus der Liste den gewünschten Benutzer auswählen und mit Doppelklick wird der Datensatz aufgemacht. Dann klicken Sie auf den Button `Bearbeiten`. Alternativ können Sie den Datensatz selektieren, rechter Mausklick und dann `Bearbeiten` auswählen.
 
-![Vr Benutzervewaltung Benutzer Bearbeiten 2](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-2.jpg "Vr Benutzervewaltung Benutzer Bearbeiten 2")
+![Vr Benutzervewaltung Benutzer Bearbeiten 2](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzer-bearbeiten-2.jpg "Vr Benutzervewaltung Benutzer Bearbeiten 2")
 
-![Vr Benutzervewaltung Benutzer Bearbeiten 1](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-1.jpg "Vr Benutzervewaltung Benutzer Bearbeiten 1")
+![Vr Benutzervewaltung Benutzer Bearbeiten 1](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzer-bearbeiten-1.jpg "Vr Benutzervewaltung Benutzer Bearbeiten 1")
 
-Sie können hier auf schnelle Weise die Person und die Benutzergruppe ändern. Falls Sie alle Einstellungen bearbeiten möchten, gehen Sie über den Menübutton ![Vr Menu Button](/uploads/administration/vr-menu-button.jpg "Vr Menu Button") auf `Administration`.
+Sie können hier auf schnelle Weise die Person und die Benutzergruppe ändern. Falls Sie alle Einstellungen bearbeiten möchten, gehen Sie über den Menübutton ![Vr Menu Button](/uploads/de-benutzerverwaltung/vr-menu-button.jpg "Vr Menu Button") auf `Administration`.
 
-![Vr Benutzervewaltung Benutzer Bearbeiten Admin](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-admin.jpg "Vr Benutzervewaltung Benutzer Bearbeiten Admin")
+![Vr Benutzervewaltung Benutzer Bearbeiten Admin](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzer-bearbeiten-admin.jpg "Vr Benutzervewaltung Benutzer Bearbeiten Admin")
 
-![Vr Benutzervewaltung Benutzer Bearbeiten Admin 2](/uploads/administration/vr-benutzervewaltung-benutzer-bearbeiten-admin-2.jpg "Vr Benutzervewaltung Benutzer Bearbeiten Admin 2")
+![Vr Benutzervewaltung Benutzer Bearbeiten Admin 2](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzer-bearbeiten-admin-2.jpg "Vr Benutzervewaltung Benutzer Bearbeiten Admin 2")
 
 Hier können Sie alle Einstellungen des Benutzers bearbeiten. Die wichtigsten sind:
 
@@ -38,12 +38,12 @@ Hier können Sie alle Einstellungen des Benutzers bearbeiten. Die wichtigsten si
 
 Bei Bedarf schauen Sie die restlichen Einstellungen und ändern Sie diese gegebenenfalls. 
 
-Mit Klick auf den Menübutton ![Vr Menu Button](/uploads/administration/vr-menu-button.jpg "Vr Menu Button")  und dann auf `Auswählen` in dem Feld Benutzerrolle wird die Rollenhierarchie angezeigt und Sie können aus den Benutzerrollen wählen. Alternativ können Sie mit Doppelklick die Auswahlliste aufmachen und eine Benutzerrolle zuweisen ggf. ersetzen. Der Benutzer muss sich danach nur aus- und wieder einloggen. 
+Mit Klick auf den Menübutton ![Vr Menu Button](/uploads/de-benutzerverwaltung/vr-menu-button.jpg "Vr Menu Button")  und dann auf `Auswählen` in dem Feld Benutzerrolle wird die Rollenhierarchie angezeigt und Sie können aus den Benutzerrollen wählen. Alternativ können Sie mit Doppelklick die Auswahlliste aufmachen und eine Benutzerrolle zuweisen ggf. ersetzen. Der Benutzer muss sich danach nur aus- und wieder einloggen. 
 
 Die Eigenschaften der Rolle selbst sehen Sie, wenn Sie die Gruppe öffnen – dafür klicken Sie auf den Menübutton `Bearbeiten`. Sie können in der Gruppe die Berechtigungen einstellen, ggf. welche Berechtigungen diese Gruppe an anderen weiter leitet oder welche sie von anderen übernimmt. Die Erstellung und die Anpassung der Benutzerrolle sind demnächst beschrieben.
 
 # Neue Benutzer anlegen
-In der Tabelle mit den Benutzer klicken Sie auf das Menübutton ![Vr Menu Button](/uploads/administration/vr-menu-button.jpg "Vr Menu Button") (oder rechte Maustaste) und dann auf Neu. Das Formular wird angezeigt. Füllen Sie die oben genannten Felder und speichern Sie den Datensatz. 
+In der Tabelle mit den Benutzer klicken Sie auf das Menübutton ![Vr Menu Button](/uploads/de-benutzerverwaltung/vr-menu-button.jpg "Vr Menu Button") (oder rechte Maustaste) und dann auf Neu. Das Formular wird angezeigt. Füllen Sie die oben genannten Felder und speichern Sie den Datensatz. 
 
 Hier ist es wichtig, dass die Benutzerrolle schon vorhanden ist und die Person zu dem Benutzer zugeordnet ist. Es ist wichtig eine Person zu zuordnen, weil sehr viele Einstellungen, wie z.B. Ansichte, angepasste Felder etc., für die bestimmte Person gespeichert werden. 
 
@@ -52,13 +52,13 @@ Die Benutzerrolle können Sie direkt in dem Benutzerformular erstellen oder in d
 Die Ansicht öffnen Sie mit Klick auf den Button `Benutzerrollen`. In der Baumstruktur sind diese nach Struktur / Vererbung angezeigt. Sie sind in 2 Typen unterteilt: **Vordefiniert** und **Benutzerdefiniert**. Die neuen Rollen erstellen Sie bitte in der Kategorie **benutzerdefiniert**. 
 Um eine neue Benutzerrolle zu erstellen: rechter Mausklick und dann auf `Neu`. 
 
-![Vr Benutzervewaltung Benutzerrolle Neu](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu.jpg "Vr Benutzervewaltung Benutzerrolle Neu")
+![Vr Benutzervewaltung Benutzerrolle Neu](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzerrolle-neu.jpg "Vr Benutzervewaltung Benutzerrolle Neu")
 
 Öffnen Sie die neu zu erstellenden Rolle in Admin- Ansicht, damit Sie alle Felder bearbeiten können.
 
-![Vr Benutzervewaltung Benutzerrolle Neu 2](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-2.jpg "Vr Benutzervewaltung Benutzerrolle Neu 2")
+![Vr Benutzervewaltung Benutzerrolle Neu 2](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzerrolle-neu-2.jpg "Vr Benutzervewaltung Benutzerrolle Neu 2")
 
-![Vr Benutzervewaltung Benutzerrolle Neu 3](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-3.jpg "Vr Benutzervewaltung Benutzerrolle Neu 3")
+![Vr Benutzervewaltung Benutzerrolle Neu 3](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzerrolle-neu-3.jpg "Vr Benutzervewaltung Benutzerrolle Neu 3")
 
 Machen Sie die folgenden Angaben:
 
@@ -67,7 +67,7 @@ Machen Sie die folgenden Angaben:
 * **Vererbt Rechte von** - Hier durch Kombination von den vordefinierten Benutzerrollen können Sie die neue anpassen. 
 * **Leitet Rechte weiter an** - An welcher Benutzerrolle diese ihre Rechte weiter leitet.
 
-![Vr Benutzervewaltung Benutzerrolle Neu 4 Kategorie Auswahl](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-4-kategorie-auswahl.jpg "Vr Benutzervewaltung Benutzerrolle Neu 4 Kategorie Auswahl")
+![Vr Benutzervewaltung Benutzerrolle Neu 4 Kategorie Auswahl](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzerrolle-neu-4-kategorie-auswahl.jpg "Vr Benutzervewaltung Benutzerrolle Neu 4 Kategorie Auswahl")
 
 
 ## Vererbung der Rechte
@@ -75,7 +75,7 @@ Machen Sie die folgenden Angaben:
 Damit Sie die Benutzerrolle richtig einstellen, müssen Sie aus den vordefinierten Rechte/Rollen kombinieren, damit Sie die Rechte an Ihren Bedürfnisse anpassen. 
 
 > **Beispiel:** *Berlin 1 - OG* - Spezielle Gruppe für die Personengruppe, die das 1 OG in Berlin (aus unserem Demoprojekt) bearbeitet. Diese Gruppe kann nur diesen Plan sehen und bearbeiten. Deshalb wird nur die Rolle **Grafik (schreiben)** zugeordnet.  
-![Vr Benutzervewaltung Benutzerrolle Neu Beispiel](/uploads/administration/vr-benutzervewaltung-benutzerrolle-neu-beispiel.jpg "Vr Benutzervewaltung Benutzerrolle Neu Beispiel")
+![Vr Benutzervewaltung Benutzerrolle Neu Beispiel](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzerrolle-neu-beispiel.jpg "Vr Benutzervewaltung Benutzerrolle Neu Beispiel")
 {.is-info}
 
 Die vordefinierten Benutzerrollen nach Modul sind in 4 Kategorien unterteilt: 
@@ -99,7 +99,7 @@ Navigieren Sie zu den Benutzerrollen und öffnen Sie die gewünschte Benutzerrol
 
 > **Bemerkung**: Die Änderungen, die Sie in einer Benutzerrolle vornehmen, werden auf alle zugeordneten Benutzerkontos übertragen.
 
-![Vr Benutzervewaltung Benutzer Benutzerrolle Bearbeiten](/uploads/administration/vr-benutzervewaltung-benutzer-benutzerrolle-bearbeiten.jpg "Vr Benutzervewaltung Benutzer Benutzerrolle Bearbeiten")
+![Vr Benutzervewaltung Benutzer Benutzerrolle Bearbeiten](/uploads/de-benutzerverwaltung/vr-benutzervewaltung-benutzer-benutzerrolle-bearbeiten.jpg "Vr Benutzervewaltung Benutzer Benutzerrolle Bearbeiten")
 
 > **Info** Die Benutzerrollen sind oberhalb beschrieben. {.is-info}
 
