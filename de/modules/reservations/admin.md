@@ -16,7 +16,7 @@ Die Adminmaske wird geladen. Links stehen die Objekte als Buttons dargestellt, d
 *Bild 2: Admin Applikationsmaske*
 ![RES admin 2](/uploads/de-reservierungen/RES-admin2.png "Admin Applikationsmaske Reservierungen öffnen")
 
-Die Objekte sind in der Kategorie *Übersicht* verpackt. Darunter sind die *Einstellungen* (hier können Sie bestimmen, welche Daten in dem Arbeitsbereich angezeigt werden.
+Die Objekte sind in der Kategorie ***Übersicht*** verpackt. Darunter sind die *Einstellungen* (hier können Sie bestimmen, welche Daten in dem Arbeitsbereich angezeigt werden.
 Kurze Zusammenfassung der verknüpften Objekte:
 
 * **Raumeinheit** - hier werden die Raumeinheiten definiert, die eigentlich gemietet werden können. Diese werden über den Raum gezeichnet und sind anders als Räume und haben andere Eigenschaften wie Sitzanordnung, Catering / Inventar Bestellungen.
