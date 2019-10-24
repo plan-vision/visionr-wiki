@@ -19,12 +19,12 @@ Die Adminmaske wird geladen. Links stehen die Objekte als Buttons dargestellt, d
 Die Objekte sind in der Kategorie *Übersicht* verpackt. Darunter sind die *Einstellungen* (hier können Sie bestimmen, welche Daten in dem Arbeitsbereich angezeigt werden.
 Kurze Zusammenfassung der verknüpften Objekte:
 
-* Raumeinheit - hier werden die Raumeinheiten definiert, die eigentlich gemietet werden können. Diese werden über den Raum gezeichnet und sind anders als Räume und haben andere Eigenschaften wie Sitzanordnung, Catering / Inventar Bestellungen.
-* Raumreservierungen - hier werden die erstellen Reservierungen in tabellarischer Form angezeigt. Sie können diese hier bearbeiten.
-* Bestellungen Catering - Hier verwalten Sie die Bestellungen für Catering / Bewirtungen. 
-* Bestellungen Inventar - Hier verwalten Sie die Inventarbestellungen.
-* Einstellungen Catering
-* Einstellungen Inventar
+* **Raumeinheit** - hier werden die Raumeinheiten definiert, die eigentlich gemietet werden können. Diese werden über den Raum gezeichnet und sind anders als Räume und haben andere Eigenschaften wie Sitzanordnung, Catering / Inventar Bestellungen.
+* **Raumreservierungen** - hier werden die erstellen Reservierungen in tabellarischer Form angezeigt. Sie können diese hier bearbeiten.
+* **Bestellungen Catering** - Hier verwalten Sie die Bestellungen für Catering / Bewirtungen. 
+* **Bestellungen Inventar** - Hier verwalten Sie die Inventarbestellungen.
+* **Einstellungen Catering**
+* **Einstellungen Inventar**
 
 ## Raumeinheit
 
