@@ -34,8 +34,10 @@ Mit Klick auf den Button `Raumeinheiten` werden diese in dem Arbeitsbereich ange
 
 > **Beispiel**: in unserem Demoprojekt haben wir folgene Raumeinheiten definiert:
 > *Bild 3: Raumeinheiten in tabellarischer Ansicht*
-![RES admin 4](/uploads/de-reservierungen/RES-admin4.png "Admin Applikationsmaske Reservierungen öffnen") 
-> *Bild 4: Raumeinheiten in Listenansicht mir Bildzeichen / Ausschnitt aus der Grafik*
-![RES admin 3](/uploads/de-reservierungen/RES-admin3.png "Admin Applikationsmaske Reservierungen öffnen") 
 {.is-info}
+![RES admin 4](/uploads/de-reservierungen/RES-admin4.png "Admin Applikationsmaske Reservierungen öffnen") 
+
+*Bild 4: Raumeinheiten in Listenansicht mir Bildzeichen / Ausschnitt aus der Grafik*
+![RES admin 3](/uploads/de-reservierungen/RES-admin3.png "Admin Applikationsmaske Reservierungen öffnen") 
+
 
