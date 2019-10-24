@@ -80,7 +80,7 @@ Unter den Ansichten sind die Filter. Die Filter haben direkten Einfluss auf die 
 Sie können die Filter entweder mit den Tasten `Backspace` oder `Entfernen` leeren oder mit der Funktion `Zurücksetzen` rechts in jedem Filterfeld.
 
 > **Beispiel:**  Betreff *Meeting* leeren. Raumnamen (kommagetrennt) wird identisch zurückgesetzt.
-![Vr Forms De Reservierungen Ubersicht Filter Meeting Leeren](/uploads/de-reservierungen/vr-forms-de-reservierungen-ubersicht-filter-meeting-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Meeting Leeren")
+![Vr Forms De Reservierungen Ubersicht Filter Leeren](/uploads/de-reservierungen/vr-forms-de-reservierungen-ubersicht-filter-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Leeren")
 
 > **Beispiel:**  Gebäude leeren. Geschoss / Raumeinheit / Raumtyp werden identisch zurcükgesetzt.
 ![Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren](/uploads/de-reservierungen/vr-forms-de-reservierungen-ubersicht-filter-gebaude-leeren.png "Vr Forms De Reservierungen Ubersicht Filter Gebaude Leeren")
