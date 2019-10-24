@@ -28,4 +28,11 @@ Kurze Zusammenfassung der verknüpften Objekte:
 
 ## Raumeinheit
 
-Die Raumeinheiten stellen den Raum / die Räume dar, der / die reserviert werden können. Sie beinhalten alle notwendigen Eingabefelder für die Reservierung und sind mit den darunterliegenden (falls gezeichnet) Räumen verknüpft. Die eigentlichen Eingaben werden in dieser Objektdefinition gemacht. Eine Raumeinheit kann für eine bestimmte Zeit reserviert werden. Der Raum dagegen nicht und bleibt als Grundlage mit der Einheit verknüpft. Aus dem Raum werden die Zugehörigkeiten (Raum -> Geschoss -> Gebäude - Liegenschaft) herausgezogen.  
+Die Raumeinheiten stellen die Räume dar, die reserviert werden können. Sie beinhalten alle notwendigen Eingabefelder für die Reservierung und sind mit den darunterliegenden auf dem Plan (falls gezeichnet) Räumen verknüpft. Die eigentlichen Eingaben werden in dieser Objektdefinition gemacht. Eine Raumeinheit kann für eine bestimmte Zeit reserviert werden. Der Raum dagegen nicht und bleibt als Grundlage mit der Einheit verknüpft. Aus dem Raum werden die Zugehörigkeiten (Raum -> Geschoss -> Gebäude - Liegenschaft) herausgezogen.  
+
+Mit Klick auf den Button `Raumeinheiten` werden diese in dem Arbeitsbereich angezeigt. Sie können die Baumstruktur nutzen, um die Daten zu filtern. Sie können hier neue Raumeinheiten erstellen, vorhandene bearbeiten, löschen etc. 
+
+> **Beispiel**: in unserem Demoprojekt haben wir folgene Raumeinheiten definiert:
+
+
+
