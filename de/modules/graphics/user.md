@@ -6,15 +6,15 @@ Deutsch | [English](/en/modules/graphics)
 # Übersicht
 Öffnen Sie die Grafik (Web-CAD Modul).
 
-![Vr Graphics De De Forms](/uploads/de-graphics/vr-graphics-de-de-forms.jpg "Vr Graphics De De Forms")
+![Vr Graphics De De Forms](/uploads/de-grafik/vr-graphics-de-de-forms.jpg "Vr Graphics De De Forms")
 
 Aus dem Baum wählen Sie den Standort / Gebäude aus und aus der Übersicht wählen Sie die gewünschte Zeichnung aus. Mit Doppelklick machen Sie die Zeichnung auf. 
 
-![2019 10 08 12 04 12 Window](/uploads/de-graphics/2019-10-08-12-04-12-window.png "2019 10 08 12 04 12 Window")
+![2019 10 08 12 04 12 Window](/uploads/de-grafik/2019-10-08-12-04-12-window.png "2019 10 08 12 04 12 Window")
 
 Mit Klick auf die Überischt wird der Plan im **Lesemodus** aufgemacht. Mit Klick auf Bearbeiten wird der Plan im **Barbeitungsmodus** aufgemacht.
 
-![2019 10 08 12 04 12 Ubersicht](/uploads/de-graphics/2019-10-08-12-04-12-ubersicht.jpg "2019 10 08 12 04 12 Ubersicht")
+![2019 10 08 12 04 12 Ubersicht](/uploads/de-grafik/2019-10-08-12-04-12-ubersicht.jpg "2019 10 08 12 04 12 Ubersicht")
 
 ## **Zeichnung in Lesemodus**
 
@@ -24,11 +24,11 @@ Dieser Modus ist für die schnelle Übersicht, Auswertung und Druck gedacht.
 
 Die Ansichten wechseln Sie in dem Menü links oben. 
 
-![2019 10 08 15 54 51 Lesemodus Ansichten](/uploads/de-graphics/2019-10-08-15-54-51-lesemodus-ansichten.png "2019 10 08 15 54 51 Lesemodus Ansichten")
+![2019 10 08 15 54 51 Lesemodus Ansichten](/uploads/de-grafik/2019-10-08-15-54-51-lesemodus-ansichten.png "2019 10 08 15 54 51 Lesemodus Ansichten")
 
 Auf der rechten Seite sind die Druck- und Export funktionen.
 
-![2019 10 08 16 04 13 Lesemodus Export Print](/uploads/de-graphics/2019-10-08-16-04-13-lesemodus-export-print.jpg "2019 10 08 16 04 13 Lesemodus Export Print")
+![2019 10 08 16 04 13 Lesemodus Export Print](/uploads/de-grafik/2019-10-08-16-04-13-lesemodus-export-print.jpg "2019 10 08 16 04 13 Lesemodus Export Print")
 
 Diese Funktionen stehen auch in dem Bearbeitungsmodus zur Verfügung und werden dann separat in Details beschrieben. 
 
@@ -36,9 +36,9 @@ Diese Funktionen stehen auch in dem Bearbeitungsmodus zur Verfügung und werden 
 
 In diesem Modus sind alle zeichnerische Funktionen vorhanden, wie auch alle Optionen, Funktionen und Bearbeitungsmöglichkeiten der referenzierten Objekte. Dafür öffnen Sie die Zeichnung in Lesemodus und dann klicken Sie auf den Button 'Zeichnung' bearbeiten - siehe Abbildung oben.
 
-> **Bemerkung**: Sie müssen zuerst die Zeichnung in Lesemodus aufmachen. Der Button `Bearbeiten` in orangen Farbe ist für die Eigenschaften des importierten Plans zu bearbeiten, wie z.B. Zeichnungsname, importierte Dokumente, Code, Kategorie etc. Die Bearbeitung der Zeichnungseigenschaften ist in dem Abschnitt für die administrativen Benutzer beschrieben [hier](/de/modules/de-graphics/admin).
+> **Bemerkung**: Sie müssen zuerst die Zeichnung in Lesemodus aufmachen. Der Button `Bearbeiten` in orangen Farbe ist für die Eigenschaften des importierten Plans zu bearbeiten, wie z.B. Zeichnungsname, importierte Dokumente, Code, Kategorie etc. Die Bearbeitung der Zeichnungseigenschaften ist in dem Abschnitt für die administrativen Benutzer beschrieben [hier](/de/modules/de-grafik/admin).
 
-![Vr Graphics De De Edit Mode Overview](/uploads/de-graphics/vr-graphics-de-de-edit-mode-overview.jpg "Vr Graphics De De Edit Mode Overview")
+![Vr Graphics De De Edit Mode Overview](/uploads/de-grafik/vr-graphics-de-de-edit-mode-overview.jpg "Vr Graphics De De Edit Mode Overview")
 
 ### Ansichtsleiste
 
@@ -53,18 +53,18 @@ Die Layergruppen sind [hier](***) beschrieben.
 
 ### Fuktionsleiste
 
-Die **Funktionsleiste** beinhaltet alle zeichnerische Objekte, Operationen und Funktionen. Hier sind alle Tools für Bearbeitung der Grafik positioniert. Details: [hier](/de/modules/de-graphics/toolbar).
+Die **Funktionsleiste** beinhaltet alle zeichnerische Objekte, Operationen und Funktionen. Hier sind alle Tools für Bearbeitung der Grafik positioniert. Details: [hier](/de/modules/de-grafik/toolbar).
 
 ### Zeichnungsleiste
 
-Die **Zeichnungsleiste** beinhaltet die Buttons `Bearbeiten`, `Löschen`, `Aktualisieren`, `Abbrechen`, `Speichern`. Details: [hier](/de/modules/de-graphics/).
+Die **Zeichnungsleiste** beinhaltet die Buttons `Bearbeiten`, `Löschen`, `Aktualisieren`, `Abbrechen`, `Speichern`. Details: [hier](/de/modules/de-grafik/).
 
 ## Layergruppen
 
 Die Layergruppe beinhaltet die Einstellungen der eingeschalteten Layers. Die Layers sind standardmäßig versteckt, können nach Bedarf sichtbar gemacht werden und ggf. bearbeitet. 
 Die vordefinierten Layergruppen sind nach Themen unterteilt, können aber immer wieder erweitert. 
 
-![Vr Graphics De De Layergroups](/uploads/de-graphics/vr-graphics-de-de-layergroups.jpg "Vr Graphics De De Layergroups")
+![Vr Graphics De De Layergroups](/uploads/de-grafik/vr-graphics-de-de-layergroups.jpg "Vr Graphics De De Layergroups")
 
 Auf die Abbildung ist die aktive Layergruppe *Raumnutzung nach DIN 277 (Vorgabe)* und die Räume sind nach den eingegebenen Nuzungen gefärbt. Diese Layergruppe ist als Vorgabe gesetzt. 
 In dieser Layergruppe sind die **Räume** auswählbaren Objekte, weil die Raumnutzungen in dem Raum festgelegt werden. 
@@ -81,7 +81,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 ### Beispiele vordefinierter Layergruppen
 
 > **CAD:** Hier werden nur die Objekte aus der importieren Zeichnung angezeigt. Die reine CAD Zeichnung ist ein bisschen bereinigt, um bessere Ansicht für ein CAFM System zu erzielen. Auf der Abbildung sind Bemassungen, Achsen etc. ausgeblendet. Dies können jederzeit wieder eingeschaltet werden. Auf der linken Seite sind die Layer angezegit. Alle *A-..* Layers sind in dieser Layergruppe sichtbar, auswählbar und editierbar. Das heißt, dass mit dem Auswahltool alle sichtbare Objekte ausgewählt und bearbeitet werden können. 
-![Vr Graphics De De Cad Layergroup](/uploads/de-graphics/vr-graphics-de-de-cad-layergroup.jpg "Vr Graphics De De Cad Layergroup")
+![Vr Graphics De De Cad Layergroup](/uploads/de-grafik/vr-graphics-de-de-cad-layergroup.jpg "Vr Graphics De De Cad Layergroup")
 {.is-info}
 
 > **BGF:** *Vorraussetzung: Modul "Flächenmanagement"* 
@@ -92,7 +92,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 > * **editierbar** - nur das Geschosspolygon, das auf dem Layer *FM-Polygon-BGF* gezeichnet ist. Theoretisch kann man mehrere Geschosspolygone haben, aber es macht keinen Sinn.
 > * **Fangmodus** - Alle Wände sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Geschosspolygones
 > * **Layer aktiv** -  *FM-Polygon-BGF* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie BGF Polygon zeichnen.
-![Vr Graphics De De Bgf Layergroup](/uploads/de-graphics/vr-graphics-de-de-bgf-layergroup.jpg "Vr Graphics De De Bgf Layergroup")
+![Vr Graphics De De Bgf Layergroup](/uploads/de-grafik/vr-graphics-de-de-bgf-layergroup.jpg "Vr Graphics De De Bgf Layergroup")
 {.is-info}
 
 > **Raum:** *Vorraussetzung: Modul "Flächenmanagement"* 
@@ -103,7 +103,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 > * **editierbar** - nur die Räume, die auf dem Layer *FM-Polygon-Raum* gezeichnet sind. Vorgesehen ist, dass nur diese Objekte in dieser Layergruppe zu bearbeiten sind. 
 > * **Fangmodus** - Alle Wände sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Raumes
 > * **Layer aktiv** -  *FM-Polygon-Raum* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Räume zeichnen.
-![Vr Graphics De De Space Layergroup](/uploads/de-graphics/vr-graphics-de-de-space-layergroup.jpg "Vr Graphics De De Space Layergroup")
+![Vr Graphics De De Space Layergroup](/uploads/de-grafik/vr-graphics-de-de-space-layergroup.jpg "Vr Graphics De De Space Layergroup")
 {.is-info}
 
 > **Arbeitsplatz:** *Vorraussetzung: Modul "Flächenmanagement"* 
@@ -114,7 +114,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 > * **editierbar** - nur die Arbeitsplätze, die auf dem Layer *FM-Arbeitsplatz* gezeichnet sind. Vorgesehen ist, dass nur diese Objekte in dieser Layergruppe zu bearbeiten sind. 
 > * **Fangmodus** - Alle Möbel sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Arbeitsplatzes
 > * **Layer aktiv** -  *FM-Arbeitsplatz* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Arbeitsplätze zeichnen.
-![Vr Graphics De De Workplace Layergroup](/uploads/de-graphics/vr-graphics-de-de-workplace-layergroup.jpg "Vr Graphics De De Workplace Layergroup")
+![Vr Graphics De De Workplace Layergroup](/uploads/de-grafik/vr-graphics-de-de-workplace-layergroup.jpg "Vr Graphics De De Workplace Layergroup")
 {.is-info}
 # Zeichnung bearbeiten
 Die Zeichnungen, die Sie bearbeiten können, müssen zuerst als Vektorgrafik (GXF, DWG, PDF, EPS, SVG etc.) importiert sein. Der Importvorgang ist in dem Abschnitt für die Administratoren beschrieben. 
@@ -124,9 +124,9 @@ Nachdem Sie die Zeichnung in Bearbeitungsmodus aufgemacht haben, wählen Sie ggf
 > **Beispiel:** Falls das Modul **Flächenmanagement** vorhanden ist, können beispielweise neue Objekte vom Typ "Raum" direkt erstellt werden. Diese werden auf den Layer *FM-Polygon-Raum* gespeichert. Dafür steht die Layergruppe *Raum* zur Verfügung. Dazu können Sie auch die Layergruppe *Raumnutzung nach DIN 277* nutzen.
 {.is-info}
 
-Für das Auswählen, die Bearbeitung und das Zeichnen steht die Funktionsleiste zur Verfügung. Die detailierte Beschreibung finden Sie [hier](/de/modules/de-graphics/toolbar).
+Für das Auswählen, die Bearbeitung und das Zeichnen steht die Funktionsleiste zur Verfügung. Die detailierte Beschreibung finden Sie [hier](/de/modules/de-grafik/toolbar).
 
-![Vr Graphics De De Function Bar](/uploads/de-graphics/vr-graphics-de-de-function-bar.jpg "Vr Graphics De De Function Bar")
+![Vr Graphics De De Function Bar](/uploads/de-grafik/vr-graphics-de-de-function-bar.jpg "Vr Graphics De De Function Bar")
 
 Die Leiste ist in einigen Bereichen unterteilt. 
 1. Auswahltools
