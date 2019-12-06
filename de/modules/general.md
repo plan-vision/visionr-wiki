@@ -15,14 +15,8 @@ Rufen Sie die Indexseite auf, indem Sie die folgende Adresse in dem Browser eing
 Nachdem Sie Sich eingeloggt haben, wird die Indexseite geladen. Die Indexseite sieht ab dem Version 7.0 folgendermaßen aus:
 
 > **Beispiel:** *Kontakte*
-![Forms Login Seite](/uploads/de-allgemein/v7-DE-login.PNG "Forms Login Seite")
+![Forms Login Seite](/uploads/de-allgemein/v7-DE-login.png "Forms Login Seite")
 {.is-info}
-
-
-
-
-
-
 
 
 
