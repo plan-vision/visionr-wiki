@@ -23,5 +23,5 @@ Die Index-Seite wird geladen.
 Alle alphanumerische Module haben gleich aufgebaute Ansicht. Links stehen immer die Objekte aus dem Modul, daneben ist die hierarchische Struktur, damit die Daten besser und effizienter gefiltert und dargestellt werden. Rechts werden die Daten in tabellarischer Form (standardmäßig) dargestellt. 
 
 > **Beispiel:** *Kontakte*
-![Forms Applikationsmaske Kontakte](/uploads/de-allgemein/v7-DE-Kontakte_Uebersicht.png"Forms Applikationsmaske Kontakte")
+![Forms Applikationsmaske Kontakte](/uploads/de-allgemein/v7-DE-Kontakte_Uebersicht.png "Forms Applikationsmaske Kontakte")
 {.is-info}
