@@ -37,7 +37,7 @@ Das System hat mehrere vordefinierten Anzeigen. Die Standardanzeige ist die Tabe
 
 Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abbildung gezeigt ist. 
 
-![Forms Anzeige Tabelle](/uploads/de-allgemein/v7-DE-Kontakte_Uebersicht.png "Forms Anzeige Tabelle")
+![Forms Anzeige Tabelle](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen.png "Forms Anzeige Tabelle")
 
 Auf dem Screenshot ist die Tabellenanzeige aktiv. Die folgende Abbildung zeigt die Anzeige *Liste*.
 
