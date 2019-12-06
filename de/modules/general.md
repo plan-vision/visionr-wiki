@@ -14,12 +14,14 @@ Rufen Sie die Indexseite auf, indem Sie die folgende Adresse in dem Browser eing
 
 Nachdem Sie Sich eingeloggt haben, wird die Indexseite geladen. Die Indexseite sieht ab dem Version 7.0 folgendermaßen aus:
 
-
 ![Forms Login Seite](/uploads/de-allgemein/v7-DE-login.png "Forms Login Seite")
 
+Die Index-Seite wird geladen. 
 
-Alle alphanumerische Module haben gleich aufgebaute Ansicht. Links stehen immer die Objekte aus dem Modul, daneben ist die hierarchische Struktur, damit die Daten besser und effizienter gefiltert und dargestellt werden. Rechts werden die Daten in tabellarischer Form dargestellt. 
+![Forms Index Seite](/uploads/de-allgemein/v7-DE-index_site.png "Forms Index Seite")
+
+Alle alphanumerische Module haben gleich aufgebaute Ansicht. Links stehen immer die Objekte aus dem Modul, daneben ist die hierarchische Struktur, damit die Daten besser und effizienter gefiltert und dargestellt werden. Rechts werden die Daten in tabellarischer Form (standardmäßig) dargestellt. 
 
 > **Beispiel:** *Kontakte*
-![Vr Forms De Reservierungen Ubersicht Filter Meeting](/uploads/de-reservierungen/vr-forms-de-reservierungen-ubersicht-filter-meeting.png "Vr Forms De Reservierungen Ubersicht Filter Meeting")
+![Forms Applikationsmaske Kontakte](/uploads/de-allgemein/v7-DE-Kontakte_Uebersicht.png "Forms Applikationsmaske Kontakte")
 {.is-info}
