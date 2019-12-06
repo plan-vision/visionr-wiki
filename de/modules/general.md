@@ -10,3 +10,7 @@ Alle allgemeine Funktionen, wie z.B. Datensätze bearbeiten, Suchen, Filtern, An
 # Ansicht
 Alle alphanumerische Module haben gleich aufgebaute Ansicht. Links stehen immer die Objekte aus dem Modul, daneben ist die hierarchische Struktur, damit die Daten besser und effizienter gefiltert und dargestellt werden. Rechts werden die Daten in tabellarischer Form dargestellt. 
 
+> **Beispiel:** *Kontakte*
+> 
+![Vr Forms De Reservierungen Ubersicht Filter Meeting](/uploads/de-reservierungen/vr-forms-de-reservierungen-ubersicht-filter-meeting.png "Vr Forms De Reservierungen Ubersicht Filter Meeting")
+{.is-info}
