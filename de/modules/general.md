@@ -7,7 +7,29 @@ Deutsch | [English](/en/modules/reservations/user)
 # Beschreibung
 Alle allgemeine Funktionen, wie z.B. Datensätze bearbeiten, Suchen, Filtern, Ansichten, Sortierungen etc., werden hier beschrieben. 
 
-# Ansicht
+# Übersicht Applikationsmaske/n
+Rufen Sie die Indexseite auf, indem Sie die folgende Adresse in dem Browser eingeben:
+
+*http://SERVERNAME/forms*
+
+Nachdem Sie Sich eingeloggt haben, wird die Indexseite geladen. Die Indexseite sieht ab dem Version 7.0 folgendermaßen aus:
+
+> **Beispiel:** *Kontakte*
+![Forms Login Seite](/uploads/de-allgemein/v7-DE-login.PNG "Forms Login Seite")
+{.is-info}
+
+
+
+
+
+
+
+
+
+
+
+
+
 Alle alphanumerische Module haben gleich aufgebaute Ansicht. Links stehen immer die Objekte aus dem Modul, daneben ist die hierarchische Struktur, damit die Daten besser und effizienter gefiltert und dargestellt werden. Rechts werden die Daten in tabellarischer Form dargestellt. 
 
 > **Beispiel:** *Kontakte*
