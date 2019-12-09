@@ -85,7 +85,15 @@ Sie können die Hiearchie *ausblenden* und *einblenden* oder komplett *aus-* und
 In dem selben Menü haben Sie die Option, die Hierarchie auszuschalten. Klicken Sie auf die Option und die Hierarchie wird komplett ausgeblendet und die Daten werden nicht mehr nach diesen Krieterien gefiltert sein.  
 
 > **Einschalten**
-> Nutzen Sie dafür die Option *Einschalten*, um die Hierarchie wieder sichtbar und aktiv machen. 
+Um die Hiearchie wieder aktiv und sichtbar machen, wählen Sie aus dem Menü eine Hiearchie, die aktiviert werden muss. Die Struktur wird geladen. 
+
+![Forms Hierarchie einblenden](/uploads/de-allgemein/v7-DE-Hiearchie_Einblenden.png "Forms Hierarchie einblenden")
+
+![Forms Hierarchie einblenden](/uploads/de-allgemein/v7-DE-Hiearchie_Einblenden.png "Forms Hierarchie einblenden2")
+
+Die Hiearchie wird gezeigt und sieht wieder so aus:
+
+![Forms Hierarchie](/uploads/de-allgemein/v7-DE-Hierarchie.png "Forms Hierarchie")
 
 
 
