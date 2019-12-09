@@ -79,6 +79,9 @@ Sie können die Hierarchie *ausblenden* und *einblenden* oder komplett *aus-* un
 
 ![Forms Hierarchie ausblenden](/uploads/de-allgemein/v7-DE-Hierarchie_Ausblenden.png "Forms Hierarchie ausblenden")
 
+> **Bemerkung / Info:** Die ausgeblendete Hierarchie ist weiterhin aktiv. Die aktiven Kriterien sind über die Tabelle gezeigt und Sie können diese direkt auswählen und die Daten filtern.
+>{.is-info}
+
 > **Einblenden**
 
 ![Forms Hierarchie einblenden](/uploads/de-allgemein/v7-DE-Hierarchie_Einblenden.png "Forms Hierarchie einblenden")
