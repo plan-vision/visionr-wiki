@@ -78,12 +78,12 @@ Sie können die Hiearchie *ausblenden* und *einblenden* oder komplett *aus-* und
 > **Ausblenden**
 ![Forms Hierarchie ausblenden](/uploads/de-allgemein/v7-DE-Hiearchie_Ausblenden.png "Forms Hierarchie ausblenden")
 
- **Einblenden**
-![Forms Hierarchie einblenden](/uploads/de-allgemein/v7-DE-Hiearchie_Ausblenden.png "Forms Hierarchie ausblenden")
+> **Einblenden**
+![Forms Hierarchie einblenden](/uploads/de-allgemein/v7-DE-Hiearchie_Einblenden.png "Forms Hierarchie einblenden")
 
 > **Ausschalten**
-
+![Forms Hierarchie ausschalten](/uploads/de-allgemein/v7-DE-Hiearchie_Ausschalten.png "Forms Hierarchie ausschalten")
 
 > **Einschalten**
-
+![Forms Hierarchie einschalten](/uploads/de-allgemein/v7-DE-Hiearchie_Einschalten.png "Forms Hierarchie einschalten")
 
