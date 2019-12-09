@@ -49,6 +49,16 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 **Beispiel:** *Spalten*
 ![Forms Anzeige Spalten](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Spalten.png "Forms Anzeige Spalten")
 
+# Hierarchie
 
+Die Hierachie hilft Ihnen die Daten besser darzustellen und die Daten nach bestimmten (vordefinierten) Krieterien zusammenzufassen. Die Hiearchie schalten Sie über das Menü ein, aus oder um. 
+
+v7-DE-Hiearchie.PNG
+
+> **Bemerkung:** Auf dem Screenshot sind die Personen nach Abteilung sortiert. Die folgende Abbildung zeigt die selben Daten nach *Standort* sortiert.
+
+v7-DE-Hiearchie_nach_Standort.PNG
+
+> **Bemerkung:** Die Hierarchien sind in zwei Typen unterteilt - *gefiltert* und nicht. *Gefilterte* Hierarchien zeigen nur die Ebenen, die tatsächlich mit Daten verknüpft sind. Sonst werden sie nicht gezeigt. Bei den *ungefilterten* werden die Ebenen unabhängig davon, ob sie Daten beinhalten, dargestellt. 
 
 
