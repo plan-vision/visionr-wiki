@@ -54,18 +54,18 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 Die Hierachie hilft Ihnen die Daten besser darzustellen und die Daten nach bestimmten (vordefinierten) Krieterien zusammenzufassen. 
 Die Hierachie wählen Sie aus dem Menü über die Hiearchie selbst. 
 
-![Forms Hierarchie](/uploads/de-allgemein/v7-DE-Hiearchie.png "Forms Hierarchie")
+![Forms Hierarchie](/uploads/de-allgemein/v7-DE-Hierarchie.png "Forms Hierarchie")
 
 
 
 Deaktivieren, Ein- und Ausschalten machen Sie über das Funktionsmenü -> Hierarchie. 
 
 
-![Forms Hierarchie](/uploads/de-allgemein/v7-DE-Hiearchie.png "Forms Hierarchie")
+![Forms Hierarchie](/uploads/de-allgemein/v7-DE-Hierarchie.png "Forms Hierarchie")
 
 > **Bemerkung:** Auf dem Screenshot sind die Personen nach Abteilung sortiert. Die folgende Abbildung zeigt die selben Daten nach *Standort* sortiert.
 
-![Forms Hierarchie nach Standort](/uploads/de-allgemein/v7-DE-Hiearchie_nach_Standort.png "Forms Hierarchie nach Standort")
+![Forms Hierarchie nach Standort](/uploads/de-allgemein/v7-DE-Hierarchie_nach_Standort.png "Forms Hierarchie nach Standort")
 
 > **Bemerkung:** Die Hierarchien sind in zwei Typen unterteilt - alle und *gefiltert*. *Gefilterte* Hierarchien zeigen nur die Ebenen, die tatsächlich mit Daten verknüpft sind. Sonst werden sie nicht gezeigt. Bei den *ungefilterten* (alle) werden die Ebenen unabhängig davon, ob sie Daten beinhalten, dargestellt. 
 
