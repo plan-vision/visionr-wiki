@@ -37,7 +37,7 @@ Das System hat mehrere vordefinierten Anzeigen. Die Standardanzeige ist die Tabe
 
 Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abbildung gezeigt ist. 
 
-> **Beispiel:** *Tabelle*
+**Beispiel:** *Tabelle*
 ![Forms Anzeige Tabelle](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Tabelle.png "Forms Anzeige Tabelle")
 
 **Beispiel:** *Liste*
@@ -49,6 +49,6 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 **Beispiel:** *Spalten*
 ![Forms Anzeige Spalten](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Spalten.png "Forms Anzeige Spalten")
 
-{.is-info}
+
 
 
