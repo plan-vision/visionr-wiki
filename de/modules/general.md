@@ -51,7 +51,10 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 
 # Hierarchie
 
-Die Hierachie hilft Ihnen die Daten besser darzustellen und die Daten nach bestimmten (vordefinierten) Krieterien zusammenzufassen. Die Hiearchie schalten Sie über das Menü ein, aus oder um. 
+Die Hierachie hilft Ihnen die Daten besser darzustellen und die Daten nach bestimmten (vordefinierten) Krieterien zusammenzufassen. 
+Die Hierachie wählen Sie aus dem Menü über die Hiearchie selbst. 
+Deaktivieren, Ein- und Ausschalten machen Sie über das Funktionsmenü -> Hierarchie. 
+
 
 ![Forms Hierarchie](/uploads/de-allgemein/v7-DE-Hiearchie.png "Forms Hierarchie")
 
