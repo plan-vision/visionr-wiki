@@ -44,7 +44,7 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 ![Forms Anzeige Liste](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Liste.png "Forms Anzeige Liste")
 
 **Beispiel:** *Kacheln*
-![Forms Anzeige Kacheln](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Kacheln.PNG "Forms Anzeige Kacheln")
+![Forms Anzeige Kacheln](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Kacheln.png "Forms Anzeige Kacheln")
 
 **Beispiel:** *Spalten*
 ![Forms Anzeige Spalten](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Spalten.png "Forms Anzeige Spalten")
