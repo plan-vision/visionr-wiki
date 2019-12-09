@@ -37,10 +37,18 @@ Das System hat mehrere vordefinierten Anzeigen. Die Standardanzeige ist die Tabe
 
 Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abbildung gezeigt ist. 
 
+> **Beispiel:** *Tabelle*
 ![Forms Anzeige Tabelle](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Tabelle.png "Forms Anzeige Tabelle")
 
-Auf dem Screenshot ist die Tabellenanzeige aktiv. Die folgende Abbildung zeigt die Anzeige *Liste*.
-
+**Beispiel:** *Liste*
 ![Forms Anzeige Liste](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Liste.png "Forms Anzeige Liste")
+
+**Beispiel:** *Kacheln*
+![Forms Anzeige Kacheln](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Kacheln.png "Forms Anzeige Kacheln")
+
+**Beispiel:** *Spalten*
+![Forms Anzeige Spalten](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Spalten.png "Forms Anzeige Spalten")
+
+{.is-info}
 
 
