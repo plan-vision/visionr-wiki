@@ -71,12 +71,12 @@ Deaktivieren, Ein- und Ausschalten machen Sie über das Funktionsmenü -> Hierar
 Die Hiearchie wechseln Sie mit Auswahl einer anderen Hierarchie aus dem Menü darüber. Alle vordefinierten Hieararchien für die ausgewählte Objektgruppe werden gezeigt. Die Abbildungen darüber zeigen einie Beispiele dafür. 
 
 
-## Hierarchie deaktivieren, ein- und ausschalten
+## Hierarchie ausblenden, ein- und ausschalten
 
 Sie können die Hiearchie *deaktivieren* (verstecken) oder komplett *aus-* und gegebenenfalls *einschalten*. 
 
-> **Deaktivieren**
-![Forms Hierarchie nach Standort](/uploads/de-allgemein/v7-DE-Hierarchie_nach_Standort.png "Forms Hierarchie nach Standort")
+> **Ausblenden**
+![Forms Hierarchie ausblenden](/uploads/de-allgemein/v7-DE-Hiearchie_Ausblenden.png "Forms Hierarchie ausblenden")
 
 > **Ausschalten**
 
