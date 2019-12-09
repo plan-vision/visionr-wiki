@@ -52,9 +52,9 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 # Hierarchie
 
 Die Hierachie hilft Ihnen die Daten besser darzustellen und die Daten nach bestimmten (vordefinierten) Krieterien zusammenzufassen. 
-Die Hierachie wählen Sie aus dem Menü über die Hiearchie selbst. 
+Die Hierachie wählen Sie aus dem Menü über die Hierarchie selbst. 
 
-![Forms Hierarchie wechseln](/uploads/de-allgemein/v7-DE-Hiearchie_Wechseln.png "Forms Hierarchie wechseln")
+![Forms Hierarchie wechseln](/uploads/de-allgemein/v7-DE-Hierarchie_Wechseln.png "Forms Hierarchie wechseln")
 
 Deaktivieren, Ein- und Ausschalten machen Sie über das Funktionsmenü -> Hierarchie. 
 
@@ -68,12 +68,12 @@ Deaktivieren, Ein- und Ausschalten machen Sie über das Funktionsmenü -> Hierar
 
 ## Hierarchie wechseln
 
-Die Hiearchie wechseln Sie mit Auswahl einer anderen Hierarchie aus dem Menü darüber. Alle vordefinierten Hieararchien für die ausgewählte Objektgruppe werden gezeigt. Die Abbildungen darüber zeigen einie Beispiele dafür. 
+Die Hierarchie wechseln Sie mit Auswahl einer anderen Hierarchie aus dem Menü darüber. Alle vordefinierten Hierararchien für die ausgewählte Objektgruppe werden gezeigt. Die Abbildungen darüber zeigen einie Beispiele dafür. 
 
 
 ## Hierarchie ein- und ausblenden, ein- und ausschalten
 
-Sie können die Hiearchie *ausblenden* und *einblenden* oder komplett *aus-* und gegebenenfalls *einschalten*. 
+Sie können die Hierarchie *ausblenden* und *einblenden* oder komplett *aus-* und gegebenenfalls *einschalten*. 
 
 > **Ausblenden**
 ![Forms Hierarchie ausblenden](/uploads/de-allgemein/v7-DE-Hierarchie_Ausblenden.png "Forms Hierarchie ausblenden")
@@ -85,13 +85,13 @@ Sie können die Hiearchie *ausblenden* und *einblenden* oder komplett *aus-* und
 In dem selben Menü haben Sie die Option, die Hierarchie auszuschalten. Klicken Sie auf die Option und die Hierarchie wird komplett ausgeblendet und die Daten werden nicht mehr nach diesen Krieterien gefiltert sein.  
 
 > **Einschalten**
-Um die Hiearchie wieder aktiv und sichtbar machen, wählen Sie aus dem Menü eine Hiearchie, die aktiviert werden muss. Die Struktur wird geladen. 
+Um die Hierarchie wieder aktiv und sichtbar machen, wählen Sie aus dem Menü eine Hierarchie, die aktiviert werden muss. Die Struktur wird geladen. 
 
 ![Forms Hierarchie einblenden](/uploads/de-allgemein/v7-DE-Hierarchie_Einblenden.png "Forms Hierarchie einblenden")
 
 ![Forms Hierarchie einblenden](/uploads/de-allgemein/v7-DE-Hierarchie_Einblenden.png "Forms Hierarchie einblenden2")
 
-Die Hiearchie wird gezeigt und sieht wieder so aus:
+Die Hierarchie wird gezeigt und sieht wieder so aus:
 
 ![Forms Hierarchie](/uploads/de-allgemein/v7-DE-Hierarchie.png "Forms Hierarchie")
 
