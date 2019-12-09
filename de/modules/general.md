@@ -54,19 +54,36 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 Die Hierachie hilft Ihnen die Daten besser darzustellen und die Daten nach bestimmten (vordefinierten) Krieterien zusammenzufassen. 
 Die Hierachie wählen Sie aus dem Menü über die Hiearchie selbst. 
 
-![Forms Hierarchie](/uploads/de-allgemein/v7-DE-Hiearchie.png "Forms Hierarchie")
-
-
+![Forms Hierarchie wechseln](/uploads/de-allgemein/v7-DE-Hiearchie_Wechseln.png "Forms Hierarchie wechseln")
 
 Deaktivieren, Ein- und Ausschalten machen Sie über das Funktionsmenü -> Hierarchie. 
 
-
-![Forms Hierarchie](/uploads/de-allgemein/v7-DE-Hiearchie.png "Forms Hierarchie")
+![Forms Hierarchie](/uploads/de-allgemein/v7-DE-Hierarchie.png "Forms Hierarchie")
 
 > **Bemerkung:** Auf dem Screenshot sind die Personen nach Abteilung sortiert. Die folgende Abbildung zeigt die selben Daten nach *Standort* sortiert.
 
-![Forms Hierarchie nach Standort](/uploads/de-allgemein/v7-DE-Hiearchie_nach_Standort.png "Forms Hierarchie nach Standort")
+![Forms Hierarchie nach Standort](/uploads/de-allgemein/v7-DE-Hierarchie_nach_Standort.png "Forms Hierarchie nach Standort")
 
-> **Bemerkung:** Die Hierarchien sind in zwei Typen unterteilt - alle und *gefiltert*. *Gefilterte* Hierarchien zeigen nur die Ebenen, die tatsächlich mit Daten verknüpft sind. Sonst werden sie nicht gezeigt. Bei den *ungefilterten* (alle) werden die Ebenen unabhängig davon, ob sie Daten beinhalten, dargestellt. 
+> **Bemerkung:** Die Hierarchien sind in zwei Typen unterteilt - *ungefiltert* und *gefiltert*. *Gefilterte* Hierarchien zeigen nur die Ebenen, die tatsächlich mit Daten verknüpft sind. Sonst werden sie nicht gezeigt. Bei den *ungefilterten* (alle anderen) werden die Ebenen dargestellt, unabhängig davon, ob sie Daten beinhalten.
 
-## 
+## Hierarchie wechseln
+
+Die Hiearchie wechseln Sie mit Auswahl einer anderen Hierarchie aus dem Menü darüber. Alle vordefinierten Hieararchien für die ausgewählte Objektgruppe werden gezeigt. Die Abbildungen darüber zeigen einie Beispiele dafür. 
+
+
+## Hierarchie ein- und ausblenden, ein- und ausschalten
+
+Sie können die Hiearchie *ausblenden* (verstecken) oder komplett *aus-* und gegebenenfalls *einschalten*. 
+
+> **Ausblenden**
+![Forms Hierarchie ausblenden](/uploads/de-allgemein/v7-DE-Hiearchie_Ausblenden.png "Forms Hierarchie ausblenden")
+
+ **Einblenden**
+![Forms Hierarchie einblenden](/uploads/de-allgemein/v7-DE-Hiearchie_Ausblenden.png "Forms Hierarchie ausblenden")
+
+> **Ausschalten**
+
+
+> **Einschalten**
+
+
