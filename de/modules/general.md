@@ -59,6 +59,6 @@ v7-DE-Hiearchie.PNG
 
 v7-DE-Hiearchie_nach_Standort.PNG
 
-> **Bemerkung:** Die Hierarchien sind in zwei Typen unterteilt - *gefiltert* und nicht. *Gefilterte* Hierarchien zeigen nur die Ebenen, die tatsächlich mit Daten verknüpft sind. Sonst werden sie nicht gezeigt. Bei den *ungefilterten* werden die Ebenen unabhängig davon, ob sie Daten beinhalten, dargestellt. 
+> **Bemerkung:** Die Hierarchien sind in zwei Typen unterteilt - alle und *gefiltert*. *Gefilterte* Hierarchien zeigen nur die Ebenen, die tatsächlich mit Daten verknüpft sind. Sonst werden sie nicht gezeigt. Bei den *ungefilterten* (alle) werden die Ebenen unabhängig davon, ob sie Daten beinhalten, dargestellt. 
 
 
