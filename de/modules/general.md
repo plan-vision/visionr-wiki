@@ -87,9 +87,9 @@ In dem selben Menü haben Sie die Option, die Hierarchie auszuschalten. Klicken 
 > **Einschalten**
 Um die Hierarchie wieder aktiv und sichtbar machen, wählen Sie aus dem Menü eine Hierarchie, die aktiviert werden muss. Die Struktur wird geladen. 
 
-![Forms Hierarchie einblenden](/uploads/de-allgemein/v7-DE-Hierarchie_Einblenden.png "Forms Hierarchie einblenden")
+![Forms Hierarchie einschalten](/uploads/de-allgemein/v7-DE-Hierarchie_Einschalten.png "Forms Hierarchie einschalten")
 
-![Forms Hierarchie einblenden](/uploads/de-allgemein/v7-DE-Hierarchie_Einblenden.png "Forms Hierarchie einblenden2")
+![Forms Hierarchie einschalten 2](/uploads/de-allgemein/v7-DE-Hierarchie_Einschalten1.png "Forms Hierarchie einschalten 2")
 
 Die Hierarchie wird gezeigt und sieht wieder so aus:
 
