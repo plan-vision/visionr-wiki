@@ -57,7 +57,7 @@ v7-DE-Hiearchie.PNG
 
 > **Bemerkung:** Auf dem Screenshot sind die Personen nach Abteilung sortiert. Die folgende Abbildung zeigt die selben Daten nach *Standort* sortiert.
 
-v7-DE-Hiearchie_nach_Standort.PNG
+![Forms Hierarchie nach Standort](/uploads/de-allgemein/v7-DE-Hiearchie_nach_Standort.png "Forms Hierarchie nach Standort")
 
 > **Bemerkung:** Die Hierarchien sind in zwei Typen unterteilt - alle und *gefiltert*. *Gefilterte* Hierarchien zeigen nur die Ebenen, die tatsächlich mit Daten verknüpft sind. Sonst werden sie nicht gezeigt. Bei den *ungefilterten* (alle) werden die Ebenen unabhängig davon, ob sie Daten beinhalten, dargestellt. 
 
