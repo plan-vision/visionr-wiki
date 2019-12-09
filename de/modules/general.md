@@ -66,4 +66,21 @@ Deaktivieren, Ein- und Ausschalten machen Sie über das Funktionsmenü -> Hierar
 
 > **Bemerkung:** Die Hierarchien sind in zwei Typen unterteilt - *ungefiltert* und *gefiltert*. *Gefilterte* Hierarchien zeigen nur die Ebenen, die tatsächlich mit Daten verknüpft sind. Sonst werden sie nicht gezeigt. Bei den *ungefilterten* (alle anderen) werden die Ebenen dargestellt, unabhängig davon, ob sie Daten beinhalten.
 
-## 
+## Hierarchie wechseln
+
+Die Hiearchie wechseln Sie mit Auswahl einer anderen Hierarchie aus dem Menü darüber. Alle vordefinierten Hieararchien für die ausgewählte Objektgruppe werden gezeigt. Die Abbildungen darüber zeigen einie Beispiele dafür. 
+
+
+## Hierarchie deaktivieren, ein- und ausschalten
+
+Sie können die Hiearchie *deaktivieren* (verstecken) oder komplett *aus-* und gegebenenfalls *einschalten*. 
+
+> **Deaktivieren**
+![Forms Hierarchie nach Standort](/uploads/de-allgemein/v7-DE-Hierarchie_nach_Standort.png "Forms Hierarchie nach Standort")
+
+> **Ausschalten**
+
+
+> **Einschalten**
+
+
