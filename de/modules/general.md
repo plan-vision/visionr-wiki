@@ -89,7 +89,7 @@ Um die Hierarchie wieder aktiv und sichtbar machen, wählen Sie aus dem Menü ei
 
 ![Forms Hierarchie einschalten](/uploads/de-allgemein/v7-DE-Hierarchie_Einschalten.png "Forms Hierarchie einschalten")
 
-![Forms Hierarchie einschalten 2](/uploads/de-allgemein/v7-DE-Hierarchie_Einschalten1.png "Forms Hierarchie einschalten 2")
+![Forms Hierarchie einschalten 2](/uploads/de-allgemein/v7-DE-Hierarchie_Einschalten2.png "Forms Hierarchie einschalten 2")
 
 Die Hierarchie wird gezeigt und sieht wieder so aus:
 
