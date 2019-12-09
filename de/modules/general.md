@@ -73,7 +73,7 @@ Die Hiearchie wechseln Sie mit Auswahl einer anderen Hierarchie aus dem Menü da
 
 ## Hierarchie ein- und ausblenden, ein- und ausschalten
 
-Sie können die Hiearchie *ausblenden* (verstecken) oder komplett *aus-* und gegebenenfalls *einschalten*. 
+Sie können die Hiearchie *ausblenden* und *einblenden* oder komplett *aus-* und gegebenenfalls *einschalten*. 
 
 > **Ausblenden**
 ![Forms Hierarchie ausblenden](/uploads/de-allgemein/v7-DE-Hiearchie_Ausblenden.png "Forms Hierarchie ausblenden")
