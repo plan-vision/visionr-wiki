@@ -7,7 +7,7 @@ Deutsch | [English](/en/modules/reservations/user)
 # Beschreibung
 Alle allgemeine Funktionen, wie z.B. Datensätze bearbeiten, Suchen, Filtern, Ansichten, Sortierungen etc., werden hier beschrieben. 
 
-# Übersicht Applikationsmaske/n
+# Übersicht Applikationsmaske
 Rufen Sie die Indexseite auf, indem Sie die folgende Adresse in dem Browser eingeben:
 
 *http://SERVERNAME/forms*
@@ -25,3 +25,20 @@ Alle alphanumerische Module haben gleich aufgebaute Ansicht. Links stehen immer 
 > **Beispiel:** *Kontakte*
 ![Forms Applikationsmaske Kontakte](/uploads/de-allgemein/v7-DE-Kontakte_Uebersicht.png "Forms Applikationsmaske Kontakte")
 {.is-info}
+
+In dieser Ansicht können Sie die Datensätze direkt in der Tabelle bearbeiten oder in der Formularansicht aufmachen und bearbeiten. Die Bearbeitung wird separat beschrieben. 
+# Anzeigen
+Das System hat mehrere vordefinierten Anzeigen. Die Standardanzeige ist die Tabelle. Da werden die Daten bezüglich der ausgewählten Filter in einer Tabelle angezeigt. Die mögliche Ansichten sind: 
+
+* Tabelle
+* Liste
+* Kacheln
+* Spalten
+
+Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abbildung gezeigt ist. 
+
+![Forms Anzeige Tabelle](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen.png "Forms Anzeige Tabelle")
+
+Auf dem Screenshot ist die Tabellenanzeige aktiv. Die folgende Abbildung zeigt die Anzeige *Liste*.
+
+
