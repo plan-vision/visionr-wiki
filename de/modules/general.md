@@ -110,3 +110,18 @@ Auf der linken Seite sind auch Filters eingebaut. Sie können die Filter nutzen,
 
 Die Daten werden nach den angegebenen Kriterien gefilter und angezeigt. 
 
+**Beispiel:** *Personen*
+![Forms Filter Personen](/uploads/de-allgemein/v7-DE-Filter_Personen.png "Forms Filter Personen")
+
+Bei den Personen sind mehrere Filter vordefiniert, wie: 
+* Objekttyp
+* Personal-ID
+* Name
+* Vorname
+* Telefon
+* Abteilung
+* Kostenstelle
+* Gebäude / Raum
+* Status
+* Erstellungsdatum
+
