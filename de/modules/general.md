@@ -22,7 +22,7 @@ Die Index-Seite wird geladen.
 
 Alle alphanumerische Module haben gleich aufgebaute Ansicht. Links stehen immer die Objekte aus dem Modul, daneben ist die hierarchische Struktur, damit die Daten besser und effizienter gefiltert und dargestellt werden. Rechts werden die Daten in tabellarischer Form (standardmäßig) dargestellt. 
 
-> **Beispiel:** *Kontakte*
+**Beispiel:** *Kontakte*
 ![Forms Applikationsmaske Kontakte](/uploads/de-allgemein/v7-DE-Kontakte_Uebersicht.png "Forms Applikationsmaske Kontakte")
 
 
@@ -105,7 +105,8 @@ Die Hierarchie wird gezeigt und sieht wieder so aus:
 # Filter
 Auf der linken Seite sind auch Filters eingebaut. Sie können die Filter nutzen, um die Daten in der Tabelle schnell filtern zu können. Die Filter sind unterschiedlich für die unterschiedlichen Objekte. Auf den nächsten Screenshot sind die Kontakte ausgewählt und die Filter darunter beziehen sich auf diese Objektdefinition.
 
-> **Beispiel:** *Kontakte*
+**Beispiel:** *Kontakte*
 ![Forms Filter Kontakte](/uploads/de-allgemein/v7-DE-Filter_Kontakte.png "Forms Filter Kontakte")
 
+Die Daten werden nach den angegebenen Kriterien gefilter und angezeigt. 
 
