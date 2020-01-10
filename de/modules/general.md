@@ -106,6 +106,6 @@ Die Hierarchie wird gezeigt und sieht wieder so aus:
 Auf der linken Seite sind auch Filters eingebaut. Sie können die Filter nutzen, um die Daten in der Tabelle schnell filtern zu können. Die Filter sind unterschiedlich für die unterschiedlichen Objekte. Auf den nächsten Screenshot sind die Kontakte ausgewählt und die Filter darunter beziehen sich auf diese Objektdefinition.
 
 > **Beispiel:** *Kontakte*
-
+![Forms Filter](/uploads/de-allgemein/v7-DE-Filter_Kontakte.PNG "Forms Filter")
 {.is-info}
 
