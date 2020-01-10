@@ -184,6 +184,32 @@ Wir ändern den Operator. Das Ergebnis sieht so aus:
 
 > **Bemerkung:** Die Suchkriterien können Sie frei kombinieren. Sie können ein Kriterium löschen oder mit anderem Operator verknüpfen. 
 
+## Erweiterte Suche
+
+Die erweiterte Suche bietet Ihnen die Möglichkeit, selber zu bestimmen, welches Feld durchgesucht wird. 
+Zum **Beispiel** möchten nach Personen suchen, die eine bestimmte Abteilung haben. Dieser Vorgang kann auch mit 'Gruppieren' nach Abteilung erledigt werden.
+
+Klicken Sie auf das Suchsymbol und dann auf die drei Punkte -> 'Suchen nach', um das Suchfenster aufzumachen. 
+![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert.PNG "Forms erweiterte Suche")
+
+In dem angezeigten Fenster geben Sie die Eigenschaft, die Sie durchsuchen möchten.
+![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert1.PNG "Forms erweiterte Suche")
+
+Dann entscheiden Sie, ob Sie die gesamte Eigenschaft durchsuchen möchten oder nur bestimmten Spalten / Eigenschaften.
+![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert2.PNG "Forms erweiterte Suche")
+
+Falls die Suche einer bestimmten Spalte erwünscht ist, klicken Sie auf das '+' Symbol und wählen Sie aus der Eigenschaftsliste der darüberliegenden Eigenschaft.
+![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert3.PNG "Forms erweiterte Suche")
+
+![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert4.PNG "Forms erweiterte Suche")
+
+![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert5.PNG "Forms erweiterte Suche")
+
+> **Bemerkung:** Die mögliche Operationen, die zur Verfügung stehen. 
+![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert6.PNG "Forms erweiterte Suche")
+
+
+
 ## Suche zurücksetzen / leeren
 
 Damit Sie die Suche zurücksetzen oder leeren, müssen Sie die Suchkriterien schliessen - mit Klick auf 'x'. Die Suche wird zurcükgesetzt.
