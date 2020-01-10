@@ -136,6 +136,59 @@ Die Suchfunktion rufen Sie mit Klick auf dem Button 'Suchen' oben rechts über d
 ## Einfache Suche
 ![Forms Suchtutton](/uploads/de-allgemein/v7-DE-Suchleiste_einfach.png "Forms Suchen")
 
+In dem Feld geben Sie die Zeichenkette, nach der gesucht wird. 
+
+**Beispiel:** wir suchen nach einer oder mehreren Person/en mit Nachname 'Mustermann'. 
+![Forms Einfache Suche 'Mustermann'](/uploads/de-allgemein/v7-DE-Suchleiste_einfach_Mustermann.png "Forms Einfache Suche 'Mustermann'")
+
+> **Bemerkung:** Jede Suche wird über die Tabelle in 'oranger' Farbe angezeigt. Falls Sie eine zusätzliche Suche danach durchlaufen lassen, wird diese Suche oben hinzugefügt. Sie können so mehrere Suchkriterien nacheinander anwenden oder unterschiedliche Kriterien kombinieren. 
+
+> **Bemerkung UND / ODER:** Wenn Sie mehrere Suchkriterien kombinieren möchten, müssen Sie den Operator richtig wählen. Vordefiniert ist der Operator 'UND'. Also jede Zeichenkette, die Sie eingeben wird hinzugefügt. Falls Sie den Operator 'ODER' nutzen möchten, müssen Sie ihn bei den Kriterien ändern. 
+
+### Und
+
+Das nächste Beispiel zeigt den Operator 'UND'. Wir möchten alle Personen finden, die 'Daniel' heißen. 
+
+**Beispiel:** wir suchen nach einer oder mehreren Person/en mit Vorname 'Daniel'. 
+**Schritt 1:**
+![Forms Beispiel einfache Suche](/uploads/de-allgemein/v7-DE-Suchleiste_einfach_Daniel.png "Forms Beispiel einfache Suche Schritt 1")
+Die Suche liefert 2 Ergebnisse. Jetzt fügen wir einfach neue Suche für den Nachname des Herren, damit wir den richtigen finden.
+**Schritt 2:** wir suchen nach der Zeichenkette 'Wil', um das Ergebnis zu verfeinern. 
+![Forms Beispiel einfache Suche 2](/uploads/de-allgemein/v7-DE-Suchleiste_einfach_Daniel1.png "Forms Beispiel einfache Suche Schritt 2")
+
+So können Sie weitere Suchkriterien hinzufügen.
+
+> **Bemerkung:** Wenn Sie die erste Suche durchführen, wird das Suchkriterium oben 'orange' markiert. D.h. dieses Kriterium wird bei nächster Suche ersetzt. Damit dieser nicht aktiv ist, klicken Sie einfach daneben. Mit Klick darauf wird er aktiv und Sie können es ersetzen, indem Sie neue Suchkette eingeben. Falls es nicht aktiv ist, wird die Suche mit 'UND' hinzugefügt.
+
+> **Bemerkung:** Wenn Sie nach Personen oder Kontakten suchen, können Sie direkt nach den folgenden Mustern suchen:
+* 'Vorname Name'
+* 'Name Vorname'
+* 'Name, Vorname'
+
+**Beispiel:** Das gleiche Ergebnis wie oben in einem Schritt. Mögliche Suche wäre: 'williams dan' / 'williams, dan' / 'daniel wil'
+![Forms Beispiel Suche einer Person mit Vor und Nachname](/uploads/de-allgemein/v7-DE-Suchleiste_einfach_Daniel3.png "Forms Beispiel Suche einer Person mit Vor und Nachname")
+
+### Oder
+
+Sie können den Operator 'UND' an jeder Stelle mit 'ODER' ersetzen und so Ihre Suche noch verfeinern. Standardmäßig ist 'UND' gesetzt. Damit Sie ihn ersetzen, wählen Sie die Suchkriterien mit Halten der STRG-Taste und dann klicken Sie auf Button '<...>' auf der rechten Seite. Dieser Klick wird den Operator auf 'ODER' umstellen. 
+Falls der Operator 'ODER' ist, können Sie auf dieser Weise ihn wieder auf 'UND' umstellen. 
+
+Das nächste Beispiel zeigt den Vorgang.
+
+**Beispiel:** wir suchen nach Personen mit Nachname 'Mustermann', nach Personen mit Nachname 'Aachen' und nach Personen mit Vorname 'Daniel'. 
+Diese Suche wird keine Ergebnisse liefern, da der Operator noch 'UND' ist. 
+![Forms Suchtutton](/uploads/de-allgemein/v7-DE-Suchleiste_einfach.png "Forms Suchen")
+
+Wir ändern den Operator. Das Ergebnis sieht so aus:
+![Forms Suchtutton](/uploads/de-allgemein/v7-DE-Suchleiste_einfach.png "Forms Suchen")
+
+> **Bemerkung:** Die Suchkriterien können Sie frei kombinieren. Sie können ein Kriterium löschen oder mit anderem Operator verknüpfen. 
+
+## Suche zurücksetzen / leeren
+
+Damit Sie die Suche zurücksetzen oder leeren, müssen Sie die Suchkriterien schliessen - mit Klick auf 'x'. Die Suche wird zurcükgesetzt.
+
+
 ## Komplexe Suche
 
 
