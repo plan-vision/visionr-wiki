@@ -24,7 +24,7 @@ Alle alphanumerische Module haben gleich aufgebaute Ansicht. Links stehen immer 
 
 > **Beispiel:** *Kontakte*
 ![Forms Applikationsmaske Kontakte](/uploads/de-allgemein/v7-DE-Kontakte_Uebersicht.png "Forms Applikationsmaske Kontakte")
-{.is-info}
+
 
 In dieser Ansicht können Sie die Datensätze direkt in der Tabelle bearbeiten oder in der Formularansicht aufmachen und bearbeiten. Die Bearbeitung wird separat beschrieben. 
 # Anzeigen
@@ -107,5 +107,5 @@ Auf der linken Seite sind auch Filters eingebaut. Sie können die Filter nutzen,
 
 > **Beispiel:** *Kontakte*
 ![Forms Filter Kontakte](/uploads/de-allgemein/v7-DE-Filter_Kontakte.png "Forms Filter Kontakte")
-{.is-info}
+
 
