@@ -208,8 +208,8 @@ Das Ergebniss sieht so aus.
 ![Forms Suche erweitert 5](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert5.png "Forms erweiterte Suche 5")
 
 > **Bemerkung:** Die mögliche Operationen, die zur Verfügung stehen. 
-![Forms Suche erweitert 6](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert6.png "Forms erweiterte Suche 6")
 
+![Forms Suche erweitert 6](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert6.png "Forms erweiterte Suche 6")
 
 
 ## Suche zurücksetzen / leeren
