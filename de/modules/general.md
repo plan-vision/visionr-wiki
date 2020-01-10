@@ -127,3 +127,19 @@ Bei den Personen sind mehrere Filter vordefiniert, wie:
 
 **Beispiel:** *Personen mit aktiven Filter 'Objektdefinition = Mitarbeiter'*
 ![Forms Filter Personen Beispiel Mitarbeiter](/uploads/de-allgemein/v7-DE-Filter_Personen2.png "Forms Filter Personen Beispiel Mitarbeiter")
+
+# Suchen / Gruppieren
+Sie haben neben den Filtern auch die Suchfunktion. Sie können von einfachen bis sehr komplexen Suchen in die Tiefe durchführen. 
+Die Suchfunktion rufen Sie mit Klick auf dem Button 'Suchen' oben rechts über den Arbeitsbereich (Tabelle / Liste / Kacheln / Spalten). 
+![Forms Suchtutton](/uploads/de-allgemein/v7-DE-Suchbutton.png "Forms Suchen")
+
+## Einfache Suche
+![Forms Suchtutton](/uploads/de-allgemein/v7-DE-Suchleiste_einfach.png "Forms Suchen")
+
+## Komplexe Suche
+
+
+
+## Gruppieren
+
+
