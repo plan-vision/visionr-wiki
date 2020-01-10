@@ -177,10 +177,10 @@ Das nächste Beispiel zeigt den Vorgang.
 
 **Beispiel:** wir suchen nach Personen mit Nachname 'Angelika' und nach Personen mit Vorname 'Daniel'. 
 Diese Suche wird keine Ergebnisse liefern, da der Operator noch 'UND' ist. 
-![Forms Suchtutton](/uploads/de-allgemein/v7-DE-Suchleiste_einfach.png "Forms Suchen")
+![Forms Suche ODER](/uploads/de-allgemein/v7-DE-Suchleiste_einfach_ODER.png "Forms einfache Suche mit 'ODER' Operator")
 
 Wir ändern den Operator. Das Ergebnis sieht so aus:
-![Forms Suchtutton](/uploads/de-allgemein/v7-DE-Suchleiste_einfach.png "Forms Suchen")
+![Forms Suche ODER](/uploads/de-allgemein/v7-DE-Suchleiste_einfach_ODER1.png "Forms einfache Suche mit 'ODER' Operator")
 
 > **Bemerkung:** Die Suchkriterien können Sie frei kombinieren. Sie können ein Kriterium löschen oder mit anderem Operator verknüpfen. 
 
