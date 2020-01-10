@@ -125,3 +125,5 @@ Bei den Personen sind mehrere Filter vordefiniert, wie:
 * Status
 * Erstellungsdatum
 
+**Beispiel:** *Personen mit aktiven Filter 'Objektdefinition = Mitarbeiter'*
+![Forms Filter Personen Beispiel Mitarbeiter](/uploads/de-allgemein/v7-DE-Filter_Personen2.png "Forms Filter Personen Beispiel Mitarbeiter")
