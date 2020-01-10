@@ -175,7 +175,7 @@ Falls der Operator 'ODER' ist, können Sie auf dieser Weise ihn wieder auf 'UND'
 
 Das nächste Beispiel zeigt den Vorgang.
 
-**Beispiel:** wir suchen nach Personen mit Nachname 'Mustermann', nach Personen mit Nachname 'Aachen' und nach Personen mit Vorname 'Daniel'. 
+**Beispiel:** wir suchen nach Personen mit Nachname 'Angelika' und nach Personen mit Vorname 'Daniel'. 
 Diese Suche wird keine Ergebnisse liefern, da der Operator noch 'UND' ist. 
 ![Forms Suchtutton](/uploads/de-allgemein/v7-DE-Suchleiste_einfach.png "Forms Suchen")
 
