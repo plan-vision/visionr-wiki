@@ -190,25 +190,25 @@ Die erweiterte Suche bietet Ihnen die Möglichkeit, selber zu bestimmen, welches
 Zum **Beispiel** möchten nach Personen suchen, die eine bestimmte Abteilung haben. Dieser Vorgang kann auch mit 'Gruppieren' nach Abteilung erledigt werden.
 
 Klicken Sie auf das Suchsymbol und dann auf die drei Punkte -> 'Suchen nach', um das Suchfenster aufzumachen. 
-![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert.PNG "Forms erweiterte Suche")
+![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert.png "Forms erweiterte Suche")
 
 In dem angezeigten Fenster geben Sie die Eigenschaft, die Sie durchsuchen möchten.
-![Forms Suche erweitert 1](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert1.PNG "Forms erweiterte Suche 1")
+![Forms Suche erweitert 1](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert1.png "Forms erweiterte Suche 1")
 
 Dann entscheiden Sie, ob Sie die gesamte Eigenschaft durchsuchen möchten oder nur bestimmten Spalten / Eigenschaften.
-![Forms Suche erweitert 2](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert2.PNG "Forms erweiterte Suche 2")
+![Forms Suche erweitert 2](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert2.png "Forms erweiterte Suche 2")
 
 Falls die Suche einer bestimmten Spalte erwünscht ist, klicken Sie auf das '+' Symbol und wählen Sie aus der Eigenschaftsliste der darüberliegenden Eigenschaft.
-![Forms Suche erweitert 3](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert3.PNG "Forms erweiterte Suche 3")
+![Forms Suche erweitert 3](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert3.png "Forms erweiterte Suche 3")
 
 Geben Sie die Suchkette, wonach gesucht wird.
-![Forms Suche erweitert 4](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert4.PNG "Forms erweiterte Suche 4")
+![Forms Suche erweitert 4](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert4.png "Forms erweiterte Suche 4")
 
 Das Ergebniss sieht so aus.
-![Forms Suche erweitert 5](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert5.PNG "Forms erweiterte Suche 5")
+![Forms Suche erweitert 5](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert5.png "Forms erweiterte Suche 5")
 
 > **Bemerkung:** Die mögliche Operationen, die zur Verfügung stehen. 
-![Forms Suche erweitert 6](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert6.PNG "Forms erweiterte Suche 6")
+![Forms Suche erweitert 6](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert6.png "Forms erweiterte Suche 6")
 
 
 
