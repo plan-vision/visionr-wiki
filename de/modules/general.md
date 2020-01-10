@@ -145,8 +145,7 @@ In dem Feld geben Sie die Zeichenkette, nach der gesucht wird.
 
 > **Bemerkung UND / ODER:** Wenn Sie mehrere Suchkriterien kombinieren möchten, müssen Sie den Operator richtig wählen. Vordefiniert ist der Operator 'UND'. Also jede Zeichenkette, die Sie eingeben wird hinzugefügt. Falls Sie den Operator 'ODER' nutzen möchten, müssen Sie ihn bei den Kriterien ändern. 
 
-### Und ![V 7 De Such Operator Und](/uploads/de-grafik/v-7-de-such-operator-und.png "V 7 De Such Operator Und")
-![Forms Operator 'UND'](/uploads/de-allgemein/v7-DE-Such_Operator_UND.png "Forms Operator 'UND'")
+### Und 
 
 Das nächste Beispiel zeigt den Operator 'UND'. Wir möchten alle Personen finden, die 'Daniel' heißen. 
 
@@ -192,8 +191,9 @@ Damit Sie die Suche zurücksetzen oder leeren, müssen Sie die Suchkriterien sch
 
 ## Komplexe Suche
 
+Die komplexe Suche bietet Ihnen die Möglichkeit nach mehreren unterschiedlichen Kriterien zu suchen. Sie können sogar in die Tiefe suchen, d.h. Sie können Eigenschaften von Objekten, die mit diesen Objekten verknüpft sind, auch durchsuchen. 
 
 
 ## Gruppieren
-
+Die Funktion gruppiert die Daten nach einem gegebenen Kriterium. Sie können die schon gruppierten Daten leicht in einer Tabelle aufrufen und bearbeiten oder weiter gruppieren oder durchsuchen.
 
