@@ -145,8 +145,7 @@ In dem Feld geben Sie die Zeichenkette, nach der gesucht wird.
 
 > **Bemerkung UND / ODER:** Wenn Sie mehrere Suchkriterien kombinieren möchten, müssen Sie den Operator richtig wählen. Vordefiniert ist der Operator 'UND'. Also jede Zeichenkette, die Sie eingeben wird hinzugefügt. Falls Sie den Operator 'ODER' nutzen möchten, müssen Sie ihn bei den Kriterien ändern. 
 
-### Und ![V 7 De Such Operator Und](/uploads/de-grafik/v-7-de-such-operator-und.png "V 7 De Such Operator Und")
-![Forms Operator 'UND'](/uploads/de-allgemein/v7-DE-Such_Operator_UND.png "Forms Operator 'UND'")
+### Und 
 
 Das nächste Beispiel zeigt den Operator 'UND'. Wir möchten alle Personen finden, die 'Daniel' heißen. 
 
