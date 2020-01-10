@@ -201,8 +201,10 @@ Dann entscheiden Sie, ob Sie die gesamte Eigenschaft durchsuchen möchten oder n
 Falls die Suche einer bestimmten Spalte erwünscht ist, klicken Sie auf das '+' Symbol und wählen Sie aus der Eigenschaftsliste der darüberliegenden Eigenschaft.
 ![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert3.PNG "Forms erweiterte Suche")
 
+Geben Sie die Suchkette, wonach gesucht wird.
 ![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert4.PNG "Forms erweiterte Suche")
 
+Das Ergebniss sieht so aus.
 ![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert5.PNG "Forms erweiterte Suche")
 
 > **Bemerkung:** Die mögliche Operationen, die zur Verfügung stehen. 
