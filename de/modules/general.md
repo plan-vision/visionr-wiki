@@ -191,8 +191,9 @@ Damit Sie die Suche zurücksetzen oder leeren, müssen Sie die Suchkriterien sch
 
 ## Komplexe Suche
 
+Die komplexe Suche bietet Ihnen die Möglichkeit nach mehreren unterschiedlichen Kriterien zu suchen. Sie können sogar in die Tiefe suchen, d.h. Sie können Eigenschaften von Objekten, die mit diesen Objekten verknüpft sind, auch durchsuchen. 
 
 
 ## Gruppieren
-
+Die Funktion gruppiert die Daten nach einem gegebenen Kriterium. Sie können die schon gruppierten Daten leicht in einer Tabelle aufrufen und bearbeiten oder weiter gruppieren oder durchsuchen.
 
