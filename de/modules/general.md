@@ -222,6 +222,14 @@ Damit Sie die Suche zurücksetzen oder leeren, müssen Sie die Suchkriterien sch
 ## Suche anpassen
 
 Sie haben die Möglichkeit die Suche anzupassen. Standardmäßig sind die wichtigsten Eigenschaften wie 'Code' , 'Name' etc. in der Suche einbezogen, aber Sie können die Suchfelder auch selber anpassen. Dafür steht die Option 'Anpassen'.
+![Forms Suche erweitert](/uploads/de-allgemein/v7-DE-Suchleiste_erweitert.png "Forms erweiterte Suche")
+
+In dem angezeigten Fenster geben Sie die gewünschte Eigenschaft ein und fügen Sie diese ein. Sie können mehrere Eigenschaften hinzufügen, damit Sie die Felder explizit bestimmen, die durchgesucht werden. Diese Anpassung wird gespeichert und die Zeichenkette, die Sie in dem Feld eingeben, wird in den von Ihnen festgelegten Feldern gesucht.
+
+> **Bemerkung:** Falls eine Eigenschaft ein verknüpftes Objekt ist, können Sie auch Eigenschaften dieses Objektes einbeziehen. Dafür wählen Sie die gewünschte Eigenschaft aus oder falls diese Eigenschaft wiederum ein verknüpftes Objekt ist, können Sie nach Bedarf auch tiefer suchen. 
+
+
+
 
 
 
