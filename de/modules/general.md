@@ -226,7 +226,16 @@ Sie haben die Möglichkeit die Suche anzupassen. Standardmäßig sind die wichti
 
 In dem angezeigten Fenster geben Sie die gewünschte Eigenschaft ein und fügen Sie diese ein. Sie können mehrere Eigenschaften hinzufügen, damit Sie die Felder explizit bestimmen, die durchgesucht werden. Diese Anpassung wird gespeichert und die Zeichenkette, die Sie in dem Feld eingeben, wird in den von Ihnen festgelegten Feldern gesucht.
 
+![Forms Suche anpassen](/uploads/de-allgemein/v7-DE-Suche_anpassen.png "Forms Suche anpassen")
+
 > **Bemerkung:** Falls eine Eigenschaft ein verknüpftes Objekt ist, können Sie auch Eigenschaften dieses Objektes einbeziehen. Dafür wählen Sie die gewünschte Eigenschaft aus oder falls diese Eigenschaft wiederum ein verknüpftes Objekt ist, können Sie nach Bedarf auch tiefer suchen. 
+
+Wählen Sie die Eigenschaft zuerst:
+![Forms Suche anpassen 1](/uploads/de-allgemein/v7-DE-Suche_anpassen1.png "Forms Suche anpassen 1")
+
+Wählen Sie welche Eigenschaft der Eigenschaft durchgesucht werden soll:
+![Forms Suche anpassen 2](/uploads/de-allgemein/v7-DE-Suche_anpassen2.png "Forms Suche anpassen 2")
+
 
 Coming soon...
 
@@ -238,11 +247,13 @@ Coming soon...
 Die Funktion gruppiert die Daten nach einem dem ausgewählten Kriterium. Sie können die schon gruppierten Daten leicht in einer Tabelle aufrufen und bearbeiten oder weiter gruppieren oder durchsuchen.
 
 **Beispiel:** Gruppierung der Kontakte nach 'Name' und Auswahl einen Teil dieser Gruppierung. 
-![Forms Beispiel Gruppierung nach Name](/uploads/de-allgemein/v7-DE-Suche_gruppieren.png "Forms Beispiel Gruppierung nach Name")
-Auswahl der Eigenschaft:
-![Forms Beispiel Gruppierung nach Name 1](/uploads/de-allgemein/v7-DE-Suche_gruppieren1.png "Forms Beispiel Gruppierung nach Name 1")
-![Forms Beispiel Gruppierung nach Name 2](/uploads/de-allgemein/v7-DE-Suche_gruppieren2.png "Forms Beispiel Gruppierung nach Name 2")
-![Forms Beispiel Gruppierung nach Name 3](/uploads/de-allgemein/v7-DE-Suche_gruppieren3.png "Forms Beispiel Gruppierung nach Name 3")
-![Forms Beispiel Gruppierung nach Name 4](/uploads/de-allgemein/v7-DE-Suche_gruppieren4.png "Forms Beispiel Gruppierung nach Name 4")
 
+Auswahl der Eigenschaft:
+![Forms Beispiel Gruppierung nach Name](/uploads/de-allgemein/v7-DE-Suche_gruppieren.png "Forms Beispiel Gruppierung nach Name")
+Ergebniss der Gruppierung zum Auswählen:
+![Forms Beispiel Gruppierung nach Name 1](/uploads/de-allgemein/v7-DE-Suche_gruppieren1.png "Forms Beispiel Gruppierung nach Name 1")
+Auswahl der Gruppen:
+![Forms Beispiel Gruppierung nach Name 2](/uploads/de-allgemein/v7-DE-Suche_gruppieren2.png "Forms Beispiel Gruppierung nach Name 2")
+Das Ergebniss:
+![Forms Beispiel Gruppierung nach Name 3](/uploads/de-allgemein/v7-DE-Suche_gruppieren3.png "Forms Beispiel Gruppierung nach Name 3")
 
