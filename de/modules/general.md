@@ -237,5 +237,12 @@ Coming soon...
 ## Gruppieren
 Die Funktion gruppiert die Daten nach einem dem ausgewählten Kriterium. Sie können die schon gruppierten Daten leicht in einer Tabelle aufrufen und bearbeiten oder weiter gruppieren oder durchsuchen.
 
+**Beispiel:** Gruppierung der Kontakte nach 'Name' und Auswahl einen Teil dieser Gruppierung. 
+![Forms Beispiel Gruppierung nach Name](/uploads/de-allgemein/v7-DE-Suche_gruppieren.png "Forms Beispiel Gruppierung nach Name")
+Auswahl der Eigenschaft:
+![Forms Beispiel Gruppierung nach Name 1](/uploads/de-allgemein/v7-DE-Suche_gruppieren1.png "Forms Beispiel Gruppierung nach Name 1")
+![Forms Beispiel Gruppierung nach Name 2](/uploads/de-allgemein/v7-DE-Suche_gruppieren2.png "Forms Beispiel Gruppierung nach Name 2")
+![Forms Beispiel Gruppierung nach Name 3](/uploads/de-allgemein/v7-DE-Suche_gruppieren3.png "Forms Beispiel Gruppierung nach Name 3")
+![Forms Beispiel Gruppierung nach Name 4](/uploads/de-allgemein/v7-DE-Suche_gruppieren4.png "Forms Beispiel Gruppierung nach Name 4")
 
 
