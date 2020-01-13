@@ -231,15 +231,13 @@ In dem angezeigten Fenster geben Sie die gewünschte Eigenschaft ein und fügen 
 > **Bemerkung:** Falls eine Eigenschaft ein verknüpftes Objekt ist, können Sie auch Eigenschaften dieses Objektes einbeziehen. Dafür wählen Sie die gewünschte Eigenschaft aus oder falls diese Eigenschaft wiederum ein verknüpftes Objekt ist, können Sie nach Bedarf auch tiefer suchen. 
 
 Wählen Sie die Eigenschaft zuerst:
-![Forms Suche anpassen 1](/uploads/de-allgemein/v7-DE-Suche_anpassen1.png "Forms Suche anpassen 1")
+![Forms Suche anpassen 1](/uploads/de-allgemein/v7-DE-Suche_anpassen_bsp1.png "Forms Suche anpassen 1")
 
 Wählen Sie welche Eigenschaft der Eigenschaft durchgesucht werden soll:
-![Forms Suche anpassen 2](/uploads/de-allgemein/v7-DE-Suche_anpassen2.png "Forms Suche anpassen 2")
+![Forms Suche anpassen 2](/uploads/de-allgemein/v7-DE-Suche_anpassen_bsp1.png "Forms Suche anpassen 2")
 
 
 Coming soon...
-
-
 
 
 
@@ -249,7 +247,7 @@ Die Funktion gruppiert die Daten nach einem dem ausgewählten Kriterium. Sie kö
 **Beispiel:** Gruppierung der Kontakte nach 'Name' und Auswahl einen Teil dieser Gruppierung. 
 
 Auswahl der Eigenschaft:
-![Forms Beispiel Gruppierung nach Name](/uploads/de-allgemein/v7-DE-Suche_gruppieren.png "Forms Beispiel Gruppierung nach Name")
+![Forms Beispiel Gruppierung nach Name](/uploads/de-allgemein/v7-DE-Suche_gruppieren.PNG "Forms Beispiel Gruppierung nach Name")
 Ergebniss der Gruppierung zum Auswählen:
 ![Forms Beispiel Gruppierung nach Name 1](/uploads/de-allgemein/v7-DE-Suche_gruppieren1.png "Forms Beispiel Gruppierung nach Name 1")
 Auswahl der Gruppen:
