@@ -49,6 +49,8 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 **Beispiel:** *Spalten*
 ![Forms Anzeige Spalten](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Spalten.png "Forms Anzeige Spalten")
 
+## Tabelleneigenschaften (Tabellenansicht)
+
 # Hierarchie
 
 Die Hierachie hilft Ihnen die Daten besser darzustellen und die Daten nach bestimmten (vordefinierten) Krieterien zusammenzufassen. 
