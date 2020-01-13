@@ -57,7 +57,7 @@ Die Standardspalten sind vordefiniert und werden angezeigt. Sie haben aber die M
 ### Spalte hinzufügen
 
 Damit Sie eine Spalte hinzufügen können, klicken Sie mit der rechten Maustaste auf die Überschrift der Tabelle und wählen Sie die Option 'Spalte einblenden'. 
-![Forms Spalte hinzufügen](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen.PNG "Forms Spalte hinzufügen")
+![Forms Spalte hinzufügen](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen.png "Forms Spalte hinzufügen")
 
 Wählen Sie die Eigenschaft, die Sie hinzufügen möchten. Falls diese Eigenschaft nicht eingeschaltet ist, wird sie als Spalte angezeigt. Klicken Sie anschließend auf 'Bestätigen'. Die Spalte wird in der Tabelle angezeigt.
 ![Forms Spalte hinzufügen 2](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen2.png "Forms Spalte hinzufügen 2")
