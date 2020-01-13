@@ -60,10 +60,10 @@ Damit Sie eine Spalte hinzufügen können, klicken Sie mit der rechten Maustaste
 ![Forms Spalte hinzufügen](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen.PNG "Forms Spalte hinzufügen")
 
 Wählen Sie die Eigenschaft, die Sie hinzufügen möchten. Falls diese Eigenschaft nicht eingeschaltet ist, wird sie als Spalte angezeigt. Klicken Sie anschließend auf 'Bestätigen'. Die Spalte wird in der Tabelle angezeigt.
-![Forms Spalte hinzufügen 1](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen1.png "Forms Spalte hinzufügen 1")
+![Forms Spalte hinzufügen 2](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen2.png "Forms Spalte hinzufügen 2")
 
 Sie können Die Spalte links oder recht ziehen und an der gewünschten Position verschieben. 
-![Forms Spalte hinzufügen 2](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen2.png "Forms Spalte hinzufügen 2")
+![Forms Spalte hinzufügen 3](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen3.png "Forms Spalte hinzufügen 3")
 
 ### Spalte ausblenden
 Mit rechter Mausklick auf die Überschrift der Tabelle klicken und dann auf 'Ausblenden' klicken!
