@@ -236,10 +236,7 @@ Wählen Sie die Eigenschaft zuerst:
 Wählen Sie welche Eigenschaft der Eigenschaft durchgesucht werden soll:
 ![Forms Suche anpassen 2](/uploads/de-allgemein/v7-DE-Suche_anpassen_bsp1.png "Forms Suche anpassen 2")
 
-
 Coming soon...
-
-
 
 ## Gruppieren
 Die Funktion gruppiert die Daten nach einem dem ausgewählten Kriterium. Sie können die schon gruppierten Daten leicht in einer Tabelle aufrufen und bearbeiten oder weiter gruppieren oder durchsuchen.
@@ -254,4 +251,10 @@ Auswahl der Gruppen:
 ![Forms Beispiel Gruppierung nach Name 2](/uploads/de-allgemein/v7-DE-Suche_gruppieren2.png "Forms Beispiel Gruppierung nach Name 2")
 Das Ergebniss:
 ![Forms Beispiel Gruppierung nach Name 3](/uploads/de-allgemein/v7-DE-Suche_gruppieren3.png "Forms Beispiel Gruppierung nach Name 3")
+
+
+# Bearbeiten
+
+Die Bearbeitung erfolgt in der Formularansicht oder direkt in der Zelle in der Tabelle, falls die tabellarische Ansicht aktiv ist. Die Tabelle ist die Standardansicht. 
+
 
