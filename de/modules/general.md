@@ -186,7 +186,9 @@ Wir ändern den Operator. Das Ergebnis sieht so aus:
 
 ## Erweiterte Suche
 
-Die erweiterte Suche bietet Ihnen die Möglichkeit, selber zu bestimmen, welches Feld durchgesucht wird. 
+Die erweiterte Suche bietet Ihnen die Möglichkeit, selber zu bestimmen, welches Feld durchgesucht wird. Sie haben die Möglichkeit verknüpfte Objekte und deren Felder durchzusuchen - die so genannte 'Suche in die Tiefe'.
+
+
 Zum **Beispiel** möchten nach Personen suchen, die eine bestimmte Abteilung haben. Dieser Vorgang kann auch mit 'Gruppieren' nach Abteilung erledigt werden.
 
 Klicken Sie auf das Suchsymbol und dann auf die drei Punkte -> 'Suchen nach', um das Suchfenster aufzumachen. 
@@ -217,9 +219,11 @@ Das Ergebniss sieht so aus.
 Damit Sie die Suche zurücksetzen oder leeren, müssen Sie die Suchkriterien schliessen - mit Klick auf 'x'. Die Suche wird zurcükgesetzt.
 
 
-## Komplexe Suche
+## Suche anpassen
 
-Die komplexe Suche bietet Ihnen die Möglichkeit nach mehreren unterschiedlichen Kriterien zu suchen. Sie können sogar in die Tiefe suchen, d.h. Sie können Eigenschaften von Objekten, die mit diesen Objekten verknüpft sind, auch durchsuchen. 
+Sie haben die Möglichkeit die Suche anzupassen. Standardmäßig sind die wichtigsten Eigenschaften wie 'Code' , 'Name' etc. in der Suche einbezogen, aber Sie können die Suchfelder auch selber anpassen. Dafür steht die Option 'Anpassen'.
+
+
 
 
 ## Gruppieren
