@@ -52,8 +52,22 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 ## Anzeige anpassen
 
 In der Standardansicht (die Tabelle) entpricht eine Zeile einem Datensatz. Die Spalten stellen die sichtbaren Eigenschaften dieser Objektgruppe dar. Sie können diese Ansicht anpassen, indem Sie selber bestimmen können, welche Spalten (Eigenschaften) sichtbar sind. 
-In der Formularansicht haben Sie alle Eigenschaften vom Objekt zur Verfügung. 
+Die Standardspalten sind vordefiniert und werden angezeigt. Sie haben aber die Möglichkeit diese Ansicht anzupassen und bestimmte Spalten ausschalten ggf. hinzufügen. Die Ansicht bleibt dann für diese Objektdefinition und Benutzer gespeichert. 
 
+### Spalte hinzufügen
+
+Damit Sie eine Spalte hinzufügen können, klicken Sie mit der rechten Maustaste auf die Überschrift der Tabelle und wählen Sie die Option 'Spalte einblenden'. 
+![Forms Spalte hinzufügen](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen.PNG "Forms Spalte hinzufügen")
+
+Wählen Sie die Eigenschaft, die Sie hinzufügen möchten. Falls diese Eigenschaft nicht eingeschaltet ist, wird sie als Spalte angezeigt. Klicken Sie anschließend auf 'Bestätigen'. Die Spalte wird in der Tabelle angezeigt.
+![Forms Spalte hinzufügen 1](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen1.png "Forms Spalte hinzufügen 1")
+
+Sie können Die Spalte links oder recht ziehen und an der gewünschten Position verschieben. 
+![Forms Spalte hinzufügen 2](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen2.png "Forms Spalte hinzufügen 2")
+
+### Spalte ausblenden
+Mit rechter Mausklick auf die Überschrift der Tabelle klicken und dann auf 'Ausblenden' klicken!
+![Forms Spalte ausblenden](/uploads/de-allgemein/v7-DE-Spalte_ausblenden.png "Forms Spalte ausblenden")
 
 # Hierarchie
 
