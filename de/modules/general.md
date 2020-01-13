@@ -49,7 +49,7 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 **Beispiel:** *Spalten*
 ![Forms Anzeige Spalten](/uploads/de-allgemein/v7-DE-Kontakte_Anzeigen_Spalten.png "Forms Anzeige Spalten")
 
-## Tabelleneigenschaften (Tabellenansicht)
+## Anzeige anpassen
 
 In der Standardansicht (die Tabelle) entpricht eine Zeile einem Datensatz. Die Spalten stellen die sichtbaren Eigenschaften dieser Objektgruppe dar. Sie können diese Ansicht anpassen, indem Sie selber bestimmen können, welche Spalten (Eigenschaften) sichtbar sind. 
 In der Formularansicht haben Sie alle Eigenschaften vom Objekt zur Verfügung. 
