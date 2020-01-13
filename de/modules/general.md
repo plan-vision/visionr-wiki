@@ -51,6 +51,10 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 
 ## Tabelleneigenschaften (Tabellenansicht)
 
+In der Standardansicht (die Tabelle) entpricht eine Zeile einem Datensatz. Die Spalten stellen die sichtbaren Eigenschaften dieser Objektgruppe dar. Sie können diese Ansicht anpassen, indem Sie selber bestimmen können, welche Spalten (Eigenschaften) sichtbar sind. 
+In der Formularansicht haben Sie alle Eigenschaften vom Objekt zur Verfügung. 
+
+
 # Hierarchie
 
 Die Hierachie hilft Ihnen die Daten besser darzustellen und die Daten nach bestimmten (vordefinierten) Krieterien zusammenzufassen. 
