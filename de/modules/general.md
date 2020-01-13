@@ -258,3 +258,5 @@ Das Ergebniss:
 Die Bearbeitung erfolgt in der Formularansicht oder direkt in der Zelle in der Tabelle. Die Tabelle ist die Standardansicht. Diese können Sie wechseln - die Ansichten sind separat in diesem Artikel beschrieben. 
 
 
+
+
