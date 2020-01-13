@@ -255,8 +255,8 @@ Das Ergebniss:
 
 # Bearbeiten
 
-Die Bearbeitung erfolgt in der Formularansicht oder direkt in der Zelle in der Tabelle. Die Tabelle ist die Standardansicht. Diese können Sie wechseln - die Ansichten sind separat in diesem Artikel beschrieben. 
-
+Die Bearbeitung erfolgt in der Formularansicht oder direkt in der Zelle in der Tabelle, falls Sie die Daten in der Tabelle anzeigen lassen. Die Ansichten sind in dem Abschnitt 'Anzeigen' beschrieben.
+Standardmäßig ist die Ansicht 'Tabelle' aktiv und die Datensätze werden als Zeilen angezeigt. Die Spalten sind die sichtbaren Eigenschaften und diese können Sie anpassen.
 
 
 
