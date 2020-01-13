@@ -228,12 +228,14 @@ In dem angezeigten Fenster geben Sie die gewünschte Eigenschaft ein und fügen 
 
 > **Bemerkung:** Falls eine Eigenschaft ein verknüpftes Objekt ist, können Sie auch Eigenschaften dieses Objektes einbeziehen. Dafür wählen Sie die gewünschte Eigenschaft aus oder falls diese Eigenschaft wiederum ein verknüpftes Objekt ist, können Sie nach Bedarf auch tiefer suchen. 
 
-
+Coming soon...
 
 
 
 
 
 ## Gruppieren
-Die Funktion gruppiert die Daten nach einem gegebenen Kriterium. Sie können die schon gruppierten Daten leicht in einer Tabelle aufrufen und bearbeiten oder weiter gruppieren oder durchsuchen.
+Die Funktion gruppiert die Daten nach einem dem ausgewählten Kriterium. Sie können die schon gruppierten Daten leicht in einer Tabelle aufrufen und bearbeiten oder weiter gruppieren oder durchsuchen.
+
+
 
