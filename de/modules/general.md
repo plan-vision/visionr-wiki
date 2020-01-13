@@ -255,6 +255,6 @@ Das Ergebniss:
 
 # Bearbeiten
 
-Die Bearbeitung erfolgt in der Formularansicht oder direkt in der Zelle in der Tabelle, falls die tabellarische Ansicht aktiv ist. Die Tabelle ist die Standardansicht. 
+Die Bearbeitung erfolgt in der Formularansicht oder direkt in der Zelle in der Tabelle. Die Tabelle ist die Standardansicht. Diese können Sie wechseln - die Ansichten sind separat in diesem Artikel beschrieben. 
 
 
