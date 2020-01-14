@@ -299,12 +299,19 @@ Finden Sie den gewünschten Datensatz und mit Doppelklick auf die Zeile in der T
 
 ![Forms Datensatz bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular.png "Forms Datensatz bearbeiten")
 
-Klicken Sie danach auf 'Hochladen' und ziehen Sie die Datei in das angezeigten 'Drag & Drop' - Fenster oder Benutzen Sie die Optionen in dem Menü 'Hinzufügen'.
+Klicken Sie danach auf 'Hochladen' und ziehen Sie die Datei in das angezeigten 'Drag & Drop' - Fenster oder Benutzen Sie die Optionen in dem Menü 'Hinzufügen'. 
 
 ![Forms Datei hochladen](/uploads/de-allgemein/v7-DE-Datei_hochladen.png "Forms Datei hochladen")
 
 
+# Unterschift verknüpfen
+Das System unterstützt auch Unterschrifte. Sie können Sich digital unterschreiben und direkt diesen Unterschied mit einem Datensatz verknüpfen - zum Beispiel bei einer Schlüsselausgabe oder Rückgabe, Verträge, Leistungen etc.
+Die Option ist für jeden Datensatz vorhanden und wird bei der 'Datei hochladen' Option platziert. 
+Öffnen Sie den gewünschten Datensatz und klicken Sie auf 'Hochladen'. Aus dem Menü 'Hinzufügen' wählen Sie die Option 'Unterschrift'.
 
+![Forms Unterschrift hochladen](/uploads/de-allgemein/v7-DE-Unterschrift_hochladen.png "Forms Unterschrift hochladen")
+
+Unterschreiben Sie mit dem Maus / Finger je nach benutztem Gerät (PC, Tablet, Smartphone, Unterschriftenpad). 
 
 
 
