@@ -52,8 +52,22 @@ Die Ansichten sind aus dem Menü oben rechts aufrufbar, wie auf die folgende Abb
 ## Anzeige anpassen
 
 In der Standardansicht (die Tabelle) entpricht eine Zeile einem Datensatz. Die Spalten stellen die sichtbaren Eigenschaften dieser Objektgruppe dar. Sie können diese Ansicht anpassen, indem Sie selber bestimmen können, welche Spalten (Eigenschaften) sichtbar sind. 
-In der Formularansicht haben Sie alle Eigenschaften vom Objekt zur Verfügung. 
+Die Standardspalten sind vordefiniert und werden angezeigt. Sie haben aber die Möglichkeit diese Ansicht anzupassen und bestimmte Spalten ausschalten ggf. hinzufügen. Die Ansicht bleibt dann für diese Objektdefinition und Benutzer gespeichert. 
 
+### Spalte hinzufügen
+
+Damit Sie eine Spalte hinzufügen können, klicken Sie mit der rechten Maustaste auf die Überschrift der Tabelle und wählen Sie die Option 'Spalte einblenden'. 
+![Forms Spalte hinzufügen](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen.png "Forms Spalte hinzufügen")
+
+Wählen Sie die Eigenschaft, die Sie hinzufügen möchten. Falls diese Eigenschaft nicht eingeschaltet ist, wird sie als Spalte angezeigt. Klicken Sie anschließend auf 'Bestätigen'. Die Spalte wird in der Tabelle angezeigt.
+![Forms Spalte hinzufügen 2](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen2.png "Forms Spalte hinzufügen 2")
+
+Sie können Die Spalte links oder recht ziehen und an der gewünschten Position verschieben. 
+![Forms Spalte hinzufügen 3](/uploads/de-allgemein/v7-DE-Spalte_hinzufuegen3.png "Forms Spalte hinzufügen 3")
+
+### Spalte ausblenden
+Mit rechter Mausklick auf die Überschrift der Tabelle klicken und dann auf 'Ausblenden' klicken!
+![Forms Spalte ausblenden](/uploads/de-allgemein/v7-DE-Spalte_ausblenden.png "Forms Spalte ausblenden")
 
 # Hierarchie
 
@@ -258,11 +272,46 @@ Auswahl der Gruppen:
 Das Ergebniss:
 ![Forms Beispiel Gruppierung nach Name 3](/uploads/de-allgemein/v7-DE-Suche_gruppieren3.png "Forms Beispiel Gruppierung nach Name 3")
 
-
 # Bearbeiten
 
 Die Bearbeitung erfolgt in der Formularansicht oder direkt in der Zelle in der Tabelle, falls Sie die Daten in der Tabelle anzeigen lassen. Die Ansichten sind in dem Abschnitt 'Anzeigen' beschrieben.
-Standardmäßig ist die Ansicht 'Tabelle' aktiv und die Datensätze werden als Zeilen angezeigt. Die Spalten sind die sichtbaren Eigenschaften und diese können Sie anpassen.
+Standardmäßig ist die Ansicht 'Tabelle' aktiv und die Datensätze werden als Zeilen angezeigt. Die Spalten sind die Eigenschaften und diese können Sie bearbeiten. 
+
+## Bearbeitung in Formularansicht
+
+Damit Sie einen Datensatz zur Bearbeitung aufmachen, klicken Sie auf der Tabellenzeile und dann mit Doppelklick öffnen Sie den Überblick der Datensatz. Die wichtigsten Informationen werden angezeigt.
+![Forms Datensatz bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular.png "Forms Datensatz bearbeiten")
+
+Sie können hier direkt ein Dokument / eine Datei hochladen und mit dem Objekt verknüpfen. Dafür steht die Option 'Hochladen'. 
+
+
+
+
+
+
+
+# Datei / Dokument hochladen
+
+Sie können Dateien unabhängig von der Format hochladen. Viele gängige Formate werden unterstützt und werden von System erkannt und angezeigt, wie z.B. PDF, MS Word und Excel, Bilder, Texte etc.. Sonst können auch Dateien hinzugefügt werden, die danach auf dem Server zentral gespeichert bleiben. 
+
+Die einfachere Variante eine Datei hochzuladen ist mit 'Drag & Drop', wenn der gewünschte Datensatz in Lesemodus (Übersicht) aufgemacht ist. 
+Finden Sie den gewünschten Datensatz und mit Doppelklick auf die Zeile in der Tabelle wird die Übersicht angezeigt. 
+
+![Forms Datensatz bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular.png "Forms Datensatz bearbeiten")
+
+Klicken Sie danach auf 'Hochladen' und ziehen Sie die Datei in das angezeigten 'Drag & Drop' - Fenster oder Benutzen Sie die Optionen in dem Menü 'Hinzufügen'. 
+
+![Forms Datei hochladen](/uploads/de-allgemein/v7-DE-Datei_hochladen.png "Forms Datei hochladen")
+
+
+# Unterschift verknüpfen
+Das System unterstützt auch Unterschrifte. Sie können Sich digital unterschreiben und direkt diesen Unterschied mit einem Datensatz verknüpfen - zum Beispiel bei einer Schlüsselausgabe oder Rückgabe, Verträge, Leistungen etc.
+Die Option ist für jeden Datensatz vorhanden und wird bei der 'Datei hochladen' Option platziert. 
+Öffnen Sie den gewünschten Datensatz und klicken Sie auf 'Hochladen'. Aus dem Menü 'Hinzufügen' wählen Sie die Option 'Unterschrift'.
+
+![Forms Unterschrift hochladen](/uploads/de-allgemein/v7-DE-Unterschrift_hochladen.png "Forms Unterschrift hochladen")
+
+Unterschreiben Sie mit dem Maus / Finger je nach benutztem Gerät (PC, Tablet, Smartphone, Unterschriftenpad). 
 
 
 
