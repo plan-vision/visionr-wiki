@@ -264,7 +264,7 @@ Die Funktion gruppiert die Daten nach einem dem ausgewählten Kriterium. Sie kö
 **Beispiel:** Gruppierung der Kontakte nach 'Name' und Auswahl einen Teil dieser Gruppierung. 
 
 Auswahl der Eigenschaft:
-![Forms Beispiel Gruppierung nach Name](/uploads/de-allgemein/v7-DE-Suche_gruppieren.PNG "Forms Beispiel Gruppierung nach Name")
+![Forms Beispiel Gruppierung nach Name](/uploads/de-allgemein/v7-DE-Suche_gruppieren.png "Forms Beispiel Gruppierung nach Name")
 Ergebniss der Gruppierung zum Auswählen:
 ![Forms Beispiel Gruppierung nach Name 1](/uploads/de-allgemein/v7-DE-Suche_gruppieren1.png "Forms Beispiel Gruppierung nach Name 1")
 Auswahl der Gruppen:
