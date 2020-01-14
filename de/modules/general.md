@@ -246,7 +246,7 @@ Sie haben die Möglichkeit die Suche anzupassen. Standardmäßig sind die wichti
 
 In dem angezeigten Fenster geben Sie die gewünschte Eigenschaft ein und fügen Sie diese ein. Sie können mehrere Eigenschaften hinzufügen, damit Sie die Felder explizit bestimmen, die durchgesucht werden. Diese Anpassung wird gespeichert und die Zeichenkette, die Sie in dem Feld eingeben, wird in den von Ihnen festgelegten Feldern gesucht.
 
-![Forms Suche anpassen](/uploads/de-allgemein/v7-DE-Suche_anpassen.PNG "Forms Suche anpassen")
+![Forms Suche anpassen](/uploads/de-allgemein/v7-DE-Suche_anpassen.png "Forms Suche anpassen")
 
 > **Bemerkung:** Falls eine Eigenschaft ein verknüpftes Objekt ist, können Sie auch Eigenschaften dieses Objektes einbeziehen. Dafür wählen Sie die gewünschte Eigenschaft aus oder falls diese Eigenschaft wiederum ein verknüpftes Objekt ist, können Sie nach Bedarf auch tiefer suchen. 
 
