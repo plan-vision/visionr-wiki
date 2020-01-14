@@ -282,11 +282,26 @@ Standardmäßig ist die Ansicht 'Tabelle' aktiv und die Datensätze werden als Z
 Damit Sie einen Datensatz zur Bearbeitung aufmachen, klicken Sie auf der Tabellenzeile und dann mit Doppelklick öffnen Sie den Überblick der Datensatz. Die wichtigsten Informationen werden angezeigt.
 ![Forms Datensatz bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular.png "Forms Datensatz bearbeiten")
 
-Sie können hier direkt ein Dokument / eine Datei hochladen und mit dem Objekt vekrknüpfen. Dafür steht die Option 'Hochladen'.
+Sie können hier direkt ein Dokument / eine Datei hochladen und mit dem Objekt verknüpfen. Dafür steht die Option 'Hochladen'. 
 
 
 
-# Datei / Dokument hochladen und mit einem Datensatz verknüpfen
+
+
+
+
+# Datei / Dokument hochladen
+
+Sie können Dateien unabhängig von der Format hochladen. Viele gängige Formate werden unterstützt und werden von System erkannt und angezeigt, wie z.B. PDF, MS Word und Excel, Bilder, Texte etc.. Sonst können auch Dateien hinzugefügt werden, die danach auf dem Server zentral gespeichert bleiben. 
+
+Die einfachere Variante eine Datei hochzuladen ist mit 'Drag & Drop', wenn der gewünschte Datensatz in Lesemodus (Übersicht) aufgemacht ist. 
+Finden Sie den gewünschten Datensatz und mit Doppelklick auf die Zeile in der Tabelle wird die Übersicht angezeigt. 
+
+![Forms Datensatz bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular.png "Forms Datensatz bearbeiten")
+
+Klicken Sie danach auf 'Hochladen' und ziehen Sie die Datei in das angezeigten 'Drag & Drop' - Fenster oder Benutzen Sie die Optionen in dem Menü 'Hinzufügen'.
+
+![Forms Datei hochladen](/uploads/de-allgemein/v7-DE-Datei_hochladen.png "Forms Datei hochladen")
 
 
 
