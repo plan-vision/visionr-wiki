@@ -303,6 +303,22 @@ Klicken Sie danach auf 'Hochladen' und ziehen Sie die Datei in das angezeigten '
 
 ![Forms Datei hochladen](/uploads/de-allgemein/v7-DE-Datei_hochladen.png "Forms Datei hochladen")
 
+Falls Sie mit 'Hinzufügen' Dateien hochladen und verknüpfen möchten, wird ein Explorer Fenster aufgemacht und Sie können die gewünschten Datei/en auswählen und hochladen. 
+
+![Forms Datei hochladen 1](/uploads/de-allgemein/v7-DE-Datei_hochladen1.png "Forms Datei hochladen 1")
+
+> **Bemerkung:** Sie können hier mehrere Dateien in einem Rutsch hochladen. 
+
+Dann müssen Sie den Vorgang bestätigen. Eine Übersicht der Dateien wird angezeigt und Sie können nur bestimmte oder alle bestätigen. 
+
+![Forms Datei hochladen 2](/uploads/de-allgemein/v7-DE-Datei_hochladen2.png "Forms Datei hochladen 2")
+
+Dann erscheinen die Datein in der Vorschau und mit Klick auf eine Datei / Bild wird die Datei aufgemacht und zum Herunterladen zur Verfügung gestellt. 
+
+
+
+
+
 
 # Unterschift verknüpfen
 Das System unterstützt auch Unterschrifte. Sie können Sich digital unterschreiben und direkt diesen Unterschied mit einem Datensatz verknüpfen - zum Beispiel bei einer Schlüsselausgabe oder Rückgabe, Verträge, Leistungen etc.
@@ -312,6 +328,8 @@ Die Option ist für jeden Datensatz vorhanden und wird bei der 'Datei hochladen'
 ![Forms Unterschrift hochladen](/uploads/de-allgemein/v7-DE-Unterschrift_hochladen.png "Forms Unterschrift hochladen")
 
 Unterschreiben Sie mit dem Maus / Finger je nach benutztem Gerät (PC, Tablet, Smartphone, Unterschriftenpad). 
+
+
 
 
 
