@@ -315,7 +315,7 @@ Dann müssen Sie den Vorgang bestätigen. Eine Übersicht der Dateien wird angez
 
 Dann erscheinen die Datein in der Vorschau und mit Klick auf eine Datei / Bild wird die Datei aufgemacht und zum Herunterladen zur Verfügung gestellt. 
 
-
+![Forms Datei hochladen 3](/uploads/de-allgemein/v7-DE-Datei_hochladen3.png "Forms Datei hochladen 3")
 
 
 
@@ -327,7 +327,9 @@ Die Option ist für jeden Datensatz vorhanden und wird bei der 'Datei hochladen'
 
 ![Forms Unterschrift hochladen](/uploads/de-allgemein/v7-DE-Unterschrift_hochladen.png "Forms Unterschrift hochladen")
 
-Unterschreiben Sie mit dem Maus / Finger je nach benutztem Gerät (PC, Tablet, Smartphone, Unterschriftenpad). 
+Unterschreiben Sie mit dem Maus / Finger je nach benutztem Gerät (PC, Tablet, Smartphone, Unterschriftenpad) und bestätigen Sie die Unterschrift. Dann müssen Sie nochmal die Auswahl bestätigen und die Unterschrift wird in der Vorschau angezeigt. Mit Klick auf die verknüpften Dokumenten / Dateien werden diese in einer Vorschaugalerie gezeigt. 
+
+
 
 
 
