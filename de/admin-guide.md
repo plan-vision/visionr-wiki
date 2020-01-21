@@ -11,10 +11,6 @@ Deutsch | [English](/en/admin-guide)
 
 Stellen Sie sicher, dass Sie administrative Rechte haben, bevor Sie die Installationsdatei ausführen. Am besten klicken Sie auf die Datei mit der rechten Maustaste und führen Sie sie als "Administrator" aus.
 
-
-
-
-
 ## Migration VisionR Server auf v. 7x
 
 > **Bemerkung**: Falls Sie eine Migration durchführen möchten, müssen Sie auf jeden Fall vor der Installation der Version 7x oder nach der Instalaltion und vor dem ersten Start die alte Version von dem VisionR Server entweder löschen oder umbenennen / dekativieren. Falls Sie sie vor der Installation machen, vergessen Sie nicht das Unterverzeichnis `Aps` zu sichern. Da sind die Projektdaten!!!
