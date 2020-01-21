@@ -41,7 +41,7 @@ Fügen Sie die Daten in dem neuen Ordner.
 
 6. Gehen Sie fort mir der Installation, wie in dem Abschnitt `Installation VisionR Server ab v. 7x` beschrieben ist. 
 
-7. Falls die Installtion erfolgreich war und Sie den Server gestartet haben, können Sie die alte Version löschen oder ggf. sichern. 
+7. Falls die Installtion erfolgreich war und Sie den Server gestartet haben, können Sie die alte Version sichern oder ggf. löschen. 
 
 ## Einspielen von Projektdaten
 # Updates
