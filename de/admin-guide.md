@@ -18,26 +18,26 @@ Stellen Sie sicher, dass Sie administrative Rechte haben, bevor Sie die Installa
 Die Schritte, die Sie folgen können:
 
 1. Deaktivieren Sie den alten Dienst - öffnen Sie die Windows Dienste (Services) und deaktivieren Sie den Dienst `VisionR Server Manager 6`. 
-![v7 Installation VR Migration 1](/uploads/de-administration/v7-Installation_VR_Migration_1.png "v7 Installation VR Migration 1")
+![v7 Installation VR Migration 1](/uploads/de-administration/installation/v7-Installation_VR_Migration_1.png "v7 Installation VR Migration 1")
 
-![v7 Installation VR Migration 2](/uploads/de-administration/v7-Installation_VR_Migration_2.png "v7 Installation VR Migration 2")
+![v7 Installation VR Migration 2](/uploads/de-administration/installation/v7-Installation_VR_Migration_2.png "v7 Installation VR Migration 2")
 
 Anschließend auf `Übernehmen` klicken. Der Dienst ist somit deaktiviert. 
 
 2. Erstellen Sie einen neuen Ordner für die Installation der Version 7. **Beispiel** - wir erstellen ein neues Verzeichnis auf der gleichen Festplatte, wo die Installation von v.6x war. Die alte Installation behalten wir noch bis wir nicht alles zum Laufen gebracht haben. 
-![v7 Installation VR Migration 3](/uploads/de-administration/v7-Installation_VR_Migration_3.png "v7 Installation VR Migration 3")
+![v7 Installation VR Migration 3](/uploads/de-administration/installation/v7-Installation_VR_Migration_3.png "v7 Installation VR Migration 3")
 
 3. Dann gehen Sie in dem Ordner `VisionRServer6`, falls Sie die Version 6 hatten. Wählen Sie das Verzeichnis `Aps` aus und kopieren Sie dieses in dem neu erstellten Ordner für die Version 7. 
-![v7 Installation VR Migration 4](/uploads/de-administration/v7-Installation_VR_Migration_4.png "v7 Installation VR Migration 4")
+![v7 Installation VR Migration 4](/uploads/de-administration/installation/v7-Installation_VR_Migration_4.png "v7 Installation VR Migration 4")
 Fügen Sie die Daten in dem neuen Ordner.
-![v7 Installation VR Migration 5](/uploads/de-administration/v7-Installation_VR_Migration_5.png "v7 Installation VR Migration 5")
+![v7 Installation VR Migration 5](/uploads/de-administration/installation/v7-Installation_VR_Migration_5.png "v7 Installation VR Migration 5")
 
 4. Sichern Sie, dass LibreOffice keine laufende Instanz hat. Öffnen Sie den Task-Manager und schauen Sie nach dem Prozess `soffice` und stoppen Sie diese Prozesse.
-![v7 Installation VR Migration 6](/uploads/de-administration/v7-Installation_VR_Migration_6.png "v7 Installation VR Migration 6")
+![v7 Installation VR Migration 6](/uploads/de-administration/installation/v7-Installation_VR_Migration_6.png "v7 Installation VR Migration 6")
 
 5. Benennen Sie den Ordner der alten Version um, damit keine Komponente aus der alten Version mehr ausführbar sind. 
 **Bemerkung**: Alternativ können Sie die alte Installation löschen, wenn Sie sicher sind, dass Sie die alle Daten gesichert haben. Falls Sie nicht sicher sind, behalten Sie die alte Installation mit umbenanntem Ordner bis Sie die Migration erfolgreich abschließen.  
-![v7 Installation VR Migration 7](/uploads/de-administration/v7-Installation_VR_Migration_7.png "v7 Installation VR Migration 7")
+![v7 Installation VR Migration 7](/uploads/de-administration/installation/v7-Installation_VR_Migration_7.png "v7 Installation VR Migration 7")
 
 6. Gehen Sie fort mir der Installation, wie in dem Abschnitt `Installation VisionR Server ab v. 7x` beschrieben ist. 
 
