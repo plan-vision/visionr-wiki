@@ -35,10 +35,11 @@ Fügen Sie die Daten in dem neuen Ordner.
 4. Sichern Sie, dass LibreOffice keine laufende Instanz hat. Öffnen Sie den Task-Manager und schauen Sie nach dem Prozess `soffice` und stoppen Sie diese Prozesse.
 ![v7 Installation VR Migration 6](/uploads/de-administration/v7-Installation_VR_Migration_6.png "v7 Installation VR Migration 6")
 
-5. Bennenen Sie den Ordner der alten Version um, damit keine Komponente aus der alten Version mehr ausführbar sind. 
-**Bemerkung**: Alternativ können Sie die alte Installation löschen, aber Sie können sie lassen, bis die neue Version läuft. 
+5. Benennen Sie den Ordner der alten Version um, damit keine Komponente aus der alten Version mehr ausführbar sind. 
+**Bemerkung**: Alternativ können Sie die alte Installation löschen, wenn Sie sicher sind, dass Sie die alle Daten gesichert haben. Falls Sie nicht sicher sind, behalten Sie die alte Installation mit umbenanntem Ordner bis Sie die Migration erfolgreich abschließen.  
+![v7 Installation VR Migration 7](/uploads/de-administration/v7-Installation_VR_Migration_7.png "v7 Installation VR Migration 7")
 
-
+6. Gehen Sie fort mir der Installation, wie in dem Abschnitt `Installation v. 7x` beschrieben ist. 
 
 
 
