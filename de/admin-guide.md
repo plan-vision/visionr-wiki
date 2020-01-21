@@ -19,7 +19,6 @@ Die Schritte, die Sie folgen können:
 
 1. Deaktivieren Sie den alten Dienst - öffnen Sie die Windows Dienste (Services) und deaktivieren Sie den Dienst `VisionR Server Manager 6`. 
 ![v7 Installation VR Migration 1](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_1.png "v7 Installation VR Migration 1")
-
 ![v7 Installation VR Migration 2](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_2.png "v7 Installation VR Migration 2")
 
 Anschließend auf `Übernehmen` klicken. Der Dienst ist somit deaktiviert. 
