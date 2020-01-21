@@ -39,11 +39,9 @@ Fügen Sie die Daten in dem neuen Ordner.
 **Bemerkung**: Alternativ können Sie die alte Installation löschen, wenn Sie sicher sind, dass Sie die alle Daten gesichert haben. Falls Sie nicht sicher sind, behalten Sie die alte Installation mit umbenanntem Ordner bis Sie die Migration erfolgreich abschließen.  
 ![v7 Installation VR Migration 7](/uploads/de-administration/v7-Installation_VR_Migration_7.png "v7 Installation VR Migration 7")
 
-6. Gehen Sie fort mir der Installation, wie in dem Abschnitt `Installation v. 7x` beschrieben ist. 
+6. Gehen Sie fort mir der Installation, wie in dem Abschnitt `Installation VisionR Server ab v. 7x` beschrieben ist. 
 
-
-
-
+7. Falls die Installtion erfolgreich war und Sie den Server gestartet haben, können Sie die alte Version löschen oder ggf. sichern. 
 
 ## Einspielen von Projektdaten
 # Updates
