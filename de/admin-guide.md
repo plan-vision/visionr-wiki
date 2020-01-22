@@ -18,7 +18,7 @@ Akzeptieren Sie die AGBs und geben Sie den neu erstellten Ordner als Installatio
 **Bei Upgrade** ist der Ordner schon erstellt und Sie müssen ihn nochmal bestätigen, weil er nicht leer ist. 
 ![v7 Installation VR 3](/uploads/de-administration/de-installation/v7-Installation_VR_3.png "Bei Upgrade Installationspfad bestätigen")
 
-Lassen Sie diesen Pfad zu der Umgewungsvariable hinzugefügt werden. 
+Lassen Sie diesen Pfad zu der Umgebungsvariable hinzugefügt werden. 
 ![v7 Installation VR 4](/uploads/de-administration/de-installation/v7-Installation_VR_4.png "Hinzufügen zu der Umgebungsvariable")
 
 Anschließend klicken Sie auf `Install`.
@@ -28,14 +28,14 @@ Nachdem die Dateien extrahiert wurden, wird die Eingabeaufforderung aufgemacht, 
 ![v7 Installation VR 6](/uploads/de-administration/de-installation/v7-Installation_VR_6.png "VisionR Server Einstellungen")
 
 Die nächste Eingabe ist die Größe des Speichers für die JVM. 
-Falls die Servermaschine **8 GB** Arbeitspeicher hat, geben Sie hier **2000 MB**. 
-Falls die Servermaschine **16 GB** oder mehr Arbeitspeicher hat, geben Sie hier **4000 MB**.
+Falls die Servermaschine **8 GB** Arbeitsspeicher hat, geben Sie hier **2000 MB**. 
+Falls die Servermaschine **16 GB** oder mehr Arbeitsspeicher hat, geben Sie hier **4000 MB**.
 ![v7 Installation VR 7](/uploads/de-administration/de-installation/v7-Installation_VR_7.png "JVM Speicher zuordnen")
 
 Bestätigen Sie die 1000 MB zugewiesene Speichergröße für die JVM Maintenance. Die vorgeschlagenen Werde sind in den `[]` eingegeben. Mit `Enter` bestätigen Sie diese Eingaben.
 ![v7 Installation VR 8](/uploads/de-administration/de-installation/v7-Installation_VR_8.png "JVM Maintenance und Libre Office Pfad")
 
-Bestätigen Sie den Pfad von Libre Office, falls er innerhalb des Installationspfad liegt. In diesem Beispiel `D:\VisionRServer7\.visionr\libreoffice`. Die obere Abbildung zeigt diese Einstellung.
+Bestätigen Sie den Pfad von Libre Office, falls er innerhalb des Installationspfads liegt. In diesem Beispiel `D:\VisionRServer7\.visionr\libreoffice`. Die obere Abbildung zeigt diese Einstellung.
 
 Sie können an dieser Stelle auch die SMTP Einstellungen machen, falls der Maildienst gebraucht wird. Diese Einstellung können Sie auch zu einem späteren Zeitpunkt machen. Deshalb wir bestätigen die `Nein` Option.
 Demnächst bestätigen wir den Servicesports **8282** und **8283** HTTPS für den Manager und  
@@ -53,7 +53,7 @@ Die Installation wird fortgesetzt, die Neuigkeiten der Version werden angezeigt 
 Nachdem die Installation erfolgreich abgeschlossen ist, soll der neue Dienst `VisionR Server Manager 7` installiert, aktiv und gestartet sein. Sie können das einfach überprüfen. 
 ![v7 neuen Dienst überprüfen](/uploads/de-administration/de-installation/v7-Installation_VR_service_check_after_install.png "Dienst überprüfen")
 
-Öffnen Sie den Browser und geben Sie die Serveradresse mit dem Port ein. Falls Sie immer noch auf der Servermaschine arbeiten, können Sie auch `localhost:8282` in dem browser eingeben. Melden Sie Sich mit den angegebenen Daten (in der Installation das angegebene Passwort `passwort123`).
+Öffnen Sie den Browser und geben Sie die Serveradresse mit dem Port ein. Falls Sie immer noch auf der Servermaschine arbeiten, können Sie auch `localhost:8282` in dem Browser eingeben. Melden Sie Sich mit den angegebenen Daten (in der Installation das angegebene Passwort `passwort123`).
 Der Manager ist nach dem ersten Login leer. Klicken Sie auf den Button `NEW` oben links. Standardeinstellungen werden vorgeschlagen und Sie können jetzt diese ändern. 
 ![v7 Installation VR 13](/uploads/de-administration/de-installation/v7-Installation_VR_13.png "Serverinstanz definieren")
 
@@ -78,7 +78,7 @@ Speichern Sie die Einstellungen und starten Sie den Server.
 
 ## Upgrade VisionR Server auf v. 7x
 
-> **Bemerkung**: Falls Sie ein Upgrade durchführen möchten, müssen Sie auf jeden Fall vor der Installation der Version 7x oder nach der Instalaltion und vor dem ersten Start die alte Version von dem VisionR Server entweder löschen oder umbenennen / dekativieren. Falls Sie sie vor der Installation machen, vergessen Sie nicht das Unterverzeichnis `Aps` zu sichern. Da sind die Projektdaten!!!
+> **Bemerkung**: Falls Sie ein Upgrade durchführen möchten, müssen Sie auf jeden Fall vor der Installation der Version 7x oder nach der Installation und vor dem ersten Start die alte Version von dem VisionR Server entweder löschen oder umbenennen / deaktivieren. Falls Sie sie vor der Installation machen, vergessen Sie nicht das Unterverzeichnis `Aps` zu sichern. Da sind die Projektdaten!!!
 
 Die Schritte, die Sie folgen können:
 
@@ -99,7 +99,7 @@ Fügen Sie die Daten in dem neuen Ordner.
 4. Sichern Sie, dass LibreOffice keine laufende Instanz hat. Öffnen Sie den Task-Manager und schauen Sie nach dem Prozess `soffice` und stoppen Sie diese Prozesse.
 ![v7 Installation VR Upgrade 6](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_6.png "v7 Installation VR Upgrade 6")
 
-5. Benennen Sie den Ordner der alten Version um, damit keine Komponente aus der alten Version mehr ausführbar sind. 
+5. Benennen Sie den Ordner der alten Version um, damit keine Komponente aus der alten Version aufgerufen werden. 
 >**Bemerkung**: Alternativ können Sie die alte Installation löschen, wenn Sie sicher sind, dass Sie die alle Daten gesichert haben. Falls Sie nicht sicher sind, behalten Sie die alte Installation mit umbenanntem Ordner bis Sie die Upgrade erfolgreich abschließen.  
 ![v7 Installation VR Upgrade 7](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_7.png "v7 Installation VR Upgrade 7")
 
