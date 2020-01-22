@@ -4,7 +4,7 @@
 Deutsch | [English](/en/admin-guide)
 *Sie sind hier: [Home](/home) > Administratorenhandbuch*
 # Installation
-## Installtion Datenbank
+## Installation Datenbank
 ## Installation VisionR Server ab v. 7x 
 
 > **Bemerkung**: Die folgende Anleitung bezieht sich auf eine komplett neue Installation von VisionR Server 7x. Falls Sie Upgrade von einer älteren Version auf v. 7x. durchführen möchten, schauen Sie in dem Abschnitt `Upgrade`. 
