@@ -52,7 +52,7 @@ Die Installation wird fortgesetzt, die Neuigkeiten der Version werden angezeigt 
 
 ## Upgrade VisionR Server auf v. 7x
 
-> **Bemerkung**: Falls Sie eine Upgrade durchführen möchten, müssen Sie auf jeden Fall vor der Installation der Version 7x oder nach der Instalaltion und vor dem ersten Start die alte Version von dem VisionR Server entweder löschen oder umbenennen / dekativieren. Falls Sie sie vor der Installation machen, vergessen Sie nicht das Unterverzeichnis `Aps` zu sichern. Da sind die Projektdaten!!!
+> **Bemerkung**: Falls Sie ein Upgrade durchführen möchten, müssen Sie auf jeden Fall vor der Installation der Version 7x oder nach der Instalaltion und vor dem ersten Start die alte Version von dem VisionR Server entweder löschen oder umbenennen / dekativieren. Falls Sie sie vor der Installation machen, vergessen Sie nicht das Unterverzeichnis `Aps` zu sichern. Da sind die Projektdaten!!!
 
 Die Schritte, die Sie folgen können:
 
