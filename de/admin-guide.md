@@ -7,7 +7,7 @@ Deutsch | [English](/en/admin-guide)
 ## Installtion Datenbank
 ## Installation VisionR Server ab v. 7x 
 
-> **Bemerkung**: Die folgende Anleitung bezieht sich auf eine komplett neue Installation von VisionR Server 7x. Falls Sie Migration von einer älteren Version auf v. 7x. durchführen möchten, schauen Sie in dem Abschnitt `Migration`. 
+> **Bemerkung**: Die folgende Anleitung bezieht sich auf eine komplett neue Installation von VisionR Server 7x. Falls Sie Upgrade von einer älteren Version auf v. 7x. durchführen möchten, schauen Sie in dem Abschnitt `Upgrade`. 
 
 Stellen Sie sicher, dass Sie administrative Rechte haben, bevor Sie die Installationsdatei ausführen.
 ![v7 Installation VR 1](/uploads/de-administration/de-installation/v7-Installation_VR_1.png "v7 Installation VR 1")
@@ -15,8 +15,8 @@ Stellen Sie sicher, dass Sie administrative Rechte haben, bevor Sie die Installa
 Akzeptieren Sie die AGBs und geben Sie den neu erstellten Ordner als Installationspfad ein, falls das System migriert wird. Falls die Installation komplett neu durchgeführt wird, geben Sie den gewünschten Installationspfad ein. 
 ![v7 Installation VR 2](/uploads/de-administration/de-installation/v7-Installation_VR_2.png "Installationspfad eingeben")
 
-**Bei Migration** ist der Ordner schon erstellt und Sie müssen ihn nochmal bestätigen, weil er nicht leer ist. 
-![v7 Installation VR 3](/uploads/de-administration/de-installation/v7-Installation_VR_3.png "Bei Migration Installationspfad bestätigen")
+**Bei Upgrade** ist der Ordner schon erstellt und Sie müssen ihn nochmal bestätigen, weil er nicht leer ist. 
+![v7 Installation VR 3](/uploads/de-administration/de-installation/v7-Installation_VR_3.png "Bei Upgrade Installationspfad bestätigen")
 
 Lassen Sie diesen Pfad zu der Umgewungsvariable hinzugefügt werden. 
 ![v7 Installation VR 4](/uploads/de-administration/de-installation/v7-Installation_VR_4.png "Hinzufügen zu der Umgebungsvariable")
@@ -50,34 +50,58 @@ Setzen Sie das Passwort für den Zugriff auf die Weboberfläche des VisionR Serv
 Die Installation wird fortgesetzt, die Neuigkeiten der Version werden angezeigt und Sie müssen auf `Next` klicken, um die Installation abzuschließen.
 ![v7 Installation VR 12](/uploads/de-administration/de-installation/v7-Installation_VR_12.png "Installation abschließen")
 
-Nachdem die Installation abgeschlossen ist, müssen wir die PostgreSQL Datenbank einstellen. 
+Nachdem die Installation erfolgreich abgeschlossen ist, soll der neue Dienst `VisionR Server Manager 7` installiert, aktiv und gestartet sein. Sie können das einfach überprüfen. 
+![v7 neuen Dienst überprüfen](/uploads/de-administration/de-installation/v7-Installation_VR_service_check_after_install.png "Dienst überprüfen")
 
-## Migration VisionR Server auf v. 7x
+Öffnen Sie den Browser und geben Sie die Serveradresse mit dem Port ein. Falls Sie immer noch auf der Servermaschine arbeiten, können Sie auch `localhost:8282` in dem browser eingeben. Melden Sie Sich mit den angegebenen Daten (in der Installation das angegebene Passwort `passwort123`).
+Der Manager ist nach dem ersten Login leer. Klicken Sie auf den Button `NEW` oben links. Standardeinstellungen werden vorgeschlagen und Sie können jetzt diese ändern. 
+![v7 Installation VR 13](/uploads/de-administration/de-installation/v7-Installation_VR_13.png "Serverinstanz definieren")
 
-> **Bemerkung**: Falls Sie eine Migration durchführen möchten, müssen Sie auf jeden Fall vor der Installation der Version 7x oder nach der Instalaltion und vor dem ersten Start die alte Version von dem VisionR Server entweder löschen oder umbenennen / dekativieren. Falls Sie sie vor der Installation machen, vergessen Sie nicht das Unterverzeichnis `Aps` zu sichern. Da sind die Projektdaten!!!
+Falls Sie hier nicht sicher sind, was Sie eingeben müssen, kontaktieren Sie uns. 
+Sonst machen Sie die folgenden Angaben:
+
+* **"code"** - dieser Code soll mit dem Datenbankname übereinstimmen - z.B. *VISIONR_7_KUNDE*
+* **"path"** - hier müssen Sie den `Apps` Ordner sauber geben - z.B. *D:\\VisionRServer7\\apps\\KUNDE*
+* **"memory"** - geben Sie hier die Speichergröße, die Sie bei der Installation gegeben haben - z.B. *2000*
+* **"mode"** - geben Sie hier *"production"*
+*  **"externalAddress"** - hier machen Sie bitte die Eingabe mit dem Port - z.B. http://127.0.0.1:8585
+*  **"Ports"** - hier geben Sie die Ports, über die der Server erreicht wird. Für *http://* Anfragen geben Sie den Port auch bei der externen Adresse ein. 
+
+> **Bemerkung**: Falls Sie ein Upgrade machen, können Sie diese Einstellungen aus der alten Installation kopieren. Gehen Sie dafür in dem `Apps` Ordner und öffnen Sie die Datei `managed.json`. Kopieren Sie den Inhalt und überschreiben Sie die Einstellungen. 
+![v7 Installation Einstellungen von der alten Installation kopieren](/uploads/de-administration/de-installation/v7-Installation_VR_Instanzeinstellungen_Manager.png "Einstellungen von der alten Installation kopieren")
+> **WICHTIG**: Sie müssen die ausgewählten Zeilen aus der Abbildung löschen, da diese aus der alten Installation sind. Sonst kann es zu Fehlern kommen. 
+
+Die sauberen Einstellungen sehen beispielweise so aus: 
+![v7 Installation Einstellungen von der alten Installation kopieren 2](/uploads/de-administration/de-installation/v7-Installation_VR_Instanzeinstellungen_Manager2.png "Instanzeinstellungen")
+
+Speichern Sie die Einstellungen und starten Sie den Server. 
+
+## Upgrade VisionR Server auf v. 7x
+
+> **Bemerkung**: Falls Sie ein Upgrade durchführen möchten, müssen Sie auf jeden Fall vor der Installation der Version 7x oder nach der Instalaltion und vor dem ersten Start die alte Version von dem VisionR Server entweder löschen oder umbenennen / dekativieren. Falls Sie sie vor der Installation machen, vergessen Sie nicht das Unterverzeichnis `Aps` zu sichern. Da sind die Projektdaten!!!
 
 Die Schritte, die Sie folgen können:
 
 1. Deaktivieren Sie den alten Dienst - öffnen Sie die Windows Dienste (Services) und deaktivieren Sie den Dienst `VisionR Server Manager 6`. 
-![v7 Installation VR Migration 1](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_1.png "v7 Installation VR Migration 1")
-![v7 Installation VR Migration 2](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_2.png "v7 Installation VR Migration 2")
+![v7 Installation VR Upgrade 1](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_1.png "v7 Installation VR Upgrade 1")
+![v7 Installation VR Upgrade 2](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_2.png "v7 Installation VR Upgrade 2")
 
 Anschließend auf `Übernehmen` klicken. Der Dienst ist somit deaktiviert. 
 
 2. Erstellen Sie einen neuen Ordner für die Installation der Version 7. **Beispiel** - wir erstellen ein neues Verzeichnis auf der gleichen Festplatte, wo die Installation von v.6x war. Die alte Installation behalten wir noch bis wir nicht alles zum Laufen gebracht haben. 
-![v7 Installation VR Migration 3](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_3.png "v7 Installation VR Migration 3")
+![v7 Installation VR Upgrade 3](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_3.png "v7 Installation VR Upgrade 3")
 
 3. Dann gehen Sie in dem Ordner `VisionRServer6`, falls Sie die Version 6 hatten. Wählen Sie das Verzeichnis `Aps` aus und kopieren Sie dieses in dem neu erstellten Ordner für die Version 7. 
-![v7 Installation VR Migration 4](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_4.png "v7 Installation VR Migration 4")
+![v7 Installation VR Upgrade 4](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_4.png "v7 Installation VR Upgrade 4")
 Fügen Sie die Daten in dem neuen Ordner.
-![v7 Installation VR Migration 5](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_5.png "v7 Installation VR Migration 5")
+![v7 Installation VR Upgrade 5](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_5.png "v7 Installation VR Upgrade 5")
 
 4. Sichern Sie, dass LibreOffice keine laufende Instanz hat. Öffnen Sie den Task-Manager und schauen Sie nach dem Prozess `soffice` und stoppen Sie diese Prozesse.
-![v7 Installation VR Migration 6](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_6.png "v7 Installation VR Migration 6")
+![v7 Installation VR Upgrade 6](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_6.png "v7 Installation VR Upgrade 6")
 
 5. Benennen Sie den Ordner der alten Version um, damit keine Komponente aus der alten Version mehr ausführbar sind. 
->**Bemerkung**: Alternativ können Sie die alte Installation löschen, wenn Sie sicher sind, dass Sie die alle Daten gesichert haben. Falls Sie nicht sicher sind, behalten Sie die alte Installation mit umbenanntem Ordner bis Sie die Migration erfolgreich abschließen.  
-![v7 Installation VR Migration 7](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_7.png "v7 Installation VR Migration 7")
+>**Bemerkung**: Alternativ können Sie die alte Installation löschen, wenn Sie sicher sind, dass Sie die alle Daten gesichert haben. Falls Sie nicht sicher sind, behalten Sie die alte Installation mit umbenanntem Ordner bis Sie die Upgrade erfolgreich abschließen.  
+![v7 Installation VR Upgrade 7](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_7.png "v7 Installation VR Upgrade 7")
 
 6. Gehen Sie fort mir der Installation, wie in dem Abschnitt `Installation VisionR Server ab v. 7x` beschrieben ist. 
 >**Bemerkung**: Es ist wichtig den neu erstellten Ordner als Installationspfad einzugeben, falls der alte Ordner noch vorhanden ist, weil der Installer wird die alte Installation finden und ihren Pfad als Standard übernehmen. 
