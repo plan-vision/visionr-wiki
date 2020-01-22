@@ -50,8 +50,6 @@ Setzen Sie das Passwort für den Zugriff auf die Weboberfläche des VisionR Serv
 Die Installation wird fortgesetzt, die Neuigkeiten der Version werden angezeigt und Sie müssen auf `Next` klicken, um die Installation abzuschließen.
 ![v7 Installation VR 12](/uploads/de-administration/de-installation/v7-Installation_VR_12.png "Installation abschließen")
 
-Nachdem die Installation abgeschlossen ist, müssen wir die PostgreSQL Datenbank einstellen. 
-
 ## Migration VisionR Server auf v. 7x
 
 > **Bemerkung**: Falls Sie eine Migration durchführen möchten, müssen Sie auf jeden Fall vor der Installation der Version 7x oder nach der Instalaltion und vor dem ersten Start die alte Version von dem VisionR Server entweder löschen oder umbenennen / dekativieren. Falls Sie sie vor der Installation machen, vergessen Sie nicht das Unterverzeichnis `Aps` zu sichern. Da sind die Projektdaten!!!
