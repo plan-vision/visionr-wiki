@@ -18,13 +18,13 @@ Stellen Sie sicher, dass Sie administrative Rechte haben, bevor Sie die Installa
 Die Schritte, die Sie folgen können:
 
 1. Deaktivieren Sie den alten Dienst - öffnen Sie die Windows Dienste (Services) und deaktivieren Sie den Dienst `VisionR Server Manager 6`. 
-![v7 Installation VR Migration 1](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_1.png "v7 Installation VR Migration 1")
+![v7 Installation VR Migration 1](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_1.png "123")
 ![v7 Installation VR Migration 2](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_2.png "v7 Installation VR Migration 2")
 
 Anschließend auf `Übernehmen` klicken. Der Dienst ist somit deaktiviert. 
 
 2. Erstellen Sie einen neuen Ordner für die Installation der Version 7. **Beispiel** - wir erstellen ein neues Verzeichnis auf der gleichen Festplatte, wo die Installation von v.6x war. Die alte Installation behalten wir noch bis wir nicht alles zum Laufen gebracht haben. 
-![v7 Installation VR Migration 3](/uploads/de-administration/installation/v7-Installation_VR_Migration_3.png "v7 Installation VR Migration 3")
+![v7 Installation VR Migration 3](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_3.png "v7 Installation VR Migration 3")
 
 3. Dann gehen Sie in dem Ordner `VisionRServer6`, falls Sie die Version 6 hatten. Wählen Sie das Verzeichnis `Aps` aus und kopieren Sie dieses in dem neu erstellten Ordner für die Version 7. 
 ![v7 Installation VR Migration 4](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_4.png "v7 Installation VR Migration 4")
