@@ -24,8 +24,33 @@ Lassen Sie diesen Pfad zu der Umgewungsvariable hinzugefügt werden.
 Anschließend klicken Sie auf `Install`.
 ![v7 Installation VR 5](/uploads/de-administration/de-installation/v7-Installation_VR_5.png "Installationsprozess")
 
+Nachdem die Dateien extrahiert wurden, wird die Eingabeaufforderung aufgemacht, um einige Einstellungen durchzuführen. Die erste Eingabe ist den Pfad der Java. Bestätigen Sie diesen, falls er in dem Installationsordner liegt. 
+![v7 Installation VR 6](/uploads/de-administration/de-installation/v7-Installation_VR_6.png "VisionR Server Einstellungen")
 
+Die nächste Eingabe ist die Größe des Speichers für die JVM. 
+Falls die Servermaschine **8 GB** Arbeitspeicher hat, geben Sie hier **2000 MB**. 
+Falls die Servermaschine **16 GB** oder mehr Arbeitspeicher hat, geben Sie hier **4000 MB**.
+![v7 Installation VR 7](/uploads/de-administration/de-installation/v7-Installation_VR_7.png "JVM Speicher zuordnen")
 
+Bestätigen Sie die 1000 MB zugewiesene Speichergröße für die JVM Maintenance. Die vorgeschlagenen Werde sind in den `[]` eingegeben. Mit `Enter` bestätigen Sie diese Eingaben.
+![v7 Installation VR 8](/uploads/de-administration/de-installation/v7-Installation_VR_8.png "JVM Maintenance und Libre Office Pfad")
+
+Bestätigen Sie den Pfad von Libre Office, falls er innerhalb des Installationspfad liegt. In diesem Beispiel `D:\VisionRServer7\.visionr\libreoffice`. Die obere Abbildung zeigt diese Einstellung.
+
+Sie können an dieser Stelle auch die SMTP Einstellungen machen, falls der Maildienst gebraucht wird. Diese Einstellung können Sie auch zu einem späteren Zeitpunkt machen. Deshalb wir bestätigen die `Nein` Option.
+Demnächst bestätigen wir den Servicesports **8282** und **8283** HTTPS für den Manager und  
+![v7 Installation VR 9](/uploads/de-administration/de-installation/v7-Installation_VR_9.png "SMTP Einstellung und Manager Port")
+
+Danach bestätigen wir den Anwendungsordner, wo die Daten gespeichert wurden. Dieser Ordner ist der `Apps` Ordner in dem Installationsverzeichnis. Sie müssen hier aufpassen, dass der Ordner genau so heißt und in dem Installationsordner platziert ist. 
+![v7 Installation VR 10](/uploads/de-administration/de-installation/v7-Installation_VR_10.png "Anwendungsrdner festlegen")
+
+Setzen Sie das Passwort für den Zugriff auf die Weboberfläche des VisionR Server 7 Manager. Notieren Sie dieses Passwort. 
+![v7 Installation VR 11](/uploads/de-administration/de-installation/v7-Installation_VR_11.png "VisionR Manager Passwort setzen")
+
+Die Installation wird fortgesetzt, die Neuigkeiten der Version werden angezeigt und Sie müssen auf `Next` klicken, um die Installation abzuschließen.
+![v7 Installation VR 12](/uploads/de-administration/de-installation/v7-Installation_VR_12.png "Installation abschließen")
+
+Nachdem die Installation abgeschlossen ist, müssen wir die PostgreSQL Datenbank einstellen. 
 
 ## Migration VisionR Server auf v. 7x
 
