@@ -50,6 +50,32 @@ Setzen Sie das Passwort für den Zugriff auf die Weboberfläche des VisionR Serv
 Die Installation wird fortgesetzt, die Neuigkeiten der Version werden angezeigt und Sie müssen auf `Next` klicken, um die Installation abzuschließen.
 ![v7 Installation VR 12](/uploads/de-administration/de-installation/v7-Installation_VR_12.png "Installation abschließen")
 
+Nachdem die Installation erfolgreich abgeschlossen ist, soll der neue Dienst `VisionR Server Manager 7` installiert, aktiv und gestartet sein. Sie können das einfach überprüfen. 
+![v7 neuen Dienst überprüfen](/uploads/de-administration/de-installation/v7-Installation_VR_service_check_after_install.png "Dienst überprüfen")
+
+Öffnen Sie den Browser und geben Sie die Serveradresse mit dem Port ein. Falls Sie immer noch auf der Servermaschine arbeiten, können Sie auch `localhost:8282` in dem browser eingeben. Melden Sie Sich mit den angegebenen Daten (in der Installation das angegebene Passwort `passwort123`).
+Der Manager ist nach dem ersten Login leer. Klicken Sie auf den Button `NEW` oben links. Standardeinstellungen werden vorgeschlagen und Sie können jetzt diese ändern. 
+![v7 Installation VR 13](/uploads/de-administration/de-installation/v7-Installation_VR_13.png "Serverinstanz definieren")
+
+Falls Sie hier nicht sicher sind, was Sie eingeben müssen, kontaktieren Sie uns. 
+Sonst machen Sie die folgenden Angaben:
+
+* **"code"** - dieser Code soll mit dem Datenbankname übereinstimmen - z.B. *VISIONR_7_KUNDE*
+* **"path"** - hier müssen Sie den `Apps` Ordner sauber geben - z.B. *D:\\VisionRServer7\\apps\\KUNDE*
+* **"memory"** - geben Sie hier die Speichergröße, die Sie bei der Installation gegeben haben - z.B. *2000*
+* **"mode"** - geben Sie hier *"production"*
+*  **"externalAddress"** - hier machen Sie bitte die Eingabe mit dem Port - z.B. http://127.0.0.1:8585
+*  **"Ports"** - hier geben Sie die Ports, über die der Server erreicht wird. Für *http://* Anfragen geben Sie den Port auch bei der externen Adresse ein. 
+
+> **Bemerkung**: Falls Sie ein Upgrade machen, können Sie diese Einstellungen aus der alten Installation kopieren. Gehen Sie dafür in dem `Apps` Ordner und öffnen Sie die Datei `managed.json`. Kopieren Sie den Inhalt und überschreiben Sie die Einstellungen. 
+![v7 Installation Einstellungen von der alten Installation kopieren](/uploads/de-administration/de-installation/v7-Installation_VR_Instanzeinstellungen_Manager.png "Einstellungen von der alten Installation kopieren")
+> **WICHTIG**: Sie müssen die ausgewählten Zeilen aus der Abbildung löschen, da diese aus der alten Installation sind. Sonst kann es zu Fehlern kommen. 
+
+Die sauberen Einstellungen sehen beispielweise so aus: 
+![v7 Installation Einstellungen von der alten Installation kopieren 2](/uploads/de-administration/de-installation/v7-Installation_VR_Instanzeinstellungen_Manager2.png "Instanzeinstellungen")
+
+Speichern Sie die Einstellungen und starten Sie den Server. 
+
 ## Upgrade VisionR Server auf v. 7x
 
 > **Bemerkung**: Falls Sie ein Upgrade durchführen möchten, müssen Sie auf jeden Fall vor der Installation der Version 7x oder nach der Instalaltion und vor dem ersten Start die alte Version von dem VisionR Server entweder löschen oder umbenennen / dekativieren. Falls Sie sie vor der Installation machen, vergessen Sie nicht das Unterverzeichnis `Aps` zu sichern. Da sind die Projektdaten!!!
