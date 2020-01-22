@@ -9,7 +9,23 @@ Deutsch | [English](/en/admin-guide)
 
 > **Bemerkung**: Die folgende Anleitung bezieht sich auf eine komplett neue Installation von VisionR Server 7x. Falls Sie Migration von einer älteren Version auf v. 7x. durchführen möchten, schauen Sie in dem Abschnitt `Migration`. 
 
-Stellen Sie sicher, dass Sie administrative Rechte haben, bevor Sie die Installationsdatei ausführen. Am besten klicken Sie auf die Datei mit der rechten Maustaste und führen Sie sie als "Administrator" aus.
+Stellen Sie sicher, dass Sie administrative Rechte haben, bevor Sie die Installationsdatei ausführen.
+![v7 Installation VR 1](/uploads/de-administration/de-installation/v7-Installation_VR_1.png "v7 Installation VR 1")
+
+Akzeptieren Sie die AGBs und geben Sie den neu erstellten Ordner als Installationspfad ein, falls das System migriert wird. Falls die Installation komplett neu durchgeführt wird, geben Sie den gewünschten Installationspfad ein. 
+![v7 Installation VR 2](/uploads/de-administration/de-installation/v7-Installation_VR_2.png "Installationspfad eingeben")
+
+**Bei Migration** ist der Ordner schon erstellt und Sie müssen ihn nochmal bestätigen, weil er nicht leer ist. 
+![v7 Installation VR 3](/uploads/de-administration/de-installation/v7-Installation_VR_3.png "Bei Migration Installationspfad bestätigen")
+
+Lassen Sie diesen Pfad zu der Umgewungsvariable hinzugefügt werden. 
+![v7 Installation VR 4](/uploads/de-administration/de-installation/v7-Installation_VR_4.png "Hinzufügen zu der Umgebungsvariable")
+
+Anschließend klicken Sie auf `Install`.
+![v7 Installation VR 5](/uploads/de-administration/de-installation/v7-Installation_VR_5.png "Installationsprozess")
+
+
+
 
 ## Migration VisionR Server auf v. 7x
 
@@ -18,7 +34,7 @@ Stellen Sie sicher, dass Sie administrative Rechte haben, bevor Sie die Installa
 Die Schritte, die Sie folgen können:
 
 1. Deaktivieren Sie den alten Dienst - öffnen Sie die Windows Dienste (Services) und deaktivieren Sie den Dienst `VisionR Server Manager 6`. 
-![v7 Installation VR Migration 1](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_1.png "123")
+![v7 Installation VR Migration 1](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_1.png "v7 Installation VR Migration 1")
 ![v7 Installation VR Migration 2](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_2.png "v7 Installation VR Migration 2")
 
 Anschließend auf `Übernehmen` klicken. Der Dienst ist somit deaktiviert. 
@@ -35,12 +51,14 @@ Fügen Sie die Daten in dem neuen Ordner.
 ![v7 Installation VR Migration 6](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_6.png "v7 Installation VR Migration 6")
 
 5. Benennen Sie den Ordner der alten Version um, damit keine Komponente aus der alten Version mehr ausführbar sind. 
-**Bemerkung**: Alternativ können Sie die alte Installation löschen, wenn Sie sicher sind, dass Sie die alle Daten gesichert haben. Falls Sie nicht sicher sind, behalten Sie die alte Installation mit umbenanntem Ordner bis Sie die Migration erfolgreich abschließen.  
+>**Bemerkung**: Alternativ können Sie die alte Installation löschen, wenn Sie sicher sind, dass Sie die alle Daten gesichert haben. Falls Sie nicht sicher sind, behalten Sie die alte Installation mit umbenanntem Ordner bis Sie die Migration erfolgreich abschließen.  
 ![v7 Installation VR Migration 7](/uploads/de-administration/de-installation/v7-Installation_VR_Migration_7.png "v7 Installation VR Migration 7")
 
 6. Gehen Sie fort mir der Installation, wie in dem Abschnitt `Installation VisionR Server ab v. 7x` beschrieben ist. 
+>**Bemerkung**: Es ist wichtig den neu erstellten Ordner als Installationspfad einzugeben, falls der alte Ordner noch vorhanden ist, weil der Installer wird die alte Installation finden und ihren Pfad als Standard übernehmen. 
 
-7. Falls die Installtion erfolgreich war und Sie den Server gestartet haben, können Sie die alte Version sichern oder ggf. löschen. 
+8. 7. Falls die Installtion erfolgreich war und Sie den Server gestartet haben, können Sie die alte Version sichern oder ggf. löschen. 
+
 
 ## Einspielen von Projektdaten
 # Updates
