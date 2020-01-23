@@ -5,6 +5,30 @@ Deutsch | [English](/en/admin-guide)
 *Sie sind hier: [Home](/home) > Administratorenhandbuch*
 # Installation
 ## Installation Datenbank
+
+###Installation PostgreSQL 
+Die Installationsdatei von PostgreSQL wird mit dem VisionR Server Installation mitgeliefert. Sie können diese ggf. auch von dem Internet herunterladen. Die Empfehlung ist die mitgelieferte Version zu nutzen, da diese mit allen Features durchgetestet ist. 
+
+Führen Sie die mitgelieferte Datei (aktuell mitgelieferte Version: `12.0-1`) aus und folgen Sie die Anweisungen. Wichtig ist das Passwort für den Root-User zu merken. Dieses werden Sie danach brauchen. 
+Bei der Installation müssen Sie folgendes beachten:
+* Passwort für den Root-User
+* Pfad der Installation
+* Pfad des *Data* Verzeichnisses
+
+### Installation PostGIS
+
+Nachdem die PostgreSQL Datenbank installiert ist, können Sie die Erweiterung PostGIS installieren. Diese wird für die geografischen Objekte und Funktionen benötigt. Bitte nutzen Sie die mitgelieferte Installationsdatei. 
+
+Führen Sie die Installationsdatei aus und folgen Sie die Anweisungen. Sie müssen folgendes beachten:
+•	Pfad der PostgreSQL Installation
+•	Pfad des PostgreSQL *Data* Verzeichnisses
+•	Passwort für den Root-Unser für PostgreSQL
+Bei der Frage ob auch eine geografische Datenbank mit erstellt wird, aktivieren Sie das Häkchen, wie auf der Abbildung dargestellt:
+![v7 PostGIS Installation](/uploads/de-administration/de-installation/v7-Installation_VR_postgis.png "Installationsprozess PostGIS")
+ 
+Sie werden nach Benutzer und Passwort gefragt, diese müssen identisch mit den Eingaben sein, die Sie bei der PostgreSQL Installation angegeben haben. Sie werden auch nach dem Installationsverzeichnis von PostgreSQL gefragt. Geben Sie bitte den bestehenden Pfad von PostgreSQL ein.
+Anschließend wird Ihnen eine Option für die Benutzung des Stack Builders angeboten, Sie können hier selber entscheiden ob Sie ihn brauchen. Für das System ist der Stack Builder nicht erforderlich. 
+
 ## Installation VisionR Server ab v. 7x 
 
 > **Bemerkung**: Die folgende Anleitung bezieht sich auf eine komplett neue Installation von VisionR Server 7x. Falls Sie Upgrade von einer älteren Version auf v. 7x. durchführen möchten, schauen Sie in dem Abschnitt `Upgrade`. 
