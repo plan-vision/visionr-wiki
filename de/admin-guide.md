@@ -6,7 +6,8 @@ Deutsch | [English](/en/admin-guide)
 # Installation
 ## Installation Datenbank
 
-###Installation PostgreSQL 
+### Installation PostgreSQL 
+
 Die Installationsdatei von PostgreSQL wird mit dem VisionR Server Installation mitgeliefert. Sie können diese ggf. auch von dem Internet herunterladen. Die Empfehlung ist die mitgelieferte Version zu nutzen, da diese mit allen Features durchgetestet ist. 
 
 Führen Sie die mitgelieferte Datei (aktuell mitgelieferte Version: `12.0-1`) aus und folgen Sie die Anweisungen. Wichtig ist das Passwort für den Root-User zu merken. Dieses werden Sie danach brauchen. 
