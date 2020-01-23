@@ -5,6 +5,7 @@ Deutsch | [English](/en/admin-guide)
 *Sie sind hier: [Home](/home) > Administratorenhandbuch*
 # Installation
 ## Installation Datenbank
+Hier werden die Installationen von PostgreSQL und die Erweiterung PostGIS kurz beschrieben. Für nähere Informationen schaeuen Sie auf der Webseite von PostgreSQL. 
 
 ### Installation PostgreSQL 
 
