@@ -284,12 +284,6 @@ Damit Sie einen Datensatz zur Bearbeitung aufmachen, klicken Sie auf der Tabelle
 
 Sie können hier direkt ein Dokument / eine Datei hochladen und mit dem Objekt verknüpfen. Dafür steht die Option 'Hochladen'. 
 
-
-
-
-
-
-
 # Datei / Dokument hochladen
 
 Sie können Dateien unabhängig von der Format hochladen. Viele gängige Formate werden unterstützt und werden von System erkannt und angezeigt, wie z.B. PDF, MS Word und Excel, Bilder, Texte etc.. Sonst können auch Dateien hinzugefügt werden, die danach auf dem Server zentral gespeichert bleiben. 
@@ -316,8 +310,6 @@ Dann müssen Sie den Vorgang bestätigen. Eine Übersicht der Dateien wird angez
 Dann erscheinen die Datein in der Vorschau und mit Klick auf eine Datei / Bild wird die Datei aufgemacht und zum Herunterladen zur Verfügung gestellt. 
 
 ![Forms Datei hochladen 3](/uploads/de-allgemein/v7-DE-Datei_hochladen3.png "Forms Datei hochladen 3")
-
-
 
 
 # Unterschift verknüpfen
