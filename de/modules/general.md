@@ -277,12 +277,16 @@ Das Ergebniss:
 Die Bearbeitung erfolgt in der Formularansicht oder direkt in der Zelle in der Tabelle, falls Sie die Daten in der Tabelle anzeigen lassen. Die Ansichten sind in dem Abschnitt 'Anzeigen' beschrieben.
 Standardmäßig ist die Ansicht 'Tabelle' aktiv und die Datensätze werden als Zeilen angezeigt. Die Spalten sind die Eigenschaften und diese können Sie bearbeiten. 
 
+Damit Sie einen Datensatz zur Bearbeitung aufmachen, klicken Sie auf der Tabellenzeile und dann mit Doppelklick (alternativ wählen Sie den Datensatz und mir rechter Maustaste rufen Sie das Menü auf und dann wählen Sie `Bearbeiten`) öffnen Sie den Überblick der Datensatz. Die wichtigsten Informationen werden angezeigt.
+![Forms Datensatz bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular.png "Forms Datensatz bearbeiten")
+Sie können hier direkt ein Dokument / eine Datei oder einen Unterschfirt hochladen und mit dem Objekt verknüpfen. Dafür steht die Option 'Hochladen'.  In dem Angezeigtem Fenster können Sie per Drag & Drop die Datei hochladen. Der Button `Hinzufügen` steht für die genannten Optionen. 
+Die Bearbeitung wird in der Formularansicht ermöglicht. 
+
 ## Bearbeitung in Formularansicht
 
-Damit Sie einen Datensatz zur Bearbeitung aufmachen, klicken Sie auf der Tabellenzeile und dann mit Doppelklick öffnen Sie den Überblick der Datensatz. Die wichtigsten Informationen werden angezeigt.
-![Forms Datensatz bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular.png "Forms Datensatz bearbeiten")
 
-Sie können hier direkt ein Dokument / eine Datei oder einen Unterschfirt hochladen und mit dem Objekt verknüpfen. Dafür steht die Option 'Hochladen'.  In dem Angezeigtem Fenster können Sie per Drag & Drop die Datei hochladen. Der Button `Hinzufügen` steht für die genannten Optionen. 
+
+## Bearbeitung in der Tabelle
 
 # Datei / Dokument hochladen
 
