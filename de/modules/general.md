@@ -326,15 +326,22 @@ Mit Klick auf das Feld werden die Personen aufgelistet. Sie können direkt die g
 
 ![Forms Datenfeld Tabelle 3](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Tabelle_3.png "Forms Datenfeld Tabelle 3")
 
-
-> > **Bemerkung:** Wenn eine Person mit einem Raum veknüpft wird, wird diese Person in der Tabelle `Personen` in dem Objekt `Raum` auch erscheinen. Falls ich die Person zu dem Raum hinzufüge, wird die Person- Raum zuordnung in dem Datensatz `Person` automatisch erstellt.
+> **Bemerkung:** Wenn eine Person mit einem Raum veknüpft wird, wird diese Person in der Tabelle `Personen` in dem Objekt `Raum` auch erscheinen. Falls ich die Person zu dem Raum hinzufüge, wird die Person- Raum zuordnung in dem Datensatz `Person` automatisch erstellt.
 
 ## Bearbeitung in Formularansicht
 
 Mit Klick auf den Button `Bearbeiten` wird der Datensatz in Formularansicht aufgemacht. Sie können die Felder bearbeiten. 
 ![Forms Datensatz bearbeiten 1](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_1.png "Forms Datensatz bearbeiten 1")
 
-Die **Pflichtfelder** sind mit `*` . 
+Die Formularansicht ist in **Registerkarten** und Bereiche innerhalb dieser Registerkarten unterteilt. Diese Gruppierung ist nach den Eigenschaften der verknüpften Felder. Die wichtigste sind immer in der Registerkarte `Haupteigenschaften`. 
+Falls Sie ein Feld (Eigenschaft) nicht finden, können Sie den Such-Button unten nutzen. Dieser ist für Suchen von Eigenschaften innerhalb des Objektes. Das System wird Sie zu dem Feld weitergeleitet. 
+
+Die Bearbeitung erfolgt direkt in den Felder, falls Sie ein Pflichtfeld nicht ausgefüllt haben, wird das System Ihnen benachrichtigen und Sie können das Objekt nicht speichern, bis Sie die erforderlichen Angaben nicht gemacht haben. Die Pflichfelder kann man anpassen. 
+
+Machen Sie die gewünschten Angaben hinsichtlich des Feldtyps. Anschließend speichern Sie den Datensatz.  Die Feldertypen sind oben beschrieben. 
+
+
+> **Bemerkung:** Wenn Sie ein Objekt bearbeiten bzw. erstellen, können Sie jedes verknüpftes Objekt mit Doppelklick zur Bearbeitung aufmachen. Die Vorgehensweise ist komplett identisch mit der hier beschriebenen. 
 
 ## Bearbeitung in der Tabelle
 
