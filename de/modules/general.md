@@ -259,6 +259,7 @@ Wählen Sie welche Eigenschaft der Eigenschaft durchgesucht werden soll:
 Coming soon...
 
 ## Gruppieren
+
 Die Funktion gruppiert die Daten nach einem dem ausgewählten Kriterium. Sie können die schon gruppierten Daten leicht in einer Tabelle aufrufen und bearbeiten oder weiter gruppieren oder durchsuchen.
 
 **Beispiel:** Gruppierung der Kontakte nach 'Name' und Auswahl einen Teil dieser Gruppierung. 
@@ -286,7 +287,6 @@ Nachdem Sie den Type ausgewählt haben, können Sie mit der Dateneingabe fortfah
 ![Forms Neues Objekt 3](/uploads/de-allgemein/v7-DE-Neues_Objekt_3.png "Forms Neues Objekt 3")
 
 # Bearbeiten
-
 Die Bearbeitung erfolgt in der Formularansicht oder direkt in der Zelle in der Tabelle, falls Sie die Daten in der Tabelle anzeigen lassen. Die Ansichten sind in dem Abschnitt 'Anzeigen' beschrieben.
 Standardmäßig ist die Ansicht 'Tabelle' aktiv und die Datensätze werden als Zeilen angezeigt. Die Spalten sind die Eigenschaften und diese können Sie bearbeiten. 
 
@@ -303,17 +303,20 @@ Unabhängig ob Sie die Bearbeitung in der Tabelle oder in der Formularansicht ma
 Jedes Feld ist mit einem Symbol gekennzeichnet, damit Sie den Typ erkennen. Die verknüpften Auswahlfelder sind mit dem Menüsymbol gekennzeichnet. 
 
 ### Textfelder
+
 Die Textfelder sind einfache Eingabefelder. 
 ![Forms Textfeld](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Textfeld.png "Forms Textfeld")
 
 Hier können Sie einfache Zeichenketten eingeben. 
 
 ### Datumsfelder
+
 Das Datum können Sie über das Kalendarsymbol eingeben (alternativ mit Doppelklick auf dem Feld) oder direkt in dem Feld in der richtigen Format. Das Format hängt auch von der aktiven Sprache - z.B. wenn das System auf Deutsch bedient wird, wird das Datumformat TTMMJJJJ sein. Wenn das System auf US Englisch bedient wird, ist das Format MMTTJJJ etc. 
 
 ![Forms Textfeld](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Datumsfeld.png "Forms Datumsfeld")
 
 ### Verknüpfte Auswahlfelder
+
 In diesem Feld können Sie ein VisionR Objekt verknüpfen. Das Obejkt muss zuerst vorhanden sein und Sie können dieses in dem Feld auswählen. Falls das Objekt noch nicht erstellt ist, können Sie dieses direkt an der Stelle erstellen. 
 
 **Beispiel:** In dem Objekt `Person` ist das Feld `Gebäude` ein Auswahlfeld. Falls wir auf das Feld klicken, werden alle Gebäude aufgelistet, die zu der ausgewählten Liegenschaft gehören. Falls die Liegenschaft nicht ausgewählt ist, werden alle angezeigt. 
@@ -356,6 +359,7 @@ Machen Sie die gewünschten Angaben hinsichtlich des Feldtyps. Anschließend spe
 > **Bemerkung:** Wenn Sie ein Objekt bearbeiten bzw. erstellen, können Sie jedes verknüpftes Objekt mit Doppelklick zur Bearbeitung aufmachen. Die Vorgehensweise ist komplett identisch mit der hier beschriebenen. 
 
 ## Bearbeitung in der Tabelle
+
 Die andere Variante Datensetze / Datenfelder zu bearbeiten ist direkt in der Tabelle. Wählen Sie die gewünschte Zelle und dann mit `Eingabetaste` machen Sie genau diese Zelle = Objekteigenschat = Feld in der Formularansicht auf. Abhängig von dem Typ der Eigenschaft können Sie Ihre Eingaben direkt in der Zelle machen.
 
 **Beispiel:** Textfeld
@@ -368,7 +372,6 @@ Die andere Variante Datensetze / Datenfelder zu bearbeiten ist direkt in der Tab
 ![Forms Zelle in der Tabelle bearbeiten 3](/uploads/de-allgemein/v7-DE-Bearbeiten_Tabelle_3.png "Zelle in der Tabelle bearbeiten 3")
 
 # Datei / Dokument hochladen
-
 Sie können Dateien unabhängig von der Format hochladen. Viele gängige Formate werden unterstützt und werden von System erkannt und angezeigt, wie z.B. PDF, MS Word und Excel, Bilder, Texte etc.. Sonst können auch Dateien hinzugefügt werden, die danach auf dem Server zentral gespeichert bleiben. 
 
 Die einfachere Variante eine Datei hochzuladen ist mit 'Drag & Drop', wenn der gewünschte Datensatz in Lesemodus (Übersicht) aufgemacht ist. 
@@ -393,7 +396,6 @@ Dann müssen Sie den Vorgang bestätigen. Eine Übersicht der Dateien wird angez
 Dann erscheinen die Datein in der Vorschau und mit Klick auf eine Datei / Bild wird die Datei aufgemacht und zum Herunterladen zur Verfügung gestellt. 
 
 ![Forms Datei hochladen 3](/uploads/de-allgemein/v7-DE-Datei_hochladen3.png "Forms Datei hochladen 3")
-
 
 # Unterschift verknüpfen
 Das System unterstützt auch Unterschrifte. Sie können Sich digital unterschreiben und direkt diesen Unterschied mit einem Datensatz verknüpfen - zum Beispiel bei einer Schlüsselausgabe oder Rückgabe, Verträge, Leistungen etc.
