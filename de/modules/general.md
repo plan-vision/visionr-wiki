@@ -272,6 +272,19 @@ Auswahl der Gruppen:
 Das Ergebniss:
 ![Forms Beispiel Gruppierung nach Name 3](/uploads/de-allgemein/v7-DE-Suche_gruppieren3.png "Forms Beispiel Gruppierung nach Name 3")
 
+# Neues Objekt erstellen
+Ein neues Objekt erstellen Sie mit der Option `Neu` in dem Menü oben rechts über die Tabelle oder in dem Menü, das Sie mit der rechten Maustaste über die angezeigte Tabelle aufrufen können. 
+
+![Forms Neues Objekt](/uploads/de-allgemein/v7-DE-Neues_Objekt_1.png "Forms Neues Objekt")
+
+Die mögliche Objekttypen werden angezeigt (nur falls mehrere Typen zur Verfügung stehen). 
+
+**Beispiel:** Erstellen eine neue Person. Mit Klick auf `Neu` werden die folgenden Objekttypen zur Auswahl angeboten. 
+![Forms Neues Objekt 2](/uploads/de-allgemein/v7-DE-Neues_Objekt_2.png "Forms Neues Objekt 2")
+
+Nachdem Sie den Type ausgewählt haben, können Sie mit der Dateneingabe fortfahren. Nachdem Sie die Eingaben gemacht haben, können Sie den Datensatz speichern.
+![Forms Neues Objekt 3](/uploads/de-allgemein/v7-DE-Neues_Objekt_3.png "Forms Neues Objekt 3")
+
 # Bearbeiten
 
 Die Bearbeitung erfolgt in der Formularansicht oder direkt in der Zelle in der Tabelle, falls Sie die Daten in der Tabelle anzeigen lassen. Die Ansichten sind in dem Abschnitt 'Anzeigen' beschrieben.
