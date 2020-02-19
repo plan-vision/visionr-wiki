@@ -340,10 +340,13 @@ Die Bearbeitung erfolgt direkt in den Felder, falls Sie ein Pflichtfeld nicht au
 
 Machen Sie die gewünschten Angaben hinsichtlich des Feldtyps. Anschließend speichern Sie den Datensatz.  Die Feldertypen sind oben beschrieben. 
 
-
 > **Bemerkung:** Wenn Sie ein Objekt bearbeiten bzw. erstellen, können Sie jedes verknüpftes Objekt mit Doppelklick zur Bearbeitung aufmachen. Die Vorgehensweise ist komplett identisch mit der hier beschriebenen. 
 
 ## Bearbeitung in der Tabelle
+Die andere Variante Datensetze / Datenfelder zu bearbeiten ist direkt in der Tabelle. Wählen Sie die gewünschte Zelle und dann mit `Eingabetaste` machen Sie genau diese Zelle = Objekteigenschat = Feld in der Formularansicht auf. Abhängig von dem Typ der Eigenschaft können Sie Ihre Eingaben direkt in der Zelle machen.
+
+![Forms Zelle in der Tabelle bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Tabelle_1.png "Zelle in der Tabelle bearbeiten")
+
 
 # Datei / Dokument hochladen
 
