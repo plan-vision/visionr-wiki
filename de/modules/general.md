@@ -345,8 +345,14 @@ Machen Sie die gewünschten Angaben hinsichtlich des Feldtyps. Anschließend spe
 ## Bearbeitung in der Tabelle
 Die andere Variante Datensetze / Datenfelder zu bearbeiten ist direkt in der Tabelle. Wählen Sie die gewünschte Zelle und dann mit `Eingabetaste` machen Sie genau diese Zelle = Objekteigenschat = Feld in der Formularansicht auf. Abhängig von dem Typ der Eigenschaft können Sie Ihre Eingaben direkt in der Zelle machen.
 
+**Beispiel:** Textfeld
 ![Forms Zelle in der Tabelle bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Tabelle_1.png "Zelle in der Tabelle bearbeiten")
 
+**Beispiel:** Auswahlfeld
+![Forms Zelle in der Tabelle bearbeiten 2](/uploads/de-allgemein/v7-DE-Bearbeiten_Tabelle_2.png "Zelle in der Tabelle bearbeiten 2")
+
+**Beispiel:** Tabelle
+![Forms Zelle in der Tabelle bearbeiten 3](/uploads/de-allgemein/v7-DE-Bearbeiten_Tabelle_3.png "Zelle in der Tabelle bearbeiten 3")
 
 # Datei / Dokument hochladen
 
