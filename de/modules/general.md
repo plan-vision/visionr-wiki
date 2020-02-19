@@ -279,6 +279,8 @@ Standardmäßig ist die Ansicht 'Tabelle' aktiv und die Datensätze werden als Z
 
 Damit Sie einen Datensatz zur Bearbeitung aufmachen, klicken Sie auf der Tabellenzeile und dann mit Doppelklick (alternativ wählen Sie den Datensatz und mir rechter Maustaste rufen Sie das Menü auf und dann wählen Sie die Option`Bearbeiten`) öffnen Sie den Überblick der Datensatz. Die wichtigsten Informationen werden angezeigt.
 ![Forms Datensatz bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular.png "Forms Datensatz bearbeiten")
+
+![Forms Datensatz bearbeiten Variante 2](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Variante2.png "Forms Datensatz bearbeiten Variante 2")
 Sie können hier direkt ein Dokument / eine Datei oder einen Unterschfirt hochladen und mit dem Objekt verknüpfen. Dafür steht die Option 'Hochladen'.  In dem Angezeigtem Fenster können Sie per Drag & Drop die Datei hochladen. Der Button `Hinzufügen` steht für die genannten Optionen. 
 Die Bearbeitung wird in der Formularansicht ermöglicht. 
 
