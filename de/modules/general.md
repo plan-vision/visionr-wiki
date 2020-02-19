@@ -281,12 +281,35 @@ Damit Sie einen Datensatz zur Bearbeitung aufmachen, klicken Sie auf der Tabelle
 ![Forms Datensatz bearbeiten](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular.png "Forms Datensatz bearbeiten")
 
 ![Forms Datensatz bearbeiten Variante 2](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Variante2.png "Forms Datensatz bearbeiten Variante 2")
-Sie können hier direkt ein Dokument / eine Datei oder einen Unterschfirt hochladen und mit dem Objekt verknüpfen. Dafür steht die Option 'Hochladen'.  In dem Angezeigtem Fenster können Sie per Drag & Drop die Datei hochladen. Der Button `Hinzufügen` steht für die genannten Optionen. 
-Die Bearbeitung wird in der Formularansicht ermöglicht. 
+Sie können hier direkt ein Dokument / eine Datei oder einen Unterschfirt hochladen und mit dem Objekt verknüpfen. Dafür steht die Option 'Hochladen'.  In dem Angezeigtem Fenster können Sie per Drag & Drop die Datei hochladen. Der Button `Hinzufügen` bietet Ihnen die unterschiedlichen Optionen. 
+
+Unabhängig ob Sie die Bearbeitung in der Tabelle oder in der Formularansicht machen, gibt es einige Feldertypen, die wir hier kurz beschreiben.
+
+## Feldertypen
+
+Jedes Feld ist mit einem Symbol gekennzeichnet, damit Sie den Typ erkennen. Die verknüpften Auswahlfelder sind mit dem Menüsymbol gekennzeichnet. 
+
+### Textfelder
+Die Textfelder sind einfache Eingabefelder. 
+![Forms Textfeld](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Textfeld.png "Forms Textfeld")
+
+Hier können Sie einfache Zeichenketten eingeben. 
+
+### Datumsfelder
+Das Datum können Sie über das Kalendarsymbol eingeben oder direkt in dem Feld in der richtigen Format. Das Format hängt auch von der aktiven Sprache - z.B. wenn das System auf Deutsch bedient wird, wird das Datumformat TTMMJJJJ sein. Wenn das System auf US Englisch bedient wird, ist das Format MMTTJJJ etc. 
+
+
+### Verknüpfte Auswahlfelder
+
+### Tabellen
+
 
 ## Bearbeitung in Formularansicht
 
+Mit Klick auf den Button `Bearbeiten` wird der Datensatz in Formularansicht aufgemacht. Sie können die Felder bearbeiten. 
+![Forms Datensatz bearbeiten 1](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_1.png "Forms Datensatz bearbeiten 1")
 
+Die **Pflichtfelder** sind mit `*` . 
 
 ## Bearbeitung in der Tabelle
 
