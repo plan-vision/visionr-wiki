@@ -309,6 +309,8 @@ In diesem Feld können Sie ein VisionR Objekt verknüpfen. Das Obejkt muss zuers
 > **Bemerkung:** Die Auswahlfelder sind sehr oft gefiltert angezeit. Z.B. falls ein Gebäude ausgewählt ist, dann werden nur die Räume zur Auswahl zur Verfügung gestellt, die zu diesem Gebäude gehören. Falls die Etage des Gebäude vor dem Raum gewählt wird, werden nur Räume aus diesem Geschoss angezeigt.
 
 Falls das Objekt nicht vorhanden ist, können Sie es direkt über das `Menü -> Neues Objekt` erstellen. Die Option `Auswählen` werden die Objekte, die hier verknüpft werden können,  in einer separaten Tabelle aufgemacht und Sie können das gewünschte Objekt aus der Tabelle wählen. 
+![Forms Auswahlfeld 2](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Auswahlfeld_2.png "Forms Auswahlfeld 2")
+
 > **Bemerkung:** Die angezeigte Tabelle ist identisch mit der Tabelle `Gebäude`, die in dem Modul `Flächenmanagement` aufrufbar ist.  
 
  
@@ -316,8 +318,14 @@ Falls das Objekt nicht vorhanden ist, können Sie es direkt über das `Menü -> 
 
 Es gibt eine spezielle Eingabe in dem System. Es gibt Felder, die eine mehrfache Eingabe erlauben. Dann werden die verknüpften Datensätze als kleine *Tabelle* gezeigt. 
 
-**Beispiel:** In dem Objekt `Raum` ist das Feld `Personen` ein mehrfaches Auswahlfeld, also eine Tabelle - in einem Raum können mehrere Personen sitzen. Hier werden mehrere Objekte verknüpft. Hier ist der Raumdatensatz aufgemacht!
-![Forms Datenfeld Tabelle](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Tabelle_1.png "Forms Datenfeld Tabelle")
+**Beispiel:** In dem Objekt `Raum` ist das Feld `Personen` ein mehrfaches Auswahlfeld, also eine Tabelle - in einem Raum können mehrere Personen sitzen. Hier werden mehrere Objekte verknüpft. Hier ist der Raumdatensatz aufgemacht und in der Registerkarte *Belegung* ist die Tabelle mit den Personen. 
+![Forms Datenfeld Tabelle 1](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Tabelle_1.png "Forms Datenfeld Tabelle 1")
+
+Mit Klick auf das Feld werden die Personen aufgelistet. Sie können direkt die gewünschte Person auswählen und danach mit dem Button `+` den Auswahl hinzufügen. Die Person erscheint in der Tabelle. So können Sie weitere Personen hinzufügen. Falls die Person nicht vorhanden ist, können Sie sie direkt über das Menü -> `Neues Objekt` erstellen. 
+![Forms Datenfeld Tabelle 2](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Tabelle_2.png "Forms Datenfeld Tabelle 2")
+
+![Forms Datenfeld Tabelle 3](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Tabelle_3.png "Forms Datenfeld Tabelle 3")
+
 
 > > **Bemerkung:** Wenn eine Person mit einem Raum veknüpft wird, wird diese Person in der Tabelle `Personen` in dem Objekt `Raum` auch erscheinen. Falls ich die Person zu dem Raum hinzufüge, wird die Person- Raum zuordnung in dem Datensatz `Person` automatisch erstellt.
 
