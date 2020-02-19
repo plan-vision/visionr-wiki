@@ -314,6 +314,12 @@ Falls das Objekt nicht vorhanden ist, können Sie es direkt über das `Menü -> 
  
 ### Tabellen
 
+Es gibt eine spezielle Eingabe in dem System. Es gibt Felder, die eine mehrfache Eingabe erlauben. Dann werden die verknüpften Datensätze als kleine *Tabelle* gezeigt. 
+
+**Beispiel:** In dem Objekt `Raum` ist das Feld `Personen` ein mehrfaches Auswahlfeld, also eine Tabelle - in einem Raum können mehrere Personen sitzen. Hier werden mehrere Objekte verknüpft. 
+![Forms Auswahlfeld 1](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Auswahlfeld_1.png "Forms Auswahlfeld 1")
+
+> > **Bemerkung:** Wenn eine Person mit einem Raum veknüpft wird, wird diese Person in der Tabelle `Personen` in dem Objekt `Raum` auch erscheinen. Falls ich die Person zu dem Raum hinzufüge, wird die Person- Raum zuordnung in dem Datensatz `Person` automatisch erstellt.
 
 ## Bearbeitung in Formularansicht
 
