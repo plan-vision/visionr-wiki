@@ -296,7 +296,7 @@ Die Textfelder sind einfache Eingabefelder.
 Hier können Sie einfache Zeichenketten eingeben. 
 
 ### Datumsfelder
-Das Datum können Sie über das Kalendarsymbol eingeben (alternativ mit Doppelklick auf dem Feld) oder direkt in dem Feld in der richtigen Format einzugeben. Das Format hängt auch von der aktiven Sprache - z.B. wenn das System auf Deutsch bedient wird, wird das Datumformat TTMMJJJJ sein. Wenn das System auf US Englisch bedient wird, ist das Format MMTTJJJ etc. 
+Das Datum können Sie über das Kalendarsymbol eingeben (alternativ mit Doppelklick auf dem Feld) oder direkt in dem Feld in der richtigen Format. Das Format hängt auch von der aktiven Sprache - z.B. wenn das System auf Deutsch bedient wird, wird das Datumformat TTMMJJJJ sein. Wenn das System auf US Englisch bedient wird, ist das Format MMTTJJJ etc. 
 
 ![Forms Textfeld](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Datumsfeld.png "Forms Datumsfeld")
 
