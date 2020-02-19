@@ -300,10 +300,18 @@ Das Datum können Sie über das Kalendarsymbol eingeben (alternativ mit Doppelkl
 
 ![Forms Textfeld](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Datumsfeld.png "Forms Datumsfeld")
 
-
-
 ### Verknüpfte Auswahlfelder
+In diesem Feld können Sie ein VisionR Objekt verknüpfen. Das Obejkt muss zuerst vorhanden sein und Sie können dieses in dem Feld auswählen. Falls das Objekt noch nicht erstellt ist, können Sie dieses direkt an der Stelle erstellen. 
 
+**Beispiel:** In dem Objekt `Person` ist das Feld `Gebäude` ein Auswahlfeld. Falls wir auf das Feld klicken, werden alle Gebäude aufgelistet, die zu der ausgewählten Liegenschaft gehören. Falls die Liegenschaft nicht ausgewählt ist, werden alle angezeigt. 
+![Forms Auswahlfeld 1](/uploads/de-allgemein/v7-DE-Bearbeiten_Formular_Auswahlfeld_1.png "Forms Auswahlfeld 1")
+
+> **Bemerkung:** Die Auswahlfelder sind sehr oft gefiltert angezeit. Z.B. falls ein Gebäude ausgewählt ist, dann werden nur die Räume zur Auswahl zur Verfügung gestellt, die zu diesem Gebäude gehören. Falls die Etage des Gebäude vor dem Raum gewählt wird, werden nur Räume aus diesem Geschoss angezeigt.
+
+Falls das Objekt nicht vorhanden ist, können Sie es direkt über das `Menü -> Neues Objekt` erstellen. Die Option `Auswählen` werden die Objekte, die hier verknüpft werden können,  in einer separaten Tabelle aufgemacht und Sie können das gewünschte Objekt aus der Tabelle wählen. 
+> **Bemerkung:** Die angezeigte Tabelle ist identisch mit der Tabelle `Gebäude`, die in dem Modul `Flächenmanagement` aufrufbar ist.  
+
+ 
 ### Tabellen
 
 
