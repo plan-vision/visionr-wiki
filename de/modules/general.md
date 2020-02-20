@@ -358,6 +358,12 @@ Machen Sie die gewünschten Angaben hinsichtlich des Feldtyps. Anschließend spe
 
 > **Bemerkung:** Wenn Sie ein Objekt bearbeiten bzw. erstellen, können Sie jedes verknüpftes Objekt mit Doppelklick zur Bearbeitung aufmachen. Die Vorgehensweise ist komplett identisch mit der hier beschriebenen. 
 
+## Mehrfachbearbeitung
+
+Sie können mehrere Objekte gleichzeitig in der Formularansicht bearbeiten. Dafür wählen Sie die gewünschen Objekte aus und dann klicken Sie auf `Bearbeiten`. Die Objekte werden alle gleichzeitig aufgemacht und Sie können Änderungen für ein Objekt oder für alle durchführen. 
+
+
+
 ## Bearbeitung in der Tabelle
 
 Die andere Variante Datensetze / Datenfelder zu bearbeiten ist direkt in der Tabelle. Wählen Sie die gewünschte Zelle und dann mit `Eingabetaste` machen Sie genau diese Zelle = Objekteigenschat = Feld in der Formularansicht auf. Abhängig von dem Typ der Eigenschaft können Sie Ihre Eingaben direkt in der Zelle machen.
