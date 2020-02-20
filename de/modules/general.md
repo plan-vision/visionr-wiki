@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Modul für die Online-Reservierungen von Räumen / Inventar / Arbeitsplätzen -->
 
 Deutsch | [English](/en/modules/reservations/user)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Allgemeine Bedienung v7*
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Neue Oberflächen mit Forms (ab Version 7)*
 
 # Beschreibung
 Alle allgemeine Funktionen, wie z.B. Datensätze bearbeiten, Suchen, Filtern, Ansichten, Sortierungen etc., werden hier beschrieben. 
