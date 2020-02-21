@@ -362,7 +362,18 @@ Machen Sie die gewünschten Angaben hinsichtlich des Feldtyps. Anschließend spe
 
 Sie können mehrere Objekte gleichzeitig in der Formularansicht bearbeiten. Dafür wählen Sie die gewünschen Objekte aus und dann klicken Sie auf `Bearbeiten`. Die Objekte werden alle gleichzeitig aufgemacht und Sie können Änderungen für ein Objekt oder für alle durchführen. 
 
+Wählen Sie die gewünschten Objekte aus - Sie können mit dem Mauszeiger über die Zellen ziehen und alle darunterliegenden Zeilen werden ausgewählt. Alternativ, können Sie die Zeilen mit Halten der STRG Taste einzeln zu der Auswahl hinzufügen oder mit der Umschaltetaste protionsweise.
 
+![Forms Mehrfachbearbeitung 1](/uploads/de-allgemein/v7-DE-Bearbeiten_mehrfach_1.png "Forms Mehrfachbearbeitung 1")
+
+Dann klicken Sie auf `Bearbeiten` und die ausgewählten Datensätze werden in der Formularansicht angezeigt. Oben in der Mitte steht die Anzahl Objekte und Sie können diese einzeln aufrufen und bearbeiten. Sie können einen Datensatz bearbeiten und die Änderungen auf allen Datensätze übertragen. Somit können Sie eine Änderung für alle Datensätze in einem Schritt durchführen. 
+![Forms Mehrfachbearbeitung 2](/uploads/de-allgemein/v7-DE-Bearbeiten_mehrfach_2.png "Forms Mehrfachbearbeitung 2")
+
+**Beispiel:** Wir ordnen die Personen eine Kostenstelle zu. Damit wir nicht jeder Person einzeln aufmachen und mit der gleichen Kostenstelle verknüpfen, machen wir die Zuordnung in einem Schritt.  
+![Forms Mehrfachbearbeitung 3](/uploads/de-allgemein/v7-DE-Bearbeiten_mehrfach_3.png "Forms Mehrfachbearbeitung 3")
+
+Anschließend speichern wir den Vorgang. Das System fragt, ob die Änderungen nur für die geänderten Datensätze sind oder die Änderung soll für alle Datensätze durchgeführt werden. 
+![Forms Mehrfachbearbeitung 4](/uploads/de-allgemein/v7-DE-Bearbeiten_mehrfach_4.png "Forms Mehrfachbearbeitung 4")
 
 ## Bearbeitung in der Tabelle
 
