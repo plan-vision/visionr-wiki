@@ -8,7 +8,7 @@ Deutsch | [English](/en/user-guide)
 * Dokumente
 * [Grafik (Web-CAD)](/de/modules/graphics)
 * Flächenmanagement
-* [Verträge](/de/modules/graphics)
+* [Verträge](/de/modules/contracts)
 * Helpdesk
 * Wartung
 * Schließmanagement
