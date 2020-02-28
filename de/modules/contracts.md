@@ -1,4 +1,5 @@
-<!-- TITLE: Contracts -->
-<!-- SUBTITLE: A quick summary of Contracts -->
+<!-- TITLE: Verträge -->
+<!-- SUBTITLE: Mobul für Bearbeitung von Veträgen -->
 
-# Header
+Deutsch | [English](/en/modules/contracts)
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Verträge*
