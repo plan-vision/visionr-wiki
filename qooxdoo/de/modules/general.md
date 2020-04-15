@@ -77,6 +77,7 @@ Die Tabelle, in der die Bearbeitung der Daten stattfindet, der größte Bereich 
 
  
 Abbildung 4: Applikationsmaske / Trennlinien
+vr6-applikationsmaske-layout.jpg
 
 
 Wenn der Zeiger über einer vertikalen Trennlinie ist, können Sie mit Klick diese Linie ziehen oder verschieben. Wenn Sie auf die horizontale Linie klicken, wird der Kopf (Überschriften / Index / Logo / Profile / Profile-Einstellungen) ausgeblendet. Die Linie bleibt ganz oben erhalten und mit erneutem Klick wird der Kopf wieder eingeblendet.
