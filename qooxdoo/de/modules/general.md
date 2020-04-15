@@ -53,8 +53,7 @@ Der Aufbau der Applikationsmaske wird auf Abbildung 3 gezeigt. Wir haben die App
 
 Wir werden die Bereiche und die beinhalteten Komponenten im nächsten Kapitel im Detail betrachten. Die Bereiche sind für alle Module gleich definiert, wobei die Daten aus dem jeweiligen Modul angezeigt werden. 
 
- 
-vr6-applikationsmaske-funktionsbereiche.jpg
+ ![Qooxdoo Applikationsmaske Funktionsbereiche](/uploads/v6/de-allgemein/vr6-applikationsmaske-funktionsbereiche.jpg "v6 Applikationsmaske Funktionsbereiche") 
 
 > **Bemerkung:** Einige Ikonen aus der Funktionsleiste sind modulspezifisch oder beziehen sich auf mehrere Module und werden nur in der Leiste der entsprechenden Module erscheinen. Diese spezifischen Funktionen werden in dem jeweiligen Handbuch des Moduls beschrieben.
 
