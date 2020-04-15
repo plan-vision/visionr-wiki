@@ -120,7 +120,7 @@ Es gibt ein zusätzliches Dropdown-Menü mit Ansichts-/Bearbeitungsfunktionen ü
 
 Über der Liste sind die Funktionen dieser Ansicht. Links können Sie auswählen, wie viele Objekte pro Seite angezeigt werden. Daneben ist die Sortierung - auf der Abbildung ist nach “Name, Vertrags-ID“ geordnet. In der Mitte ist die aktuelle Seite angezeigt und rechts sind die Navigationsknöpfe (Vorwärts, Rückwärts, erste bzw. letzte Seite).
 
-In dieser Ansicht können Sie ein Objekt mit Klick auf die Zeile auswählen oder mit Halten der STRG-Taste und Klick auf die gewünschten Zeilen mehrere Objekte auswählen. Dann können Sie bestimmte Funktionen / Bearbeitungsvorgänge mehrfach (für mehrere Objekte gleichzeitig) ausführen. Die ausgewählten Objekte werden markiert. Die folgende Abbildung 9 zeigt ausgewählte Objekte mit eingeschalteter Vorschau. Die Vorschau schalten Sie mit dem Button  ![Qooxdoo Applikationsmaske - Info](/uploads/v6/de-allgemein/vr6-button-info.jpg  "Ifno") rechts über der Tabelle ein. Wenn Sie ein Objekt auswählen, wird das Vorschaufenster angezeigt. Wenn Sie mehrere Objekte ausgewählt haben, wird die Info von dem Objekt angezeigt, über dem der Mauszeiger steht.
+In dieser Ansicht können Sie ein Objekt mit Klick auf die Zeile auswählen oder mit Halten der STRG-Taste und Klick auf die gewünschten Zeilen mehrere Objekte auswählen. Dann können Sie bestimmte Funktionen / Bearbeitungsvorgänge mehrfach (für mehrere Objekte gleichzeitig) ausführen. Die ausgewählten Objekte werden markiert. Die folgende Abbildung 9 zeigt ausgewählte Objekte mit eingeschalteter Vorschau. Die Vorschau schalten Sie mit dem Button ![Qooxdoo Applikationsmaske - Info](/uploads/v6/de-allgemein/vr6-button-info.jpg  "Ifno") rechts über der Tabelle ein. Wenn Sie ein Objekt auswählen, wird das Vorschaufenster angezeigt. Wenn Sie mehrere Objekte ausgewählt haben, wird die Info von dem Objekt angezeigt, über dem der Mauszeiger steht.
 
 ![Qooxdoo Applikationsmaske – Seitenansicht mit einigen ausgewählten Objekten und eingeschalteter Vorschau](/uploads/v6/de-allgemein/vr6-applikationsmaske-tabelle-seiten2.jpg "Abbildung 9: Seitenansicht mit einigen ausgewählten Objekten und eingeschalteter Vorschau")
 
@@ -134,15 +134,15 @@ Neben den Ansichtsbuttons ist die Objektebene angezeigt, auf der wir uns befinde
 
 Das Funktionsmenü steht rechts über der Tabelle, wie auf Abbildung 7 dargestellt. Dieser Bereich besteht aus den folgenden Buttons:
 
-•	  Objektvorschau ein/ausschalten - mit diesem Button schalten Sie die Objektvorschau ein und aus. Wenn sie eingeschaltet ist, werden Objektinformationen in einer Blase direkt über der Tabelle angezeigt, wenn ein Objekt ausgewählt ist. Wenn mehrere oder keine Objekte ausgewählt sind, erscheinen die Objektinformationen, wenn sich der Mauszeiger über einem Objekt befindet. 
+•	  ![Qooxdoo Applikationsmaske - Info](/uploads/v6/de-allgemein/vr6-button-info.jpg  "Ifno") Objektvorschau ein/ausschalten - mit diesem Button schalten Sie die Objektvorschau ein und aus. Wenn sie eingeschaltet ist, werden Objektinformationen in einer Blase direkt über der Tabelle angezeigt, wenn ein Objekt ausgewählt ist. Wenn mehrere oder keine Objekte ausgewählt sind, erscheinen die Objektinformationen, wenn sich der Mauszeiger über einem Objekt befindet. 
 
-•	  Funktionsmenü - in diesem Menü sind alle Objektoperationen beinhaltet. Auf der Tabellenebene sind diese Neu, Ansehen, Bearbeiten, Kopieren, Löschen, Archivieren.
+•	  ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Menü Button") Funktionsmenü - in diesem Menü sind alle Objektoperationen beinhaltet. Auf der Tabellenebene sind diese Neu, Ansehen, Bearbeiten, Kopieren, Löschen, Archivieren.
 
 >**Bemerkung:** Diese Ikone steht überall für das Funktionsmenü. In der Formularansicht sind diese Funktionen anders als hier, da sie sich auf das aufgemachte Objekt beziehen.
 
 Die Funktionen, die im Funktionsmenü verfügbar sind, können Sie auch mit Rechtsklick aufrufen. So können Sie auf dieselben Funktionen wie im Funktionsmenü zugreifen.
 
-•	  Objekteigenschaften ein- und ausschalten - mit Klick auf diesen Button wird die Liste mit allen Objekteigenschaften (die Spalten in der Tabelle) angezeigt. Sie können in dieser Liste alle vorhandenen Objekteigenschaften ein- bzw. ausschalten. Die angeklickte Spalte wird in der Tabelle angezeigt bzw. ausgeblendet. Die folgende Abbildung zeigt die Liste für unsere Testverträge.
+•	  ![Qooxdoo Applikationsmaske - Objekteigenschaften ein- und ausschalten](/uploads/v6/de-allgemein/vr6-button-objekteigenschaften_ein_aus.jpg "Objekteigenschaften ein- und ausschalten") Objekteigenschaften ein- und ausschalten - mit Klick auf diesen Button wird die Liste mit allen Objekteigenschaften (die Spalten in der Tabelle) angezeigt. Sie können in dieser Liste alle vorhandenen Objekteigenschaften ein- bzw. ausschalten. Die angeklickte Spalte wird in der Tabelle angezeigt bzw. ausgeblendet. Die folgende Abbildung zeigt die Liste für unsere Testverträge.
 
 ![Qooxdoo Applikationsmaske - Objekte ein- und ausschalten](/uploads/v6/de-allgemein/vr6-applikationsmaske-objekte_ein_aus.jpg "Applikationsmaske - Objekte ein- und ausschalten")
 
@@ -158,7 +158,7 @@ Die Formularansicht ist die Ansicht, in der die Objektdaten in einem Fenster in 
 
 ![Qooxdoo Applikationsmaske – Formular](/uploads/v6/de-allgemein/vr6-applikationsmaske-formular.jpg "Abbildung 11: Formular")
 
-In dem Formular können Sie den Objektvorschau-Bereich ein- und ausschalten. Mit Klick auf das x oben rechts wird dieser Bereich zugemacht. Über dem Menü mit den Funktionen   können Sie die Vorschau, unter dem Punkt Übersicht einschalten. Das Menü ist auf der Abbildung 12 gezeigt.
+In dem Formular können Sie den Objektvorschau-Bereich ein- und ausschalten. Mit Klick auf das x oben rechts wird dieser Bereich zugemacht. Über dem Menü mit den Funktionen ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Menü Button")  können Sie die Vorschau, unter dem Punkt Übersicht einschalten. Das Menü ist auf der Abbildung 12 gezeigt.
  
 ![Qooxdoo Applikationsmaske – Funktionsmenü des Formulars](/uploads/v6/de-allgemein/vr6-applikationsmaske-formular2.jpg "Abbildung 12: Funktionsmenü des Formulars")
 
@@ -176,4 +176,4 @@ Mit Klick auf das Vorschaubild, können Sie direkt auf das grafische Objekt zugr
  
 ![Qooxdoo Applikationsmaske – Der ausgewählte Aufzug auf dem Plan](/uploads/v6/de-allgemein/vr6-applikationsmaske-formular4.jpg "Abbildung 14: Der ausgewählte Aufzug auf dem Plan")
 
-Die Funktionen - Umschaltung der Layergruppen, gespeicherte Ansichten aufrufen, Plan / Ausschnitt exportieren, drucken etc. - sind mit Klick auf dem Button   links aufrufbar. Mit Klick auf den Button   wird der Plan zur Bearbeitung aufgemacht. Sie können dann die Zeichnung direkt bearbeiten, wie in dem grafischen VisionR- Modul.
+Die Funktionen - Umschaltung der Layergruppen, gespeicherte Ansichten aufrufen, Plan / Ausschnitt exportieren, drucken etc. - sind mit Klick auf dem Button ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Menü Button")  links aufrufbar. Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Menü Button Bearbeiten](/uploads/v6/de-allgemein/vr6-button-bearbeiten.jpg "Menü Button Bearbeiten") wird der Plan zur Bearbeitung aufgemacht. Sie können dann die Zeichnung direkt bearbeiten, wie in dem grafischen VisionR- Modul.
