@@ -8,7 +8,7 @@ Deutsch | [English](/en/user-guide)
 * Dokumente
 * [Grafik (Web-CAD)](/de/modules/graphics)
 * Flächenmanagement
-* Verträge
+* [Verträge](/de/modules/contracts)
 * Helpdesk
 * Wartung
 * Schließmanagement
@@ -20,7 +20,7 @@ Deutsch | [English](/en/user-guide)
 * Geplante Tasks
 # Allgemeine Bedienung
 * [Neue Oberflächen mit Forms (ab Version 7)](/de/modules/general)
-* Alte Oberflächen (bis einschl. Version 6)
+* [Alte Oberflächen (bis einschl. Version 6)](/qooxdoo/de/modules/general)
 # Datenaustausch
 * Import
 * Export

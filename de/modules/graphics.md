@@ -7,7 +7,7 @@ Deutsch | [English](/en/modules/graphics)
 # Bedienung
 ## Normale Benutzer
 * Modul Grafik für [normale Benutzer](/de/modules/graphics/user)
-## Modul Admin 
+##  Admin 
 * Modul Grafik für [Admins](/de/modules/graphics/admin)
 ## Alte Oberfläche
 * Modul Grafik auf [alten Oberflächen](/de/modules/graphics/qooxdoo)
