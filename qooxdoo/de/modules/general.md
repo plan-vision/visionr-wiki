@@ -1,7 +1,7 @@
-<!-- TITLE: Alte Oberflächen Qooxdoo bis v6 (inkl.) für normale Benutzer -->
-<!-- SUBTITLE: allgemeines Benutzerhandbuch für Qooxdoo Oberflächen - alte Oberfläche bis Version 6 (inkl.) -->
+<!-- TITLE: Alte Oberflächen (bis einschl. Version 6) für normale Benutzer -->
+<!-- SUBTITLE: allgemeines Benutzerhandbuch für Qooxdoo Oberflächen - Alte Oberflächen (bis einschl. Version 6) -->
 
 Deutsch | [English](/qooxdoo/en/modules/general)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/qooxdoo/de/modules/general) > Alte Oberfläche bis Version 6 (inkl.)
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Alte Oberflächen (bis einschl. Version 6)
 
 # Header
