@@ -27,7 +27,7 @@ Die Index-Seite ist auf Abbildung 1 dargestellt.
 
 Auf der Index-Seite werden alle vorhandenen Module angezeigt. Zusätzliche Module können nachträglich erworben werden. Mit Klick auf das Modul wird die Applikationsmaske des Moduls geöffnet. Die Applikationsmasken aller alphanummerischen Module sind identisch aufgebaut. Der Aufbau wird nun beschrieben.
 
-![Qooxdoo Index Seite](/uploads/v6/de-allgemein/vr6-index-site.jpg "v6 Index Seite") 
+![Qooxdoo Index Seite](/uploads/v6/de-allgemein/vr6-index-site.png "v6 Index Seite") 
 
 ## Applikationsmaske
 
