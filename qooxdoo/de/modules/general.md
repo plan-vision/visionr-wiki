@@ -19,7 +19,6 @@ Alle VisionR Module, mit Ausnahme des Grafik-Moduls, sind identisch aufgebaut. D
 
 ## Übersicht
 
-
 Das VisionR System ist webbasierend. Alle Module können über die Index-Seite abgerufen werden. Starten Sie Ihren Webbrowser und öffnen Sie die Index-Seite. Beispiel:
 http://VISIONRSERVER:PORT/index.vsp.
 
@@ -29,8 +28,8 @@ Auf der Index-Seite werden alle vorhandenen Module angezeigt. Zusätzliche Modul
 
 ![Qooxdoo Index Seite](/uploads/v6/de-allgemein/vr6-index-site.png "v6 Index Seite") 
 
-## Applikationsmaske
 
+## Applikationsmaske
 
 Die Gleichheit der Applikationsmasken für alle alphanumerischen Module ermöglicht eine einheitliche und intuitive Bedienung.
  
@@ -46,12 +45,11 @@ In diesem Beispiel ist das Modul Wartung geöffnet und die Objektgruppe Anlagen 
 
 ## Aufbau
 
-
 Der Aufbau der Applikationsmaske wird auf Abbildung 3 gezeigt. Wir haben die Applikationsmaske in 4 Bereichen unterteilt. Diese Bereiche stellen verschiedene Aspekte der VisionR-Logik dar.
 
 Wir werden die Bereiche und die beinhalteten Komponenten im nächsten Kapitel im Detail betrachten. Die Bereiche sind für alle Module gleich definiert, wobei die Daten aus dem jeweiligen Modul angezeigt werden. 
 
- ![Qooxdoo Applikationsmaske Funktionsbereiche](/uploads/v6/de-allgemein/vr6-applikationsmaske-funktionsbereiche.jpg "v6 Applikationsmaske Funktionsbereiche") 
+![Qooxdoo Applikationsmaske Funktionsbereiche](/uploads/v6/de-allgemein/vr6-applikationsmaske-funktionsbereiche.jpg "v6 Applikationsmaske Funktionsbereiche") 
 
 > **Bemerkung:** Einige Ikonen aus der Funktionsleiste sind modulspezifisch oder beziehen sich auf mehrere Module und werden nur in der Leiste der entsprechenden Module erscheinen. Diese spezifischen Funktionen werden in dem jeweiligen Handbuch des Moduls beschrieben.
 
