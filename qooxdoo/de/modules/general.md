@@ -90,16 +90,13 @@ Der Bereich Navigation, auf der linken Seite des Layouts, ist der Bereich, wo di
 
 In der Baumansicht werden die Modulobjekte in einer hierarchischen Struktur dargestellt. Dieser Bereich beinhaltet auch zwei Ansichtsmöglichkeiten, aus denen Sie über Registerkarten wählen können. Das   Symbol zeigt alle Objekttypen hierarchisch. Dabei werden alle Objekte des Moduls, die zu der ausgewählten Kategorie gehören, aufgelistet - die Darstellung in dem Baum erfolgt nach dem Objekttyp und seinen Untertypen - wie auf Abb. 5 gezeigt.
 
-Abbildung 5: Applikationsmaske - Baumansicht - nach Typ
-vr6-applikationsmaske-baum
-
+![Qooxdoo Applikationsmaske - Baumansicht - nach Typ](/uploads/v6/de-allgemein/vr6-applikationsmaske-baum "Abbildung 5: Applikationsmaske - Baumansicht - nach Typ")  
 
 In diesem Beispiel werden alle technischen Anlagen und deren Untertypen aufgelistet. Mit Klick auf eine Zeile werden diese Objekte in der Tabelle angezeigt (mit STRG- bzw. UMSCHALT-Taste können Sie mehrere Typen auswählen).
 
 Die andere Ansicht ist die Registerkarte mit dem Symbol  . Diese Ansicht nutzt einen hierarchischen Filter und stellt die Daten dementsprechend dar. Die Filter wählen Sie über das Funktionsmenü   der Baumansicht - unter Hierarchien. Abbildung 6 zeigt die technischen Anlagen, die nach Standort gefiltert sind. Bei der Filterung werden nur die Objekte angezeigt, die den Kriterien entsprechen - in dem Beispiel sind nur die Anlagen gelistet, die einem Gebäude bzw. Standort zugeordnet sind. Alle anderen werden nicht angezeigt.
  
-Abbildung 6: Applikationsmaske – Baumansicht
-vr6-applikationsmaske-baum2.jpg
+![Qooxdoo Applikationsmaske – Baumansicht](/uploads/v6/de-allgemein/vr6-applikationsmaske-baum2.jpg "Abbildung 6: Applikationsmaske – Baumansicht")
 
 Dazu gibt es eine eigene Suchleiste, die auf allen Objektebenen des Moduls nutzbar ist. So können Sie nicht nur mit den Objekten selbst, sondern auch mit den Objekttypen, Kombinationen aus Objekttypen, Objektebenen, Filtern, gefilterten Daten etc. arbeiten.
 
@@ -110,8 +107,7 @@ Die Tabelle ist der Bereich, in dem die Bearbeitung der Daten erfolgt. Wenn eine
 
 Es gibt ein zusätzliches Dropdown-Menü mit Ansichts-/Bearbeitungsfunktionen über der Tabelle rechts oben. Abbildung 7 zeigt die Tabelle mit den beschriebenen Bereichen.
 
-Abbildung 7: Tabellenbereich
-vr6-applikationsmaske-tabelle.jpg
+![Qooxdoo Applikationsmaske – Tabellenbereich](/uploads/v6/de-allgemein/vr6-applikationsmaske-tabelle.jpg "Abbildung 7: Tabellenbereich")
 
 Über der Tabelle sind die Ansichtsfunktionen, mit denen Sie die Darstellung der Daten ändern. Wenn Sie den Mauszeiger über einen Button halten, wird durch eine kurze Info angezeigt, was hinter dem Button steckt. Die Ansichten sind wie folgt definiert:
 
@@ -119,19 +115,17 @@ vr6-applikationsmaske-tabelle.jpg
 
 •	  Seitenansicht - mit Aktivierung dieser Ansicht werden die Daten in Seiten angezeigt. Die Objekte sind dann in einer Liste dargestellt. Die Abbildung 8 zeigt die Verträge aus der Abbildung 7 in Seiten.
 
-Abbildung 8: Tabellenbereich in Seitenansicht
-vr6-applikationsmaske-tabelle-seiten.jpg
+![Qooxdoo Applikationsmaske – Tabellenbereich in Seitenansicht](/uploads/v6/de-allgemein/vr6-applikationsmaske-tabelle-seiten.jpg"Abbildung 8: Tabellenbereich in Seitenansicht")
 
 Über der Liste sind die Funktionen dieser Ansicht. Links können Sie auswählen, wie viele Objekte pro Seite angezeigt werden. Daneben ist die Sortierung - auf der Abbildung ist nach “Name, Vertrags-ID“ geordnet. In der Mitte ist die aktuelle Seite angezeigt und rechts sind die Navigationsknöpfe (Vorwärts, Rückwärts, erste bzw. letzte Seite).
 
 In dieser Ansicht können Sie ein Objekt mit Klick auf die Zeile auswählen oder mit Halten der STRG-Taste und Klick auf die gewünschten Zeilen mehrere Objekte auswählen. Dann können Sie bestimmte Funktionen / Bearbeitungsvorgänge mehrfach (für mehrere Objekte gleichzeitig) ausführen. Die ausgewählten Objekte werden markiert. Die folgende Abbildung 9 zeigt ausgewählte Objekte mit eingeschalteter Vorschau. Die Vorschau schalten Sie mit dem Button   rechts über der Tabelle ein. Wenn Sie ein Objekt auswählen, wird das Vorschaufenster angezeigt. Wenn Sie mehrere Objekte ausgewählt haben, wird die Info von dem Objekt angezeigt, über dem der Mauszeiger steht.
 
-Abbildung 9: Seitenansicht mit einigen ausgewählten Objekten und eingeschalteter Vorschau
-vr6-applikationsmaske-tabelle-seiten2.jpg
+![Qooxdoo Applikationsmaske – Seitenansicht mit einigen ausgewählten Objekten und eingeschalteter Vorschau](/uploads/v6/de-allgemein/vr6-applikationsmaske-tabelle-seiten2.jpg"Abbildung 9: Seitenansicht mit einigen ausgewählten Objekten und eingeschalteter Vorschau")
+
 •	  Kachelansicht - die Daten werden als Kacheln angezeigt. Das Auswählen erfolgt wie bei der Listenansicht. Die Bearbeitung erfolgt in beiden Fällen über das Formular. Die folgende Abbildung (Abb. 10) zeigt dieselben Verträge in Kachel-Ansicht.
 
-Abbildung 10: Kachelansicht der Verträge
-vr6-applikationsmaske-tabelle-kacheln.jpg
+![Qooxdoo Applikationsmaske – Kachelansicht der Verträge](/uploads/v6/de-allgemein/vr6-applikationsmaske-tabelle-kacheln.jpg"Abbildung 10: Kachelansicht der Verträge")
 
 Die Wartungsverträge aus dem Gebäude 001 in München (sehen Sie die Baumstruktur links) werden als Preview dargestellt.
 
@@ -149,7 +143,7 @@ Die Funktionen, die im Funktionsmenü verfügbar sind, können Sie auch mit Rech
 
 •	  Objekteigenschaften ein- und ausschalten - mit Klick auf diesen Button wird die Liste mit allen Objekteigenschaften (die Spalten in der Tabelle) angezeigt. Sie können in dieser Liste alle vorhandenen Objekteigenschaften ein- bzw. ausschalten. Die angeklickte Spalte wird in der Tabelle angezeigt bzw. ausgeblendet. Die folgende Abbildung zeigt die Liste für unsere Testverträge.
 
-vr6-applikationsmaske-objekte_ein_aus.jpg
+![Qooxdoo Applikationsmaske - Objekte ein- und ausschalten](/uploads/v6/de-allgemein/vr6-applikationsmaske-objekte_ein_aus.jpg"Applikationsmaske - Objekte ein- und ausschalten")
 
 >>**Bemerkung:** Eine andere Möglichkeit die Objekteigenschaften ein- bzw. auszuschalten besteht über das Objektmenü, das mit der rechten Maustaste aufrufbar ist. Der unterste Eintrag “sichtbare Eigenschaften“ zeigt sowohl alle Eigenschaften des Objekts, als auch die referenzierten Datenobjekte, die mit diesem Objekt verknüpft sind. Die Referenzen können durchgegangen werden und deren Eigenschaften in der Tabelle durch Mausklick sichtbar geschaltet werden. Eigenschaften über mehrere Referenzen (Objektpfade) können in der Tabelle als zusätzliche Spalten angezeigt werden.
 
@@ -157,33 +151,28 @@ Beispiel: Wir wollen das Land und die Stadt des Auftraggebers sichtbar machen. D
 
 Die Bearbeitung der Objekte und andere Funktionen wie Neues Objekt erstellen, Objekt löschen etc. sind in diesem Dokument separat beschrieben.
 
-
 ## Formular
 
 Die Formularansicht ist die Ansicht, in der die Objektdaten in einem Fenster in Form eines Formulars dargestellt sind. So werden die Eigenschaften eines oder mehrerer Objekte bearbeitet. Das Formular rufen Sie ab, wenn Sie ein neues Objekt erstellen oder ein vorhandenes bearbeiten. Auf der Abbildung 11 ist ein Objekt zur Bearbeitung aufgemacht.
 
-Abbildung 11: Formular
-vr6-applikationsmaske-formular.jpg
+![Qooxdoo Applikationsmaske – Formular](/uploads/v6/de-allgemein/vr6-applikationsmaske-formular.jpg"Abbildung 11: Formular")
 
 In dem Formular können Sie den Objektvorschau-Bereich ein- und ausschalten. Mit Klick auf das x oben rechts wird dieser Bereich zugemacht. Über dem Menü mit den Funktionen   können Sie die Vorschau, unter dem Punkt Übersicht einschalten. Das Menü ist auf der Abbildung 12 gezeigt.
  
-Abbildung 12: Funktionsmenü des Formulars
-vr6-applikationsmaske-formular2.jpg
+![Qooxdoo Applikationsmaske – Funktionsmenü des Formulars](/uploads/v6/de-allgemein/vr6-applikationsmaske-formular2.jpg"Abbildung 12: Funktionsmenü des Formulars")
 
 Die Funktionen sind in 3 Kategorien unterteilt - Aktionen, Ansicht, Übersicht. Die Aktionen sind mit den Objekten verbunden. Die Ansichten beinhalten die Konfiguration der sichtbaren Felder und deren Anordnung in dem Formular. Diese Ansichten sind anpassbar. Wie diese Ansichten zu definieren und zu speichern sind, wird im nächsten Kapitel beschrieben. Unter den Punkt Übersicht schalten Sie die gespeicherten Vorschauen um. Die Vorschau wird in dem Formular über den Objektdaten platziert. Es gibt einige vordefinierten Vorschaumuster, die bestimmte Informationen aus der Datenbank in dem Vorschaubereich in Form eines „Kurzberichts“ darstellen. Die Anzeige im Vorschaubereich kann angepasst werden. Zusätzliche Vorschauvarianten können jederzeit hinzugefügt werden. Die Vorschau dient als vereinfachte Darstellung von Objektinformationen. Beispielhaft wird im Formular bei der Bearbeitung eines Raums, der Standort mit den wichtigsten Raumdaten angezeigt, soweit diese eingegeben sind. Die folgende Abbildung 13 zeigt das Formular für ein Objekt mit eingeschalteter Vorschau, das auch grafisch vorhanden bzw. verknüpft ist. Die Objektvorschau ist in dem Kapitel Ansichten, Punkt Objektvorschau auf Seite 65 beschrieben.
 
-Abbildung 13: Aufzug mit eingeschalteter Vorschau - die Geometrie wird als Vorschaubild angezeigt
-vr6-applikationsmaske-formular3.jpg
+![Qooxdoo Applikationsmaske – Formularansicht mit eingeschalteter Vorschau](/uploads/v6/de-allgemein/vr6-applikationsmaske-formular3.jpg"Abbildung 13: Aufzug mit eingeschalteter Vorschau - die Geometrie wird als Vorschaubild angezeigt")
 
 Die Formularansicht beinhaltet alle Eigenschaften des Objekts. Diese sind als Eingabefelder in mehrere Registerkarten unterteilt. Ganz links stehen immer die Haupteigenschaften, die zu diesem Objekttyp gehören. Einige Registerkarten kommen aus den verknüpften Modulen. Wenn es eine Verbindung zwischen zwei Module gibt, die miteinander referenziert sind, werden die Eigenschaften in der dazugehörigen Registerkarte angezeigt. Wenn zum Beispiel eine Verknüpfung zwischen Kontakte und Umzüge besteht, wird eine Registerkarte Umzüge in dem Formular bei Bearbeitung / Erstellung einer Person oder eines Unternehmens oder eines allgemeinen Kontakts angezeigt.
 
 In der Formularansicht sind alle Eigenschaften für das Objekt vorhanden. Wenn Sie ein bestimmtes Feld finden möchten, steht dafür das Suchfeld über den Vorschaubereich zur Verfügung. Mit Klick auf das Ergebnis wird das System Sie auf das Feld leiten.
 
-Bemerkung: Die letzte Registerkarte in der Formularansicht ist bei allen Objekten für die Berechtigungen reserviert. Sie können die Zugriffsberechtigungen in dieser Registerkarte ansehen bzw. bearbeiten.
+>**Bemerkung:** Die letzte Registerkarte in der Formularansicht ist bei allen Objekten für die Berechtigungen reserviert. Sie können die Zugriffsberechtigungen in dieser Registerkarte ansehen bzw. bearbeiten.
 
 Mit Klick auf das Vorschaubild, können Sie direkt auf das grafische Objekt zugreifen, falls das Bild mit einem vorhandenen Objekt verknüpft ist. Es wird ein neues Fenster mit der Zeichnung aufgemacht. Der Fokus ist auf dem ausgewählten Objekt und die Informationsblase mit den wichtigsten Daten wird angezeigt. Sie können die Layergruppen umschalten, um verschiedene Darstellungen und Informationen zu bekommen. Die folgende Abbildung 14 zeigt dieses Fenster mit dem ausgewählten Aufzug.
  
-Abbildung 14: Der ausgewählte Aufzug auf dem Plan
-vr6-applikationsmaske-formular4.jpg
+![Qooxdoo Applikationsmaske – Der ausgewählte Aufzug auf dem Plan](/uploads/v6/de-allgemein/vr6-applikationsmaske-formular4.jpg"Abbildung 14: Der ausgewählte Aufzug auf dem Plan")
 
 Die Funktionen - Umschaltung der Layergruppen, gespeicherte Ansichten aufrufen, Plan / Ausschnitt exportieren, drucken etc. - sind mit Klick auf dem Button   links aufrufbar. Mit Klick auf den Button   wird der Plan zur Bearbeitung aufgemacht. Sie können dann die Zeichnung direkt bearbeiten, wie in dem grafischen VisionR- Modul.
