@@ -27,9 +27,7 @@ Die Index-Seite ist auf Abbildung 1 dargestellt.
 
 Auf der Index-Seite werden alle vorhandenen Module angezeigt. Zusätzliche Module können nachträglich erworben werden. Mit Klick auf das Modul wird die Applikationsmaske des Moduls geöffnet. Die Applikationsmasken aller alphanummerischen Module sind identisch aufgebaut. Der Aufbau wird nun beschrieben.
 
- 
-Abbildung 1: Index-Seite - Übersicht Module
-
+![Qooxdoo Index Seite](/uploads/v6/de-allgemein/vr6-index-site.png "v6 Index Seite") 
 
 ## Applikationsmaske
 
@@ -37,7 +35,7 @@ Abbildung 1: Index-Seite - Übersicht Module
 Die Gleichheit der Applikationsmasken für alle alphanumerischen Module ermöglicht eine einheitliche und intuitive Bedienung.
 
  
-Abbildung 2: Applikationsmaske mit Statistiken
+![Qooxdoo Applikationsmaske Übersicht](/uploads/v6/de-allgemein/vr6-applikationsmaske-uebersicht.png "v6 Applikationsmaske Übersicht") 
 
 
 Mit dem Öffnen eines Moduls (z.B. „Wartung“) wird die Applikationsmaske mit einigen Statistiken aufgemacht. Die Abbildung 2 zeigt die geöffnete Applikationsmaske mit Grafiken zur „Anzahl Objekte“ und „eingefügten Objekten - 2 Wochen“. Den Zeitraum können Sie über der Grafik mit Klick auf den Pfeil verändern.
@@ -56,7 +54,7 @@ Der Aufbau der Applikationsmaske wird auf Abbildung 3 gezeigt. Wir haben die App
 Wir werden die Bereiche und die beinhalteten Komponenten im nächsten Kapitel im Detail betrachten. Die Bereiche sind für alle Module gleich definiert, wobei die Daten aus dem jeweiligen Modul angezeigt werden. 
 
  
-Abbildung 3: Applikationsmaske mit den Funktionsbereichen
+vr6-applikationsmaske-funktionsbereiche.jpg
 
 > **Bemerkung:** Einige Ikonen aus der Funktionsleiste sind modulspezifisch oder beziehen sich auf mehrere Module und werden nur in der Leiste der entsprechenden Module erscheinen. Diese spezifischen Funktionen werden in dem jeweiligen Handbuch des Moduls beschrieben.
 
