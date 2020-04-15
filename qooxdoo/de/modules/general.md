@@ -137,7 +137,7 @@ Das Funktionsmenü steht rechts über der Tabelle, wie auf Abbildung 7 dargestel
 
 •	  Funktionsmenü - in diesem Menü sind alle Objektoperationen beinhaltet. Auf der Tabellenebene sind diese Neu, Ansehen, Bearbeiten, Kopieren, Löschen, Archivieren.
 
-Bemerkung: Diese Ikone steht überall für das Funktionsmenü. In der Formularansicht sind diese Funktionen anders als hier, da sie sich auf das aufgemachte Objekt beziehen.
+>>**Bemerkung:** Diese Ikone steht überall für das Funktionsmenü. In der Formularansicht sind diese Funktionen anders als hier, da sie sich auf das aufgemachte Objekt beziehen.
 
 Die Funktionen, die im Funktionsmenü verfügbar sind, können Sie auch mit Rechtsklick aufrufen. So können Sie auf dieselben Funktionen wie im Funktionsmenü zugreifen.
 
@@ -147,7 +147,7 @@ Die Funktionen, die im Funktionsmenü verfügbar sind, können Sie auch mit Rech
 
 >>**Bemerkung:** Eine andere Möglichkeit die Objekteigenschaften ein- bzw. auszuschalten besteht über das Objektmenü, das mit der rechten Maustaste aufrufbar ist. Der unterste Eintrag “sichtbare Eigenschaften“ zeigt sowohl alle Eigenschaften des Objekts, als auch die referenzierten Datenobjekte, die mit diesem Objekt verknüpft sind. Die Referenzen können durchgegangen werden und deren Eigenschaften in der Tabelle durch Mausklick sichtbar geschaltet werden. Eigenschaften über mehrere Referenzen (Objektpfade) können in der Tabelle als zusätzliche Spalten angezeigt werden.
 
-Beispiel: Wir wollen das Land und die Stadt des Auftraggebers sichtbar machen. Dafür können wir folgenden Pfad einschalten: “Vertrag  Auftraggeber  Stadt  Name und VertragAuftraggeberLandNameDeutsch“. Da alle Definitionen und Felder in VisionR übersetzbar sind ist hier “Deutsch“ auszuwählen (ggf. die gewünschte Sprache).
+**Beispiel:** Wir wollen das Land und die Stadt des Auftraggebers sichtbar machen. Dafür können wir folgenden Pfad einschalten: “Vertrag  Auftraggeber  Stadt  Name und VertragAuftraggeberLandNameDeutsch“. Da alle Definitionen und Felder in VisionR übersetzbar sind ist hier “Deutsch“ auszuwählen (ggf. die gewünschte Sprache).
 
 Die Bearbeitung der Objekte und andere Funktionen wie Neues Objekt erstellen, Objekt löschen etc. sind in diesem Dokument separat beschrieben.
 
