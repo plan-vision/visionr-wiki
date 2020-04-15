@@ -1,8 +1,8 @@
 <!-- TITLE: Neue Oberflächen mit Forms (ab Version 7) -->
 <!-- SUBTITLE: llgemeines Benutzerhandbuch für Qooxdoo Oberflächen - Neue Oberflächen mit Forms (ab Version 7) -->
 
-Deutsch | [English](/en/modules/reservations/user)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Neue Oberflächen mit Forms (ab Version 7)*
+Deutsch | [English](/en/modules/general)
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Neue Oberflächen mit Forms (ab Version 7)* 
 
 # Beschreibung
 Alle allgemeine Funktionen, wie z.B. Datensätze bearbeiten, Suchen, Filtern, Ansichten, Sortierungen etc., werden hier beschrieben. 
