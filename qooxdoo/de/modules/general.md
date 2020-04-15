@@ -58,7 +58,7 @@ Wir werden die Bereiche und die beinhalteten Komponenten im nächsten Kapitel im
  
 Abbildung 3: Applikationsmaske mit den Funktionsbereichen
 
-Bemerkung: Einige Ikonen aus der Funktionsleiste sind modulspezifisch oder beziehen sich auf mehrere Module und werden nur in der Leiste der entsprechenden Module erscheinen. Diese spezifischen Funktionen werden in dem jeweiligen Handbuch des Moduls beschrieben.
+> **Bemerkung:** Einige Ikonen aus der Funktionsleiste sind modulspezifisch oder beziehen sich auf mehrere Module und werden nur in der Leiste der entsprechenden Module erscheinen. Diese spezifischen Funktionen werden in dem jeweiligen Handbuch des Moduls beschrieben.
 Die Bereiche werden nun kurz beschrieben: 
 
 •	Navigation / Objekte - Hier werden die Modulobjekte aufgelistet. Mit Klick auf einem Button aus diesem Bereich werden die Objekte in der Tabelle angezeigt und stehen zur Bearbeitung zur Verfügung.
