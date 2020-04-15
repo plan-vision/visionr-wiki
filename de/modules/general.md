@@ -1,5 +1,5 @@
 <!-- TITLE: Neue Oberflächen mit Forms (ab Version 7) -->
-<!-- SUBTITLE: llgemeines Benutzerhandbuch für Qooxdoo Oberflächen - Neue Oberflächen mit Forms (ab Version 7) -->
+<!-- SUBTITLE: allgemeines Benutzerhandbuch für Qooxdoo Oberflächen - Neue Oberflächen mit Forms (ab Version 7) -->
 
 Deutsch | [English](/en/modules/general)
 *Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Neue Oberflächen mit Forms (ab Version 7)* 
