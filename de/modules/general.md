@@ -1,5 +1,5 @@
-<!-- TITLE: Modul "Reservierungen" für normale Benutzer -->
-<!-- SUBTITLE: Modul für die Online-Reservierungen von Räumen / Inventar / Arbeitsplätzen -->
+<!-- TITLE: Neue Oberflächen mit Forms (ab Version 7) -->
+<!-- SUBTITLE: llgemeines Benutzerhandbuch für Qooxdoo Oberflächen - Neue Oberflächen mit Forms (ab Version 7) -->
 
 Deutsch | [English](/en/modules/reservations/user)
 *Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Neue Oberflächen mit Forms (ab Version 7)*
