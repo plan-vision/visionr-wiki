@@ -114,17 +114,17 @@ Es gibt ein zusätzliches Dropdown-Menü mit Ansichts-/Bearbeitungsfunktionen ü
 
 •	  ![Qooxdoo Applikationsmaske - Menü Tabellenansicht](/uploads/v6/de-allgemein/vr6-button-tabellenansicht.jpg "Menü Button Tabellenansicht") Tabellenansicht - wenn diese Registerkarte aktiv ist, werden die Daten in tabellarischer Form dargestellt, wie auf Abbildung 7 gezeigt.
 
-•	  ![Qooxdoo Applikationsmaske - Menü Seitenansicht](/uploads/v6/de-allgemein/vr6-button-tabellenansicht.jpg "Menü Button Seitenansicht") Seitenansicht - mit Aktivierung dieser Ansicht werden die Daten in Seiten angezeigt. Die Objekte sind dann in einer Liste dargestellt. Die Abbildung 8 zeigt die Verträge aus der Abbildung 7 in Seiten.
+•	  ![Qooxdoo Applikationsmaske - Menü Button Seitenansicht](/uploads/v6/de-allgemein/vr6-button-seitenansicht.jpg "Menü Button Seitenansicht") Seitenansicht - mit Aktivierung dieser Ansicht werden die Daten in Seiten angezeigt. Die Objekte sind dann in einer Liste dargestellt. Die Abbildung 8 zeigt die Verträge aus der Abbildung 7 in Seiten.
 
 ![Qooxdoo Applikationsmaske – Tabellenbereich in Seitenansicht](/uploads/v6/de-allgemein/vr6-applikationsmaske-tabelle-seiten.jpg "Abbildung 8: Tabellenbereich in Seitenansicht")
 
 Über der Liste sind die Funktionen dieser Ansicht. Links können Sie auswählen, wie viele Objekte pro Seite angezeigt werden. Daneben ist die Sortierung - auf der Abbildung ist nach “Name, Vertrags-ID“ geordnet. In der Mitte ist die aktuelle Seite angezeigt und rechts sind die Navigationsknöpfe (Vorwärts, Rückwärts, erste bzw. letzte Seite).
 
-In dieser Ansicht können Sie ein Objekt mit Klick auf die Zeile auswählen oder mit Halten der STRG-Taste und Klick auf die gewünschten Zeilen mehrere Objekte auswählen. Dann können Sie bestimmte Funktionen / Bearbeitungsvorgänge mehrfach (für mehrere Objekte gleichzeitig) ausführen. Die ausgewählten Objekte werden markiert. Die folgende Abbildung 9 zeigt ausgewählte Objekte mit eingeschalteter Vorschau. Die Vorschau schalten Sie mit dem Button   rechts über der Tabelle ein. Wenn Sie ein Objekt auswählen, wird das Vorschaufenster angezeigt. Wenn Sie mehrere Objekte ausgewählt haben, wird die Info von dem Objekt angezeigt, über dem der Mauszeiger steht.
+In dieser Ansicht können Sie ein Objekt mit Klick auf die Zeile auswählen oder mit Halten der STRG-Taste und Klick auf die gewünschten Zeilen mehrere Objekte auswählen. Dann können Sie bestimmte Funktionen / Bearbeitungsvorgänge mehrfach (für mehrere Objekte gleichzeitig) ausführen. Die ausgewählten Objekte werden markiert. Die folgende Abbildung 9 zeigt ausgewählte Objekte mit eingeschalteter Vorschau. Die Vorschau schalten Sie mit dem Button  ![Qooxdoo Applikationsmaske - Info](/uploads/v6/de-allgemein/vr6-button-info.jpg  "Ifno") rechts über der Tabelle ein. Wenn Sie ein Objekt auswählen, wird das Vorschaufenster angezeigt. Wenn Sie mehrere Objekte ausgewählt haben, wird die Info von dem Objekt angezeigt, über dem der Mauszeiger steht.
 
 ![Qooxdoo Applikationsmaske – Seitenansicht mit einigen ausgewählten Objekten und eingeschalteter Vorschau](/uploads/v6/de-allgemein/vr6-applikationsmaske-tabelle-seiten2.jpg "Abbildung 9: Seitenansicht mit einigen ausgewählten Objekten und eingeschalteter Vorschau")
 
-•	  Kachelansicht - die Daten werden als Kacheln angezeigt. Das Auswählen erfolgt wie bei der Listenansicht. Die Bearbeitung erfolgt in beiden Fällen über das Formular. Die folgende Abbildung (Abb. 10) zeigt dieselben Verträge in Kachel-Ansicht.
+•	  ![Qooxdoo Applikationsmaske - Menü Kachelansicht](/uploads/v6/de-allgemein/vr6-button-kachelansicht.jpg "Menü Button Kachelansicht") Kachelansicht - die Daten werden als Kacheln angezeigt. Das Auswählen erfolgt wie bei der Listenansicht. Die Bearbeitung erfolgt in beiden Fällen über das Formular. Die folgende Abbildung (Abb. 10) zeigt dieselben Verträge in Kachel-Ansicht.
 
 ![Qooxdoo Applikationsmaske – Kachelansicht der Verträge](/uploads/v6/de-allgemein/vr6-applikationsmaske-tabelle-kacheln.jpg "Abbildung 10: Kachelansicht der Verträge")
 
