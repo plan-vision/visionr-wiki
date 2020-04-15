@@ -68,17 +68,13 @@ Die Bereiche werden nun kurz beschrieben:
 
 Alle alphanumerischen Module sind gleich aufgebaut und haben fast identische Applikationsmasken. Unterschiede entstehen in den jeweiligen Modulen bei den zu verwaltenden Objekten.
 
-
 ## Maskenlayout
 
 Das Layout der Applikationsmaske ist auf Abbildung 3 dargestellt. Für unser Beispiel haben wir das Modul „Wartung“ ausgewählt. 
 
 Die Tabelle, in der die Bearbeitung der Daten stattfindet, der größte Bereich des Layouts. Die einzelnen Bereiche sind mit Linien getrennt. Sie können die Größe der Bereiche durch das Ziehen der Trennlinien anpassen. Wenn Sie den Mauszeiger über eine Trennlinie halten, wird diese Linie fett und Sie können diese in eine gewünschte Richtung ziehen. Die Abbildung 4 zeigt eine hervorgehobene Linie. Die Pfeile zeigen welche Trennlinien angepasst werden können.
 
- 
-Abbildung 4: Applikationsmaske / Trennlinien
-vr6-applikationsmaske-layout.jpg
-
+![Qooxdoo Applikationsmaske / Trennlinien](/uploads/v6/de-allgemein/vr6-applikationsmaske-layout.jpg "Abbildung 4: Applikationsmaske / Trennlinien")  
 
 Wenn der Zeiger über einer vertikalen Trennlinie ist, können Sie mit Klick diese Linie ziehen oder verschieben. Wenn Sie auf die horizontale Linie klicken, wird der Kopf (Überschriften / Index / Logo / Profile / Profile-Einstellungen) ausgeblendet. Die Linie bleibt ganz oben erhalten und mit erneutem Klick wird der Kopf wieder eingeblendet.
 
