@@ -33,10 +33,8 @@ Auf der Index-Seite werden alle vorhandenen Module angezeigt. Zusätzliche Modul
 
 
 Die Gleichheit der Applikationsmasken für alle alphanumerischen Module ermöglicht eine einheitliche und intuitive Bedienung.
-
  
 ![Qooxdoo Applikationsmaske Übersicht](/uploads/v6/de-allgemein/vr6-applikationsmaske-uebersicht.jpg "v6 Applikationsmaske Übersicht") 
-
 
 Mit dem Öffnen eines Moduls (z.B. „Wartung“) wird die Applikationsmaske mit einigen Statistiken aufgemacht. Die Abbildung 2 zeigt die geöffnete Applikationsmaske mit Grafiken zur „Anzahl Objekte“ und „eingefügten Objekten - 2 Wochen“. Den Zeitraum können Sie über der Grafik mit Klick auf den Pfeil verändern.
 
