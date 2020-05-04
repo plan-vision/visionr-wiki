@@ -572,22 +572,22 @@ Einige dieser Berichte sind oft kundenspezifisch, deshalb können wir hier nicht
 
 Die Gruppierung ermöglicht die Filterung der Daten nach bestimmten Kriterien. Diese Kriterien können erweitert werden. Das Gruppieren der Daten erfolgt über den Button ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") Gruppieren. Die Gruppieren-Eigenschaften werden zwischen der Baumstruktur und dem Arbeitsbereich angezeigt. 
 
-Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") können Sie zusätzliche Gruppierungen einschalten.
+Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.PNG "Menü Button Neu") können Sie zusätzliche Gruppierungen einschalten.
 
 Wir betrachten das Gruppieren anhand eines Beispiels. Wir möchten alle technischen Anlagen in einem Gebäude, die den Status „aktiv“ haben, gruppieren. Aus diesen möchten wir nur die Anlagen anzeigen, die einer bestimmten Marke entsprechen.
 
-Klicken Sie auf ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") `Gruppieren` und dann auf ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") `Neu`. In dem angezeigten Fenster klicken Sie auf die Auswahl Eigenschaft, um für die Objektgruppe (in unserem Beispiel - die technischen Anlagen) den Status als Gruppierungskriterium einzugeben - Abbildung 34.
-![Qooxdoo Applikationsmaske - Gruppierung definieren](/uploads/v6/de-allgemein/vr6-gruppierung_definieren.png " Abbildung 34: Gruppierung definieren“)
+Klicken Sie auf ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.PNG "Button Gruppieren") `Gruppieren` und dann auf ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") `Neu`. In dem angezeigten Fenster klicken Sie auf die Auswahl Eigenschaft, um für die Objektgruppe (in unserem Beispiel - die technischen Anlagen) den Status als Gruppierungskriterium einzugeben - Abbildung 34.
+![Qooxdoo Applikationsmaske - Gruppierung definieren](/uploads/v6/de-allgemein/vr6-gruppierung_definieren.PNG " Abbildung 34: Gruppierung definieren“)
 
 Mit Klick auf die Status-Zeile werden in dem Fenster die möglichen Werte angezeigt. Sie müssen aus diesen Werten einen wählen und ihn für die Gruppierung einsetzten. In unserem Fall wir wollen alle Anlagen gruppieren, die Status ***aktiv*** haben. Deshalb wählen wir diesen Status aus.
 
 Das Gruppieren nach Status wird dann in der Gruppierungsspalte erscheinen. Wir fügen noch eine Gruppierung hinzu. Wir klicken auf ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") `Neu` und dieses Mal wählen wir die Eigenschaft *Hersteller*. Die Hersteller werden aufgelistet und wir müssen die gewünschten aktivieren. Die Abbildung 35 zeigt den beschriebenen Vorgang.
 
-![Qooxdoo Applikationsmaske - Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen.png" Abbildung 35: Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen.“)
+![Qooxdoo Applikationsmaske - Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen.PNG" Abbildung 35: Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen.“)
 
 Mit Einschalten dieser Gruppierung werden alle aktiven Anlagen der Marke “Schindler“ in dem ausgewählten Gebäude angezeigt. Alle anderen Anlagen werden ausgeblendet – siehe Abbildung 36.
 
-![Qooxdoo Applikationsmaske - Das Ergebnis unserer beispielhaften Gruppierung](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen_ergebnis.png "Abbildung 36: Das Ergebnis unserer beispielhaften Gruppierung“)
+![Qooxdoo Applikationsmaske - Das Ergebnis unserer beispielhaften Gruppierung](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen_ergebnis.PNG "Abbildung 36: Das Ergebnis unserer beispielhaften Gruppierung“)
 
 Die Gruppierung heben Sie mit demselben Button ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") auf.
 
