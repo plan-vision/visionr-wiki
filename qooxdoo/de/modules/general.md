@@ -633,8 +633,9 @@ Diese Hervorhebung kann entweder WAHR oder FALSCH sein, deshalb sind hier die fa
 
 Die restlichen Hervorhebungen sind von den Objekten abhängig. Wir schildern diese anhand einiger Beispiele. 
 >**Beispiel:** wir wollen die Hervorhebung einschalten, um zu sehen welche technischen Anlagen aktiv und welche inaktiv sind. Die Abbildung 38 zeigt dieses Beispiel.![Qooxdoo Applikationsmaske - Hervorhebung - nach Status](/uploads/v6/de-allgemein/vr6-hervorhebung_nach_status_bsp.png "Abbildung 38: Hervorhebung - nach Status")
-In dem Menü gibt es für diese Objekte auch die Hervorhebung **Hat Geometrie?**. Diese Hervorhebung gibt uns an, welche Objekte grafisch im System vorhanden sind und welche nicht. Da wieder die Werte WAHR bzw. FALSCH sein können, werden die Farben **rot** und **grün** benutzt.
 {.is-info}
+
+In dem Menü gibt es für diese Objekte auch die Hervorhebung **Hat Geometrie?**. Diese Hervorhebung gibt uns an, welche Objekte grafisch im System vorhanden sind und welche nicht. Da wieder die Werte WAHR bzw. FALSCH sein können, werden die Farben **rot** und **grün** benutzt.
 
 Die folgende Abbildung 39 zeigt das Beispiel mit Hervorhebung nach Nutzung der Räume aus unseren Gebäuden. Die Räume sind mit den Farben gekennzeichnet, die ihrer Nutzungen entsprechen. Wenn Sie die Grafik aufmachen und diese Räume anschauen, werden diese in denselben Farben sein.
 ![Qooxdoo Applikationsmaske - Hervorhebung der Räume nach Nutzung](/uploads/v6/de-allgemein/vr6-hervorhebung_nach_raumnutzung_bsp.png "Abbildung 39: Hervorhebung der Räume nach Nutzung")
