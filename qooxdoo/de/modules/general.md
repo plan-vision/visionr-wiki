@@ -588,7 +588,7 @@ Das Gruppieren nach Status wird dann in der Gruppierungsspalte erscheinen. Wir f
 
 Mit Einschalten dieser Gruppierung werden alle aktiven Anlagen der Marke “Schindler“ in dem ausgewählten Gebäude angezeigt. Alle anderen Anlagen werden ausgeblendet – siehe Abbildung 36.
 
-![Qooxdoo Applikationsmaske - Das Ergebnis unserer beispielhaften Gruppierung](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen_ergebnis.png "Abbildung 36: Das Ergebnis unserer beispielhaften Gruppierung“)
+![Qooxdoo Applikationsmaske - Das Ergebnis unserer beispielhaften Gruppierung](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen_ergebnis.png "Abbildung 36: Das Ergebnis unserer beispielhaften Gruppierung")
 
 Die Gruppierung heben Sie mit demselben Button ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") auf.
 
