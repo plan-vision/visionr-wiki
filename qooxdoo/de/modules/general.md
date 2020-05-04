@@ -578,7 +578,6 @@ Wir betrachten das Gruppieren anhand eines Beispiels. Wir möchten alle technisc
 
 Klicken Sie auf ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") `Gruppieren` und dann auf ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") `Neu`. In dem angezeigten Fenster klicken Sie auf die Auswahl Eigenschaft, um für die Objektgruppe (in unserem Beispiel - die technischen Anlagen) den Status als Gruppierungskriterium einzugeben - Abbildung 34.
 
-![Qooxdoo Applikationsmaske - Gruppierung definieren](/uploads/v6/de-allgemein/vr6-gruppierung_definieren.png "Abbildung 34: Gruppierung definieren")
 
 Mit Klick auf die Status-Zeile werden in dem Fenster die möglichen Werte angezeigt. Sie müssen aus diesen Werten einen wählen und ihn für die Gruppierung einsetzten. In unserem Fall wir wollen alle Anlagen gruppieren, die Status ***aktiv*** haben. Deshalb wählen wir diesen Status aus.
 
@@ -586,6 +585,7 @@ Das Gruppieren nach Status wird dann in der Gruppierungsspalte erscheinen. Wir f
 
 ![Qooxdoo Applikationsmaske - Gruppierung Aufzuege auswaehlen](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen.png "Abbildung 35: Weitere Gruppierung hinzufügen - Aufzüge Schindler auswählen.")
 
+![Qooxdoo Applikationsmaske - Gruppierung definieren](/uploads/v6/de-allgemein/vr6-gruppierung_definieren.png "Abbildung 34: Gruppierung definieren")
 Mit Einschalten dieser Gruppierung werden alle aktiven Anlagen der Marke “Schindler“ in dem ausgewählten Gebäude angezeigt. Alle anderen Anlagen werden ausgeblendet – siehe Abbildung 36.
 
 ![Qooxdoo Applikationsmaske - Das Ergebnis unserer beispielhaften Gruppierung](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen_ergebnis.png "Abbildung 36: Das Ergebnis unserer beispielhaften Gruppierung")
