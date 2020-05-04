@@ -332,4 +332,397 @@ Falls ein Häkchen aktiviert ist, darf der Benutzer bzw. die Benutzergruppe die 
 Über das Funktionsmenü ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu_button_grau.png "Menü Button") können Sie zusätzliche Gruppe hinzufügen bzw. vorhandene entfernen. Dann können Sie die Zugriffsrechte für diese Gruppe anpassen.
 
 > **Bemerkung:** Sie müssen ausreichende Rechte haben, um neue Benutzergruppen zu definieren, bearbeiten und entfernen. Deshalb ist es zu empfehlen, diese Aufgabe Ihren Administrator zu überlassen.
+
+
+# Funktionen
+Im System VisionR sind zahlreiche Funktionen enthalten. In diesem Kapitel werden die allgemeinen Funktionen und eine Auswahl an spezifischen Funktionen beschrieben. Die Funktionen, die tiefere Systemkenntnisse benötigen, werden in diesem Dokument nicht beschrieben, sondern nach Bedarf von den Administratoren zur Verfügung gestellt. Die hier beschriebenen Funktionen stehen in der Leiste, die auf der Abbildung 3 gezeigt ist.
+
+
+## Suchen
+
+Die Suchfunktion ist standardmäßig eingeschaltet, kann aber ausgeschaltet werden - mit Klick auf den Button ![Qooxdoo Applikationsmaske - Menü Button Suchen](/uploads/v6/de-allgemein/vr6-button_suchen.png "Menü Button Suchen"). Das Suchfeld wird dann unten angezeigt bzw. ausgeblendet.
+
+Die Suche verläuft nach bestimmten Kriterien, die voreingestellt sind. Sie müssen die Zeichenkette / das Objekt / die Referenz etc., nach der Sie suchen, eingeben und auf den Button ![Qooxdoo Applikationsmaske - Menü Button Suchen](/uploads/v6/de-allgemein/vr6-button_suchen.png "Menü Button Suchen") rechts drucken.
+
+Dann werden die Ergebnisse unten in dem Arbeitsfenster angezeigt. Da im System sehr große Mengen von Daten existieren, ist es nicht immer effizient, nach der eingegebenen Zeichenkette in allen Eigenschaften (Feldern) zu suchen.
+
+Wir können einige Sucharten unterscheiden:
+
+### Einfache Suche
+
+Sie nutzen die einfache Suche, wenn Sie direkt in dem Suchfeld einen Teil vom Namen oder Code oder den ganzen Namen bzw. Code des gesuchten Objekts schreiben. So können wir zum Beispiel nach Aufzügen innerhalb des links in der Baumstruktur ausgewählten Gebäudes 017 suchen, wie auf Abbildung 24 gezeigt.
+
+![Qooxdoo Applikationsmaske - Einfache Suche - im Gebäude 017 in Berlin](/uploads/v6/de-allgemein/vr6-einfache_suche_bsp1.png "Abbildung 24: Einfache Suche - im Gebäude 017 in Berlin")
+
+Hier werden alle Aufzüge in dem Gebäude 017 angezeigt. Diese Suche verläuft standardmäßig in der Spalte *Name*. Um die Suche zu ändern, müssen wir die Spalten und Optionen anpassen.
+
+### Anpassbare Suche
+
+Bei Nutzung der einfachen Suche kann angepasst werden, in welchen Spalten der Suchvorgang laufen soll. Bei der einfachen Suche sind die Suchkriterien standardmäßig die Spalten **Code | Name**. Sie können aber zusätzlichen Spalten einschalten und diese werden beim Ausführen der Suche auch durchsucht.
+
+Um die Spalten zu sehen, in denen die Suche verläuft, klicken Sie auf den Button ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-button_sucheinsttellungen.png "Menü Button") rechts in dem Suchfeld. Ein neues Fenster (Abb. 25) mit allen Objekteigenschaften wird angezeigt. Sie können sehen, dass Name und Code ausgewählt sind. Wählen Sie die gewünschten Spalten aus und aktivieren Sie diese. Anschließend klicken Sie auf **Schließen** und führen Sie den Suchvorgang aus.
+![Qooxdoo Applikationsmaske - Spalten für die Suche auswählen](/uploads/v6/de-allgemein/ vr6-suchen_spalten1.png " Abbildung 25: Spalten für die Suche auswählen")
+
+> **Bemerkung:** In dem angezeigten Fenster gibt es oberhalb ebenfalls eine Suchleiste, die der hier beschriebenen ähnlich ist. Sie können die soeben beschriebenen Operationen wieder anwenden. Bemerken Sie auch die Pfeile rechts in den Feldern. Diese weisen darauf hin, dass diese Felder referenzierte Objekte beinhalten und die Suche kann auch in den Eigenschaften dieser Objekte verlaufen. Mit Klick auf den Pfeil wird das Referenzobjekt aufgemacht und seine Eigenschaften werden angezeigt. Wiederum werden Pfeile an seinen referenzierten Eigenschaften angezeigt. Sie können die Felder für die Suche (wiederum eine Art Suche in die Tiefe) aktivieren.
+
+### Kombinierte Suche
+
+Diese Suche ist eine Mischung aus mehreren Suchkriterien. Sie können mehreren einfachen Suchen kombinieren. 
+Als Kombination können Sie die Suchkriterien entweder mit `UND` verknüpfen oder mit `ODER`. Wir schildern das anhand eines Beispiels:
+**Ausgangssituation**: Wir möchten nach einer Person suchen, deren Name mit bestimmten Buchstaben beginnt, z.B. mit „Er“. Also als Ergebnis bekommen die folgenden Datensätze (für unsere Beispiele nutzen wir unseres Demoprojekt).
+
+![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp1.png "Kombinierte Suche Beispiel")
+
+Wie wir sehen können sind alle Personen, deren Nachname mit *Er* beginnt, aufgelistet. Jetzt möchten wir aber auch die Personen in der Liste haben, deren Nachname auch mit *Er* beginnt. Dafür geben wir diese Zeichenkette in dem Suchfeld ein. Dann sehen wir, dass die Suche noch keine Ergebnisse liefert. 
+
+![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp2.png "Kombinierte Suche Beispiel")
+
+Die Suchkriterien werden unter der Suchleiste aufgelistet. Dazwischen steht das Symbol für UND `&`. Das heißt, dass jede neue Suchkette, wonach gesucht wird, wird unten bei den anderen aufgelistet und automatisch wird der `UND`-Operator angewandt. Wir können noch eine dritte, vierte, etc. Suchkette eingeben.
+Damit wir die Personen bekommen, deren Nachnamen mit „Er“ oder „Et“ anfangen, müssen wir den Operator `ODER` verwenden. Das Umschalten von `UND` auf `ODER` erfolgt mit Klick, haltend „STRG“-Taste, auf die gewünschten Suchkriterien, die Sie kombinieren möchten. 
+In unserem Beispiel klicken wir auf das erste Kriterium und haltend die „STRG“-Taste klicken wir auf das zweite Kriterium. Ein Zeichen `(…)` wird zur Vereinigung bzw. zur Verwendung des `ODER` Operator angezeigt. Mit Klick Sie darauf, schalten Sie die Operatoren um.
+
+![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp3.png "Kombinierte Suche Beispiel")
+
+Jetzt steht das Zeichen `|` drin. Dieses Zeichen steht für logisches `ODER` – also Nachname beginnt mit *Er* oder mit *Et*. 
+Mit Klick auf das Zeichen `…` wird der Operator auf `UND` umgestellt. In unserem Beispiel werden keine Ergebnisse gelistet, da der Nachname nicht mit *Er* und gleichzeitig *Et* anfangen kann. 
+So können wir aber mehrere Suchen kombinieren. Die erste Suche bleibt und mit jeder weiteren Suche wird das Suchkriterium erweitert. Mit Klick auf die gewünschten Kästchen wird das Suchkriterium angepasst. 
+> **Bemerkung:** Sie können unterschiedliche Suchkriterien mischen, wie z.B. Personen, beginnend mit „Er“ und Telefon beginnend mit „7“. Dann wird die Suchleiste so aussehen:
+
+![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp4.png "Kombinierte Suche Beispiel")
+
+### Suche in die Tiefe
+
+Wir können nicht nur die Objekteigenschaften durchsuchen, sondern auch die Eigenschaften der Objekte, die referenziert sind.
+
+Um die Suche anzupassen, klicken Sie auf den Button ![Qooxdoo Applikationsmaske - Menü Button Suche anpassen](/uploads/v6/de-allgemein/vr6-button_suche_anpassen.png "Menü Button Suche anpassen") links in dem Suchfeld. Wieder links werden die Spalte und die Option angezeigt. Standardmäßig ist es das Paar **Name | beginnt mit**, wie folgt gezeigt.
+
+![Qooxdoo Applikationsmaske - Suche in die Tiefe](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp1.png "Suche in die Tiefe")
+
+Mit Klick auf die Felder links können Sie die Spalte und die Option (**beginnt mit | endet mit | enthält | gleich | beginnt nicht mit | endet nicht mit | enthält nicht | nicht gleich | ist leer | ist nicht leer | ein Wert von | ist kein Wert von**) ändern. Die möglichen Optionen sind von den Eigenschaftstypen abhängig - so werden zum Beispiel für eine Eigenschaft, die das Datum als Eingabe hat, andere Optionen, wie **vor Datum | nach Datum** etc. zur Verfügung gestellt.
+
+Mit Klick auf die Spalte, in der die Suche laufen soll, wird ein Fenster mit den Objekteigenschaften dieser Objektgruppe angezeigt. In unserem Fall sind wir in dem Modul **Wartung** in der Objektgruppe **Technische Anlagen**. D.h. es werden die Eigenschaften (Felder) einer technischen Anlage angezeigt und Sie können aus diesen auswählen.
+
+Ein sehr großer Vorteil des Systems VisionR ist die Suche nicht nur in den Objekteigenschaften, sondern auch in die Tiefe, d.h. auch in den Eigenschaften der verknüpften Objekte. Dann werden die Eigenschaften des verknüpften Objekts angezeigt und Sie können sogar noch tiefer gehen - bis zu der letzten Ebene, wo es keine referenzierten Objekte gibt.
+
+>**Beispiel:** in unserem Gebäude 017 haben wir zurzeit ca. 59 technischen Anlagen (die Anzahl steht in den Klammern hinter dem Gebäude in der Baumstruktur). Die folgende Abbildung 26 zeigt unsere Anlagen. Wir können sehen, dass einige Anlagen das Baujahr 2003 und einige 2002 haben. Wir können die Spalte auf Baujahr ändern und beispielhaft nach Anlagen mit Baujahr 2002 suchen.
+{.is-info}
+
+![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp2.png " Abbildung 26: Alle technischen Anlagen im Gebäude 017")
+
+Die Abbildung 27 zeigt das Ergebnis - Anlagen, die 2002 gebaut wurden. Insgesamt gibt es 19 Anlagen.
+
+![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017, die im Jahr 2002 gebaut sind](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp3.png „Abbildung 27: Alle technischen Anlagen im Gebäude 017, die im Jahr 2002 gebaut sind")
+
+Wir haben hier auch die Spalte “Errichter“ eingeschaltet. Jetzt machen wir die Suche ein bisschen komplexer - wir wollen alle Anlagen anzeigen lassen, deren Errichter sich in Berlin befindet. Dafür wählen wir die Spalte, in der die Suche laufen wird und dann gehen wir auf das Feld **Errichter  Ort  Name** und wählen diese Eigenschaft. Stellen die Option „beginnt mit“ ein und schreiben Sie in der Suchleiste “Berlin“, wie auf Abbildung 28 dargestellt:
+
+![Qooxdoo Applikationsmaske - Ort des Errichters der Anlage soll gleich “Berlin“ sein](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp4.png „Abbildung 28: Ort des Errichters der Anlage soll gleich “Berlin“ sein")
+
+Dann sieht das Ergebnis folgendermaßen aus:
+
+![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017, deren Errichter sich in Berlin befindet](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp5.png „Abbildung 29: Alle technischen Anlagen im Gebäude 017, deren Errichter sich in Berlin befindet")
+
+Sie werden bemerken, dass alle Anlagen, deren Errichter “Dekra“ gewesen ist, nicht mehr in der Liste stehen, da wir eingestellt haben, das Unternehmen Dekra sei in München positioniert. Wenn wir also nach Errichter-Ort gleich “München“ suchen, werden diese als Ergebnisse angezeigt.
+
+### Suche nach Eigenschaft / Feld im Formular
+
+Eine weitere Suchmöglichkeit nach bestimmten Eigenschaften ist auch in der Formularansicht eingebaut. In jedem Formular gibt es oben rechts ein Suchfeld, indem Sie die Eigenschaft eingeben können, nach denen gesucht wird. Die Ergebnisse werden mit jedem weiteren Buchstabe dynamisch berechnet. Mit Auswahl aus der Ergebnisliste wird auf das Feld fokussiert, das diese Eigenschaft repräsentiert.
+
+Suchen wir nun zum Beispiel den Errichter. Dann schreiben wir einfach in das Feld “Errichter“ und mit Klick auf das Ergebnis wird das Feld hervorgehoben - Abb. 30.
+
+![Qooxdoo Applikationsmaske - Suche nach Objekteigenschaft (Eingabefeld)")](/uploads/v6/de-allgemein/vr6-suche_eigenschaft.png „Abbildung 30: Suche nach Objekteigenschaft (Eingabefeld)")
+
+## Filter
+
+Mit Klick auf dem Button ![Qooxdoo Applikationsmaske - Button Filter](/uploads/v6/de-allgemein/vr6-button-filter.png "Button Filter") rufen Sie die gespeicherten Filter. Diese können Sie selber erstellen oder aus vorhandenen wählen bzw. bearbeiten und als neues speichern. Die Bedingung des Filters ist als Ausdruck einzugeben, der direkt die VisionR-Objekte zugreift. 
+Das Filtermenü wird mit Klick auf dem Button ![Qooxdoo Applikationsmaske - Button Filter](/uploads/v6/de-allgemein/vr6-button-filter.png "Button Filter") aufgerufen. Sie können ein Filter ein bzw. ausschalten, bearbeiten, löschen oder ein neues erstellen. Die zur Verfügung stehenden Filter werden in diesem Menü aufgelistet. Das Menü mit einem Filter sieht folgendermaßen aus:
+![Qooxdoo Applikationsmaske - Filter](/uploads/v6/de-allgemein/vr6-fillter1.png „Filter")
+In unserem Beispiel haben wir nur ein Filter, das uns alle Zeichnungen auswählt, die innerhalb der letzten 24 Stunden aktualisiert wurden. Wir anschließend einige Beispiele, um die Filter besser zu beschreiben.
+
+### Aufbau und Eingabefelder des Filters
+
+Das Filter hat einige Bausteine und einige Eingabefelder, die Sie beachten müssen. Die wichtigsten sind auf die folgende Abbildung angezeigt: 
+![Qooxdoo Applikationsmaske – Filter Aufbau](/uploads/v6/de-allgemein/ vr6-fillter_aufbau.png„Filter Aufbau")
+
+•	Der **Name** ist *optional*, aber es ist sinnvoll einen Namen zu geben, sonst wird nur der Code angezeigt. 
+•	In dem Feld **Für Objektdefinition** geben Sie die Objektdefinition, wo dieses Filter platziert wird und zum Auswahl zur Verfügung steht, also zu welcher Objektdefinition es gehört. Zum Beispiel, wie hier auf der Abbildung zu sehen ist, steht als Objektdefinition *Zeichnung*. Das heißt, dass das Filter in dem Menü innerhalb des Moduls Grafik bei den Objekten aus Typ Zeichnung angezeigt wird. 
+•	 **Ausdruck**  ist das wichtigste Feld - hier geben wir die Kondition/en, die wir als Filter einsetzen möchten. Zum Beispiel – alle Objekte, deren Aktualisierungszeit innerhalb der letzten 24 Stunden geändert wurde (Beispiel 1 unten). 
+•	*Optionale Parameter- Objektdefinitionen* – hier können wir aus vordefinierten Kontext Objekte auswählen, schauen Sie in der Liste und finden Sie das passende aus. Beispiele sind: Periode Datum / Zeit, Datum, Gebäude, Bodenbelag, etc…
+*Diese Parameter helfen uns bei den Ausdrucken, da sie die Syntax sehr vereinfachen. So müssen wir nicht in dem Ausdruck die Parameter explizit beschreiben, sondern einfach durch ***param*** ersetzen. Der Unterschied ist in den Beispielen 1 und 2 zu sehen*.
+
+> **Bemerkung:** Die folgenden Beispiele beziehen sich auf Objekte vom Typ Datum, da diese etwas komplizierter sind.
+
+### Beispiele
+
+>**Beispiel 1:** **Wir möchten die Zeichnungen, die innerhalb der letzten 24 Stunden aktualisiert wurden, ausfiltern**.
+Wir müssen dieses Filter zuerst erstellen und dann können wir es benutzen oder den anderen Benutzer zur Verfügung zu stellen. Mit Klick auf die Filter-Ikone ![Qooxdoo Applikationsmaske - Button Filter](/uploads/v6/de-allgemein/vr6-button-filter.png "Button Filter") öffnen wir das Menü und danach geben wir `NEU`. Ein Formular wird angezeigt, indem wir die wichtigsten Eingaben machen. Das Formularfenster sieht folgendermaßen aus:
+
+![Qooxdoo Applikationsmaske – Filter](/uploads/v6/de-allgemein/ vr6-fillter2.png„Filter")
+
+Wichtig sind die Felder **Ausdruck** und **Für Objektdefinition**, sowie auch der Name. Der Name wird in dem Filtermenü angezeigt. 
+•	**Ausdruck:** in unserem Beispiel möchten wir ein Zeitraum setzen. Der Ausdruck bedeutet hier: 
+**Filtere Objekte, bei denen die Aktualisierungszeit (update_time) früher als heute minus 1 Tag.**
+Wie eine bestimmte Eigenschaft heißt, sehen Sie im System, wenn Sie mit rechter Maustaste auf die Beschriftung der gewünschten Eigenschaft klicken. Zum Beispiel mit Klick auf die Beschriftung **Ausdruck** wird ihnen der Code: ***expression*** angezeigt. Dieser Code geben Sie in dem Ausdruck. Aus dem obigen Beispiel: Aktualisierungszeit hat den Code ***update_time***.
+Der Ausdruck sagt: Die Aktualisierungszeit soll nach „dem heutigen Tag minus einen“ also ab gestern. Das $-Zeichen ist der Anfang des Ausdrucks, db.VALUE2VSQL ist die Funktion für die Datenbank. 
+Anschließend speichern wir das Filter und es steht zur Verfügung in dem Filtermenü. Falls wir es anwenden, werden nur die Zeichnungen aufgelistet, die innerhalb der letzten 24 Stunden geändert wurden.
+{.is-info}
+
+>**Beispiel 2:** **Wir wollen alle Zeichnungen, die innerhalb einer Periode aktualisiert wurden.**
+Wir nehmen an, wir wollen alle Zeichnungen, die im Januar 2016 aktualisiert sind. 
+Wir erstellen neues Filter und machen die folgenden Angaben:
+•	**Name:** Zeichnungen aktualisiert innerhalb einer Periode 
+•	Für **Objektdefinition** geben wir Zeichnung, damit das Filter bei den Zeichnungen verfügbar ist.
+•	*Parameter-Objektdefinition*: hier geben wir **Kontext Periode-Datum**
+•	**Ausdruck:** `update_time > ${db.VALUE2VSQL(param.begin_date)} AND update_time < ${db.VALUE2VSQL(param.end_date)}`
+Der Ausdruck bedeutet, dass die Aktualisierungszeit nach dem Beginndatum und vor dem Enddatum sein soll. 
+Wir haben hier als Parameter Periode Datum ausgewählt. Dieser Auswahl bewirkt sich auf das Filter gleich beim Ausführen und der Benutzer wird beim Ausführen nach **Begin- und Enddatum** gefragt. Diese Eingaben sind nicht in dem Ausdruck fest kodiert. Beim Aufruf des Filters kann der Benutzer unterschiedliche Periode festlegen.
+Die Daten werden übernommen und in dem Ausdruck berücksichtigt. Für unser Beispiel geben wir als Beginndatum 01.01.2016 und als Enddatum 01.02.2016 (hier ist kleiner als Vergleichsoperation angegeben, deshalb 01.02, um 31.01 einzuschließen.
+Das Formular sieht wie gezeigt:
+
+![Qooxdoo Applikationsmaske – Filter](/uploads/v6/de-allgemein/vr6-fillter3.png„Filter")
+
+Wenn wir das Filter auswählen, werden wir nach dem Beginn- und Enddatum gefragt. Die Eingabe erfolgt erst bei der Auswahl des Filters. Dann werden die eingegebenen Daten als Parameter übernommen. 
+{.is-info}
+
+>**Beispiel 3: Filter ab Datum.**
+Wir möchten alle Zeichnungen filtern, die nach einem bestimmten Datum aktualisiert / importiert sind. Dafür wählen wir als Parameter-Objektdefinition *Kontext Datum*.
+Diese Optionen setzt **param** in dem Ausdruck mit dem Datum, das beim Ausführen des Filters festgelegt wird. 
+Der Ausdruck sieht dann folgendermaßen aus:
+`insert_time > ${db.VALUE2VSQL(param.select_date)}`
+Der Ausdruck bedeutet, dass die Zeit und Datum der Hinzufügung später als das eingegebene Datum `(param.select_date)` sein soll. 
+Die Ergebnisse werden gefiltert und nur diese Zeichnungen in der Tabelle angezeigt, die nach diesem Datum hinzugefügt sind.
+{.is-info}
+
+>**Beispiel 4: Filter nach einem Benutzer.**
+Wir möchten alle Zeichnungen filtern, die von einem bestimmten Benutzer eingegeben sind. Dafür wählen wir als Parameter-Objektdefinition *Kontext mehrere Benutzer*.
+Diese Optionen setzt **param** in dem Ausdruck mit der Person, die beim Ausführen des Filters festgelegt wird. 
+Der Ausdruck sieht dann folgendermaßen aus:
+`update_by = ${param.select_users[0].id}`
+Der Ausdruck bedeutet, dass alle Zeichnungen, die **aktualisiert von** *(update_by)* gleich den angegebenen Benutzer ist. 
+Die Ergebnisse werden gefiltert und nur diese Zeichnungen in der Tabelle angezeigt, die von diesem Benutzer aktualisiert sind.
+> **Bemerkung:** Sie können die Parameter-Objektdefinition ignorieren und in dem Ausdruck die Angaben machen. Merken Sie, dass dann nur der festkodierte Ausdruck ausgeführt wird mit den gemachten Angaben. Zum Beispiel: `insert_time > ${db.VALUE2VSQL(param.select_date)} – hier können Sie das param.selec_date mit dem Datum in folgendem Format eingeben: YYYY-MM-TT HH:MM:SS:MSS`
+Der Ausdruck für *01.02.2016* ist dann – `insert_time > ‘2016-02-01 00:00:00.000‘`. 
+Das Ergebnis wird dann alle Zeichnungen liefern, die nach dem *01.02.2016* aktualisiert sind.
+{.is-info}
+
+##  Drucken
+
+Das Drucken erfolgt über den Button ![Qooxdoo Applikationsmaske - Button Drucken](/uploads/v6/de-allgemein/vr6-button-drucken.png "Button Drucken") aus der Funktionsleiste. Diese Funktion ist für die Daten, die alphanummerisch dargestellt sind (Tabelle).
+
+Sie haben einige Druckoptionen zur Verfügung:
+
+### Summe anzeigen
+
+Sie können die Summen für die Objekte anzeigen lassen. Falls keine Objekte ausgewählt sind, werden die Summen für alle Objekte gebildet, die sich in dem Arbeitsfenster befinden. Falls Sie nur bestimmte Objekte ausgewählt haben, werden nur die Summen dieser Objekte gebildet und angezeigt. Die folgende Abbildung 31 zeigt die Summen für die ausgewählten Brandmeldeanlagen in dem Gebäude 017 aus unserem Demoprojekt.
+
+![Qooxdoo Applikationsmaske – Summen anzeigen für ausgewählte Daten](/uploads/v6/de-allgemein/vr6-summen1.png „Abbildung 31: Summen anzeigen für ausgewählte Daten")
+
+### Druckansicht
+
+Mit dieser Option werden die Daten (wieder die aus dem obigen Beispiel ausgewählten) in einer passenden Druckansicht verpackt und zum Drucken bereitgestellt - die folgende Abbildung 32 stellt diese Option dar. Hier werden die ausgewählten Objekte in einer Tabelle verpackt und bestimmte Summen, Zahlen etc. unten angezeigt. Sie können mit Klick auf den Button Drucken die vorbereiteten Daten drucken.
+
+![Qooxdoo Applikationsmaske – Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt](/uploads/v6/de-allgemein/vr6-druckansicht_mit_Daten.png „Abbildung 32: Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt")
+
+### Druckansicht mit Editor - dieselbe Option wie zuvor beschrieben mit einem integrierten Editor im Ansichtsfenster, damit Sie Ihre Daten und die Ansicht / die Anordnung etc. direkt vor dem Drucken bearbeiten können.
+
+### Druckansicht Details 
+
+Diese Druckansicht ist eine Erweiterung der normalen Druckansicht mit detaillierter Ansicht der mehrfachen Eigenschaften des Objekts.
+
+Die Objekte in dem System können andere VisionR-Objekte beinhalten. Einige Eigenschaften sind auch mehrfach verknüpft. Bei der normalen Druckansicht werden nur die Objekteigenschaften aufgelistet. In der Ansicht “Details“ werden die verknüpften Objekte in den Zellen detailliert angezeigt.
+
+Die folgende Abbildung 33 zeigt eine detaillierte Druckansicht für einige ausgewählte Verträge.
+![Qooxdoo Applikationsmaske –Druckansicht Details](/uploads/v6/de-allgemein/vr6-druckansicht_details.png „Abbildung 33: Druckansicht Details")
+
+Die Leistungen werden in diesem Fall nacheinander aufgelistet. In der allgemeinen Druckansicht, wird die Anzahl Leistungen in der Spalte eingetragen.
+
+### Druckansicht Details mit Editor
+
+Die detaillierte Druckansicht mit eingeschaltetem Editor zur Bearbeitung der Daten / Layout / Schriftarten etc. vor dem Drucken.
+
+## Berichte
+
+Die Berichte rufen Sie mit dem Button ![Qooxdoo Applikationsmaske - Button Berichte](/uploads/v6/de-allgemein/vr6-button-berichte.png "Button Berichte") auf. Die standardmäßigen Berichte können in Kategorien unterteilt werden. Sie können über die Option `bearbeiten` die Berichte anpassen und zusätzliche hinzufügen. Die Berichte sind ein wesentlicher Teil des Systems. Deshalb ist zu empfehlen, die Anpassung und die Erstellung der Berichte dem Administrator zu überlassen.
+
+Sonst kann jeder Benutzer die zur Verfügung stehenden Berichte ausführen. Wir werden hier einige Berichte beispielhaft zeigen. Da die Berichte sich auf die Objekte und Module beziehen, sind unterschiedliche Berichte für die jeweiligen Objekte zur Verfügung gestellt.
+Wählen Sie zuerst die Objekte aus, die für den Bericht relevant sind. Klicken Sie auf den Button ![Qooxdoo Applikationsmaske - Button Berichte](/uploads/v6/de-allgemein/vr6-button-berichte.png "Button Berichte") und wählen Sie den gewünschten Bericht.
+
+Falls der Bericht allgemein gültig ist, wird er überall bei allen Objekten erscheinen. Solche Berichte sind zum Beispiel die Systemberichte. Diese sind nicht mit bestimmten Daten oder Objekten verbunden.
+
+Wir beziehen uns nun wieder auf das Beispiel aus dem Modul **Wartung**. Für die Verträge
+gibt es die folgenden Berichte:
+
+### Übersicht
+
+Hier sind die Summen und die Darstellung dieser Summen als Kreis- Diagramm dargestellt (2D und 3D oder als Ring).
+
+### Objektvorschau
+
+Dieser Bericht stellt die Daten aus den Objektvorschauen zusammen und stellt diese zur Verfügung bereit. Dann können Sie die Daten ausdrucken.
+
+### Systemberichte
+
+Diese Berichte kommen aus dem System und beziehen sich auf die Systemressourcen - wie Lizenzinformationen und Systeminformationen. Diese Berichte sind sehr hilfreich, wenn man das Verhalten des Systems betrachten will. Deshalb ist diese Aufgabe an den Administrator zu übergeben.
+
+### Geplante Berichte per Email
+
+Diese Berichte werden von dem System an bestimmten Tagen / Daten / Zeiten selbst erstellt und die Ergebnisse per Email an bestimmten Personen (Verteiler) geschickt. Die Anpassung dieser Berichte ist dem Administrator zu überlassen. Die Berichte kommen per E-Mail und werden nach bestimmten Kriterien generiert. Ein gutes Beispiel ist die Kündigung eines Vertrags - ein Bericht wird z.B. 1 Monat vor dem Kündigungsdatum an die zuständigen Personen verschickt, zusammen mit einer Excel-Liste mit allen bald ablaufenden Verträgen. So kann entschieden werden, ob der Vertrag gekündigt oder verlängert wird. Optionen für automatische Kündigung und automatische Verlängerung sind auch vorhanden.
+
+Einige dieser Berichte sind oft kundenspezifisch, deshalb können wir hier nicht alle beschreiben, da die nicht relevanten Berichte für einen Projekt ausgeblendet werden. Sehen Sie in die Berichte, die zu Ihrem Projekt vorhanden sind, oder fragen Sie Ihren Administrator.
+
+
+## Gruppieren
+
+Die Gruppierung ermöglicht die Filterung der Daten nach bestimmten Kriterien. Diese Kriterien können erweitert werden. Das Gruppieren der Daten erfolgt über den Button ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") Gruppieren. Die Gruppieren-Eigenschaften werden zwischen der Baumstruktur und dem Arbeitsbereich angezeigt. 
+
+Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/ vr6-button_neu.png "Menü Button Neu") können Sie zusätzliche Gruppierungen einschalten.
+
+Wir betrachten das Gruppieren anhand eines Beispiels. Wir möchten alle technischen Anlagen in einem Gebäude, die den Status „aktiv“ haben, gruppieren. Aus diesen möchten wir nur die Anlagen anzeigen, die einer bestimmten Marke entsprechen.
+
+Klicken Sie auf ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") `Gruppieren` und dann auf ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") `Neu`. In dem angezeigten Fenster klicken Sie auf die Auswahl Eigenschaft, um für die Objektgruppe (in unserem Beispiel - die technischen Anlagen) den Status als Gruppierungskriterium einzugeben - Abbildung 34.
+![Qooxdoo Applikationsmaske - Gruppierung definieren](/uploads/v6/de-allgemein/vr6-gruppierung_definieren.png " Abbildung 34: Gruppierung definieren“)
+
+Mit Klick auf die Status-Zeile werden in dem Fenster die möglichen Werte angezeigt. Sie müssen aus diesen Werten einen wählen und ihn für die Gruppierung einsetzten. In unserem Fall wir wollen alle Anlagen gruppieren, die Status ***aktiv*** haben. Deshalb wählen wir diesen Status aus.
+
+Das Gruppieren nach Status wird dann in der Gruppierungsspalte erscheinen. Wir fügen noch eine Gruppierung hinzu. Wir klicken auf ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") `Neu` und dieses Mal wählen wir die Eigenschaft *Hersteller*. Die Hersteller werden aufgelistet und wir müssen die gewünschten aktivieren. Die Abbildung 35 zeigt den beschriebenen Vorgang.
+
+![Qooxdoo Applikationsmaske - Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen.png "Abbildung 35: Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen.“)
+
+Mit Einschalten dieser Gruppierung werden alle aktiven Anlagen der Marke “Schindler“ in dem ausgewählten Gebäude angezeigt. Alle anderen Anlagen werden ausgeblendet – siehe Abbildung 36.
+
+![Qooxdoo Applikationsmaske - Das Ergebnis unserer beispielhaften Gruppierung](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen_ergebnis.png "Abbildung 36: Das Ergebnis unserer beispielhaften Gruppierung“)
+
+Die Gruppierung heben Sie mit demselben Button ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") auf.
+
+## Transformieren von Daten
+
+Mit dieser Funktion können Sie Daten transformieren. Zuerst müssen Sie die Datensätze auswählen, deren Daten transformiert werden sollen.
+
+Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Button Transformieren](/uploads/v6/de-allgemein/vr6-button-transformieren.png "Button Transformieren") wird ein neues Fenster angezeigt und Sie können die ausgewählten Daten ansehen, wie auf Abbildung 37 dargestellt - wir beziehen uns wieder auf die technischen Anlagen.
+
+![Qooxdoo Applikationsmaske - Das Fenster mit den Einstellungen und Funktionen für Datentransformation](/uploads/v6/de-allgemein/vr6-transformieren_einstellungen.png "Abbildung 37: Das Fenster mit den Einstellungen und Funktionen für Datentransformation“)
+
+In diesem Fenster geben wir die *Eingangs-* und die *Ausgangseigenschaft*, d.h. wir transformieren eine Eigenschaft nach bestimmten Kriterien. Die Spalten in der Tabelle zeigen sowohl die Eigenschaften der ausgewählten Objekte, als auch die Eingangs- und Ausgangseigenschaften (Spalten) und das Ergebnis. Wir können hier das Ergebnis betrachten und anschließend die Daten transformieren lassen, indem wir den Button `Anwenden` klicken.
+
+Als Beispiel nehmen wir einige Aufzüge aus dem Gebäude 02 in Berlin und möchten diese Aufzüge durchnummerieren. Die Durchnummerierung erfolgt in der Spalte Name und der neue Name soll Typ der Anlage, Hersteller und eine fortlaufende Nummer beinhalten. Die Ausgangseigenschaft ist mit einem ![Qooxdoo Applikationsmaske - Button Ausgangeigenschaft](/uploads/v6/de-allgemein/vr6-button-ausgangeigenschaft.png "Button Ausgangeigenschaft") Pfeil in dem Spaltenname versehen. In unserem Beispiel wird der **Name** stehen, aber Sie können mit Klick auf das Feld jede beliebige Eigenschaft eingeben, sogar in die Tiefe, wie in dem Abschnitt “Suchen“ beschrieben ist.
+
+Einige Operatoren stehen zur Verfügung. Ein Teil davon benötigt Parameter als Eingaben, andere nicht.
+
+Die Operatoren sind: **Lfd.-Nr. am Anfang / Ende verketten | Kopieren | Kopie am Anfang / Ende verketten | Ersetzen | Löschen | Entfernen | Ersetzen mit regulärer Ausdruck | Verketten am Anfang / Ende | Groß- bzw. Kleinschreibung**
+
+Auf der Abbildung 37 ist die Ausgangsspalte **Name** gleich der Eingangsspalte, da diese Spalten dieselbe Eigenschaft repräsentieren.
+
+> **Bemerkung:** Der Operator “Lfd.-Nr. am Anfang / Ende verketten“ nimmt die verlaufenden Nummer und fügt diese am Ende hinzu. Er fängt mit 1, 2, etc.
+
+In der Spalte “Resultat“ werden die Ergebnisse angezeigt, nachdem wir auf „Vorschau aktualisieren“ geklickt haben. Mit Klick auf Anwenden wird die Transformation durchgeführt und die neuen Namen werden gültig.
+
+## Farbliche Hervorhebung
+
+Die farbliche Hervorhebung rufen wir mit dem Button ![Qooxdoo Applikationsmaske - Button Hervorhebung](/uploads/v6/de-allgemein/vr6-button-hervorhebung.png "Button Hervorhebung") auf. Die Daten werden dement sprechend gefärbt. Die Farben, die im System benutzt sind, können auch angepasst werden. Diese Farben bzw. ihren Eigenschaften wie Nutzung, Status etc. werden den Objekten zugeordnet. Bei Hervorhebung werden genau diese Farben benutzt. So kann der Benutzer schnell die Daten erkennen und ggf. auswählen und bearbeiten.
+
+Für die Daten, die eine farbliche Darstellung in der Grafik haben, werden hier genau dieselben Farben benutzt und die Datensätze mit diesen Farben gekennzeichnet - z.B. die Nutzungen der Räume wird bestimmt durch die Farben, mit denen die Raumpolygone gekennzeichnet sind. Dieselben Farben werden bei der Hervorhebung der Räume nach Nutzung benutzt.
+
+Beim Klick auf den Button ![Qooxdoo Applikationsmaske - Button Hervorhebung](/uploads/v6/de-allgemein/vr6-button-hervorhebung.png "Button Hervorhebung") Hervorhebung werden die möglichen Hervorhebungen aufgelistet. Sie müssen eine passende Hervorhebung auswählen und die Daten werden gefärbt. Diese Färbung ist dynamisch und sobald die Daten sich ändern, wird die Farbe auch vom System angepasst.
+
+Der Benutzer muss sich nicht um die Anpassung, Erstellung etc. kümmern. Diese Aufgabe ist dem Administrator zu übergeben, falls Änderungen erwünscht sind.
+
+Es gibt einige Standardhervorhebungen und einige, die objektspezifisch sind. Die standardmäßigen sind die Folgenden:
+
+**Ist archiviert? | Ist aktualisierbar? | Ist löschbar?**
+
+Diese Hervorhebung kann entweder WAHR oder FALSCH sein, deshalb sind hier die falschen **rot** markiert und die wahren **grün**. Alle Abfragen, die WAHR oder FALSCH liefern, sind mit diesen Farben gekennzeichnet, wenn die Hervorhebung aktiv ist.
+
+Die restlichen Hervorhebungen sind von den Objekten abhängig. Wir schildern diese anhand einiger Beispiele. 
+>**Beispiel:** wir wollen die Hervorhebung einschalten, um zu sehen welche technischen Anlagen aktiv und welche inaktiv sind. Die Abbildung 38 zeigt dieses Beispiel.![Qooxdoo Applikationsmaske - Hervorhebung - nach Status](/uploads/v6/de-allgemein/vr6-hervorhebung_nach_status_bsp.png "Abbildung 38: Hervorhebung - nach Status")
+{.is-info}
+In dem Menü gibt es für diese Objekte auch die Hervorhebung **Hat Geometrie?**. Diese Hervorhebung gibt uns an, welche Objekte grafisch im System vorhanden sind und welche nicht. Da wieder die Werte WAHR bzw. FALSCH sein können, werden die Farben **rot** und **grün** benutzt.
+
+Die folgende Abbildung 39 zeigt das Beispiel mit Hervorhebung nach Nutzung der Räume aus unseren Gebäuden. Die Räume sind mit den Farben gekennzeichnet, die ihrer Nutzungen entsprechen. Wenn Sie die Grafik aufmachen und diese Räume anschauen, werden diese in denselben Farben sein.
+![Qooxdoo Applikationsmaske - Hervorhebung der Räume nach Nutzung](/uploads/v6/de-allgemein/vr6-hervorhebung_nach_raumnutzung_bsp.png "Abbildung 39: Hervorhebung der Räume nach Nutzung")
+
+Die farbliche Hervorhebung können Sie mit den Buttons ![Qooxdoo Applikationsmaske - Button Hervorhebung](/uploads/v6/de-allgemein/vr6-button-hervorhebung.png "Button Hervorhebung") bzw. ![Qooxdoo Applikationsmaske - Button Hervorhebung Aus](/uploads/v6/de-allgemein/vr6-button-hervorhebung_grau.png "Button Hervorhebung Aus") ein- bzw. ausschalten.
+
+# Systemmodule
+
+Das System VisionR hat einige Funktionen, die aus den Modulen abgeleitet sind. Solche Funktionen werden in den meisten Fällen nicht direkt von dem Benutzer genutzt, sind aber sehr eng mit der Interaktion des Nutzers verbunden. Daher wird der Nutzer oft mit diesen Funktionen konfrontiert.
+
+Die wichtigsten Funktionen, die untrennbarer Teil des Interaktionsprozesses sind, werden hier für den Benutzer beschrieben.
+
+## Dokumentenmanagement
+
+Das Dokumentenmanagement ist ein wichtiger Bestandteil des Systems VisionR. Deshalb ist es nötig zu wissen, wie die Dokumente im Rahmen des Systems gespeichert / aufbewahrt / abzurufen sind.
+
+Immer wieder braucht der Benutzer Dokumente oder Dateien aus dem System oder muss diese im System speichern. Der größte Vorteil des Systems ist der, dass die Dateien / Dokumente einmal zentral auf dem Server gespeichert sind und an jeder Stelle einfach verknüpft werden können. So sind diese Dokumente von überall abrufbar und trotzdem nur einmal im System vorhanden.
+
+Die Dokumente im System VisionR können Versionen haben. Wenn ein Dokument oder eine Datei geändert wurde, kann der Benutzer eine neue Version dieses Dokumentes / dieser Datei erstellen und per Knopfklick alle Verknüpfungen aktualisieren, so dass die neue Datei die Alte ersetzt.
+
+**Das Prinzip** - alle Dokumente werden zentral auf dem Server gelagert. Die Dokumente sind wie alle anderen VisionR Objekte mit entsprechenden Zugriffsrechten versehen. Die Verknüpfung zu einem Dokument oder zu einer Datei wird an der Stelle gemacht, wo diese Verknüpfung nötig ist. Die Dokumente müssen zuerst im System hoch geladen werden und erst dann können sie verknüpft werden. Für die Verwaltung dieser Dokumente bzw. Dateien gib es das **Dokumentenmanagement**.
+
+Das Dokumentenmanagement rufen Sie über die Indexseite oder über den Startbutton  ![Qooxdoo Applikationsmaske - Startbutton VisionR](/uploads/v6/de-allgemein/vr6-button-visionr.png "Startbutton VisionR") **Module  Dokumentenmanagement.** Ein neues Fenster wird aufgemacht, wo Sie die Dateien und die Dokumente verwalten können. Die Ansicht ist wie bei allen alphanumerischen Modulen - Abbildung 40.
+
+![Qooxdoo Applikationsmaske - Dokumentenmanagement - Übersicht](/uploads/v6/de-allgemein/vr6-dokumentenmanagement_bsp1.png " Abbildung 40: Dokumentenmanagement - Übersicht")
+
+Links ist die Baumstruktur, in der Sie an jeder Stelle ein neues Verzeichnis erstellen können. Die Anordnung dieser Struktur ist von den Wünschen des Kunden anhängig. Am besten wird diese Aufgabe von dem Administrator ausgeführt.
+
+Sie können eigene Verzeichnisse erstellen und die Daten dort lagern oder eine vordefinierte Struktur benutzen. Hier ist zu merken, dass Zugriffsrechte für die Verzeichnisse als auch für die Dateien / Dokumente angepasst werden können.
+
+Die Dateien müssen zuerst hoch geladen werden. Dieser Prozess erfolgt in dieser Maske und erst wenn die Dateien im System vorhanden sind, können sie verknüpft werden.
+
+Auf der Abbildung 40 sind die hoch geladenen Dateien aus dem links ausgewählten Verzeichnis rechts angezeigt. Hier können Sie neue Dateien über das Funktionsmenü ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Menü Button")  ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") hinzufügen. Sie müssen dann in dem angezeigten Fenster auswählen, ob Sie einen neuen Ordner in dem virtuellen Dateisystem am Server erstellen möchten oder einfach eine Datei hochladen wollen - Abbildung 41.
+
+![Qooxdoo Applikationsmaske - Datei hochladen / Ordner erstellenMenü Button Neu](/uploads/v6/de-allgemein/vr6-dok-datei_hochladen_ordner_erstellen.png " Abbildung 41: Datei hochladen / Ordner erstellen")
+
+Wenn Sie auf **Datei** klicken, wird das Fenster mit dem Dateiauswahl angezeigt. Wählen Sie die gewünschte Datei und laden Sie diese hoch. Dann erscheint sie rechts in dem ausgewählten Ordner.
+
+>**Bemerkung:** An allen Stellen, wo Sie Dokumente verknüpfen möchten, müssen Sie das Dokument aus dem Dokumentenmanagement auswählen. Sie können nur hochgeladene Dateien verknüpfen. Neue Dateien können Sie gleich im Verknüpfungsvorgang hochladen.
+
+## Datenaustausch
+
+Unter **Datenaustausch** werden Datenimporte und Datenexporte verstanden. Die Importe bzw. die Exporte sind ein Bestandteil des Systems und ein großer Vorteil von VisionR.
+
+In den meisten Fällen sind immer Daten vorhanden, die in das System importiert werden sollen. Diese Importe sind nicht immer leicht zu realisieren, besonders wenn die Daten aus verschiedenen Quellen kommen.
+
+Deshalb besteht die Möglichkeit, dass die Importe in VisionR an die Daten angepasst werden, die importiert werden sollen. Diese Anpassung ist nicht kompliziert, aber am Anfang ist es sinnvoll, die Anpassung dem Administrator zu überlassen. Nachdem die Vorlagen für den Importvorgang erstellt bzw. angepasst sind, kann der Benutzer die Daten selber importieren / aktualisieren.
+
+Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Startbutton VisionR](/uploads/v6/de-allgemein/vr6-button-visionr.png "Startbutton VisionR") **Module  Datenaustausch** wird das Datenaustauschfenster aufgemacht und die gespeicherten Importe und Exporte angezeigt. Falls der Importvorgang schon erstellt bzw. angepasst ist, kann er ausgeführt werden. Dafür wählen Sie den gewünschten Vorgang und klicken Sie auf ![Qooxdoo Applikationsmaske - Button Ausführen](/uploads/v6/de-allgemein/vr6-button-ausfuehren.png "Button Ausführen") `Ausführen`.
+
+Abbildung 42 zeigt unsere Datenaustausch-Vorgänge:
+
+![Qooxdoo Applikationsmaske - Datenaustausch - Übersicht](/uploads/v6/de-allgemein/vr6-datenaustausch_uebersicht.png " Abbildung 42: Datenaustausch - Übersicht")
+
+Wenn der ausgewählte Vorgang ausgeführt wird, werden Raumdaten aus einer **CSV-Datei** importiert.
+
+Die folgende Abbildung 43 zeigt die Formularansicht des Importvorgangs. In dem Feld **Vorlage (als XML)** ist das Skript, das die Daten zuordnet. Das Skript kann über den Button **Bearbeiten** editiert werden.
+
+![Qooxdoo Applikationsmaske - Formularansicht des Importvorgangs](/uploads/v6/de-allgemein/vr6-datenaustausch_formularansicht.png " Abbildung 43: Formularansicht des Importvorgangs")
+
+In dieser Ansicht können Sie die Eigenschaften des Objekts bearbeiten, wie bei allen anderen VisionR-Objekten. Wie auf der Abbildung zu sehen ist, kann der Benutzer hier die Datei ändern, die Kodierung anpassen, das Trennzeichen etc.
+
+Die **Erstellung** eines Vorgangs ist über das ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Menü Button") Funktionsmenü   -> ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") Neu möglich. Das Formular mit den Eigenschaften wird angezeigt und der Benutzer soll die Datei, Trennzeichen, Skripte etc. eingeben bzw. anpassen. Auf diese Weise werden die Exportvorgänge erstellt.
+
+Die unterstützen Formate für den Import sind: alle gängigen **Excel**-Formate, **.csv** und andere Textformate, sowie auch **XML**.
+
+## Benutzerverwaltung / Zugriffsrechte
+
+Die Benutzerverwaltung bzw. die Zugriffsrechte sind ein wesentlicher Teil des Systems. Nur die Benutzer, die administrative Rechte (einschließlich des Administrators) haben, können die Benutzer oder die Zugriffe verwalten.
+
+Der Administrator verwaltet die Benutzer und ihren Konten. Die Benutzer mit administrativen Rechten können auch die Zugriffsrechte der anderen Benutzer anpassen – so kann zum Beispiel ein Marktführer seinen Mitarbeitern unterschiedliche Berechtigungen und Zugriffsrechte übergeben, so dass diese nur ihre eigenen Aufgabengebiete einsehen können. 
+
+Der Administrator kann anderen Gruppen seine Zugriffsrechte vererben. Diese Gruppen können die Rechte an andere Gruppen vererben. 
+
+Die Zugriffsberechtigung ist folgendermaßen realisiert: Wir geben ein **Beispiel**, um die Vererbung einfacher darzustellen:
+>**Beispiel:** Wir haben einige Benutzer mit Zugriffsrechten auf ihre eigenen Aufgaben, z.B. Hausmeister können die Anlagen sehen, für die sie zuständig sind. Darüber gibt es eine Gruppe von Technikern, welche die Anlagen von mehreren Gebäuden überwacht. Diese erben dann die Rechten von den Hausmeistern dieser Anlagen und können alle Anlagen sehen bzw. bearbeiten.
+Falls es eine Gruppe über diese Techniker gibt, die alle Anlagen, unabhängig davon wo diese eingebaut sind, betrachten soll, z.B. die Firmenfachkräfte, die die Anlagen hergestellt und eingebaut haben, kann diese Gruppe die Rechte aller untergeordneten Gruppen erben.
+{.is-info}
+
+Standardmäßig haben alle VisionR-Objekte eine Registerkarte in der Formularansicht, die die Zugriffe auf das Objekt beinhaltet. Das heißt, dass an allen Objektebenen die Zugriffe anpassbar sind.
+
+## Geplante Tasks
+
+Die geplanten Tasks sind Operationen, die nach einem Plan oder nach bestimmten Kriterien ausgeführt werden.
+
+Ein Beispiel für eine geplante Aufgabe (Task) ist die Auswertung des Systems von Kündigungsdaten von Verträgen, die bald ablaufen, und das Zuschicken einer Benachrichtigung an den zuständigen Personen. Dafür ist sogar keine Anmeldung im System notwendig.
+
+Die Erstellung und die Anpassung von solchen geplanten Aufgaben verbleiben bei den Administratoren.
+
+
  
