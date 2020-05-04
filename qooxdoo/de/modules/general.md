@@ -63,7 +63,6 @@ Die Bereiche werden nun kurz beschrieben:
 
 •	**Leiste** - In dieser Leiste sind die Funktionen, die auf die Objekte anzuwenden sind, sowie auch die Systemfunktionen und Systemmodule.
 
-
 # Komponenten der Applikationsmaske
 
 Alle alphanumerischen Module sind gleich aufgebaut und haben fast identische Applikationsmasken. Unterschiede entstehen in den jeweiligen Modulen bei den zu verwaltenden Objekten.
@@ -178,7 +177,7 @@ Mit Klick auf das Vorschaubild, können Sie direkt auf das grafische Objekt zugr
 
 Die Funktionen - Umschaltung der Layergruppen, gespeicherte Ansichten aufrufen, Plan / Ausschnitt exportieren, drucken etc. - sind mit Klick auf dem Button ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Menü Button")  links aufrufbar. Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Menü Button Bearbeiten](/uploads/v6/de-allgemein/vr6-button-bearbeiten.jpg "Menü Button Bearbeiten") wird der Plan zur Bearbeitung aufgemacht. Sie können dann die Zeichnung direkt bearbeiten, wie in dem grafischen VisionR- Modul.
 
-## Bearbeitung von VisionR Objekten
+# Bearbeitung von VisionR Objekten
 
 Die Bearbeitung von VisionR Objekten erfolgt in der Formularansicht oder direkt in der Tabelle. Sie können die Daten direkt bearbeiten, wie in Excel, indem Sie auf die Zelle in der Tabelle klicken. Diese Zelle wird dann zur Bearbeitung aufgemacht und Sie können die Daten eingeben bzw. auswählen oder bearbeiten.
 Es gibt einige Eingabefelder-Typen, von denen die Eingabe abhängig ist. Insgesamt unterscheiden wir 4 Eingabefelder-Typen. Diese sind wie folgt beschrieben:
