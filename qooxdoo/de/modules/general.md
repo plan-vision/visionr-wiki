@@ -369,11 +369,11 @@ Um die Spalten zu sehen, in denen die Suche verläuft, klicken Sie auf den Butto
 
 Diese Suche ist eine Mischung aus mehreren Suchkriterien. Sie können mehreren einfachen Suchen kombinieren. 
 Als Kombination können Sie die Suchkriterien entweder mit `UND` verknüpfen oder mit `ODER`. Wir schildern das anhand eines Beispiels:
-**Ausgangssituation**: Wir möchten nach einer Person suchen, deren Name mit bestimmten Buchstaben beginnt, z.B. mit „Er“. Also als Ergebnis bekommen die folgenden Datensätze (für unsere Beispiele nutzen wir unseres Demoprojekt).
+**Ausgangssituation**: Wir möchten nach einer Person suchen, deren Name mit bestimmten Buchstaben beginnt, z.B. mit ***Er***. Also als Ergebnis bekommen die folgenden Datensätze (für unsere Beispiele nutzen wir unseres Demoprojekt).
 
 ![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp1.png "Kombinierte Suche Beispiel")
 
-Wie wir sehen können sind alle Personen, deren Nachname mit *Er* beginnt, aufgelistet. Jetzt möchten wir aber auch die Personen in der Liste haben, deren Nachname auch mit *Er* beginnt. Dafür geben wir diese Zeichenkette in dem Suchfeld ein. Dann sehen wir, dass die Suche noch keine Ergebnisse liefert. 
+Wie wir sehen können sind alle Personen, deren Nachname mit ***Er*** beginnt, aufgelistet. Jetzt möchten wir aber auch die Personen in der Liste haben, deren Nachname auch mit ***Er*** beginnt. Dafür geben wir diese Zeichenkette in dem Suchfeld ein. Dann sehen wir, dass die Suche noch keine Ergebnisse liefert. 
 
 ![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp2.png "Kombinierte Suche Beispiel")
 
@@ -383,10 +383,10 @@ In unserem Beispiel klicken wir auf das erste Kriterium und haltend die „STRG�
 
 ![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp3.png "Kombinierte Suche Beispiel")
 
-Jetzt steht das Zeichen `|` drin. Dieses Zeichen steht für logisches `ODER` – also Nachname beginnt mit *Er* oder mit *Et*. 
-Mit Klick auf das Zeichen `…` wird der Operator auf `UND` umgestellt. In unserem Beispiel werden keine Ergebnisse gelistet, da der Nachname nicht mit *Er* und gleichzeitig *Et* anfangen kann. 
+Jetzt steht das Zeichen `|` drin. Dieses Zeichen steht für logisches `ODER` – also Nachname beginnt mit ***Er*** oder mit ***Et***. 
+Mit Klick auf das Zeichen `…` wird der Operator auf `UND` umgestellt. In unserem Beispiel werden keine Ergebnisse gelistet, da der Nachname nicht mit ***Er*** und gleichzeitig ***Et*** anfangen kann. 
 So können wir aber mehrere Suchen kombinieren. Die erste Suche bleibt und mit jeder weiteren Suche wird das Suchkriterium erweitert. Mit Klick auf die gewünschten Kästchen wird das Suchkriterium angepasst. 
-> **Bemerkung:** Sie können unterschiedliche Suchkriterien mischen, wie z.B. Personen, beginnend mit „Er“ und Telefon beginnend mit „7“. Dann wird die Suchleiste so aussehen:
+> **Bemerkung:** Sie können unterschiedliche Suchkriterien mischen, wie z.B. Personen, beginnend mit ***Er*** und Telefon beginnend mit ***7***. Dann wird die Suchleiste so aussehen:
 
 ![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp4.png "Kombinierte Suche Beispiel")
 
