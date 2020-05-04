@@ -183,4 +183,4 @@ Die Bearbeitung von VisionR Objekten erfolgt in der Formularansicht oder direkt 
 Es gibt einige Eingabefelder-Typen, von denen die Eingabe abhängig ist. Insgesamt unterscheiden wir 4 Eingabefelder-Typen. Diese sind wie folgt beschrieben:
 
 * 	**Einfaches Eingabefeld** - in diesen Feldern sind die Eingaben direkt zu machen. Diese Felder sind im Prinzip weiß und Sie können direkt Texte / Zahlen / Daten / Beträge etc. eingeben. Beispiel ist ein Person - Vornamefeld. Sie geben direkt den Vorname als Zeichenkette ein.
-‚Neu...‘ 
+'Neu...'
