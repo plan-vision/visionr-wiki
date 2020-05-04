@@ -333,4 +333,19 @@ Falls ein Häkchen aktiviert ist, darf der Benutzer bzw. die Benutzergruppe die 
 
 > **Bemerkung:**: Sie müssen ausreichende Rechte haben, um neue Benutzergruppen zu definieren, bearbeiten und entfernen. Deshalb ist es zu empfehlen, diese Aufgabe Ihren Administrator zu überlassen.
  
+
+
+>**Beispiel 4: Filter nach einem Benutzer.**
+
+Wir möchten alle Zeichnungen filtern, die von einem bestimmten Benutzer eingegeben sind. Dafür wählen wir als Parameter-Objektdefinition *Kontext mehrere Benutzer*.
+Diese Optionen setzt **param** in dem Ausdruck mit der Person, die beim Ausführen des Filters festgelegt wird. 
+Der Ausdruck sieht dann folgendermaßen aus:
+`update_by = ${param.select_users[0].id}`
+Der Ausdruck bedeutet, dass alle Zeichnungen, die **aktualisiert von** *(update_by)* gleich den angegebenen Benutzer ist. 
+Die Ergebnisse werden gefiltert und nur diese Zeichnungen in der Tabelle angezeigt, die von diesem Benutzer aktualisiert sind.
+
 > **Bemerkung:** Sie können die Parameter-Objektdefinition ignorieren und in dem Ausdruck die Angaben machen. Merken Sie, dass dann nur der festkodierte Ausdruck ausgeführt wird mit den gemachten Angaben. Zum Beispiel: `insert_time > ${db.VALUE2VSQL(param.select_date)} – hier können Sie das param.selec_date mit dem Datum in folgendem Format eingeben: YYYY-MM-TT HH:MM:SS:MSS`
+
+Der Ausdruck für *01.02.2016* ist dann – `insert_time > ‘2016-02-01 00:00:00.000‘`. 
+Das Ergebnis wird dann alle Zeichnungen liefern, die nach dem *01.02.2016* aktualisiert sind.
+{.is-info}
