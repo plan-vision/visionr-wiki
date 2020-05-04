@@ -102,7 +102,7 @@ Abbildung 6 zeigt die technischen Anlagen, die nach Standort gefiltert sind. Bei
 Dazu gibt es eine eigene Suchleiste, die auf allen Objektebenen des Moduls nutzbar ist. So können Sie nicht nur mit den Objekten selbst, sondern auch mit den Objekttypen, Kombinationen aus Objekttypen, Objektebenen, Filtern, gefilterten Daten etc. arbeiten.
 
 
-## Tabelle
+### Tabelle
 
 Die Tabelle ist der Bereich, in dem die Bearbeitung der Daten erfolgt. Wenn eine Objektgruppe aus dem Navigationsbereich ausgewählt ist, werden die Objekte aus der Datenbank in der Tabelle angezeigt. Jede Zeile in der Tabelle entspricht einem Objekt, dessen Eigenschaften in den sichtbaren Spalten angezeigt werden. Die Zellen der Tabelle können Sie direkt mit Doppelklick bearbeiten bzw. ansehen, falls die Zelle (entspricht einer Objekteigenschaft) lesbar ist. Sonst erfolgt die Bearbeitung in der Formularansicht. Die Ansicht rufen Sie mit Klick auf **Bearbeiten** in dem Funktionsmenü  ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Menü Button") auf. In der Tabelle können die Daten nach bestimmten Eigenschaften durch Klick auf die Überschrift der Spalte sortiert werden. Zusätzlich stehen mehrere Tabellen-Funktionen zur Verfügung. Diese Funktionen sind in der Leiste über der Tabelle sichtbar – sehen sie den gekennzeichneten Bereich auf Abbildung 3:
 
@@ -152,7 +152,7 @@ Die Funktionen, die im Funktionsmenü verfügbar sind, können Sie auch mit Rech
 
 Die Bearbeitung der Objekte und andere Funktionen wie Neues Objekt erstellen, Objekt löschen etc. sind in diesem Dokument separat beschrieben.
 
-## Formular
+### Formular
 
 Die Formularansicht ist die Ansicht, in der die Objektdaten in einem Fenster in Form eines Formulars dargestellt sind. So werden die Eigenschaften eines oder mehrerer Objekte bearbeitet. Das Formular rufen Sie ab, wenn Sie ein neues Objekt erstellen oder ein vorhandenes bearbeiten. Auf der Abbildung 11 ist ein Objekt zur Bearbeitung aufgemacht.
 
@@ -177,3 +177,11 @@ Mit Klick auf das Vorschaubild, können Sie direkt auf das grafische Objekt zugr
 ![Qooxdoo Applikationsmaske – Der ausgewählte Aufzug auf dem Plan](/uploads/v6/de-allgemein/vr6-applikationsmaske-formular4.jpg "Abbildung 14: Der ausgewählte Aufzug auf dem Plan")
 
 Die Funktionen - Umschaltung der Layergruppen, gespeicherte Ansichten aufrufen, Plan / Ausschnitt exportieren, drucken etc. - sind mit Klick auf dem Button ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Menü Button")  links aufrufbar. Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Menü Button Bearbeiten](/uploads/v6/de-allgemein/vr6-button-bearbeiten.jpg "Menü Button Bearbeiten") wird der Plan zur Bearbeitung aufgemacht. Sie können dann die Zeichnung direkt bearbeiten, wie in dem grafischen VisionR- Modul.
+
+## Bearbeitung von VisionR Objekten
+
+Die Bearbeitung von VisionR Objekten erfolgt in der Formularansicht oder direkt in der Tabelle. Sie können die Daten direkt bearbeiten, wie in Excel, indem Sie auf die Zelle in der Tabelle klicken. Diese Zelle wird dann zur Bearbeitung aufgemacht und Sie können die Daten eingeben bzw. auswählen oder bearbeiten.
+Es gibt einige Eingabefelder-Typen, von denen die Eingabe abhängig ist. Insgesamt unterscheiden wir 4 Eingabefelder-Typen. Diese sind wie folgt beschrieben:
+
+* 	**Einfaches Eingabefeld** - in diesen Feldern sind die Eingaben direkt zu machen. Diese Felder sind im Prinzip weiß und Sie können direkt Texte / Zahlen / Daten / Beträge etc. eingeben. Beispiel ist ein Person - Vornamefeld. Sie geben direkt den Vorname als Zeichenkette ein.
+
