@@ -204,7 +204,7 @@ Falls diese Auswahl schwer zu treffen ist, können Sie die Tabelle in einem sepa
 
 ## Erstellen
 
-Das Erstellen von VisionR-Objekten erfolgt über das Funktionsmenü ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg " Menü Button"), indem Sie auf ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.PNG "Menü Button Neu") `Neu... ` klicken. Ein neues Fenster wird geöffnet und die Objekte, die zur Auswahl stehen, werden in einer hierarchischen Struktur angezeigt. Wählen Sie den gewünschten Objekttyp bzw. gehen Sie in der Hierarchie tiefer und finden Sie ihn. 
+Das Erstellen von VisionR-Objekten erfolgt über das Funktionsmenü ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Menü Button"), indem Sie auf ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.PNG "Menü Button Neu") `Neu... ` klicken. Ein neues Fenster wird geöffnet und die Objekte, die zur Auswahl stehen, werden in einer hierarchischen Struktur angezeigt. Wählen Sie den gewünschten Objekttyp bzw. gehen Sie in der Hierarchie tiefer und finden Sie ihn. 
 
 
 Die folgende Abbildung (Abb. 16) zeigt ein Beispiel - wir erstellen einen neuen Prüfvertrag vom Typ Wartungsvertrag für eine technische Anlage.
