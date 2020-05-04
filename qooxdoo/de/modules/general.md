@@ -142,7 +142,8 @@ Die Funktionen, die im Funktionsmenü verfügbar sind, können Sie auch mit Rech
 
 >**Bemerkung:** Eine andere Möglichkeit die Objekteigenschaften ein- bzw. auszuschalten besteht über das Objektmenü, das mit der rechten Maustaste aufrufbar ist. Der unterste Eintrag 'sichtbare Eigenschaften' zeigt sowohl alle Eigenschaften des Objekts, als auch die referenzierten Datenobjekte, die mit diesem Objekt verknüpft sind. Die Referenzen können durchgegangen werden und deren Eigenschaften in der Tabelle durch Mausklick sichtbar geschaltet werden. Eigenschaften über mehrere Referenzen (Objektpfade) können in der Tabelle als zusätzliche Spalten angezeigt werden.
 
-**Beispiel:** Wir wollen das Land und die Stadt des Auftraggebers sichtbar machen. Dafür können wir folgenden Pfad einschalten: **Vertrag -> Auftraggeber -> Stadt -> Name und Vertrag->Auftraggeber->Land->Name->Deutsch**. Da alle Definitionen und Felder in VisionR übersetzbar sind ist hier **Deutsch** auszuwählen (ggf. die gewünschte Sprache).
+>**Beispiel:** Wir wollen das Land und die Stadt des Auftraggebers sichtbar machen. Dafür können wir folgenden Pfad einschalten: **Vertrag -> Auftraggeber -> Stadt -> Name und Vertrag->Auftraggeber->Land->Name->Deutsch**. Da alle Definitionen und Felder in VisionR übersetzbar sind ist hier **Deutsch** auszuwählen (ggf. die gewünschte Sprache).
+{.is-info}
 
 Die Bearbeitung der Objekte und andere Funktionen wie Neues Objekt erstellen, Objekt löschen etc. sind in diesem Dokument separat beschrieben.
 
@@ -195,7 +196,8 @@ Sie können aus der angezeigten Liste das Objekt direkt auswählen oder die List
 
 Falls diese Auswahl schwer zu treffen ist, können Sie die Tabelle in einem separaten Fenster aufmachen und das gewünschte Objekt, wie gewohnt, finden.
 
-**Beispiel:** Wir möchten für eine Wartungstätigkeit die Wartungsfirma eingeben. Mit Klick auf das Feld werden alle Kontakte aufgelistet, aber die Auswahl des Unternehmens ist in der langen Liste schwer. Deshalb können wir für jedes Feld von diesem Typ im Auswahlmenü den Button `Auswählen` klicken. Dabei wird die Liste in einem neuen Fenster als Tabelle mit hierarchischer Struktur angezeigt. So können wir die Daten schnell filtern oder nach einem bestimmten Objekt suchen. Die Dropdown-Ansicht ist eine Tabellenansicht. Abbildung 15 zeigt eine Auswahlliste mit den hinterlegten Unternehmen, in der wir die Wartungsfirma für unseren Aufzug finden möchten.
+>**Beispiel:** Wir möchten für eine Wartungstätigkeit die Wartungsfirma eingeben. Mit Klick auf das Feld werden alle Kontakte aufgelistet, aber die Auswahl des Unternehmens ist in der langen Liste schwer. Deshalb können wir für jedes Feld von diesem Typ im Auswahlmenü den Button `Auswählen` klicken. Dabei wird die Liste in einem neuen Fenster als Tabelle mit hierarchischer Struktur angezeigt. So können wir die Daten schnell filtern oder nach einem bestimmten Objekt suchen. Die Dropdown-Ansicht ist eine Tabellenansicht. Abbildung 15 zeigt eine Auswahlliste mit den hinterlegten Unternehmen, in der wir die Wartungsfirma für unseren Aufzug finden möchten.
+{.is-info}
 
 ![Qooxdoo Liste mit Referenzobjekten, die zur Auswahl stehen](/uploads/v6/de-allgemein/vr6-formular-referenzliste_auswahl.png "Abbildung 15: Liste mit Referenzobjekten, die zur Auswahl stehen") 
 
