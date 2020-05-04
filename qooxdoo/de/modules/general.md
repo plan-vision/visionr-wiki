@@ -197,7 +197,7 @@ Falls diese Auswahl schwer zu treffen ist, können Sie die Tabelle in einem sepa
 
 **Beispiel:** Wir möchten für eine Wartungstätigkeit die Wartungsfirma eingeben. Mit Klick auf das Feld werden alle Kontakte aufgelistet, aber die Auswahl des Unternehmens ist in der langen Liste schwer. Deshalb können wir für jedes Feld von diesem Typ im Auswahlmenü den Button `Auswählen` klicken. Dabei wird die Liste in einem neuen Fenster als Tabelle mit hierarchischer Struktur angezeigt. So können wir die Daten schnell filtern oder nach einem bestimmten Objekt suchen. Die Dropdown-Ansicht ist eine Tabellenansicht. Abbildung 15 zeigt eine Auswahlliste mit den hinterlegten Unternehmen, in der wir die Wartungsfirma für unseren Aufzug finden möchten.
 
-![Qooxdoo Liste mit Referenzobjekten, die zur Auswahl stehen](/uploads/v6/de-allgemein/vr6-formular-referenzliste_auswahl.PNG "Abbildung 15: Liste mit Referenzobjekten, die zur Auswahl stehen") 
+![Qooxdoo Liste mit Referenzobjekten, die zur Auswahl stehen](/uploads/v6/de-allgemein/vr6-formular-referenzliste_auswahl.png "Abbildung 15: Liste mit Referenzobjekten, die zur Auswahl stehen") 
 
 > **Tipp**: Sie können die Auswahlliste direkt filtern, indem Sie in dem Feld schreiben. Die Daten werden direkt nach Ihren Angaben gefiltert. Sie können die gefilterten Ergebnisse in der Auswahlliste auch sortieren, indem Sie die Spaltenüberschrift anklicken.
 >{.is-info}
@@ -222,7 +222,7 @@ Die Abbildung basiert sich auf den Beispielen oberhalb. Da wir an dieser Stelle 
 
 Die Bearbeitung erfolgt ähnlich wie die Erstellung, mit dem Unterschied, dass ein vorhandenes Objekt aufgemacht wird. Sie können die Objekteigenschaften in der Tabelle direkt oder in der Formularansicht bearbeiten. Wenn Sie ein Objekt bearbeiten, müssen Sie am Ende den Bearbeitungsvorgang speichern.
 
-Die Bearbeitung erfolgt folgendermaßen: Objekt auswählen, dann auf den Funktionsbutton ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.JPG "Menü Button") klicken, indem Sie auf ![Qooxdoo Applikationsmaske - Menü Button Bearbeiten](/uploads/v6/de-allgemein/vr6-button-bearbeiten.PNG "Menü Button Bearbeiten") `Bearbeiten` gehen. Das Objekt wird dann zur Bearbeitung in der Formularansicht (Abb. 11) angezeigt.
+Die Bearbeitung erfolgt folgendermaßen: Objekt auswählen, dann auf den Funktionsbutton ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Menü Button") klicken, indem Sie auf ![Qooxdoo Applikationsmaske - Menü Button Bearbeiten](/uploads/v6/de-allgemein/vr6-button-bearbeiten.png "Menü Button Bearbeiten") `Bearbeiten` gehen. Das Objekt wird dann zur Bearbeitung in der Formularansicht (Abb. 11) angezeigt.
 
 Am Schluss müssen Sie die Änderungen speichern - mit Klick auf den Button `Speichern`. Falls alle Pflichtfelder mit Daten gefüllt sind, wird das Objekt gespeichert, sonst werden Sie darauf hingewiesen, dass einige Pflichtfelder immer noch leer sind.
 
@@ -236,7 +236,7 @@ Das Ansehen erfolgt folgendermaßen: Objekt auswählen und auf den ![Qooxdoo App
 
 ## Löschen
 
-Sie löschen ein oder mehrere Objekte über das Funktionsmenü. Wählen Sie das gewünschte Objekt und klicken Sie auf den Button ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Menü Button") und dann auf ![Qooxdoo Applikationsmaske - Menü Button Löschen](/uploads/v6/de-allgemein/vr6-button_loeschen.PNG "Menü Button Löschen") `Löschen`.
+Sie löschen ein oder mehrere Objekte über das Funktionsmenü. Wählen Sie das gewünschte Objekt und klicken Sie auf den Button ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Menü Button") und dann auf ![Qooxdoo Applikationsmaske - Menü Button Löschen](/uploads/v6/de-allgemein/vr6-button_loeschen.png "Menü Button Löschen") `Löschen`.
 
 Das ausgewählte Objekt wird gelöscht. Sie müssen den Löschvorgang davor bestätigen.
 
