@@ -261,7 +261,8 @@ In VisionR gibt es unterschiedliche Datentypen, die eingegeben werden bzw. zur A
 •	**Einfache Auswahllisten** - diese Auswahllisten sind mit vordefinierten Werten versehen. Sie können mit Klick auf das Feld den gewünschten Wert auswählen. Diese Listen sind sehr selten zu ändern, deshalb betrachten wir diese als einfache Auswahllisten. Sie können neue Einträge zum Auswählen erstellen, ähnlich wie bei der Erstellung von Objekten innerhalb des VisionR - Systems.
 
 •	**Datum und Zeit** - die Felder, die als Eingabe ein Datum und / oder eine Zeit erwarten, sind mit einem Kalender versehen – Abb. 19. Den Kalender rufen Sie mit Klick auf den Button ![Qooxdoo Applikationsmaske - Button Kalendar](/uploads/v6/de-allgemein/vr6-button_kalendar.png "Button Kalendar")  der ganz rechts in dem Feld steht, auf.
-![Qooxdoo Applikationsmaske - Kalender zum Datumauswahl](/uploads/v6/de-allgemein/vr6-datum_auswahl_kalendar " Abbildung 19: Kalender zum atumauswahl")
+
+![Qooxdoo Applikationsmaske - Kalender zum Datumauswahl](/uploads/v6/de-allgemein/vr6-datum_auswahl_kalendar "Abbildung 19: Kalender zum atumauswahl")
 
 Sie können das Datum auch direkt als Text in dem Feld eingeben, aber Sie müssen das Format beachten (TT.MM.JJJJ). Falls Sie ein ungültiges Datum eingeben, wird das richtige Datum daraus berechnet, z.B. - falls 32.03.2016 eingegeben wird, wird das System es als 01.04.2016 erkennen.
 
@@ -282,7 +283,7 @@ Falls Sie direkt aus der Liste ein Objekt auswählen möchten, klicken Sie auf d
 
 Die andere Möglichkeit ein Referenzobjekt anzugeben ist mittels der ` Auswählen ` -Funktion. Wählen Sie dafür die Option ` Auswählen ` aus dem Funktionsmenü ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu_button_grau.png "Menü Button"). Ein neues Fenster mit den zur Verfügung stehenden Objekten wird angezeigt. Die Anzeige der Daten in diesem Fenster ist gleich der Tabellenansicht von allen VisionR-Modulen. Links steht die Hierarchie und rechts stehen die Daten zur Auswahl, in tabellarischer Form dargestellt. Sie haben alle Funktionen zur Verfügung, um Ihre Auswahl zu treffen oder ggf. die Daten weiter zu bearbeiten. Die folgende Abbildung 21 zeigt ein Beispiel, wo wir das Gebäude einer technischen Anlage auswählen möchten.
 
-![Qooxdoo Applikationsmaske - Eingabe von Referenzobjekt über Auswahl-Funktion](/uploads/v6/de-allgemein/vr6-eingabe_ref_objekt_auswahl_1.png " Abbildung 21: Eingabe von Referenzobjekt über Auswahl-Funktion")
+![Qooxdoo Applikationsmaske - Eingabe von Referenzobjekt über Auswahl-Funktion](/uploads/v6/de-allgemein/vr6-eingabe_ref_objekt_auswahl_1.png "Abbildung 21: Eingabe von Referenzobjekt über Auswahl-Funktion")
 
 > **Bemerkung:**: In dieser Ansicht können Sie Objekte bearbeiten, erstellen, löschen etc. Falls die Auswahl sich auf ein Objekt bezieht, das auch grafisch vorhanden ist, ist die Option “Aus Zeichnung“ eingeblendet.
 
@@ -309,7 +310,7 @@ Falls ein Objekt an einer Stelle verknüpft ist und von ihm bestimmte Funktionen
 # Zugriffsrechte auf Objektebene
 Ein sehr wichtiger Teil des Systems sind die Zugriffsrechte. Die Zugriffsrechte können für jeden Benutzer, jede Gruppe von Benutzern und auf jeder Ebene angepasst werden. Für jedes Objekt im System gibt es eine spezielle Registerkarte in dem Formular, namens Zugriffsrechte - die letzte Registerkarte rechts. Die folgende Abbildung 23 zeigt, wie diese Registerkarte aussieht.
 
-![Qooxdoo Applikationsmaske - Registerkarte mit den Zugriffsrechten](/uploads/v6/de-allgemein/vr6-formuar_zugriffe.png" Abbildung 23: Registerkarte mit den Zugriffsrechten ")
+![Qooxdoo Applikationsmaske - Registerkarte mit den Zugriffsrechten](/uploads/v6/de-allgemein/vr6-formuar_zugriffe.png "Abbildung 23: Registerkarte mit den Zugriffsrechten ")
 
 Die Verwaltung der Zugriffsrechte ist ähnlich wie bei Windows. Auf jeder Objektebene bis zu den Objekten selbst können die Zugriffsrechte angepasst werden. So können wir bestimmte Inhalte für bestimmte Benutzer oder Gruppen ausblenden oder nur zum Lesen oder Kopieren zur Verfügung stellen.
 
