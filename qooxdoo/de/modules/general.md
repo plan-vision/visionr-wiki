@@ -361,7 +361,7 @@ Hier werden alle Aufzüge in dem Gebäude 017 angezeigt. Diese Suche verläuft s
 Bei Nutzung der einfachen Suche kann angepasst werden, in welchen Spalten der Suchvorgang laufen soll. Bei der einfachen Suche sind die Suchkriterien standardmäßig die Spalten **Code | Name**. Sie können aber zusätzlichen Spalten einschalten und diese werden beim Ausführen der Suche auch durchsucht.
 
 Um die Spalten zu sehen, in denen die Suche verläuft, klicken Sie auf den Button ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-button_sucheinsttellungen.png "Menü Button") rechts in dem Suchfeld. Ein neues Fenster (Abb. 25) mit allen Objekteigenschaften wird angezeigt. Sie können sehen, dass Name und Code ausgewählt sind. Wählen Sie die gewünschten Spalten aus und aktivieren Sie diese. Anschließend klicken Sie auf **Schließen** und führen Sie den Suchvorgang aus.
-![Qooxdoo Applikationsmaske - Spalten für die Suche auswählen](/uploads/v6/de-allgemein/ vr6-suchen_spalten1.png " Abbildung 25: Spalten für die Suche auswählen")
+![Qooxdoo Applikationsmaske - Spalten für die Suche auswählen](/uploads/v6/de-allgemein/vr6-suchen_spalten1.png " Abbildung 25: Spalten für die Suche auswählen")
 
 > **Bemerkung:** In dem angezeigten Fenster gibt es oberhalb ebenfalls eine Suchleiste, die der hier beschriebenen ähnlich ist. Sie können die soeben beschriebenen Operationen wieder anwenden. Bemerken Sie auch die Pfeile rechts in den Feldern. Diese weisen darauf hin, dass diese Felder referenzierte Objekte beinhalten und die Suche kann auch in den Eigenschaften dieser Objekte verlaufen. Mit Klick auf den Pfeil wird das Referenzobjekt aufgemacht und seine Eigenschaften werden angezeigt. Wiederum werden Pfeile an seinen referenzierten Eigenschaften angezeigt. Sie können die Felder für die Suche (wiederum eine Art Suche in die Tiefe) aktivieren.
 
@@ -371,24 +371,24 @@ Diese Suche ist eine Mischung aus mehreren Suchkriterien. Sie können mehreren e
 Als Kombination können Sie die Suchkriterien entweder mit `UND` verknüpfen oder mit `ODER`. Wir schildern das anhand eines Beispiels:
 **Ausgangssituation**: Wir möchten nach einer Person suchen, deren Name mit bestimmten Buchstaben beginnt, z.B. mit ***Er***. Also als Ergebnis bekommen die folgenden Datensätze (für unsere Beispiele nutzen wir unseres Demoprojekt).
 
-![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp1.png "Kombinierte Suche Beispiel")
+![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/vr6-kombisuche_bsp1.png "Kombinierte Suche Beispiel")
 
 Wie wir sehen können sind alle Personen, deren Nachname mit ***Er*** beginnt, aufgelistet. Jetzt möchten wir aber auch die Personen in der Liste haben, deren Nachname auch mit ***Er*** beginnt. Dafür geben wir diese Zeichenkette in dem Suchfeld ein. Dann sehen wir, dass die Suche noch keine Ergebnisse liefert. 
 
-![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp2.png "Kombinierte Suche Beispiel")
+![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/vr6-kombisuche_bsp2.png "Kombinierte Suche Beispiel")
 
 Die Suchkriterien werden unter der Suchleiste aufgelistet. Dazwischen steht das Symbol für UND `&`. Das heißt, dass jede neue Suchkette, wonach gesucht wird, wird unten bei den anderen aufgelistet und automatisch wird der `UND`-Operator angewandt. Wir können noch eine dritte, vierte, etc. Suchkette eingeben.
 Damit wir die Personen bekommen, deren Nachnamen mit „Er“ oder „Et“ anfangen, müssen wir den Operator `ODER` verwenden. Das Umschalten von `UND` auf `ODER` erfolgt mit Klick, haltend „STRG“-Taste, auf die gewünschten Suchkriterien, die Sie kombinieren möchten. 
 In unserem Beispiel klicken wir auf das erste Kriterium und haltend die „STRG“-Taste klicken wir auf das zweite Kriterium. Ein Zeichen `(…)` wird zur Vereinigung bzw. zur Verwendung des `ODER` Operator angezeigt. Mit Klick Sie darauf, schalten Sie die Operatoren um.
 
-![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp3.png "Kombinierte Suche Beispiel")
+![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/vr6-kombisuche_bsp3.png "Kombinierte Suche Beispiel")
 
 Jetzt steht das Zeichen `|` drin. Dieses Zeichen steht für logisches `ODER` – also Nachname beginnt mit ***Er*** oder mit ***Et***. 
 Mit Klick auf das Zeichen `…` wird der Operator auf `UND` umgestellt. In unserem Beispiel werden keine Ergebnisse gelistet, da der Nachname nicht mit ***Er*** und gleichzeitig ***Et*** anfangen kann. 
 So können wir aber mehrere Suchen kombinieren. Die erste Suche bleibt und mit jeder weiteren Suche wird das Suchkriterium erweitert. Mit Klick auf die gewünschten Kästchen wird das Suchkriterium angepasst. 
 > **Bemerkung:** Sie können unterschiedliche Suchkriterien mischen, wie z.B. Personen, beginnend mit ***Er*** und Telefon beginnend mit ***7***. Dann wird die Suchleiste so aussehen:
 
-![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/ vr6-kombisuche_bsp4.png "Kombinierte Suche Beispiel")
+![Qooxdoo Applikationsmaske - Kombinierte Suche Beispiel](/uploads/v6/de-allgemein/vr6-kombisuche_bsp4.png "Kombinierte Suche Beispiel")
 
 ### Suche in die Tiefe
 
@@ -441,7 +441,7 @@ In unserem Beispiel haben wir nur ein Filter, das uns alle Zeichnungen auswählt
 ### Aufbau und Eingabefelder des Filters
 
 Das Filter hat einige Bausteine und einige Eingabefelder, die Sie beachten müssen. Die wichtigsten sind auf die folgende Abbildung angezeigt: 
-![Qooxdoo Applikationsmaske – Filter Aufbau](/uploads/v6/de-allgemein/ vr6-fillter_aufbau.png„Filter Aufbau")
+![Qooxdoo Applikationsmaske – Filter Aufbau](/uploads/v6/de-allgemein/vr6-fillter_aufbau.png„Filter Aufbau")
 
 •	Der **Name** ist *optional*, aber es ist sinnvoll einen Namen zu geben, sonst wird nur der Code angezeigt. 
 •	In dem Feld **Für Objektdefinition** geben Sie die Objektdefinition, wo dieses Filter platziert wird und zum Auswahl zur Verfügung steht, also zu welcher Objektdefinition es gehört. Zum Beispiel, wie hier auf der Abbildung zu sehen ist, steht als Objektdefinition *Zeichnung*. Das heißt, dass das Filter in dem Menü innerhalb des Moduls Grafik bei den Objekten aus Typ Zeichnung angezeigt wird. 
@@ -456,7 +456,7 @@ Das Filter hat einige Bausteine und einige Eingabefelder, die Sie beachten müss
 >**Beispiel 1:** **Wir möchten die Zeichnungen, die innerhalb der letzten 24 Stunden aktualisiert wurden, ausfiltern**.
 Wir müssen dieses Filter zuerst erstellen und dann können wir es benutzen oder den anderen Benutzer zur Verfügung zu stellen. Mit Klick auf die Filter-Ikone ![Qooxdoo Applikationsmaske - Button Filter](/uploads/v6/de-allgemein/vr6-button-filter.png "Button Filter") öffnen wir das Menü und danach geben wir `NEU`. Ein Formular wird angezeigt, indem wir die wichtigsten Eingaben machen. Das Formularfenster sieht folgendermaßen aus:
 
-![Qooxdoo Applikationsmaske – Filter](/uploads/v6/de-allgemein/ vr6-fillter2.png„Filter")
+![Qooxdoo Applikationsmaske – Filter](/uploads/v6/de-allgemein/vr6-fillter2.png„Filter")
 
 Wichtig sind die Felder **Ausdruck** und **Für Objektdefinition**, sowie auch der Name. Der Name wird in dem Filtermenü angezeigt. 
 •	**Ausdruck:** in unserem Beispiel möchten wir ein Zeitraum setzen. Der Ausdruck bedeutet hier: 
@@ -574,7 +574,7 @@ Einige dieser Berichte sind oft kundenspezifisch, deshalb können wir hier nicht
 
 Die Gruppierung ermöglicht die Filterung der Daten nach bestimmten Kriterien. Diese Kriterien können erweitert werden. Das Gruppieren der Daten erfolgt über den Button ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") Gruppieren. Die Gruppieren-Eigenschaften werden zwischen der Baumstruktur und dem Arbeitsbereich angezeigt. 
 
-Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/ vr6-button_neu.png "Menü Button Neu") können Sie zusätzliche Gruppierungen einschalten.
+Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") können Sie zusätzliche Gruppierungen einschalten.
 
 Wir betrachten das Gruppieren anhand eines Beispiels. Wir möchten alle technischen Anlagen in einem Gebäude, die den Status „aktiv“ haben, gruppieren. Aus diesen möchten wir nur die Anlagen anzeigen, die einer bestimmten Marke entsprechen.
 
