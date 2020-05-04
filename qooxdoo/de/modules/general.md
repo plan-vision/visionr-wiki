@@ -93,7 +93,7 @@ In der Baumansicht werden die Modulobjekte in einer hierarchischen Struktur darg
 
 In diesem Beispiel werden alle technischen Anlagen und deren Untertypen aufgelistet. Mit Klick auf eine Zeile werden diese Objekte in der Tabelle angezeigt (mit STRG- bzw. UMSCHALT-Taste können Sie mehrere Typen auswählen).
 
-Die andere Ansicht ist die Registerkarte mit dem Symbol  ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Menü Button"). Diese Ansicht nutzt einen hierarchischen Filter und stellt die Daten dementsprechend dar. Die Filter wählen Sie über das Funktionsmenü  ![Qooxdoo Applikationsmaske - Baumstruktur Ikone](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Baumstruktur Ikone") der Baumansicht - unter **Hierarchien**. 
+Die andere Ansicht ist die Registerkarte mit dem Symbol ![Qooxdoo Applikationsmaske - Baumstruktur Ikone](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Baumstruktur Ikone"). Diese Ansicht nutzt einen hierarchischen Filter und stellt die Daten dementsprechend dar. Die Filter wählen Sie über das Funktionsmenü ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Menü Button") der Baumansicht - unter **Hierarchien**. 
 Abbildung 6 zeigt die technischen Anlagen, die nach Standort gefiltert sind. Bei der Filterung werden nur die Objekte angezeigt, die den Kriterien entsprechen - in dem Beispiel sind nur die Anlagen gelistet, die einem Gebäude bzw. Standort zugeordnet sind. Alle anderen werden nicht angezeigt.
  
 ![Qooxdoo Applikationsmaske – Baumansicht](/uploads/v6/de-allgemein/vr6-applikationsmaske-baum2.jpg "Abbildung 6: Applikationsmaske – Baumansicht")
