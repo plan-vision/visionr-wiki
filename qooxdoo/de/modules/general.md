@@ -443,11 +443,10 @@ In unserem Beispiel haben wir nur ein Filter, das uns alle Zeichnungen auswählt
 Das Filter hat einige Bausteine und einige Eingabefelder, die Sie beachten müssen. Die wichtigsten sind auf die folgende Abbildung angezeigt: 
 ![Qooxdoo Applikationsmaske – Filter Aufbau](/uploads/v6/de-allgemein/vr6-fillter_aufbau.png „Filter Aufbau")
 
-•	Der **Name** ist *optional*, aber es ist sinnvoll einen Namen zu geben, sonst wird nur der Code angezeigt. 
-•	In dem Feld **Für Objektdefinition** geben Sie die Objektdefinition, wo dieses Filter platziert wird und zum Auswahl zur Verfügung steht, also zu welcher Objektdefinition es gehört. Zum Beispiel, wie hier auf der Abbildung zu sehen ist, steht als Objektdefinition *Zeichnung*. Das heißt, dass das Filter in dem Menü innerhalb des Moduls Grafik bei den Objekten aus Typ Zeichnung angezeigt wird. 
-•	 **Ausdruck**  ist das wichtigste Feld - hier geben wir die Kondition/en, die wir als Filter einsetzen möchten. Zum Beispiel – alle Objekte, deren Aktualisierungszeit innerhalb der letzten 24 Stunden geändert wurde (Beispiel 1 unten). 
-•	*Optionale Parameter- Objektdefinitionen* – hier können wir aus vordefinierten Kontext Objekte auswählen, schauen Sie in der Liste und finden Sie das passende aus. Beispiele sind: Periode Datum / Zeit, Datum, Gebäude, Bodenbelag, etc…
-*Diese Parameter helfen uns bei den Ausdrucken, da sie die Syntax sehr vereinfachen. So müssen wir nicht in dem Ausdruck die Parameter explizit beschreiben, sondern einfach durch ***param*** ersetzen. Der Unterschied ist in den Beispielen 1 und 2 zu sehen*.
+*	Der **Name** ist *optional*, aber es ist sinnvoll einen Namen zu geben, sonst wird nur der Code angezeigt. 
+* In dem Feld **Für Objektdefinition** geben Sie die Objektdefinition, wo dieses Filter platziert wird und zum Auswahl zur Verfügung steht, also zu welcher Objektdefinition es gehört. Zum Beispiel, wie hier auf der Abbildung zu sehen ist, steht als Objektdefinition *Zeichnung*. Das heißt, dass das Filter in dem Menü innerhalb des Moduls Grafik bei den Objekten aus Typ Zeichnung angezeigt wird. 
+* **Ausdruck**  ist das wichtigste Feld - hier geben wir die Kondition/en, die wir als Filter einsetzen möchten. Zum Beispiel – alle Objekte, deren Aktualisierungszeit innerhalb der letzten 24 Stunden geändert wurde (Beispiel 1 unten). 
+*	*Optionale Parameter- Objektdefinitionen* – hier können wir aus vordefinierten Kontext Objekte auswählen, schauen Sie in der Liste und finden Sie das passende aus. Beispiele sind: Periode Datum / Zeit, Datum, Gebäude, Bodenbelag, etc…Diese Parameter helfen uns bei den Ausdrucken, da sie die Syntax sehr vereinfachen. So müssen wir nicht in dem Ausdruck die Parameter explizit beschreiben, sondern einfach durch ***param*** ersetzen. Der Unterschied ist in den Beispielen 1 und 2 zu sehen.
 
 > **Bemerkung:** Die folgenden Beispiele beziehen sich auf Objekte vom Typ Datum, da diese etwas komplizierter sind.
 
@@ -459,7 +458,7 @@ Wir müssen dieses Filter zuerst erstellen und dann können wir es benutzen oder
 ![Qooxdoo Applikationsmaske – Filter](/uploads/v6/de-allgemein/vr6-fillter2.png „Filter")
 
 Wichtig sind die Felder **Ausdruck** und **Für Objektdefinition**, sowie auch der Name. Der Name wird in dem Filtermenü angezeigt. 
-•	**Ausdruck:** in unserem Beispiel möchten wir ein Zeitraum setzen. Der Ausdruck bedeutet hier: 
+*	**Ausdruck:** in unserem Beispiel möchten wir ein Zeitraum setzen. Der Ausdruck bedeutet hier: 
 **Filtere Objekte, bei denen die Aktualisierungszeit (update_time) früher als heute minus 1 Tag.**
 Wie eine bestimmte Eigenschaft heißt, sehen Sie im System, wenn Sie mit rechter Maustaste auf die Beschriftung der gewünschten Eigenschaft klicken. Zum Beispiel mit Klick auf die Beschriftung **Ausdruck** wird ihnen der Code: ***expression*** angezeigt. Dieser Code geben Sie in dem Ausdruck. Aus dem obigen Beispiel: Aktualisierungszeit hat den Code ***update_time***.
 Der Ausdruck sagt: Die Aktualisierungszeit soll nach „dem heutigen Tag minus einen“ also ab gestern. Das $-Zeichen ist der Anfang des Ausdrucks, db.VALUE2VSQL ist die Funktion für die Datenbank. 
@@ -469,10 +468,10 @@ Anschließend speichern wir das Filter und es steht zur Verfügung in dem Filter
 >**Beispiel 2:** **Wir wollen alle Zeichnungen, die innerhalb einer Periode aktualisiert wurden.**
 Wir nehmen an, wir wollen alle Zeichnungen, die im Januar 2016 aktualisiert sind. 
 Wir erstellen neues Filter und machen die folgenden Angaben:
-•	**Name:** Zeichnungen aktualisiert innerhalb einer Periode 
-•	Für **Objektdefinition** geben wir Zeichnung, damit das Filter bei den Zeichnungen verfügbar ist.
-•	*Parameter-Objektdefinition*: hier geben wir **Kontext Periode-Datum**
-•	**Ausdruck:** `update_time > ${db.VALUE2VSQL(param.begin_date)} AND update_time < ${db.VALUE2VSQL(param.end_date)}`
+*	**Name:** Zeichnungen aktualisiert innerhalb einer Periode 
+*	Für **Objektdefinition** geben wir Zeichnung, damit das Filter bei den Zeichnungen verfügbar ist.
+*	*Parameter-Objektdefinition*: hier geben wir **Kontext Periode-Datum**
+*	**Ausdruck:** `update_time > ${db.VALUE2VSQL(param.begin_date)} AND update_time < ${db.VALUE2VSQL(param.end_date)}`
 Der Ausdruck bedeutet, dass die Aktualisierungszeit nach dem Beginndatum und vor dem Enddatum sein soll. 
 Wir haben hier als Parameter Periode Datum ausgewählt. Dieser Auswahl bewirkt sich auf das Filter gleich beim Ausführen und der Benutzer wird beim Ausführen nach **Begin- und Enddatum** gefragt. Diese Eingaben sind nicht in dem Ausdruck fest kodiert. Beim Aufruf des Filters kann der Benutzer unterschiedliche Periode festlegen.
 Die Daten werden übernommen und in dem Ausdruck berücksichtigt. Für unser Beispiel geben wir als Beginndatum 01.01.2016 und als Enddatum 01.02.2016 (hier ist kleiner als Vergleichsoperation angegeben, deshalb 01.02, um 31.01 einzuschließen.
