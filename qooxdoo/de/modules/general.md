@@ -258,11 +258,11 @@ Falls Sie mehrere Objekte bearbeiten, bzw. speichern, werden Sie nach Änderung 
 
 In VisionR gibt es unterschiedliche Datentypen, die eingegeben werden bzw. zur Auswahl stehen. Im Allgemeinen unterscheiden wir folgende Datentypen:
 
-**Einfache Zeichenketten mit und ohne Übersetzungsmöglichkeit** - in den Feldern, die diesen Eingaben erwarten, können Sie beliebige Textketten eingeben. Falls rechts das ![Qooxdoo Applikationsmaske - Menü Sprachen](/uploads/v6/de-allgemein/vr6-icon-sprache.png "Menü Sprachen") Welt-Zeichen angezeigt ist, kann das Feld auch übersetzt werden. Mit Klick auf dieses Zeichen wird die Sprachentabelle angezeigt und Sie können für die freigeschalteten Sprachen die Übersetzung vornehmen.
+### **Einfache Zeichenketten mit und ohne Übersetzungsmöglichkeit** - in den Feldern, die diesen Eingaben erwarten, können Sie beliebige Textketten eingeben. Falls rechts das ![Qooxdoo Applikationsmaske - Menü Sprachen](/uploads/v6/de-allgemein/vr6-icon-sprache.png "Menü Sprachen") Welt-Zeichen angezeigt ist, kann das Feld auch übersetzt werden. Mit Klick auf dieses Zeichen wird die Sprachentabelle angezeigt und Sie können für die freigeschalteten Sprachen die Übersetzung vornehmen.
 
-•	**Einfache Auswahllisten** - diese Auswahllisten sind mit vordefinierten Werten versehen. Sie können mit Klick auf das Feld den gewünschten Wert auswählen. Diese Listen sind sehr selten zu ändern, deshalb betrachten wir diese als einfache Auswahllisten. Sie können neue Einträge zum Auswählen erstellen, ähnlich wie bei der Erstellung von Objekten innerhalb des VisionR - Systems.
+### **Einfache Auswahllisten** - diese Auswahllisten sind mit vordefinierten Werten versehen. Sie können mit Klick auf das Feld den gewünschten Wert auswählen. Diese Listen sind sehr selten zu ändern, deshalb betrachten wir diese als einfache Auswahllisten. Sie können neue Einträge zum Auswählen erstellen, ähnlich wie bei der Erstellung von Objekten innerhalb des VisionR - Systems.
 
-•	**Datum und Zeit** - die Felder, die als Eingabe ein Datum und / oder eine Zeit erwarten, sind mit einem Kalender versehen – Abb. 19. Den Kalender rufen Sie mit Klick auf den Button ![Qooxdoo Applikationsmaske - Button Kalendar](/uploads/v6/de-allgemein/vr6-button_kalendar.png "Button Kalendar")  der ganz rechts in dem Feld steht, auf.
+### **Datum und Zeit** - die Felder, die als Eingabe ein Datum und / oder eine Zeit erwarten, sind mit einem Kalender versehen – Abb. 19. Den Kalender rufen Sie mit Klick auf den Button ![Qooxdoo Applikationsmaske - Button Kalendar](/uploads/v6/de-allgemein/vr6-button_kalendar.png "Button Kalendar")  der ganz rechts in dem Feld steht, auf.
 
 ![Qooxdoo Applikationsmaske - Kalender zum Datumauswahl](/uploads/v6/de-allgemein/vr6-datum_auswahl_kalendar "Abbildung 19: Kalender zum atumauswahl")
 
@@ -272,7 +272,7 @@ Falls die Zeit angegeben werden soll, so ist sie in folgendem Format einzugeben:
 
 > **Bemerkung:**: Falls Datum und / oder Zeit - Daten importiert werden, sollen Sie auf die Formate achten
 
-•	**VisionR - Objekte / Referenzobjekte** - diese Objekte werden an den Stellen verknüpft, wo Objekte als Eingabe gebraucht sind. Falls ein Feld ein Referenzobjekt als Eingabe erwartet, wird das ausgewählte Objekt an dieser Objekteigenschaft angehängt. So entsteht eine bidirektionale Verbindung zwischen den beiden Objekten, es ist jedoch jedes Objekt ist nur einmal in der Datenbank vorhanden und an dieser Stelle einfach verknüpft.
+### **VisionR - Objekte / Referenzobjekte** - diese Objekte werden an den Stellen verknüpft, wo Objekte als Eingabe gebraucht sind. Falls ein Feld ein Referenzobjekt als Eingabe erwartet, wird das ausgewählte Objekt an dieser Objekteigenschaft angehängt. So entsteht eine bidirektionale Verbindung zwischen den beiden Objekten, es ist jedoch jedes Objekt ist nur einmal in der Datenbank vorhanden und an dieser Stelle einfach verknüpft.
 
 Wenn Sie auf ein Referenz-Feld klicken, werden die Objekte, die zur Auswahl stehen ggf. gefiltert, in einer Liste angezeigt. Die Liste wird unter dem Feld angezeigt und Sie können aus dieser Liste ein Objekt auswählen.
 
@@ -289,7 +289,7 @@ Die andere Möglichkeit ein Referenzobjekt anzugeben ist mittels der ` Auswähle
 
 > **Bemerkung:**: In dieser Ansicht können Sie Objekte bearbeiten, erstellen, löschen etc. Falls die Auswahl sich auf ein Objekt bezieht, das auch grafisch vorhanden ist, ist die Option “Aus Zeichnung“ eingeblendet.
 
-•	**Tabelle mit mehreren 	Referenzobjekten** - Tabellen, die mehrere Referenzobjekte beinhalten können.
+### **Tabelle mit mehreren 	Referenzobjekten** - Tabellen, die mehrere Referenzobjekte beinhalten können.
 
 An diesen Stellen werden die mehrfachen Eingabefelder gesetzt, die mehrere Objekte beinhalten können. Das Feld ist eine verkleinerte Version der Tabelle, die aber alle Funktionen zur Verfügung stellt. In dieser Tabelle können Sie neue Objekte verknüpfen (das Objekt ist vorhanden und ist einfach zu verknüpfen - wie im vorherigen Schritt beschrieben) oder gleich erstellen und verknüpfen; vorhandene Objekte bearbeiten und ggf. löschen. Im Endeffekt ist dieses Eingabefeld ein mehrfaches Eingabefeld, wo Sie mehrere Objekte verknüpfen können.
 
