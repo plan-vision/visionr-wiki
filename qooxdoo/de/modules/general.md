@@ -568,7 +568,6 @@ Diese Berichte werden von dem System an bestimmten Tagen / Daten / Zeiten selbst
 
 Einige dieser Berichte sind oft kundenspezifisch, deshalb können wir hier nicht alle beschreiben, da die nicht relevanten Berichte für einen Projekt ausgeblendet werden. Sehen Sie in die Berichte, die zu Ihrem Projekt vorhanden sind, oder fragen Sie Ihren Administrator.
 
-
 ## Gruppieren
 
 Die Gruppierung ermöglicht die Filterung der Daten nach bestimmten Kriterien. Diese Kriterien können erweitert werden. Das Gruppieren der Daten erfolgt über den Button ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") Gruppieren. Die Gruppieren-Eigenschaften werden zwischen der Baumstruktur und dem Arbeitsbereich angezeigt. 
@@ -584,7 +583,7 @@ Mit Klick auf die Status-Zeile werden in dem Fenster die möglichen Werte angeze
 
 Das Gruppieren nach Status wird dann in der Gruppierungsspalte erscheinen. Wir fügen noch eine Gruppierung hinzu. Wir klicken auf ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") `Neu` und dieses Mal wählen wir die Eigenschaft *Hersteller*. Die Hersteller werden aufgelistet und wir müssen die gewünschten aktivieren. Die Abbildung 35 zeigt den beschriebenen Vorgang.
 
-![Qooxdoo Applikationsmaske - Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen.png "Abbildung 35: Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen.“)
+![Qooxdoo Applikationsmaske - Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen.png"Abbildung 35: Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen.“)
 
 Mit Einschalten dieser Gruppierung werden alle aktiven Anlagen der Marke “Schindler“ in dem ausgewählten Gebäude angezeigt. Alle anderen Anlagen werden ausgeblendet – siehe Abbildung 36.
 
