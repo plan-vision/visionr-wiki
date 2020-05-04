@@ -63,7 +63,6 @@ Die Bereiche werden nun kurz beschrieben:
 
 •	**Leiste** - In dieser Leiste sind die Funktionen, die auf die Objekte anzuwenden sind, sowie auch die Systemfunktionen und Systemmodule.
 
-
 # Komponenten der Applikationsmaske
 
 Alle alphanumerischen Module sind gleich aufgebaut und haben fast identische Applikationsmasken. Unterschiede entstehen in den jeweiligen Modulen bei den zu verwaltenden Objekten.
@@ -94,7 +93,7 @@ In der Baumansicht werden die Modulobjekte in einer hierarchischen Struktur darg
 
 In diesem Beispiel werden alle technischen Anlagen und deren Untertypen aufgelistet. Mit Klick auf eine Zeile werden diese Objekte in der Tabelle angezeigt (mit STRG- bzw. UMSCHALT-Taste können Sie mehrere Typen auswählen).
 
-Die andere Ansicht ist die Registerkarte mit dem Symbol  ![Qooxdoo Applikationsmaske - Baumstruktur Ikone](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Baumstruktur Ikone"). Diese Ansicht nutzt einen hierarchischen Filter und stellt die Daten dementsprechend dar. Die Filter wählen Sie über das Funktionsmenü  ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Menü Button") der Baumansicht - unter **Hierarchien**. 
+Die andere Ansicht ist die Registerkarte mit dem Symbol ![Qooxdoo Applikationsmaske - Baumstruktur Ikone](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Baumstruktur Ikone"). Diese Ansicht nutzt einen hierarchischen Filter und stellt die Daten dementsprechend dar. Die Filter wählen Sie über das Funktionsmenü ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Menü Button") der Baumansicht - unter **Hierarchien**. 
 Abbildung 6 zeigt die technischen Anlagen, die nach Standort gefiltert sind. Bei der Filterung werden nur die Objekte angezeigt, die den Kriterien entsprechen - in dem Beispiel sind nur die Anlagen gelistet, die einem Gebäude bzw. Standort zugeordnet sind. Alle anderen werden nicht angezeigt.
  
 ![Qooxdoo Applikationsmaske – Baumansicht](/uploads/v6/de-allgemein/vr6-applikationsmaske-baum2.jpg "Abbildung 6: Applikationsmaske – Baumansicht")
@@ -102,9 +101,9 @@ Abbildung 6 zeigt die technischen Anlagen, die nach Standort gefiltert sind. Bei
 Dazu gibt es eine eigene Suchleiste, die auf allen Objektebenen des Moduls nutzbar ist. So können Sie nicht nur mit den Objekten selbst, sondern auch mit den Objekttypen, Kombinationen aus Objekttypen, Objektebenen, Filtern, gefilterten Daten etc. arbeiten.
 
 
-## Tabelle
+### Tabelle
 
-Die Tabelle ist der Bereich, in dem die Bearbeitung der Daten erfolgt. Wenn eine Objektgruppe aus dem Navigationsbereich ausgewählt ist, werden die Objekte aus der Datenbank in der Tabelle angezeigt. Jede Zeile in der Tabelle entspricht einem Objekt, dessen Eigenschaften in den sichtbaren Spalten angezeigt werden. Die Zellen der Tabelle können Sie direkt mit Doppelklick bearbeiten bzw. ansehen, falls die Zelle (entspricht einer Objekteigenschaft) lesbar ist. Sonst erfolgt die Bearbeitung in der Formularansicht. Die Ansicht rufen Sie mit Klick auf **Bearbeiten** in dem Funktionsmenü  ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Menü Button") auf. In der Tabelle können die Daten nach bestimmten Eigenschaften durch Klick auf die Überschrift der Spalte sortiert werden. Zusätzlich stehen mehrere Tabellen-Funktionen zur Verfügung. Diese Funktionen sind in der Leiste über der Tabelle sichtbar – sehen sie den gekennzeichneten Bereich auf Abbildung 3:
+Die Tabelle ist der Bereich, in dem die Bearbeitung der Daten erfolgt. Wenn eine Objektgruppe aus dem Navigationsbereich ausgewählt ist, werden die Objekte aus der Datenbank in der Tabelle angezeigt. Jede Zeile in der Tabelle entspricht einem Objekt, dessen Eigenschaften in den sichtbaren Spalten angezeigt werden. Die Zellen der Tabelle können Sie direkt mit Doppelklick bearbeiten bzw. ansehen, falls die Zelle (entspricht einer Objekteigenschaft) lesbar ist. Sonst erfolgt die Bearbeitung in der Formularansicht. Die Ansicht rufen Sie mit Klick auf  `Bearbeiten` in dem Funktionsmenü  ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu-button.jpg "Menü Button") auf. In der Tabelle können die Daten nach bestimmten Eigenschaften durch Klick auf die Überschrift der Spalte sortiert werden. Zusätzlich stehen mehrere Tabellen-Funktionen zur Verfügung. Diese Funktionen sind in der Leiste über der Tabelle sichtbar – sehen sie den gekennzeichneten Bereich auf Abbildung 3:
 
 Es gibt ein zusätzliches Dropdown-Menü mit Ansichts-/Bearbeitungsfunktionen über der Tabelle rechts oben. Abbildung 7 zeigt die Tabelle mit den beschriebenen Bereichen.
 
@@ -148,11 +147,11 @@ Die Funktionen, die im Funktionsmenü verfügbar sind, können Sie auch mit Rech
 
 >**Bemerkung:** Eine andere Möglichkeit die Objekteigenschaften ein- bzw. auszuschalten besteht über das Objektmenü, das mit der rechten Maustaste aufrufbar ist. Der unterste Eintrag 'sichtbare Eigenschaften' zeigt sowohl alle Eigenschaften des Objekts, als auch die referenzierten Datenobjekte, die mit diesem Objekt verknüpft sind. Die Referenzen können durchgegangen werden und deren Eigenschaften in der Tabelle durch Mausklick sichtbar geschaltet werden. Eigenschaften über mehrere Referenzen (Objektpfade) können in der Tabelle als zusätzliche Spalten angezeigt werden.
 
-**Beispiel:** Wir wollen das Land und die Stadt des Auftraggebers sichtbar machen. Dafür können wir folgenden Pfad einschalten: “Vertrag  Auftraggeber  Stadt  Name und VertragAuftraggeberLandNameDeutsch“. Da alle Definitionen und Felder in VisionR übersetzbar sind ist hier “Deutsch“ auszuwählen (ggf. die gewünschte Sprache).
+**Beispiel:** Wir wollen das Land und die Stadt des Auftraggebers sichtbar machen. Dafür können wir folgenden Pfad einschalten: **Vertrag -> Auftraggeber -> Stadt -> Name und Vertrag->Auftraggeber->Land->Name->Deutsch**. Da alle Definitionen und Felder in VisionR übersetzbar sind ist hier **Deutsch** auszuwählen (ggf. die gewünschte Sprache).
 
 Die Bearbeitung der Objekte und andere Funktionen wie Neues Objekt erstellen, Objekt löschen etc. sind in diesem Dokument separat beschrieben.
 
-## Formular
+### Formular
 
 Die Formularansicht ist die Ansicht, in der die Objektdaten in einem Fenster in Form eines Formulars dargestellt sind. So werden die Eigenschaften eines oder mehrerer Objekte bearbeitet. Das Formular rufen Sie ab, wenn Sie ein neues Objekt erstellen oder ein vorhandenes bearbeiten. Auf der Abbildung 11 ist ein Objekt zur Bearbeitung aufgemacht.
 
@@ -177,3 +176,10 @@ Mit Klick auf das Vorschaubild, können Sie direkt auf das grafische Objekt zugr
 ![Qooxdoo Applikationsmaske – Der ausgewählte Aufzug auf dem Plan](/uploads/v6/de-allgemein/vr6-applikationsmaske-formular4.jpg "Abbildung 14: Der ausgewählte Aufzug auf dem Plan")
 
 Die Funktionen - Umschaltung der Layergruppen, gespeicherte Ansichten aufrufen, Plan / Ausschnitt exportieren, drucken etc. - sind mit Klick auf dem Button ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-baumstruktur-ikone.jpg "Menü Button")  links aufrufbar. Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Menü Button Bearbeiten](/uploads/v6/de-allgemein/vr6-button-bearbeiten.jpg "Menü Button Bearbeiten") wird der Plan zur Bearbeitung aufgemacht. Sie können dann die Zeichnung direkt bearbeiten, wie in dem grafischen VisionR- Modul.
+
+# Bearbeitung von VisionR Objekten
+
+Die Bearbeitung von VisionR Objekten erfolgt in der Formularansicht oder direkt in der Tabelle. Sie können die Daten direkt bearbeiten, wie in Excel, indem Sie auf die Zelle in der Tabelle klicken. Diese Zelle wird dann zur Bearbeitung aufgemacht und Sie können die Daten eingeben bzw. auswählen oder bearbeiten.
+Es gibt einige Eingabefelder-Typen, von denen die Eingabe abhängig ist. Insgesamt unterscheiden wir 4 Eingabefelder-Typen. Diese sind wie folgt beschrieben:
+
+* 	**Einfaches Eingabefeld** - in diesen Feldern sind die Eingaben direkt zu machen. Diese Felder sind im Prinzip weiß und Sie können direkt Texte / Zahlen / Daten / Beträge etc. eingeben. Beispiel ist ein Person - Vornamefeld. Sie geben direkt den Vorname als 
