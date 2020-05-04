@@ -180,7 +180,7 @@ Es gibt einige Eingabefelder-Typen, von denen die Eingabe abhängig ist. Insgesa
 
 •	**Einfaches Eingabefeld** - in diesen Feldern sind die Eingaben direkt zu machen. Diese Felder sind im Prinzip weiß und Sie können direkt Texte / Zahlen / Daten / Beträge etc. eingeben. Beispiel ist ein Person - Vornamefeld. Sie geben direkt den Vorname als Zeichenkette ein.
 
-> **Bemerkung:**: Die einfachen Eingabefelder können unterschiedliche Datentypen erfordern und ggf. wird die Eingabe bei falschem Format nicht angenommen. Sie kriegen eine Benachrichtigung mit dem richtigen Format - zum Beispiel erfordert ein Datum-Feld ein Datum aus dem Kalender in der Form JJJJ-MM-TT hh.mm.ss.000. In diesem Feld wird auch ein Kalender zur Auswahl gestellt. Diesen rufen Sie mit Klick auf das Symbol ganz rechts in dem Feld. Der Kalender wird aufgemacht und Sie können das Datum auswählen. 
+> **Bemerkung:** Die einfachen Eingabefelder können unterschiedliche Datentypen erfordern und ggf. wird die Eingabe bei falschem Format nicht angenommen. Sie kriegen eine Benachrichtigung mit dem richtigen Format - zum Beispiel erfordert ein Datum-Feld ein Datum aus dem Kalender in der Form JJJJ-MM-TT hh.mm.ss.000. In diesem Feld wird auch ein Kalender zur Auswahl gestellt. Diesen rufen Sie mit Klick auf das Symbol ganz rechts in dem Feld. Der Kalender wird aufgemacht und Sie können das Datum auswählen. 
 
 •	**Einfaches Eingabefeld mit Übersetzungsmöglichkeit** - diese Felder sind einfache Felder, die übersetzt werden können. Im Prinzip wird das System komplett auf Deutsch und Englisch zur Verfügung gestellt. Es kann an jeder Stelle, an der ein Feld in anderen Sprachen übersetzt werden kann, eine Übersetzung vorgenommen werde. Das komplette System ist also internationalisierbar. Nicht nur die Namen der Felder können übersetzt werden, sondern auch die Daten selbst. So können wir zum Beispiel in der deutschsprachigen Applikationsmaske den Bodenbelag-Typ “Teppich“ eingeben. Wenn wir dann auf Englisch umschalten, würde “floor surface -> carpet“ stehen. Falls Sie dieses Feld in anderer Sprache eingeben möchten, können Sie mit dem Button ![Qooxdoo Sprache Ikone](/uploads/v6/de-allgemein/vr6-icon-sprache.png "Sprache Ikone"), rechts in dem Eingabefeld, die Tabelle mit den freigeschalteten Sprachen aufrufen und dort für die gewünschten Sprachen die Übersetzung eingeben. Falls ein Feld oder Feldname in einer Sprache nicht übersetzt worden ist, wird das Feld in der voreingestellten Sprache (Deutsch/Englisch) angezeigt.
 
@@ -188,7 +188,7 @@ Es gibt einige Eingabefelder-Typen, von denen die Eingabe abhängig ist. Insgesa
 
 Zu dieser Gruppe zählen auch die **Ja / Nein** Eingaben.
 
-> **Bemerkung:**: Einige dieser Felder sind standardmäßig auf leer gesetzt - d.h. sie sind weder wahr noch falsch
+> **Bemerkung:** Einige dieser Felder sind standardmäßig auf leer gesetzt - d.h. sie sind weder wahr noch falsch
 
 •	**Eingabe von Referenzobjekten** - Einige Felder sind für die Eingabe von vorhandenen Objekten ausgelegt. Mit Klick auf das Feld wird die Liste mit den Objekten aufgemacht, die an dieser Stelle ausgewählt werden können. Diese Liste ist eine kleinere Version der großen Tabelle, die diese Referenzobjekte beinhaltet.
 
@@ -228,7 +228,7 @@ Die Bearbeitung erfolgt folgendermaßen: Objekt auswählen, dann auf den Funktio
 
 Am Schluss müssen Sie die Änderungen speichern - mit Klick auf den Button `Speichern`. Falls alle Pflichtfelder mit Daten gefüllt sind, wird das Objekt gespeichert, sonst werden Sie darauf hingewiesen, dass einige Pflichtfelder immer noch leer sind.
 
-> **Bemerkung:**: Sie können die Formularansicht schließen ohne alle Pflichtfelder einzugeben, indem Sie das Formular einfach über dem “X“ oben rechts schließen. So werden die Daten, wie an der Stelle eingegeben, gespeichert.
+> **Bemerkung:** Sie können die Formularansicht schließen ohne alle Pflichtfelder einzugeben, indem Sie das Formular einfach über dem “X“ oben rechts schließen. So werden die Daten, wie an der Stelle eingegeben, gespeichert.
 
 ## Ansehen
 
@@ -276,7 +276,7 @@ Sie können das Datum auch direkt als Text in dem Feld eingeben, aber Sie müsse
 
 Falls die Zeit angegeben werden soll, so ist sie in folgendem Format einzugeben: JJJJ-MM-TT hh.mm.ss.000.
 
-> **Bemerkung:**: Falls Datum und / oder Zeit - Daten importiert werden, sollen Sie auf die Formate achten
+> **Bemerkung:** Falls Datum und / oder Zeit - Daten importiert werden, sollen Sie auf die Formate achten
 
 ### **VisionR - Objekte / Referenzobjekte**
 
@@ -295,7 +295,7 @@ Die andere Möglichkeit ein Referenzobjekt anzugeben ist mittels der ` Auswähle
 
 ![Qooxdoo Applikationsmaske - Eingabe von Referenzobjekt über Auswahl-Funktion](/uploads/v6/de-allgemein/vr6-eingabe_ref_objekt_auswahl_1.png "Abbildung 21: Eingabe von Referenzobjekt über Auswahl-Funktion")
 
-> **Bemerkung:**: In dieser Ansicht können Sie Objekte bearbeiten, erstellen, löschen etc. Falls die Auswahl sich auf ein Objekt bezieht, das auch grafisch vorhanden ist, ist die Option “Aus Zeichnung“ eingeblendet.
+> **Bemerkung:** In dieser Ansicht können Sie Objekte bearbeiten, erstellen, löschen etc. Falls die Auswahl sich auf ein Objekt bezieht, das auch grafisch vorhanden ist, ist die Option “Aus Zeichnung“ eingeblendet.
 
 ### **Tabelle mit mehreren 	Referenzobjekten**
 
@@ -331,7 +331,7 @@ Falls ein Häkchen aktiviert ist, darf der Benutzer bzw. die Benutzergruppe die 
 
 Über das Funktionsmenü ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu_button_grau.png "Menü Button") können Sie zusätzliche Gruppe hinzufügen bzw. vorhandene entfernen. Dann können Sie die Zugriffsrechte für diese Gruppe anpassen.
 
-> **Bemerkung:**: Sie müssen ausreichende Rechte haben, um neue Benutzergruppen zu definieren, bearbeiten und entfernen. Deshalb ist es zu empfehlen, diese Aufgabe Ihren Administrator zu überlassen.
+> **Bemerkung:** Sie müssen ausreichende Rechte haben, um neue Benutzergruppen zu definieren, bearbeiten und entfernen. Deshalb ist es zu empfehlen, diese Aufgabe Ihren Administrator zu überlassen.
  
 
 
