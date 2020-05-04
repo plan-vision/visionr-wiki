@@ -333,4 +333,4 @@ Falls ein Häkchen aktiviert ist, darf der Benutzer bzw. die Benutzergruppe die 
 
 > **Bemerkung:**: Sie müssen ausreichende Rechte haben, um neue Benutzergruppen zu definieren, bearbeiten und entfernen. Deshalb ist es zu empfehlen, diese Aufgabe Ihren Administrator zu überlassen.
  
-> **Bemerkung:** Sie können die Parameter-Objektdefinition ignorieren und in dem Ausdruck die Angaben machen. Merken Sie, dass dann nur der festkodierte Ausdruck ausgeführt wird mit den gemachten Angaben. Zum Beispiel: ´insert_time > ${db.VALUE2VSQL(param.select_date)} – hier können Sie das param.selec_date mit dem Datum in folgendem Format eingeben: YYYY-MM-TT HH:MM:SS:MSS´
+> **Bemerkung:** Sie können die Parameter-Objektdefinition ignorieren und in dem Ausdruck die Angaben machen. Merken Sie, dass dann nur der festkodierte Ausdruck ausgeführt wird mit den gemachten Angaben. Zum Beispiel: `insert_time > ${db.VALUE2VSQL(param.select_date)} – hier können Sie das param.selec_date mit dem Datum in folgendem Format eingeben: YYYY-MM-TT HH:MM:SS:MSS`
