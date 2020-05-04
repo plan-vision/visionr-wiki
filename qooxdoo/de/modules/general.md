@@ -583,7 +583,7 @@ Mit Klick auf die Status-Zeile werden in dem Fenster die möglichen Werte angeze
 
 Das Gruppieren nach Status wird dann in der Gruppierungsspalte erscheinen. Wir fügen noch eine Gruppierung hinzu. Wir klicken auf ![Qooxdoo Applikationsmaske - Menü Button Neu](/uploads/v6/de-allgemein/vr6-button_neu.png "Menü Button Neu") `Neu` und dieses Mal wählen wir die Eigenschaft *Hersteller*. Die Hersteller werden aufgelistet und wir müssen die gewünschten aktivieren. Die Abbildung 35 zeigt den beschriebenen Vorgang.
 
-![Qooxdoo Applikationsmaske - Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen.png"Abbildung 35: Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen.“)
+![Qooxdoo Applikationsmaske - Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen.png" Abbildung 35: Weitere Gruppierung hinzufügen - Aufzüge “Schindler“ auswählen.“)
 
 Mit Einschalten dieser Gruppierung werden alle aktiven Anlagen der Marke “Schindler“ in dem ausgewählten Gebäude angezeigt. Alle anderen Anlagen werden ausgeblendet – siehe Abbildung 36.
 
