@@ -726,4 +726,89 @@ Ein Beispiel für eine geplante Aufgabe (Task) ist die Auswertung des Systems vo
 Die Erstellung und die Anpassung von solchen geplanten Aufgaben verbleiben bei den Administratoren.
 
 
+# Profile und Ansichten
+
+Jeder VisionR-Benutzer hat sein eigenes Profil. Nach dem Einloggen in dem System kann der Benutzer sein Profil anpassen. Diese Anpassungen bleiben gespeichert. Die Einstellungen sind individuell und nur für den Benutzer gültig.
+
+Die Ansichten sind eine neue Eigenschaft der Version 5.x, die es erlaubt, unterschiedliche Ansichten zu definieren und aufrufen. Die Ansichten werden gespeichert und jeder Benutzer kann die gewünschte Ansicht aufrufen und damit arbeiten. Außerdem hat jeder Benutzer die Möglichkeit, selber die Ansicht anzupassen bzw. neue zu definieren.
+
+
+## Benutzerprofile
+
+Jeder Benutzer hat ein Profil und kann die Einstellungen über den Funktionsbutton  ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu_button_grau.png "Menü Button") aufrufen - Abb. 44.
+
+![Qooxdoo Applikationsmaske - Profileeinstellungen - Login- und eigene Einstellungen](/uploads/v6/de-allgemein/vr6-profileinstellungen_1.png "Abbildung 44: Profileeinstellungen - Login- und eigene Einstellungen")
+
+Der Benutzer kann die Einstellungen selber anpassen oder diese Aufgabe dem Administrator überlassen. Die letzte Registerkarte mit den Programmeinstellungen ist vom Benutzer zu ignorieren, falls dem Benutzer die entsprechenden Kenntnisse fehlen. Diese Einstellungen können einmalig vom Administrator eingestellt werden.
+
+## Ansichten
+
+Die Ansichten sind ein wichtiger Teil für den Benutzer. Die Ansichten können einmalig angepasst werden und von dem Benutzer abgerufen. Der Benutzer kann auch selber die Ansicht anpassen und gegebenenfalls Neue erstellen.
+
+> **Bemerkung:** Die Ansichten sollten nur von fortgeschrittenen Benutzer angepasst werden, da diese für alle Benutzer gültig sind. Falls ein Benutzer eine Ansicht angepasst hat, kann das für die anderen Benutzer nachteilig sein. In solchen Fällen ist es vorteilhaft eine neue Ansicht zu definieren und ggf. zu nutzen, aber die Vorhandenen nicht zu ändern, falls diese Änderungen nicht mit allen Benutzern besprochen sind.
+
+Beispiele für Ansichten:
+
+### Alles 
+
+Alle Felder und Registerkarten sind eingeblendet und der Benutzer kann überall Daten eingeben, falls erforderlich. Diese Ansicht kann für die Benutzer zu komplex werden, die nur einen Teil der Eigenschaften pflegen. Die Felder können über die Suchfunktion schnell erreicht werden. Trotzdem bleiben viele Felder in der Praxis ungepflegt.
+
+![Qooxdoo Applikationsmaske - Formularansicht – Alles](/uploads/v6/de-allgemein/vr6-ansicht-alles-formular.png "Abbildung 45: Formularansicht – Alles")
+
+### Komplexe Ansicht 
+
+In dieser Ansicht werden alle Felder, die nie genutzt werden, einfach ausgeblendet, um die Ansicht zu vereinfachen. Trotzdem gibt es Benutzer, die diese Ansicht zu komplex finden, wenn diese nur einige Daten im System eingeben. (Dieses Szenario ist immer unterschiedlich). Für diese Benutzer erstellen wir die **einfache Ansicht** nur mit den Feldern, die auch regelmäßig bearbeitet werden.
+
+![Qooxdoo Applikationsmaske - Formularansicht - komplex](/uploads/v6/de-allgemein/vr6-ansicht-custom-formular1.png "Abbildung 46: Formularansicht - komplex")
+
+### Einfache Ansicht 
+
+Nur einige Felder sind eingeblendet, um die wichtigsten Daten in der **gewünschten Reihenfolge** einzugeben. Die Anordnung der Felder ist auch anpassbar.
+
+![Qooxdoo Applikationsmaske - Formularansicht - Einfach](/uploads/v6/de-allgemein/vr6-ansicht-einfach-formular1.png " Abbildung 47: Formularansicht - Einfach")
+
+Die Anordnung der Felder in den Registerkarten oder die Verschiebung von Eigenschaften ist bei der Ansicht-Anpassung möglich.
+
+### Ansicht anpassen
+
+Die Ansicht kann der Benutzer folgendermaßen anpassen:
+
+* **Felder ein- bzw. ausblenden** - jedes Feld oder jede Registerkarte (einschließlich ihrer Felder) kann ausgeblendet oder eingeblendet werden. Falls Pflichtfelder ausgeblendet werden sollen, müssen diese Felder in optionale Felder umgewandelt werden.
+
+Um ein Feld auszublenden bzw. anzupassen (Position, Registerkarte, Anordnung etc.), rufen Sie das Funktionsmenü für das Feld mit der rechten Maustaste auf der Feldbeschriftung auf, wie auf der folgenden Abbildung 48 gezeigt ist.
+
+![Qooxdoo Applikationsmaske - Eigenschaft “Händler“ ausblenden](/uploads/v6/de-allgemein/vr6-formular-eigenschaft_ausblenden.png "Abbildung 48: Eigenschaft “Händler“ ausblenden")
+
+In diesem Beispiel benötigen wir den „Händler“ der technischen Anlage nicht und wir werden das Feld einfach ausblenden. Mit der rechten Maustaste werden zuerst die Infos über dem Feld aufgelistet und darunter die Optionen für dieses Feld angezeigt. Wir können das Feld ein / ausblenden | erforderlich Ja / Nein | schreibgeschützt **Ja / Nein | Vor / Nach einer Eigenschaft | Kategorie** auswählen.
+Wir können das Feld immer wieder einblenden, falls diese Information gepflegt wird.
+
+* **Reihenfolge bzw. Position der Felder anpassen** - wo genau ein Eigenschaftsfeld positioniert ist, kann der Benutzer selber bestimmen und dazu auch die Kategorie (Registerkarten / Unterkategorien in den jeweiligen Registerkarten) ändern.
+
+Die Position passen Sie an, indem Sie mit rechter Maustaste das Menü aufrufen und für das gewünschte Feld die Option Verschieben nach / vor nutzen (Abbildung 48). In dem neu angezeigten Fenster geben Sie die Eigenschaft ein, die nach bzw. vor dem gewünschten Feld steht. Die Anordnung wird dementsprechend angepasst und das Feld wird an der gewünschten Stelle erscheinen.
+
+> **Bemerkung:** Achten Sie auf die Kategorien, falls Sie eine Eigenschaft verschieben. Die Option “vor bzw. nach“ fügt die Eigenschaft in der Kategorie des ausgewählten Feldes ein.
+
+Das Einschalten von Eigenschaften ist über die Bearbeitung der Ansicht möglich. Dafür klicken Sie auf Durchsuchen und wählen Sie die gewünschte Ansicht, die Sie bearbeiten wollen, und klicken Sie auf bearbeiten. In dem mehrfachen Feld Einstellungen fügen Sie die ausgeblendeten Felder, damit diese wieder sichtbar werden - Abb. 49
+
+![Qooxdoo Applikationsmaske - Eigenschaften einblende](/uploads/v6/de-allgemein/vr6-formular-eigenschaft_einblenden.png " Abbildung 49: Eigenschaften einblenden")
+
+* **Ansicht erstellen**
+
+Wenn Sie Felder ein- und ausblenden, können Sie durch Rechtsklick im rechten Bereich des Formulars den Menüeintrag „Ansicht speichern“ aufrufen. So wird eine neue Ansicht durch Eingabe des gewünschten Ansichtsnamens angelegt.
+
+Stellen Sie also die Felder ein bzw. aus, ordnen Sie dann die Felder und speichern Sie am Ende die neue Ansicht. Die Speicherung erfolgt folgendermaßen: Klicken Sie mit der rechten Maustaste irgendwo im Formular (kann auch auf Feldbeschriftung sein, wie auf Abb. 48). In der Unterkategorie **Formularansicht** sehen Sie die Optionen für Ansichten - sie können die Ansicht wechseln, speichern oder durchsuchen und bearbeiten.
+
+* **Objektvorschau**
+
+Die Objektvorschau ist auf fast allen Ebenen des Systems vorhanden. Überall, wo das Symbol ![Qooxdoo Applikationsmaske - Button Objektvorschau aus](/uploads/v6/de-allgemein/vr6-ikone-objektvorschau_aus.png "Button Objektvorschau aus") steht, heißt es, dass die Vorschau eingeschaltet ist. Mit Klick können Sie sie ausschalten.
+
+Für das Einschalten der Vorschau steht das Symbol ![Qooxdoo Applikationsmaske - Button Objektvorschau ein](/uploads/v6/de-allgemein/vr6-ikone-objektvorschau_ein.png "Button Objektvorschau ein") zur Verfügung.
+
+Eine Vorschau ist überall vorhanden, wo eine tabellarische Ansicht angezeigt wird - die folgenden Abbildungen 50 und 51 zeigen die Vorschau.
+
+![Qooxdoo Applikationsmaske - Objektvorschau eingeschaltet - in der Objekttabelle](/uploads/v6/de-allgemein/vr6-objektvorschau_ein_bsp1.png "Abbildung 50: Objektvorschau eingeschaltet - in der Objekttabelle")
+
+![Qooxdoo Applikationsmaske - Objektvorschau für Eigenschaftstabelle eingeschaltet](/uploads/v6/de-allgemein/vr6-objektvorschau_ein_eigenschaft_tabelle.png "Abbildung 51: Objektvorschau für Eigenschaftstabelle eingeschaltet")
+
+
  
