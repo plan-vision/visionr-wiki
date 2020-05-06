@@ -436,13 +436,16 @@ Suchen wir nun zum Beispiel den Errichter. Dann schreiben wir einfach in das Fel
 
 Mit Klick auf dem Button ![Qooxdoo Applikationsmaske - Button Filter](/uploads/v6/de-allgemein/vr6-button-filter.png "Button Filter") rufen Sie die gespeicherten Filter. Diese können Sie selber erstellen oder aus vorhandenen wählen bzw. bearbeiten und als neues speichern. Die Bedingung des Filters ist als Ausdruck einzugeben, der direkt die VisionR-Objekte zugreift. 
 Das Filtermenü wird mit Klick auf dem Button ![Qooxdoo Applikationsmaske - Button Filter](/uploads/v6/de-allgemein/vr6-button-filter.png "Button Filter") aufgerufen. Sie können ein Filter ein bzw. ausschalten, bearbeiten, löschen oder ein neues erstellen. Die zur Verfügung stehenden Filter werden in diesem Menü aufgelistet. Das Menü mit einem Filter sieht folgendermaßen aus:
-![Qooxdoo Applikationsmaske - Filter](/uploads/v6/de-allgemein/vr6-fillter1.png „Filter")
+
+![Qooxdoo Applikationsmaske - Filter](/uploads/v6/de-allgemein/vr6-fillter1.png "Filter")
+
 In unserem Beispiel haben wir nur ein Filter, das uns alle Zeichnungen auswählt, die innerhalb der letzten 24 Stunden aktualisiert wurden. Wir anschließend einige Beispiele, um die Filter besser zu beschreiben.
 
 ### Aufbau und Eingabefelder des Filters
 
 Das Filter hat einige Bausteine und einige Eingabefelder, die Sie beachten müssen. Die wichtigsten sind auf die folgende Abbildung angezeigt: 
-![Qooxdoo Applikationsmaske – Filter Aufbau](/uploads/v6/de-allgemein/vr6-fillter_aufbau.png „Filter Aufbau")
+
+![Qooxdoo Applikationsmaske - Filter Aufbau](/uploads/v6/de-allgemein/vr6-fillter_aufbau.png "Filter Aufbau")
 
 *	Der **Name** ist *optional*, aber es ist sinnvoll einen Namen zu geben, sonst wird nur der Code angezeigt. 
 * In dem Feld **Für Objektdefinition** geben Sie die Objektdefinition, wo dieses Filter platziert wird und zum Auswahl zur Verfügung steht, also zu welcher Objektdefinition es gehört. Zum Beispiel, wie hier auf der Abbildung zu sehen ist, steht als Objektdefinition *Zeichnung*. Das heißt, dass das Filter in dem Menü innerhalb des Moduls Grafik bei den Objekten aus Typ Zeichnung angezeigt wird. 
@@ -456,7 +459,7 @@ Das Filter hat einige Bausteine und einige Eingabefelder, die Sie beachten müss
 >**Beispiel 1:** **Wir möchten die Zeichnungen, die innerhalb der letzten 24 Stunden aktualisiert wurden, ausfiltern**.
 Wir müssen dieses Filter zuerst erstellen und dann können wir es benutzen oder den anderen Benutzer zur Verfügung zu stellen. Mit Klick auf die Filter-Ikone ![Qooxdoo Applikationsmaske - Button Filter](/uploads/v6/de-allgemein/vr6-button-filter.png "Button Filter") öffnen wir das Menü und danach geben wir `NEU`. Ein Formular wird angezeigt, indem wir die wichtigsten Eingaben machen. Das Formularfenster sieht folgendermaßen aus:
 
-![Qooxdoo Applikationsmaske – Filter](/uploads/v6/de-allgemein/vr6-fillter2.png „Filter")
+![Qooxdoo Applikationsmaske - Filter](/uploads/v6/de-allgemein/vr6-fillter2.png "Filter")
 
 Wichtig sind die Felder **Ausdruck** und **Für Objektdefinition**, sowie auch der Name. Der Name wird in dem Filtermenü angezeigt. 
 *	**Ausdruck:** in unserem Beispiel möchten wir ein Zeitraum setzen. Der Ausdruck bedeutet hier: 
