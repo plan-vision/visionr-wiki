@@ -533,7 +533,7 @@ Die Objekte in dem System können andere VisionR-Objekte beinhalten. Einige Eige
 
 Die folgende Abbildung 33 zeigt eine detaillierte Druckansicht für einige ausgewählte Verträge.
 
-![Qooxdoo Applikationsmaske –Druckansicht Details](/uploads/v6/de-allgemein/vr6-druckansicht_details.png „Abbildung 33: Druckansicht Details")
+![Qooxdoo Applikationsmaske - Druckansicht Details](/uploads/v6/de-allgemein/vr6-druckansicht_details.png "Abbildung 33: Druckansicht Details")
 
 Die Leistungen werden in diesem Fall nacheinander aufgelistet. In der allgemeinen Druckansicht, wird die Anzahl Leistungen in der Spalte eingetragen.
 
