@@ -335,6 +335,7 @@ Falls ein Häkchen aktiviert ist, darf der Benutzer bzw. die Benutzergruppe die 
 
 
 # Funktionen
+
 Im System VisionR sind zahlreiche Funktionen enthalten. In diesem Kapitel werden die allgemeinen Funktionen und eine Auswahl an spezifischen Funktionen beschrieben. Die Funktionen, die tiefere Systemkenntnisse benötigen, werden in diesem Dokument nicht beschrieben, sondern nach Bedarf von den Administratoren zur Verfügung gestellt. Die hier beschriebenen Funktionen stehen in der Leiste, die auf der Abbildung 3 gezeigt ist.
 
 
@@ -519,8 +520,7 @@ Sie können die Summen für die Objekte anzeigen lassen. Falls keine Objekte aus
 
 Mit dieser Option werden die Daten (wieder die aus dem obigen Beispiel ausgewählten) in einer passenden Druckansicht verpackt und zum Drucken bereitgestellt - die folgende Abbildung 32 stellt diese Option dar. Hier werden die ausgewählten Objekte in einer Tabelle verpackt und bestimmte Summen, Zahlen etc. unten angezeigt. Sie können mit Klick auf den Button Drucken die vorbereiteten Daten drucken.
 
-![Qooxdoo Applikationsmaske - Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt](/uploads/v6/de-allgemein/vr6-druckansicht_mit_Daten.png „Abbildung 32: Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt")
-![Qooxdoo Applikationsmaske - Druckansicht Details](/uploads/v6/de-allgemein/vr6-druckansicht_details.png "Abbildung 33: Druckansicht Details")
+![Qooxdoo Applikationsmaske - Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt](/uploads/v6/de-allgemein/vr6-druckansicht_mit_Daten.png "Abbildung 32: Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt")
 
 ### Druckansicht mit Editor
 
