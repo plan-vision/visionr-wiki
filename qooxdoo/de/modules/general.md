@@ -514,7 +514,7 @@ Sie haben einige Druckoptionen zur Verfügung:
 
 Sie können die Summen für die Objekte anzeigen lassen. Falls keine Objekte ausgewählt sind, werden die Summen für alle Objekte gebildet, die sich in dem Arbeitsfenster befinden. Falls Sie nur bestimmte Objekte ausgewählt haben, werden nur die Summen dieser Objekte gebildet und angezeigt. Die folgende Abbildung 31 zeigt die Summen für die ausgewählten Brandmeldeanlagen in dem Gebäude 017 aus unserem Demoprojekt.
 
-![Qooxdoo Applikationsmaske – Summen anzeigen für ausgewählte Daten](/uploads/v6/de-allgemein/vr6-summen1.png „Abbildung 31: Summen anzeigen für ausgewählte Daten")
+![Qooxdoo Applikationsmaske - Summen anzeigen für ausgewählte Daten](/uploads/v6/de-allgemein/vr6-summen1.png "Abbildung 31: Summen anzeigen für ausgewählte Daten")
 
 ### Druckansicht
 
