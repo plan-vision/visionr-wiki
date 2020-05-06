@@ -478,7 +478,7 @@ Wir haben hier als Parameter Periode Datum ausgewählt. Dieser Auswahl bewirkt s
 Die Daten werden übernommen und in dem Ausdruck berücksichtigt. Für unser Beispiel geben wir als Beginndatum 01.01.2016 und als Enddatum 01.02.2016 (hier ist kleiner als Vergleichsoperation angegeben, deshalb 01.02, um 31.01 einzuschließen.
 Das Formular sieht wie gezeigt:
 
-![Qooxdoo Applikationsmaske – Filter](/uploads/v6/de-allgemein/vr6-fillter3.png „Filter")
+![Qooxdoo Applikationsmaske - Filter](/uploads/v6/de-allgemein/vr6-fillter3.png "Filter")
 
 Wenn wir das Filter auswählen, werden wir nach dem Beginn- und Enddatum gefragt. Die Eingabe erfolgt erst bei der Auswahl des Filters. Dann werden die eingegebenen Daten als Parameter übernommen. 
 {.is-info}
