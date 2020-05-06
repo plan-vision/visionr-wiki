@@ -521,7 +521,9 @@ Mit dieser Option werden die Daten (wieder die aus dem obigen Beispiel ausgewäh
 
 ![Qooxdoo Applikationsmaske – Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt](/uploads/v6/de-allgemein/vr6-druckansicht_mit_Daten.png „Abbildung 32: Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt")
 
-### Druckansicht mit Editor - dieselbe Option wie zuvor beschrieben mit einem integrierten Editor im Ansichtsfenster, damit Sie Ihre Daten und die Ansicht / die Anordnung etc. direkt vor dem Drucken bearbeiten können.
+### Druckansicht mit Editor
+
+Dieselbe Option wie zuvor beschrieben mit einem integrierten Editor im Ansichtsfenster, damit Sie Ihre Daten und die Ansicht / die Anordnung etc. direkt vor dem Drucken bearbeiten können.
 
 ### Druckansicht Details 
 
@@ -530,6 +532,7 @@ Diese Druckansicht ist eine Erweiterung der normalen Druckansicht mit detaillier
 Die Objekte in dem System können andere VisionR-Objekte beinhalten. Einige Eigenschaften sind auch mehrfach verknüpft. Bei der normalen Druckansicht werden nur die Objekteigenschaften aufgelistet. In der Ansicht “Details“ werden die verknüpften Objekte in den Zellen detailliert angezeigt.
 
 Die folgende Abbildung 33 zeigt eine detaillierte Druckansicht für einige ausgewählte Verträge.
+
 ![Qooxdoo Applikationsmaske –Druckansicht Details](/uploads/v6/de-allgemein/vr6-druckansicht_details.png „Abbildung 33: Druckansicht Details")
 
 Die Leistungen werden in diesem Fall nacheinander aufgelistet. In der allgemeinen Druckansicht, wird die Anzahl Leistungen in der Spalte eingetragen.
