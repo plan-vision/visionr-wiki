@@ -409,19 +409,19 @@ Ein sehr großer Vorteil des Systems VisionR ist die Suche nicht nur in den Obje
 >**Beispiel:** in unserem Gebäude 017 haben wir zurzeit ca. 59 technischen Anlagen (die Anzahl steht in den Klammern hinter dem Gebäude in der Baumstruktur). Die folgende Abbildung 26 zeigt unsere Anlagen. Wir können sehen, dass einige Anlagen das Baujahr 2003 und einige 2002 haben. Wir können die Spalte auf Baujahr ändern und beispielhaft nach Anlagen mit Baujahr 2002 suchen.
 {.is-info}
 
-![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp2.png " Abbildung 26: Alle technischen Anlagen im Gebäude 017")
+![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp2.png "Abbildung 26: Alle technischen Anlagen im Gebäude 017")
 
 Die Abbildung 27 zeigt das Ergebnis - Anlagen, die 2002 gebaut wurden. Insgesamt gibt es 19 Anlagen.
 
-![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017, die im Jahr 2002 gebaut sind](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp3.png „Abbildung 27: Alle technischen Anlagen im Gebäude 017, die im Jahr 2002 gebaut sind")
+![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017, die im Jahr 2002 gebaut sind](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp3.png "Abbildung 27: Alle technischen Anlagen im Gebäude 017, die im Jahr 2002 gebaut sind")
 
 Wir haben hier auch die Spalte “Errichter“ eingeschaltet. Jetzt machen wir die Suche ein bisschen komplexer - wir wollen alle Anlagen anzeigen lassen, deren Errichter sich in Berlin befindet. Dafür wählen wir die Spalte, in der die Suche laufen wird und dann gehen wir auf das Feld **Errichter  Ort  Name** und wählen diese Eigenschaft. Stellen die Option „beginnt mit“ ein und schreiben Sie in der Suchleiste “Berlin“, wie auf Abbildung 28 dargestellt:
 
-![Qooxdoo Applikationsmaske - Ort des Errichters der Anlage soll gleich “Berlin“ sein](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp4.png „Abbildung 28: Ort des Errichters der Anlage soll gleich “Berlin“ sein")
+![Qooxdoo Applikationsmaske - Ort des Errichters der Anlage soll gleich “Berlin“ sein](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp4.png "Abbildung 28: Ort des Errichters der Anlage soll gleich “Berlin“ sein")
 
 Dann sieht das Ergebnis folgendermaßen aus:
 
-![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017, deren Errichter sich in Berlin befindet](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp5.png „Abbildung 29: Alle technischen Anlagen im Gebäude 017, deren Errichter sich in Berlin befindet")
+![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017, deren Errichter sich in Berlin befindet](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp5.png "Abbildung 29: Alle technischen Anlagen im Gebäude 017, deren Errichter sich in Berlin befindet")
 
 Sie werden bemerken, dass alle Anlagen, deren Errichter “Dekra“ gewesen ist, nicht mehr in der Liste stehen, da wir eingestellt haben, das Unternehmen Dekra sei in München positioniert. Wenn wir also nach Errichter-Ort gleich “München“ suchen, werden diese als Ergebnisse angezeigt.
 
@@ -431,7 +431,8 @@ Eine weitere Suchmöglichkeit nach bestimmten Eigenschaften ist auch in der Form
 
 Suchen wir nun zum Beispiel den Errichter. Dann schreiben wir einfach in das Feld “Errichter“ und mit Klick auf das Ergebnis wird das Feld hervorgehoben - Abb. 30.
 
-![Qooxdoo Applikationsmaske - Suche nach Objekteigenschaft (Eingabefeld)")](/uploads/v6/de-allgemein/vr6-suche_eigenschaft.png „Abbildung 30: Suche nach Objekteigenschaft (Eingabefeld)")
+![Qooxdoo Applikationsmaske - Suche nach Objekteigenschaft (Eingabefeld)"](/uploads/v6/de-allgemein/vr6-suche_eigenschaft.png „Abbildung 30: Suche nach Objekteigenschaft (Eingabefeld)")
+![Qooxdoo Applikationsmaske - Suche nach Objekteigenschaft (Eingabefeld)"](/uploads/v6/de-allgemein/vr6-suche_eigenschaft.png "Abbildung 30: Suche nach Objekteigenschaft (Eingabefeld)")
 
 ## Filter
 
