@@ -589,7 +589,7 @@ Das Gruppieren nach Status wird dann in der Gruppierungsspalte erscheinen. Wir f
 
 Mit Einschalten dieser Gruppierung werden alle aktiven Anlagen der Marke “Schindler“ in dem ausgewählten Gebäude angezeigt. Alle anderen Anlagen werden ausgeblendet – siehe Abbildung 36.
 
-![Qooxdoo Applikationsmaske - Das Ergebnis unserer beispielhaften Gruppierung](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen_ergebnis.png "Abbildung 36: Das Ergebnis unserer beispielhaften Gruppierung")
+
 
 Die Gruppierung heben Sie mit demselben Button ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") auf.
 
@@ -599,7 +599,7 @@ Mit dieser Funktion können Sie Daten transformieren. Zuerst müssen Sie die Dat
 
 Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Button Transformieren](/uploads/v6/de-allgemein/vr6-button-transformieren.png "Button Transformieren") wird ein neues Fenster angezeigt und Sie können die ausgewählten Daten ansehen, wie auf Abbildung 37 dargestellt - wir beziehen uns wieder auf die technischen Anlagen.
 
-![Qooxdoo Applikationsmaske - Das Fenster mit den Einstellungen und Funktionen für Datentransformation](/uploads/v6/de-allgemein/vr6-transformieren_einstellungen.png "Abbildung 37: Das Fenster mit den Einstellungen und Funktionen für Datentransformation“)
+![Qooxdoo Applikationsmaske - Das Fenster mit den Einstellungen und Funktionen für Datentransformation](/uploads/v6/de-allgemein/vr6-transformieren_einstellungen.png "Abbildung 37: Das Fenster mit den Einstellungen und Funktionen für DatentransformationAbbildung 37: Das Fenster mit den Einstellungen und Funktionen für Datentransformation")
 
 In diesem Fenster geben wir die *Eingangs-* und die *Ausgangseigenschaft*, d.h. wir transformieren eine Eigenschaft nach bestimmten Kriterien. Die Spalten in der Tabelle zeigen sowohl die Eigenschaften der ausgewählten Objekte, als auch die Eingangs- und Ausgangseigenschaften (Spalten) und das Ergebnis. Wir können hier das Ergebnis betrachten und anschließend die Daten transformieren lassen, indem wir den Button `Anwenden` klicken.
 
@@ -658,7 +658,7 @@ Die Dokumente im System VisionR können Versionen haben. Wenn ein Dokument oder 
 
 **Das Prinzip** - alle Dokumente werden zentral auf dem Server gelagert. Die Dokumente sind wie alle anderen VisionR Objekte mit entsprechenden Zugriffsrechten versehen. Die Verknüpfung zu einem Dokument oder zu einer Datei wird an der Stelle gemacht, wo diese Verknüpfung nötig ist. Die Dokumente müssen zuerst im System hoch geladen werden und erst dann können sie verknüpft werden. Für die Verwaltung dieser Dokumente bzw. Dateien gib es das **Dokumentenmanagement**.
 
-Das Dokumentenmanagement rufen Sie über die Indexseite oder über den Startbutton  ![Qooxdoo Applikationsmaske - Startbutton VisionR](/uploads/v6/de-allgemein/vr6-button-visionr.png "Startbutton VisionR") **Module  Dokumentenmanagement.** Ein neues Fenster wird aufgemacht, wo Sie die Dateien und die Dokumente verwalten können. Die Ansicht ist wie bei allen alphanumerischen Modulen - Abbildung 40.
+Das Dokumentenmanagement rufen Sie über die Indexseite oder über den Startbutton  ![Qooxdoo Applikationsmaske - Startbutton VisionR](/uploads/v6/de-allgemein/vr6-button-visionr.png "Startbutton VisionR") **Module -> Dokumentenmanagement.** Ein neues Fenster wird aufgemacht, wo Sie die Dateien und die Dokumente verwalten können. Die Ansicht ist wie bei allen alphanumerischen Modulen - Abbildung 40.
 
 ![Qooxdoo Applikationsmaske - Dokumentenmanagement - Übersicht](/uploads/v6/de-allgemein/vr6-dokumentenmanagement_bsp1.png " Abbildung 40: Dokumentenmanagement - Übersicht")
 
@@ -684,7 +684,7 @@ In den meisten Fällen sind immer Daten vorhanden, die in das System importiert 
 
 Deshalb besteht die Möglichkeit, dass die Importe in VisionR an die Daten angepasst werden, die importiert werden sollen. Diese Anpassung ist nicht kompliziert, aber am Anfang ist es sinnvoll, die Anpassung dem Administrator zu überlassen. Nachdem die Vorlagen für den Importvorgang erstellt bzw. angepasst sind, kann der Benutzer die Daten selber importieren / aktualisieren.
 
-Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Startbutton VisionR](/uploads/v6/de-allgemein/vr6-button-visionr.png "Startbutton VisionR") **Module  Datenaustausch** wird das Datenaustauschfenster aufgemacht und die gespeicherten Importe und Exporte angezeigt. Falls der Importvorgang schon erstellt bzw. angepasst ist, kann er ausgeführt werden. Dafür wählen Sie den gewünschten Vorgang und klicken Sie auf ![Qooxdoo Applikationsmaske - Button Ausführen](/uploads/v6/de-allgemein/vr6-button-ausfuehren.png "Button Ausführen") `Ausführen`.
+Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Startbutton VisionR](/uploads/v6/de-allgemein/vr6-button-visionr.png "Startbutton VisionR") **Module -> Datenaustausch** wird das Datenaustauschfenster aufgemacht und die gespeicherten Importe und Exporte angezeigt. Falls der Importvorgang schon erstellt bzw. angepasst ist, kann er ausgeführt werden. Dafür wählen Sie den gewünschten Vorgang und klicken Sie auf ![Qooxdoo Applikationsmaske - Button Ausführen](/uploads/v6/de-allgemein/vr6-button-ausfuehren.png "Button Ausführen") `Ausführen`.
 
 Abbildung 42 zeigt unsere Datenaustausch-Vorgänge:
 
