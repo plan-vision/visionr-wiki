@@ -334,6 +334,7 @@ Falls ein Häkchen aktiviert ist, darf der Benutzer bzw. die Benutzergruppe die 
 > **Bemerkung:** Sie müssen ausreichende Rechte haben, um neue Benutzergruppen zu definieren, bearbeiten und entfernen. Deshalb ist es zu empfehlen, diese Aufgabe Ihren Administrator zu überlassen.
 
 
+
 # Funktionen
 
 Im System VisionR sind zahlreiche Funktionen enthalten. In diesem Kapitel werden die allgemeinen Funktionen und eine Auswahl an spezifischen Funktionen beschrieben. Die Funktionen, die tiefere Systemkenntnisse benötigen, werden in diesem Dokument nicht beschrieben, sondern nach Bedarf von den Administratoren zur Verfügung gestellt. Die hier beschriebenen Funktionen stehen in der Leiste, die auf der Abbildung 3 gezeigt ist.
