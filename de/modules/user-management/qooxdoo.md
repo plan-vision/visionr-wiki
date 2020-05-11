@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Verwaltung der Benutzerrollen und Benutzer -->
 
 Deutsch | [English](/en/modules/user-management)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide)  > [Benutzerverwaltung](/de/user-management) > Benutzerverwaltung alte Oberfläche Qooxdoo bis einschlißlich v.6x*
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide)  > [Benutzerverwaltung](/de/modules/user-management) > Benutzerverwaltung alte Oberfläche Qooxdoo bis einschlißlich v.6x*
 
 # Allgemeine Beschreibung
 
