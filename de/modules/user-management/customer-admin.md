@@ -8,7 +8,7 @@ Deutsch | [English](/en/modules/user-management)
 
 Die Benutzerverwaltung rufen Sie aus der Indexseite, indem Sie die Option **Administration** -> **System** auswählen. Dann werden die Systemmodule angezeigt. Klicken Sie auf ***Benutzerverwaltung***, wie auf dem Screenshot gezeigt ist.
 
-![Qooxdoo Applikationsmaske - Benutzerverwaltung öffnen](/uploads/de-administration/de-user_management/vr7-benutzerverwaltung-1.png " Benutzerverwaltung öffnen")
+![Qooxdoo Applikationsmaske - Benutzerverwaltung öffnen](/uploads/de-administration/de-user_management/vr7-benutzerverwaltung-1.png "Benutzerverwaltung öffnen")
 
 Die Benutzer können unterschiedliche Benutzerrollen haben und der Kundenadministrator kann diese Rollen anpassen und vergeben. 
 Eine Benutzerrolle kann unterschiediche Zugriffe auf unterschidlichen Ebenen haben. Die Benutzerrollen können vererbt werden und sowohl auch können sie auch weitergeleitet werden. So wird der Zugriff sogar auf Objektebene verfeinert werden. 
@@ -22,23 +22,25 @@ Voreingestellt sind die Zugriffe für ** Lesen / Schreiben / Verwalten (Administ
 
 Die Applikationsmaske des Systemmoduls wird geladen. Links stehen die Objekte und die Filter zur Verfügung. Für die Kundenadministratoren sind in den meisten Fällen die Benutzer und die Benutzerrollen ausreichend, um die Benutzerrechte fein anzupassen.
 
-Die folgende Abbildung zeigt die Tabelle mit den Benutzern. 
+Die folgende Abbildung zeigt die Tabelle mit den Benutzern. Die Namen und  die Benutzer sind für das Beispiel ausgeblendet. 
 
-![Qooxdoo Applikationsmaske - Benutzerliste](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-2.png " Benutzerliste")
+![Qooxdoo Applikationsmaske - Benutzertabelle](/uploads/de-administration/de-user_management/vr7-benutzerverwaltung-2.png "Benutzertabelle")
 
 ## Benutzer bearbeiten
 
-Aus der Liste den gewünschten Benutzer auswählen und mit der rechten Maustaste auf `Bearbeiten` klicken. Das Benutzer-Formularfenster wird geöffnet:
+Aus der Liste den/die gewünschten Benutzer auswählen und mit der rechten Maustaste auf `Bearbeiten` klicken. Das Benutzer-Formularfenster wird geöffnet:
 
-![Qooxdoo Applikationsmaske – Benutzer bearbeiten](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-3.png „Benutzer bearbeiten")
+![Qooxdoo Applikationsmaske - Benutzer bearbeiten](/uploads/de-administration/de-user_management/vr7-benutzerverwaltung-3.png "Benutzer bearbeiten")
+
+Alternativ können Sie mit Doppelklick auf eine Zeile die Objektvorschau 
 
 Hier geben Sie die **Benutzer-ID, Passwort, Person und Gruppe** an. Die Gruppe beinhaltet die wirksamen Einstellungen für die Berechtigung. Mit Klick auf den Menübutton in dem Feld **Gruppe** wird die Gruppenhierarchie der vorhandenen Berechtigungen angezeigt:
 
-![Qooxdoo Applikationsmaske – Benutzer bearbeiten](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-4.png „Benutzer bearbeiten")
+![Qooxdoo Applikationsmaske - Benutzerverwaltung öffnen](/uploads/de-administration/de-user_management/vr7-benutzerverwaltung-2.png " Benutzerverwaltung öffnen")
 
 Die Eigenschaften der Gruppe sehen Sie, wenn Sie die Gruppe öffnen – dafür klicken Sie auf den Menübutton `Bearbeiten` oder auf `Ansehen`, um die Gruppendetails zu sehen.
 
-![Qooxdoo Applikationsmaske – Benutzer bearbeiten](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-5.png „Benutzer bearbeiten")
+![Qooxdoo Applikationsmaske - Benutzerverwaltung öffnen](/uploads/de-administration/de-user_management/vr7-benutzerverwaltung-2.png " Benutzerverwaltung öffnen")
 
 Sie können in der Gruppe die Berechtigungen einstellen, ggf. welche Berechtigungen diese Gruppe an anderen weiterleitet oder welche sie von anderen übernimmt.
 
