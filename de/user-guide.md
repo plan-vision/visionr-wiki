@@ -14,7 +14,7 @@ Deutsch | [English](/en/user-guide)
 * Schließmanagement
 * [Reservierungen](/de/modules/reservations)
 # Systemmodule
-* Benutzerverwaltung
+* [Benutzerverwaltung](/de/modules/user-management)
 * Berichte
 * Datenimport/-export
 * Geplante Tasks

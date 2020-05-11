@@ -334,7 +334,9 @@ Falls ein Häkchen aktiviert ist, darf der Benutzer bzw. die Benutzergruppe die 
 > **Bemerkung:** Sie müssen ausreichende Rechte haben, um neue Benutzergruppen zu definieren, bearbeiten und entfernen. Deshalb ist es zu empfehlen, diese Aufgabe Ihren Administrator zu überlassen.
 
 
+
 # Funktionen
+
 Im System VisionR sind zahlreiche Funktionen enthalten. In diesem Kapitel werden die allgemeinen Funktionen und eine Auswahl an spezifischen Funktionen beschrieben. Die Funktionen, die tiefere Systemkenntnisse benötigen, werden in diesem Dokument nicht beschrieben, sondern nach Bedarf von den Administratoren zur Verfügung gestellt. Die hier beschriebenen Funktionen stehen in der Leiste, die auf der Abbildung 3 gezeigt ist.
 
 
@@ -407,19 +409,19 @@ Ein sehr großer Vorteil des Systems VisionR ist die Suche nicht nur in den Obje
 >**Beispiel:** in unserem Gebäude 017 haben wir zurzeit ca. 59 technischen Anlagen (die Anzahl steht in den Klammern hinter dem Gebäude in der Baumstruktur). Die folgende Abbildung 26 zeigt unsere Anlagen. Wir können sehen, dass einige Anlagen das Baujahr 2003 und einige 2002 haben. Wir können die Spalte auf Baujahr ändern und beispielhaft nach Anlagen mit Baujahr 2002 suchen.
 {.is-info}
 
-![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp2.png " Abbildung 26: Alle technischen Anlagen im Gebäude 017")
+![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp2.png "Abbildung 26: Alle technischen Anlagen im Gebäude 017")
 
 Die Abbildung 27 zeigt das Ergebnis - Anlagen, die 2002 gebaut wurden. Insgesamt gibt es 19 Anlagen.
 
-![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017, die im Jahr 2002 gebaut sind](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp3.png „Abbildung 27: Alle technischen Anlagen im Gebäude 017, die im Jahr 2002 gebaut sind")
+![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017, die im Jahr 2002 gebaut sind](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp3.png "Abbildung 27: Alle technischen Anlagen im Gebäude 017, die im Jahr 2002 gebaut sind")
 
-Wir haben hier auch die Spalte “Errichter“ eingeschaltet. Jetzt machen wir die Suche ein bisschen komplexer - wir wollen alle Anlagen anzeigen lassen, deren Errichter sich in Berlin befindet. Dafür wählen wir die Spalte, in der die Suche laufen wird und dann gehen wir auf das Feld **Errichter  Ort  Name** und wählen diese Eigenschaft. Stellen die Option „beginnt mit“ ein und schreiben Sie in der Suchleiste “Berlin“, wie auf Abbildung 28 dargestellt:
+Wir haben hier auch die Spalte “Errichter“ eingeschaltet. Jetzt machen wir die Suche ein bisschen komplexer - wir wollen alle Anlagen anzeigen lassen, deren Errichter sich in Berlin befindet. Dafür wählen wir die Spalte, in der die Suche laufen wird und dann gehen wir auf das Feld **Errichter -> Ort -> Name** und wählen diese Eigenschaft. Stellen die Option „beginnt mit“ ein und schreiben Sie in der Suchleiste “Berlin“, wie auf Abbildung 28 dargestellt:
 
-![Qooxdoo Applikationsmaske - Ort des Errichters der Anlage soll gleich “Berlin“ sein](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp4.png „Abbildung 28: Ort des Errichters der Anlage soll gleich “Berlin“ sein")
+![Qooxdoo Applikationsmaske - Ort des Errichters der Anlage soll gleich “Berlin“ sein](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp4.png "Abbildung 28: Ort des Errichters der Anlage soll gleich “Berlin“ sein")
 
 Dann sieht das Ergebnis folgendermaßen aus:
 
-![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017, deren Errichter sich in Berlin befindet](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp5.png „Abbildung 29: Alle technischen Anlagen im Gebäude 017, deren Errichter sich in Berlin befindet")
+![Qooxdoo Applikationsmaske - Alle technischen Anlagen im Gebäude 017, deren Errichter sich in Berlin befindet](/uploads/v6/de-allgemein/vr6-suche_tiefe_bsp5.png "Abbildung 29: Alle technischen Anlagen im Gebäude 017, deren Errichter sich in Berlin befindet")
 
 Sie werden bemerken, dass alle Anlagen, deren Errichter “Dekra“ gewesen ist, nicht mehr in der Liste stehen, da wir eingestellt haben, das Unternehmen Dekra sei in München positioniert. Wenn wir also nach Errichter-Ort gleich “München“ suchen, werden diese als Ergebnisse angezeigt.
 
@@ -429,19 +431,22 @@ Eine weitere Suchmöglichkeit nach bestimmten Eigenschaften ist auch in der Form
 
 Suchen wir nun zum Beispiel den Errichter. Dann schreiben wir einfach in das Feld “Errichter“ und mit Klick auf das Ergebnis wird das Feld hervorgehoben - Abb. 30.
 
-![Qooxdoo Applikationsmaske - Suche nach Objekteigenschaft (Eingabefeld)")](/uploads/v6/de-allgemein/vr6-suche_eigenschaft.png „Abbildung 30: Suche nach Objekteigenschaft (Eingabefeld)")
+![Qooxdoo Applikationsmaske - Suche nach Objekteigenschaft (Eingabefeld)"](/uploads/v6/de-allgemein/vr6-suche_eigenschaft.png "Abbildung 30: Suche nach Objekteigenschaft (Eingabefeld)")
 
 ## Filter
 
 Mit Klick auf dem Button ![Qooxdoo Applikationsmaske - Button Filter](/uploads/v6/de-allgemein/vr6-button-filter.png "Button Filter") rufen Sie die gespeicherten Filter. Diese können Sie selber erstellen oder aus vorhandenen wählen bzw. bearbeiten und als neues speichern. Die Bedingung des Filters ist als Ausdruck einzugeben, der direkt die VisionR-Objekte zugreift. 
 Das Filtermenü wird mit Klick auf dem Button ![Qooxdoo Applikationsmaske - Button Filter](/uploads/v6/de-allgemein/vr6-button-filter.png "Button Filter") aufgerufen. Sie können ein Filter ein bzw. ausschalten, bearbeiten, löschen oder ein neues erstellen. Die zur Verfügung stehenden Filter werden in diesem Menü aufgelistet. Das Menü mit einem Filter sieht folgendermaßen aus:
-![Qooxdoo Applikationsmaske - Filter](/uploads/v6/de-allgemein/vr6-fillter1.png „Filter")
+
+![Qooxdoo Applikationsmaske - Filter](/uploads/v6/de-allgemein/vr6-fillter1.png "Filter")
+
 In unserem Beispiel haben wir nur ein Filter, das uns alle Zeichnungen auswählt, die innerhalb der letzten 24 Stunden aktualisiert wurden. Wir anschließend einige Beispiele, um die Filter besser zu beschreiben.
 
 ### Aufbau und Eingabefelder des Filters
 
 Das Filter hat einige Bausteine und einige Eingabefelder, die Sie beachten müssen. Die wichtigsten sind auf die folgende Abbildung angezeigt: 
-![Qooxdoo Applikationsmaske – Filter Aufbau](/uploads/v6/de-allgemein/vr6-fillter_aufbau.png „Filter Aufbau")
+
+![Qooxdoo Applikationsmaske - Filter Aufbau](/uploads/v6/de-allgemein/vr6-fillter_aufbau.png "Filter Aufbau")
 
 *	Der **Name** ist *optional*, aber es ist sinnvoll einen Namen zu geben, sonst wird nur der Code angezeigt. 
 * In dem Feld **Für Objektdefinition** geben Sie die Objektdefinition, wo dieses Filter platziert wird und zum Auswahl zur Verfügung steht, also zu welcher Objektdefinition es gehört. Zum Beispiel, wie hier auf der Abbildung zu sehen ist, steht als Objektdefinition *Zeichnung*. Das heißt, dass das Filter in dem Menü innerhalb des Moduls Grafik bei den Objekten aus Typ Zeichnung angezeigt wird. 
@@ -455,7 +460,7 @@ Das Filter hat einige Bausteine und einige Eingabefelder, die Sie beachten müss
 >**Beispiel 1:** **Wir möchten die Zeichnungen, die innerhalb der letzten 24 Stunden aktualisiert wurden, ausfiltern**.
 Wir müssen dieses Filter zuerst erstellen und dann können wir es benutzen oder den anderen Benutzer zur Verfügung zu stellen. Mit Klick auf die Filter-Ikone ![Qooxdoo Applikationsmaske - Button Filter](/uploads/v6/de-allgemein/vr6-button-filter.png "Button Filter") öffnen wir das Menü und danach geben wir `NEU`. Ein Formular wird angezeigt, indem wir die wichtigsten Eingaben machen. Das Formularfenster sieht folgendermaßen aus:
 
-![Qooxdoo Applikationsmaske – Filter](/uploads/v6/de-allgemein/vr6-fillter2.png „Filter")
+![Qooxdoo Applikationsmaske - Filter](/uploads/v6/de-allgemein/vr6-fillter2.png "Filter")
 
 Wichtig sind die Felder **Ausdruck** und **Für Objektdefinition**, sowie auch der Name. Der Name wird in dem Filtermenü angezeigt. 
 *	**Ausdruck:** in unserem Beispiel möchten wir ein Zeitraum setzen. Der Ausdruck bedeutet hier: 
@@ -477,7 +482,7 @@ Wir haben hier als Parameter Periode Datum ausgewählt. Dieser Auswahl bewirkt s
 Die Daten werden übernommen und in dem Ausdruck berücksichtigt. Für unser Beispiel geben wir als Beginndatum 01.01.2016 und als Enddatum 01.02.2016 (hier ist kleiner als Vergleichsoperation angegeben, deshalb 01.02, um 31.01 einzuschließen.
 Das Formular sieht wie gezeigt:
 
-![Qooxdoo Applikationsmaske – Filter](/uploads/v6/de-allgemein/vr6-fillter3.png „Filter")
+![Qooxdoo Applikationsmaske - Filter](/uploads/v6/de-allgemein/vr6-fillter3.png "Filter")
 
 Wenn wir das Filter auswählen, werden wir nach dem Beginn- und Enddatum gefragt. Die Eingabe erfolgt erst bei der Auswahl des Filters. Dann werden die eingegebenen Daten als Parameter übernommen. 
 {.is-info}
@@ -513,15 +518,17 @@ Sie haben einige Druckoptionen zur Verfügung:
 
 Sie können die Summen für die Objekte anzeigen lassen. Falls keine Objekte ausgewählt sind, werden die Summen für alle Objekte gebildet, die sich in dem Arbeitsfenster befinden. Falls Sie nur bestimmte Objekte ausgewählt haben, werden nur die Summen dieser Objekte gebildet und angezeigt. Die folgende Abbildung 31 zeigt die Summen für die ausgewählten Brandmeldeanlagen in dem Gebäude 017 aus unserem Demoprojekt.
 
-![Qooxdoo Applikationsmaske – Summen anzeigen für ausgewählte Daten](/uploads/v6/de-allgemein/vr6-summen1.png „Abbildung 31: Summen anzeigen für ausgewählte Daten")
+![Qooxdoo Applikationsmaske - Summen anzeigen für ausgewählte Daten](/uploads/v6/de-allgemein/vr6-summen1.png "Abbildung 31: Summen anzeigen für ausgewählte Daten")
 
 ### Druckansicht
 
 Mit dieser Option werden die Daten (wieder die aus dem obigen Beispiel ausgewählten) in einer passenden Druckansicht verpackt und zum Drucken bereitgestellt - die folgende Abbildung 32 stellt diese Option dar. Hier werden die ausgewählten Objekte in einer Tabelle verpackt und bestimmte Summen, Zahlen etc. unten angezeigt. Sie können mit Klick auf den Button Drucken die vorbereiteten Daten drucken.
 
-![Qooxdoo Applikationsmaske – Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt](/uploads/v6/de-allgemein/vr6-druckansicht_mit_Daten.png „Abbildung 32: Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt")
+![Qooxdoo Applikationsmaske - Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt](/uploads/v6/de-allgemein/vr6-druckansicht_mit_Daten.png "Abbildung 32: Druckansicht mit Daten/Auswertungen zum Drucken bereitgestellt")
 
-### Druckansicht mit Editor - dieselbe Option wie zuvor beschrieben mit einem integrierten Editor im Ansichtsfenster, damit Sie Ihre Daten und die Ansicht / die Anordnung etc. direkt vor dem Drucken bearbeiten können.
+### Druckansicht mit Editor
+
+Dieselbe Option wie zuvor beschrieben mit einem integrierten Editor im Ansichtsfenster, damit Sie Ihre Daten und die Ansicht / die Anordnung etc. direkt vor dem Drucken bearbeiten können.
 
 ### Druckansicht Details 
 
@@ -530,7 +537,8 @@ Diese Druckansicht ist eine Erweiterung der normalen Druckansicht mit detaillier
 Die Objekte in dem System können andere VisionR-Objekte beinhalten. Einige Eigenschaften sind auch mehrfach verknüpft. Bei der normalen Druckansicht werden nur die Objekteigenschaften aufgelistet. In der Ansicht “Details“ werden die verknüpften Objekte in den Zellen detailliert angezeigt.
 
 Die folgende Abbildung 33 zeigt eine detaillierte Druckansicht für einige ausgewählte Verträge.
-![Qooxdoo Applikationsmaske –Druckansicht Details](/uploads/v6/de-allgemein/vr6-druckansicht_details.png „Abbildung 33: Druckansicht Details")
+
+![Qooxdoo Applikationsmaske - Druckansicht Details](/uploads/v6/de-allgemein/vr6-druckansicht_details.png "Abbildung 33: Druckansicht Details")
 
 Die Leistungen werden in diesem Fall nacheinander aufgelistet. In der allgemeinen Druckansicht, wird die Anzahl Leistungen in der Spalte eingetragen.
 
@@ -589,7 +597,7 @@ Das Gruppieren nach Status wird dann in der Gruppierungsspalte erscheinen. Wir f
 
 Mit Einschalten dieser Gruppierung werden alle aktiven Anlagen der Marke “Schindler“ in dem ausgewählten Gebäude angezeigt. Alle anderen Anlagen werden ausgeblendet – siehe Abbildung 36.
 
-![Qooxdoo Applikationsmaske - Das Ergebnis unserer beispielhaften Gruppierung](/uploads/v6/de-allgemein/vr6-gruppierung_hinzufügen_ergebnis.png "Abbildung 36: Das Ergebnis unserer beispielhaften Gruppierung")
+
 
 Die Gruppierung heben Sie mit demselben Button ![Qooxdoo Applikationsmaske - Button Gruppieren](/uploads/v6/de-allgemein/vr6-button-gruppieren.png "Button Gruppieren") auf.
 
@@ -599,7 +607,7 @@ Mit dieser Funktion können Sie Daten transformieren. Zuerst müssen Sie die Dat
 
 Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Button Transformieren](/uploads/v6/de-allgemein/vr6-button-transformieren.png "Button Transformieren") wird ein neues Fenster angezeigt und Sie können die ausgewählten Daten ansehen, wie auf Abbildung 37 dargestellt - wir beziehen uns wieder auf die technischen Anlagen.
 
-![Qooxdoo Applikationsmaske - Das Fenster mit den Einstellungen und Funktionen für Datentransformation](/uploads/v6/de-allgemein/vr6-transformieren_einstellungen.png "Abbildung 37: Das Fenster mit den Einstellungen und Funktionen für Datentransformation“)
+![Qooxdoo Applikationsmaske - Das Fenster mit den Einstellungen und Funktionen für Datentransformation](/uploads/v6/de-allgemein/vr6-transformieren_einstellungen.png "Abbildung 37: Das Fenster mit den Einstellungen und Funktionen für DatentransformationAbbildung 37: Das Fenster mit den Einstellungen und Funktionen für Datentransformation")
 
 In diesem Fenster geben wir die *Eingangs-* und die *Ausgangseigenschaft*, d.h. wir transformieren eine Eigenschaft nach bestimmten Kriterien. Die Spalten in der Tabelle zeigen sowohl die Eigenschaften der ausgewählten Objekte, als auch die Eingangs- und Ausgangseigenschaften (Spalten) und das Ergebnis. Wir können hier das Ergebnis betrachten und anschließend die Daten transformieren lassen, indem wir den Button `Anwenden` klicken.
 
@@ -658,7 +666,7 @@ Die Dokumente im System VisionR können Versionen haben. Wenn ein Dokument oder 
 
 **Das Prinzip** - alle Dokumente werden zentral auf dem Server gelagert. Die Dokumente sind wie alle anderen VisionR Objekte mit entsprechenden Zugriffsrechten versehen. Die Verknüpfung zu einem Dokument oder zu einer Datei wird an der Stelle gemacht, wo diese Verknüpfung nötig ist. Die Dokumente müssen zuerst im System hoch geladen werden und erst dann können sie verknüpft werden. Für die Verwaltung dieser Dokumente bzw. Dateien gib es das **Dokumentenmanagement**.
 
-Das Dokumentenmanagement rufen Sie über die Indexseite oder über den Startbutton  ![Qooxdoo Applikationsmaske - Startbutton VisionR](/uploads/v6/de-allgemein/vr6-button-visionr.png "Startbutton VisionR") **Module  Dokumentenmanagement.** Ein neues Fenster wird aufgemacht, wo Sie die Dateien und die Dokumente verwalten können. Die Ansicht ist wie bei allen alphanumerischen Modulen - Abbildung 40.
+Das Dokumentenmanagement rufen Sie über die Indexseite oder über den Startbutton  ![Qooxdoo Applikationsmaske - Startbutton VisionR](/uploads/v6/de-allgemein/vr6-button-visionr.png "Startbutton VisionR") **Module -> Dokumentenmanagement.** Ein neues Fenster wird aufgemacht, wo Sie die Dateien und die Dokumente verwalten können. Die Ansicht ist wie bei allen alphanumerischen Modulen - Abbildung 40.
 
 ![Qooxdoo Applikationsmaske - Dokumentenmanagement - Übersicht](/uploads/v6/de-allgemein/vr6-dokumentenmanagement_bsp1.png " Abbildung 40: Dokumentenmanagement - Übersicht")
 
@@ -684,7 +692,7 @@ In den meisten Fällen sind immer Daten vorhanden, die in das System importiert 
 
 Deshalb besteht die Möglichkeit, dass die Importe in VisionR an die Daten angepasst werden, die importiert werden sollen. Diese Anpassung ist nicht kompliziert, aber am Anfang ist es sinnvoll, die Anpassung dem Administrator zu überlassen. Nachdem die Vorlagen für den Importvorgang erstellt bzw. angepasst sind, kann der Benutzer die Daten selber importieren / aktualisieren.
 
-Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Startbutton VisionR](/uploads/v6/de-allgemein/vr6-button-visionr.png "Startbutton VisionR") **Module  Datenaustausch** wird das Datenaustauschfenster aufgemacht und die gespeicherten Importe und Exporte angezeigt. Falls der Importvorgang schon erstellt bzw. angepasst ist, kann er ausgeführt werden. Dafür wählen Sie den gewünschten Vorgang und klicken Sie auf ![Qooxdoo Applikationsmaske - Button Ausführen](/uploads/v6/de-allgemein/vr6-button-ausfuehren.png "Button Ausführen") `Ausführen`.
+Mit Klick auf den Button ![Qooxdoo Applikationsmaske - Startbutton VisionR](/uploads/v6/de-allgemein/vr6-button-visionr.png "Startbutton VisionR") **Module -> Datenaustausch** wird das Datenaustauschfenster aufgemacht und die gespeicherten Importe und Exporte angezeigt. Falls der Importvorgang schon erstellt bzw. angepasst ist, kann er ausgeführt werden. Dafür wählen Sie den gewünschten Vorgang und klicken Sie auf ![Qooxdoo Applikationsmaske - Button Ausführen](/uploads/v6/de-allgemein/vr6-button-ausfuehren.png "Button Ausführen") `Ausführen`.
 
 Abbildung 42 zeigt unsere Datenaustausch-Vorgänge:
 
@@ -724,6 +732,91 @@ Die geplanten Tasks sind Operationen, die nach einem Plan oder nach bestimmten K
 Ein Beispiel für eine geplante Aufgabe (Task) ist die Auswertung des Systems von Kündigungsdaten von Verträgen, die bald ablaufen, und das Zuschicken einer Benachrichtigung an den zuständigen Personen. Dafür ist sogar keine Anmeldung im System notwendig.
 
 Die Erstellung und die Anpassung von solchen geplanten Aufgaben verbleiben bei den Administratoren.
+
+
+# Profile und Ansichten
+
+Jeder VisionR-Benutzer hat sein eigenes Profil. Nach dem Einloggen in dem System kann der Benutzer sein Profil anpassen. Diese Anpassungen bleiben gespeichert. Die Einstellungen sind individuell und nur für den Benutzer gültig.
+
+Die Ansichten sind eine neue Eigenschaft der Version 5.x, die es erlaubt, unterschiedliche Ansichten zu definieren und aufrufen. Die Ansichten werden gespeichert und jeder Benutzer kann die gewünschte Ansicht aufrufen und damit arbeiten. Außerdem hat jeder Benutzer die Möglichkeit, selber die Ansicht anzupassen bzw. neue zu definieren.
+
+
+## Benutzerprofile
+
+Jeder Benutzer hat ein Profil und kann die Einstellungen über den Funktionsbutton  ![Qooxdoo Applikationsmaske - Menü Button](/uploads/v6/de-allgemein/vr6-menu_button_grau.png "Menü Button") aufrufen - Abb. 44.
+
+![Qooxdoo Applikationsmaske - Profileeinstellungen - Login- und eigene Einstellungen](/uploads/v6/de-allgemein/vr6-profileinstellungen_1.png "Abbildung 44: Profileeinstellungen - Login- und eigene Einstellungen")
+
+Der Benutzer kann die Einstellungen selber anpassen oder diese Aufgabe dem Administrator überlassen. Die letzte Registerkarte mit den Programmeinstellungen ist vom Benutzer zu ignorieren, falls dem Benutzer die entsprechenden Kenntnisse fehlen. Diese Einstellungen können einmalig vom Administrator eingestellt werden.
+
+## Ansichten
+
+Die Ansichten sind ein wichtiger Teil für den Benutzer. Die Ansichten können einmalig angepasst werden und von dem Benutzer abgerufen. Der Benutzer kann auch selber die Ansicht anpassen und gegebenenfalls Neue erstellen.
+
+> **Bemerkung:** Die Ansichten sollten nur von fortgeschrittenen Benutzer angepasst werden, da diese für alle Benutzer gültig sind. Falls ein Benutzer eine Ansicht angepasst hat, kann das für die anderen Benutzer nachteilig sein. In solchen Fällen ist es vorteilhaft eine neue Ansicht zu definieren und ggf. zu nutzen, aber die Vorhandenen nicht zu ändern, falls diese Änderungen nicht mit allen Benutzern besprochen sind.
+
+Beispiele für Ansichten:
+
+### Alles 
+
+Alle Felder und Registerkarten sind eingeblendet und der Benutzer kann überall Daten eingeben, falls erforderlich. Diese Ansicht kann für die Benutzer zu komplex werden, die nur einen Teil der Eigenschaften pflegen. Die Felder können über die Suchfunktion schnell erreicht werden. Trotzdem bleiben viele Felder in der Praxis ungepflegt.
+
+![Qooxdoo Applikationsmaske - Formularansicht – Alles](/uploads/v6/de-allgemein/vr6-ansicht-alles-formular.png "Abbildung 45: Formularansicht – Alles")
+
+### Komplexe Ansicht 
+
+In dieser Ansicht werden alle Felder, die nie genutzt werden, einfach ausgeblendet, um die Ansicht zu vereinfachen. Trotzdem gibt es Benutzer, die diese Ansicht zu komplex finden, wenn diese nur einige Daten im System eingeben. (Dieses Szenario ist immer unterschiedlich). Für diese Benutzer erstellen wir die **einfache Ansicht** nur mit den Feldern, die auch regelmäßig bearbeitet werden.
+
+![Qooxdoo Applikationsmaske - Formularansicht - komplex](/uploads/v6/de-allgemein/vr6-ansicht-custom-formular1.png "Abbildung 46: Formularansicht - komplex")
+
+### Einfache Ansicht 
+
+Nur einige Felder sind eingeblendet, um die wichtigsten Daten in der **gewünschten Reihenfolge** einzugeben. Die Anordnung der Felder ist auch anpassbar.
+
+![Qooxdoo Applikationsmaske - Formularansicht - Einfach](/uploads/v6/de-allgemein/vr6-ansicht-einfach-formular1.png " Abbildung 47: Formularansicht - Einfach")
+
+Die Anordnung der Felder in den Registerkarten oder die Verschiebung von Eigenschaften ist bei der Ansicht-Anpassung möglich.
+
+### Ansicht anpassen
+
+Die Ansicht kann der Benutzer folgendermaßen anpassen:
+
+* **Felder ein- bzw. ausblenden** - jedes Feld oder jede Registerkarte (einschließlich ihrer Felder) kann ausgeblendet oder eingeblendet werden. Falls Pflichtfelder ausgeblendet werden sollen, müssen diese Felder in optionale Felder umgewandelt werden.
+
+Um ein Feld auszublenden bzw. anzupassen (Position, Registerkarte, Anordnung etc.), rufen Sie das Funktionsmenü für das Feld mit der rechten Maustaste auf der Feldbeschriftung auf, wie auf der folgenden Abbildung 48 gezeigt ist.
+
+![Qooxdoo Applikationsmaske - Eigenschaft “Händler“ ausblenden](/uploads/v6/de-allgemein/vr6-formular-eigenschaft_ausblenden.png "Abbildung 48: Eigenschaft “Händler“ ausblenden")
+
+In diesem Beispiel benötigen wir den „Händler“ der technischen Anlage nicht und wir werden das Feld einfach ausblenden. Mit der rechten Maustaste werden zuerst die Infos über dem Feld aufgelistet und darunter die Optionen für dieses Feld angezeigt. Wir können das Feld ein / ausblenden | erforderlich Ja / Nein | schreibgeschützt **Ja / Nein | Vor / Nach einer Eigenschaft | Kategorie** auswählen.
+Wir können das Feld immer wieder einblenden, falls diese Information gepflegt wird.
+
+* **Reihenfolge bzw. Position der Felder anpassen** - wo genau ein Eigenschaftsfeld positioniert ist, kann der Benutzer selber bestimmen und dazu auch die Kategorie (Registerkarten / Unterkategorien in den jeweiligen Registerkarten) ändern.
+
+Die Position passen Sie an, indem Sie mit rechter Maustaste das Menü aufrufen und für das gewünschte Feld die Option Verschieben nach / vor nutzen (Abbildung 48). In dem neu angezeigten Fenster geben Sie die Eigenschaft ein, die nach bzw. vor dem gewünschten Feld steht. Die Anordnung wird dementsprechend angepasst und das Feld wird an der gewünschten Stelle erscheinen.
+
+> **Bemerkung:** Achten Sie auf die Kategorien, falls Sie eine Eigenschaft verschieben. Die Option “vor bzw. nach“ fügt die Eigenschaft in der Kategorie des ausgewählten Feldes ein.
+
+Das Einschalten von Eigenschaften ist über die Bearbeitung der Ansicht möglich. Dafür klicken Sie auf Durchsuchen und wählen Sie die gewünschte Ansicht, die Sie bearbeiten wollen, und klicken Sie auf bearbeiten. In dem mehrfachen Feld Einstellungen fügen Sie die ausgeblendeten Felder, damit diese wieder sichtbar werden - Abb. 49
+
+![Qooxdoo Applikationsmaske - Eigenschaften einblende](/uploads/v6/de-allgemein/vr6-formular-eigenschaft_einblenden.png " Abbildung 49: Eigenschaften einblenden")
+
+* **Ansicht erstellen**
+
+Wenn Sie Felder ein- und ausblenden, können Sie durch Rechtsklick im rechten Bereich des Formulars den Menüeintrag „Ansicht speichern“ aufrufen. So wird eine neue Ansicht durch Eingabe des gewünschten Ansichtsnamens angelegt.
+
+Stellen Sie also die Felder ein bzw. aus, ordnen Sie dann die Felder und speichern Sie am Ende die neue Ansicht. Die Speicherung erfolgt folgendermaßen: Klicken Sie mit der rechten Maustaste irgendwo im Formular (kann auch auf Feldbeschriftung sein, wie auf Abb. 48). In der Unterkategorie **Formularansicht** sehen Sie die Optionen für Ansichten - sie können die Ansicht wechseln, speichern oder durchsuchen und bearbeiten.
+
+* **Objektvorschau**
+
+Die Objektvorschau ist auf fast allen Ebenen des Systems vorhanden. Überall, wo das Symbol ![Qooxdoo Applikationsmaske - Button Objektvorschau aus](/uploads/v6/de-allgemein/vr6-ikone-objektvorschau_aus.png "Button Objektvorschau aus") steht, heißt es, dass die Vorschau eingeschaltet ist. Mit Klick können Sie sie ausschalten.
+
+Für das Einschalten der Vorschau steht das Symbol ![Qooxdoo Applikationsmaske - Button Objektvorschau ein](/uploads/v6/de-allgemein/vr6-ikone-objektvorschau_ein.png "Button Objektvorschau ein") zur Verfügung.
+
+Eine Vorschau ist überall vorhanden, wo eine tabellarische Ansicht angezeigt wird - die folgenden Abbildungen 50 und 51 zeigen die Vorschau.
+
+![Qooxdoo Applikationsmaske - Objektvorschau eingeschaltet - in der Objekttabelle](/uploads/v6/de-allgemein/vr6-objektvorschau_ein_bsp1.png "Abbildung 50: Objektvorschau eingeschaltet - in der Objekttabelle")
+
+![Qooxdoo Applikationsmaske - Objektvorschau für Eigenschaftstabelle eingeschaltet](/uploads/v6/de-allgemein/vr6-objektvorschau_ein_eigenschaft_tabelle.png "Abbildung 51: Objektvorschau für Eigenschaftstabelle eingeschaltet")
 
 
  
