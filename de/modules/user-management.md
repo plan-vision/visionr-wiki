@@ -7,25 +7,25 @@ Deutsch | [English](/en/modules/user-management)
 # Allgemeine Beschreibung
 
 Die Benutzerverwaltung ist aus jedem Modul erreichbar, jedoch für die Benutzer mit administrativen Rechten.
-![Qooxdoo Applikationsmaske - Benutzerverwaltung](/uploads/v6/de-allgemein/vr6-benutzerverwaltung-1.png " Benutzerverwaltung")
+![Qooxdoo Applikationsmaske - Benutzerverwaltung](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-1.png " Benutzerverwaltung")
 
 # Maske „Benutzerverwaltung“
 
 In der Tabelle auf das Häuschen ![Qooxdoo Applikationsmaske - Button Home](/uploads/v6/de-allgemein/vr6-button-tree_home.png "Button Home") 
-![Qooxdoo Applikationsmaske - Benutzerliste](/uploads/v6/de-allgemein/vr6-benutzerverwaltung-2.png " Benutzerliste")
+![Qooxdoo Applikationsmaske - Benutzerliste](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-2.png " Benutzerliste")
 
 ## Benutzer bearbeiten
 
 Aus der Liste den gewünschten Benutzer auswählen und mit der rechten Maustaste auf `Bearbeiten` klicken. Das Benutzer-Formularfenster wird geöffnet:
 
-![Qooxdoo Applikationsmaske – Benutzer bearbeiten](/uploads/v6/de-allgemein/vr6-benutzerverwaltung-3.png „Benutzer bearbeiten")
+![Qooxdoo Applikationsmaske – Benutzer bearbeiten](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-3.png „Benutzer bearbeiten")
 
 Hier geben Sie die **Benutzer-ID, Passwort, Person und Gruppe** an. Die Gruppe beinhaltet die wirksamen Einstellungen für die Berechtigung. Mit Klick auf den Menübutton in dem Feld **Gruppe** wird die Gruppenhierarchie der vorhandenen Berechtigungen angezeigt:
 
-![Qooxdoo Applikationsmaske – Benutzer bearbeiten](/uploads/v6/de-allgemein/vr6-benutzerverwaltung-4.png „Benutzer bearbeiten")
+![Qooxdoo Applikationsmaske – Benutzer bearbeiten](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-4.png „Benutzer bearbeiten")
 
 Die Eigenschaften der Gruppe sehen Sie, wenn Sie die Gruppe öffnen – dafür klicken Sie auf den Menübutton `Bearbeiten` oder auf `Ansehen`, um die Gruppendetails zu sehen.
-![Qooxdoo Applikationsmaske – Benutzer bearbeiten](/uploads/v6/de-allgemein/vr6-benutzerverwaltung-5.png „Benutzer bearbeiten")
+![Qooxdoo Applikationsmaske – Benutzer bearbeiten](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-5.png „Benutzer bearbeiten")
 
 Sie können in der Gruppe die Berechtigungen einstellen, ggf. welche Berechtigungen diese Gruppe an anderen weiterleitet oder welche sie von anderen übernimmt.
 
