@@ -6,13 +6,23 @@ Deutsch | [English](/en/modules/user-management)
 
 # Allgemeine Beschreibung
 
-Die Benutzerverwaltung ist aus jedem Modul erreichbar, jedoch für die Benutzer mit administrativen Rechten.
+Die Benutzerverwaltung rufen Sie aus der Indexseite, indem Sie die Option **Administration** -> **System** auswählen. Dann werden die Systemmodule angezeigt. Klicken Sie auf ***Benutzerverwaltung***, wie auf dem Screenshot gezeigt ist.
 
-![Qooxdoo Applikationsmaske - Benutzerverwaltung](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-1.png " Benutzerverwaltung")
+![Qooxdoo Applikationsmaske - Benutzerverwaltung öffnen](/uploads/de-administration/de-user_management/vr7-benutzerverwaltung-1.png " Benutzerverwaltung öffnen")
+
+Die Benutzer können unterschiedliche Benutzerrollen haben und der Kundenadministrator kann diese Rollen anpassen und vergeben. 
+Eine Benutzerrolle kann unterschiediche Zugriffe auf unterschidlichen Ebenen haben. Die Benutzerrollen können vererbt werden und sowohl auch können sie auch weitergeleitet werden. So wird der Zugriff sogar auf Objektebene verfeinert werden. 
+
+Voreingestellt sind die Zugriffe für ** Lesen / Schreiben / Verwalten (Administrieren)** pro Modul vordefiniert. Eine Mischung dieser vordefinierten Zugriffsrollen definiert eine neue Benutzerrolle, die ihre Rechte weitergeben kann. 
+
+> **Beispiel:** Eine Benutzerrolle wird erstellt für die Bearbeitung der Flächen - **Schreibrechte** für das Modul **Flächenmanagement** wird die Bearbeitung ermöglichen. Darüber können wir eine neue Rolle erstellen, die diese erbt und dazu können wir zum Beispiel die **Schreibrechte** für das Modul **Inventar** hinzufügen. Dann hat die neue Gruppe die Rechte von beiden. Die beiden Benutzerrollen leiten ihre Rechte an eine Obergruppe, z.B. **Kundenadministrator**, der alle Rechte von allen Untergruppen erbt. So können Sie hierarchisch die Benutzerrechte vergeben und bis auf ein bestimmtes Objektfeld verfeinern. 
+{.is-info}
 
 # Maske „Benutzerverwaltung“
 
-In der Tabelle auf das Häuschen ![Qooxdoo Applikationsmaske - Button Home](/uploads/v6/de-allgemein/vr6-button-tree_home.png "Button Home") 
+Die Applikationsmaske des Systemmoduls wird geladen. Links stehen die Objekte und die Filter zur Verfügung. Für die Kundenadministratoren sind in den meisten Fällen die Benutzer und die Benutzerrollen ausreichend, um die Benutzerrechte fein anzupassen.
+
+Die folgende Abbildung zeigt die Tabelle mit den Benutzern. 
 
 ![Qooxdoo Applikationsmaske - Benutzerliste](/uploads/v6/de-administration/de-user_management/vr6-benutzerverwaltung-2.png " Benutzerliste")
 
