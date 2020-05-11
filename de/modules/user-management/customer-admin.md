@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Verwaltung der Benutzer und Zuordnung der Benutzerrollen -->
 
 Deutsch | [English](/en/modules/user-management)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide)  > [Benutzerverwaltung](/de/user-management) > Benutzerverwaltung Kundenadministrator*
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide)  > [Benutzerverwaltung](/de/modules/user-management) > Benutzerverwaltung Kundenadministrator*
 
 # Allgemeine Beschreibung
 
