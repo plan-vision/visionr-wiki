@@ -6,8 +6,8 @@ Deutsch | [English](/en/modules/keys)
 
 # Bedienung
 ## Normale Benutzer
-* Modul Schließmanagement für [normale Benutzer](/de/modules/reservations/user)
+* Modul Schließmanagement für [normale Benutzer](/de/modules/keys/user)
 ## Modul Admin 
-* Modul Schließmanagement für [Admins](/de/modules/reservations/admin)
+* Modul Schließmanagement für [Admins](/de/modules/keys/admin)
 ## Alte Oberfläche
-* Modul Schließmanagement auf [alten Oberflächen](/de/modules/reservations/qooxdoo)
+* Modul Schließmanagement auf [alten Oberflächen](/de/modules/keys/qooxdoo)
