@@ -4,7 +4,6 @@
 Deutsch | [English](/en/modules/rentals)
 *Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Mietmanagement*
 
-# Mietmanagement
 # Bedienung
 ## Normale Benutzer
 * Modul Mietmanagement für [normale Benutzer](/de/modules/rentals/user)
