@@ -11,4 +11,4 @@ Deutsch | [English](/en/modules/rentals)
 ## Modul Admin 
 * Modul Mietmanagement für [Admins](de/modules/rentals/admin)
 ## Alte Oberfläche
-* Modul Mietmanagement auf [alten Oberflächen](qooxdoo)
+* Modul Mietmanagement auf [alten Oberflächen](rentals/qooxdoo)
