@@ -11,8 +11,9 @@ Deutsch | [English](/en/user-guide)
 * [Verträge](/de/modules/contracts)
 * Helpdesk
 * Wartung
-* Schließmanagement
+* [Schließmanagement](/de/modules/keys)
 * [Reservierungen](/de/modules/reservations)
+* [Mietmanagement](/de/modules/rentals)
 # Systemmodule
 * [Benutzerverwaltung](/de/modules/user-management)
 * Berichte

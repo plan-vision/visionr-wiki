@@ -7,8 +7,8 @@ Deutsch | [English](/en/modules/contracts)
 # Verträge
 # Bedienung
 ## Normale Benutzer
-* Modul Verträge für [normale Benutzer](/de/modules/contracts/user)
+* Modul Verträge für [normale Benutzer](contracts/user)
 ## Modul Admin 
-* Modul Verträge für [Admins](de/modules/contracts/admin)
+* Modul Verträge für [Admins](contracts/admin)
 ## Alte Oberfläche
-* Modul Verträge auf [alten Oberflächen](de/modules/contracts/qooxdoo)
+* Modul Verträge auf [alten Oberflächen](contracts/qooxdoo)
