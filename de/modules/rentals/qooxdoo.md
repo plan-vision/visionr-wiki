@@ -13,7 +13,7 @@ Das Modul **Mietmanagement** machen Sie über die Indexseite der über den Start
 
 # 	Übersicht
 
-Die **Mieteinheit* wird benötigt, um die Räumlichkeiten mit dem **Vertrag** und den Vertragspositionen zu verknüpfen. Eine Mieteinheit kann mehrere Räumlichkeiten beinhalten, kann mehrere Mieteinheiten beinhalten und kann auch einen Teil einer Mieteinheit sein. 
+Die **Mieteinheit** wird benötigt, um die Räumlichkeiten mit dem **Vertrag** und den Vertragspositionen zu verknüpfen. Eine Mieteinheit kann mehrere Räumlichkeiten beinhalten, kann mehrere Mieteinheiten beinhalten und kann auch einen Teil einer Mieteinheit sein. 
 Eine Mieteinheit kann auch **Mietflächen** oder **Belegungen (von Mietflächen)** beinhalten, wenn z.B. die Mietfläche nur teilweise der Raumfläche entspricht. 
 Die **Mieteinheit** wird mit einem Vertrag verknüpft und in dem Vertrag kann der Benutzer die Positionen, die Kosten, die Konditionen, die Dokumenten etc. verknüpfen. 
 Zu den Mieteinheiten kann der Benutzer Mietkonditionen anhängen und so Preisänderungen planen – ab wann bis wann diese gültig sind, wie ändert sich der Preis etc.
