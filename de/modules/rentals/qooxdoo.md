@@ -120,6 +120,39 @@ So kann der Benutzer viele mögliche Varianten abdecken.
 ![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietver6.png "Staffelungen")
 
 Sie können die Felder anschauen und gegebenenfalls die relevanten Felder ausfüllen.
+
 Anschließend speichern Sie den Vertrag!
 
+## Mietpositionen
+
+Die Mietpositionen sind in dem Vertrag einzugeben. 
+Öffnen Sie den gewünschten Vertrag und in dem Reiter **Positionen** fügen Sie Positionen hinzu. 
+ 
+![Qooxdoo Mietpositionen erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietpos1.png "Mietpositionen erstellen")
+
+Der Screenshot zeigt einen Vertag mit 2 schon erstellten Positionen für die Nettomiete und für die Nebenkosten. 
+Mit Klick auf **Neu** wird eine neue Position erstellt. Wählen Sie den Typ zuerst. 
+ 
+![Qooxdoo Mietpositionen erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietpos2.png "Typ der Mietposition wählen")
+
+Dann geben Sie in der Position die Daten aus dem Vertrag, die sich zu diesem Typ bezieht. Zum Beispiel die Position vom Typ **Grundmiete**:
+ 
+![Qooxdoo Mietpositionen erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietpos3.png "Mietpositionen Grundmiete Beispiel")
+
+Wichtige Angaben:
+* **Typ (Objektdefinition)** – Grundmiete / Nebenkosten
+* **Position** – Ändern Sie die Position Code
+* **Name** – geben Sie den Positionsname
+* Mieteinheit (empfohlen)
+* **Sonderleistung ?** 
+* **Kosten** – die wichtigste Eingabe sind die Kosten. Diese sind in dem Reiter **Haupteigenschaften** in dem Bereich **Kosten** zu finden. Geben Sie die Kosten aus dem Vertrag und deaktivieren Sie die Option **MwSt. von Vertrag? **, falls die MwSt. aus der Position genommen wird und nicht von Vertrag. So kann der Benutzer Positionen mit unterschiedlichen MwSt. mischen und zu einem Vertrag hinzufügen.
+Erstellen Sie analog auch die Position/en für die Nebenkosten. Die schon erstellte Position für die Nebenkosten sieht folgendermaßen aus:
+ 
+![Qooxdoo Mietpositionen erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietpos4.png "Mietposition Nebenkosten Beispiel")
+
+Sobald die Positionen Kosten haben, werden die Kosten im Vertrag überschrieben.
+ 
+![Qooxdoo Mietpositionen erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietpos5.png "Kosten im Vertrag aus den Positionen")
+
+Das Feld ist schon ausgegraut und kann nicht mehr manuell geändert werden. Damit der Benutzer einen Betrag im Vertrag pauschal eintragen kann, soll der Vertrag keine Positionen beinhalten. 
 
