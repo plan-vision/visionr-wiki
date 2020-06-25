@@ -21,7 +21,7 @@ Deutsch | [English](/en/user-guide)
 * Geplante Tasks
 # Allgemeine Bedienung
 * [Neue Oberflächen mit Forms (ab Version 7)](/de/modules/general)
-* [Alte Oberflächen (bis einschl. Version 6)](/qooxdoo/de/modules/general)
+* [Alte Oberflächen (bis einschl. Version 6)](/de/modules/general/qooxdoo)
 # Datenaustausch
 * Import
 * Export
