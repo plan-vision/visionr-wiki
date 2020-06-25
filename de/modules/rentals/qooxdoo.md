@@ -168,4 +168,37 @@ Mit Klick auf **Neu** fügen Sie eine neue Mietkondition ein. Geben Sie den **Na
 Sie können hier auch Dokumente hochladen. 
 An dem Beginndatum wird der neue Preis übernommen.
 
+# Geplante Änderungen
+
+In diesem Modul gibt es auch eine Menge Felder, die von dem Benutzer geplant geändert werden können. 
+Solche Felder, in dem man den Wert mit Datum und Uhrzeit planen kann, sind mit dem Symbol ![Qooxdoo Applikationsmaske - Button Historization und geplante Änderungen](/uploads/v6/de-allgemein/vr6-hist_planned_changes_icon.png "Button Historization und geplante Änderungen") gekennzeichnet. Falls dieses Zeichen links vor dem Feld verfügbar ist, kann man den Wert in diesem Feld planen. 
+Falls das Symbol so ![Qooxdoo Applikationsmaske - Button Historization](/uploads/v6/de-allgemein/vr6-historization_icon.png "Button Historization") aus sieht, ist dieses Feld nur protokolliert. 
+
+> **Beispiel:**
+Wir möchten die Mehrwehrsteuer für einige Monate ändern. Wir können manuell den Prozentsatz ändern, indem wir alle Positionen (oder Verträge) auswählen und den MwSt.-Satz ändern. Sobald dieser Satz wieder genändert werden muss, muss der Benutzer ihn wieder manuell anpassen. Hier soll der Benutzer auch auf die monatlichen Werte aufpassen, damit diese richtzeitig und mit den richtigen Werten ausgegeben werden. 
+Deshalb ist eine geplante Änderung hier sinnvoll.
+ 
+![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung1.png "Geplante Änderung der MwSt.")
+In dem angezeigtem Fenster können sie die geplanten und die vergangenen Änderungen sehen. Für eine geplante Änderung gehen Sie in dem linken Fenster und klicken Sie auf **Neu** und in dem angezeigten Fenster geben Sie den gewünschten Wert und das Datum.
+ 
+![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung2.png "Geplante Änderung der MwSt. Schritt 1")
+ 
+![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung3.png "Geplante Änderung der MwSt. Schritt 2")
+
+Und anschließend den neuen Wert eingeben. Am Ende speichern Sie den Vorgang. 
+Wenn das Datum und die Uhrzeit gekommen ist, wird die Änderung vom System durchgeführt. 
+{.is-info}
+
+> **Info / Tipp:**
+Geplante Änderungen können für unterschiedlichen Objekte erstellt werden. Zum Beispiel so eine Änderung kann man auch in dem Vertrag planen.
+{.is-info}
+ 
+![Qooxdoo Geplante Änderung Vertrag](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung4.png "Geplante Änderung der MwSt. des Vertrags")
+
+> **Bemerkung:** Sobald es eine oder mehr geplante Änderungen für ein Feld existiert, kann der Benutzer dieses Feld nicht bearbeiten. Dafür muss der Benutzer neue geplante Änderung erstellen, damit die Änderung übernommen wird. Eine Änderung kann auch in der Vergangenheit erstellt werden. 
+> 
+> **Beispiel:**
+Das Feld Kosten für die folgende Position lässt sich nicht ändern, weil geplante Änderungen für dieses Feld existieren.
+![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung5.png "Feld ist wegen geplanter Änderung gesperrt")
+{.is-info}
 
