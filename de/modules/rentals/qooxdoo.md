@@ -9,7 +9,7 @@ Deutsch | [English](/de/modules/rentals/qooxdoo)
 Das Modul **Mietmanagement** wird für die Verwaltung der Mietobjekte, Mietverträge und Konditionen, Mietflächen und Kosten, Dokumente, Zahlungen, Umsätze, Erstellenvon Exposes etc. benutzt. 
 Das Modul **Mietmanagement** machen Sie über die Indexseite der über den Startbutton -> Mietmanagement auf, falls Sie schon im System arbeiten. 
 
-![Qooxdoo Index Seite](/uploads/v6/de-allgemein/vr6-mietman-besch1.png "Index- Seite") 
+![Qooxdoo Index Seite](/uploads/v6/de-mietmanagement/vr6-mietman-besch1.png "Index- Seite") 
 
 # 	Übersicht
 
