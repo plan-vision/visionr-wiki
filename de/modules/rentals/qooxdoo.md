@@ -175,18 +175,18 @@ Solche Felder, in dem man den Wert mit Datum und Uhrzeit planen kann, sind mit d
 Falls das Symbol so ![Qooxdoo Applikationsmaske - Button Historization](/uploads/v6/de-allgemein/vr6-historization_icon.png "Button Historization") aus sieht, ist dieses Feld nur protokolliert. 
 
 > **Beispiel:**
-Wir möchten die Mehrwehrsteuer für einige Monate ändern. Wir können manuell den Prozentsatz ändern, indem wir alle Positionen (oder Verträge) auswählen und den MwSt.-Satz ändern. Sobald dieser Satz wieder genändert werden muss, muss der Benutzer ihn wieder manuell anpassen. Hier soll der Benutzer auch auf die monatlichen Werte aufpassen, damit diese richtzeitig und mit den richtigen Werten ausgegeben werden. 
-Deshalb ist eine geplante Änderung hier sinnvoll.
-> 
+> Wir möchten die Mehrwehrsteuer für einige Monate ändern. Wir können manuell den Prozentsatz ändern, indem wir alle Positionen (oder Verträge) auswählen und den MwSt.-Satz ändern. Sobald dieser Satz wieder genändert werden muss, muss der Benutzer ihn wieder manuell anpassen. Hier soll der Benutzer auch auf die monatlichen Werte aufpassen, damit diese richtzeitig und mit den richtigen Werten ausgegeben werden. 
+> Deshalb ist eine geplante Änderung hier sinnvoll.
+
 ![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung1.png "Geplante Änderung der MwSt.")
-In dem angezeigtem Fenster können sie die geplanten und die vergangenen Änderungen sehen. Für eine geplante Änderung gehen Sie in dem linken Fenster und klicken Sie auf **Neu** und in dem angezeigten Fenster geben Sie den gewünschten Wert und das Datum.
+> In dem angezeigtem Fenster können sie die geplanten und die vergangenen Änderungen sehen. Für eine geplante Änderung gehen Sie in dem linken Fenster und klicken Sie auf **Neu** und in dem angezeigten Fenster geben Sie den gewünschten Wert und das Datum.
 > 
 ![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung2.png "Geplante Änderung der MwSt. Schritt 1")
 > 
 ![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung3.png "Geplante Änderung der MwSt. Schritt 2")
 >
-Und anschließend den neuen Wert eingeben. Am Ende speichern Sie den Vorgang. 
-Wenn das Datum und die Uhrzeit gekommen ist, wird die Änderung vom System durchgeführt. 
+> Und anschließend den neuen Wert eingeben. Am Ende speichern Sie den Vorgang. 
+> Wenn das Datum und die Uhrzeit gekommen ist, wird die Änderung vom System durchgeführt. 
 {.is-info}
 
 > **Info / Tipp:**
