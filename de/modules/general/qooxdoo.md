@@ -334,7 +334,6 @@ Falls ein Häkchen aktiviert ist, darf der Benutzer bzw. die Benutzergruppe die 
 > **Bemerkung:** Sie müssen ausreichende Rechte haben, um neue Benutzergruppen zu definieren, bearbeiten und entfernen. Deshalb ist es zu empfehlen, diese Aufgabe Ihren Administrator zu überlassen.
 
 
-
 # Funktionen
 
 Im System VisionR sind zahlreiche Funktionen enthalten. In diesem Kapitel werden die allgemeinen Funktionen und eine Auswahl an spezifischen Funktionen beschrieben. Die Funktionen, die tiefere Systemkenntnisse benötigen, werden in diesem Dokument nicht beschrieben, sondern nach Bedarf von den Administratoren zur Verfügung gestellt. Die hier beschriebenen Funktionen stehen in der Leiste, die auf der Abbildung 3 gezeigt ist.
@@ -649,6 +648,47 @@ Die folgende Abbildung 39 zeigt das Beispiel mit Hervorhebung nach Nutzung der R
 ![Qooxdoo Applikationsmaske - Hervorhebung der Räume nach Nutzung](/uploads/v6/de-allgemein/vr6-hervorhebung_nach_raumnutzung_bsp.png "Abbildung 39: Hervorhebung der Räume nach Nutzung")
 
 Die farbliche Hervorhebung können Sie mit den Buttons ![Qooxdoo Applikationsmaske - Button Hervorhebung](/uploads/v6/de-allgemein/vr6-button-hervorhebung.png "Button Hervorhebung") bzw. ![Qooxdoo Applikationsmaske - Button Hervorhebung Aus](/uploads/v6/de-allgemein/vr6-button-hervorhebung_grau.png "Button Hervorhebung Aus") ein- bzw. ausschalten.
+
+## Historisierung der Daten
+Eine große Mende der Felder ist in dem System historisiert. Sie können diese Felder an dem Symbol ![Qooxdoo Applikationsmaske - Button Historization](/uploads/v6/de-allgemein/vr6-historization_icon.png "Button Historisierung") erkennen. Das Symbol ist links vor dem Feld dargestellt. Falls das Feld das Symbol nicht hat, wird das Feld nicht historisiert. 
+Standardmäßig sind die wichtigsten Felder historisiert. Bei Bedarf kann jedes Feld historisiert werden. Zusätzliche Felder werden im Rahmen eines Kundenprojektes historisiert. 
+Klicken Sie auf diesen Button und eine Tabelle mit den Änderungen dieses Feldes nach Datum angezeigt wird. Sie können in dieser Tabelle sehen, wie sich der Wert geändert hat, an welchem Datum mit Uhrzeit und von welchem Benutzer. So können Sie Datenänderungen verfolgen und ggf. auch zurücksetzen. 
+> **Beispiel:**
+Der Arbeitsplatz einer Person wird historisiert. Mit Klick auf den Symbol ![Qooxdoo Applikationsmaske - Button Historization](/uploads/v6/de-allgemein/vr6-historization_icon.png "Button Historisierung") bekommen wir für die ausgewählte Person alle Arbeitsplätze, die der Person zugeordnet waren.
+![Qooxdoo Historisierung](/uploads/v6/de-allgemein/vr6-historization_beispiel1.png " Historisierung Arbeitsplatz einer Person")
+Die Tabelle mit den Änderungen:
+![Qooxdoo Historisierung](/uploads/v6/de-allgemein/vr6-historization_beispiel2.png " Historisierung Beispiel")
+{.is-info}
+
+## Geplante Änderungen
+
+Zu den historisierten Feldern gibt es auch solche, für die eine geplante Änderung stattfinden kann. So kann der Benutzer eine Änderung planen und diese wird an dem Datum um die angegebene Uhrzeit durchgeführt. 
+Solche Felder sind mit dem Symbol ![Qooxdoo Applikationsmaske - Button Historization und geplante Änderungen](/uploads/v6/de-allgemein/vr6-hist_planned_changes_icon.png "Button Historisierung und geplante Änderungen") gekennzeichnet. Falls dieses Zeichen links vor dem Feld verfügbar ist, kann man den Wert für dieses Feld planen. 
+Falls das Symbol so ![Qooxdoo Applikationsmaske - Button Historization](/uploads/v6/de-allgemein/vr6-historization_icon.png "Button Historization") aus sieht, ist dieses Feld nur historisiert. 
+
+> **Beispiel:**
+> Wir möchten die Mehrwehrsteuer für einige Monate ändern. Wir können manuell den Prozentsatz ändern, indem wir alle Positionen (oder Verträge) auswählen und den MwSt.-Satz ändern. Sobald dieser Satz wieder genändert werden muss, muss der Benutzer ihn wieder manuell anpassen. Hier soll der Benutzer auch auf die monatlichen Werte aufpassen, damit diese richtzeitig und mit den richtigen Werten ausgegeben werden. 
+> Deshalb ist eine geplante Änderung hier sinnvoll.
+![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung1.png "Geplante Änderung der MwSt.")
+> In dem angezeigtem Fenster können sie die geplanten und die vergangenen Änderungen sehen. Für eine geplante Änderung gehen Sie in dem linken Fenster und klicken Sie auf **Neu** und in dem angezeigten Fenster geben Sie den gewünschten Wert und das Datum.
+![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung2.png "Geplante Änderung der MwSt. Schritt 1")
+![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung3.png "Geplante Änderung der MwSt. Schritt 2")
+> Und anschließend den neuen Wert eingeben. Am Ende speichern Sie den Vorgang. 
+> Wenn das Datum und die Uhrzeit gekommen ist, wird die Änderung vom System durchgeführt. 
+{.is-info}
+
+> **Info / Tipp:**
+Geplante Änderungen können für unterschiedlichen Objekte erstellt werden. Zum Beispiel so eine Änderung kann man auch in dem Vertrag planen.
+{.is-info}
+ 
+![Qooxdoo Geplante Änderung Vertrag](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung4.png "Geplante Änderung der MwSt. des Vertrags")
+
+> **Bemerkung:** Sobald es eine oder mehr geplante Änderungen für ein Feld existiert, kann der Benutzer dieses Feld nicht bearbeiten. Dafür muss der Benutzer neue geplante Änderung erstellen, damit die Änderung übernommen wird. Eine Änderung kann auch in der Vergangenheit erstellt werden. 
+
+> **Beispiel:**
+Das Feld Kosten für die folgende Position lässt sich nicht ändern, weil geplante Änderungen für dieses Feld existieren.
+![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung5.png "Feld ist wegen geplanter Änderung gesperrt")
+{.is-info}
 
 # Systemmodule
 
