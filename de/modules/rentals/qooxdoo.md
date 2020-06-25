@@ -47,7 +47,7 @@ Die Fläche, die aus den verknüpften Räume oder Mietflächen zusammen gerechne
 * Räume (optional, aber empfohlen) – geben Sie die Räume, die zu dieser Einheit gehören. So wird die richtige Fläche ermittelt und die Räume mit der Miteinheit verknüpft. So kann der Benutzer die eingetragene Fläche im Vertrag mit der tatsächlich genutzten Fläche vergleichen. 
  
 ![Qooxdoo Mieteinheiten erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mieteinh5.png „Räume hinzufügen“)
-
+![Qooxdoo Mieteinheiten erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mieteinh5.png "Zusätzliche Einstellungen")
 * Einstellungen – hier sind einige Einstellungen, die in dem Registerkarte **Haupteigenschaften** zu finden sind:
 
 ![Qooxdoo Mieteinheiten erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mieteinh6.png "Zusätzliche Einstellungen")
