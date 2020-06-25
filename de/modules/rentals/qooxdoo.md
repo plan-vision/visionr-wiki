@@ -156,3 +156,16 @@ Sobald die Positionen Kosten haben, werden die Kosten im Vertrag überschrieben.
 
 Das Feld ist schon ausgegraut und kann nicht mehr manuell geändert werden. Damit der Benutzer einen Betrag im Vertrag pauschal eintragen kann, soll der Vertrag keine Positionen beinhalten. 
 
+# Bearbeitung von Mietkonditionen
+Der Benutzer kann Mietkonditionen für die Mieteinheiten definieren. Sie beinhalten die zukünftigen Preisänderungen. Die Mietkonditionen sind in dem Reiter **Kosten** in der Mieteinheit zu finden.
+ 
+![Qooxdoo Mietkonditionen erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietkond1.png "Mietkonditionen erstellen")
+
+Mit Klick auf **Neu** fügen Sie eine neue Mietkondition ein. Geben Sie den **Name**, ggf. eine Beschreibung und **die Anfang-** und **Enddatum** ein. 
+ 
+![Qooxdoo Mietkonditionen erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietkond2.png "Mietkonditionen erstellen Einstellungen")
+
+Sie können hier auch Dokumente hochladen. 
+An dem Beginndatum wird der neue Preis übernommen.
+
+
