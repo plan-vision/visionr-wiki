@@ -69,3 +69,53 @@ o	Farbe – frei wählbar – für die grafische Einfärbung
 o	Anfangs- und Enddatum 
 
 Anschließend **Speichern** Sie den Vorgang. 
+
+
+
+# Bearbeitung von Mietverträgen und Mietpositionen
+## Mietverträge
+
+Die Mietverträge beinhalten die Vereinbarungen, die Mietflächen, die Konditionen, die Parteien etc. Der Mietvertrag wird mit der Mieteinheit verknüpft. 
+Die **Vertragspositionen** können Daten aus dem Vertrag übernehmen, können aber auch abweichende Angaben haben. Deshalb ist in jeder Vertragsposition auch die Mieteinheit einzutragen.
+Klicken Sie auf **Neu**, um einen neuen Vertrag zu erstellen. Geben Sie die wichtigsten Daten ein:
+* **Vertrags-ID**
+* **Mieter**
+* **Vermieter**
+* **Name des Vertrags**
+* Mieteinheit (optional, aber empfohlen). 
+* Vertragsnummer
+* In Gebäuden (optional, aber empfohlen, damit der Vertrag auch in der Baumstruktur mit Filter **nach Standort** angezeigt wird.
+ 
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver1.png "Mietvertrag erstellen")
+
+* Laufzeiten
+Geben Sie hier die Laufzeiten (Beginn- und Enddatum, die Laufzeit wird berechnet), falls der Vertrag befristet ist, falls nicht, klicken Sie auf **Unbefristet JA**.
+* Kündigungsoptionen – darunter sind die Kündigungsoptionen. Geben Sie diese auch ein. 
+
+* Status (optional, aber empfohlen).
+
+ 
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver2.png "Mietvertrag Laufzeiten und Kündigung")
+
+* Dokumente (optional) – falls Sie den Vertrag eingescannt haben, können Sie das Original einfach hinzufügen. So haben Sie immer eine verknüpfte digitale Kopie des Vertrags zu dem Vertrag im System.
+* **Kosten, Zahlungsintervalle, Zahlungsoptionen, Umsatzsteuerpflichtig, Währung**
+In dem zweiten Reiter **Kosten** können Sie die Kosten und die Zahlungsoptionen eingeben. 
+> **Bemerkung:** Die Kosten können Sie manuell eingeben, aber sobald Positionen in dem Vertrag existieren, werden die Kosten im Vertrag aus den Positionskosten zusammengerechnet. 
+ 
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver3.png "Kosten und Zahlungsintervall festlegen")
+Ändern Sie die Optionen, die für Sie wichtig sind. Eine Änderung hier ist gültig auch für alle Positionen, die mit dem Vertrag verknüpft sind. Sobald die Positionen manuell geändert werden, werden die Änderungen aus dem Vertrag die Positionen nicht überschreiben und der Benutzer soll die Positionen manuell anpassen. 
+So kann der Benutzer viele mögliche Varianten abdecken.
+* **Zahlungen (Kundenspezifisch)**– die Zahlungen kann der Benutzer in der Registerkarte **Zahlungen** anpassen. 
+ 
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver4.png "Zahlungen")
+* Anhänge (optional) – hier können Sie Anhänge hochladen und mit dem Vertrag verknüpfen. Dazu können Sie auch die Beginn- und Endzeit für die Anhänge festlegen. 
+* Indexierung (optional) – die Indizes geben Sie in dem Reiter **Indexierung**. **Beispiel:** 
+ 
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver5.png "Indixierungen")
+* Staffelung (optional) – die Staffelung geben Sie in dem Reiter **Staffelung**
+ 
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver6.png "Staffelungen")
+Sie können die Felder anschauen und gegebenenfalls die relevanten Felder ausfüllen.
+Anschließend speichern Sie den Vertrag!
+
+
