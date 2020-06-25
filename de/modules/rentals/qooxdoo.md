@@ -33,17 +33,17 @@ In dem Formular geben Sie die wichtigsten Daten ein, wie:
 * **Code ändern** – Ändern Sie den Code nach Ihrem Muster
 * Name (optional)
 * Mieter und Vermieter (optional) – diese werden im Prinzip im Vertrag festgelegt. 
-![Qooxdoo Mieteinheiten](/uploads/v6/de-mietmanagement/vr6-mietman-mieteinh2" Mieteinheiten")
+![Qooxdoo Mieteinheiten](/uploads/v6/de-mietmanagement/vr6-mietman-mieteinh2.png "Mieteinheiten")
 * Gebäude (optional, aber empfohlen) – geben Sie das Gebäude, damit die Mieteinheit auch in der Baumstruktur angezeigt wird. Ohne Gebäude kann der Benutzer die Einheit in der Tabelle mit allen Mieteinheiten finden. 
 * Fall die Mieteinheit anderen Mieteinheiten beinhaltet oder Teil einer übergeordneten Mieteinheit ist, geben Sie die Zugehörigkeit in dem Feld **Gehört zu** und **Enthält Mieteinheiten**.
 
  
-![Qooxdoo Mieteinheiten erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mieteinh3.png " Mieteinheiten Gehört zu")
+![Qooxdoo Mieteinheiten erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mieteinh3.png "Mieteinheiten Gehört zu")
 *	**Mietfläche im Vertrag** – hier geben Sie bitte die Fläche der Mieteinheit, die in dem Vertrag definiert ist. Hier muss der Benutzer die Fläche manuell eingeben!
 Die Fläche, die aus den verknüpften Räume oder Mietflächen zusammen gerechnet ist, wird in den Feldern **Flächensummer Räume** und **Mietflächensumme Räume** angezeigt. 
 
  
-![Qooxdoo Mieteinheiten erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mieteinh4.png " Mieteinheiten Fläche aus dem Vertrag eintragen")
+![Qooxdoo Mieteinheiten erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mieteinh4.png "Mieteinheiten Fläche aus dem Vertrag eintragen")
 * Räume (optional, aber empfohlen) – geben Sie die Räume, die zu dieser Einheit gehören. So wird die richtige Fläche ermittelt und die Räume mit der Miteinheit verknüpft. So kann der Benutzer die eingetragene Fläche im Vertrag mit der tatsächlich genutzten Fläche vergleichen. 
  
 ![Qooxdoo Mieteinheiten erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mieteinh5.png "Räume hinzufügen")
@@ -86,35 +86,39 @@ Klicken Sie auf **Neu**, um einen neuen Vertrag zu erstellen. Geben Sie die wich
 * Vertragsnummer
 * In Gebäuden (optional, aber empfohlen, damit der Vertrag auch in der Baumstruktur mit Filter **nach Standort** angezeigt wird.
  
-![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver1.png "Mietvertrag erstellen")
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietver1.png "Mietvertrag erstellen")
 
-* Laufzeiten
-Geben Sie hier die Laufzeiten (Beginn- und Enddatum, die Laufzeit wird berechnet), falls der Vertrag befristet ist, falls nicht, klicken Sie auf **Unbefristet JA**.
+* Laufzeiten - Geben Sie hier die Laufzeiten (Beginn- und Enddatum, die Laufzeit wird berechnet), falls der Vertrag befristet ist, falls nicht, klicken Sie auf **Unbefristet JA**.
 * Kündigungsoptionen – darunter sind die Kündigungsoptionen. Geben Sie diese auch ein. 
-
 * Status (optional, aber empfohlen).
 
  
-![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver2.png "Mietvertrag Laufzeiten und Kündigung")
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietver2.png "Mietvertrag Laufzeiten und Kündigung")
 
 * Dokumente (optional) – falls Sie den Vertrag eingescannt haben, können Sie das Original einfach hinzufügen. So haben Sie immer eine verknüpfte digitale Kopie des Vertrags zu dem Vertrag im System.
 * **Kosten, Zahlungsintervalle, Zahlungsoptionen, Umsatzsteuerpflichtig, Währung**
 In dem zweiten Reiter **Kosten** können Sie die Kosten und die Zahlungsoptionen eingeben. 
+
 > **Bemerkung:** Die Kosten können Sie manuell eingeben, aber sobald Positionen in dem Vertrag existieren, werden die Kosten im Vertrag aus den Positionskosten zusammengerechnet. 
  
-![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver3.png "Kosten und Zahlungsintervall festlegen")
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietver3.png "Kosten und Zahlungsintervall festlegen")
+
 Ändern Sie die Optionen, die für Sie wichtig sind. Eine Änderung hier ist gültig auch für alle Positionen, die mit dem Vertrag verknüpft sind. Sobald die Positionen manuell geändert werden, werden die Änderungen aus dem Vertrag die Positionen nicht überschreiben und der Benutzer soll die Positionen manuell anpassen. 
 So kann der Benutzer viele mögliche Varianten abdecken.
+
 * **Zahlungen (Kundenspezifisch)**– die Zahlungen kann der Benutzer in der Registerkarte **Zahlungen** anpassen. 
  
-![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver4.png "Zahlungen")
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietver4.png "Zahlungen")
+
 * Anhänge (optional) – hier können Sie Anhänge hochladen und mit dem Vertrag verknüpfen. Dazu können Sie auch die Beginn- und Endzeit für die Anhänge festlegen. 
 * Indexierung (optional) – die Indizes geben Sie in dem Reiter **Indexierung**. **Beispiel:** 
  
-![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver5.png "Indixierungen")
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietver5.png "Indixierungen")
+
 * Staffelung (optional) – die Staffelung geben Sie in dem Reiter **Staffelung**
  
-![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-allgemein/vr6-mietman-mietver6.png "Staffelungen")
+![Qooxdoo Mietvertrag erstellen](/uploads/v6/de-mietmanagement/vr6-mietman-mietver6.png "Staffelungen")
+
 Sie können die Felder anschauen und gegebenenfalls die relevanten Felder ausfüllen.
 Anschließend speichern Sie den Vertrag!
 
