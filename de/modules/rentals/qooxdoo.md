@@ -172,7 +172,7 @@ An dem Beginndatum wird der neue Preis übernommen.
 
 In diesem Modul gibt es auch eine Menge Felder, die von dem Benutzer geplant geändert werden können. 
 Solche Felder, in dem man den Wert mit Datum und Uhrzeit planen kann, sind mit dem Symbol ![Qooxdoo Applikationsmaske - Button Historization und geplante Änderungen](/uploads/v6/de-allgemein/vr6-hist_planned_changes_icon.png "Button Historization und geplante Änderungen") gekennzeichnet. Falls dieses Zeichen links vor dem Feld verfügbar ist, kann man den Wert in diesem Feld planen. 
-Falls das Symbol so ![Qooxdoo Applikationsmaske - Button Historization](/uploads/v6/de-allgemein/vr6-historization_icon.png "Button Historization") aus sieht, ist dieses Feld nur protokolliert. 
+Falls das Symbol so ![Qooxdoo Applikationsmaske - Button Historization](/uploads/v6/de-allgemein/vr6-historization_icon.png "Button Historisierung") aus sieht, ist dieses Feld nur protokolliert. 
 
 > **Beispiel:**
 > Wir möchten die Mehrwehrsteuer für einige Monate ändern. Wir können manuell den Prozentsatz ändern, indem wir alle Positionen (oder Verträge) auswählen und den MwSt.-Satz ändern. Sobald dieser Satz wieder genändert werden muss, muss der Benutzer ihn wieder manuell anpassen. Hier soll der Benutzer auch auf die monatlichen Werte aufpassen, damit diese richtzeitig und mit den richtigen Werten ausgegeben werden. 
@@ -208,7 +208,7 @@ Dafür gehen Sie in der Mieteinheiten- Tabelle und wählen Sie die gewünschten 
  
 ![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche2.png "Monat / Fläche generieren")
 
-Wenn Sie die Einheiten selektiert haben, klicken Sie auf den Button „Monat / Fläche anlegen“.
+Wenn Sie die Einheiten selektiert haben, klicken Sie auf den Button `Monat / Fläche anlegen`.
  
 ![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche3.png "Monat / Fläche generieren")
 
