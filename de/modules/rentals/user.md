@@ -206,33 +206,25 @@ Das Feld Kosten für die folgende Position lässt sich nicht ändern, weil gepla
 Eine Zuordnung Monat / Flächen wird vom System an jedem 15. (das Datum kann eingestellt werden) des Monats generiert. Dafür werden die Mieteinheiten mit Status „inaktiv“ ignoriert. 
 Sie können auch eine Zuordnung selber erstellen, dann wird der Monat auch in der Baumstruktur erscheinen, falls er noch nicht vom Scheduler erstellt ist (jeweils am 15. des Vormonats). 
 Dafür gehen Sie in der Mieteinheiten- Tabelle und wählen Sie die gewünschten Mieteinheiten. Die Mieteinheiten mit Status „inaktiv“ sollen aus der Auswahl weg gelassen. 
- 
-![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche1.png "Monat / Fläche generieren")
- 
-![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche2.png "Monat / Fläche generieren")
 
 Wenn Sie die Einheiten selektiert haben, klicken Sie auf den Button `Monat / Fläche anlegen`.
- 
-![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche3.png "Monat / Fläche generieren")
 
-Wählen Sie in dem neuen Fenster das Jahr und den Monat aus und schauen Sie die Einstellungen an und ändern Sie diese falls nötig. Standardmäßig wird die Option „aus aktuellem Stand“ gesetzt. Sie können diese aber ändern. 
- 
-![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche4.png "Monat / Fläche generieren Einstellungen vor dem Generieren")
+![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche1.png "Monat / Fläche generieren")
 
-In diesem Beispiel werden die Daten für den Monat Mai 2020 generiert. 
+Wählen Sie in dem neuen Fenster das Jahr und den Monat aus und schauen Sie die Einstellungen an und falls nötig ändern Sie diese ab. Standardmäßig wird die Option „aus aktuellem Stand“ gesetzt. Sie können diese aber ändern. 
+ 
+![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche2.png "Monat / Fläche generieren - Einstellungen vor dem Generieren")
+
+In diesem Beispiel werden die Daten für den Monat Juli 2020 generiert. 
 Anschließend klicken Sie auf 'Ausführen'. 
-Die Objekte werden generiert: Der Vorgang kann einige Zeit in Anspruch nehmen.
+Die Objekte werden generiert: Der Vorgang kann einige Zeit in Anspruch nehmen. Die generierten Objekte werden angezeigt. 
  
-![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche5.png "Monat / Fläche Daten werden generiert")
+![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche3.png "Monat / Fläche Daten werden generiert")
 
-Die generierten Objekte werden angezeigt. 
+Die monatliche Werte – Zuordnung Monat / Mieteinheit; **Monat / Mietfläche** (auf der Abbildung) und Monat / Raum sind jetzt auch für den angegebenen Monat in der Tabelle unter dem Monat zu finden. 
  
-![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche6.png "Monat / Fläche Ergebnis Überblick")
+![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche4.png "Monatliche Werte Tabelle")
 
-Die monatliche Werte – Zuordnung Monat / Mieteinheit; Monat / Mietfläche und Monat / Raum sind jetzt auch für den angegebenen Monat  sind dann in der Tabelle unter dem Monat zu finden.
- 
-![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche7.png "Monatliche Werte Tabelle")
-
-> **Bemerkung:** Hier sind die Werte „Monat / Mieteinheit“ aufgelistet. Mit Klick auf das Häuschen über die Baumstruktur können Sie den Typ ändern. 
+> **Bemerkung:** Hier sind die Werte „Monat / Fläche “ aufgelistet. Mit Klick auf die Objektdefinitionen links können Sie den Typ ändern. 
 
 ![Qooxdoo Monatliche Werte](/uploads/v6/de-mietmanagement/vr6-mietman-monat_flaeche8.png "Monatliche Werte Ansicht / Filter ändern")
