@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Forms Oberflächen - ab Version 7 -->
 
 Deutsch | [English](/de/modules/rentals)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > [Mietmanagement](/de/modules/rentals) > Für normale Benutzer
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > [Mietmanagement](/de/modules/rentals) > normale Benutzer
 
 # Beschreibung
 
