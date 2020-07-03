@@ -171,8 +171,11 @@ An dem Beginndatum wird der neue Preis übernommen.
 # Geplante Änderungen
 
 In diesem Modul gibt es auch eine Menge Felder, die von dem Benutzer geplant geändert werden können. 
-Solche Felder, in dem man den Wert mit Datum und Uhrzeit planen kann, sind mit dem Symbol ![Qooxdoo Applikationsmaske - Button Historization und geplante Änderungen](/uploads/v6/de-allgemein/vr6-hist_planned_changes_icon.png "Button Historization und geplante Änderungen") gekennzeichnet. Falls dieses Zeichen links vor dem Feld verfügbar ist, kann man den Wert in diesem Feld planen. 
-Falls das Symbol so ![Qooxdoo Applikationsmaske - Button Historization](/uploads/v6/de-allgemein/vr6-historization_icon.png "Button Historisierung") aus sieht, ist dieses Feld nur protokolliert. 
+Solche Felder, in dem man den Wert mit Datum und Uhrzeit planen kann, sind mit dem Symbol ![Qooxdoo Applikationsmaske - Button Historization und geplante Änderungen](/uploads/v6/de-allgemein/vr7-planned_changes_icon.png "Button Historization und geplante Änderungen") gekennzeichnet. Falls dieses Zeichen links vor dem Feld verfügbar ist, kann man den Wert in diesem Feld planen. 
+Die geplanten Änderungen, sowie die Änderungen, die schon in der Vergangenheit liegen (also sie haben stattgefunden), sind alle unter der Menüoption **Änderungen**. 
+
+![Qooxdoo Geplante Änderung](/uploads/v7/de-allgemein/vr7-changes_button.png "Änderungen (geplante und schon vergangene) ansehen")
+
 
 > **Beispiel:**
 > Wir möchten die Mehrwehrsteuer für einige Monate ändern. Wir können manuell den Prozentsatz ändern, indem wir alle Positionen (oder Verträge) auswählen und den MwSt.-Satz ändern. Sobald dieser Satz wieder genändert werden muss, muss der Benutzer ihn wieder manuell anpassen. Hier soll der Benutzer auch auf die monatlichen Werte aufpassen, damit diese richtzeitig und mit den richtigen Werten ausgegeben werden. 
