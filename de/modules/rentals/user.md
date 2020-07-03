@@ -197,7 +197,7 @@ Geplante Änderungen können für unterschiedlichen Objekte erstellt werden. Zum
 > **Bemerkung:** Sobald es eine oder mehr geplante Änderungen für ein Feld existiert, kann der Benutzer dieses Feld nicht bearbeiten. Dafür muss der Benutzer neue geplante Änderung erstellen, damit die Änderung übernommen wird. Eine Änderung kann auch in der Vergangenheit erstellt werden. 
 
 > **Beispiel:**
-Das Feld Kosten für die folgende Position lässt sich nicht ändern, weil geplante Änderungen für dieses Feld existieren.
+Das Feld Kosten für die folgende Position lässt sich nicht ändern, weil geplante Änderungen für dieses Feld existieren. Änderungen können in diesem Fall nur über **geplante Änderung** realisiert werden. Sie können auch ein Datum in der Vergangenheit setzen, falls die Änderung schon stattgefunden hat. Das Feld ist hier ausgegraut. 
 ![Qooxdoo Geplante Änderung](/uploads/v6/de-mietmanagement/vr6-mietman-gepl_aenderung5.png "Feld ist wegen geplanter Änderung gesperrt")
 {.is-info}
 
