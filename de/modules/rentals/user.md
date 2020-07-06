@@ -91,7 +91,7 @@ Klicken Sie auf **Neu**, um einen neuen Vertrag zu erstellen. Geben Sie die wich
 * Status (optional, aber empfohlen).
 
  
-![Qooxdoo Mietvertrag erstellen](/uploads/v7/de-mietmanagement/vr7-mietman-mietver2.png "Mietvertrag Laufzeiten und Kündigung")
+![Qooxdoo Mietvertrag erstellen](/uploads/de-mietmanagement/vr7-mietman-mietver2.png "Mietvertrag Laufzeiten und Kündigung")
 
 * Dokumente (optional) – falls Sie den Vertrag eingescannt haben, können Sie das Original einfach hinzufügen. So haben Sie immer eine verknüpfte digitale Kopie des Vertrags zu dem Vertrag im System.
 * **Kosten, Zahlungsintervalle, Zahlungsoptionen, Umsatzsteuerpflichtig, Währung**
