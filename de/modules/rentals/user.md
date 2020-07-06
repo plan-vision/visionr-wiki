@@ -62,8 +62,6 @@ o	Flächenzustand
 
 o	Nutzung
  
-![Qooxdoo Mieteinheiten erstellen](/uploads/de-mietmanagement/vr7-mietman-mieteinh9.png "Nutzung der Mieteinheit")
-
 o	Farbe – frei wählbar – für die grafische Einfärbung
 
 o	Anfangs- und Enddatum 
