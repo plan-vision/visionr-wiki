@@ -223,6 +223,6 @@ Die monatliche Werte – Zuordnung Monat / Mieteinheit; **Monat / Mietfläche** 
  
 ![Qooxdoo Monatliche Werte](/uploads/de-mietmanagement/vr7-mietman-monat_flaeche4.png "Monatliche Werte Tabelle")
 
-> **Bemerkung:** Hier sind die Werte „Monat / Fläche “ aufgelistet. Mit Klick auf die Objektdefinitionen links können Sie den Typ ändern. 
+> **Bemerkung:** Hier sind die Werte „Monat / Flächen “ aufgelistet. Mit Klick auf die Objektdefinitionen links können Sie den Typ ändern. 
 
-![Qooxdoo Monatliche Werte](/uploads/de-mietmanagement/vr7-mietman-monat_flaeche8.png "Monatliche Werte Ansicht / Filter ändern")
+![Qooxdoo Monatliche Werte](/uploads/de-mietmanagement/vr7-mietman-monat_flaeche5.png "Monatliche Werte Ansicht / Filter ändern")
