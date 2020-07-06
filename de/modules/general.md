@@ -430,6 +430,40 @@ Unterschreiben Sie mit dem Maus / Finger je nach benutztem Gerät (PC, Tablet, S
 ![Forms Unterschrift hochladen 1](/uploads/de-allgemein/v7-DE-Unterschrift_hochladen1.png "Forms Unterschrift hochladen - das Ergebnis")
 
 
+# Historisierung der Daten
+
+
+# Geplante Änderungen
+
+Zu den Historisierungen der Daten gibt es auch die Möglichkeit Änderungen zu planen und diese von System ausführen lassen. Die Felder, deren Änderungen geplant werden können, sind mit dem Symbol ![Qooxdoo Applikationsmaske - geplante Änderungen](/uploads/de-allgemein/vr7-planned_changes_icon.png "geplante Änderungen") links gekennzeichnet.  Mit Klick auf diesem Symbol können Sie Änderungen mit Eingabe der Uhrzeit und Datum planen. Alle Änderungen werden protokolliert. 
+
+Die geplanten Änderungen, sowie die Änderungen, die schon in der Vergangenheit liegen (also sie haben stattgefunden), sind alle unter der Menüoption **Änderungen** aufgelistet. 
+
+![Qooxdoo Änderungen](/uploads/de-allgemein/vr7-changes_button.png "Änderungen (geplante und schon vergangene) ansehen")
+
+> **Beispiel:**
+> Wir möchten die Mehrwehrsteuer für einige Monate ändern. Wir können manuell den Prozentsatz ändern, indem wir alle Positionen (oder Verträge) auswählen und den MwSt.-Satz ändern. Sobald dieser Satz wieder genändert werden muss, muss der Benutzer ihn wieder manuell anpassen. Hier soll der Benutzer auch auf die monatlichen Werte aufpassen, damit diese richtzeitig und mit den richtigen Werten ausgegeben werden. 
+> Deshalb ist eine geplante Änderung hier sinnvoll. Als Beispiel wird die MwSt. in dem Vertrag. 
+![Qooxdoo Geplante Änderung](/uploads/de-mietmanagement/vr7-mietman-gepl_aenderung1.png "Geplante Änderung der MwSt. des Vertrags")
+> Klicken Sie zuerst auf `Aufklappen`, um die Tabelle aufzumachen und in dem angezeigtem Fenster können Sie die geplanten und die schon vergangenen Änderungen sehen. Für eine geplante Änderung bleiben Sie in dem linken Fenster und klicken Sie auf **Neu** über das Menü und in dem angezeigten Fenster geben Sie den gewünschten Wert und das Datum.
+![Qooxdoo Geplante Änderung](/uploads/de-mietmanagement/vr7-mietman-gepl_aenderung2.png "Geplante Änderung der MwSt. Schritt 1")
+![Qooxdoo Geplante Änderung](/uploads/de-mietmanagement/vr7-mietman-gepl_aenderung3.png "Geplante Änderung der MwSt. Schritt 2")
+> Und anschließend den neuen Wert eingeben. Am Ende speichern Sie den Vorgang. 
+> Wenn das Datum und die Uhrzeit gekommen ist, wird die Änderung vom System durchgeführt. 
+{.is-info}
+
+> **Info / Tipp:**
+Geplante Änderungen können für unterschiedlichen Objekte erstellt werden. Zum Beispiel so eine Änderung kann man auch in den einzelnen Positionen planen, falls zum Beispiel die Kaltmiete mit anderem MwSt.-Satz als die Nebenkosten ist. Wenn Sie das Symbol für geplanten Änderungen links in dem Feld sehen, können Sie Änderungen planen. 
+{.is-info}
+ 
+![Qooxdoo Geplante Änderung Kaltmiete](/uploads/de-mietmanagement/vr7-mietman-gepl_aenderung4.png "Geplante Änderung der Kaltmiete")
+
+> **Bemerkung:** Sobald es eine oder mehr geplante Änderungen für ein Feld existiert, kann der Benutzer dieses Feld nicht bearbeiten. Dafür muss der Benutzer neue geplante Änderung erstellen, damit die Änderung übernommen wird. Eine Änderung kann auch in der Vergangenheit erstellt werden. 
+
+> **Beispiel:**
+Das Feld Kosten für die folgende Position lässt sich nicht ändern, weil geplante Änderungen für dieses Feld existieren. Änderungen können in diesem Fall nur über **geplante Änderung** realisiert werden. Sie können auch ein Datum in der Vergangenheit setzen, falls die Änderung schon stattgefunden hat. Das Feld ist hier ausgegraut. 
+![Qooxdoo Geplante Änderung](/uploads/de-mietmanagement/vr7-mietman-gepl_aenderung5.png "Feld ist wegen geplanter Änderung gesperrt")
+{.is-info}
 
 
 
