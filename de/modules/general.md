@@ -441,7 +441,7 @@ Die geplanten Änderungen, sowie die Änderungen, die schon in der Vergangenheit
 
 ![Qooxdoo Änderungen](/uploads/de-allgemein/vr7-changes_button.png "Änderungen (geplante und schon vergangene) ansehen")
 
-> **Beispiel:**
+> **Beispiel: aus dem Modul Mietmanagement**
 > Wir möchten die Mehrwehrsteuer für einige Monate ändern. Wir können manuell den Prozentsatz ändern, indem wir alle Positionen (oder Verträge) auswählen und den MwSt.-Satz ändern. Sobald dieser Satz wieder genändert werden muss, muss der Benutzer ihn wieder manuell anpassen. Hier soll der Benutzer auch auf die monatlichen Werte aufpassen, damit diese richtzeitig und mit den richtigen Werten ausgegeben werden. 
 > Deshalb ist eine geplante Änderung hier sinnvoll. Als Beispiel wird die MwSt. in dem Vertrag. 
 ![Qooxdoo Geplante Änderung](/uploads/de-mietmanagement/vr7-mietman-gepl_aenderung1.png "Geplante Änderung der MwSt. des Vertrags")
