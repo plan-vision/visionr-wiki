@@ -158,11 +158,11 @@ The field is already grey and that means that there are positions with costs and
 
 The user can define rental conditions. This conditions contain the costs changes in the future. They are put in the tab **costs** in the **rental unit** object. 
  
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-rental_conditions1.png " Rental positions – create new rental condition")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-rental_conditions1.png " Rental positions – create new rental condition")
 
 With the **add** option you can create and add new conditions. In the new window type the proper **name**, description, begin and end date (optional).
  
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-rental_conditions2.png " Rental positions –new rental condition settings")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-rental_conditions2.png " Rental positions –new rental condition settings")
 
 You can add documents here as well.
 The new costs will be inherited at the begin date. 
@@ -176,10 +176,10 @@ If the icon seems like this ![Qooxdoo Applikationsmaske - Button Historization](
 , it means that the field is only logged. 
 > **Example:** We want to change the tax value for several months. We can change the value manually and then again manually to change it back. This means that the user have to take care of that changes. Alternative is the approach with the planned changes. 
 > Therefore it makes sense to create a planned change: 
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-planned_changes1.png " Rental positions – planned changes of VAT example")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-planned_changes1.png " Rental positions – planned changes of VAT example")
 >In the shown window are the planned changes (the table on the left) and the logged changes (table on the right). To create a planned change – left mouse click in the left window, then click on **new**. In the form type the date and the new value. 
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-planned_changes2.png " Rental positions – planned changes of VAT example step 2")
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-planned_changes3.png " Rental positions – planned changes of VAT example step 3")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-planned_changes2.png " Rental positions – planned changes of VAT example step 2")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-planned_changes3.png " Rental positions – planned changes of VAT example step 3")
 >Type the new value and save the process.
 >When the date and time come, the value will be inherited.
 >**Hint:** Planned changes are available for several objects. For example: the user can plan changes for every single position. Or for some fields in the position. .
@@ -194,15 +194,15 @@ The user can create the assignment manually, if it is not already created from t
 The monthly values are in separated table. Klick on the button **Monthly values** on the left side. From the structure on the left side of the table choose the month you want. The values will be shown in the table. If the month doesn’t exist, it means, that it isn’t created yet. 
 > **Remark:** In the following screenshots some data are hidden because of the privacy of the data. 
  
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-monthly_values1.png " Rental positions – Example of already generated monthly values")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-monthly_values1.png " Rental positions – Example of already generated monthly values")
 
 Complete / Edit the values and set the proper status. 
  
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-monthly_values2.png " Rental positions – Edit the created monthly values")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-monthly_values2.png " Rental positions – Edit the created monthly values")
  
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-monthly_values3.png " Rental positions – write the costs if they aren’t inherited ")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-monthly_values3.png " Rental positions – write the costs if they aren’t inherited ")
 
 Alternative edit the field with double click on the table cell:
  
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-monthly_values4.png " Rental positions – edit the fields directly in the table cell")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-monthly_values4.png " Rental positions – edit the fields directly in the table cell")
 
