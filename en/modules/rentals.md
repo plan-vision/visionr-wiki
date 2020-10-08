@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Mobul für Bearbeitung von Mietflächen, Mietverträge, Exposes etc. -->
 
 Deutsch | [English](/en/modules/rentals)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > Mietmanagement*
+*You are here: [Home](/home) > [user guide](/de/user-guide) > Rentals*
 
 # Bedienung
 ## Normale Benutzer
