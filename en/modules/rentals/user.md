@@ -1,4 +1,7 @@
-<!-- TITLE: User -->
-<!-- SUBTITLE: A quick summary of User -->
+<!-- TITLE: Rentals -->
+<!-- SUBTITLE: Forms Interface -->
 
-# Header
+[Deutsch](/de/modules/rentals/forms) | English
+*You are here: [Home](/home) > [User guide](/en/user-guide) > [Rentals](/en/modules/rentals/user) > Forms
+
+# Description
