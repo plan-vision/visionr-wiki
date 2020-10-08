@@ -10,3 +10,5 @@ The module **Rentals** is used for the management of rental units, rental contra
 The module **Rentals** is accessible by clicking on the rentals icon from the index site. 
  
 ![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-overview1.png "VisionR Rentals Overview)
+
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-overview1.png "VisionR Rentals Overview)
