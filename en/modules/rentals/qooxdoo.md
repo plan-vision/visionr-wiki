@@ -2,7 +2,7 @@
 <!-- SUBTITLE: Qooxdoo Interface -->
 
 [Deutsch](/de/modules/rentals/qooxdoo) | English
-*You are here: [Home](/home) > [Benutzerhandbuch](/en/user-guide) > [Rentals](/en/modules/rentals) > Old Interface
+*You are here: [Home](/home) > [User guide](/en/user-guide) > [Rentals](/en/modules/rentals) > Old Interface
 
 # Description
 
