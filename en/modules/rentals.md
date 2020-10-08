@@ -6,6 +6,6 @@
 # Normal user
 * Module Contacts for [normal users](/en/modules/rentals/user)
 # Module admin 
-* Modul Kontakte für [Admins](/en/modules/rentals/admin)
+* Modul Rentals for [Admins](/en/modules/rentals/admin)
 # Old interface
-* Module Contacts on [old interface](/en/modules/rentals/qooxdoo)
+* Module Rentals on [old interface](/en/modules/rentals/qooxdoo)
