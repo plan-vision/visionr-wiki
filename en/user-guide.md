@@ -13,6 +13,7 @@
 * Maintenance
 * Key management
 * Reservations
+* [Rentals](/en/modules/rentals)
 
 # System modules
 * User management
