@@ -174,21 +174,17 @@ Such fields have the ![Qooxdoo Applikationsmaske - Button Historization und gepl
  on the left side and with click on it, the user can set date and time and value for the planned change. On that day and time the value will be inherited. If this icon is in front of a field, that means, that the field can be changed on a scheduler. 
 If the icon seems like this ![Qooxdoo Applikationsmaske - Button Historization](/uploads/v6/de-allgemein/vr6-historization_icon.png "Button Historization")
 , it means that the field is only logged. 
-> ** Example:** We want to change the tax value for several months. We can change the value manually and then again manually to change it back. This means that the user have to take care of that changes. Alternative is the approach with the planned changes. 
-Therefore it makes sense to create a planned change: 
- 
+> **Example:** We want to change the tax value for several months. We can change the value manually and then again manually to change it back. This means that the user have to take care of that changes. Alternative is the approach with the planned changes. 
+> Therefore it makes sense to create a planned change: 
 ![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-planned_changes1.png " Rental positions – planned changes of VAT example")
-
-In the shown window are the planned changes (the table on the left) and the logged changes (table on the right). To create a planned change – left mouse click in the left window, then click on **new**. In the form type the date and the new value. 
- 
+>In the shown window are the planned changes (the table on the left) and the logged changes (table on the right). To create a planned change – left mouse click in the left window, then click on **new**. In the form type the date and the new value. 
 ![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-planned_changes2.png " Rental positions – planned changes of VAT example step 2")
- 
 ![Vr Rentals EN Qooxdoo](/uploads/en-rentals/vr-rentals-en-planned_changes3.png " Rental positions – planned changes of VAT example step 3")
-
-Type the new value and save the process.
-When the date and time come, the value will be inherited.
-**Hint:** Planned changes are available for several objects. For example: the user can plan changes for every single position. Or for some fields in the position. .
+>Type the new value and save the process.
+>When the date and time come, the value will be inherited.
+>**Hint:** Planned changes are available for several objects. For example: the user can plan changes for every single position. Or for some fields in the position. .
 {.is-info}
+
 > **Remark:** If a planned change is existing for a field, the user can’t change the value in this field. In order to change it, the user have to plan another change in order to overwrite the value. Such planned changes can be created for a past period as well. Then the change is already executed, but logged with the right change time. 
 
 # Monthly values
