@@ -13,5 +13,5 @@ The module **Rentals** is accessible by clicking on the rentals icon from the in
 
 ![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-overview1.png "VisionR Rentals Overview)
 
-![Qooxdoo Index Seite](/uploads/v6/de-mietmanagement/vr6-mietman-besch1.png "Index- Seite") 
+![Qooxdoo Index Seite](/uploads/en-rentals/qooxdoo/vr-rentals-en-overview1.png "Index- Seite") 
 
