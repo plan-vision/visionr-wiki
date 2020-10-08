@@ -119,15 +119,15 @@ Open the contract and navigate to the tab **positions**. Add positions according
 >  **REMARK**: The positions in the contract are very important for the right calculation of the costs. Every position has own costs and the costs in the contract are calculated regarding the positions. Therefor it is recommended to use the positions to put the different costs, for example the cold rent, operating costs, utility costs. 
 It is recommended every position from the contract, where there are costs, to be put in a separate position in the system. 
  
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-rental_positions1.png " Rental positions – create new one")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-rental_positions1.png "Rental positions – create new one")
 
 > **Remark**: The screenshots are from the running system and some examples.
  
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-rental_positions2.png " Rental positions – example of basic rent position")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-rental_positions2.png "Rental positions – example of basic rent position")
 
 If you like to create a new position, use the button **new** as in the screenshot above. From the options choose the type you want to add:
  
-![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-rental_positions3.png " Rental positions – create a basic rent position")
+![Vr Rentals EN Qooxdoo](/uploads/en-rentals/qooxdoo/vr-rentals-en-rental_positions3.png "Rental positions – create a basic rent position")
 
 Then type in the data from the contract according to the cost type. For example the **base rent**:
  
@@ -193,7 +193,7 @@ When the date and time come, the value will be inherited.
 
 # Monthly values
 
-A monthly assignment will be created from the system at every 15.th of the month, if this option is activated. Rental units with status **inactive** will be ignored. 
+A monthly assignment will be created from the system at every 15-th of the month, if this option is activated. Rental units with status **inactive** will be ignored. 
 The user can create the assignment manually, if it is not already created from the system itself. This process is only available for the administrators. 
 The monthly values are in separated table. Klick on the button **Monthly values** on the left side. From the structure on the left side of the table choose the month you want. The values will be shown in the table. If the month doesn’t exist, it means, that it isn’t created yet. 
 > **Remark:** In the following screenshots some data are hidden because of the privacy of the data. 
