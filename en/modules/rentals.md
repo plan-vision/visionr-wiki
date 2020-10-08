@@ -1,5 +1,5 @@
 <!-- TITLE: Module Rentals -->
-<!-- SUBTITLE: Modul for rental units, rental contracs, monthly values etc.-->
+<!-- SUBTITLE: Module for rental units, rental contracs, monthly values etc.-->
 
 [Deutsch](/de/modules/rentals) | English
 *You are here: [Home](/home-en) > [User guide](/en/user-guide) > Module Rentals*
