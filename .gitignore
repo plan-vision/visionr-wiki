@@ -1,2 +1,4 @@
 /.project
 uploads/reservierungen/reservierungen
+/target
+node_modules

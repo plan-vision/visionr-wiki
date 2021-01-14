@@ -1,0 +1,32 @@
+{
+  "name": "visionr-wiki",
+  "version": "1.0.0",
+  "description": "Content of VisionR Wiki on http://plan-vision.com:8282",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build",
+    "clean": "node cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plan-vision/visionr-wiki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plan-vision/visionr-wiki/issues"
+  },
+  "homepage": "https://github.com/plan-vision/visionr-wiki#readme",
+  "devDependencies": {
+    "md-to-pdf": "^3.2.1",
+    "pdf-merger-js": "^3.0.5"
+  },
+  "dependencies": {},
+  "files": [
+    "/*.md",
+    "/*.txt",
+    "target/pdf",
+    "target/*.pdf"
+  ]
+}
