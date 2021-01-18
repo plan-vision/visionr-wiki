@@ -13,6 +13,26 @@ async function getFiles(dir) {
   return Array.prototype.concat(...files);
 }
 
+function occurrences(subString, string, allowOverlapping) {
+
+    string += "";
+    subString += "";
+    if (subString.length <= 0) return (string.length + 1);
+
+    var n = 0,
+        pos = 0,
+        step = allowOverlapping ? 1 : subString.length;
+
+    while (true) {
+        pos = string.indexOf(subString, pos);
+        if (pos >= 0) {
+            ++n;
+            pos += step;
+        } else break;
+    }
+    return n;
+}
+
 (async () => {
   var root = [
       {
@@ -71,18 +91,23 @@ async function getFiles(dir) {
          if (ni < 0) break;
          var nx = buf.indexOf(")",ni+6);
          if (nx < 0) break;
-         var rel = buf.slice(ni+29,nx).toString();
+         var rel = buf.slice(ni+tkn.length,nx).toString();
          if (rel.startsWith("target/tmp/")) {
            rel = rel.substring(11);
          }
          if (fs.existsSync(rel+".md")) {
            rel+=".pdf";
+           
+           var occ = occurrences("/",e);
+           for(var i=0;i<occ;i++) {
+        	   rel="../"+rel;
+           }
            var buf = Buffer.concat([buf.slice(0,ni+6),Buffer.from(rel),buf.slice(nx)]);
          }
          xp=buf.indexOf("\n",ni);
          if (xp < 0) break;
     }
-    tp = resolve("target/pdf/"+e+"/..")
+    tp = resolve("target/pdf/"+e+"/..");
     fs.mkdirSync(tp, { recursive: true });
     outfpdf = "target/pdf/"+e.substring(0,e.length-3)+".pdf";
     fs.writeFileSync(outfpdf,buf);
