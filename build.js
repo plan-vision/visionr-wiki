@@ -13,26 +13,6 @@ async function getFiles(dir) {
   return Array.prototype.concat(...files);
 }
 
-function occurrences(subString, string, allowOverlapping) {
-
-    string += "";
-    subString += "";
-    if (subString.length <= 0) return (string.length + 1);
-
-    var n = 0,
-        pos = 0,
-        step = allowOverlapping ? 1 : subString.length;
-
-    while (true) {
-        pos = string.indexOf(subString, pos);
-        if (pos >= 0) {
-            ++n;
-            pos += step;
-        } else break;
-    }
-    return n;
-}
-
 (async () => {
   var root = [
       {
@@ -97,8 +77,8 @@ function occurrences(subString, string, allowOverlapping) {
          }
          if (fs.existsSync(rel+".md")) {
            rel+=".pdf";
-           
-           var occ = occurrences("/",e);
+
+           var occ = e.split("/").length - 1;
            for(var i=0;i<occ;i++) {
         	   rel="../"+rel;
            }
