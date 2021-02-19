@@ -22,7 +22,6 @@
     "md-to-pdf": "^3.2.1",
     "pdf-merger-js": "^3.0.5"
   },
-  "dependencies": {},
   "files": [
     "/*.md",
     "/*.txt",
