@@ -17,12 +17,12 @@ Deutsch | [English](/en/user-guide)
 * Dokumente
 * [Grafik (Web-CAD)](user-guide/apps/graphics)
 * Flächenmanagement
-* [Verträge](/de/modules/contracts)
+* Verträge
 * Helpdesk
 * Wartung
 * [Schließmanagement](user-guide/apps/keys)
 * [Raumbuchungen](user-guide/apps/reservations-space)
-* [FlexiWorkplace](user-guide/apps/flexiworkplace)
+* [FlexiWorkplace](user-guide/apps/flexi-workplace)
 * [Mietmanagement](user-guide/apps/rentals)
 
 ## Administration
@@ -39,7 +39,7 @@ Deutsch | [English](/en/user-guide)
 * [FlexiWorkplace](user-guide/apps/flexiworkplace)
 * [Mietmanagement](user-guide/apps/rentals)
 
-# Systemmodule
+## Systemmodule
 
 * [Benutzerverwaltung](user-guide/system/user-management)
 * [Berichte](user_guide/system/reports)
