@@ -3,25 +3,61 @@
 
 Deutsch | [English](/en/user-guide)
 *Sie sind hier: [Home](/home) > Benutzerhandbuch*
+
+# Allgemeine Bedienung
+
+* [Neue Oberflächen mit Forms (ab Version 7)](user-guide/general/general)
+* [Alte Oberflächen (bis einschl. Version 6)](user-guide/version7/general)
+
 # VisionR Module
-* [Kontakte](/de/modules/contacts)
+
+## Benutzer Apps
+
+* [Kontakte](user-guide/apps/contacts)
 * Dokumente
-* [Grafik (Web-CAD)](/de/modules/graphics)
+* [Grafik (Web-CAD)](user-guide/apps/graphics)
 * Flächenmanagement
 * [Verträge](/de/modules/contracts)
 * Helpdesk
 * Wartung
-* [Schließmanagement](/de/modules/keys)
-* [Reservierungen](/de/modules/reservations)
-* [Mietmanagement](/de/modules/rentals)
+* [Schließmanagement](user-guide/apps/keys)
+* [Raumbuchungen](user-guide/apps/reservations-space)
+* [FlexiWorkplace](user-guide/apps/flexiworkplace)
+* [Mietmanagement](user-guide/apps/rentals)
+
+## Administration
+
+* [Kontakte](user-guide/apps/contacts)
+* Dokumente
+* [Grafik (Web-CAD)](user-guide/apps/graphics)
+* Flächenmanagement
+* [Verträge](/de/modules/contracts)
+* Helpdesk
+* Wartung
+* [Schließmanagement](user-guide/apps/keys)
+* [Raumbuchungen](user-guide/apps/reservations-space)
+* [FlexiWorkplace](user-guide/apps/flexiworkplace)
+* [Mietmanagement](user-guide/apps/rentals)
+
 # Systemmodule
-* [Benutzerverwaltung](/de/modules/user-management)
-* Berichte
-* Datenimport/-export
+
+* [Benutzerverwaltung](user-guide/system/user-management)
+* [Berichte](user_guide/system/reports)
+* [Datenimport/-export](user-guide/system/data-exchange)
 * Geplante Tasks
-# Allgemeine Bedienung
-* [Neue Oberflächen mit Forms (ab Version 7)](/de/modules/general)
-* [Alte Oberflächen (bis einschl. Version 6)](/de/modules/general/qooxdoo)
-# Datenaustausch
-* Import
-* Export
+* Bibliothek
+* Kommunikation
+* Skripte
+* Kern
+* Offline
+# Version 7 (alte Benutzeroberfläche)
+
+## Module
+
+* [Kontakte](user-guide/version7/contacts)
+* [Mietmanagement](user-guide/version7/rentals)
+* [Raumbuchungen](user-guide/version7/reservations)
+
+## Systemmodule
+
+* [Beutzerverwaltung](user-guide/version7/user-management)
