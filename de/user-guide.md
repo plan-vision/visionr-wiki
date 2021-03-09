@@ -11,33 +11,22 @@ Deutsch | [English](/en/user-guide)
 
 # VisionR Module
 
-## Benutzer Apps
-
-* [Kontakte](user-guide/apps/contacts)
-* Dokumente
-* [Grafik (Web-CAD)](user-guide/apps/graphics)
-* Flächenmanagement
+* **Kontakte** : [App](user-guide/apps/contacts) | [Admin](user-guide/apps/contacts)
+* Dokumente: App | Admin
+* **Web-CAD (Grafik)** : [App](user-guide/apps/graphics) | [Admin](user-guide/admin/graphics)
+* Flächenmanagement: App | Admin
+* Verträge: App | Admin
+* Helpdesk: App | Admin
+* Wartung: App | Admin
+* **Schließmanagement** : [App](user-guide/apps/keys) | Admin
+* **Raumbuchungen** : [App](user-guide/apps/reservations-space) | [Admin](user-guide/apps/reservations-space)
+* **FlexiWorkplace** : [App](user-guide/apps/flexi-workplace) | Admin
+* **Mietmanagement** : [App](user-guide/apps/rentals) | [Admin](user-guide/apps/rentals)
 * Verträge
 * Helpdesk
 * Wartung
-* [Schließmanagement](user-guide/apps/keys)
-* [Raumbuchungen](user-guide/apps/reservations-space)
-* [FlexiWorkplace](user-guide/apps/flexi-workplace)
-* [Mietmanagement](user-guide/apps/rentals)
-
-## Administration
-
-* [Kontakte](user-guide/apps/contacts)
-* Dokumente
-* [Grafik (Web-CAD)](user-guide/apps/graphics)
-* Flächenmanagement
-* [Verträge](/de/modules/contracts)
-* Helpdesk
-* Wartung
-* [Schließmanagement](user-guide/apps/keys)
-* [Raumbuchungen](user-guide/apps/reservations-space)
-* [FlexiWorkplace](user-guide/apps/flexiworkplace)
-* [Mietmanagement](user-guide/apps/rentals)
+* Reinigung
+* Vertrieb
 
 ## Systemmodule
 

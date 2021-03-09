@@ -1,8 +1,9 @@
-<!-- TITLE: Modul "Kontakte" für normale Benutzer -->
+<!-- TITLE: Modul Kontakte-->
 <!-- SUBTITLE: Modul für die Verwaltung von Personen, Unternehmen, Gemenschaften, Organisationsstrukturen usw.-->
 
 Deutsch | [English](/en/modules/contacts/user)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > [Modul Kontakte](/de/modules/contacts) > Normale Benutzer*
+*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > App Kontakte*
+
 # Beschreibung
 Das Modul wird für die Verwaltung von Kontaktdaten genutzt. Im folgenden können Sie die Schritte bei der Erstellung und Bearbeitung von Personen, Unternehmen, Organisationseinheiten usw. lesen. Die angelegten Kontaktdaten können in allen anderen Modulen genutzt werden, z.B. in Verträgen, Flächenbelegungen usw. 
 
