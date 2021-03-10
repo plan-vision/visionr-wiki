@@ -5,4 +5,4 @@ Deutsch | [English](/home-en)
 # VisionR Deutsch
 * [Benutzerhandbuch](de/user-guide)
 * [Systemadministratoren](de/admin-guide)
-* Entwickler
+* [Entwickler (nur auf Englisch)](/en/developer-guide)
