@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const { mdToPdf } = require('md-to-pdf');
-const { resolve } = require('path');
+const { resolve,normalize } = require('path');
 const { readdir } = require('fs').promises;
 
 async function getFiles(dir) {
@@ -48,7 +48,11 @@ async function getFiles(dir) {
     var outf = "target/tmp/"+e;
     fs.mkdirSync(tp, { recursive: true });
     //---------------------------------------------------
+    var rpfx = normalize(e+"/..").split("\\").join("/");
     var newc = fs.readFileSync(e,"utf8");
+    // REPLACE IMAGES RELATIVE PATHS WITH ABSOLUTE
+    newc=newc.split("(_images/").join("(/"+rpfx+"/_images/");
+    //---------------------------------------------------
     var oc = ""; try { oc = fs.readFileSync(outf,"utf8"); } catch(ex) {}
     var outfpdf = "target/tmp/"+e.substring(0,e.length-3)+".pdf";
     if (fs.existsSync(outfpdf) && oc == newc) {
