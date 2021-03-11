@@ -4,9 +4,11 @@
 Deutsch | [English](/en/user-guide/system/user-management)
 *Sie sind hier: [Home](/home/) > [Benutzerhandbuch](/de/user-guide) > [System](/de/user-guide/system) > Benutzerverwaltung*
 
+# Modul "Benutzerverwaltung"
+
 # Übersicht
 
-Die Benutzerverwaltung rufen Sie aus der *Startseite -> Administration -> Benutzerverwaltung* auf.
+Die Benutzerverwaltung rufen Sie aus der *Startseite -> Administration -> System -> Benutzerverwaltung* auf.
 
 ![Vr Benutzervewaltung Uberblick](_images/user-management/overview.jpg "Vr Benutzervewaltung Uberblick")
 

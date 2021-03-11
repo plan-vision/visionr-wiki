@@ -6,10 +6,14 @@ Deutsch | [English](/en/user-guide)
 
 # Allgemeine Bedienung
 
-* [Neue Oberflächen mit Forms (ab Version 7)](user-guide/general/general)
-* [Alte Oberflächen (bis einschl. Version 6)](user-guide/version7/general)
+* [Neue Oberflächen mit Forms](user-guide/general/general) (ab Version 8)
+* [Alte Oberflächen](user-guide/version7/general) (bis einschließlich Version 7)
 
 # VisionR Module
+
+* **FlexiWorkplace** : App ( [Mobil](user-guide/apps/flexi-workplace-mobile) und [Desktop](flexi-workplace-desktop) )| Admin
+* **Raumbuchungen** : [App](user-guide/apps/reservations-space) | [Admin](user-guide/apps/reservations-space)
+* Fahrzeugbuchungen: App | Admin
 
 * **Kontakte** : [App](user-guide/apps/contacts) | [Admin](user-guide/apps/contacts)
 * Dokumente: App | Admin
@@ -19,9 +23,8 @@ Deutsch | [English](/en/user-guide)
 * Helpdesk: App | Admin
 * Wartung: App | Admin
 * **Schließmanagement** : [App](user-guide/apps/keys) | Admin
-* **Raumbuchungen** : [App](user-guide/apps/reservations-space) | [Admin](user-guide/apps/reservations-space)
-* **FlexiWorkplace** : [App](user-guide/apps/flexi-workplace) | Admin
 * **Mietmanagement** : [App](user-guide/apps/rentals) | [Admin](user-guide/apps/rentals)
+* Betriebskosten
 * Verträge
 * Helpdesk
 * Wartung
