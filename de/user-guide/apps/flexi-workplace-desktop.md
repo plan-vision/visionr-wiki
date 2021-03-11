@@ -26,7 +26,7 @@ Wenn Sie mobile VisionR App nutzen, werden Sie nach der Anmeldung automatisch au
 
 ![Index Seite](_images/flexi-workplace-desktop/index.jpg)
 
-*Bild 1: Einstieg über die VisionR-Indexseite mobil*
+*Bild 1: Einstieg über die VisionR-Indexseite
 
 ## Administration
 
