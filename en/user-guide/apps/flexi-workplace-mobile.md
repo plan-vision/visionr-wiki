@@ -15,34 +15,34 @@ The VisionR module FlexiWorkplace can be used for mobile workplace reservations.
 
 Main features:
 
-* **Search for a free workplace:** Sie können freie Arbeitsplätze in Geschossplänen grafisch aussuchen. Nachdem Sie Ihre Suchkriterien (Anfang, Ende, Gebäude, Etage) eingegeben haben, sehen Sie die freien Arbeitsplätze im Plan und können diese reservieren.
-* **Reservieren mit QR-Code / Barcode:** Wenn Sie sich bereits vor Ort an einem freien Arbeitsplatz befinden, können Sie diesen per QR-Code gleich reservieren oder eine laufende Reservierung beenden.
-* **Einzelplatz reservieren:** Hier können Sie sich einen einzelnen Arbeitsplatz grafisch aussuchen und reservieren.
-* **Mehrere Arbeitsplätze reservieren:** Hier können Sie sich mehrere Arbeitsplatze grafisch aussuchen und zur gleichen Zeit reservieren, z.B. für Gruppenarbeit in einem gemeinsamen Projekt.
-* **Tabellenansicht mit Reservierungen:** Hier können Sie Reservierungen anzeigen, durchsuchen und filtern in einer Tabellenansicht. Die Daten können nach MS Excel exportiert werden.
-* **Kalender mit Reservierungen:** Hier können Sie alle verfügbaren Arbeitsplätze in einer Zeitachse sehen. Die bereits getätigten Reservierungen werden angezeigt. Sie können neue Reservierungen in der Zeitachse erstellen.
+* **Search for a free workplace:** You can look for a free workplace visually in floor plans. After you have filled out the search criteria in the search fields (begin, end, building, floor) you can see the free workplaces in the plan and reserve them.
+* **Reservation with a QR or barcode:**  If you are standing in front of a desk, you can reserve it using a QR or barcode scan from your mobile device. You can also cancel your ongoing reservation for this workplace.
+* **Reserve a single workplace:** You can start creating a new reservation, using graphical workplace search in a floor plan or in a list with with attached pictures.
+* **Reserve multiple workplaces for teamwork:**  Here you can look up multiple workplace and reserve them simultaneously for a team of persons. You can later assign the single reservations to the persons from the team, who will become a separate email event for the Outlook calendar.
+* **Table view of all reservations:**  You can lookup reservations filtered by date, reserved by, reserved for, status and so on. You can display the reservations as a table or in a list view. Data can be exported as a MS Excel sheet.
+* **Calendar with reservations:**  You can see all available workplaces an a timeline an make a reservations starting with your preferred date and time. You can also display reservations in a timeline grouped by the persons who created them.
 
 ## Entrance
 
-Wenn Sie mobile VisionR App nutzen, werden Sie nach der Anmeldung automatisch auf die Indexseite umgeleitet. Bei Nutzung des Browsers auf dem mobilen Gerät können die normalen Benutzer das Modul entweder über die Hauptadresse von VisionR auf der Registerkarte `Apps` *(siehe Bild 1)* oder direkt über den Link `https://[VisionR-Adresse]/forms#/main/reservations_workplace` aufrufen.
+If you are using the FlexiWorkplace from your VisionR mobile app the index page of the application will be automatically displayed. If you are using the browser on your mobile device you can either use the `Apps` tab on the index page or call the direct link  `https://[VisionR-Adresse]/forms#/main/reservations_workplace`.
 
 ![Index Seite](_images/flexi-workplace-mobile/index.png)
 
-*Bild 1: Einstieg über die VisionR-Indexseite mobil*
+*Image 1: App entrance using the index page on you mobile device*
 
 ## Administration
 
-Administrative Aufgaben, wie z. B. Anlegen neuer Arbeitsplätze, Änderungen der Reservierbarkeit oder Definition von zeitlichen Regeln für die Einheiten sind im Abschnitt [Admin FlexiWorkplace](/de/user-guide/admin/flexi-workplace) beschrieben.
+Administrative tasks, like creating a new workplace unit, changing reservability or definitions of allow and deny rules for certain workplaces are described in the section [Admin FlexiWorkplace](/en/user-guide/admin/flexi-workplace).
 
-# Übersicht
+# Overview
 
-## Anfang
+## Begin
 
-Bei Aufruf der App FlexiWorkplace wird automatisch die Anfangsmaske geöffnet (siehe Bild 2).
+A begin page is automatically displayed iy you enter the module FlexiWorkplace  (see Image 2).
 
 ![Index Seite](_images/flexi-workplace-mobile/begin.png)
 
-*Bild 2: Maske "Anfang"*
+*Image 2: Initial page "Begin"*
 
 Im oberen Bereich der Anfangsmaske wird eine Liste mit den nächsten persönlichen Arbeitsplatzbuchungen angezeigt. Falls Sie keine anstehenden Termine haben, bleibt die Liste leer.
 
