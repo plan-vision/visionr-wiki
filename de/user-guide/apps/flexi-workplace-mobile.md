@@ -24,7 +24,7 @@ Features im Überblick:
 
 ## Einstieg
 
-Wenn Sie mobile VisionR App nutzen, werden Sie nach der Anmeldung automatisch auf die Indexseite umgeleitet. Bei Nutzung des Browser auf dem mobilen Gerät können die normalen Benutzer das Modul entweder über die Hauptadresse von VisionR auf der Registerkarte ***Apps*** *(siehe Bild 1)* oder direkt über den Link `https://[VisionR-Adresse]/forms#/main/reservations_workplace`
+Wenn Sie mobile VisionR App nutzen, werden Sie nach der Anmeldung automatisch auf die Indexseite umgeleitet. Bei Nutzung des Browsers auf dem mobilen Gerät können die normalen Benutzer das Modul entweder über die Hauptadresse von VisionR auf der Registerkarte `Apps` *(siehe Bild 1)* oder direkt über den Link `https://[VisionR-Adresse]/forms#/main/reservations_workplace` aufrufen.
 
 ![Index Seite](_images/flexi-workplace-mobile/index.png)
 
@@ -68,7 +68,7 @@ Ein Klick auf die Ikone ![Logo](_images/common/visionr-logo-22.png) neben den dr
 
 ## Suchen
 
-Der Erste Button auf der Anfangsseite`Suchen nach freien Arbeitsplätzen` öffnet die Maske für die Arbeitsplatzsuche (siehe Bild 5).
+Der Erste Button auf der Anfangsseite `Suchen nach freien Arbeitsplätzen` öffnet die Maske für die Arbeitsplatzsuche (siehe Bild 5).
 
 ![Arbeitsplatzsuche](_images/flexi-workplace-mobile/wpl-search.png)
 
