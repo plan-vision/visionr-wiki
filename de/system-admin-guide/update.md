@@ -31,6 +31,8 @@ Nutzen Sie die gelieferte*".zip"*-Datei im VisionR Manager.
 
 Nutzen Sie die gelieferte *".exe"*-Datei und installieren Sie den VisionR Server neu. Am besten nutzen Sie den vorhandenen Verzeichnis und lassen die Inhalte dort durch den Installationsvorgang überschreiben.
 
+> **Hinweis:** Wenn die PostgreSQL-Datenbank auf neue Version aktualisiert worden ist, müssen Sie den Befehl `vrs setup postgre` in der *"cmd"*-Konsole ausführen
+
 ## Projektverzeichnis
 
 Nutzen Sie die mitgelieferte *".zip"*-Datei mit dem Kundenprojekt, um eine Projektaktualisierung im VisionR Manager für das jeweilige Projekt durchzuführen
