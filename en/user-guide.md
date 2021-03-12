@@ -4,7 +4,8 @@
 [Deutsch](/de/user-guide) | English
 *You are here: [Home](/home-en) > User guide*
 # VisionR modules
-* [Contacts](/en/modules/contacts)
+* **FlexiWorkplace** : App ( [Mobile](/en/user-guide/flexi-workplace-mobile) and [Desktop](/en/user-guide/flexi-workplace-desktop) ) | Admin
+* Contacts
 * Documents
 * Graphics (Web-CAD)
 * Space management
@@ -13,7 +14,7 @@
 * Maintenance
 * Key management
 * Reservations
-* [Rentals](/en/modules/rentals)
+* Rentals
 
 # System modules
 * User management
