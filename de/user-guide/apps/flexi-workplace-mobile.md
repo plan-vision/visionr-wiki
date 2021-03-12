@@ -1,6 +1,8 @@
 <!-- TITLE: FlexiWorkplace-->
 <!-- SUBTITLE: FlexiWorkplace ist ein Modul für flexible Arbeitsplatzreservierung -->
 
+![Titelseite FlexiWorkplace](_images/_title/flexi-workplace-mobile.png)
+
 # FlexiWorkplace - mobil
 
 ## Allgemein
@@ -50,13 +52,13 @@ Mit Klick auf die Termine können Sie Detailinformationen inklusive Standort im 
 
 ## Bedienung allgemein
 
-Der Button mit den drei Strichen ![Menü-Button](_images/common/button-menu.png)oben links öffnet das Modul-Menü. Das Menü ist auf mobilen Geräten ist aus Platzgründen automatisch versteckt. In der Desktopversion ist das Menü automatisch aufgeklappt. Abwechselndes Klicken auf den`Menü`-Button zeigt oder verbirgt das Menü, je nachdem welcher der aktuelle Status ist. Der `Menü`-Button ist auf allen Masken verfügbar. Dur Klick auf einen Menüeintrag in der Liste öffnen Sie die entsprechende Maske mit den in diesem Dokument beschriebenen Funktionalitäten. Der Name der aktiven Maske wird in orangener Farbe hervorgehoben.
+Der Button mit den drei Strichen ![Menü-Button](_images/common/button-menu-22.png)oben links öffnet das Modul-Menü. Das Menü ist auf mobilen Geräten ist aus Platzgründen automatisch versteckt. In der Desktopversion ist das Menü automatisch aufgeklappt. Abwechselndes Klicken auf den`Menü`-Button zeigt oder verbirgt das Menü, je nachdem welcher der aktuelle Status ist. Der `Menü`-Button ist auf allen Masken verfügbar. Dur Klick auf einen Menüeintrag in der Liste öffnen Sie die entsprechende Maske mit den in diesem Dokument beschriebenen Funktionalitäten. Der Name der aktiven Maske wird in orangener Farbe hervorgehoben.
 
 ![Zur Index](_images/flexi-workplace-mobile/menu-on.png)
 
 *Bild 3: Hauptmenü über die drei Striche neben dem Logo ein/aus* 
 
-Ein Klick auf die Ikone ![Logo](_images/common/visionr-logo.png) neben den drei Strichen oben Links führt zur VisionR-Indexseite. Wenn Sie das Modul FlexiWorkplace verlassen und zur Indexseite springen möchten, müssen Sie auf den Button mit dem Häkchen zur Bestätigen klicken (siehe Bild 3). Bei Abbrechen bleiben Sie auf der aktuellen Maske.
+Ein Klick auf die Ikone ![Logo](_images/common/visionr-logo-22.png) neben den drei Strichen oben Links führt zur VisionR-Indexseite. Wenn Sie das Modul FlexiWorkplace verlassen und zur Indexseite springen möchten, müssen Sie auf den Button mit dem Häkchen zur Bestätigen klicken (siehe Bild 3). Bei Abbrechen bleiben Sie auf der aktuellen Maske.
 
 ![Zur Index](_images/flexi-workplace-mobile/go-to-index.png)
 
@@ -74,11 +76,11 @@ Der Erste Button auf der Anfangsseite`Suchen nach freien Arbeitsplätzen` öffne
 
 Auf der Maske für die Arbeitsplatzsuche können Sie die Suchfelder mit den gewünschten Suchkriterien ausfüllen und anschließend auf den Button `Suchen` klicken, um freie Arbeitsplätze entweder in der Plan- oder in einer Listen-Ansicht anzeigen zu lassen.
 
-Der Wechsel zwischen Plan- und Listen-Ansicht geschieht, wenn Sie abwechselnd den zweite Button links vom `Suchen`-Button anklicken. Der Button ![Liste-Button](_images/common/button-search-list.png) stellt die Suche auf Listenansicht ein. Der Button ![Liste-Button](_images/common/button-search-drawing.png) stellt die Suche auf Planansicht ein.
+Der Wechsel zwischen Plan- und Listen-Ansicht geschieht, wenn Sie abwechselnd den zweite Button links vom `Suchen`-Button anklicken. Der Button ![Liste-Button](_images/common/button-search-list-22.png) stellt die Suche auf Listenansicht ein. Der Button ![Liste-Button](_images/common/button-search-drawing-22.png) stellt die Suche auf Planansicht ein.
 
 > **Hinweis:** der Wechsel zwischen Plan- und Listen-Ansicht kann vor oder auch nach Klick auf den `Suchen`-Button erfolgen.
 
-Ein Klick auf den Button mit dem Pfeil ![Reset-Button](_images/common/button-search-reset.png) neben dem `Suchen`-Button setzt die eingegebenen Werte für die Suchkriterien zurück.
+Ein Klick auf den Button mit dem Pfeil ![Reset-Button](_images/common/button-search-reset-22.png) neben dem `Suchen`-Button setzt die eingegebenen Werte für die Suchkriterien zurück.
 
 In der Standartversion von FlexiWorkplace sind folgende Suchfelder vorhanden:
 
@@ -93,7 +95,7 @@ In der Standartversion von FlexiWorkplace sind folgende Suchfelder vorhanden:
 
 > **Hinweis:** Zusätzliche spezifische Suchfelder wie z. B. "Gebäudeteil" o. ä. können nach Kundenwunsch jederzeit mit integriert werden. 
 
-Nachdem Sie Ihre Suchkriterien eingegeben haben und auf den Button `Suchen` geklickt haben, wird der Filter-Bereich mit den Suchkriterien automatisch minimiert, um mehr Platz für die Suchergebnisse zu verschaffen. Den Filter mit den Suchkriterien können Sie jederzeit wieder aufklappen oder zuklappen, indem Sie mit dem Finder oder Maus auf die Leiste klicken: ![Filter](_images/common/button-filter-minimized.png)
+Nachdem Sie Ihre Suchkriterien eingegeben haben und auf den Button `Suchen` geklickt haben, wird der Filter-Bereich mit den Suchkriterien automatisch minimiert, um mehr Platz für die Suchergebnisse zu verschaffen. Den Filter mit den Suchkriterien können Sie jederzeit wieder aufklappen oder zuklappen, indem Sie mit dem Finder oder Maus auf die Leiste klicken: ![Filter](_images/common/button-filter-minimized-22.png)
 
 Als Vorgabe werden die Suchergebnisse im Plan angezeigt:
 
@@ -101,7 +103,7 @@ Als Vorgabe werden die Suchergebnisse im Plan angezeigt:
 
 *Bild 6: Suchergebnisse im Plan anzeigen*
 
-In der Plan-Ansicht können Sie eine Legende mit Übersicht der Arbeitsplätze nach Status und Bedeutung der Farben im Plan durch Klick auf den Button ![Button Legend](_images/common/button-legend.png)anzeigen lassen:
+In der Plan-Ansicht können Sie eine Legende mit Übersicht der Arbeitsplätze nach Status und Bedeutung der Farben im Plan durch Klick auf den Button ![Button Legend](_images/common/button-legend-22.png)anzeigen lassen:
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/wpl-search-legend.png)
 
@@ -177,7 +179,7 @@ Wählen Sie `Auswahlrechteck` und zeichnen Sie einen zwei Punkte diagonal im Pla
 
 *Bild 16: Mehrfachauswahl mit Auswahlrechteck (zwei diagonale Klicks)*
 
-Um mehrere Arbeitsplätze gleichzeitig auszuwählen, können Sie auch den Button ![Mutton Mehr](_images/common/button-more.png) unten in der Mitte aktivieren, nachdem Sie den ersten Arbeitsplatz in der Zeichnung angeklickt haben. Bei Aktivierten `Mehr`-Button werden die weiteren angeklickten Arbeitsplätze zur Auswahl addiert. Abwechselndes Klicken auf dem gleichen Arbeitsplatz wählt diesen aus oder ab.
+Um mehrere Arbeitsplätze gleichzeitig auszuwählen, können Sie auch den Button ![Mutton Mehr](_images/common/button-more-22.png) unten in der Mitte aktivieren, nachdem Sie den ersten Arbeitsplatz in der Zeichnung angeklickt haben. Bei Aktivierten `Mehr`-Button werden die weiteren angeklickten Arbeitsplätze zur Auswahl addiert. Abwechselndes Klicken auf dem gleichen Arbeitsplatz wählt diesen aus oder ab.
 
 Sie können mehrere Arbeitsplätze für eine gleichzeitige Reservierung auch in der Listen-Ansicht auswählen, indem Sie die Häkchen vor den Bildern in der Liste aktivieren.
 
@@ -239,7 +241,7 @@ Die Liste mit den eigenen Reservierungen können Sie zusätzlich filtern, indem 
 
 *Bild 26: Filter der Liste eigener Reservierungen*
 
-Die Einträge in der Liste eigener Reservierungen können Sie durch Doppelklick auf den Eintrag oder durch anklicken des Buttons ![Button Bearbeiten](_images/common/button-edit.png) bearbeiten. Durch anklicken des Buttons ![Button Storno](_images/common/button-cancel.png)wird die Reservierung auf den Status *"storniert"* gesetzt und aus der Liste entfernt. Dadurch wird der Arbeitsplatz für andere für die angegebene Zeit wieder reservierbar.
+Die Einträge in der Liste eigener Reservierungen können Sie durch Doppelklick auf den Eintrag oder durch anklicken des Buttons ![Button Bearbeiten](_images/common/button-edit-22.png) bearbeiten. Durch anklicken des Buttons ![Button Storno](_images/common/button-cancel-22.png)wird die Reservierung auf den Status *"storniert"* gesetzt und aus der Liste entfernt. Dadurch wird der Arbeitsplatz für andere für die angegebene Zeit wieder reservierbar.
 
 # Liste aller Reservierungen
 
@@ -304,4 +306,3 @@ Bei Anklicken der ICS-Anlage in der E-Mail können Sie den Termin Bestätigen. d
 ![Ergebnis Plan](_images/flexi-workplace/email-event.png)
 
 *Bild 35: Klick auf ICS-Datei im Anhang erstellt Outlook-Termin*
-
