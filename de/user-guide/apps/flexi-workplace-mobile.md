@@ -54,9 +54,9 @@ Der Button mit den drei Strichen ![Menü-Button](_images/common/button-menu.png)
 
 ![Zur Index](_images/flexi-workplace-mobile/menu-on.png)
 
-*Bild 3: Zur Indexseite zurückkehren* 
+*Bild 3: Hauptmenü über die drei Striche neben dem Logo ein/aus* 
 
-Ein Klick auf die Ikone ![Logo](_images/flexi-workplace/visionr-logo.png) neben den drei Strichen oben Links führt zur VisionR-Indexseite. Wenn Sie das Modul FlexiWorkplace verlassen und zur Indexseite springen möchten, müssen Sie auf den Button mit dem Häkchen zur Bestätigen klicken (siehe Bild 3). Bei Abbrechen bleiben Sie auf der aktuellen Maske.
+Ein Klick auf die Ikone ![Logo](_images/common/visionr-logo.png) neben den drei Strichen oben Links führt zur VisionR-Indexseite. Wenn Sie das Modul FlexiWorkplace verlassen und zur Indexseite springen möchten, müssen Sie auf den Button mit dem Häkchen zur Bestätigen klicken (siehe Bild 3). Bei Abbrechen bleiben Sie auf der aktuellen Maske.
 
 ![Zur Index](_images/flexi-workplace-mobile/go-to-index.png)
 
@@ -66,7 +66,7 @@ Ein Klick auf die Ikone ![Logo](_images/flexi-workplace/visionr-logo.png) neben 
 
 ## Suchen
 
-Der Erste Button auf der Anfangsseite`Suchen nach freien Arbeitsplätzen` öffnet die Maske für die Arbeitsplatzsuche (siehe Bild 4).
+Der Erste Button auf der Anfangsseite`Suchen nach freien Arbeitsplätzen` öffnet die Maske für die Arbeitsplatzsuche (siehe Bild 5).
 
 ![Arbeitsplatzsuche](_images/flexi-workplace-mobile/wpl-search.png)
 
@@ -157,19 +157,25 @@ Nach Bestätigung der E-Mail und Speichern/Schließen der Reservierungsmaske wir
 
 >  **Hinweis:** Um den belegten Arbeitsplatz für einen anderen Mitarbeiter freizugeben, können Sie das Feld "Reserviert für" bei Bearbeiten der Reservierung ändern, oder die Reservierung stornieren.
 
+Nachdem Sie Ihre neue Reservierung gespeichert und geschlossen haben, wird der Plan mit der Arbeitsplatzsuche erneut angezeigt. Es ist an der grauen Farbe zu erkennen, das der reservierte Arbeitsplatz für die gesuchte Zeit nicht mehr verfügbar ist.
+
+![Ergebnis Plan](_images/flexi-workplace-mobile/after-reserve.png)
+
+*Bild 14: Nach Ihrer Reservierung ist der Arbeitsplatz sofort belegt (grau hinterlegt)*
+
 ## Mehrere Arbeitsplätze gleichzeitig reservieren
 
 In der Plan-Ansicht können Sie mit Long-Klick (auf den Desktop rechte Maustaste) ein Kontextmenü öffnen um grafische Mehrfachauswahl tätigen zu können.
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/plan-right-click.png)
 
-*Bild 14: Long-Klick ruft Kontextmenü auf*
+*Bild 15: Long-Klick ruft Kontextmenü auf*
 
 Wählen Sie `Auswahlrechteck` und zeichnen Sie einen zwei Punkte diagonal im Plan und die darin enthaltenen Arbeitsplätze gleichzeitig auszuwählen.
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/plan-select-box.png)
 
-*Bild 15: Mehrfachauswahl mit Auswahlrechteck (zwei diagonale Klicks)*
+*Bild 16: Mehrfachauswahl mit Auswahlrechteck (zwei diagonale Klicks)*
 
 Um mehrere Arbeitsplätze gleichzeitig auszuwählen, können Sie auch den Button ![Mutton Mehr](_images/common/button-more.png) unten in der Mitte aktivieren, nachdem Sie den ersten Arbeitsplatz in der Zeichnung angeklickt haben. Bei Aktivierten `Mehr`-Button werden die weiteren angeklickten Arbeitsplätze zur Auswahl addiert. Abwechselndes Klicken auf dem gleichen Arbeitsplatz wählt diesen aus oder ab.
 
@@ -177,13 +183,13 @@ Sie können mehrere Arbeitsplätze für eine gleichzeitige Reservierung auch in 
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/multiple-list.png)
 
-*Bild 16: Mehrfachauswahl in der Listen-Ansicht*
+*Bild 17: Mehrfachauswahl in der Listen-Ansicht*
 
 Nachdem Sie mehrere Arbeitsplätze ausgewählt haben, können Sie eine Gruppenreservierung tätigen, indem Sie auf den Button `Reservieren` unten links klicken. Dabei wird ein Dialog für die Mehrfachreservierung aufgemacht. In diesem Dialog können Sie die Eingabefelder ausfüllen und anschließen auf `Speichern` klicken. Alle ausgewählten Arbeitsplätze werden separat innerhalb der Gruppenreservierung belegt. Im ersten Schritt sind alle Arbeitsplätze für Sie als Bearbeiter reserviert. Sie können an dieser Stelle die Plätze an verschiedenen Personen vergeben. oder später durch Bearbeitung des Eingabefeldes "Reserviert für" die Platzvergabe für die Teilnehmer regeln.
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/multiple-dialog.png)
 
-*Bild 17: Mehrfachreservierung (Gruppenreservierung)*
+*Bild 18: Mehrfachreservierung (Gruppenreservierung)*
 
 # Vor-Ort-Reservierung mit QR-Code / Barcode
 
@@ -191,33 +197,33 @@ Gehen Sie in der Maske *"Anfang"* auf den Button `Reservieren mit QR-Code / Barc
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-scan.png)
 
-*Bild 18: QR-/Barcode vor Ort einscannen*
+*Bild 19: QR-/Barcode vor Ort einscannen*
 
 Der Arbeitsplatz muss mit einem QR- oder Barcode ausgestattet sein, um diese Funktion nutzen zu können. Falls keine Sticker mit Code vorhanden sein sollten, können Sie den Arbeitsplatz im Dropdown über die Arbeitsplatznummer oder im Plan aussuchen.
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-dropdown.png)
 
-*Bild 19: QR-/Barcode vor Ort einscannen*
+*Bild 20: QR-/Barcode vor Ort einscannen*
 
 Die Suche im Plan können Sie im Feld "Arbeitsplatzeinheit" durch Anklicken des Menübuttons mit den drei Strichen am Ende des Eingabefeldes Aufrufen. Dort klicken Sie auf den Menüeintrag `Aus Zeichnung`. Dadurch öffnen Sie den Plan im Auswahlmodus.
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-rel-menu.png)
 
-*Bild 20: Menüeintrag im Eingabefeld*
+*Bild 21: Menüeintrag im Eingabefeld*
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-plan.png)
 
-*Bild 21: Arbeitsplatz in der Zeichnung auswählen*
+*Bild 22: Arbeitsplatz in der Zeichnung auswählen*
 
 Nachdem die Arbeitsplatznummer ausgewählt wurde erscheinen die Arbeitsplatz-Details im unteren Bereich. Neben den allgemeinen Arbeitsplatzinformationen inklusive Zeichnungsausschnitt und Bilder ist eine kleine Kalenderansicht vorhanden, die Sie durch Zoomen verkleinern und vergrößern können. Dort sind bereits vorhandene Reservierungen sichtbar. Noch weiter unten sehen Sie eine Liste mit den Reservierungen, die für die gesuchte Zeit gefunden worden sind. Dies geschieht nur bei Überschneidungen mit Ihrer gewünschten Zeit. Fall die Liste leer ist und keine Fehlermeldungen ersichtlich sind, ist der Button `Reservieren` im oberen Bereich aktiv und Sie können den Dialog für neue Reservierung durch einen Klick darauf aufrufen.
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-details-1.png)
 
-*Bild 22: Arbeitsplatz-Details nach Eintragung der AR-Nummer (1)*
+*Bild 23: Arbeitsplatz-Details nach Eintragung der AR-Nummer (1)*
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-details-2.png)
 
-*Bild 23: Arbeitsplatz-Details nach Eintragung der AR-Nummer (2)*
+*Bild 24: Arbeitsplatz-Details nach Eintragung der AR-Nummer (2)*
 
 # Meine Reservierungen
 
@@ -225,13 +231,13 @@ Eine Liste der eigenen Reservierungen können Sie auf der Maske *"Anfang"* oder 
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/my-res.png)
 
-*Bild 24: Liste eigener Reservierungen*
+*Bild 25: Liste eigener Reservierungen*
 
 Die Liste mit den eigenen Reservierungen können Sie zusätzlich filtern, indem Sie das Hauptmenü (Klick auf die drei Striche neben dem Logo oben links) aufrufen und nach unten scrollen. Ihre Eingaben in den vorhandenen Feldern werden als Filter für die Liste angewendet.
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/my-res-filter.png)
 
-*Bild 25: Filter der Liste eigener Reservierungen*
+*Bild 26: Filter der Liste eigener Reservierungen*
 
 Die Einträge in der Liste eigener Reservierungen können Sie durch Doppelklick auf den Eintrag oder durch anklicken des Buttons ![Button Bearbeiten](_images/common/button-edit.png) bearbeiten. Durch anklicken des Buttons ![Button Storno](_images/common/button-cancel.png)wird die Reservierung auf den Status *"storniert"* gesetzt und aus der Liste entfernt. Dadurch wird der Arbeitsplatz für andere für die angegebene Zeit wieder reservierbar.
 
@@ -241,13 +247,13 @@ Eine Liste aller Reservierungen, die Sie mit Ihren Berechtigungen sehen dürfen,
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/all-res.png)
 
-*Bild 26: Liste aller Reservierungen*
+*Bild 27: Liste aller Reservierungen*
 
 Die Liste aller Reservierungen können Sie zusätzlich filtern, indem Sie das Hauptmenü (Klick auf die drei Striche neben dem Logo oben links) aufrufen und nach unten scrollen. Ihre Eingaben in den vorhandenen Feldern werden als Filter für die Liste angewendet.
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/all-res-filter.png)
 
-*Bild 27: Filter der Liste aller Reservierungen*
+*Bild 28: Filter der Liste aller Reservierungen*
 
 # Kalender-Ansicht
 
@@ -257,25 +263,25 @@ Sie können zwei zur Verfügung stehenden Kalender Ansichten nutzen. Beide werde
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/timeline-wpl.png)
 
-*Bild 28: Zeitachse nach Arbeitsplatz*
+*Bild 29: Zeitachse nach Arbeitsplatz*
 
 In der Zeitachse können Sie die Termine filtern, indem Sie auf den Menübutton mit den drei Strichen neben dem Logo oben links gehen und nach unten scrollen. Ihre Eingaben in den Feldern werden als Filter für die angezeigten Termine verwendet.
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/timeline-wpl-filter.png)
 
-*Bild 29: Filter in der Zeitachse nach Arbeitsplatz*
+*Bild 30: Filter in der Zeitachse nach Arbeitsplatz*
 
 Durch Klick auf die  gewünschte Uhrzeit am gewünschten und anschließendem Klick auf den Button `Reservieren` können Sie den Dialog für nee Reservierung für den ausgewählten Arbeitsplatz aufrufen.
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/timeline-wpl-reserve.png)
 
-*Bild 30: Reservieren direkt in der Zeitachse nach Arbeitsplatz*
+*Bild 31: Reservieren direkt in der Zeitachse nach Arbeitsplatz*
 
 ## Zeitachse nach Person
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/timeline-person.png)
 
-*Bild 31: Zeitachse nach Person*
+*Bild 32: Zeitachse nach Person*
 
 In der Zeitachse können Sie die Termine filtern, indem Sie auf den Menübutton mit den drei Strichen neben dem Logo oben links gehen und nach unten scrollen. Ihre Eingaben in den Feldern werden als Filter für die angezeigten Termine verwendet.
 
@@ -283,7 +289,7 @@ Durch Klick auf die  gewünschte Uhrzeit am gewünschten und anschließendem Kli
 
 ![Ergebnis Plan](_images/flexi-workplace-mobile/timeline-person-reserve.png)
 
-*Bild 32: Reservieren direkt in der Zeitachse nach Person*
+*Bild 33: Reservieren direkt in der Zeitachse nach Person*
 
 # Outlook-Termin mit ICS
 
@@ -291,11 +297,11 @@ Bei der Erstellung neuer Reservierungen oder bei Änderungen vorhandener Reservi
 
 ![Ergebnis Plan](_images/flexi-workplace/email.png)
 
-*Bild 33: Bestätigung-E-Mail mit ICS-Anlage und Link*
+*Bild 34: Bestätigung-E-Mail mit ICS-Anlage und Link*
 
 Bei Anklicken der ICS-Anlage in der E-Mail können Sie den Termin Bestätigen. dadurch wird der Termin in Ihrem Kalender eingetragen.
 
 ![Ergebnis Plan](_images/flexi-workplace/email-event.png)
 
-*Bild 34: Klick auf ICS-Datei im Anhang erstellt Outlook-Termin*
+*Bild 35: Klick auf ICS-Datei im Anhang erstellt Outlook-Termin*
 

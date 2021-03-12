@@ -39,17 +39,56 @@ Führen Sie die Installationsdatei aus und folgen Sie die Anweisungen. Sie müss
 * Pfad der PostgreSQL Installation
 * Pfad des PostgreSQL *Data* Verzeichnisses
 * Passwort für den Root-Unser für PostgreSQL
-* 
+
 Bei der Frage ob auch eine geografische Datenbank mit erstellt wird, aktivieren Sie das Häkchen, wie auf der Abbildung dargestellt:
 
 ![v7 PostGIS Installation](_images/installation/postgis-1.png "Installationsprozess PostGIS")
 
-
-
 *Bild: Installation Postgis*
 
+Bei *"Create spatial database"* müssen Sie das Häkchen setzen.
+
+Als Name für die Datenbankvorlage (database template) müssen Sie ***"template_postgis"*** eingeben.
+
 Sie werden nach Benutzer und Passwort gefragt, diese müssen identisch mit den Eingaben sein, die Sie bei der PostgreSQL Installation angegeben haben. Sie werden auch nach dem Installationsverzeichnis von PostgreSQL gefragt. Geben Sie bitte den bestehenden Pfad von PostgreSQL ein.
-Anschließend wird Ihnen eine Option für die Benutzung des Stack Builders angeboten, Sie können hier selber entscheiden ob Sie ihn brauchen. Für das System ist der Stack Builder nicht erforderlich. 
+
+Anschließend wird Ihnen eine Option für die Benutzung des Stack Builders angeboten, Sie können hier selber entscheiden, ob Sie ihn brauchen. Für das System ist der Stack Builder nicht erforderlich. 
+
+## Erstellung des Datenbank-Benutzers
+
+Rufen Sie in der Windows-Suche "pgAdmin 4" auf. Dabei wird eine Webseite mit der Admin-Konsole von PostgreSQL im Standardbrowser geöffnet.
+
+> **Hinweis:** Die Webseite funktioniert unter *Internet Explorer* nur bedingt. Deswegen sollten Sie den erzeugten Link in einen moderneren Browser aufrufen (Edge, Chrome, Firefox,...)
+
+Folgens Sie die beschriebenen Schritte, um den Benutzer *"VISIONR"* zu erstellen. Dieser ist für die Verbindung mit dem VisionR Applikationsserver zwingend erforderlich.
+
+In der *"pgAdmin4*"-Webkonsole gehen Sie mit der rechten Maustaste auf den Eintrag *"Login/Group Roles (...)"* in der Baumansicht. Hier Wählen Sie die Option *"Create" > "Login/Group Role"*.
+
+![pgAdmin](_images/installation/pgadmin-create-user-1.png)
+
+*Bild: Erforderlichen Benutzer "VISIONR" in pgAdmin erstellen (1)*
+
+Im Dialog für den neuen User müssen Sie als Namen "VISIONR" eingeben.
+
+![pgAdmin](_images/installation/pgadmin-create-user-2.png)
+
+*Bild: Erforderlichen Benutzer "VISIONR" in pgAdmin erstellen (2)*
+
+Als Passwort auf der Registerkarte *"Definition"* geben Sie *"plan4vision"* ein.
+
+![pgAdmin](_images/installation/pgadmin-create-user-3.png)
+
+*Bild: Erforderlichen Benutzer "VISIONR" in pgAdmin erstellen (3)*
+
+Auf der Registerkarte *"Privileges"* müssen Sie dem neuen Benutzer alle verfügbaren Rechte zuteilen (siehe Bild).
+
+![pgAdmin](_images/installation/pgadmin-create-user-4.png)
+
+*Bild: Erforderlichen Benutzer "VISIONR" in pgAdmin erstellen (4)*
+
+Anschließend gehen Sie auf Speichern. 
+
+> **Hinweis:** Den Benutzernamen und das Passwort für den neu erstellten Benutzer brauchen Sie für die erforderlichen Angaben bei der Ausführung des Befehls *"vrs setup postgre"*.
 
 ## Installation VisionR Server ab Version 7.x 
 
@@ -67,7 +106,7 @@ Akzeptieren Sie die AGBs und geben Sie den neu erstellten Ordner als Installatio
 
 *Bild: Installation VisionR - Schritt 2*
 
-**Bei Upgrade** ist der Ordner schon erstellt und Sie müssen ihn nochmal bestätigen, weil er nicht leer ist. 
+**Bei Upgrade** ist der Ordner bereits erstellt und Sie müssen den vorhandenen Pfad nochmal bestätigen, da er nicht leer ist. 
 
 ![v7 Installation VR 3](_images/installation/visionr-3.png)
 
@@ -173,5 +212,5 @@ Starten Sie die "cmd"-Konsole in Windows. Tippen Sie `vrs setup postgre` ein.
 
 ![v7 Installation Einstellungen von der alten Installation kopieren 2](_images/installation/postgres-1.png "Postgres konfigurieren")
 
-Wenn die prüfung der Einstellungen Fehler ergibt, müssen die PostgreSQL-Einstellungen in der Datei *"postgresl.conf"* angepasst werden. Anschließend muss der PostgreSQL-Dienst neu gestartet werden und das Kommando `vrs setup postgre` erneut ausgeführt werden.
+Wenn die Prüfung der Einstellungen Fehler ergibt, müssen die PostgreSQL-Einstellungen in der Datei *"postgresl.conf"* angepasst werden. Die mitgelieferte *"postgresql.conf"*-Datei erfüllt die Mindestvoraussetzungen. Anschließend muss der PostgreSQL-Dienst neu gestartet werden und das Kommando `vrs setup postgre` erneut ausgeführt werden.
 
