@@ -1,7 +1,7 @@
 <!-- TITLE: FlexiWorkplace Desktop -->
 <!-- SUBTITLE: FlexiWorkplace ist ein Modul für flexible Arbeitsplatzreservierung -->
 
-![Titelseite FlexiWorkplace](_images/_title/flexi-workplace-desktop.png)
+<!-- ![Titelseite FlexiWorkplace](_images/_title/flexi-workplace-desktop.png) -->
 
 # FlexiWorkplace - Desktop
 
