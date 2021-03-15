@@ -1,6 +1,8 @@
 <!-- TITLE: Admin FlexiWorkplace-->
 <!-- SUBTITLE: Modul "FlexiWorkplace" für die Verwaltung von Arbeitsplatz-Reservierungseinheiten un Aufträge -->
 
+<!-- ![Titelseite FlexiWorkplace](_images/_title/flexi-workplace.png) -->
+
 # FlexiWorkplace Admin
 
 ## Allgemein
