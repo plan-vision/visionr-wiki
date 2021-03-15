@@ -158,13 +158,37 @@ Sie können Regeln für die Reservierbarkeit der Arbeitsplatzeinheiten definiere
 
 Die Anwendung der Regeln können Sie ein- und ausschalten, indem Sie die Häkchen für die Felder "Erlaubt-Regeln anwenden?" und "Verbots-Regeln anwenden?" setzen oder herausnehmen.
 
+Sie können bereits definierte Regeln wiederverwenden. Um eine Regel auszuwählen, gehen Sie auf den Plusbutton im Feld "Erlaubt-Regeln" oder "Verbots-Regeln".
+
+![Index](_images/flexi-workplace/rule-add.png)
+
+*Bild 17: Eine Regel aus Liste hinzufügen*
+
+Fall Sie eine neue Regel brauchen, die noch nicht definiert ist, können Sie diese erstellen, indem Sie auf den `+ Neu`-Button im Kontextmenü auf die drei Striche oben rechts klicken.
+
+![Index](_images/flexi-workplace/rule-new.png)
+
+*Bild 18: Neue Regel in der Liste erstellen*
+
+In der neuen Regel können Sie betroffene Personengruppe definieren: Unternehmen, Abteilung, Kostenstelle, Team und/oder Einzelpersonen.
+
+![Index](_images/flexi-workplace/rule-edit.png)
+
+*Bild 19: Neue Regel bearbeiten*
+
+Im Feld "Serienmuster" können Sie entweder eine bereits bestehende Regel auswählen oder eine ganz neue definieren. Bei der Definition neuer Serienmuster müssen Sie die Laufzeit der Regel beachten, die durch die Angaben in den Feldern "Anfangsdatum" und "Wiederholen bis" kontrolliert wird.
+
+![Index](_images/flexi-workplace/rule-template.png)
+
+*Bild 20: Neues Serienmuster für die Regel erstellen*
+
 # Zuweisung von Verwaltern
 
 Die Reservierbarkeit bestimmter Arbeitsplätze können Sie auf eine Personengruppe einschränken, indem Sie Verwalter für diese Arbeitsplätze definieren und gleichzeitig das Häkchen in dem Feld "Reservierbar nur für Verwalter?" auf der Registerkarte `Reservierbarkeit` setzen.
 
 ![Index](_images/flexi-workplace/wpl-only-admins.png)
 
-*Bild 17: Reservierbarkeit nur für eingeschränkte Personengruppe (Verwalter)*
+*Bild 21: Reservierbarkeit nur für eingeschränkte Personengruppe (Verwalter)*
 
 # Zugriffsrechte anpassen
 
@@ -172,5 +196,5 @@ Sie können die Zugriffrechte einer Arbeitsplatzeinheit als Admin kontrollieren.
 
 ![Index](_images/flexi-workplace/wpl-access.png)
 
-*Bild 18: Bearbeitung der Zugriffsrechte als Admin*
+*Bild 22: Bearbeitung der Zugriffsrechte als Admin*
 
