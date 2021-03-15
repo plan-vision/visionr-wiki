@@ -15,7 +15,7 @@ The VisionR module FlexiWorkplace can be used for mobile workplace reservations.
 
 Main features:
 
-* **Search for a free workplace:** You can look for a free workplace visually in floor plans. After you have filled out the search criteria in the search fields (begin, end, building, floor) you can see the free workplaces in the plan and reserve them.
+* **Search for free workplaces:** You can look for a free workplace visually in floor plans. After you have filled out the search criteria in the search fields (begin, end, building, floor) you can see the free workplaces in the plan and reserve them.
 * **Reservation with a QR or barcode:**  If you are standing in front of a desk, you can reserve it using a QR or barcode scan from your mobile device. You can also cancel your ongoing reservation for this workplace.
 * **Reserve a single workplace:** You can start creating a new reservation, using graphical workplace search in a floor plan or in a list with with attached pictures.
 * **Reserve multiple workplaces for teamwork:**  Here you can look up multiple workplace and reserve them simultaneously for a team of persons. You can later assign the single reservations to the persons from the team, who will become a separate email event for the Outlook calendar.
@@ -24,9 +24,9 @@ Main features:
 
 ## Entrance
 
-If you are using the FlexiWorkplace from your VisionR mobile app the index page of the application will be automatically displayed. If you are using the browser on your mobile device you can either use the `Apps` tab on the index page or call the direct link  `https://[VisionR-Adresse]/forms#/main/reservations_workplace`.
+If you are using the FlexiWorkplace from your VisionR mobile app the index page of the application will be automatically displayed. If you are using the browser on your mobile device you can either use the `Apps` tab on the index page or call the direct link  `https://[VisionR address]/forms#/main/reservations_workplace`.
 
-![Index Seite](_images/flexi-workplace-mobile/index.png)
+![Index page](_images/flexi-workplace-mobile/index.png)
 
 *Image 1: App entrance using the index page on you mobile device*
 
@@ -38,271 +38,268 @@ Administrative tasks, like creating a new workplace unit, changing reservability
 
 ## Begin
 
-A begin page is automatically displayed iy you enter the module FlexiWorkplace  (see Image 2).
+A begin page is automatically displayed when you enter the module FlexiWorkplace  (see Image 2).
 
-![Index Seite](_images/flexi-workplace-mobile/begin.png)
+![Index page](_images/flexi-workplace-mobile/begin.png)
 
 *Image 2: Initial page "Begin"*
 
-Im oberen Bereich der Anfangsmaske wird eine Liste mit den nächsten persönlichen Arbeitsplatzbuchungen angezeigt. Falls Sie keine anstehenden Termine haben, bleibt die Liste leer.
+There is a list of the next personal reservations in the top area of the begin page. This area is empty if you don't have any pending reservations.
 
-> **Hinweis:** Mit Klick auf die Überschrift "Meine Reservierungen" oder auf den Button "Mehr zeigen..." wird eine vollständige Liste der eigenen Reservierungen in einer Listenansicht angezeigt. 
+> **Note:** A click on the title "My reservations"  or on the button "Show more..." will open a complete list of all your personal reservations. 
 
-Mit Klick auf die Termine können Sie Detailinformationen inklusive Standort im Plan anzeigen lassen. Die Buttons unter der Terminübersicht führen zu den Modulfunktionen, die in FlexiWorkplace für die normalen User zur Verfügung stehen.
+If you click on an event in the list you can see detailed information about the reservation, location in the plan included. The buttons under the event list represent the main FlexiWorkplace module functionalities. 
 
-## Bedienung allgemein
+## General tips
 
-Der Button mit den drei Strichen ![Menü-Button](_images/common/button-menu-22.png)oben links öffnet das Modul-Menü. Das Menü ist auf mobilen Geräten ist aus Platzgründen automatisch versteckt. In der Desktopversion ist das Menü automatisch aufgeklappt. Abwechselndes Klicken auf den`Menü`-Button zeigt oder verbirgt das Menü, je nachdem welcher der aktuelle Status ist. Der `Menü`-Button ist auf allen Masken verfügbar. Dur Klick auf einen Menüeintrag in der Liste öffnen Sie die entsprechende Maske mit den in diesem Dokument beschriebenen Funktionalitäten. Der Name der aktiven Maske wird in orangener Farbe hervorgehoben.
+The button with the three lines ![Menü-Button](_images/common/button-menu-22.png)in the top left corner opens the module main menu. By default this menu is minimized on mobile device in order to save place.  In the desktop version of the software the main menu is on by default. The main menu button is a toggle button. Alternate clicks on it will either show or hide the main menu. The `Menü`-Button is available on all pages of the module. The module pages with different functionalities described in this document are called by clicking on an entry in the main menu. The active page is colored orange in the main menu.
 
-![Zur Index](_images/flexi-workplace-mobile/menu-on.png)
+![Go to index](_images/flexi-workplace-mobile/menu-on.png)
 
-*Bild 3: Hauptmenü über die drei Striche neben dem Logo ein/aus* 
+*Image 3: The main menu can be switched on/off by clicking on the three lines* 
 
-Ein Klick auf die Ikone ![Logo](_images/common/visionr-logo-22.png) neben den drei Strichen oben Links führt zur VisionR-Indexseite. Wenn Sie das Modul FlexiWorkplace verlassen und zur Indexseite springen möchten, müssen Sie auf den Button mit dem Häkchen zur Bestätigen klicken (siehe Bild 3). Bei Abbrechen bleiben Sie auf der aktuellen Maske.
+A single click on the icon ![Logo](_images/common/visionr-logo-22.png) beside the three lines on the top left side opens the VisionR index page. If you want to leave the module FlexiWorkplace and open the index page you must confirm your action, because unsaved information, is any will be lost (see Image 3). If you cancel this operation you will stay on current page.
 
-![Zur Index](_images/flexi-workplace-mobile/go-to-index.png)
+![Go to index](_images/flexi-workplace-mobile/go-to-index.png)
 
-*Bild 4: Zur Indexseite zurückkehren* 
+*Image 4: Go to the index page* 
 
-# Suchen nach freien Arbeitsplätzen
+# Search for free workplaces
 
-## Suchen
+## Search
 
-Der Erste Button auf der Anfangsseite `Suchen nach freien Arbeitsplätzen` öffnet die Maske für die Arbeitsplatzsuche (siehe Bild 5).
+The first button on the begin page  `Search for free workplaces` opens the mask for workplace search (see Image 5).
 
-![Arbeitsplatzsuche](_images/flexi-workplace-mobile/wpl-search.png)
+![Workplace search](_images/flexi-workplace-mobile/wpl-search.png)
 
-*Bild 5: Arbeitsplatzsuche öffnen*
+*Image 5: Open the workplace search*
 
-Auf der Maske für die Arbeitsplatzsuche können Sie die Suchfelder mit den gewünschten Suchkriterien ausfüllen und anschließend auf den Button `Suchen` klicken, um freie Arbeitsplätze entweder in der Plan- oder in einer Listen-Ansicht anzeigen zu lassen.
+You can fill in the search fields with your preferences on the workplace search mask and click on the button `Search`. The search results with free workplaces will be displayed either in the floor plan or in a list view.
 
-Der Wechsel zwischen Plan- und Listen-Ansicht geschieht, wenn Sie abwechselnd den zweite Button links vom `Suchen`-Button anklicken. Der Button ![Liste-Button](_images/common/button-search-list-22.png) stellt die Suche auf Listenansicht ein. Der Button ![Liste-Button](_images/common/button-search-drawing-22.png) stellt die Suche auf Planansicht ein.
+To switch between floor plan and list view, you must use the second left button beside the `Search` button. This is a toggle button.  The button ![Liste-Button](_images/common/button-search-list-22.png) will switch to list view. The button ![Liste-Button](_images/common/button-search-drawing-22.png) will switch to floor plan view.
 
-> **Hinweis:** der Wechsel zwischen Plan- und Listen-Ansicht kann vor oder auch nach Klick auf den `Suchen`-Button erfolgen.
+> **Note:** Switching between list view and floor plan can be done before or after clicking on the `Search` button.
 
-Ein Klick auf den Button mit dem Pfeil ![Reset-Button](_images/common/button-search-reset-22.png) neben dem `Suchen`-Button setzt die eingegebenen Werte für die Suchkriterien zurück.
+The arrow-button ![Reset button](_images/common/button-search-reset-22.png) beside the `Search` button can be used to reset the values in the search fields.
 
-In der Standartversion von FlexiWorkplace sind folgende Suchfelder vorhanden:
+Following search input fields are available In the standard version of FlexiWorkplace:
 
-* **Liegenschaft** hier können Sie im Dropdown eine Liegenschaft auswählen
-* **Gebäude** hier können Sie ein Gebäude auswählen
-* **Geschoss** hier können Sie das gewünschte Geschoss auswählen
-* **Anfang** Datum und Uhrzeit als Anfangszeit für die Suche nach freien Arbeitsplätzen
-* **Ende** Datum und Uhrzeit als Endzeit für die Suche nach freien Arbeitsplätzen
-* **Verfügbarkeit prüfen?** hier stellen Sie ein, ob die angegebenen Zeiten für die Arbeitsplatzsuche verwendet werden. Fass das Häkchen auf `Nein` gesetzt ist werden alle gefundenen Arbeitsplätze angezeigt. Bei bereits belegten Arbeitsplätzen sind keine Doppelbuchungen erlaubt. Eine entsprechende Fehlermeldung wird im Reservierungsvorgang angezeigt.
+* **Location** you can select a property from a drop down
+* **Building** you can select a building
+* **Floor** you can select your preferred floor
+* **Begin** Date and time for the beginning of your reservation
+* **End** date and time for the end of your reservation
+* **Check availability?** here you can define if the found workplace should be filtered by the search time period. If this option is deactivated all workplaces will be displayed, regardless of their reservation status. Multiple reservations for the same time are not allowed. A system check will be executed on attempting to create a double reservation and an error message will be displayed. 
 
-> **Bemerkung: ** Während der Eingabe Ihrer Suchkriterien wird die Anzahl gefundener Arbeitsplätze im `Suchen`-Button in Klammern angezeigt, noch bevor Sie die Anzeige der Ergebnisse in Plan- oder Listen-Ansicht sehen.
+> **Notice: ** While you make the inputs in the search fields in the search area the number of free workplaces found is calculated dynamically and displayed in brackets inside the `Search` button before you click on the button. After clicking on it the full result set will be displayed in the floor plan or in the list view.
 
-> **Hinweis:** Zusätzliche spezifische Suchfelder wie z. B. "Gebäudeteil" o. ä. können nach Kundenwunsch jederzeit mit integriert werden. 
+> **Note:** Additional specific search fields, e.g. "Building section", can be added to the search area on demand as part of a customization process. 
 
-Nachdem Sie Ihre Suchkriterien eingegeben haben und auf den Button `Suchen` geklickt haben, wird der Filter-Bereich mit den Suchkriterien automatisch minimiert, um mehr Platz für die Suchergebnisse zu verschaffen. Den Filter mit den Suchkriterien können Sie jederzeit wieder aufklappen oder zuklappen, indem Sie mit dem Finder oder Maus auf die Leiste klicken: ![Filter](_images/common/button-filter-minimized-22.png)
+After you fill in you search criteria and click on the `Search` button the search area will be automatically minimized on mobile devices in order to have more place for the floor plan or the list view.  The filter with the search conditions can always be minimized or maximized through a click on the line `Filter : active`.
 
-Als Vorgabe werden die Suchergebnisse im Plan angezeigt:
+Search results with free workplaces will be displayed in the floor plan by default:
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/wpl-search-plan.png)
+![Result](_images/flexi-workplace-mobile/wpl-search-plan.png)
 
-*Bild 6: Suchergebnisse im Plan anzeigen*
+*Image 6: Search results in the floor plan*
 
-In der Plan-Ansicht können Sie eine Legende mit Übersicht der Arbeitsplätze nach Status und Bedeutung der Farben im Plan durch Klick auf den Button ![Button Legend](_images/common/button-legend-22.png)anzeigen lassen:
+You can display a legend with an overview of the free and occupied workplaces in the floor plan view by clicking on the legend ![Button Legend](_images/common/button-legend-22.png) button:
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/wpl-search-legend.png)
+![Result](_images/flexi-workplace-mobile/wpl-search-legend.png)
 
-*Bild 7: Legende bei der Suche im Plan anzeigen*
+*Image 7: Display legend in the floor plan view*
 
-> **Hinweis:** In der Plan-Ansicht können Sie mit den Fingern ähnlich wie bei einem Kartendienst (Google Maps, Bing o.ä.) hinein- und heraus-zoomen.
+> **Note:** You can zoom and pan in the floor plan using the mouse scroll button or your fingers on a mobile device like in a map service (Google Maps, Bing and so on).
 
-Die Details von Arbeitsplätzen, die für Sie interessant sind, können Sie mit Klick auf die Arbeitsplatzfläche aufrufen.
+You can click on the workplaces you are interested in and show details for the selected resource in a popup. 
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/wpl-search-details.png)
+![Result](_images/flexi-workplace-mobile/wpl-search-details.png)
 
-*Bild 8: Arbeitsplatz-Details im Plan anzeigen*
+*Image 8: Workplace detail information in the floor plan*
 
-Bei dem kleinen Pop-up mit den Detailinformationen können Sie auf das Bildzeichen im oberen Bereich klicken. Dadurch öffnet sich eine separate Maske mit Arbeitsplatz-Detailinformationen, die Sie mit Klick auf das Kreuzchen unten rechts wieder schließen können.
+You can click on the icon or picture on the top of the popup with workplace details to display a separate popup mask with full details for the workplace you have chosen. The workplace details are displayed in full screen mode on mobile devices. You can close the details mask by clicking on the button with the cross in the bottom right area.
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/wpl-details.png)
+![Result](_images/flexi-workplace-mobile/wpl-details.png)
 
-*Bild 9: Arbeitsplatz-Details separat anzeigen*
+*Image 9: Display workplace details in separate popup*
 
-Wenn Sie die Listen-Ansicht ausgewählt haben, werden die gefundenen Arbeitsplätze untereinander angezeigt.
+If you have chosen list view in your search, all found free workplaces for your search time will be displayed in a paged list.
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/wpl-search-list.png)
+![Result](_images/flexi-workplace-mobile/wpl-search-list.png)
 
-*Bild 10: Suchergebnisse als Liste anzeigen*
+*Image 10: Display search results in a list view*
 
-## Einzelplatz reservieren
+## Reserve a single workplace
 
-Wenn Sie einen Arbeitsplatz ausgewählt haben (wie auf den Bildern oben), wird der Button `Reservieren` unten rechts aktiviert. Durch Klick auf diesen Button rufen Sie ein Dialog zum Reservieren auf:
+If you choose a particular workplace (like on the images above) the `Reserve` button in the bottom right corner will be activated. A dialog with a form will be popped up if you click on this button:
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/reserve.png)
+![Result](_images/flexi-workplace-mobile/reserve.png)
 
-*Bild 11: Dialog für die Reservierung*
+*Image 11: Popup dialog for new reservation*
 
-Bei der Reservierung können Sie verschiedene Eingabefelder mit Details zu Ihrer Reservierung ausfüllen. Standardmäßig ist sind Möglichkeiten für Inventar-,  Catering und Support-Bestellungen im Züge der Reservierung möglich. Die Bestellungen lösen separate Aufträge aus, die an die zuständige Servicemitarbeiter weitergeleitet werden.
+You can make input in different fields with details about your reservation. Orders for inventory, catering and support are part of the standard version of FlexiWorkplace. If you make an order inside your reservation a separate workflow is being triggered and redirected to the service team responsible for the task. 
 
->  **Hinweis:** Die Reservierungsmaske und Eingaben sind nach Kundenwusch anpassbar.
+>  **Note:** Available an additional input fields for the reservations are customizable.
 
-Fehler oder Warnungen werden im unteren Bereich angezeigt. Fehler, die in rot angezeigt werden, verhindern den Abschluss der Reservierung. Warnungen werden mit orangenem Hintergrund angezeigt und können geschlossen werden, um das Speichern zu ermöglichen.
+Error and warning messages are displayed in the bottom area of the reservation. Errors have red background and prevent saving your reservation. Warnings are displayed with orange background and can be closed in order to be able to click on the `Save` button.
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/reserve-warn.png)
+![Result](_images/flexi-workplace-mobile/reserve-warn.png)
 
-*Bild 12: Fehler oder Warnungen im Dialog für die Reservierung*
+*Image 12: Errors and warnings in the reservation dialog*
 
-Um die Reservierung abzuschließen müssen Sie zur Bestätigung auf den Button mit dem Häkchen unten rechts klicken. In der Standardversion wird ein Pop-up zur Bestätigung des Versands einer E-Mail mit angehängtem Outlook-Termin angezeigt. 
+You must click on the `Save` button in the bottom right corner to be able to complete the reservation process. In the standard version of the software a popup question is automatically displayed, asking you if you want an email confirmation of the event. If you confirm the email a message with attached Outlook event will be sent to your email address. 
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/reserve-email.png)
+![Result](_images/flexi-workplace-mobile/reserve-email.png)
 
-*Bild 13: Bestätigung der Outlook-Termin-E-Mail*
+*Image 13: Confirmation for email with Outlook invitation*
 
-> **Hinweis:** Die E-Mail-Termin-Funktion kann bei Wunsch automatisiert werden, um den zusätzlichen Schritt der E-Mail-Bestätigung zu überspringen.
+> **Note:** Sending an email with attached event can be set up to suppress the question popup and send the message silently in the background. 
 
-Nach Bestätigung der E-Mail und Speichern/Schließen der Reservierungsmaske wird die Plansuche angezeigt, diesmal ist der ausgewählte und reservierte Arbeitsplatz ausgegraut und kann zur gesuchten Zeit nicht mehr reserviert werden.
+After you save and close the new reservation the search mask with the floor plan will be displayed again. You can see a grey background on the reserved workplace, which means it is already booked and can not be reserved by others for the same time.
 
->  **Hinweis:** Um den belegten Arbeitsplatz für einen anderen Mitarbeiter freizugeben, können Sie das Feld "Reserviert für" bei Bearbeiten der Reservierung ändern, oder die Reservierung stornieren.
+![Result](_images/flexi-workplace-mobile/after-reserve.png)
 
-Nachdem Sie Ihre neue Reservierung gespeichert und geschlossen haben, wird der Plan mit der Arbeitsplatzsuche erneut angezeigt. Es ist an der grauen Farbe zu erkennen, das der reservierte Arbeitsplatz für die gesuchte Zeit nicht mehr verfügbar ist.
+*Image 14: The workplace is immediately occupied after your new reservation (grey background)*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/after-reserve.png)
+**Note:** If you want to make the reserved workplace available to another employee you can use the input "Reserved for" when editing your reservation or cancel you reservation completely to make the resource free again.
 
-*Bild 14: Nach Ihrer Reservierung ist der Arbeitsplatz sofort belegt (grau hinterlegt)*
+## Reserve multiple workplaces for simultaneously
 
-## Mehrere Arbeitsplätze gleichzeitig reservieren
+You can use long click in the floor plan to display a small context menu as popup, where you will have access to a multiple selection option.
 
-In der Plan-Ansicht können Sie mit Long-Klick (auf den Desktop rechte Maustaste) ein Kontextmenü öffnen um grafische Mehrfachauswahl tätigen zu können.
+![Result](_images/flexi-workplace-mobile/plan-right-click.png)
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/plan-right-click.png)
+*Image 15: Long click calls popup context menu*
 
-*Bild 15: Long-Klick ruft Kontextmenü auf*
+Click on `Select box`and draw two points diagonally in the plan to select simultaneously all the workplaces inside the resulting rectangular area. 
 
-Wählen Sie `Auswahlrechteck` und zeichnen Sie einen zwei Punkte diagonal im Plan und die darin enthaltenen Arbeitsplätze gleichzeitig auszuwählen.
+![Result](_images/flexi-workplace-mobile/plan-select-box.png)
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/plan-select-box.png)
+*Image 16: Multiple selection with select box (two clicks diagonally)*
 
-*Bild 16: Mehrfachauswahl mit Auswahlrechteck (zwei diagonale Klicks)*
+If you want to select multiple workplaces one after another, you must use the more  ![Button more](_images/common/button-more-22.png) button in center of the bottom area, which is displayed after you select the first workplace in the plan. If the button `More` is active, all consequently selected workplaces will be added to the selections. Clicking multiple times on the same workplace alternately adds the workplace to or removes it from the selection.
 
-Um mehrere Arbeitsplätze gleichzeitig auszuwählen, können Sie auch den Button ![Mutton Mehr](_images/common/button-more-22.png) unten in der Mitte aktivieren, nachdem Sie den ersten Arbeitsplatz in der Zeichnung angeklickt haben. Bei Aktivierten `Mehr`-Button werden die weiteren angeklickten Arbeitsplätze zur Auswahl addiert. Abwechselndes Klicken auf dem gleichen Arbeitsplatz wählt diesen aus oder ab.
+You can select multiple workplace as an alternative in the list view. In order to to so go to the list view and use the check box in front of the picture of the workplace in the list.
 
-Sie können mehrere Arbeitsplätze für eine gleichzeitige Reservierung auch in der Listen-Ansicht auswählen, indem Sie die Häkchen vor den Bildern in der Liste aktivieren.
+![Result](_images/flexi-workplace-mobile/multiple-list.png)
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/multiple-list.png)
+*Image 17: Multiple selection in the list view*
 
-*Bild 17: Mehrfachauswahl in der Listen-Ansicht*
+After you select multiple workplaces you will be able to make a group reservation by clicking on the `Reserve` button in the bottom right corner.  A dialog for the group reservation pops up. You can fill in the information for the multiple reservation and click on `Save`. All selected workplaces will be occupied separately inside the group reservation. At the beginning all the workplaces are reserved by you. You can later assign the workplaces to different members of the team. You can do this when you open the workplaces one by one and edit the  input for "Reserved for".
 
-Nachdem Sie mehrere Arbeitsplätze ausgewählt haben, können Sie eine Gruppenreservierung tätigen, indem Sie auf den Button `Reservieren` unten links klicken. Dabei wird ein Dialog für die Mehrfachreservierung aufgemacht. In diesem Dialog können Sie die Eingabefelder ausfüllen und anschließen auf `Speichern` klicken. Alle ausgewählten Arbeitsplätze werden separat innerhalb der Gruppenreservierung belegt. Im ersten Schritt sind alle Arbeitsplätze für Sie als Bearbeiter reserviert. Sie können an dieser Stelle die Plätze an verschiedenen Personen vergeben. oder später durch Bearbeitung des Eingabefeldes "Reserviert für" die Platzvergabe für die Teilnehmer regeln.
+![Result](_images/flexi-workplace-mobile/multiple-dialog.png)
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/multiple-dialog.png)
+*Image 18: Multiple reservations (group reservation for teams)*
 
-*Bild 18: Mehrfachreservierung (Gruppenreservierung)*
+# Reserve with OR code / barcode
+Click on the button `Reserve with QR code / barcode` on the begin page in FlexiWorkplace. As an alternative you can use the main menu, which can be displayed clicking on the three lines beside the logo, if hidden. In the main menu use the button `QR code / barcode`. The mask for ad-hoc reservations will be displayed.
 
-# Vor-Ort-Reservierung mit QR-Code / Barcode
+![Result](_images/flexi-workplace-mobile/barcode-scan.png)
 
-Gehen Sie in der Maske *"Anfang"* auf den Button `Reservieren mit QR-Code / Barcode` oder alternativ im App-Menü links (auf die drei Striche neben dem Logo) auf den Button `QR-Code / Barcode`. Dadurch öffnen Sie die Maske für ad-hoc Reservierung, wenn Sie vor dem Arbeitsplatz stehen. 
+*Image 19: Scan QR code / barcode to identify a workplace*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-scan.png)
+To be able to use the scan feature, the workplace you are standing in front of must have a QR code or barcode sticker on it. In the desktop version or if a sticker is missing you can select the workplace in the dropdown or using the floor plan.
 
-*Bild 19: QR-/Barcode vor Ort einscannen*
+![Result](_images/flexi-workplace-mobile/barcode-dropdown.png)
 
-Der Arbeitsplatz muss mit einem QR- oder Barcode ausgestattet sein, um diese Funktion nutzen zu können. Falls keine Sticker mit Code vorhanden sein sollten, können Sie den Arbeitsplatz im Dropdown über die Arbeitsplatznummer oder im Plan aussuchen.
+*Image 20: Scan a QR code / barcode*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-dropdown.png)
+You can select a workplace in the floor plan using the menu button with the three lines at the right end of the input for "Workplace unit". This button pops up a menu, where an option `From drawing` is available. Click on this option and the floor plan pops up in select mode. Here you can select the preferred workplace and confirm by clicking on the tick button in the bottom right corner of the popup.
 
-*Bild 20: QR-/Barcode vor Ort einscannen*
+![Result](_images/flexi-workplace-mobile/barcode-rel-menu.png)
 
-Die Suche im Plan können Sie im Feld "Arbeitsplatzeinheit" durch Anklicken des Menübuttons mit den drei Strichen am Ende des Eingabefeldes Aufrufen. Dort klicken Sie auf den Menüeintrag `Aus Zeichnung`. Dadurch öffnen Sie den Plan im Auswahlmodus.
+*Image 21: Menu in the input field*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-rel-menu.png)
+![Result](_images/flexi-workplace-mobile/barcode-plan.png)
 
-*Bild 21: Menüeintrag im Eingabefeld*
+*Image 22: Select a workplace in the floor plan*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-plan.png)
+On selecting a workplace in the dropdown field the available details are displayed following your input. Besides workplace information there is an icon with the workplace location in the drawing. All attached workplace pictures are also displayed. Following the workplace gallery a small calendar view with a timeline is displayed, showing all the reservations for the selected workplace for a week. This calendar view can be zoomed and panned using your finger on a mobile device of the scroll button of the mouse on a desktop computer. There is a list of the overlapping reservations at the end of the workplace information, where you can edit or cancel your own reservations. If there are no overlapping reservations and no error messages, you can click on the button `Reserve` in the top area after the input fields. The reservation process will be started as already described in the previous sections.
 
-*Bild 22: Arbeitsplatz in der Zeichnung auswählen*
+![Result](_images/flexi-workplace-mobile/barcode-details-1.png)
 
-Nachdem die Arbeitsplatznummer ausgewählt wurde erscheinen die Arbeitsplatz-Details im unteren Bereich. Neben den allgemeinen Arbeitsplatzinformationen inklusive Zeichnungsausschnitt und Bilder ist eine kleine Kalenderansicht vorhanden, die Sie durch Zoomen verkleinern und vergrößern können. Dort sind bereits vorhandene Reservierungen sichtbar. Noch weiter unten sehen Sie eine Liste mit den Reservierungen, die für die gesuchte Zeit gefunden worden sind. Dies geschieht nur bei Überschneidungen mit Ihrer gewünschten Zeit. Fall die Liste leer ist und keine Fehlermeldungen ersichtlich sind, ist der Button `Reservieren` im oberen Bereich aktiv und Sie können den Dialog für neue Reservierung durch einen Klick darauf aufrufen.
+*Image 23: Workplace details after input of workplace number (1)*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-details-1.png)
+![Result](_images/flexi-workplace-mobile/barcode-details-2.png)
 
-*Bild 23: Arbeitsplatz-Details nach Eintragung der AR-Nummer (1)*
+*Image 24: Workplace details after input of workplace number (2)*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/barcode-details-2.png)
+# My reservations
 
-*Bild 24: Arbeitsplatz-Details nach Eintragung der AR-Nummer (2)*
+You can click on the button `My reservations` on the *"begin"* page or use the main menu to open a list with your own reservations.
 
-# Meine Reservierungen
+![Result](_images/flexi-workplace-mobile/my-res.png)
 
-Eine Liste der eigenen Reservierungen können Sie auf der Maske *"Anfang"* oder durch Klick auf den Button  `Meine Reservierungen` im App-Menü aufrufen.
+*Image 25: List view of your own reservations*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/my-res.png)
+The list with the own reservations can be filtered by using the input fields in the main menu on the left side. You can display the main menu by clicking on the three lines in the top left corner if it is hidden. Making an input in the filter input fields on the right side applies immediately a search condition to the list view of your reservations.
 
-*Bild 25: Liste eigener Reservierungen*
+![Result](_images/flexi-workplace-mobile/my-res-filter.png)
 
-Die Liste mit den eigenen Reservierungen können Sie zusätzlich filtern, indem Sie das Hauptmenü (Klick auf die drei Striche neben dem Logo oben links) aufrufen und nach unten scrollen. Ihre Eingaben in den vorhandenen Feldern werden als Filter für die Liste angewendet.
+*Image 26: Filter the list with your reservations*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/my-res-filter.png)
+The entries in the list with your own reservations can be either edited by clicking the edit button ![Button edit](_images/common/button-edit-22.png) or cancelled by clicking the cancel button ![Button cancel](_images/common/button-cancel-22.png) on the right side of the items. If you want to cancel a reservation of yours the status of the reservation is set to *"cancelled"* and the reservation disappers from the list. The workplace is made available to other employees.
 
-*Bild 26: Filter der Liste eigener Reservierungen*
+# Show all reservations
 
-Die Einträge in der Liste eigener Reservierungen können Sie durch Doppelklick auf den Eintrag oder durch anklicken des Buttons ![Button Bearbeiten](_images/common/button-edit-22.png) bearbeiten. Durch anklicken des Buttons ![Button Storno](_images/common/button-cancel-22.png)wird die Reservierung auf den Status *"storniert"* gesetzt und aus der Liste entfernt. Dadurch wird der Arbeitsplatz für andere für die angegebene Zeit wieder reservierbar.
+If you click the button `All reservations` on the *"begin"* page or use the main menu a list of all reservations will be displayed.
 
-# Liste aller Reservierungen
+![Result](_images/flexi-workplace-mobile/all-res.png)
 
-Eine Liste aller Reservierungen, die Sie mit Ihren Berechtigungen sehen dürfen, können Sie auf der Maske *"Anfang"* oder durch Klick auf den Button  `Alle Reservierungen` im App-Menü aufrufen.
+*Image 27: List of all reservations*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/all-res.png)
+You can additionally filter the results in the list of all reservations by using the filter section in the main menu. If the main menu is hidden, you can make it appear by clicking on the three lines in the top left corner beside the logo. Making an input in the filter fields applies immediately a search condition to the list of all reservations.
 
-*Bild 27: Liste aller Reservierungen*
+![Result](_images/flexi-workplace-mobile/all-res-filter.png)
 
-Die Liste aller Reservierungen können Sie zusätzlich filtern, indem Sie das Hauptmenü (Klick auf die drei Striche neben dem Logo oben links) aufrufen und nach unten scrollen. Ihre Eingaben in den vorhandenen Feldern werden als Filter für die Liste angewendet.
+*Image 28: Filter the results in the list of all reservations*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/all-res-filter.png)
+# Calendar view
 
-*Bild 28: Filter der Liste aller Reservierungen*
+You can use two different calendar views. Both are displayed as zoomable timeline. You can zoom and pan those calendar views by using your fingers on a mobile device or the scroll button of your mouse on a desktop computer. Reservations are displayed in blocks one after another. The timeline shows the days from left to the right. The first calendar view shows reservations grouped by workplace, the second by person. You can use both views to make a new reservations for the selected workplace or person. In order to do so you must click inside the timeline area and go to the button `Reserve` in the small popup which shows up.
 
-# Kalender-Ansicht
+## Timeline by workplace
 
-Sie können zwei zur Verfügung stehenden Kalender Ansichten nutzen. Beide werden in Form einer zoombaren Zeitachse dargestellt. Zoomen können Sie mit den Fingern oder mit der Maus-Scroll-Taste. Die Reservierungen werden in Blöcken untereinander dargestellt. Die Zeitachse verläuft von links nach rechts. Die erste Kalender-Übersicht gruppiert die Termine nach Arbeitsplatz, die zweite nach Person. In beiden Ansichten können Sie für einen Arbeitsplatz oder für eine Person neue Reservierung erstellen, indem Sie mit der Maus die gewünschte Uhrzeit am gewünschten Tag anklicken und anschließend auf den Button `Reservieren` im kleinen Pop-up gehen.
+![Result](_images/flexi-workplace-mobile/timeline-wpl.png)
 
-## Zeitachse nach Arbeitsplatz
+*Image 29: Timeline by workplace*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/timeline-wpl.png)
+You can additionally filter reservations in the timeline by using the filter section in the main menu. If the main menu is hidden you can display it by clicking on the three lines in the top left corner beside the logo. Inputs in the filter section are used immediately as search condition for the displayed reservations in the timeline.
 
-*Bild 29: Zeitachse nach Arbeitsplatz*
+![Result](_images/flexi-workplace-mobile/timeline-wpl-filter.png)
 
-In der Zeitachse können Sie die Termine filtern, indem Sie auf den Menübutton mit den drei Strichen neben dem Logo oben links gehen und nach unten scrollen. Ihre Eingaben in den Feldern werden als Filter für die angezeigten Termine verwendet.
+*Image 30: Filter in the timeline by workplace*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/timeline-wpl-filter.png)
+If you want to make a reservation for a preferred workplace, you can click in the timeline and use the button `Reserve` in the small popup. A reservation dialog with inputs about your new reservation appears.
 
-*Bild 30: Filter in der Zeitachse nach Arbeitsplatz*
+![Result](_images/flexi-workplace-mobile/timeline-wpl-reserve.png)
 
-Durch Klick auf die  gewünschte Uhrzeit am gewünschten und anschließendem Klick auf den Button `Reservieren` können Sie den Dialog für nee Reservierung für den ausgewählten Arbeitsplatz aufrufen.
+*Image 31: Start a new reservation in the timeline by workplace*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/timeline-wpl-reserve.png)
+## Timeline by person
 
-*Bild 31: Reservieren direkt in der Zeitachse nach Arbeitsplatz*
+![Result](_images/flexi-workplace-mobile/timeline-person.png)
 
-## Zeitachse nach Person
+*Image 32: Timeline by person*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/timeline-person.png)
+You can additionally filter reservations in the timeline by using the filter section in the main menu. If the main menu is hidden you can display it by clicking on the three lines in the top left corner beside the logo. Inputs in the filter section are used immediately as search condition for the displayed reservations in the timeline.
 
-*Bild 32: Zeitachse nach Person*
+If you want to make a reservation for a person in the calendar view, you can click in the timeline and use the button `Reserve` in the small popup. A reservation dialog with inputs about your new reservation appears.
 
-In der Zeitachse können Sie die Termine filtern, indem Sie auf den Menübutton mit den drei Strichen neben dem Logo oben links gehen und nach unten scrollen. Ihre Eingaben in den Feldern werden als Filter für die angezeigten Termine verwendet.
+![Result](_images/flexi-workplace-mobile/timeline-person-reserve.png)
 
-Durch Klick auf die  gewünschte Uhrzeit am gewünschten und anschließendem Klick auf den Button `Reservieren` können Sie den Dialog für nee Reservierung für die ausgewählte Person  aufrufen.
+*Image 33: Start a new reservation in the timeline by person*
 
-![Ergebnis Plan](_images/flexi-workplace-mobile/timeline-person-reserve.png)
+# Outlook event with ICS
 
-*Bild 33: Reservieren direkt in der Zeitachse nach Person*
+An email will be sent on creating a new reservation or changing an existing one. This email contains an *".ics"*-attachment, which van be used to insert the event in your Outlook calendar by opening the attachment and confirming your participation. The email also contains a web link to the reservation with all available details (floor plan, details, attached pictures), which can be used to display, edit or cancel the reservation. You can only open the link after being authorized with your VisionR account. Access rights for viewing and editing are applied for the link.
 
-# Outlook-Termin mit ICS
+![Email](_images/flexi-workplace/email.png)
 
-Bei der Erstellung neuer Reservierungen oder bei Änderungen vorhandener Reservierungen werden E-Mails an den Reservierer verschickt. Die Bestätigung-E-Mail hat immer ICS-Anlage, die den Termin für die Reservierung im Outlook-Kalender eintragen lässt. Die E-Mail enthält auch einen Link zur Reservierung. Bei Verwendung des Links wird die Reservierung im Browser mit allen Details (Arbeitsplatzanzeige im Plan, Bilder, Zeiten usw.) angezeigt und kann bearbeitet oder storniert werden. Beim Öffnen des Links muss eine Anmeldung mit gültigem Account erfolgen. Zugriffsberechtigungen werden berücksichtigt.
+*Image 34: Confirmation email with ICS attachment and web link*
 
-![Ergebnis Plan](_images/flexi-workplace/email.png)
+Double click on the ICS attachment opens a new event in Outlook, where you can confirm the event. By doing so the event will be inserted in your Outlook calendar.
 
-*Bild 34: Bestätigung-E-Mail mit ICS-Anlage und Link*
+![Email](_images/flexi-workplace/email-event.png)
 
-Bei Anklicken der ICS-Anlage in der E-Mail können Sie den Termin Bestätigen. dadurch wird der Termin in Ihrem Kalender eingetragen.
-
-![Ergebnis Plan](_images/flexi-workplace/email-event.png)
-
-*Bild 35: Klick auf ICS-Datei im Anhang erstellt Outlook-Termin*
+*Image 35: Double click on ICS attachment creates an Outlook event*
