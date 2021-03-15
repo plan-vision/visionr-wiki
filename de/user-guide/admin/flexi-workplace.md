@@ -166,7 +166,7 @@ Die Reservierbarkeit bestimmter Arbeitsplätze können Sie auf eine Personengrup
 
 *Bild 17: Reservierbarkeit nur für eingeschränkte Personengruppe (Verwalter)*
 
-# Zugriffsrechte ändern
+# Zugriffsrechte anpassen
 
 Sie können die Zugriffrechte einer Arbeitsplatzeinheit als Admin kontrollieren. Wenn eine bestimmte Benutzerrolle (z. B. Jeder) keine Leserechte für den Datensatz besitzt, wird der Arbeitsplatz bei der Suche oder auf Tabellen- und Listen-Ansichten generell ausgeblendet. Die Bearbeitung der Zugriffsrechte können Sie auf der Registerkarte `Zugriff` aufrufen.
 
