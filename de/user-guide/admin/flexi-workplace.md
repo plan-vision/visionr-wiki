@@ -19,8 +19,8 @@ Bei der Verwaltung der Arbeitsplätze, die zur Reservierung gestellt werden werd
 * **Bearbeitung** der Eigenschaften von Arbeitsplatzeinheiten
 * **Löschen** oder deaktivieren von Arbeitsplatzeinheiten
 * **Reservierbarkeit** der Arbeitsplätze verwalten
-* Zuweisung von **Verwaltern** mit speziellen Rechten für bestimmte Arbeitsplätze
 * Definition von Erlaubt- und Verbots-**Regeln** für die Reservierbarkeit
+* Zuweisung von **Verwaltern** mit speziellen Rechten für bestimmte Arbeitsplätze
 * **Zugriffsrechte** für die Arbeitsplatzeinheiten definieren und ändern
 * Verknüpfung im **Geschossplan** erstellen oder ändern
 * Hochladen und Entfernen von **Bildern**
@@ -104,15 +104,73 @@ Wenn Sie sich im Modul Admin FlexiWorkplace befinden und den Menüeintrag `Arbei
 
 Bei der neu erstellten Arbeitsplatzeinheit müssen die Standortdaten eingegeben werden. Dazu muss ein Arbeitsplatz und ein Raum aus dem Flächenmanagement vorhanden sein.
 
+> **Hinweis:** Die Angabe von Arbeitsplatz, Raum, Geschoss, Gebäude und Liegenschaft ist wichtig, da sonst die Arbeitsplatzplatzeinheit nicht üner die Standort-Baumstruktur gefiltert und angezeigt werden kann.
+
+Beim Anlegen einer neuen Arbeitsplatzeinheit ist diese für die normalen Benutzer noch nicht reservierbar. Um die Reservierbarkeit inklusive Regeln zu definieren lesen Sie die Dokumentation im Abschnitt "Reservierbarkeit der Arbeitsplätze verwalten".
+
 # Arbeitsplatzeinheit bearbeiten
 
-Wenn Sie die App "Admin FlexiWorkplace" öffnen müssen Sie im Hauptmenü (immer erreichbar über die drei Striche oben links neben dem Logo) den Eintrag `Arbeitsplatzeinheiten` anklicken. Rechts werden die Arbeitsplätze, die reserviert werden können in Listen- oder Tabellen-Ansicht angezeigt. Klicken Sie ein ein Arbeitsplatz an, um es auszuwählen. Dann machen Sie einen Rechtsklick mit der Maus, um das Kontextmenü anzeigen zu lassen. Im Kontextmenü gehen Sie auf `Bearbeiten`. Alternativ können Sie die drei Striche unter der Personenikone anklicken, um das Kontextmenü aufzumachen und den Button `Bearbeiten` aufzumachen.
-
-> **Hinweis:** Doppelklick auf den Arbeitsplatz in der Tabelle oder in der Liste ruft ein Dialog mit Details auf. Auf diesem Dialogfenster ist untern links ein Button `Bearbeiten` vorhanden, falls Sie die Zugriffsrechte für die Bearbeitung des jeweiligen Datensatzes besitzen.
+Wenn Sie die App "Admin FlexiWorkplace" öffnen müssen Sie im Hauptmenü (immer erreichbar über die drei Striche oben links neben dem Logo) den Eintrag `Arbeitsplatzeinheiten` anklicken. Rechts werden die Arbeitsplätze, die reserviert werden können, in Listen- oder Tabellen-Ansicht angezeigt. Klicken Sie ein ein Arbeitsplatz an, um es auszuwählen. Dann machen Sie einen Rechtsklick mit der Maus, um das Kontextmenü anzeigen zu lassen. Im Kontextmenü gehen Sie auf `Bearbeiten`. Alternativ können Sie die drei Striche unter der Personenikone anklicken, um das Kontextmenü aufzumachen und den Button `Bearbeiten` aufzumachen.
 
 ![Index](_images/flexi-workplace/list-right-click.png)
 
 *Bild 11: Rechtsklick bei markiertem Arbeitsplatz*
 
+Doppelklick auf den Arbeitsplatz in der Tabelle oder in der Liste ruft ein Dialog mit Details auf. Auf diesem Dialogfenster ist untern links ein Button `Bearbeiten` vorhanden, falls Sie die Zugriffsrechte für die Bearbeitung des ausgewählten Datensatzes besitzen.
 
+![Index](_images/flexi-workplace/wpl-details.png)
+
+*Bild 12: Dialog mit Details bei Doppelklick*
+
+> **Hinweis:** Den Details-Dialog können Sie bei ausgewähltem Datensatz in der Tabelle mit `Leertaste`, statt mit Doppelklick aufrufen.
+
+Im Bearbeitungsmodus werden nur die wichtigsten Eingabefelder angezeigt. Falls Sie alle Datenbankfelder der Arbeitsplatzeinheit sehen und bearbeiten möchten , müssen Sie den Datensatz in Admin-Modus öffnen. Dazu gehen Sie auf die drei Striche oben rechts und klicken Sie auf den Menüeintrag `Administration`.
+
+![Index](_images/flexi-workplace/wpl-admin.png)
+
+*Bild 13: Admin-Modus für die Bearbeitung aufrufen*
+
+# Arbeitsplatzeinheit löschen
+
+Eine Arbeitsplatzeinheit können Sie im Bearbeitungsmodus löschen. Es können nur Arbeitsplatzeinheiten gelöscht werden, die noch keine Reservierungen haben. Eine Datenkonsistenzprüfung verhindert das Löschen, falls abhängige Daten bereits vorhanden sind.
+
+Öffnen Sie den Arbeitsplatz mit rechter Maustaste auf den Button `Bearbeiten`. Im Dialogmenü oben rechts auf die drei Striche klicken. Hier ist der Menüeintrag `Löschen` vorhanden, falls Sie die notwendigen Zugriffsrechte besitzen.
+
+![Index](_images/flexi-workplace/wpl-delete.png)
+
+*Bild 14: Löschen im Bearbeitungs- oder Admin-Modus*
+
+# Reservierbarkeit der Arbeitsplätze verwalten
+
+Um einen Arbeitsplatz nach Neuerstellung reservierbar zu machen, müssen Sie die Reservierbarkeit ändern. Standardmäßig sind neue Arbeitsplätze noch nicht reservierbar. Um die Reservierbarkeit zu definieren müssen Sie den Arbeitsplatz im Bearbeitungsmodus öffnen und auf die Registerkarte `Reservierbarkeit` klicken. Sie müssen im Eingabefeld "Reservierbar?" das Häkchen setzen.
+
+![Index](_images/flexi-workplace/wpl-reservable.png)
+
+*Bild 15: Allgemeine Reservierbarkeit einschalten*
+
+# Definition von Regeln für die Reservierbarkeit
+
+Sie können Regeln für die Reservierbarkeit der Arbeitsplatzeinheiten definieren. Dazu gehen Sie auf die Registerkarte `Regeln`. Die Regeln können Erlaubt- oder Verbots-Regeln sein. Die Regeln basieren auf Angaben über die Nutzergruppen (Unternehmen, Abteilungen, Kostenstellen, Teams, einzelne Personen), kombiniert mit einem Serienmuster (z. B. jeden Montag 8:00 bis 17:00 Uhr).
+
+![Index](_images/flexi-workplace/wpl-rules.png)
+
+*Bild 16: Regeln für die Reservierbarkeit definieren*
+
+Die Anwendung der Regeln können Sie ein- und ausschalten, indem Sie die Häkchen für die Felder "Erlaubt-Regeln anwenden?" und "Verbots-Regeln anwenden?" setzen oder herausnehmen.
+
+# Zuweisung von Verwaltern
+
+Die Reservierbarkeit bestimmter Arbeitsplätze können Sie auf eine Personengruppe einschränken, indem Sie Verwalter für diese Arbeitsplätze definieren und gleichzeitig das Häkchen in dem Feld "Reservierbar nur für Verwalter?" auf der Registerkarte `Reservierbarkeit` setzen.
+
+![Index](_images/flexi-workplace/wpl-only-admins.png)
+
+*Bild 17: Reservierbarkeit nur für eingeschränkte Personengruppe (Verwalter)*
+
+# Zugriffsrechte ändern
+
+Sie können die Zugriffrechte einer Arbeitsplatzeinheit als Admin kontrollieren. Wenn eine bestimmte Benutzerrolle (z. B. Jeder) keine Leserechte für den Datensatz besitzt, wird der Arbeitsplatz bei der Suche oder auf Tabellen- und Listen-Ansichten generell ausgeblendet. Die Bearbeitung der Zugriffsrechte können Sie auf der Registerkarte `Zugriff` aufrufen.
+
+![Index](_images/flexi-workplace/wpl-access.png)
+
+*Bild 18: Bearbeitung der Zugriffsrechte als Admin*
 
