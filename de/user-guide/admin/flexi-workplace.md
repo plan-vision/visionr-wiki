@@ -96,8 +96,23 @@ Wenn Sie sich im Modul Admin FlexiWorkplace befinden und den Menüeintrag `Arbei
 
 *Bild 9: Rechtsklick im Datenbereich zeigt Kontextmenü mit Eintrag `+ Neu`*
 
+> **Hinweis:** Neue Datensätze können entweder durch Rechtsklick im Datenbereich oder bei Klick auf das Datenmenü oben rechts unter der Personenikone und dann auf `+ Neu` erstellt werden. Zusätzlich besteht die Möglichkeit den Pluszeichen unten rechts im Datenbereich anzuklicken.
+
 ![Index](_images/flexi-workplace/new-dialog.png)
 
 *Bild 10: Dialog neue Arbeitsplatzeinheit*
+
+Bei der neu erstellten Arbeitsplatzeinheit müssen die Standortdaten eingegeben werden. Dazu muss ein Arbeitsplatz und ein Raum aus dem Flächenmanagement vorhanden sein.
+
+# Arbeitsplatzeinheit bearbeiten
+
+Wenn Sie die App "Admin FlexiWorkplace" öffnen müssen Sie im Hauptmenü (immer erreichbar über die drei Striche oben links neben dem Logo) den Eintrag `Arbeitsplatzeinheiten` anklicken. Rechts werden die Arbeitsplätze, die reserviert werden können in Listen- oder Tabellen-Ansicht angezeigt. Klicken Sie ein ein Arbeitsplatz an, um es auszuwählen. Dann machen Sie einen Rechtsklick mit der Maus, um das Kontextmenü anzeigen zu lassen. Im Kontextmenü gehen Sie auf `Bearbeiten`. Alternativ können Sie die drei Striche unter der Personenikone anklicken, um das Kontextmenü aufzumachen und den Button `Bearbeiten` aufzumachen.
+
+> **Hinweis:** Doppelklick auf den Arbeitsplatz in der Tabelle oder in der Liste ruft ein Dialog mit Details auf. Auf diesem Dialogfenster ist untern links ein Button `Bearbeiten` vorhanden, falls Sie die Zugriffsrechte für die Bearbeitung des jeweiligen Datensatzes besitzen.
+
+![Index](_images/flexi-workplace/list-right-click.png)
+
+*Bild 11: Rechtsklick bei markiertem Arbeitsplatz*
+
 
 

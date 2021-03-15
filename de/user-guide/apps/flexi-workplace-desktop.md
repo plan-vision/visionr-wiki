@@ -209,7 +209,7 @@ Der Arbeitsplatz muss mit einem QR- oder Barcode ausgestattet sein, um diese Fun
 
 ![Ergebnis Plan](_images/flexi-workplace-desktop/barcode-search-table.png)
 
-*Bild 21: QR-/Barcode vor Ort einscannen*
+*Bild 21: Arbeitsplatz in Pop-up auswählen*
 
 Die Suche im Plan können Sie im Feld "Arbeitsplatzeinheit" durch Anklicken des Menübuttons mit den drei Strichen am Ende des Eingabefeldes Aufrufen. Dort klicken Sie auf den Menüeintrag `Aus Zeichnung`. Dadurch öffnen Sie den Plan im Auswahlmodus.
 

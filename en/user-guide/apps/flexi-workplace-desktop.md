@@ -200,15 +200,15 @@ After you select multiple workplaces you will be able to make a group reservatio
 # Reserve with OR code / barcode
 Click on the button `Reserve with QR code / barcode` on the begin page in FlexiWorkplace. As an alternative you can use the main menu, which can be displayed clicking on the three lines beside the logo, if hidden. In the main menu use the button `QR code / barcode`. The mask for ad-hoc reservations will be displayed.
 
-![Result](_images/flexi-workplace-desktop/barcode-scan.png)
+![Result](_images/flexi-workplace-desktop/barcode-dropdown.png)
 
 *Image 20: Scan QR code / barcode to identify a workplace*
 
-To be able to use the scan feature, the workplace you are standing in front of must have a QR code or barcode sticker on it. In the desktop version or if a sticker is missing you can select the workplace in the dropdown or using the floor plan.
+To be able to use the scan feature, the workplace you are standing in front of must have a QR code or barcode sticker on it. In the desktop version or if a sticker is missing you can select the workplace in the dropdown or using the floor plan. You can select the workplace in an advanced select view, making use of search option like search field, hierarchy tree by location etc. You can switch between list and table view in the search popup using the button *"View type" > "Table"* in the context menu, which is reachable by clicking on the three lines in the top right corner. The search view pops up, when you double click the input for "Workplace unit".
 
-![Result](_images/flexi-workplace-desktop/barcode-dropdown.png)
+![Result](_images/flexi-workplace-desktop/barcode-search-table.png)
 
-*Image 21: Scan a QR code / barcode*
+*Image 21: Select workplace in a search popup*
 
 You can select a workplace in the floor plan using the menu button with the three lines at the right end of the input for "Workplace unit". This button pops up a menu, where an option `From drawing` is available. Click on this option and the floor plan pops up in select mode. Here you can select the preferred workplace and confirm by clicking on the tick button in the bottom right corner of the popup.
 
