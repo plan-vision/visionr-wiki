@@ -1,7 +1,7 @@
 <!-- TITLE: FlexiWorkplace-->
 <!-- SUBTITLE: FlexiWorkplace is a module for flexible workplace reservations -->
 
-<!-- ![Title page FlexiWorkplace](_images/_title/flexi-workplace-descktop.png) -->
+<!-- ![Title page FlexiWorkplace](_images/_title/flexi-workplace-desktop.png) -->
 
 # FlexiWorkplace - mobile
 
