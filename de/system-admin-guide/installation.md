@@ -1,8 +1,7 @@
 <!-- TITLE: Administratorenhandbuch -->
 <!-- SUBTITLE: Administrative Aufgaben im VisionR System -->
 
-Deutsch | [English](/en/system-admin-guide)
-*Sie sind hier: [Home](/home) > [Administratorenhandbuch](/de/system-admin-guide) > Installation*
+Deutsch | [English](../../en/system-admin-guide/installation) | *Sie sind hier: [Home](../../home) > [Administratorenhandbuch](system-admin-guide) > Installation*
 
 # Installation
 

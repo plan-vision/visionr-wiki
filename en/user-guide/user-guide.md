@@ -1,10 +1,9 @@
 <!-- TITLE: User guide -->
 <!-- SUBTITLE: Dokumentation of the VisionR modules -->
 
-[Deutsch](/de/user-guide) | English
-*You are here: [Home](/home-en) > User guide*
+[Deutsch](../../de/user-guide/user-guide) | English | *You are here: [Home](../../home-en) > User guide*
 # VisionR modules
-* **FlexiWorkplace** : App ( [Mobile](/en/user-guide/flexi-workplace-mobile) and [Desktop](/en/user-guide/flexi-workplace-desktop) ) | Admin
+* **FlexiWorkplace** : App ( [Mobile](apps/flexi-workplace-mobile) and [Desktop](apps/flexi-workplace-desktop) ) | Admin
 * Contacts
 * Documents
 * Graphics (Web-CAD)
@@ -15,7 +14,6 @@
 * Key management
 * Reservations
 * Rentals
-
 # System modules
 * User management
 * Reports

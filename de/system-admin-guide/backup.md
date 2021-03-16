@@ -1,8 +1,7 @@
 <!-- TITLE: Sicherungen-->
 <!-- SUBTITLE: Sicherungen der Datenbank und der Projektdateien im VisionR System -->
 
-Deutsch | [English](/en/system-admin-guide/backup)
-*Sie sind hier: [Home](/home) > [Administratorenhandbuch](/de/system-admin-guide) > Sicherungen*
+Deutsch | [English](../../en/system-admin-guide/backup) | *Sie sind hier: [Home](../../home) > [Administratorenhandbuch](system-admin-guide) > Sicherungen*
 
 # Sicherungen
 
