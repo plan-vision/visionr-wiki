@@ -200,3 +200,89 @@ Sie können die Zugriffrechte einer Arbeitsplatzeinheit als Admin kontrollieren.
 
 *Bild 22: Bearbeitung der Zugriffsrechte als Admin*
 
+# Verknüpfung im Geschossplan erstellen oder ändern
+
+## Vorbereitung der Zeichnung
+
+Bereiten Sie Ihre Zeichnung vor. Es müssen geregnete Layer und Layergruppen vorhanden sein, damit die Arbeitsplatzsuche in einer geeigneten Ansicht erfolgen kann.
+
+Folgende **Layer** werden Empfohlen als Teil der VisionR-Musterzeichnung:
+
+* *FM-Reservierungen-Arbeitsplatz*  : für Arbeitsplatzpolygone, meistens der Bürotisch
+* *FM-Reservierungen-Arbeitsplatz-Zusatz* : für Stühle und sonstige Zusatzelemente, die bei der Arbeitsplatzsuche nicht selektierbar sein sollen
+* *FM-Reservierungen-Arbeitsplatz-Symbol* : für die farbigen Punkte, die den Status der Einheiten zeigen
+
+Folgende **Layergruppen** sind empfohlen, als Teils des Standards:
+
+* *Arbeitsplatz suchen* : weiße Tische und Stühle, Punkte mit Status der Einheit
+* *Arbeitsplatzreservierung* : Einfärbung mit Hintergrundfarbe für Abteilungen und Randfarbe für Status
+
+![Index](_images/flexi-workplace/web-cad-prepare.png)
+
+*Bild 23:  Vorbereitung der Layer und Layergruppen im Web-CAD-Plan*
+
+## Arbeitsplatzeinheit zeichnen
+
+Für eine Anzeige der Arbeitsplatzeinheiten mit Punkten für den Status sind sowohl Polygone für Tisch und Stuhl, als auch Punkte mit dem Status als separate CAD-Objekte notwendig.
+
+Zeichnen Sie den Tischpolygon auf *FM-Reservierungen-Arbeitsplatz*, den Stuhlpolygon auf *FM-Reservierungen-Arbeitsplatz-Zusatz* und den Punkt auf *FM-Reservierungen-Arbeitsplatz-Symbol*.
+
+![Index](_images/flexi-workplace/web-cad-draw-desk-1.png)
+
+*Bild 24:  Zeichnen vom Bürotisch (1)*
+
+![Index](_images/flexi-workplace/web-cad-draw-desk-2.png)
+
+*Bild 25:  Zeichnen vom Bürotisch (2)*
+
+Beim Speichern der gezeichneten Objekten wird ein Dialog für Bestätigung angezeigt. In Diesem Dialog sollen Sie das Häkchen bei `Referenzen hinzufügen` abwählen, falls die Arbeitsplatzeinheit bereits alphanumerisch erstellt wurde. In diesem Fall wird der vorhandene alphanumerisch erstellte Datensatz im Nachhinein durch Bearbeitung des Feldes `Res.-Einheit` in der Geometrie ausgewählt. Wenn das Häkchen auf `Ja` steht, wird ein neuer Datensatz im Modul FlexiWorkplace unter `Arbeitsplatzeinheiten` erzeugt.
+
+> **Hinweis:** Beim Zeichnen werden die daten vom darunterliegenden Arbeitsplatz, Raum und Geschoss automatisch übernommen.
+
+![Index](_images/flexi-workplace/web-cad-draw-desk-save.png)
+
+*Bild 26:  Speichern nach Zeichnen vom Bürotisch*
+
+Für das Symbol mit dem Punkt, das den Arbeitsplatzstatus zeigt, ist die einfache Platzierung eines Punktes uns `Speichern` ausreichend. Die Farbe des Symbols wird automatisch bei alphanumerischer Änderung des Status des Datensatzes vom System selbst angepasst.
+
+![Index](_images/flexi-workplace/web-cad-draw-symbol.png)
+
+*Bild 27:  Zeichnen vom Symbol für den Status*
+
+## Arbeitsplatzeinheit bearbeiten
+
+![Index](_images/flexi-workplace/web-cad-edit.png)
+
+*Bild 28:  Bearbeiten vom Polygon bzw. Symbol*
+
+## Arbeitsplatzeinheit löschen
+
+Beim Löschen von Tischpolygonen oder Arbeitsplatzeinheiten-Symbole im Plan wird der alphanumerische Datensatz im Modul FlexiWorkplace beeinflusst. Falls abhängige Daten vom Löschen betroffen sind, wie z. B. bereits vorhandene Reservierungen oder Statusänderungen ist das Häkchen bei `Referenzen entfernen` automatisch inaktiv. Falls keine Abhängigkeiten bestehen, können Sie entscheiden, ob der Datensatz für die Einheit mit gelöscht wird oder bestehen bleiben soll.
+
+![Index](_images/flexi-workplace/web-cad-delete.png)
+
+*Bild 29:  Löschen vom Polygon bzw. Symbol*
+
+# Hochladen und Entfernen von Bildern
+
+Öffnen Sie eine Arbeitsplatzeinheit entweder in der Detailansicht oder im Bearbeitungsmodus. Gehen Sie auf den Button `Hochladen` ![Upload](_images/common/button-upload-22.png). Im Popup können Sie entweder Dateien per Drag&Drop platzieren oder auf den Button `+ Hinzufügen` klicken und anschließend eine der Optionen wählen. Auf mobilen Geräten kann die Kamera für Direktaufnahmen genutzt werden. Nach dem Hochladen eines oder mehrerer Bilder werden diese mit der Arbeitsplatz automatisch verknüpft und werden immer in der Detailansicht als Bildgalerie neben dem Zeichnungsausschnitt angezeigt.
+
+> **Hinweis:** Wählen Sie einen geeigneten Speicherplatz für die hochgeladenen Dateien durch Eingabe im Feld `Ordner`. Die Ordnerstruktur auf dem Server rufen Sie auf, indem Sie auf das Feld doppelklicken.
+
+![Index](_images/flexi-workplace/upload.png)
+
+*Bild 30:  Hochladen von Bildern oder andere Dateien (z. B. PDF)*
+
+# Auswertungen
+
+Um Berichte aufzurufen, müssen Sie in der Regel die Daten auswählen, die im jeweiligen Bericht ausgewertet werden sollen. Gehen Sie auf den Eintrag `Arbeitsplatzeinheiten` im Hauptmenü. Wählen Sie einen Datenbereich mit den Daten, die Sie benötigen, aus. Das können Sie entweder in der Tabellen- oder in der Listen-Ansicht machen. Anschließend können Sie einen Bericht aufrufen, indem Sie über den Button `Ausführen` anklicken. Hier können Sie den Menüeintrag mit dem gewünschten Bericht auswählen und anklicken: *"Bericht" > "[Berichtname]"*.
+
+![Index](_images/flexi-workplace/report.png)
+
+*Bild 31:  Bericht aufrufen*
+
+Sie können Daten jederzeit als MS Excel, CSV, XML oder PDF exportieren. Wählen Sie den gewünschten Datenbereich aus und gehen Sie dann über den Button `Ausführen` auf den Menüeintrag *"Export" > "XSLX"*.
+
+![Index](_images/flexi-workplace/report.png)
+
+*Bild 32:  Daten exportieren (z. B. als XLSX)*
