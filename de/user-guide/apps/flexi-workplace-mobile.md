@@ -20,7 +20,7 @@ Features im Überblick:
 * **Einzelplatz reservieren:** Hier können Sie sich einen einzelnen Arbeitsplatz grafisch aussuchen und reservieren.
 * **Mehrere Arbeitsplätze reservieren:** Hier können Sie sich mehrere Arbeitsplatze grafisch aussuchen und zur gleichen Zeit reservieren, z. B. für Teamarbeit in einem gemeinsamen Projekt.
 * **Tabellenansicht mit Reservierungen:** Hier können Sie Reservierungen in einer Tabellenansicht anzeigen, durchsuchen und filtern. Die Daten können nach MS Excel exportiert werden.
-* **Kalender mit Reservierungen:** Hier können Sie alle verfügbaren Arbeitsplätze in einer Zeitachse sehen. Die bereits getätigten Reservierungen werden angezeigt. Sie können neue Reservierungen in der Zeitachse erstellen.
+* **Kalender mit Reservierungen:** Hier können Sie alle verfügbaren Arbeitsplätze in einer Zeitachse sehen. Die bereits getätigten Reservierungen werden angezeigt. Sie können neue Reservierungen in der Zeitachse erstellen. Reservierungen können in Gruppen entweder nach Arbeitsplatz oder nach Person angezeigt werden.
 
 ## Einstieg
 
@@ -239,7 +239,7 @@ Die Liste mit den eigenen Reservierungen können Sie zusätzlich filtern, indem 
 
 *Bild 26: Filter der Liste eigener Reservierungen*
 
-Die Einträge in der Liste eigener Reservierungen können Sie durch Doppelklick auf den Eintrag oder durch anklicken des Buttons ![Button Bearbeiten](_images/common/button-edit-22.png) bearbeiten. Durch anklicken des Buttons ![Button Storno](_images/common/button-cancel-22.png) wird die Reservierung auf den Status *"storniert"* gesetzt und aus der Liste entfernt. Dadurch wird der Arbeitsplatz für andere für die angegebene Zeit wieder reservierbar.
+Die Einträge in der Liste eigener Reservierungen können Sie durch Doppelklick auf den Eintrag oder durch Anklicken des Buttons ![Button Bearbeiten](_images/common/button-edit-22.png) bearbeiten. Durch Anklicken des Buttons ![Button Storno](_images/common/button-cancel-22.png) wird die Reservierung auf den Status *"storniert"* gesetzt und aus der Liste entfernt. Dadurch wird der Arbeitsplatz für andere für die angegebene Zeit wieder reservierbar.
 
 # Liste aller Reservierungen
 
@@ -257,7 +257,7 @@ Die Liste aller Reservierungen können Sie zusätzlich filtern, indem Sie das Ha
 
 # Kalender-Ansicht
 
-Sie können zwei zur Verfügung stehenden Kalender Ansichten nutzen. Beide werden in Form einer zoombaren Zeitachse dargestellt. Zoomen können Sie bei mobilen Geräten mit den Fingern oder auf dem Desktop mit der Maus-Scroll-Taste. Die Reservierungen werden in Blöcken untereinander dargestellt. Die Zeitachse verläuft von links nach rechts. Die erste Kalender-Übersicht gruppiert die Termine nach Arbeitsplatz, die zweite nach Person. In beiden Ansichten können Sie für einen Arbeitsplatz oder für eine Person neue Reservierung erstellen, indem Sie mit der Maus die gewünschte Uhrzeit am gewünschten Tag anklicken und anschließend auf den Button `Reservieren` im kleinen Pop-up gehen.
+Sie können zwei zur Verfügung stehende Kalender Ansichten nutzen. Beide werden in Form einer zoombaren Zeitachse dargestellt. Zoomen können Sie bei mobilen Geräten mit den Fingern oder auf dem Desktop mit der Maus-Scroll-Taste. Die Reservierungen werden in Blöcken untereinander dargestellt. Die Zeitachse verläuft von links nach rechts. Die erste Kalender-Übersicht gruppiert die Termine nach Arbeitsplatz, die zweite nach Person. In beiden Ansichten können Sie für einen Arbeitsplatz oder für eine Person neue Reservierung erstellen, indem Sie mit der Maus die gewünschte Uhrzeit am gewünschten Tag anklicken und anschließend auf den Button `Reservieren` im kleinen Pop-up gehen.
 
 ## Zeitachse nach Arbeitsplatz
 
