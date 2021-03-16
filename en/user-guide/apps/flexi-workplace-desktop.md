@@ -3,7 +3,7 @@
 
 <!-- ![Title page FlexiWorkplace](_images/_title/flexi-workplace-desktop.png) -->
 
-# FlexiWorkplace - mobile
+# FlexiWorkplace - desktop
 
 ## General
 

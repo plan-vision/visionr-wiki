@@ -3,7 +3,7 @@
 
 <!-- ![Titelseite FlexiWorkplace](_images/_title/flexi-workplace.png) -->
 
-# FlexiWorkplace Admin
+# FlexiWorkplace - Admin
 
 ## Allgemein
 
