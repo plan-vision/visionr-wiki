@@ -13,14 +13,14 @@ Die vorliegende Dokumentation ist an die Verwalter der Arbeitsplätze bei Arbeit
 
 Die Reservierung von Arbeitsplätzen hängt mit der allgemeinen Verwaltungsstrategie der Arbeitsplatzflächen in Ihrem Unternehmen zusammen. Themen wie Arbeitsplatzbelegung, Umzüge, Umbau usw. sind mit der Freigabe und Rücknahme von Reservierungsrechten eng verbunden. Die Planung und Durchführung von Umzügen werden vom VisionR-Modul [Umzüge](/de/user-guide/admin/moves) unterstützt. 
 
-Generell ist in der VisionR Datenbank zwischen Arbeitsplätze und Arbeitsplatzreservierungseinheiten zu unterscheiden. Arbeitsplätze werden als Flächen im Raum im Modul [Flächenmanagement](/de/user-guide/admin/spaces) verwaltet. Die Arbeitsplatzeinheiten werden im Modul FlexiWorkplace verwaltet und reserviert. Die Arbeitsplatzeinheiten können mehrere Arbeitsplätze enthalten.
+Generell ist in der VisionR Datenbank zwischen Arbeitsplätzen und Arbeitsplatzreservierungseinheiten zu unterscheiden. Arbeitsplätze werden als Flächen im Raum im Modul [Flächenmanagement](/de/user-guide/admin/spaces) verwaltet. Die Arbeitsplatzeinheiten werden im Modul FlexiWorkplace verwaltet und reserviert. Die Arbeitsplatzeinheiten können mehrere Arbeitsplätze umfassen. Umgekehrt kann ein Arbeitsplatz in mehreren Einheiten aufgeteilt werden.
 
-Bei der Verwaltung der Arbeitsplätze, die zur Reservierung gestellt werden werden folgende Funktionalitäten angeboten:
+Bei der Verwaltung der Arbeitsplätze, die zur Reservierung freigegeben werden, werden folgende Funktionalitäten angeboten:
 
 * **Erstellung** von neuen Arbeitsplatzeinheiten
 * **Bearbeitung** der Eigenschaften von Arbeitsplatzeinheiten
 * **Löschen** oder deaktivieren von Arbeitsplatzeinheiten
-* **Reservierbarkeit** der Arbeitsplätze verwalten
+* **Reservierbarkeit** der Arbeitsplatzeinheiten verwalten
 * Definition von Erlaubt- und Verbots-**Regeln** für die Reservierbarkeit
 * Zuweisung von **Verwaltern** mit speziellen Rechten für bestimmte Arbeitsplätze
 * **Zugriffsrechte** für die Arbeitsplatzeinheiten definieren und ändern
@@ -41,13 +41,13 @@ Bei Nutzung des Browsers auf dem Desktopcomputer können die normalen Benutzer d
 
 ## Bedienung allgemein
 
-Der Button mit den drei Strichen ![Menü-Button](_images/common/button-menu-22.png) oben links öffnet das Modul-Menü. Das Menü ist auf mobilen Geräten ist aus Platzgründen automatisch versteckt. In der Desktopversion ist das Menü automatisch aufgeklappt. Abwechselndes Klicken auf den`Menü`-Button zeigt oder verbirgt das Menü, je nachdem welcher der aktuelle Status ist. Der `Menü`-Button ist auf allen Masken verfügbar. Dur Klick auf einen Menüeintrag in der Liste öffnen Sie die entsprechende Maske mit den in diesem Dokument beschriebenen Funktionalitäten. Der Name der aktiven Maske wird in orangener Farbe hervorgehoben.
+Der Button mit den drei Strichen ![Menü-Button](_images/common/button-menu-22.png) oben links öffnet das Hauptmenü. Das Menü ist auf mobilen Geräten aus Platzgründen automatisch versteckt. In der Desktopversion ist das Menü automatisch aufgeklappt. Abwechselndes Klicken auf den `Menü`-Button zeigt oder verbirgt das Menü, je nachdem welcher der aktuelle Status ist. Der `Menü`-Button ist auf allen Masken verfügbar. Durch Klick auf einen Menüeintrag in der Liste öffnen Sie die entsprechende Maske mit den in diesem Dokument beschriebenen Funktionalitäten. Der Name der aktiven Maske wird in orangener Farbe hervorgehoben.
 
 Ein Klick auf die Ikone ![Logo](_images/common/visionr-logo-22.png) neben den drei Strichen oben Links führt zur VisionR-Indexseite. Wenn Sie das Modul FlexiWorkplace verlassen und zur Indexseite springen möchten, müssen Sie auf den Button mit dem Häkchen zur Bestätigen klicken. Bei Abbrechen bleiben Sie auf der aktuellen Maske.
 
-Bei Klick auf den `Home`-Button ganz unten links wird ein Menu mit den vorhandenen Apps angezeigt. Dieser Button ist nur in der Desktop App sichtbar. Mobil muss der Klick auf das Logo oben links verwendet werden. Bei Klick auf einen Menüeintrag werden Sie zur gewünschten App umgeleitet. Vorher muss das Verlassen der aktuellen App bestätigt werden.
+Bei Klick auf den `Home`-Button ganz unten links wird ein Menü mit den vorhandenen Apps angezeigt. Dieser Button ist nur in der Desktop App sichtbar. Mobil muss der Klick auf das Logo oben links verwendet werden. Bei Klick auf einen Menüeintrag werden Sie zur gewünschten App umgeleitet. Vorher muss das Verlassen der aktuellen App bestätigt werden.
 
-Die anfängliche Ansicht für die Arbeitsplatzeinheiten ist eine Liste. Wenn Sie mehrere Datenspalten sehen möchten oder Mehrfachmarkierungen und Sortierungen vornehmen möchten, ist die Tabellensicht dafür geeigneter. Zur Tabellenansicht gelangen Sie wenn Sie das die drei Striche rechts unterhalb der Benutzerikone anklicken. Dabei wird das Menü für die Objektansicht angezeigt. Diese Menü bezieht sich auf die Inhalte des  gerade betrachteten Datenbankobjekts (in diesem Fall Arbeitsplatzeinheit). Bei anderen Datenansichten (Catering, Inventar usw.) ist der Menü-Button oben rechts ebenfalls vorhanden.
+Standardmäßig werden die `Arbeitsplatzeinheiten` in Listen-Ansicht angezeigt. Wenn Sie mehrere Datenspalten sehen möchten oder Mehrfachmarkierungen und Sortierungen vornehmen möchten, ist die Tabellensicht dafür geeigneter. Zur Tabellenansicht gelangen Sie, indem Sie die drei Striche rechts unterhalb der Benutzerikone anklicken. Dabei wird das Menü für die Objektansicht angezeigt. Dieses Menü bezieht sich auf die Inhalte des  gerade betrachteten Datenobjektes (in diesem Fall Arbeitsplatzeinheit). Bei anderen Datenobjektansichten (Catering, Inventar usw.) ist der Objektmenü-Button oben rechts ebenfalls vorhanden.
 
 ![Index](_images/flexi-workplace/switch-view-table.png)
 
@@ -57,28 +57,28 @@ Die anfängliche Ansicht für die Arbeitsplatzeinheiten ist eine Liste. Wenn Sie
 
 *Bild 3: Beispiel Tabellenansicht*
 
-In diesem Beispiel einer Tabellenansicht eines Datenobjekts sind die Hauptbereiche der Applikation zu erkennen:
+Im Beispiel mit der Tabellenansicht sind folgende Hauptbereiche der Applikation zu erkennen:
 
-* **Hauptmenü:** Auf der linken Seite ist das beschriebene Hauptmenü, welches über die drei Striche neben dem Logo ein- und ausschalten lässt. 
-* **Baumansicht:** Rechts daneben folgt die Baumansicht. In der Baumansicht können die Daten der Hauptansicht auf der Rechten Seite (Tabelle, Liste, Kacheln,..) hierarchisch angezeigt und schnell gefiltert werden. Die Baumansicht kann mehrere Hierarchien enthalten. Eine Liste der vorhandenen Hierarchien ist bei Klick auf den Textfeld über den Button `Alles` zu sehen. Im unteren Bereich der Baumansicht gibt es drei Buttons die ein- und ausgeschaltet werden können:
-  + **`Rekursiv`** - bei `an` werden alle in den Unterordnern enthaltenen Datensätze links in der Tabelle angezeigt
-  + **`Filter`** - bei `an` werden die Baumstrukturelemente (Ordner) ausgeblendet, falls keine Daten darin einhalten sind
-  + **`Umkehren`** - bei `an` werden 
-* **Datenbereich:** Rechts von der Baumansicht befindet sich die Datenansicht, die in Form von Tabelle, Liste, Kacheln, Geometrie usw. dargestellt werden kann. Ein Kontextmenü für die Daten mit allen vorhandenen Optionen (wie z. B. Neu, Bearbeiten, Löschen, Hierarchie, Einfärbung etc.) ist bei Klick auf die drei Striche unter der Benutzerikone oben rechts aufrufbar. Alternativ kann das Kontextmenü für die Daten im Tabellenbereich mit Rechtsklick aufgerufen werden (siehe Bilder unten).
-* **Suchfeld:** Über dem Datenbereich befindet sich eine Lupe rechts oben, die bei Klick eine Suchleiste anzeigt. Diese Leiste kann für schnelle Datensuche auf vordefinierte Spalten genutzt werden. Weitere Optionen für die Suche, wie z. B. Suche nach bestimmten Spalte, Datengruppierungen usw., sind in den drei Punkten auf der rechten Seite des Suchfeldes enthalten.
-* **Tabellenüberschriften** Die Tabellenüberschriften können für Datensortierung genutzt werden. Bei erstem Klick auf die Überschrift einer Spalte werden die Daten aufsteigend und bei erneutem Klick absteigend sortiert. Zwischen den Spaltennamen können Die Spaltenbreiten dynamisch mit der Maus angepasst werden. Der Rechtsklick auf die Überschriften zeigt ein Menü mit Optionen für die Tabelle und für die angeklickte Spalte. Eine Gruppenfunktion kann an dieser Stelle genutzt werden.
+* **Hauptmenü:** Auf der linken Seite befindet sich das Hauptmenü, das über die drei Striche neben dem Logo ein- und ausschalten werden kann. 
+* **Baumansicht:** Rechts vom Hauptmenü befindet sich eine Baumansicht. In der Baumansicht können die Daten der Hauptansicht rechts daneben (Tabelle, Liste, Kacheln usw.) hierarchisch angezeigt und schnell gefiltert werden. Die Baumansicht kann mehrere Hierarchien enthalten. Eine Liste der vorhandenen Hierarchien ist bei Klick auf den Textfeld über den Button `Alles` zu sehen. Im unteren Bereich der Baumansicht gibt es drei Buttons, die ein- und ausgeschaltet werden können:
+  + **`Rekursiv`** - bei `an` werden alle in den Unterordnern enthaltenen Datensätze links in der Tabelle angezeigt.
+  + **`Filter`** - bei `an` werden die Baumstrukturelemente (Ordner) ausgeblendet, falls keine Daten darin einhalten sind.
+  + **`Umkehren`** - bei `an` werden werden alle Datensätze in der Tabelle angezeigt, die nicht dem ausgewählten Ordner zuzuordnen sind.
+* **Datenbereich:** Rechts von der Baumansicht befindet sich die Datenansicht, die in Form von Tabelle, Liste, Kacheln, Geometrie usw. dargestellt werden kann. Ein Kontextmenü für die Daten mit allen vorhandenen Optionen (wie z. B. Neu, Bearbeiten, Löschen, Hierarchie, Einfärbung usw.) ist bei Klick auf die drei Striche unter der Benutzerikone oben rechts aufrufbar. Alternativ kann das Kontextmenü für die Daten im Tabellenbereich mit Rechtsklick aufgerufen werden (siehe Bilder unten).
+* **Suchfeld:** Über dem Datenbereich befindet sich eine Lupe rechts oben, die bei Klick eine Suchleiste anzeigen lässt. Diese Leiste kann für schnelle Datensuche auf vordefinierte Spalten genutzt werden. Weitere Optionen für die Suche, wie z. B. Suche nach bestimmten Spalten, Datengruppierungen usw., sind in den drei Punkten auf der rechten Seite des Suchfeldes enthalten.
+* **Tabellenüberschriften** Die Tabellenüberschriften können für schnelle Datensortierung genutzt werden. Bei erstem Klick auf die Überschrift einer Spalte werden die Daten aufsteigend und bei erneutem Klick absteigend sortiert. Zwischen den Spaltennamen können Die Spaltenbreiten dynamisch mit der Maus nach links oder rechts angepasst werden. Ein Rechtsklick auf die Überschriften zeigt ein Menü mit Optionen für die Tabelle insgesamt und für die gerade angeklickte Spalte. Eine nützliche Gruppierungsfunktion kann an dieser Stelle ein- und ausgeschaltet werden.
 
 ![Index](_images/flexi-workplace/view-table-menu.png)
 
-*Bild 4: Kontextmenü für die Daten über die drei Striche - 1. Aufrufmöglichkeit*
+*Bild 4: Daten-Kontextmenü über die drei Striche oben rechts - 1. Aufrufmöglichkeit*
 
 ![Index](_images/flexi-workplace/view-table-menu-right-click.png)
 
-*Bild 5: Kontextmenü für die Daten über Rechtsklick im Datenbereich - 2. Aufrufmöglichkeit*
+*Bild 5: Daten-Kontextmenü mit Rechtsklick im Datenbereich - 2. Aufrufmöglichkeit*
 
 ![Index](_images/flexi-workplace/search-field.png)
 
-*Bild 6: Suchfeld oberhalb der Tabelle/Liste/Kacheln*
+*Bild 6: Suchfeld über der Datenansicht (Tabelle/Liste/Kacheln)*
 
 ![Index](_images/flexi-workplace/search-field.png)
 
@@ -92,7 +92,7 @@ In diesem Beispiel einer Tabellenansicht eines Datenobjekts sind die Hauptbereic
 
 ## Alphanumerisch
 
-Wenn Sie sich im Modul Admin FlexiWorkplace befinden und den Menüeintrag `Arbeitsplatzeinheiten` vom Hauptmenü ausgewählt haben, können Sie entweder auf die drei Striche oben rechts unter dem Benutzerlogo oder mit rechter Maustaste im Datenbereich das Kontextmenü für die Tabelle oder Liste aufrufen.  Im Kontextmenü müssen Sie den Eintrag `+ Neu` anklicken. Dabei wird ein Dialog für einen neuen Datensatz aufgemacht, wo Sie die Daten für die neu zu erstellende Arbeitsplatzeinheit eingeben können.
+Wenn Sie sich im Modul *Admin FlexiWorkplace* befinden und den Menüeintrag `Arbeitsplatzeinheiten` vom Hauptmenü ausgewählt haben, können Sie die drei Striche oben rechts unter dem Benutzerlogo anklicken, um das Daten-Kontextmenü aufzurufen. Alternativ können Sie einen Maus-Rechtsklick im Datenbereich mit der Tabelle oder Liste nutzen.  Im Kontextmenü klicken Sie die Menüoption `+ Neu` an. Dabei wird ein Dialog für einen neuen Datensatz geöffnet, in dem Sie die Daten für die neu zu erstellende Arbeitsplatzeinheit eingeben können.
 
 ![Index](_images/flexi-workplace/new-in-list.png)
 
@@ -106,19 +106,19 @@ Wenn Sie sich im Modul Admin FlexiWorkplace befinden und den Menüeintrag `Arbei
 
 Bei der neu erstellten Arbeitsplatzeinheit müssen die Standortdaten eingegeben werden. Dazu muss ein Arbeitsplatz und ein Raum aus dem Flächenmanagement vorhanden sein.
 
-> **Hinweis:** Die Angabe von Arbeitsplatz, Raum, Geschoss, Gebäude und Liegenschaft ist wichtig, da sonst die Arbeitsplatzplatzeinheit nicht üner die Standort-Baumstruktur gefiltert und angezeigt werden kann.
+> **Hinweis:** Die Angaben in den Feldern für Arbeitsplatz, Raum, Geschoss, Gebäude und Liegenschaft sind wichtig für die Suche. Wenn diese Angaben fehlen, kann die Arbeitsplatzplatzeinheit nicht über die Standort-Baumstruktur aufgefunden, gefiltert oder angezeigt werden.
 
-Beim Anlegen einer neuen Arbeitsplatzeinheit ist diese für die normalen Benutzer noch nicht reservierbar. Um die Reservierbarkeit inklusive Regeln zu definieren lesen Sie die Dokumentation im Abschnitt "Reservierbarkeit der Arbeitsplätze verwalten".
+Beim Anlegen einer neuen Arbeitsplatzeinheit ist diese für die normalen Benutzer noch nicht reservierbar. Um die Reservierbarkeit inklusive Regeln zu definieren, lesen Sie die Dokumentation im Abschnitt *"Reservierbarkeit der Arbeitsplatzeinheiten verwalten"*.
 
 # Arbeitsplatzeinheit bearbeiten
 
-Wenn Sie die App "Admin FlexiWorkplace" öffnen müssen Sie im Hauptmenü (immer erreichbar über die drei Striche oben links neben dem Logo) den Eintrag `Arbeitsplatzeinheiten` anklicken. Rechts werden die Arbeitsplätze, die reserviert werden können, in Listen- oder Tabellen-Ansicht angezeigt. Klicken Sie ein ein Arbeitsplatz an, um es auszuwählen. Dann machen Sie einen Rechtsklick mit der Maus, um das Kontextmenü anzeigen zu lassen. Im Kontextmenü gehen Sie auf `Bearbeiten`. Alternativ können Sie die drei Striche unter der Personenikone anklicken, um das Kontextmenü aufzumachen und den Button `Bearbeiten` aufzumachen.
+Wenn Sie die App "Admin FlexiWorkplace" öffnen, müssen Sie im Hauptmenü (immer erreichbar über die drei Striche oben links neben dem Logo) den Eintrag `Arbeitsplatzeinheiten` anklicken. Rechts werden die Arbeitsplätze, die reserviert werden können, in Listen- oder Tabellen-Ansicht angezeigt. Klicken Sie einen Arbeitsplatz an, um ihn auszuwählen. Danach lassen Sie mit Maus-Rechtsklick das Kontextmenü anzeigen. Alternativ können Sie die drei Striche unter der Personenikone anklicken, um das Kontextmenü aufzumachen. Im Kontextmenü klicken Sie auf den Button `Bearbeiten`.
 
 ![Index](_images/flexi-workplace/list-right-click.png)
 
 *Bild 11: Rechtsklick bei markiertem Arbeitsplatz*
 
-Doppelklick auf den Arbeitsplatz in der Tabelle oder in der Liste ruft ein Dialog mit Details auf. Auf diesem Dialogfenster ist untern links ein Button `Bearbeiten` vorhanden, falls Sie die Zugriffsrechte für die Bearbeitung des ausgewählten Datensatzes besitzen.
+Doppelklick auf den Arbeitsplatz in der Tabelle oder in der Liste ruft ein Dialog mit Details auf. Auf diesem Dialogfenster ist untern links der Button `Bearbeiten` vorhanden, falls Sie die Zugriffsrechte für die Bearbeitung des ausgewählten Datensatzes besitzen.
 
 ![Index](_images/flexi-workplace/wpl-details.png)
 
@@ -134,15 +134,15 @@ Im Bearbeitungsmodus werden nur die wichtigsten Eingabefelder angezeigt. Falls S
 
 # Arbeitsplatzeinheit löschen
 
-Eine Arbeitsplatzeinheit können Sie im Bearbeitungsmodus löschen. Es können nur Arbeitsplatzeinheiten gelöscht werden, die noch keine Reservierungen haben. Eine Datenkonsistenzprüfung verhindert das Löschen, falls abhängige Daten bereits vorhanden sind.
+Eine Arbeitsplatzeinheit können Sie im Bearbeitungsmodus löschen. Es können nur Arbeitsplatzeinheiten gelöscht werden, die noch keine Reservierungen enthalten. Eine Datenkonsistenzprüfung verhindert das Löschen, falls abhängige Daten bereits vorhanden sind.
 
-Öffnen Sie den Arbeitsplatz mit rechter Maustaste auf den Button `Bearbeiten`. Im Dialogmenü oben rechts auf die drei Striche klicken. Hier ist der Menüeintrag `Löschen` vorhanden, falls Sie die notwendigen Zugriffsrechte besitzen.
+Öffnen Sie den Arbeitsplatz mit Maus-Rechtsklick auf den Button `Bearbeiten`. Danach öffnen Sie das Dialogmenü mit Klick auf die drei Striche oben rechts. Hier ist der Menüeintrag `Löschen` vorhanden, allerdings nur wenn Sie die notwendigen Zugriffsrechte besitzen.
 
 ![Index](_images/flexi-workplace/wpl-delete.png)
 
 *Bild 14: Löschen im Bearbeitungs- oder Admin-Modus*
 
-# Reservierbarkeit der Arbeitsplätze verwalten
+# Reservierbarkeit verwalten
 
 Um einen Arbeitsplatz nach Neuerstellung reservierbar zu machen, müssen Sie die Reservierbarkeit ändern. Standardmäßig sind neue Arbeitsplätze noch nicht reservierbar. Um die Reservierbarkeit zu definieren müssen Sie den Arbeitsplatz im Bearbeitungsmodus öffnen und auf die Registerkarte `Reservierbarkeit` klicken. Sie müssen im Eingabefeld "Reservierbar?" das Häkchen setzen.
 
@@ -152,7 +152,7 @@ Um einen Arbeitsplatz nach Neuerstellung reservierbar zu machen, müssen Sie die
 
 # Definition von Regeln für die Reservierbarkeit
 
-Sie können Regeln für die Reservierbarkeit der Arbeitsplatzeinheiten definieren. Dazu gehen Sie auf die Registerkarte `Regeln`. Die Regeln können Erlaubt- oder Verbots-Regeln sein. Die Regeln basieren auf Angaben über die Nutzergruppen (Unternehmen, Abteilungen, Kostenstellen, Teams, einzelne Personen), kombiniert mit einem Serienmuster (z. B. jeden Montag 8:00 bis 17:00 Uhr).
+Sie können Regeln für die Reservierbarkeit der Arbeitsplatzeinheiten definieren. Dazu gehen Sie auf die Registerkarte `Regeln`. Die Regeln können *Erlaubt-* oder *Verbots-*Regeln sein. Die Regeln basieren auf Angaben über die Nutzergruppen (Unternehmen, Abteilungen, Kostenstellen, Teams, einzelne Personen), kombiniert mit einem Serienmuster (z. B. jeden Montag 8:00 bis 17:00 Uhr).
 
 ![Index](_images/flexi-workplace/wpl-rules.png)
 
@@ -166,19 +166,19 @@ Sie können bereits definierte Regeln wiederverwenden. Um eine Regel auszuwähle
 
 *Bild 17: Eine Regel aus Liste hinzufügen*
 
-Fall Sie eine neue Regel brauchen, die noch nicht definiert ist, können Sie diese erstellen, indem Sie auf den `+ Neu`-Button im Kontextmenü auf die drei Striche oben rechts klicken.
+Fall Sie eine neue Regel brauchen, die noch nicht definiert ist, können Sie diese erstellen, indem Sie auf den `+ Neu`-Button im Kontextmenü auf die drei Striche oben rechts im *Auswahl*-Dialog klicken.
 
 ![Index](_images/flexi-workplace/rule-new.png)
 
 *Bild 18: Neue Regel in der Liste erstellen*
 
-In der neuen Regel können Sie betroffene Personengruppe definieren: Unternehmen, Abteilung, Kostenstelle, Team und/oder Einzelpersonen.
+In der neu erstellten Regel können Sie betroffene Personengruppen definieren: Unternehmen, Abteilung, Kostenstelle, Teams und/oder Einzelpersonen.
 
 ![Index](_images/flexi-workplace/rule-edit.png)
 
 *Bild 19: Neue Regel bearbeiten*
 
-Im Feld "Serienmuster" können Sie entweder eine bereits bestehende Regel auswählen oder eine ganz neue definieren. Bei der Definition neuer Serienmuster müssen Sie die Laufzeit der Regel beachten, die durch die Angaben in den Feldern "Anfangsdatum" und "Wiederholen bis" kontrolliert wird.
+Im Feld "Serienmuster" können Sie entweder ein bereits bestehendes Muster auswählen oder ein neues definieren. Bei der Definition neuer Serienmuster müssen Sie die Laufzeit der Regel beachten, die durch die Angaben in den Feldern "Anfangsdatum" und "Wiederholen bis" kontrolliert wird.
 
 ![Index](_images/flexi-workplace/rule-template.png)
 
@@ -186,7 +186,7 @@ Im Feld "Serienmuster" können Sie entweder eine bereits bestehende Regel auswä
 
 # Zuweisung von Verwaltern
 
-Die Reservierbarkeit bestimmter Arbeitsplätze können Sie auf eine Personengruppe einschränken, indem Sie Verwalter für diese Arbeitsplätze definieren und gleichzeitig das Häkchen in dem Feld "Reservierbar nur für Verwalter?" auf der Registerkarte `Reservierbarkeit` setzen.
+Die Reservierbarkeit bestimmter Arbeitsplätze können Sie auf einen engen Personenkreis einschränken, indem Sie Verwalter für diese Arbeitsplätze definieren und gleichzeitig das Häkchen in dem Feld "Reservierbar nur für Verwalter?" auf der Registerkarte `Reservierbarkeit` setzen.
 
 ![Index](_images/flexi-workplace/wpl-only-admins.png)
 
@@ -212,7 +212,7 @@ Folgende **Layer** werden Empfohlen als Teil der VisionR-Musterzeichnung:
 * *FM-Reservierungen-Arbeitsplatz-Zusatz* : für Stühle und sonstige Zusatzelemente, die bei der Arbeitsplatzsuche nicht selektierbar sein sollen
 * *FM-Reservierungen-Arbeitsplatz-Symbol* : für die farbigen Punkte, die den Status der Einheiten zeigen
 
-Folgende **Layergruppen** sind empfohlen, als Teils des Standards:
+Folgende **Layergruppen** sind empfohlen, als Teil des Standards:
 
 * *Arbeitsplatz suchen* : weiße Tische und Stühle, Punkte mit Status der Einheit
 * *Arbeitsplatzreservierung* : Einfärbung mit Hintergrundfarbe für Abteilungen und Randfarbe für Status
@@ -223,7 +223,7 @@ Folgende **Layergruppen** sind empfohlen, als Teils des Standards:
 
 ## Arbeitsplatzeinheit zeichnen
 
-Für eine Anzeige der Arbeitsplatzeinheiten mit Punkten für den Status sind sowohl Polygone für Tisch und Stuhl, als auch Punkte mit dem Status als separate CAD-Objekte notwendig.
+Für eine Anzeige der Arbeitsplatzeinheiten mit Status-Punkten sind sowohl Polygone für Tisch und Stuhl, als auch Punkte mit dem Status als separate CAD-Objekte notwendig.
 
 Zeichnen Sie den Tischpolygon auf *FM-Reservierungen-Arbeitsplatz*, den Stuhlpolygon auf *FM-Reservierungen-Arbeitsplatz-Zusatz* und den Punkt auf *FM-Reservierungen-Arbeitsplatz-Symbol*.
 
@@ -235,15 +235,15 @@ Zeichnen Sie den Tischpolygon auf *FM-Reservierungen-Arbeitsplatz*, den Stuhlpol
 
 *Bild 25:  Zeichnen vom Bürotisch (2)*
 
-Beim Speichern der gezeichneten Objekten wird ein Dialog für Bestätigung angezeigt. In Diesem Dialog sollen Sie das Häkchen bei `Referenzen hinzufügen` abwählen, falls die Arbeitsplatzeinheit bereits alphanumerisch erstellt wurde. In diesem Fall wird der vorhandene alphanumerisch erstellte Datensatz im Nachhinein durch Bearbeitung des Feldes `Res.-Einheit` in der Geometrie ausgewählt. Wenn das Häkchen auf `Ja` steht, wird ein neuer Datensatz im Modul FlexiWorkplace unter `Arbeitsplatzeinheiten` erzeugt.
+Beim Speichern der gezeichneten Objekte wird ein Bestätigungs-Dialog angezeigt. In Diesem Dialog sollen Sie das Häkchen bei `Referenzen hinzufügen` abwählen, falls die Arbeitsplatzeinheit bereits alphanumerisch erstellt wurde. In diesem Fall wird der vorhandene alphanumerisch erstellte Datensatz im Nachhinein durch Bearbeitung des Feldes `Res.-Einheit` in der Geometrie ausgewählt. Wenn das Häkchen auf `Ja` steht, wird ein neuer Datensatz im Modul FlexiWorkplace unter `Arbeitsplatzeinheiten` erzeugt.
 
-> **Hinweis:** Beim Zeichnen werden die daten vom darunterliegenden Arbeitsplatz, Raum und Geschoss automatisch übernommen.
+> **Hinweis:** Beim Zeichnen werden die Daten vom darunterliegenden Arbeitsplatz, Raum und Geschoss automatisch übernommen.
 
 ![Index](_images/flexi-workplace/web-cad-draw-desk-save.png)
 
 *Bild 26:  Speichern nach Zeichnen vom Bürotisch*
 
-Für das Symbol mit dem Punkt, das den Arbeitsplatzstatus zeigt, ist die einfache Platzierung eines Punktes uns `Speichern` ausreichend. Die Farbe des Symbols wird automatisch bei alphanumerischer Änderung des Status des Datensatzes vom System selbst angepasst.
+Für das Symbol mit dem Punkt, der den Arbeitsplatzstatus zeigt, sind eine einfache Platzierung eines Punktes und Klick auf  `Speichern` ausreichend. Die Symbolfarbe wird bei alphanumerischer Arbeitsplatz-Statusänderung im Plan automatisch angepasst.
 
 ![Index](_images/flexi-workplace/web-cad-draw-symbol.png)
 
@@ -251,13 +251,15 @@ Für das Symbol mit dem Punkt, das den Arbeitsplatzstatus zeigt, ist die einfach
 
 ## Arbeitsplatzeinheit bearbeiten
 
+Wählen Sie eine Arbeitsplatzeinheit, entweder durch Anklicken des Tisches oder des farbigen Punkts, und klicken Sie anschließend auf den Button `Bearbeiten`. Alternativ drücken Sie die `Eingabe`-Taste auf der Tastatur.
+
 ![Index](_images/flexi-workplace/web-cad-edit.png)
 
 *Bild 28:  Bearbeiten vom Polygon bzw. Symbol*
 
 ## Arbeitsplatzeinheit löschen
 
-Beim Löschen von Tischpolygonen oder Arbeitsplatzeinheiten-Symbole im Plan wird der alphanumerische Datensatz im Modul FlexiWorkplace beeinflusst. Falls abhängige Daten vom Löschen betroffen sind, wie z. B. bereits vorhandene Reservierungen oder Statusänderungen ist das Häkchen bei `Referenzen entfernen` automatisch inaktiv. Falls keine Abhängigkeiten bestehen, können Sie entscheiden, ob der Datensatz für die Einheit mit gelöscht wird oder bestehen bleiben soll.
+Beim Löschen von Tischpolygonen oder Arbeitsplatzeinheiten-Symbole im Plan wird der alphanumerische Datensatz im Modul FlexiWorkplace beeinflusst. Falls abhängige Daten vom Löschen betroffen sind, wie z. B. bereits vorhandene Reservierungen oder Statusänderungen, ist das Häkchen bei `Referenzen entfernen` automatisch inaktiv. Falls keine Abhängigkeiten bestehen, können Sie entscheiden, ob der Datensatz für die Einheit mit gelöscht wird oder bestehen bleiben soll.
 
 ![Index](_images/flexi-workplace/web-cad-delete.png)
 
@@ -265,7 +267,7 @@ Beim Löschen von Tischpolygonen oder Arbeitsplatzeinheiten-Symbole im Plan wird
 
 # Hochladen und Entfernen von Bildern
 
-Öffnen Sie eine Arbeitsplatzeinheit entweder in der Detailansicht oder im Bearbeitungsmodus. Gehen Sie auf den Button `Hochladen` ![Upload](_images/common/button-upload-22.png). Im Popup können Sie entweder Dateien per Drag&Drop platzieren oder auf den Button `+ Hinzufügen` klicken und anschließend eine der Optionen wählen. Auf mobilen Geräten kann die Kamera für Direktaufnahmen genutzt werden. Nach dem Hochladen eines oder mehrerer Bilder werden diese mit der Arbeitsplatz automatisch verknüpft und werden immer in der Detailansicht als Bildgalerie neben dem Zeichnungsausschnitt angezeigt.
+Öffnen Sie eine Arbeitsplatzeinheit entweder in der Detailansicht oder im Bearbeitungsmodus. Gehen Sie auf den Button `Hochladen` ![Upload](_images/common/button-upload-22.png). Im Popup können Sie entweder Dateien per Drag&Drop platzieren oder auf den Button `+ Hinzufügen` klicken und anschließend eine der Optionen wählen. Auf mobilen Geräten kann die Kamera für Direktaufnahmen genutzt werden. Nach dem Hochladen eines oder mehrerer Bilder werden diese mit der Arbeitsplatzeinheit automatisch verknüpft und werden immer in der Detailansicht als Bildgalerie neben dem Zeichnungsausschnitt angezeigt.
 
 > **Hinweis:** Wählen Sie einen geeigneten Speicherplatz für die hochgeladenen Dateien durch Eingabe im Feld `Ordner`. Die Ordnerstruktur auf dem Server rufen Sie auf, indem Sie auf das Feld doppelklicken.
 
@@ -286,3 +288,13 @@ Sie können Daten jederzeit als MS Excel, CSV, XML oder PDF exportieren. Wählen
 ![Index](_images/flexi-workplace/report.png)
 
 *Bild 32:  Daten exportieren (z. B. als XLSX)*
+
+
+
+# Standardaufträge für Inventar, Support und Catering
+
+Wenn Sie Standardaufträge für Bestellungen innerhalb der Arbeitsplatzreservierungen definieren, werden Bestellmöglichkeiten für den Reservierer angeboten. Die Bestellungen durch die Benutzer basieren auf die Positionen der Standardaufträge. Bei einer Bestellung werden Aufträge angelegt, die vom Serviceteams separat bearbeitet werden können.
+
+![Index](_images/flexi-workplace/standard-orders-inventory.png)
+
+*Bild 33:  Standardaufträge mit Positionen definieren*
