@@ -21,7 +21,7 @@ Deutsch | [English](../../en/user-guide/user-guide) | *Sie sind hier: [Home](../
 * Helpdesk: App | Admin
 * Wartung: App | Admin
 * **Schließmanagement** : [App](apps/keys) | [Admin](admin/keys)
-* **Mietmanagement** : [App](apps/rentals) | [Admin](apps/rentals)
+* **Mietmanagement** : [App](apps/rentals) | Admin
 * Betriebskosten
 * Verträge
 * Helpdesk

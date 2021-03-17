@@ -1,6 +1,8 @@
 <!-- TITLE: Schließmanagement-->
 <!-- SUBTITLE: Benutzerhandbuch für die App für Modul "Schließmanagement" -->
 
+<!-- ![Titelseite Schlüssel](_images/_title/keys.png) -->
+
 # Schließmanagement - App
 
 ## Allgemein
