@@ -11,7 +11,7 @@ Das Modul **Mietmanagement** wird für die Verwaltung der Mietobjekte, Mietvertr
 
 Das Modul machen Sie auf, indem Sie über die Indexseite oder über den *Home-Button > Apps > Mietmanagement* auf, falls Sie bereits im System angemeldet sind. 
 
-![Qooxdoo Index Seite](_images/rentals/besch1.png "Index- Seite") 
+![Indexseite](_images/rentals/index.png) 
 
 *Bild 1: Eingang in die App "Mietmanagement" über die Indexseite*
 
@@ -86,7 +86,7 @@ Einstellungen – auf der  Registerkarte *"Haupteigenschaften"* sind folgende Ei
 
 *Bild 9: Bearbeitung einer Mieteinheit (7)*
 
-Anschließend gehen Sie auf `Speichern`, um den Vorgang abzuschiessen. 
+Anschließend gehen Sie auf `Speichern`, um den Vorgang abzuschießen. 
 
 # Bearbeitung von Mietverträgen und Mietpositionen
 
@@ -125,36 +125,27 @@ In dem zweiten Reiter **Kosten** können Sie die Kosten und die Zahlungsoptionen
 
 *Bild 12: Kosten und Zahlungsintervall im neuen Mietvertrag*
 
-Ändern Sie die Optionen, die für Sie wichtig sind. Eine Änderung hier ist gültig auch für alle Positionen, die mit dem Vertrag verknüpft sind. Sobald die Positionen manuell geändert werden, werden die Änderungen aus dem Vertrag die Positionen nicht überschreiben und der Benutzer soll die Positionen manuell anpassen. 
-So kann der Benutzer viele mögliche Varianten abdecken.
+Ändern Sie die Optionen, die für Sie wichtig sind. Eine Änderung hier ist gültig auch für alle Positionen, die mit dem Vertrag verknüpft sind. Sobald die Positionen manuell geändert werden, werden die Änderungen aus dem Vertrag die Positionen nicht überschreiben und der Benutzer soll die Positionen manuell anpassen. So kann der Benutzer viele mögliche Varianten abdecken.
 
-* **Zahlungen (Kundenspezifisch)**– die Zahlungen kann der Benutzer in der Registerkarte **Zahlungen** anpassen. 
+* **Zahlungen (Kundenspezifisch)** - die Zahlungen kann der Benutzer auf der Registerkarte *"Zahlungen"* anpassen. 
 
 ![Qooxdoo Mietvertrag erstellen](_images/rentals/mietver4.png "Zahlungen")
 
 *Bild 13: Vertragliche Zahlungen*
 
 * Anhänge (optional) – hier können Sie Anhänge hochladen und mit dem Vertrag verknüpfen. Dazu können Sie auch die Beginn- und Endzeit für die Anhänge festlegen. 
-* Indexierung (optional) – die Indizes geben Sie in dem Reiter *"Indexierung"*. Hier ein Beispiel: 
+* Indexierung (optional) – die Indizes geben Sie in dem Reiter *"Indexierung"*.
+* Staffelung (optional) – die Staffelung geben Sie in dem Reiter *"Staffelung"*
 
 ![Qooxdoo Mietvertrag erstellen](_images/rentals/mietver5.png "Indixierungen")
 
 *Bild 14: Indexierungen*
 
-* Staffelung (optional) – die Staffelung geben Sie in dem Reiter *"Staffelung"*
-
-![Qooxdoo Mietvertrag erstellen](/uploads/de-mietmanagement/vr6-mietman-mietver6.png "Staffelungen")
-
-*Bild 15: Staffelungen*
-
-Sie können die Felder anschauen und gegebenenfalls die relevanten Felder ausfüllen.
-
-Anschließend speichern Sie den Vertrag.
+Sie können alle relevanten Felder ausfüllen. Anschließend speichern Sie den Vertrag mit Klick auf den Button `Speichern` unten rechts.
 
 ## Mietpositionen
 
-Die Mietpositionen sind in dem Vertrag einzugeben. 
-Öffnen Sie den gewünschten Vertrag und in dem Reiter "*Positionen"* fügen Sie Vertragspositionen hinzu. 
+Zu jedem Mietvertrag können Mietpositionen zwei unterschiedlicher Typen eingegeben werden: Grundmiete oder Nebenkosten. Öffnen Sie den gewünschten Vertrag und fügen Sie Vertragspositionen auf dem Reiter "*Positionen"* > *"Mietpositionen"*. 
 
 ![Qooxdoo Mietpositionen erstellen](_images/rentals/mietpos1.png "Mietpositionen erstellen")
 
@@ -186,7 +177,7 @@ Erstellen Sie analog auch die Position(en) für die Nebenkosten. Die bereits ers
 
 *Bild 19: Beispiel Nebenkosten*
 
-Sobald Sie die Kosten in einer Vertragsposition eigeben, werden die Kosten im Vertrag mit der Summer der Positionskosten überschrieben.
+Sobald Sie die Kosten in einer Vertragsposition eingeben, werden die Kosten im Vertrag mit der Summer der Positionskosten überschrieben.
 
 ![Qooxdoo Mietpositionen erstellen](_images/rentals/mietpos5.png "Kosten im Vertrag aus den Positionen")
 
@@ -250,9 +241,7 @@ Das Feld Kosten für die folgende Position lässt sich nicht ändern, weil gepla
 
 # Monat / Flächen generieren
 
-Eine Zuordnung Monat / Flächen wird vom System an jedem 15. (das Datum kann eingestellt werden) des Monats generiert. Dafür werden die Mieteinheiten mit Status „inaktiv“ ignoriert. 
-Sie können auch eine Zuordnung selber erstellen, dann wird der Monat auch in der Baumstruktur erscheinen, falls er noch nicht vom Scheduler erstellt ist (jeweils am 15. des Vormonats). 
-Dafür gehen Sie in der Mieteinheiten- Tabelle und wählen Sie die gewünschten Mieteinheiten. Die Mieteinheiten mit Status „inaktiv“ sollen aus der Auswahl weg gelassen. 
+Eine Zuordnung Monat / Flächen wird vom System an jedem 15. (das Datum kann eingestellt werden) des Monats generiert. Dafür werden die Mieteinheiten mit Status „inaktiv“ ignoriert. Sie können auch eine Zuordnung selber erstellen, dann wird der Monat auch in der Baumstruktur erscheinen, falls er noch nicht vom Scheduler erstellt ist (jeweils am 15. des Vormonats). Dafür gehen Sie in der Mieteinheiten- Tabelle und wählen Sie die gewünschten Mieteinheiten. Die Mieteinheiten mit Status „inaktiv“ sollen aus der Auswahl weg gelassen. 
 
 Wenn Sie die Einheiten selektiert haben, klicken Sie auf den Button `Monat / Fläche anlegen`.
 
@@ -266,9 +255,7 @@ Wählen Sie in dem neuen Fenster das Jahr und den Monat aus und schauen Sie die 
 
 *Bild 29: Monat / Fläche generieren - Einstellungen*
 
-In diesem Beispiel werden die Daten für den Monat Juli 2020 generiert. 
-Anschließend klicken Sie auf 'Ausführen'. 
-Die Objekte werden generiert: Der Vorgang kann einige Zeit in Anspruch nehmen. Die generierten Objekte werden angezeigt. 
+In diesem Beispiel werden die Daten für den Monat Juli 2020 generiert. Anschließend klicken Sie auf `Ausführen`. Die Objekte werden generiert: dieser Vorgang kann einige Zeit in Anspruch nehmen. Die Anzahl generierter Objekte wird angezeigt. 
 
 ![Qooxdoo Monatliche Werte](_images/rentals/monat_flaeche3.png "Monat / Fläche Daten werden generiert")
 
