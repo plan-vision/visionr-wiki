@@ -32,7 +32,7 @@ Wenn Sie mobile VisionR App nutzen, werden Sie nach der Anmeldung automatisch au
 
 ## Administration
 
-Administrative Aufgaben, wie z. B. Anlegen neuer Arbeitsplätze, Änderungen der Reservierbarkeit oder Definition von zeitlichen Regeln für die Einheiten sind im Abschnitt [Admin FlexiWorkplace](/de/user-guide/admin/flexi-workplace) beschrieben.
+Administrative Aufgaben, wie z. B. Anlegen neuer Arbeitsplätze, Änderungen der Reservierbarkeit oder Definition von zeitlichen Regeln für die Einheiten sind im Abschnitt [Admin FlexiWorkplace](../admin/flexi-workplace) beschrieben.
 
 # Übersicht
 
