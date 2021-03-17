@@ -1,12 +1,12 @@
 <!-- TITLE: Web-CAD -->
 <!-- SUBTITLE: Web-CAD (Grafik) ist ein VisionR Modul für Bearbeitung von CAD-Plänen -->
 
-Deutsch | [English](/en/modules/graphics)
-*Sie sind hier: [Home](/home) > [Benutzerhandbuch](/de/user-guide) > [Modul Web-CAD](/de/modules/graphics) > Normale Benutzer*
-# Übersicht
-Öffnen Sie die Grafik (Web-CAD Modul).
+Deutsch | [English](../../../en/modules/graphics) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > Web-CAD (Grafik)*
 
-![Vr Graphics De De Forms](_images/graphics/forms.jpg "Vr Graphics De De Forms")
+# Übersicht
+Öffnen Sie die das Web-CAD (Grafik) Modul.
+
+![Indexseite](_images/graphics/index.png)
 
 Aus dem Baum wählen Sie den Standort / Gebäude aus und aus der Übersicht wählen Sie die gewünschte Zeichnung aus. Mit Doppelklick machen Sie die Zeichnung auf. 
 
@@ -81,7 +81,7 @@ Eine Layergruppe hat folgende Eigenschaften:
 
 ![Vr Graphics De De Cad Layergroup](_images/graphics/cad-layergroup.jpg "Vr Graphics De De Cad Layergroup")
 
-> **BGF:** *Vorraussetzung: Modul "Flächenmanagement"* 
+> **BGF:** *Voraussetzung: Modul "Flächenmanagement"* 
 > Hier wird nur das Geschoss auswählbar und editierbar sein, das über die CAD Zeichnung gezeichnet sind. Das Geschosspolygon gibt uns die gesamte Geschossfläche und deshalb ist diese Layergruppe dafür vordefiniert. BGF - Brutto Geschoss Fläche. Das Geschosspolygon wird zuerst auf die Zeichnung gezeichnet, weil er den kompletten Plan umfasst. Die Räume, die auf das Geschosspolygon gezeichnet sind, werden automatisch zu dem Geschoss durch die Überlappung zugeordnet. 
 
 Auf der linken Seite sind wieder die Layer angezeigt. Die Layer-Konfiguration ist wie folgt:
@@ -130,7 +130,7 @@ Für das Auswählen, die Bearbeitung und das Zeichnen steht die Funktionsleiste 
 
 Die Leiste ist in folgenden Bereichen unterteilt:
 1. Auswahltools
-2. Zeichnen / Modifikation (Verschieben, Drehen, Skalieren)
+2. Zeichnen / Modifikation : Verschieben, Drehen, Skalieren
 3. Transformieren
 4. Ansichten / Navigation
 5. Funktionen

@@ -3,7 +3,7 @@
 
 [Deutsch](../../de/user-guide/user-guide) | English | *You are here: [Home](../../home-en) > User guide*
 # VisionR modules
-* **FlexiWorkplace** : App ( [Mobile](apps/flexi-workplace-mobile) and [Desktop](apps/flexi-workplace-desktop) ) | Admin
+* **FlexiWorkplace** : App ( [Mobile](apps/flexi-workplace-mobile) and [Desktop](apps/flexi-workplace) ) | Admin
 * Contacts
 * Documents
 * Graphics (Web-CAD)

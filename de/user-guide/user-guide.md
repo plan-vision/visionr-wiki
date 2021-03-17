@@ -10,24 +10,32 @@ Deutsch | [English](../../en/user-guide/user-guide) | *Sie sind hier: [Home](../
 
 # VisionR Module
 
-* **FlexiWorkplace** : App ( [Mobil](apps/flexi-workplace-mobile) und [Desktop](apps/flexi-workplace-desktop) ) | [Admin](admin/flexi-workplace)
+* **FlexiWorkplace** : App ( [Mobil](apps/flexi-workplace-mobile) und [Desktop](apps/flexi-workplace) ) | [Admin](admin/flexi-workplace)
+* **Web-CAD (Grafik)** : [App](apps/graphics) | Admin
 * **Raumbuchungen** : [App](apps/reservations-space) | [Admin](apps/reservations-space)
 * Fahrzeugbuchungen: App | Admin
+* Helpdesk : App | Admin
 * **Kontakte** : [App](apps/contacts) | [Admin](apps/contacts)
 * Dokumente: App | Admin
-* **Web-CAD (Grafik)** : [App](apps/graphics) | [Admin](admin/graphics)
-* Flächenmanagement: App | Admin
-* Verträge: App | Admin
-* Helpdesk: App | Admin
-* Wartung: App | Admin
+* Flächenmanagement : App | Admin
+* Umzüge : App | Admin
+* Verträge : App | Admin
+* Projekte : App | Admin
+* Kosten : App | Admin
+* Wartung : App | Admin
 * **Schließmanagement** : [App](apps/keys) | [Admin](admin/keys)
 * **Mietmanagement** : [App](apps/rentals) | Admin
-* Betriebskosten
-* Verträge
-* Helpdesk
-* Wartung
-* Reinigung
-* Vertrieb
+* Betriebskosten : App | Admin
+* Verträge : App | Admin
+* Helpdesk : App | Admin
+* Wartung : App | Admin
+* Reinigung : App | Admin
+* Vertrieb : App | Admin
+* Verbräuche  : App | Admin
+* BCM : App | Admin
+* Aufträge : App | Admin
+* Workflows : App | Admin
+* Zeiterfassung : App | Admin
 
 # Systemmodule
 

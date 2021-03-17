@@ -1,5 +1,7 @@
 <!-- TITLE: Modul Raumbuchung -->
-<!-- SUBTITLE: Modul für die Online-Buchung von Räumen inkl. Catering-, Inventar- und Support-Bestellungen-->
+<!-- SUBTITLE: Modul für die Online-Buchung von Räumen inkl. Catering-, Inventar- und Support-Bestellungen -->
+
+<!-- ![Titelseite Raumbuchung](_images/_title/reservations-space.png) -->
 
 Deutsch | [English](../../../en/user-guide/apps/reservations) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > Raumbuchung*
 

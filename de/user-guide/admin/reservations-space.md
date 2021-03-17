@@ -1,6 +1,8 @@
 <!-- TITLE: Modul "Raumbuchung" für Admin Benutzer -->
 <!-- SUBTITLE: Modul für die Online-Reservierungen von Räumen  -->
 
+<!-- ![Titelseite Raumbuchung](_images/_title/reservations-space.png) --> 
+
 Deutsch | [English](../../../en/user-guide/reservations-space) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > Admin Raumbuchung*
 
 # Raumbuchung - Admin

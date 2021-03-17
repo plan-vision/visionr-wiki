@@ -7,7 +7,7 @@
 
 ## General
 
-This document describes the usage of the module FlexiWorkplace for normal users on a mobile device. The usage in a browser on a desktop computer (PC, laptop, or mac) is described in the section  [FlexiWorkplace - desktop](flexi-workplace-desktop).
+This document describes the usage of the module FlexiWorkplace for normal users on a mobile device. The usage in a browser on a desktop computer (PC, laptop, or mac) is described in the section  [FlexiWorkplace - desktop](flexi-workplace).
 
 ## Description
 

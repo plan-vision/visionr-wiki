@@ -1,7 +1,7 @@
 <!-- TITLE: Mietmanagement für normale Benutzer -->
 <!-- SUBTITLE: VisionR Modul Mietmanagement für Mietverträge, Mieteinheiten etc. -->
 
-<!-- ![Titelseite Miete](_images/_title/rentals.png) -->
+<!-- ![Titelseite Miete](_images/_title/rentals.png) --> 
 
 Deutsch | [English](../../../en/user-guide/apps/rentals) | *Sie sind hier: [Home](/home) > [Benutzerhandbuch](../user-guide) > App Mietmanagement*
 
