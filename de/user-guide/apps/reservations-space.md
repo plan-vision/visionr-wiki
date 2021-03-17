@@ -2,7 +2,10 @@
 <!-- SUBTITLE: Modul für die Online-Buchung von Räumen inkl. Catering-, Inventar- und Support-Bestellungen-->
 
 Deutsch | [English](../../../en/user-guide/apps/reservations) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > Raumbuchung*
-# Beschreibung
+
+# Raumbuchung - App
+
+## Beschreibung
 
 Das Modul  ist ein leistungsfähiges Werkzeug für Online-Reservierungen von Räumen und Inventar. Es unterstützt wiederkehrende Reservierungen, automatisches Versenden von Bestätigungs-E-Mails und Statusverfolgung von Reservierungsanfragen. Eine Kalenderansicht zeigt die Belegung von Räumen und Inventar.
 
@@ -12,7 +15,7 @@ Sie können das Modul öffnen indem Sie auf der Index-Seite den Reiter `Apps` au
 
 *Bild 1: Modul Reservierungen über die Index-Seite aufrufen*
 
-# Übersicht
+## Übersicht
 
 ![Übersicht](_images/reservations-space/overview.png)
 
@@ -20,7 +23,7 @@ Sie können das Modul öffnen indem Sie auf der Index-Seite den Reiter `Apps` au
 
 # Bedienung der Oberfläche
 
-## Ansicht ändern
+### Ansicht ändern
 
 Die Standardansicht ist die Kalenderansicht, die auf dem Bild 2 gezeigt ist. Die Ansichten sind links in der Kategorie `Übersicht` aufgelistet. Mit Klick darauf können Sie die Ansicht ändern.
 
@@ -63,7 +66,7 @@ Diese Ansicht zeigt die Reservierungen in tabellarischer Form. Sie können die R
 
 *Bild 6: Tabellarische Ansicht*
 
-## Suchen / Filtern
+# Suchen / Filtern
 Im Hauptmenü auf der linken Seite können Filter für die Datenselektion genutzt werden. Die Filter haben direkten Einfluss auf die Kalenderansicht. Sie können die Reservierungen filtern, um eine bessere Übersicht zu bekommen. Einige Beispiele:
 
 > **Beispiel:**  Filtern nach Betreff *"Meeting"* - nur die Reservierungen, die diese Zeichenkette in dem Betreff enthalten, werden angezeigt. Alle anderen werden ausgeblendet.
