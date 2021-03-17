@@ -80,7 +80,7 @@ Im Beispiel mit der Tabellenansicht sind folgende Hauptbereiche der Applikation 
 
 *Bild 6: Suchfeld über der Datenansicht (Tabelle/Liste/Kacheln)*
 
-![Index](_images/flexi-workplace/search-field.png)
+![Index](_images/flexi-workplace/search-options.png)
 
 *Bild 7: Suchoptionen auf die drei Punkte `...` am rechten Ende der Suchleiste*
 
