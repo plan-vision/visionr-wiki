@@ -1,6 +1,8 @@
 <!-- TITLE: Neue Oberflächen mit Forms (ab Version 7) -->
 <!-- SUBTITLE: allgemeines Benutzerhandbuch für Qooxdoo Oberflächen - Neue Oberflächen mit Forms (ab Version 7) -->
 
+<!-- ![Titelseite allgemein](_images/_title/general.png) --> 
+
 Deutsch | [English](../../../en/modules/general) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > Neue Oberflächen mit Forms (ab Version 7)* 
 
 # Bedienung allgemein
@@ -177,13 +179,13 @@ Die Hierachie wählen Sie aus dem Menü über die Hierarchie selbst.
 
 *Bild 23: Hierarchie wechseln*
 
-Deaktivieren, Ein- und Ausschalten machen Sie über das Funktionsmenü > Hierarchie. 
+Deaktivieren, Ein- und Ausschalten der Hierarchie führen Sie über das *Funktionsmenü > Hierarchie* durch. 
 
 ![Forms Hierarchie](_images/general/Hierarchie.png "Forms Hierarchie ein- und ausblenden / Hierarchie auswählen")
 
 *Bild 24: Hierarchie ein- und ausblenden*
 
-> **Bemerkung:** Auf dem Screenshot sind die Personen nach Abteilung sortiert. Die folgende Abbildung zeigt die selben Daten nach *Standort* sortiert.
+> **Hinweis:** Auf dem Screenshot sind die Personen nach Abteilung sortiert. Die folgende Abbildung zeigt die selben Daten nach *Standort* sortiert.
 
 ![Forms Hierarchie nach Standort](_images/general/Hierarchie_nach_Standort.png "Forms Hierarchie nach Standort")
 

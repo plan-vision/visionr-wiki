@@ -1,16 +1,23 @@
 <!-- TITLE: Benutzerverwaltung -->
 <!-- SUBTITLE: Überblick Benutzerverwaltung -->
 
-Deutsch | [English](/en/user-guide/system/user-management)
-*Sie sind hier: [Home](/home/) > [Benutzerhandbuch](/de/user-guide) > [System](/de/user-guide/system) > Benutzerverwaltung*
+<!-- ![Titelseite allgemein](_images/_title/user-management.png) --> 
+
+Deutsch | [English](../../../en/user-guide/system/user-management) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > Benutzerverwaltung*
 
 # Modul "Benutzerverwaltung"
 
-# Übersicht
+## Übersicht
 
 Die Benutzerverwaltung rufen Sie aus der *Startseite -> Administration -> System -> Benutzerverwaltung* auf.
 
 ![Vr Benutzervewaltung Uberblick](_images/user-management/overview.jpg "Vr Benutzervewaltung Uberblick")
+
+# Neuen Benutzer anlegen
+
+In der Tabelle mit den Benutzer klicken Sie auf das Menübutton ![Vr Menu Button](_images/user-management/menu-button.jpg "Vr Menu Button") (oder rechte Maustaste) und dann auf `+ Neu`. Ein Formular für neues Objekt wird angezeigt. Füllen Sie die oben genannten Pflichtfelder aus und speichern Sie den Datensatz. 
+
+Hier ist es wichtig, dass die Benutzerrolle bereits vorhanden ist und die Person dem Benutzer zugeordnet ist. Es ist wichtig eine Person zuzuordnen, da wichtige Einstellungen, wie z. B. versenden von E-Mail mit den Angaben im Personendatensatz zusammenhängen. 
 
 # Benutzer bearbeiten
 
@@ -41,21 +48,16 @@ Hier können Sie schnell die Person und die Benutzergruppe ändern. Falls Sie al
 Hier können Sie alle Einstellungen des Benutzers bearbeiten. Die wichtigsten sind:
 
 * **Benutzer-ID** - alphanumerische Eingabe für den Benutzernamen, die bei der Anmeldung angefordert wird
-* **Passwort** - verdescktes Eingabefeld für das Passwort, welches bei der Anmeldung angefordert wird
+* **Passwort** - verdecktes Eingabefeld für das Passwort, welches bei der Anmeldung angefordert wird
 * **Benutzerrolle** - hier werden die Benutzerberechtigungen definiert
-* **Person** - welche Person zu diesem Benutzerkotno  zugeordnet ist, wichtig für E-Mail-Kommunikation
-* **Aktiviert?** - Angabe ob das Benutzerkonto aktiviert ist. Wenn der Wert auf "Nein" eingestellt wird, kann sich der Benutzer mit diesem Benutzernamen mit sofortiger wirkung nicht mehr anmelden
+* **Person** - welche Person zu diesem Benutzerkonto  zugeordnet ist, wichtig für E-Mail-Kommunikation
+* **Aktiviert?** - Angabe ob das Benutzerkonto aktiviert ist. Wenn der Wert auf "Nein" eingestellt wird, kann sich der Benutzer mit diesem Benutzernamen mit sofortiger Wirkung nicht mehr anmelden
 
 Bei Bedarf können die restlichen Einstellungen genutzt werden.
 
 Mit Klick auf den Menübutton ![Vr Menu Button](_images/user-management/menu-button.jpg "Vr Menu Button")  und dann auf `Auswählen` in dem Feld Benutzerrolle wird die Rollenhierarchie angezeigt und Sie können aus den Benutzerrollen wählen. Alternativ können Sie mit Doppelklick die Auswahlliste aufmachen und eine Benutzerrolle zuweisen ggf. ersetzen. Der Benutzer muss sich danach nur aus- und wieder einloggen. 
 
 Die Eigenschaften der Rolle selbst sehen Sie, wenn Sie die Gruppe öffnen – dafür klicken Sie auf den Menübutton `Bearbeiten`. Sie können in der Gruppe die Berechtigungen einstellen, ggf. welche Berechtigungen diese Gruppe an anderen weiter leitet oder welche sie von anderen übernimmt. Die Erstellung und die Anpassung der Benutzerrolle sind demnächst beschrieben.
-
-# Neuen Benutzer anlegen
-In der Tabelle mit den Benutzer klicken Sie auf das Menübutton ![Vr Menu Button](_images/user-management/menu-button.jpg "Vr Menu Button") (oder rechte Maustaste) und dann auf `Neu`. Ein Formular für neues Objekt wird angezeigt. Füllen Sie die oben genannten Pflichtfelder aus und speichern Sie den Datensatz. 
-
-Hier ist es wichtig, dass die Benutzerrolle bereits vorhanden ist und die Person dem Benutzer zugeordnet ist. Es ist wichtig eine Person zuzuordnen, da wichtige Einstellungen, wie z. B. versenden von E-Mail mit den Angaben im Personendatensatz zusammenhängen. 
 
 # Benutzerrolle erstellen
 Die Benutzerrolle können Sie direkt in dem Benutzerformular erstellen oder in der Ansicht mit den Benutzerrollen. 
@@ -75,7 +77,7 @@ Um eine neue Benutzerrolle zu erstellen: rechter Mausklick und dann auf `Neu`.
 Machen Sie die folgenden Angaben:
 
 * **Name** - wie die Rolle heißt
-* **Kategorie** - Bitte wählen Sie hier die Kategorie *benutzerdefiniert* 
+* **Kategorie** - Bitte wählen Sie hier die Kategorie *Benutzerdefiniert* 
 * **Vererbt Rechte von** - Hier durch Kombination von den vordefinierten Benutzerrollen können Sie die neue anpassen. 
 * **Leitet Rechte weiter an** - An welcher Benutzerrolle diese ihre Rechte weiter leitet.
 
@@ -110,10 +112,10 @@ Wenn Sie die Benutzergruppe bearbeiten möchten, müssen Sie diese Benutzergrupp
 Dieser Vorgang ist nur von dem Administrator zu machen! Falls Sie nicht sicher sind, bitte keine Änderungen vornehmen. 
 Navigieren Sie zu den Benutzerrollen und öffnen Sie die gewünschte Benutzerrolle, die Sie anpassen möchten oder öffnen Sie die Person, deren Benutzerrolle Sie bearbeiten möchten und in dem Feld **Benutzerrolle** `Bearbeiten`. Somit wird die Benutzerrolle in Bearbeitungsmodus in einem Popup-Dialog aufgemacht. 
 
-> **Bemerkung**: Die Änderungen, die Sie in einer Benutzerrolle vornehmen, werden auf alle zugeordneten Benutzerkonten übertragen.
+> **Hinweis**: Die Änderungen, die Sie in einer Benutzerrolle vornehmen, werden auf alle zugeordneten Benutzerkonten übertragen.
 
 ![Vr Benutzervewaltung Benutzer Benutzerrolle Bearbeiten](_images/user-management/user-edit-user_role.jpg "Vr Benutzervewaltung Benutzer Benutzerrolle Bearbeiten")
 
-> **Hinweis** Die Benutzerrollen sind oberhalb beschrieben.
+> **Hinweis** Die Benutzerrollen sind im oberen Teil des Dokuments beschrieben.
 
 Durch Veränderung der vererbten Rechte, passen Sie die Zugriffsberechtigungen der Benutzerrolle an.

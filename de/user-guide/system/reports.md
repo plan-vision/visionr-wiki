@@ -1,8 +1,9 @@
 <!-- TITLE: Berichte-->
 <!-- SUBTITLE: Überblick Administration Berichte -->
 
-Deutsch | [English](/en/user-guide/system/reports)
-*Sie sind hier: [Home](/home/) > [Benutzerhandbuch](/de/user-guide) > [System](/de/user-guide/system) > Berichte*
+<!-- ![Titelseite allgemein](_images/_title/reports.png) --> 
+
+Deutsch | [English](../../../en/user-guide/system/reports) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > Berichte*
 
 # Modul "Berichte"
 
@@ -36,8 +37,6 @@ Das  Modul  "Berichte"  ist  Teil  jeder  VisionR  Installation  und  kann  als 
 |                                                              | &lt;/jt:forEach&gt; |
 
 ## Index – fortlaufende Nummern in Schleifen
-
-
 
 |                                                         |                     |
 | ------------------------------------------------------- | ------------------- |
@@ -210,13 +209,9 @@ Rechteckige Form mit http-Link:
 http://vr/report?code=BERICHTSCODE&align=scale&valign=top&fit=1&objects=object
 ```
 
-
-
 ## Verlinken von CAD-Zeichnungen
 
 ![Bericht verlinken in PDF](_images/reports/link-drawing.jpg)
-
-
 
 Rechteckige Form mit http-Link:
 
@@ -229,6 +224,7 @@ Standarddefinition des Links:
 ```
 map1 – nimmt den ersten Wert von der Eigenschaft „saved_drawing_exports“
 (report.saved_drawing_exports [0])
+
 map2 – nimmt den zweiten Wert von der Eigenschaft „saved_drawing_exports“
 (report.saved_drawing_exports [1])
 ```
