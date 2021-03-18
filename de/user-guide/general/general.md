@@ -3,7 +3,7 @@
 
 <!-- ![Titelseite allgemein](_images/_title/general.png) --> 
 
-Deutsch | [English](../../../en/modules/general) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > Neue Oberflächen mit Forms (ab Version 7)* 
+Deutsch | [English](../../../en/modules/general) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > Bedienung allgemein mit Forms (ab Version 8)* 
 
 # Bedienung allgemein
 
@@ -42,7 +42,7 @@ Die Index-Seite wird geladen. Auf der Indexseite sind Registerkarten vorhanden, 
 
 *Bild 4: Indexseite > Registerkarte `Administration` > Unterregister `System`*
 
-## Bedienung allgemein
+## Grundlegend
 
 Der Button mit den drei Strichen ![Menü-Button](../apps/_images/common/button-menu-22.png)oben links öffnet das Hauptmenü. Das Menü ist auf mobilen Geräten aus Platzgründen automatisch versteckt. In der Desktopversion wird das Hauptmenü automatisch angezeigt. Abwechselndes Klicken auf den`Menü`-Button zeigt oder verbirgt das Menü, je nachdem welcher der aktuelle Status ist. Der `Menü`-Button ist auf allen Masken verfügbar. Durch Klick auf einen Menüeintrag in der Liste öffnen Sie die entsprechende Maske mit den in diesem Dokument beschriebenen Funktionalitäten. Der Name der aktiven Maske wird in orangener Farbe hervorgehoben.
 
