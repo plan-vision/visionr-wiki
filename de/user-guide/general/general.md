@@ -16,7 +16,7 @@ Rufen Sie die Indexseite auf, indem Sie die folgende Adresse in dem Browser eing
 
 Nachdem Sie Sich eingeloggt haben, wird die Indexseite geladen. Die Indexseite sieht ab dem Version 8.0 folgendermaßen aus:
 
-![Forms Login-Seite](_images/general/login.png "Forms Login Seite")
+![Login-Seite](_images/general/login.png)
 
 *Bild 1: VisionR-Login*
 
@@ -28,15 +28,15 @@ Die Index-Seite wird geladen. Auf der Indexseite sind Registerkarten vorhanden, 
 * **Dashboards** hier sind modulweise Dashboards zum jeweiligen Unterprozess verfügbar
 * **Version 7** hier sind die alten Benutzeroberflächen aus Kompatibilitätsgründen bei Bestandskunden noch erreichbar. In der Regel brauchen Sie die hier angebotenen Funktionalitäten ab Version 8.0 nicht mehr
 
-![Forms Index Seite](_images/general/index_site.png "Forms Index Seite")
+![Index Apps](_images/general/index-apps.png)
 
 *Bild 2: Indexseite > Registerkarte `Apps`*
 
-![Forms Index Seite](_images/general/index_site.png "Forms Index Seite")
+![Index Admin](_images/general/index-admin.png)
 
 *Bild 3: Indexseite > Registerkarte `Administration` > Unterregister `Module`*
 
-![Forms Index Seite](_images/general/index_site.png "Forms Index Seite")
+![Index System](_images/general/index-system.png)
 
 *Bild 4: Indexseite > Registerkarte `Administration` > Unterregister `System`*
 
@@ -177,7 +177,7 @@ Die Hierachie wählen Sie aus dem Menü über die Hierarchie selbst.
 
 *Bild 23: Hierarchie wechseln*
 
-Deaktivieren, Ein- und Ausschalten machen Sie über das Funktionsmenü -> Hierarchie. 
+Deaktivieren, Ein- und Ausschalten machen Sie über das Funktionsmenü > Hierarchie. 
 
 ![Forms Hierarchie](_images/general/Hierarchie.png "Forms Hierarchie ein- und ausblenden / Hierarchie auswählen")
 
@@ -215,7 +215,7 @@ Sie können die Hierarchie *ausblenden* und *einblenden* oder komplett *aus-* un
 
 > **Ausschalten**
 
-In dem selben Menü haben Sie die Option, die Hierarchie auszuschalten. Klicken Sie auf die Option und die Hierarchie wird komplett ausgeblendet und die Daten werden nicht mehr nach diesen Krieterien gefiltert sein.
+In dem selben Menü haben Sie die Option, die Hierarchie auszuschalten. Klicken Sie auf die Option und die Hierarchie wird komplett ausgeblendet und die Daten werden nicht mehr nach diesen Kriterien gefiltert sein.
 
 > **Einschalten**
 
