@@ -115,7 +115,7 @@ Wenn Sie sich im Modul *Admin Schlüssel* befinden und den Menüeintrag `Schlie�
 
 ![Index](_images/keys/lock-system-new.png)
 
-*Bild 9: Neue Schließanlage*
+*Bild 10: Neue Schließanlage*
 
 Bei der neu erstellten Schließanlage müssen die Standortdaten eingegeben werden. Dazu muss ein Gebäude aus dem Flächenmanagement vorhanden sein. Das Gebäude ist im ersten Moment in der Baumansicht nicht unbedingt sichtbar, da dort nur Gebäude mit bereits zugeordneten Schließanlagen angezeigt werden.
 
@@ -149,7 +149,7 @@ Eine Schließanlage können Sie im Bearbeitungsmodus löschen. Es können nur Sc
 
 Öffnen Sie die Schließanlage mit Maus-Rechtsklick auf den Button `Bearbeiten`. Danach öffnen Sie das Dialogmenü mit Klick auf die drei Striche oben rechts. Hier ist der Menüeintrag `Löschen` vorhanden, allerdings nur wenn Sie die notwendigen Zugriffsrechte besitzen.
 
-![Index](_images/flexi-workplace/wpl-delete.png)
+![Index](_images/keys/key-def-delete.png)
 
 *Bild 14: Löschen im Bearbeitungs- oder Admin-Modus*
 
@@ -165,6 +165,26 @@ Bei der Verwaltung der Schlüsseldefinitionen (Neu anlegen, Bearbeiten oder Lös
 
 Schlüsseldefinitionen müssen Schließanlagen zugeordnet werden (Pflichtfeld).
 
+# Schließmatrix
+
+Die Schließmatrix gibt an welche Schlüssel welche Zylindern öffnen und schließen. Die Schließmatrix wird entweder in der Schlüssel- oder in der Zylinderdefinition eingegeben und gilt für alle Duplikate des betroffenen Schlüssels und des Zylinders.
+
+![Index](_images/keys/matrix-from-key-def.png)
+
+*Bild 15: Matrix in der Schlüsseldefinition bearbeiten*
+
+Die Schließmatrix können Sie als Excel-Bericht aufrufen. Dazu markieren Sie eine oder mehrere Schlüssel- oder Zylinderdefinitionen. Anschließend klicken Sie auf die drei Striche oben rechts unter der Personenikone und klicken Sie auf den Bericht im Menü: *Ausführen > Bericht > Schließmatrix*.
+
+![Index](_images/keys/matrix-run-report.png)
+
+*Bild 16: Bericht "Schließmatrix" aufrufen*
+
+Der aufgerufene Bericht wertet die ausgewählten  Zylinder und Schlüssel in der Schließanlage aus. Die Zylinder mit Einbauort werden als Zeilen, die Schlüssel mit Anzahl verfügbar und ausgegeben als Spalten dargestellt. 
+
+![Index](_images/keys/matrix-report.png)
+
+*Bild 17: Beispiel Bericht "Schließmatrix" *
+
 # Schlüsselduplikate generieren
 
 Einzelne Schlüssel müssen stets aus bereits angelegten Schlüsseldefinitionen generieren werden, da eine fortlaufende Nummer für jede Schlüsselkopie vom System generiert wird. Der Code eines einzelnen Schlüssels (synonym für Schlüsselduplikat oder Schlüsselkopie) muss innerhalb der Schließanlage identisch sein. Meistens besteht der Code aus folgenden Teilen: *[Code der Schlüsseldefinition] - [fortlaufende Nummer]* (z.B. *"SCH0012 -1"*, *"SCH0012 -2"*, ...).
@@ -173,6 +193,33 @@ Einzelne Schlüssel müssen stets aus bereits angelegten Schlüsseldefinitionen 
 
 ![Index](_images/keys/generate-keys-in-edit.png)
 
-*Bild 11: Schlüsselduplikate in der Schlüsseldefinition generieren*
+*Bild 18: Schlüsselduplikate in der Schlüsseldefinition generieren*
 
 > **Hinweis:** Vermeiden Sie die Erstellung neuer einzelner Schlüssel, obwohl diese Möglichkeit besteht. Der beschriebene Vorgang für `Duplikate erstellen!` soll die bevorzugte Variante sein.
+
+# Ausgaben/Rücknahmen von Schlüsseln/Karten
+
+Schlüssel-Ausgaben und -Rücknahmen sind im Dokument für die App [Schließmanagement](../apps/keys) ausführlich beschrieben. An dieser Stelle wird nur allgemeiner Überblick über die Funktionalität verschafft. Ausgaben und Rücknahmen sind dynamische Daten, die eine intensivere Datenbearbeitung erfordern. Im Admin-Bereich sollen eher die Stammdaten gepflegt und strukturelle Veränderungen dokumentiert werden.
+
+## Ausgabe
+
+Sie können eine Schlüssel ausgeben, nur wenn dieser den passenden Status hat. Bei aktuell vergebenen oder verlorenen/vernichteten Schlüsseln ist der Button für die Ausgabe nicht vorhanden.
+
+Öffnen Sie auf einen Schlüssel mit dem Status *"im Depot"* (erkennbar an der grünen Einfärbung in der Tabelle oder Liste) mit Doppelkick. In der Details-Ansicht ist der Button `Ausgabe` sichtbar, falls Sie die notwendigen Zugriffsrechte für Schlüsselausgaben besitzen.
+
+> **Hinweis:** Der Button `Ausgabe` ist auch im Bearbeitungsmodus verfügbar.
+
+![Zur Index](_images/keys/issue-from-details.png)
+
+*Bild 19: Schlüssel in der Details-Ansicht ausgeben*
+
+## Rücknahme
+
+Sie können eine Schlüssel ausgeben, nur wenn dieser den passenden Status hat. Bei aktuell nicht vergebenen Schlüsseln ist der Button für die Rücknahme nicht vorhanden.
+
+Öffnen Sie auf einen Schlüssel mit dem Status *"ausgegeben"* (erkennbar an der roten Einfärbung in der Tabelle oder Liste) mit Doppelkick. In der Details-Ansicht ist der Button `Rücknahme` sichtbar, falls Sie die notwendigen Zugriffsrechte für Schlüsselrücknahmen besitzen.
+
+
+![Zur Index](_images/keys/return-from-details.png)
+
+*Bild 20: Schlüssel in der Details-Ansicht zurücknehmen*

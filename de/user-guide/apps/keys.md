@@ -99,21 +99,21 @@ Wenn Sie ein Datensatz mit Doppelklick oder über das Kontextmenü in der Detail
 
 ![Zur Index](_images/keys/key-admin.png)
 
-*Bild 8: Admin-Modus eines Schlüssels*
+*Bild 9: Admin-Modus eines Schlüssels*
 
 # Schlüssel/Karte ausgeben und zurücknehmen
 
 ## Ausgabe
 
-Sie können eine Schlüssel ausgeben, nur wenn dieser den passend Status hat. Bei aktuell vergebenen oder velorenen/vernichteten Schlüsseln ist der Button für die Ausgabe nicht vorhanden.
+Sie können eine Schlüssel ausgeben, nur wenn dieser den passenden Status hat. Bei aktuell vergebenen oder verlorenen/vernichteten Schlüsseln ist der Button für die Ausgabe nicht vorhanden.
 
 Öffnen Sie auf einen Schlüssel mit dem Status *"im Depot"* (erkennbar an der grünen Einfärbung in der Tabelle oder Liste) mit Doppelkick. In der Details-Ansicht ist der Button `Ausgabe` sichtbar, falls Sie die notwendigen Zugriffsrechte für Schlüsselausgaben besitzen.
 
 > **Hinweis:** Der Button `Ausgabe` ist auch im Bearbeitungsmodus verfügbar.
 
-![Zur Index](_images/keys/key-admin.png)
+![Zur Index](_images/keys/issue-from-details.png)
 
-*Bild 9: Schlüssel in der Details-Ansicht ausgeben*
+*Bild 10: Schlüssel in der Details-Ansicht ausgeben*
 
 Bei Klick auf den Button `Asgabe` wird ein Popup-Dialog mit Angaben zu beabsichtigten Schlüsselausgabe zu sehen. Foilgende Eingabefelder stehen zur Verfügung:
 
@@ -126,23 +126,30 @@ Bei Klick auf den Button `Asgabe` wird ein Popup-Dialog mit Angaben zu beabsicht
 
 ![Zur Index](_images/keys/issue-1.png)
 
-*Bild 10: Person und ggf. Datum/Uhrzeit oder Notizen eingeben*
+*Bild 11: Person und ggf. Datum/Uhrzeit oder Notizen eingeben*
 
 ![Zur Index](_images/keys/issue-sign-1.png)
 
-*Bild 11: Hochladen einer Unterschrift (1)*
+*Bild 12: Hochladen einer Unterschrift (1)*
 
 ![Zur Index](_images/keys/issue-sign-2.png)
 
-*Bild 11: Hochladen einer Unterschrift (2)*
+*Bild 13: Hochladen einer Unterschrift (2)*
 
 Nach Ausfüllen aller Eingabefelder und ggf. Hochladen der Unterschrift gehen Sie auf den Button `Ausführen` rechts unten im Popup-Dialog. Ein Ausgabeprotokoll wir automatisch generiert und kann heruntergeladen und bei Bedarf ausgedruckt und auf Papier unterschrieben werden.
 
 ![Zur Index](_images/keys/issue-protocol.png)
 
-*Bild 11: Protocol zum `Herunterladen` nach Klick auf `Ausführen`*
+*Bild 14: Protocol zum `Herunterladen` nach Klick auf `Ausführen`*
 
 ## Rücknahme
 
 Die Rücknahme eines Schlüssels erfolgt ähnlich wie die bereits beschriebene *Ausgabe*.
 
+Sie können eine Schlüssel ausgeben, nur wenn dieser den passenden Status hat. Bei aktuell nicht vergebenen Schlüsseln ist der Button für die Rücknahme nicht vorhanden.
+
+Öffnen Sie auf einen Schlüssel mit dem Status *"ausgegeben"* (erkennbar an der roten Einfärbung in der Tabelle oder Liste) mit Doppelkick. In der Details-Ansicht ist der Button `Rücknahme` sichtbar, falls Sie die notwendigen Zugriffsrechte für Schlüsselrücknahmen besitzen.
+
+![Zur Index](../admin/_images/keys/return-from-details.png)
+
+*Bild 15: Schlüssel in der Details-Ansicht zurücknehmen*
