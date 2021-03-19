@@ -11,14 +11,14 @@ Das vorliegende Dokument beschreibt die Nutzung vom Modul FlexiWorkplace für no
 
 ## Beschreibung
 
-Das VisionR-Modul FlexiWorkplace dient der flexiblen und mobilen Arbeitsplatzreservierung für Einzel- und Gruppenarbeitsplätze. Eine grafische  Oberfläche und Kalenderansicht erleichtern die Suche an einem oder  mehreren Standorten. Die Zubuchung von Assets und Services ist möglich. FlexiWorkplace kann im Browser oder auf einem mobilen Gerät wie Tablet-PC oder Smartphone genutzt werden.
+Das VisionR-Modul FlexiWorkplace dient der flexiblen und mobilen Arbeitsplatzreservierung für Einzel- und Gruppenarbeitsplätze. Eine grafische Oberfläche und Kalenderansicht erleichtern die Suche an einem oder mehreren Standorten. Die Zubuchung von Assets und Services ist möglich. FlexiWorkplace kann im Browser oder auf einem mobilen Gerät wie Tablet-PC oder Smartphone genutzt werden.
 
 Features im Überblick:
 
 * **Suchen nach freien Arbeitsplätzen:** Sie können freie Arbeitsplätze in Geschossplänen grafisch aussuchen. Nachdem Sie Ihre Suchkriterien (Anfang, Ende, Gebäude, Etage) eingegeben haben, sehen Sie die freien Arbeitsplätze im Plan und können diese reservieren.
 * **Reservieren mit QR-Code / Barcode:** Wenn Sie sich bereits vor Ort an einem freien Arbeitsplatz befinden, können Sie diesen per QR-Code gleich reservieren oder eine laufende Reservierung beenden.
 * **Einzelplatz reservieren:** Hier können Sie sich einen einzelnen Arbeitsplatz grafisch aussuchen und reservieren.
-* **Mehrere Arbeitsplätze reservieren:** Hier können Sie sich mehrere Arbeitsplatze grafisch aussuchen und zur gleichen Zeit reservieren, z. B. für Teamarbeit in einem gemeinsamen Projekt.
+* **Mehrere Arbeitsplätze reservieren:** Hier können Sie sich mehrere Arbeitsplätze grafisch aussuchen und zur gleichen Zeit reservieren, z. B. für Teamarbeit in einem gemeinsamen Projekt.
 * **Tabellenansicht mit Reservierungen:** Hier können Sie Reservierungen in einer Tabellenansicht anzeigen, durchsuchen und filtern. Die Daten können nach MS Excel exportiert werden.
 * **Kalender mit Reservierungen:** Hier können Sie alle verfügbaren Arbeitsplätze in einer Zeitachse sehen. Die bereits getätigten Reservierungen werden angezeigt. Sie können neue Reservierungen in der Zeitachse erstellen. Reservierungen können in Gruppen entweder nach Arbeitsplatz oder nach Person angezeigt werden.
 
