@@ -26,7 +26,7 @@ Main features:
 
 If you are using FlexiWorkplace from your VisionR mobile app the index page of the application will be automatically displayed. If you are using the browser version on your desktop computer or mobile device you can either use the `Apps` tab on the index page or call the direct link  `https://[VisionR address]/forms#/main/reservations_workplace`.
 
-![Index page](_images/flexi-workplace-desktop/index.png)
+![Index page](_images/flexi-workplace/index.png)
 
 *Image 1: App entrance using the index page on you mobile device*
 
@@ -40,7 +40,7 @@ Administrative tasks, like creating a new workplace unit, changing reservability
 
 A begin page is automatically displayed when you enter the module FlexiWorkplace  (see Image 2).
 
-![Index page](_images/flexi-workplace-desktop/begin.png)
+![Index page](_images/flexi-workplace/begin.png)
 
 *Image 2: Initial page "Begin"*
 
@@ -54,19 +54,19 @@ If you click on an event in the list you can see detailed information about the 
 
 The button with the three lines ![Menü-Button](_images/common/button-menu-22.png)in the top left corner opens the module main menu. By default this menu is minimized on mobile devices in order to save place.  In the desktop version of the software the main menu is on by default. The main menu button is a toggle button. Alternate clicks on it will either show or hide the main menu. The `main menu`-Button is available on all pages of the module. The module pages with their functionalities described in this document are opened by clicking on an entry in the main menu. The currently active page is colored orange in the main menu.
 
-![Go to index](_images/flexi-workplace-desktop/menu-off.png)
+![Go to index](_images/flexi-workplace/menu-off.png)
 
 *Image 3: The main menu can be switched on/off by clicking on the three lines* 
 
 A single click on the icon ![Logo](_images/common/visionr-logo-22.png) beside the three lines on the top left side opens the VisionR index page. If you want to leave the module FlexiWorkplace and open the index page you must confirm your action, because unsaved information, if any, will be lost (see Image 3). If you cancel this operation you will stay on the current page.
 
-![Go to index](_images/flexi-workplace-desktop/go-to-index.png)
+![Go to index](_images/flexi-workplace/go-to-index.png)
 
 *Image 4: Go to the index page* 
 
 You can display the VisionR main menu by clicking on the `Home` button in the bottom left corner. This buttons is visible only in the desktop version of the application. In the mobile version you must use a click on the logo in the top left corner. If you click on a button in the `Home` menu you will be redirected to the app you have chosen. The app will be opened in a new browser tab or in a new browser window. You must confirm leaving the current app if you have unsaved changes.
 
-![Index](_images/flexi-workplace-desktop/home-menu.png)
+![Index](_images/flexi-workplace/home-menu.png)
 
 *Image 5: Go to another app using the home button*
 
@@ -76,7 +76,7 @@ You can display the VisionR main menu by clicking on the `Home` button in the bo
 
 The first button on the begin page  `Search for free workplaces` opens the mask for workplace search (see Image 6).
 
-![Workplace search](_images/flexi-workplace-desktop/wpl-search.png)
+![Workplace search](_images/flexi-workplace/wpl-search.png)
 
 *Image 6: Open the workplace search*
 
@@ -105,13 +105,13 @@ After you fill in you search criteria and click on the `Search` button, the sear
 
 Search results with free workplaces will be displayed in the floor plan by default:
 
-![Result](_images/flexi-workplace-desktop/wpl-search-plan.png)
+![Result](_images/flexi-workplace/wpl-search-plan.png)
 
 *Image 7: Search results in the floor plan*
 
 You can display a legend with an overview of the free and occupied workplaces in the floor plan by clicking on the legend ![Button Legend](_images/common/button-legend-22.png) button:
 
-![Result](_images/flexi-workplace-desktop/wpl-search-legend.png)
+![Result](_images/flexi-workplace/wpl-search-legend.png)
 
 *Image 8: Display legend in the floor plan view*
 
@@ -119,19 +119,19 @@ You can display a legend with an overview of the free and occupied workplaces in
 
 You can click on the workplaces you are interested in and show details for the selected resource in a popup. 
 
-![Result](_images/flexi-workplace-desktop/wpl-search-details.png)
+![Result](_images/flexi-workplace/wpl-search-details.png)
 
 *Image 9: Workplace detail information in the floor plan*
 
 You can click on the icon or picture on the top of the popup with workplace details to popup a separate mask with full details for the workplace you have chosen. Workplace details are displayed in full screen mode on mobile devices. You can close the details mask by clicking on the button `Close` with the cross in the bottom right area.
 
-![Result](_images/flexi-workplace-desktop/wpl-details.png)
+![Result](_images/flexi-workplace/wpl-details.png)
 
 *Image 10: Display workplace details in separate popup*
 
 If you have chosen list view in your search, all found free workplaces for your search time will be displayed in a paged list.
 
-![Result](_images/flexi-workplace-desktop/wpl-search-list.png)
+![Result](_images/flexi-workplace/wpl-search-list.png)
 
 *Image 11: Display search results in a list view*
 
@@ -139,7 +139,7 @@ If you have chosen list view in your search, all found free workplaces for your 
 
 If you choose a particular workplace (like on the images above) the `Reserve` button in the bottom right corner will be activated. A form dialog will be popped up if you click on this button:
 
-![Result](_images/flexi-workplace-desktop/reserve.png)
+![Result](_images/flexi-workplace/reserve.png)
 
 *Image 12: Popup dialog for new reservation*
 
@@ -149,13 +149,13 @@ You can input the details of your reservation. Orders for inventory, catering an
 
 Error and warning messages are displayed in the bottom area of the reservation. Errors have red background and prevent you from saving your reservation. Warnings are displayed with orange background and can be closed in order to be able to click on the `Save` button.
 
-![Result](_images/flexi-workplace-desktop/reserve-warn.png)
+![Result](_images/flexi-workplace/reserve-warn.png)
 
 *Image 13: Errors and warnings in the reservation dialog*
 
 You must click on the `Save` button in the bottom right corner to be able to complete the reservation process. In the standard version of the software a popup question is automatically displayed, asking for an email confirmation of the event. If you confirm the email a message with an attached Outlook event will be sent to the organizer's email address. 
 
-![Result](_images/flexi-workplace-desktop/reserve-email.png)
+![Result](_images/flexi-workplace/reserve-email.png)
 
 *Image 14: Confirmation for email with Outlook invitation*
 
@@ -163,7 +163,7 @@ You must click on the `Save` button in the bottom right corner to be able to com
 
 After you save and close the new reservation, the search mask with the floor plan will be displayed again. You can see a grey background on the reserved workplace, which means it is already booked and can not be reserved by others for the same time.
 
-![Result](_images/flexi-workplace-desktop/after-reserve.png)
+![Result](_images/flexi-workplace/after-reserve.png)
 
 *Image 15: The workplace is immediately occupied after your new reservation (grey background)*
 
@@ -173,13 +173,13 @@ After you save and close the new reservation, the search mask with the floor pla
 
 You can use a mouse right click in the floor plan to display a small context menu popup, where you will have access to a multiple selection option.
 
-![Result](_images/flexi-workplace-desktop/plan-right-click.png)
+![Result](_images/flexi-workplace/plan-right-click.png)
 
 *Image 16: Long click calls popup context menu*
 
 Click on `Select box` and draw two points diagonally in the plan to select all the workplaces inside the resulting rectangular area simultaneously. 
 
-![Result](_images/flexi-workplace-desktop/plan-select-box.png)
+![Result](_images/flexi-workplace/plan-select-box.png)
 
 *Image 17: Multiple selection with select box (two clicks diagonally)*
 
@@ -187,46 +187,46 @@ If you want to select multiple workplaces one after another, you must use the mo
 
 As an alternative you can select multiple workplace in the list view. In order to do so, go to the list view and use the check box on the left side of the workplaces' pictures.
 
-![Result](_images/flexi-workplace-desktop/multiple-list.png)
+![Result](_images/flexi-workplace/multiple-list.png)
 
 *Image 18: Multiple selection in the list view*
 
 After you select multiple workplaces, you will be able to make a group reservation by clicking on the `Reserve` button in the bottom right corner.  A dialog for the group reservation pops up. You can fill in the information for the multiple reservation and click on `Save`. All selected workplaces will be occupied separately inside the group reservation. At the beginning all the workplaces are reserved by you. You can later assign the reserved workplaces to different members of the team. You can do this by opening the workplaces one by one and editing the input field "Reserved for".
 
-![Result](_images/flexi-workplace-desktop/multiple-dialog.png)
+![Result](_images/flexi-workplace/multiple-dialog.png)
 
 *Image 19: Multiple reservations (group reservation for teams)*
 
 # Reserve with OR code / barcode
 Click on the button `Reserve with QR code / barcode` on the begin page in FlexiWorkplace. As an alternative you can use the main menu, which can be displayed by clicking on the three lines beside the logo, if hidden. Use the button `QR code / barcode` in the main menu. A page for ad-hoc reservations will be displayed.
 
-![Result](_images/flexi-workplace-desktop/barcode-dropdown.png)
+![Result](_images/flexi-workplace/barcode-dropdown.png)
 
 *Image 20: Scan QR code / barcode to identify a workplace*
 
 To be able to use the scan feature, the workplace you are standing in front of must have a QR code or barcode sticker on it. In the desktop version or if a sticker is missing, you can select the workplace in the dropdown or by using the floor plan. You can select the workplace in an advanced select view, making use of search options like search field, hierarchy tree by location etc. You can switch between list and table view in the search popup using the button *"View type" > "Table"* in the context menu, which is reachable by clicking on the three lines in the top right corner. The search view pops up, when you double click the input for "Workplace unit".
 
-![Result](_images/flexi-workplace-desktop/barcode-search-table.png)
+![Result](_images/flexi-workplace/barcode-search-table.png)
 
 *Image 21: Select workplace in a search popup*
 
 You can select a workplace in the floor plan using the menu button with the three lines at the right end of the input for "Workplace unit". This button pops up a menu, where an option `From drawing` is available. Click on this option and the floor plan pops up in select mode. Here you can select the preferred workplace and confirm by clicking on the `Select` button with the tick in the bottom right corner of the popup.
 
-![Result](_images/flexi-workplace-desktop/barcode-rel-menu.png)
+![Result](_images/flexi-workplace/barcode-rel-menu.png)
 
 *Image 22: Menu in the input field*
 
-![Result](_images/flexi-workplace-desktop/barcode-plan.png)
+![Result](_images/flexi-workplace/barcode-plan.png)
 
 *Image 23: Select a workplace in the floor plan*
 
 On selecting a workplace in the dropdown field the available details are displayed following your input. Besides workplace information there is an icon with the workplace location in the drawing. All attached workplace pictures are also displayed. Under the gallery a small calendar view with a timeline is displayed, showing all reservations for the selected workplace for a week. This calendar view can be zoomed and panned using your fingers on a mobile device or the mouse scroll button on a desktop computer. There is a list of the overlapping reservations at the bottom, where you can edit or cancel your own reservations. If there are no overlapping reservations and no error messages, you can click on the button `Reserve` in the top area under the input fields. A reservation process will be started as described in the previous sections.
 
-![Result](_images/flexi-workplace-desktop/barcode-details-1.png)
+![Result](_images/flexi-workplace/barcode-details-1.png)
 
 *Image 24: Workplace details after input of workplace number (1)*
 
-![Result](_images/flexi-workplace-desktop/barcode-details-2.png)
+![Result](_images/flexi-workplace/barcode-details-2.png)
 
 *Image 25: Workplace details after input of workplace number (2)*
 
@@ -234,13 +234,13 @@ On selecting a workplace in the dropdown field the available details are display
 
 You can click on the button `My reservations` on the *"begin"* page or use the main menu to open a list with your own reservations.
 
-![Result](_images/flexi-workplace-desktop/my-res.png)
+![Result](_images/flexi-workplace/my-res.png)
 
 *Image 26: List view of your own reservations*
 
 The list with the own reservations can be filtered by using the input fields in the main menu on the left side. You can display the main menu by clicking on the three lines in the top left corner if it is hidden. Making an input in the filter input fields on the right side applies immediately a search condition to the list of your reservations.
 
-![Result](_images/flexi-workplace-desktop/my-res-filter.png)
+![Result](_images/flexi-workplace/my-res-filter.png)
 
 *Image 27: Filter the list with your reservations*
 
@@ -250,13 +250,13 @@ The entries in the list with your own reservations can be either edited by click
 
 If you click on the button `All reservations` on the *"begin"* page or use the main menu, a list of all reservations will be displayed.
 
-![Result](_images/flexi-workplace-desktop/all-res.png)
+![Result](_images/flexi-workplace/all-res.png)
 
 *Image 28: List of all reservations*
 
 You can additionally filter the results in the list of all reservations by using the filter section in the main menu. If the main menu is hidden, you can make it appear by clicking on the three lines in the top left corner beside the logo. Making an input in the filter fields applies immediately a search condition to the list of all reservations.
 
-![Result](_images/flexi-workplace-desktop/all-res-filter.png)
+![Result](_images/flexi-workplace/all-res-filter.png)
 
 *Image 29: Filter the results in the list of all reservations*
 
@@ -266,25 +266,25 @@ You can use two different calendar views. Both are displayed as zoomable timelin
 
 ## Timeline by workplace
 
-![Result](_images/flexi-workplace-desktop/timeline-wpl.png)
+![Result](_images/flexi-workplace/timeline-wpl.png)
 
 *Image 30: Timeline by workplace*
 
 You can additionally filter reservations in the timeline by using the filter section in the main menu. If the main menu is hidden, you can display it by clicking on the three lines in the top left corner beside the logo. Inputs in the filter section are used immediately as search condition for the displayed reservations in the timeline.
 
-![Result](_images/flexi-workplace-desktop/timeline-wpl-filter.png)
+![Result](_images/flexi-workplace/timeline-wpl-filter.png)
 
 *Image 31: Filter in the timeline by workplace*
 
 If you want to make a reservation for a preferred workplace, you can click in the timeline and use the button `Reserve` in the small popup. A reservation dialog with inputs about your new reservation appears.
 
-![Result](_images/flexi-workplace-desktop/timeline-wpl-reserve.png)
+![Result](_images/flexi-workplace/timeline-wpl-reserve.png)
 
 *Image 32: Start a new reservation in the timeline by workplace*
 
 ## Timeline by person
 
-![Result](_images/flexi-workplace-desktop/timeline-person.png)
+![Result](_images/flexi-workplace/timeline-person.png)
 
 *Image 33: Timeline by person*
 
@@ -292,7 +292,7 @@ You can additionally filter reservations in the timeline by using the filter sec
 
 If you want to make a reservation for a person in the calendar view, you can click in the timeline and use the button `Reserve` in the small popup. A reservation dialog with inputs about your new reservation appears.
 
-![Result](_images/flexi-workplace-desktop/timeline-person-reserve.png)
+![Result](_images/flexi-workplace/timeline-person-reserve.png)
 
 *Image 34: Start a new reservation in the timeline by person*
 
