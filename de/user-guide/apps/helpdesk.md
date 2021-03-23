@@ -19,9 +19,10 @@ Features im Überblick:
 * **Detailinformationen** einer Meldung aufrufen
 * Meldung **bearbeiten**
 * Raum und/oder Anlage **im Plan** auswählen
-* **Übersicht** der eigenen Meldungen
-* **Durchsuchen** von Meldungen, abhängig von den Zugriffsberechtigungen
+* Übersicht **eigener** Tätigkeiten
+* Übersicht **aller** Tätigkeiten
 * **Tätigkeiten** zu einer Meldung erstellen und bearbeiten
+* **Durchsuchen** von Meldungen, abhängig von den Zugriffsberechtigungen
 * **Grafische Visualisierung** von Meldungen im Geschossplan
 * **Kalenderansicht** der Meldungen nach Gebäude, Anlage oder Person
 
@@ -182,3 +183,39 @@ Wenn Sie ein Datensatz mit Doppelklick oder über das Kontextmenü in der Detail
 ![Zur Index](_images/helpdesk/notice-admin.png)
 
 *Bild 21: Admin-Modus einer Meldung*
+
+# Tätigkeiten für Meldungen
+
+Im Modul Helpdesk können für die Meldungen mehrfach Tätigkeiten hinterlegt werden. Bei Prüfmeldungen werden die im Modul "Wartung" definierte Leistungen verwendet, um die Art und Anzahl der an der Meldung angehängten Tätigkeiten zu definieren. Beim Erstellen von Störmeldungen wird standardmäßig eine Tätigkeit mit erstellt, die als Platzhalter für die Arbeiten rund um die Behebung der Störung zur Verfügung steht. Weitere Tätigkeiten durch verschiede Bearbeiter können jederzeit hinzugefügt werden, um die Störungsbehebung genau dokumentieren zu können.
+
+## Übersicht eigener Meldungen
+
+Um eine Liste der eignen mit Meldungen verbundenen Tätigkeiten aufzurufen, gehen Sie im Hauptmenü auf den Eintrag `Meine Tätigkeiten`.
+
+![Zur Index](_images/helpdesk/actions-own.png)
+
+*Bild 22: Eigene Tätigkeiten*
+
+## Übersicht aller Tätigkeiten
+
+Um eine Liste der eignen mit Meldungen verbundenen Tätigkeiten aufzurufen, gehen Sie im Hauptmenü auf den Eintrag `Alle Tätigkeiten`.
+
+![Zur Index](_images/helpdesk/actions.png)
+
+*Bild 23: Alle Tätigkeiten*
+
+## Neue Tätigkeit erstellen
+
+Öffnen Sie die Meldung, die bearbeitet werden soll. Gehen Sie auf den Reiten *Status > Tätigkeiten*. Klicken Sie auf die Tabelle mit der Maus. Gehen Sie auf den Button mit dem eigekreisten Plus. Bei Klick wir eine neue Tätigkeit zur geöffneten Meldung generiert. Im Popup können Sie die Details der Tätigkeit eingeben: Begin, Dauer, Tätigkeitsname usw.
+
+![Zur Index](_images/helpdesk/action-new-in-notice.png)
+
+*Bild 24: Erstellen einer Tätigkeit in der Meldung*
+
+## Tätigkeiten bearbeiten
+
+Sie können eine Tätigkeit direkt in der Liste eigener oder aller Tätigkeiten mit Doppelklick öffnen. Alternativ können Sie eine Meldung öffnen und auf den Reiter *Status > Tätigkeiten* gehen und dort die gewünschte Tätigkeit doppelklicken. Alternativ nutzen Sie für die markierte Tätigkeit den Rechtsklick und danach `Bearbeiten` vom Kontextmenü. In der angezeigten Formularmaske müssen Sie die Pflichtfelder ausfüllen, bevor Sie auf `Speichern` gehen können. Fehlermeldungen sind im unteren Bereich des Popups in rot ersichtlich. Warnungen werden mit orangenem Hintergrund dargestellt und können auf das weiße Kreuzchen am rechten Ende ausgeblendet werden.
+
+![Zur Index](_images/helpdesk/action-edit.png)
+
+*Bild 25: Bearbeitung einer Tätigkeit in der Meldung*
