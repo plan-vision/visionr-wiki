@@ -7,7 +7,7 @@
 
 ## Allgemein
 
-Das vorliegende Dokument beschreibt die Nutzung vom Modul Schließmanagement  für normale Benutzer auf auf einem Desktop-Computer (PC, Laptop oder Mac). Die Nutzung auf einem mobilen Gerät (Tablet PC, Smartphone)  ist auch möglich. Mobile Geräte können speziell für digitale Unterschriften mit dem Finger oder einem digitalen Stift bei Schlüsselausgaben und -Rücknahmen eingesetzt werden. Die Dokumentation für die App "Schlüssel" ist mit Fokus auf die dynamischen Veränderungen erstellt worden. Die Verwaltung der Stammdaten (neue Schließanlagen, neue Aufbewahrungsorte, grafische Verknüpfungen usw.) ist im Abschnitt [Admin Schließmanagement](../admin/keys) beschrieben.
+Das vorliegende Dokument beschreibt die Nutzung vom Modul Schließmanagement  für normale Benutzer auf einem Desktop-Computer (PC, Laptop oder Mac). Die Nutzung auf einem mobilen Gerät (Tablet PC, Smartphone)  ist auch möglich. Mobile Geräte können speziell für digitale Unterschriften mit dem Finger oder einem digitalen Stift bei Schlüsselausgaben und -Rücknahmen eingesetzt werden. Die Dokumentation für die App "Schlüssel" ist mit Fokus auf die dynamischen Veränderungen erstellt worden. Die Verwaltung der Stammdaten (neue Schließanlagen, neue Aufbewahrungsorte, grafische Verknüpfungen usw.) ist im Abschnitt [Admin Schließmanagement](../admin/keys) beschrieben.
 
 ## Beschreibung
 
@@ -59,7 +59,7 @@ Der Button mit den drei Strichen ![Menü-Button](_images/common/button-menu-22.p
 
 *Bild 3: Hauptmenü über die drei Striche neben dem Logo ein/aus* 
 
-Ein Klick auf die Ikone ![Logo](_images/common/visionr-logo-22.png) neben den drei Strichen oben links führt zur VisionR-Indexseite. Wenn Sie das Modul FlexiWorkplace verlassen und zur Indexseite springen möchten, müssen Sie auf den Button mit dem Häkchen zur Bestätigung klicken (siehe Bild 3). Bei Abbrechen bleiben Sie auf der aktuellen Maske.
+Ein Klick auf die Ikone ![Logo](_images/common/visionr-logo-22.png) neben den drei Strichen oben links führt zur VisionR-Indexseite. Wenn Sie das Modul Schließmanagement verlassen und zur Indexseite springen möchten, müssen Sie auf den Button mit dem Häkchen zur Bestätigung klicken (siehe Bild 3). Bei Abbrechen bleiben Sie auf der aktuellen Maske.
 
 ![Zur Index](_images/keys/go-to-index.png)
 

@@ -7,7 +7,7 @@
 
 ## Allgemein
 
-Das vorliegende Dokument beschreibt die Nutzung vom Modul FlexiWorkplace für normale Benutzer auf auf einem Desktop-Computer (PC, Laptop oder Mac). Die Nutzung auf einem mobilen Gerät (Tablet PC, Smartphone)  ist im Abschnitt [FlexiWorkplace - mobil](flexi-workplace-mobile) beschrieben.
+Das vorliegende Dokument beschreibt die Nutzung vom Modul FlexiWorkplace für normale Benutzer auf einem Desktop-Computer (PC, Laptop oder Mac). Die Nutzung auf einem mobilen Gerät (Tablet PC, Smartphone)  ist im Abschnitt [FlexiWorkplace - mobil](flexi-workplace-mobile) beschrieben.
 
 ## Beschreibung
 
