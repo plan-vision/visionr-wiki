@@ -1,7 +1,7 @@
 <!-- TITLE: Flächenmanagement -->
 <!-- SUBTITLE: Benutzerhandbuch für die App für Modul "Flächenmanagement" -->
 
-![Titelseite Flächenmanagement](_images/_title/spaces.png) 
+<!-- ![Titelseite Flächenmanagement](_images/_title/spaces.png) -->
 
 # Flächenmanagement - App
 
