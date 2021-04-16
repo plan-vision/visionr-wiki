@@ -1,7 +1,7 @@
 <!-- TITLE: Flächenmanagement -->
 <!-- SUBTITLE: Benutzerhandbuch für die App für Modul "Flächenmanagement" -->
 
-<!-- ![Titelseite Schlüssel](_images/_title/spaces.png) -->
+![Titelseite Flächenmanagement](_images/_title/spaces.png) 
 
 # Flächenmanagement - App
 
@@ -29,9 +29,9 @@ Features im Überblick:
 * **Raumbuch** anzeigen und auswerten
 * **Arbeitsplätze** anzeigen und auswerten
 * **Liegenschafts-**, **Gebäude-** und **Geschossliste** anzeigen und auswerten
-* Neue Liegenschaft, neues Gebäude, neues Geschoss **erstellen**
-* Neuen Raum **grafisch oder alphanumerisch erstellen**
-* Neuen Arbeitsplatz oder neue Fläche im Raum **grafisch oder alphanumerisch erstellen**
+* Neue **Liegenschaft, neues Gebäude, neues Geschoss erstellen**
+* Neuen **Raum grafisch oder alphanumerisch erstellen**
+* Neuen **Arbeitsplatz** oder neue **Fläche im Raum grafisch oder alphanumerisch erstellen**
 * Liegenschaft, Gebäude, Geschoss, Raum oder Arbeitsplatz **beenden**
 * **Bodenbeläge** mehrfach verknüpfen
 * **Belegungen** (Kostenstellen, Mieter, Personen) erstellen und bearbeiten
@@ -116,3 +116,101 @@ Wenn Sie ein Datensatz mit Doppelklick oder über das Kontextmenü in der Detail
 ![Zur Index](_images/spaces/space-admin.png)
 
 *Bild 9: Admin-Modus eines Raums*
+
+# Raumbuch anzeigen und auswerten
+
+Bei öffnen der App des Moduls Flächenmanagement wir automatisch das Raumbuch angezeigt. Links im Hauptmenü ist der entsprechende Eintrag *Raum* orange eingefärbt. Auf einem Mobilen Gerät wird eine Listen- und am Desktop eine Tabellenansicht angezeigt.
+
+> **Hinweis:** Um die Ansicht der Daten zu ändern, gehen Sie im Kontextmenü auf die drei Striche oben rechts (unter der Benutzerikone), danach auf den Menüeintrag `Anzeigetyp`  und anschließend auf die gewünschte Ansicht.
+
+![Zur Index](_images/spaces/space-change-view.png)
+
+*Bild 10: Änderung der Raumbuch-Ansicht*
+
+In der aktuellen Ansicht können Sie die Räume nach der gewünschten Spalten sortieren, indem Sie auf die Spaltenüberschrift klicken. Abwechselnde Klicks ändern die Sortierreihenfolge. Sie können die Datensätze filtern, indem Sie die Baumansicht nutzen, oder den Button mit der Lupe oben rechts anklicken und einen Suchbegriff eingeben.
+
+Wenn Sie einen oder mehrere Datensätze auswählen wird im unteren Bereich Summenfelder angezeigt.
+
+> **Hinweis:** Standardmäßig werden die wichtigsten Kennzahlen im Summenbereich angezeigt. Nach Kundenwunsch können zusätzliche Summenfelder eingebaut werden.
+
+![Zur Index](_images/spaces/space-select-rows.png)
+
+*Bild 11: Mehrere Zeilen auswählen und automatische Summen unten ansehen*
+
+In der aktuellen Ansicht können Sie die Datensätze einfärben lassen indem Sie vorgegebene farbige Hervorhebungen nutzen. Dazu öffnen Sie das Kontextmenü (oben rechts) oder klicken Sie mit rechter Maustaste im Tabellenbereich.
+
+![Zur Index](_images/spaces/space-menu-with-right-click.png)
+
+*Bild 12: Kontextmenü mit rechter Maustaste, danach auf `Hervorhebung`*
+
+Als Ergebnis werden die Zeilen in der Tabelle per Datenbankabfrage dynamisch eingefärbt.
+
+![Zur Index](_images/spaces/space-highlighting-by-usage.png)
+
+*Bild 13: Kontextmenü mit rechter Maustaste, danach auf `Hervorhebung`*
+
+# Neuen Raum erstellen
+
+## Raumpolygon zeichnen
+
+Wenn Sie die Zugriffsrechte für das Modul Web-CAD besitzen, können Sie im Geschossplan einen neuen Raum zeichnen. Bei Speichern wir der neue Raum auch als alphanumerischer Datensatz im Raumbuch angelegt. Es ist wichtig, dass vorher ein BGF-Polygon mit verknüpftem Geschossdatensatz vorhanden ist. Achten Sie auf die Bezeichnung der aktiven Layergruppe unten links in der Zeichnung. Diese muss "Raum" oder "Raumnutzung nach DIN 277" heißen. Ggf. müssen Sie  eine der genannten Layergruppen oder eine andere geeignete Ansicht durch Klick auf den Layergruppen-Button auswählen. Öffnen Sie den gewünschten Plan im Web-CAD und klicken Sie auf den Button `Bearbeiten` unten links.
+
+![Zur Index](_images/spaces/cad-draw-space-edit.png)
+
+*Bild 14: Öffnen Sie den Geschossplan und gehen Sie auf `Bearbeiten` unten rechts*
+
+Gehen Sie dann auf den Button mit dem Polygon im Zeichnungsmenü im mittleren oberen Bereich der Zeichnung.
+
+![Zur Index](_images/spaces/cad-draw-space-select-odef.png)
+
+*Bild 15: Wählen Sie `Polygon Raum innen` im Menü oben in der Mitte*
+
+Sie können mit dem Zeichnen des Polygon beginnen. Fangpunkte werden  an Ecken und Schnittpunkte oder entlang von Linien automatisch genutzt. Sie können zusätzlich Längen- oder Winkelfang im Menü oben mittig aktivieren. Sie beenden das Zeichnen entweder durch drücken der Eingabetaste oder durch Klick auf den Button mit dem Häkchen neben `Fertigstellen` unten mittig in der Zeichnung.
+
+![Zur Index](_images/spaces/cad-draw-space.png)
+
+*Bild 16: Zeichnen eines Raumpolygons mit Maus oder Finger*
+
+Nach Fertigstellung haben Sie die Möglichkeit zusätzlich das gezeichnete Polygon zu korrigieren, indem Sie mit einfachen Mauskick neue Punkte erstellen und bewergen oder nicht gewünschte Punkte entfernen. Mausrechtsklick auf einen Punkt bietet die Möglichkeit "Eckpunkt entfernen" an.
+
+![Zur Index](_images/spaces/cad-draw-space-confirm.png)
+
+*Bild 17: Polygon durch Zusatzpunkte korrigieren*
+
+![Zur Index](_images/spaces/cad-draw-space-correct.png)
+
+*Bild 18: Polygon durch Entfernen von Punkten korrigieren (Mausrechtsklick auf Punkt)*
+
+Nachdem Sie das Polygon gezeichnet und ggf. korrigiert haben können Sie auf das Häkchen neben `Bestätigen` unten in der Mitte gehen. Ein Klick auf das Kreuzchen bricht die Operation ab.
+
+Alle gezeichnete Elemente sind nur temporär vorhanden. Die gezeichnete Polygone und die dazigehörigen Einträge im Raumbuch werden erst durch Klick auf den Button `Speichern` unten rechts in der Datenbank angelegt.
+
+![Zur Index](_images/spaces/cad-draw-space-save.png)
+
+*Bild 19: Erst durch Klick auf `Speichern` werden die Daten erstellt*
+
+## Raum alphanumerisch erstellen
+
+In manchen Fällen ist es sinnvoll einen Raum ohne grafische Repräsentation durch ein Raumpolygon in der Datenbank anzulegen. Dazu gehen Sie in der aktuellen Ansicht (Tabelle, Liste, Kacheln,...) auf den Menüeintrag `+ Neu`.
+
+![Zur Index](_images/spaces/space-new-button.png)
+
+*Bild 20: Button `+ Neu` im Kontextmenü anklicken*
+
+Wählen Sie anschließend den Raumtyp: entweder Innen- oder Außenraum. Für alle Räume innerhalb eines BGFs ist der Typ "Raum innen" auszuwählen, auch wenn es sich um offene Flächen wie Terrassen handelt.
+
+![Zur Index](_images/spaces/space-new-odef.png)
+
+*Bild 21: Raumtyp für den neuen Raum auswählen*
+
+Es wird ein Dialog für die Erstellung eines neuen Raums angezeigt. Falls Sie in der Baumansicht ein gewünschtes Gebäude und Geschoss ausgewählt haben, werden diese im Formular automatisch eingetragen. Im unteren Bereich der Eingabemaske werden Warnungen in orangener und Fehler in roter Farbe angezeigt. Warnungen werden für nicht ausgefüllte  Pflichtfelder ausgegeben. Innerhalb eines Gebäudes müssen Raumnummern eindeutig sein. Falls Sie versuchen eine bereits vorhandene Raumnummer im ausgewählten Gebäude einzugeben, wird eine Fehlermeldung ausgegeben.
+
+![Zur Index](_images/spaces/space-new-dialog.png)
+
+*Bild 22: Raumdaten in den Formularfeldern eingeben*
+
+Wenn Sie alle gewünschte Rauminformationen eingegeben Haben müssen Sie auf den Button `Speichern` unten rechts im Formular klicken, um den neuen Raum in der Datenbank anlegen zu lassen. Bis dahin sind alle eingegebene Daten temporär. Alternativ können Sie mit Klick auf `Abbrechen` die Erstellung unterbrechen.
+
+![Zur Index](_images/spaces/space-new-save.png)
+
+*Bild 23: Raumtyp für den neuen Raum auswählen*
