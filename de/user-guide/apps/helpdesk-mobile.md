@@ -180,7 +180,7 @@ Wenn Sie ein Datensatz mit Doppelklick oder über das Kontextmenü in der Detail
 
 # Tätigkeiten für Meldungen
 
-Im Modul Helpdesk können für die Meldungen mehrfach Tätigkeiten hinterlegt werden. Bei Prüfmeldungen werden die im Modul "Wartung" definierte Leistungen verwendet, um die Art und Anzahl der an der Meldung angehängten Tätigkeiten zu definieren. Beim Erstellen von Störmeldungen wird standardmäßig eine Tätigkeit mit erstellt, die als Platzhalter für die Arbeiten rund um die Behebung der Störung zur Verfügung steht. Weitere Tätigkeiten durch verschiede Bearbeiter können jederzeit hinzugefügt werden, um die Störungsbehebung genau dokumentieren zu können.
+Im Modul Helpdesk können für die Meldungen mehrfach Tätigkeiten hinterlegt werden. Bei Prüfmeldungen werden die im Modul "Instandhaltung" definierte Leistungen verwendet, um die Art und Anzahl der an der Meldung angehängten Tätigkeiten zu definieren. Beim Erstellen von Störmeldungen wird standardmäßig eine Tätigkeit mit erstellt, die als Platzhalter für die Arbeiten rund um die Behebung der Störung zur Verfügung steht. Weitere Tätigkeiten durch verschiede Bearbeiter können jederzeit hinzugefügt werden, um die Störungsbehebung genau dokumentieren zu können.
 
 ## Übersicht eigener Meldungen
 

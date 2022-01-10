@@ -22,13 +22,12 @@ Deutsch | [English](../../en/user-guide/user-guide) | *Sie sind hier: [Home](../
 * Verträge : App | Admin
 * Projekte : App | Admin
 * Kosten : App | Admin
-* Wartung : App | Admin
 * **Schließmanagement** : [App](apps/keys) | [Admin](admin/keys)
 * **Mietmanagement** : [App](apps/rentals) | Admin
 * Betriebskosten : App | Admin
 * Verträge : App | Admin
 * Helpdesk : App | Admin
-* Wartung : App | Admin
+* Instandhaltung : App | Admin
 * Reinigung : App | Admin
 * Vertrieb : App | Admin
 * Verbräuche  : App | Admin
