@@ -29,10 +29,16 @@ Im VisionR Server Manager können in der projektspezifischen CONFIG in JSON-Form
 {
     ... ,
     "additional" : {
-    	"rest.sessions" : "01234567890123456 guest | abc1234567890 admin"
+    	"rest.sessions" : "01234567890123456 guest, abc1234567890 admin"
 	}
 }
 ```
+
+Mögliche Trennzeichen sind: 
+
+* Komma: `,` 
+* Pipe: `|`
+* Seitenumbruch: `\n`
 
 ### URL-Authentifizierung
 
@@ -48,7 +54,7 @@ Die `xconf-`Einstellung zum Ein- und Ausschalten der URL-Auth-Option ist:
 
 Beispiel: `Authorization: Token abc1234567890`
 
-### Authentifizierung in der Body mit JSON:
+### Authentifizierung in der Body mit JSON
 
 Beispiel: `{ authToken : "abc1234567890" , ... }`
 
@@ -103,7 +109,7 @@ Als Test-Client kann ein Browser wie Chrome oder MS Edge genutzt werden:
 
 ```javascript
 var query = {
-   	authToken : "VcDkEmFRS3eG9Q74S",
+   	authToken : "abs1234567890",
 		test : "best",
 		num : 7
 	};
