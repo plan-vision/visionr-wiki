@@ -1,7 +1,7 @@
 <!-- TITLE: REST-Schnittstelle-->
 <!-- SUBTITLE: Überblick REST-Schnittstelle -->
 
-<!-- ![Titelseite allgemein](_images/_title/rest-interface.png) -->
+<!-- ![Titelseite allgemein](_images/_title/rest-interface.png) --> 
 
 Deutsch | [English](../../../en/user-guide/system/reports) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > REST-Schnittstelle*
 
@@ -9,7 +9,7 @@ Deutsch | [English](../../../en/user-guide/system/reports) | *Sie sind hier: [Ho
 
 ## Allgemeine Beschreibung
 
-VisionR bietet neben anderen Schnittstellentechnologien (JDBC, WebService, LDAP, CSV, XLSX etc.) auch REST-Schnittstellen an. Die REST-Schnittstellen werden im jeweiligen Modul definiert und einzeln freigegeben. Die definierten Schnittstellen können im Lese- und Schreibmodus verwendet werden. Bei der Schnittstellendefinition die drei möglichen Authentifizierungsmethoden beachtet werden (URL, Header, JSON in der Request-Body). Es stehen viele Formate als Antwort auf einen Schnittstellenaufruf zur Verfügung, z.B. JSON, XML, CSV. Bei komplexeren Schnittstellen können weitere Formate eingesetzt werden, wie z.B. PDF, XLSX oder DWG.
+VisionR bietet neben anderen Schnittstellentechnologien (JDBC, WebService, LDAP, CSV, XLSX etc.) auch REST-Schnittstellen an. Die REST-Schnittstellen werden im jeweiligen Modul definiert und einzeln freigegeben. Die definierten Schnittstellen können im Lese- und Schreibmodus verwendet werden. Bei der Schnittstellendefinition müssen die drei möglichen Authentifizierungsmethoden beachtet werden (URL, Header, JSON in der Request-Body). Es stehen viele Formate als Antwort auf einen Schnittstellenaufruf zur Verfügung, z.B. JSON, XML, CSV. Bei komplexeren Schnittstellen können weitere Formate eingesetzt werden, wie z.B. PDF, XLSX oder DWG.
 
 # Authentifizierung
 
@@ -21,7 +21,16 @@ Bei Aufrufen der definierten und freigegebenen REST-Schnittstellen können folge
 * Auth in Request-Header
 * Auth in der Request-Body als JSON
 
-Der Token wird im VisionR Server Manager in der XCONF-Konfiguration als Session-ID mit entsprechendem Account angegeben und dem Kunden mitgeteilt. Normalerweise. Die Definition der freigegebenen Tokens befindet sich in der Datei `[VisionR Server]/etc/core/conf/rest.xconf`.
+Der Token wird im VisionR Server Manager in der XCONF-Konfiguration als Session-ID mit entsprechendem Account angegeben und dem Kunden mitgeteilt. Die Definition der freigegebenen Tokens befindet sich in der Datei `[VisionR Server]/etc/core/conf/rest.xconf` im folgenden Format:
+
+```xml
+<param name="rest.sessions" type="string"><![CDATA[
+	01234567890123456 guest,
+	abc1234567890 admin
+]]></param>
+```
+
+
 
 Im VisionR Server Manager können in der projektspezifischen CONFIG in JSON-Format Tokens hinzugefügt und entfernt werden:
 
@@ -109,9 +118,11 @@ Als Test-Client kann ein Browser wie Chrome oder MS Edge genutzt werden:
 
 ```javascript
 var query = {
-   	authToken : "abs1234567890",
+   		authToken : "abs1234567890",
 		test : "best",
-		num : 7
+		num : 7,
+    	block : [1,20],
+    	mode : "read"
 	};
 var xhr = new XMLHttpRequest();			
 var url = "https://visionr-server/rest/contracts/contract";
@@ -249,7 +260,171 @@ if(s.size < sz)
 
 ## Response
 
-Die Antwort auf die REST-Schnittstellenabfrage kann als JSON, XML oder CSV zusammengesetzt sein. Beispiel einer Antwort (Response):
+Die Antwort auf die REST-Schnittstellenabfrage kann als JSON, XML oder CSV zusammengesetzt sein.
+
+### Response als XML
+
+Response-Header einer Antwort in XML-Format:
+
+```htaccess
+HTTP/1.1 200 OK
+Date: Tue, 25 Jan 2022 09:57:36 GMT
+Cache-Control: private, max-age=0
+Cache-Control: post-check=0, pre-check=0
+Pragma: no-cache
+Content-Type: text/xml;charset=utf-8
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+```
+
+Beispiel einer Antwort (Response) in XML-Format:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<export>
+<params>[de-DE, block, 1, 3]</params>
+<mode>block</mode>
+<size>3</size>
+<lang>de-DE</lang>
+<data>
+    <contract>
+        <seq>1</seq>
+        <id>1003</id>
+        <type>Vollservice</type>
+        <objstr>CON0000001002 | Wartung  Aufzüge (3 Stück) | Wartungsfirma A > Plan-Vision GmbH</objstr>
+        <code>CON0000001002</code>
+        <name>Wartung  Aufzüge (3 Stück)</name>
+        <description>Wartung  Aufzüge (3 Stück)</description>
+        <customer>Plan-Vision GmbH</customer>
+        <vendor>Wartungsfirma A</vendor>
+        <is_open_ended>false</is_open_ended>
+        <begin_date>30.10.2018</begin_date>
+        <end_date>29.10.2023</end_date>
+        <duration>5 Jahre</duration>
+        <insert_time>2012-10-30 13:58:07.855</insert_time>
+        <update_time>2021-11-11 17:39:02.753</update_time>
+        <uuid>uqXzDtQwSPm3-QVKTW86qw</uuid>
+        <is_archived>false</is_archived>
+        <documents>
+			<document>/documents/4GCsQdXsSV-P-YkXeh_MHg.uuid.pdf</document>
+		</documents>
+    </contract>
+    <contract>
+        <seq>2</seq>
+        <id>1005</id>
+        <type>Vollservice</type>
+        <objstr>CON0000001003 | Wartung  Aufzüge (3 Stück) | Wartungsfirma A > Plan-Vision GmbH</objstr>
+        <code>CON0000001003</code>
+        <name>Wartung  Aufzüge (3 Stück)</name>
+        <description>Wartung  Aufzüge (3 Stück)</description>
+        <customer>Plan-Vision GmbH</customer>
+        <vendor>Wartungsfirma A</vendor>
+        <is_open_ended>false</is_open_ended>
+        <begin_date>30.10.2012</begin_date>
+        <end_date>29.10.2022</end_date>
+        <duration>10 Jahre</duration>
+        <insert_time>2012-10-30 13:58:07.855</insert_time>
+        <update_time>2019-04-17 19:00:01.414</update_time>
+        <uuid>DdVfyFO1TreNHskMMCN_ig</uuid>
+        <is_archived>false</is_archived>
+        <documents>
+			<document>/documents/4GCsQdXsSV-P-YkXeh_MHg.uuid.pdf</document>
+		</documents>
+    </contract>
+</data>
+</export>
+
+```
+
+### Response als JSON
+
+Response-Header einer Antwort in JSON-Format:
+
+```htaccess
+HTTP/1.1 200 OK
+Date: Tue, 25 Jan 2022 10:00:49 GMT
+Cache-Control: private, max-age=0
+Cache-Control: post-check=0, pre-check=0
+Pragma: no-cache
+Content-Type: application/json;charset=utf-8
+Vary: Accept-Encoding, User-Agent
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+```
+
+Beispiel einer Antwort (Response) in JSON-Format:
+
+```json
+{
+	"params" : ["de-DE","block","1","2","json"],
+	"mode" : "block",
+	"size" : 2,
+	"lang" : "de-DE",
+	"data" : [
+		{
+			"seq" : 1,
+			"id" : 1003,
+			"type" : "Vollservice",
+			"objstr" : "CON0000001002 | Wartung  Aufzüge (3 Stück) | Wartungsfirma A > Plan-Vision GmbH",
+			"code" : "CON0000001002",
+			"name" : "Wartung  Aufzüge (3 Stück)",
+			"description" : "Wartung  Aufzüge (3 Stück)",
+			"customer" : "Plan-Vision GmbH",
+			"vendor" : "Wartungsfirma A",
+			"is_open_ended" : false,
+			"begin_date" : "30.10.2018",
+			"end_date" : "29.10.2023",
+			"duration" : "5 Jahre",
+			"insert_time" : "2012-10-30 13:58:07.855",
+			"update_time" : "2021-11-11 17:39:02.753",
+			"uuid" : "uqXzDtQwSPm3-QVKTW86qw",
+			"documents" : ["/documents/4GCsQdXsSV-P-YkXeh_MHg.uuid.pdf"]
+		},
+		{
+			"seq" : 2,
+			"id" : 1005,
+			"type" : "Vollservice",
+			"objstr" : "CON0000001003 | Wartung  Aufzüge (3 Stück) | Wartungsfirma A > Plan-Vision GmbH",
+			"code" : "CON0000001003",
+			"name" : "Wartung  Aufzüge (3 Stück)",
+			"description" : "Wartung  Aufzüge (3 Stück)",
+			"customer" : "Plan-Vision GmbH",
+			"vendor" : "Wartungsfirma A",
+			"is_open_ended" : false,
+			"begin_date" : "30.10.2012",
+			"end_date" : "29.10.2022",
+			"duration" : "10 Jahre",
+			"insert_time" : "2012-10-30 13:58:07.855",
+			"update_time" : "2019-04-17 19:00:01.414",
+			"uuid" : "DdVfyFO1TreNHskMMCN_ig",
+			"documents" : ["/documents/4GCsQdXsSV-P-YkXeh_MHg.uuid.pdf"]
+		}
+	]
+}
+```
+
+### Response als CSV
+
+Response-Header einer Antwort in CSV-Format:
+
+```htaccess
+HTTP/1.1 200 OK
+Date: Tue, 25 Jan 2022 10:35:22 GMT
+Cache-Control: private, max-age=0
+Cache-Control: post-check=0, pre-check=0
+Pragma: no-cache
+Content-Type: text/csv;charset=utf-8
+Transfer-Encoding: chunked
+```
+
+Beispiel einer Antwort (Response) in CSV-Format:
+
+```
+"seq";"id";"code";"name";"customer";"vendor";"is_open_ended";"begin_date";"end_date";"duration"
+"1";"1003";"CON01002";"Wartung  1";"Plan-Vision GmbH";"Wartungsfirma A";"false";"30.10.2018";"29.10.2023";"5 Jahre"
+"2";"1005";"CON01003";"Wartung  2";"Plan-Vision GmbH";"Wartungsfirma A";"false";"30.10.2012";"29.10.2022";"10 Jahre"
+```
 
 # Schnittstellendefinition
 
