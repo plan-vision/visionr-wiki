@@ -1,7 +1,7 @@
 <!-- TITLE: REST-Schnittstelle-->
 <!-- SUBTITLE: Überblick REST-Schnittstelle -->
 
-<!-- ![Titelseite allgemein](_images/_title/rest-interface.png) --> 
+![Titelseite allgemein](_images/_title/rest-interface.png) 
 
 Deutsch | [English](../../../en/user-guide/system/reports) | *Sie sind hier: [Home](../../../home) > [Benutzerhandbuch](../user-guide) > REST-Schnittstelle*
 
