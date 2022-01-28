@@ -65,7 +65,7 @@ Save the task.
 
 After saving the application on the mobile device, you have to find it on your home screen. 
 
-![iOS-App starten](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\iOS-step-05.png)
+![iOS-App starten](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\iOS-step-04.png)
 
 *figure 4: Open the application from your home screen*
 
@@ -73,7 +73,7 @@ Open the app and log in. The result should be like here
 
 ***example: FlexiWorkplace application\***
 
-![iOs_step-06](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\iOs_step-06.png)
+![iOs_step-06](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\iOs_step-05.png)
 
 *figure 5: Overview - module FlexiWorkplace as app*
 
@@ -147,5 +147,5 @@ Open the app and log in. The result should be like here
 
 The methods described above are for saving a single module as application and for saving the whole system as application.  Also you can save any view and module as application and after your login you will see what you have saved. Every module can be saved as separate application. 
 
-Saving the index site is savin the whole system. The user will see and open every module (must be installed) where the user have the rights. 
+Saving the index site is saving the whole system. The user will see and open every module (must be installed) where the user have the rights. 
 
