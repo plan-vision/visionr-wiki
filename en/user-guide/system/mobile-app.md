@@ -26,7 +26,7 @@ You can work with the system in any browser (safari, chrome, edge etc.) you have
 
 We use safari in this example.
 
-![iOS-Browser aufmachen](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\iOs_step-01.png)
+![iOS-Browser aufmachen](_images\mobile-app\iOs_step-01.png)
 
 *figure 1: open the browser and login*
 
@@ -46,13 +46,13 @@ To do so, please click on the button in the middle:
 
 ***Example 1: Saving the index site as application\***
 
-![iOS-Index Seite als App speichern](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\iOs_step-02.png)
+![iOS-Index Seite als App speichern](_images\mobile-app\iOs_step-02.png)
 
 *figure 2: Index site as app*
 
 ***example 2: Saving the module FlexiWorkplace as application\***
 
-![iOS-Modul als App speichern](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\iOs_step-03.png)
+![iOS-Modul als App speichern](_images\mobile-app\iOs_step-03.png)
 
 *figure 3: Module FlexiWorkplace as app*
 
@@ -65,7 +65,7 @@ Save the task.
 
 After saving the application on the mobile device, you have to find it on your home screen. 
 
-![iOS-App starten](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\iOS-step-04.png)
+![iOS-App starten](_images\mobile-app\iOS-step-04.png)
 
 *figure 4: Open the application from your home screen*
 
@@ -73,7 +73,7 @@ Open the app and log in. The result should be like here
 
 ***example: FlexiWorkplace application\***
 
-![iOs_step-06](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\iOs_step-05.png)
+![iOs_step-06](_images\mobile-app\iOs_step-05.png)
 
 *figure 5: Overview - module FlexiWorkplace as app*
 
@@ -97,13 +97,13 @@ After the user is logged in, the site can be saved as application.
 
 
 
-![android-Browser aufmachen](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\android-step-01.png)
+![android-Browser aufmachen](_images\mobile-app\android-step-01.png)
 
 *figure 6: Open the browser on your mobile device*
 
 ***Example 1: Saving the index site as application\***
 
-![android-Index Seite als App speichern](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\android-step-02.png)
+![android-Index Seite als App speichern](_images\mobile-app\android-step-02.png)
 
 *figure 7: Index site as app*
 
@@ -111,19 +111,19 @@ As soon the index site is loaded you can add it as application on your home scre
 
 ***example 2: Saving the module FlexiWorkplace as application\***
 
-![android-Modul als App speichern](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\android-step-03.png)
+![android-Modul als App speichern](_images\mobile-app\android-step-03.png)
 
 *figure 8: Module FlexiWorkplace as ap*p
 
 Find the option „Add to Home screen“ and click on it:
 
-![android-App zum Startbildschirm zufügen](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\android-step-04.png)
+![android-App zum Startbildschirm zufügen](_images\mobile-app\android-step-04.png)
 
 *figure 9: Save the site as application to home screen*
 
 You can set your own name for the application:
 
-![android-App benennen](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\android-step-05.png)
+![android-App benennen](_images\mobile-app\android-step-05.png)
 
 *figure 10: Set a name for the app*
 
@@ -133,13 +133,13 @@ Save the task.
 
 After saving the application on the mobile device, you have to find it on your home screen. 
 
-![android-App starten](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\android-step-06.png)
+![android-App starten](_images\mobile-app\android-step-06.png)
 
 *figure 11: Open the application from your home screen*
 
 Open the app and log in. The result should be like here
 
-![android-Schritt-07](E:\GitHub\visionr-wiki\en\user-guide\system\_images\mobile-app\android-step-07.png)
+![android-Schritt-07](_images\mobile-app\android-step-07.png)
 
 *figure 13: Overview - all modules (Index site) as app*
 
