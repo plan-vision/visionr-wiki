@@ -1,14 +1,14 @@
 <!-- TITLE: VisionR 9x mobil ENGLISH-->
 <!-- SUBTITLE: Guidance for saving VisionR system as mobile application -->
 
-<!--![VisionR mobile app english](_images/_title/VisionR9-mobile-app-EN_title_page.png) -->
+![VisionR mobile app english](_images/_title/mobile-app.png) 
 
 
 English | [Deutsch](VisionR9-mobile-app-DE.pdf) | *Sie sind hier: [Home](../../../home) > [System](../system) > VisionR mobile app*
 
 # Description
 
-This document is guide how to install the mobile application on a mobile device such a smartphone / tablet. The steps for the both operation systems (iOs / android / other) are equivalent:
+This document is guide how to install the mobile application on a mobile device such a smartphone / tablet. The steps for the both operation systems (iOs / android / other) are almost identical:
 
 1. Open the browser on the mobile device.
 
@@ -18,7 +18,7 @@ This document is guide how to install the mobile application on a mobile device 
 
 4. Open the app.
 
-You can work with the system in any browser (safari, chrome, edge etc.) you have on the mobile device, as well. 
+You can work with the system in any browser (Safari, Chrome, Edge etc.) you have on the mobile device as well. 
 
 # App on iOS devices
 
@@ -30,11 +30,13 @@ We use safari in this example.
 
 *figure 1: open the browser and login*
 
-## Enter the VisionR web address and login into the system. 
+## Enter the VisionR web address and login
 
-In the example is our demo server in the address bar. Type the **address of your own server**. Don’t forget to login.
+In the example is our demo server in the address bar. Type the **address of your own server**, e.g. `https://visionr.your-company.com`.
 
-## Save the site as application on your mobile device.
+Don’t forget to login.
+
+## Save the site as app on your mobile device
 
 As soon the index site is loaded you can save it to your device as application or you can open a module and save this module as separate application. 
 
@@ -44,13 +46,13 @@ After the user is logged in, the site can be saved as application.
 
 To do so, please click on the button in the middle:
 
-***Example 1: Saving the index site as application\***
+***example 1: Saving the index site as application\***
 
 ![iOS-Index Seite als App speichern](_images\mobile-app\iOs_step-02.png)
 
 *figure 2: Index site as app*
 
-***example 2: Saving the module FlexiWorkplace as application\***
+***example 2: Saving the module FlexiWorkplace as app\***
 
 ![iOS-Modul als App speichern](_images\mobile-app\iOs_step-03.png)
 
@@ -83,11 +85,13 @@ Open the app and log in. The result should be like here
 
 Start the browser on your mobile device. In this example we use Google Chrome. You can use your preferred browser. Check the name of the option before saving the application. 
 
-## Enter the VisionR web address and login into the system. 
+## Enter the VisionR web address and login 
 
-In the example is our demo server in the address bar. Type the **address of your own server**. Don’t forget to login.
+In the example is our demo server in the address bar. Type the **address of your own server**, e.g. `https://visionr.your-company.com`.
 
-## Save the site as application on your mobile device.
+Don’t forget to login.
+
+## Save the site as app on your mobile device
 
 As soon the index site is loaded you can save it to your device as application or you can open a module and save this module as separate application. 
 
@@ -101,7 +105,7 @@ After the user is logged in, the site can be saved as application.
 
 *figure 6: Open the browser on your mobile device*
 
-***Example 1: Saving the index site as application\***
+***example 1: Saving the index site as application\***
 
 ![android-Index Seite als App speichern](_images\mobile-app\android-step-02.png)
 
@@ -145,7 +149,7 @@ Open the app and log in. The result should be like here
 
 # Remarks
 
-The methods described above are for saving a single module as application and for saving the whole system as application.  Also you can save any view and module as application and after your login you will see what you have saved. Every module can be saved as separate application. 
+The methods described above are for saving a single module as application and for saving the whole system as an application.  You can also save any view and module as an app. After starting and logging into the app you will see the exact site you have saved. Every module can be saved as a separate app. You can have multiple apps on you Home screen linking to all available VisionR modules and views.
 
-Saving the index site is saving the whole system. The user will see and open every module (must be installed) where the user have the rights. 
+If you save the index as an app you will always see the tile view with all accessible modules on starting the app.
 
