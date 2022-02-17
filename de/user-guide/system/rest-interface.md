@@ -159,7 +159,7 @@ Bei schreibende Schnittstellen müssen die Datenfelder abgestimmt und im VSP-Skr
 
 Die Abfrage wird im VSP-Format als Skript hinterlegt und nach Absprache einer Objektdefinition angehängt. Beispiel:
 
-`<object code="rest:contacts.contact" module="reports" objectdef="report_vsp"/>`
+`<object code="rest:contacts.contact" module="reports" objectdef="report_rest"/>`
 
 Bei der Programmierung der Schnittstelle muss die Parameterübergabe seitens des Clients vereinbart werden. Folgende Möglichkeiten stehen zur Verfügung:
 
