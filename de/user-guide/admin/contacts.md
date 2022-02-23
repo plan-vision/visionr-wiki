@@ -1,7 +1,37 @@
-<!-- TITLE: Modul "Kontakte" für Admins -->
-<!-- SUBTITLE: Modul für die Verwaltung von Personen, Unternahmen, Gemenschaften, Organisationsstrukturen usw.-->
+<div style="margin:auto;text-align:center;width:100%;height:900px;color:#AAAAAA">
+	<div style="height:100px"><img style="width:250px" src="_images/_title/plan-vision-logo-big.jpg"/></div>
+    <div style="height:150px"></div>
+	<div style="font-size:35px">Benutzerhandbuch</div>
+	<div style="font-size:45px;color:#777777">Kontakte</div>
+    <div style="font-size:35px;color:#F18C18">Admin</div>
+    <div style="height:20px"></div>
+    <div style="height:160px"><img style="width:160px" src="_images/_title/contacts-admin-logo.png"/></div>
+    <div style="height:20px"></div>
+    <div style="font-size:25px">Windows / macOS / Linux / iOS / Android</div>
+    <div style="font-size:25px">ab Version 8.0</div>
+    <div style="height:200px"></div>
+    <div style="color:#BBBBBB">
+        <div style="font-size:14px">Erstellt von Plan-Vision GmbH</div>
+    	<div style="font-size:14px">Version 1.2 &bull; Stand 23.02.2022</div>
+    	<div style="font-size:14px">Plan-Vision GmbH &bull; E-Mail: support@plan-vision.com &bull; Web: https://plan-vision.com</div>
+    </div>
+</div>
 
-<!-- ![Titelseite Kontakte](_images/_title/contacts.png) -->
+
+
+
+<div style="page-break-after: always; break-after: page;"></div>
+# Inhaltsverzeichnis
+
+[toc]
+
+# Version
+
+**Aktuelle  Version:** 1.2
+
+**Stand:** 23.02.2022
+
+**Verfasser:** Plan-Vision GmbH
 
 # Beschreibung
 Das Modul wir für die Verwaltung von Kontaktdaten genutzt. Im folgenden können Sie die Schritte bei der Erstellung und Bearbeitung von Personen, Unternehmen, Organisationseinheiten usw. lesen. Die angelegten Kontaktdaten können in allen anderen Modulen genutzt werden, z.B. in Verträgen, Flächenbelegungen usw. 

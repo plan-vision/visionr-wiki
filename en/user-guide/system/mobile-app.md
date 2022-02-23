@@ -1,10 +1,43 @@
-<!-- TITLE: VisionR 9x mobil ENGLISH-->
-<!-- SUBTITLE: Guidance for saving VisionR system as mobile application -->
+<div style="margin:auto;text-align:center;width:100%;height:900px;color:#AAAAAA">
+	<div style="height:100px"><img style="width:250px" src="_images/_title/plan-vision-logo-big.jpg"/></div>
+    <div style="height:150px"></div>
+	<div style="font-size:35px">Manual</div>
+	<div style="font-size:45px;color:#F18C18">Mobile App</div>
+    <div style="font-size:35px">browser / app</div>
+    <div style="height:20px"></div>
+    <div style="height:160px"><img style="width:160px" src="_images/_title/mobile-app-logo.png"/></div>
+    <div style="height:20px"></div>
+    <div style="font-size:25px">Windows / macOS / Linux / iOS / Android</div>
+    <div style="font-size:25px">from version 8.0</div>
+    <div style="height:200px"></div>
+    <div style="color:#BBBBBB">
+        <div style="font-size:14px">Created by Plan-Vision GmbH</div>
+    	<div style="font-size:14px">version 1.2 &bull; from 23.02.2022</div>
+    	<div style="font-size:14px">Plan-Vision GmbH &bull; email: support@plan-vision.com &bull; web: https://plan-vision.com</div>
+    </div>
+</div>
 
-![VisionR mobile app english](_images/_title/mobile-app.png) 
 
 
-English | [Deutsch](VisionR9-mobile-app-DE.pdf) | *Sie sind hier: [Home](../../../home) > [System](../system) > VisionR mobile app*
+
+
+
+
+<div style="page-break-after: always; break-after: page;"></div>
+
+English | [German](VisionR9-mobile-app) | *You are here: [Home](../../../home) > [System](../system) > VisionR mobile app*
+
+# Contents
+
+[toc]
+
+# Version
+
+**Current version:** 1.2
+
+**From:** 23.02.2022
+
+**Author:** Plan-Vision GmbH
 
 # Description
 

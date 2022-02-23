@@ -1,7 +1,41 @@
-<!-- TITLE: Instandhaltung-->
-<!-- SUBTITLE: Benutzerhandbuch für die App für Modul "Instandhaltung" -->
+<div style="margin:auto;text-align:center;width:100%;height:900px;color:#AAAAAA">
+	<div style="height:100px"><img style="width:250px" src="_images/_title/plan-vision-logo-big.jpg"/></div>
+    <div style="height:150px"></div>
+	<div style="font-size:35px">Benutzerhandbuch</div>
+	<div style="font-size:45px;color:#777777">Instandhaltung</div>
+    <div style="font-size:35px">Browser / App</div>
+    <div style="height:20px"></div>
+    <div style="height:160px"><img style="width:160px" src="_images/_title/maintenance-app-logo.png"/></div>
+    <div style="height:20px"></div>
+    <div style="font-size:25px">Windows / macOS / Linux / iOS / Android</div>
+    <div style="font-size:25px">ab Version 8.0</div>
+    <div style="height:200px"></div>
+    <div style="color:#BBBBBB">
+        <div style="font-size:14px">Erstellt von Plan-Vision GmbH</div>
+    	<div style="font-size:14px">Version 1.2 &bull; Stand 23.02.2022</div>
+    	<div style="font-size:14px">Plan-Vision GmbH &bull; E-Mail: support@plan-vision.com &bull; Web: https://plan-vision.com</div>
+    </div>
+</div>
 
- ![Titelseite Helpdesk](_images/_title/maintenance.png) 
+
+
+
+
+
+
+<div style="page-break-after: always; break-after: page;"></div>
+
+# Inhaltsverzeichnis
+
+[toc]
+
+# Version
+
+**Aktuelle  Version:** 1.2
+
+**Stand:** 23.02.2022
+
+**Verfasser:** Plan-Vision GmbH
 
   
 
@@ -31,31 +65,31 @@ Selbstverständlich können die Objekte auch importiert werden und dann mit den 
 
 Die Objekte, die links abgebildet sind, sind die wichtigsten für einen Wartungsprozess und sind wie folgt definiert: 
 
-•          **Anlagen** - Sie können über diese Maske die Anlagen verwalten - neue definieren, bearbeiten, löschen. Dazu können Sie auch den Status angeben bzw. ändern.
+* **Anlagen** - Sie können über diese Maske die Anlagen verwalten - neue definieren, bearbeiten, löschen. Dazu können Sie auch den Status angeben bzw. ändern.
 
-•          **Anlagenbauteile** – Sie können hier Bauteile definieren, die zu einer Anlage oder einem Bauteil gehören. So können Sie Wartungstermine für bestimmte Bauteile definieren.
+* **Anlagenbauteile** – Sie können hier Bauteile definieren, die zu einer Anlage oder einem Bauteil gehören. So können Sie Wartungstermine für bestimmte Bauteile definieren.
 
-•          **Verträge** - Verwaltung der Wartungsverträge. Hier können Sie die einzelnen Verträge ansehen, bearbeiten, löschen etc. Die Vertragsdaten werden hier erfasst – Begin- und Enddatum, zugehörige Leistungen und Anlagen, Vertragsparteien und Vertragskonditionen etc. 
+* **Verträge** - Verwaltung der Wartungsverträge. Hier können Sie die einzelnen Verträge ansehen, bearbeiten, löschen etc. Die Vertragsdaten werden hier erfasst – Begin- und Enddatum, zugehörige Leistungen und Anlagen, Vertragsparteien und Vertragskonditionen etc. 
 
-•          **Leistungen** - Verwaltung der Leistungen. Diese Leistungen sind mit einem oder mehreren Verträge verknüpft (Leistungen können auch ohne Vertrag definiert werden, z.B. wenn die Wartung von einer interner Person durchzuführen ist) und beschreiben den Wartungsprozess und die  Wartungsschritte für bestimmten Anlagen oder Anlagenbauteile. Die Leistungen beinhalten die einzelnen Schritte, die durchzuführen sind, sowohl die Wartungsintervalle, die zuständigen Personen, die technischen Dokumente etc. 
+* **Leistungen** - Verwaltung der Leistungen. Diese Leistungen sind mit einem oder mehreren Verträge verknüpft (Leistungen können auch ohne Vertrag definiert werden, z.B. wenn die Wartung von einer interner Person durchzuführen ist) und beschreiben den Wartungsprozess und die  Wartungsschritte für bestimmten Anlagen oder Anlagenbauteile. Die Leistungen beinhalten die einzelnen Schritte, die durchzuführen sind, sowohl die Wartungsintervalle, die zuständigen Personen, die technischen Dokumente etc. 
 
-**Beispiel** einer Leistung ist die Wartung eines Aufzugs (der gesamte Prozess). 
+> **Beispiel** einer Leistung ist die Wartung eines Aufzugs (der gesamte Prozess). 
 
-•          **Prüfmeldungen** – Die Prüfmeldungen sind Anbindestelle zwischen Leistung und Tätigkeit. Sie werden auf dem Plan angezeigt und weisen auf einen Prüftermin hin. Mit der Erstellung der Prüfmeldung wird auch eine zugehörige Tätigkeit miterstellt, die alle wichtigen Informationen aus der Leistung beinhaltet. Drin ist auch das Prüfprotokoll. Diese Meldungen werden auf für den Ablauf des Wartungsprozess benutzt. Falls Sie das Modul **Workflows** haben, können diese Abläufe sehr präzis eingestellt werden.
+* **Prüfmeldungen** – Die Prüfmeldungen sind ein Bindeglied zwischen Leistung und Tätigkeit. Sie werden auf dem Plan angezeigt und weisen auf einen Prüftermin hin. Mit der Erstellung der Prüfmeldung wird auch eine zugehörige Tätigkeit mit erstellt, die alle wichtigen Informationen aus der Leistung beinhaltet. Drin ist auch das Prüfprotokoll. Diese Meldungen werden auf für den Ablauf des Wartungsprozess benutzt. Falls Sie das Modul **Workflows** haben, können diese Abläufe sehr präzis eingestellt werden.
 
-•          **Tätigkeiten** - Verwaltung der Tätigkeiten. Eine oder mehrere Tätigkeiten können zu einer Leistung gehören. Die Tätigkeiten werden aufgrund der Leistung für jeden Termin erstellt. Die Person, die die Prüfung (Wartung) macht, kann aus dieser Tätigkeit die Checkliste aufrufen und abhacken. Dann wird ein Prüfprotokoll erstellt und drin wird für diese Prüfung alles protokolliert. Falls das Modul **Zeiterfassung** vorhanden ist, können diese Tätigkeiten für die Zeiterfassung direkt benutzt werden. Die Prüfer können die Zeiten angeben oder mittels „Start“ und „Stop“ Funktion die Zeiten verfolgen und protokollieren. 
+* **Tätigkeiten** - Verwaltung der Tätigkeiten. Eine oder mehrere Tätigkeiten können zu einer Leistung gehören. Die Tätigkeiten werden aufgrund der Leistung für jeden Termin erstellt. Die Person, die die Prüfung (Wartung) macht, kann aus dieser Tätigkeit die Checkliste aufrufen und abhacken. Dann wird ein Prüfprotokoll erstellt und drin wird für diese Prüfung alles protokolliert. Falls das Modul **Zeiterfassung** vorhanden ist, können diese Tätigkeiten für die Zeiterfassung direkt benutzt werden. Die Prüfer können die Zeiten angeben oder mittels „Start“ und „Stop“ Funktion die Zeiten verfolgen und protokollieren. 
 
-•          **Protokolle -**  in dem Prüfprotokoll werden die einzelnen Prüfschritte beschrieben und protokolliert. Der Überblick über die vergangenen Prüfungen ist auch vorhanden.
+* **Protokolle -**  in dem Prüfprotokoll werden die einzelnen Prüfschritte beschrieben und protokolliert. Der Überblick über die vergangenen Prüfungen ist auch vorhanden.
 
-•          **Personen** - Verwaltung der Personen. Ob Dienstleister oder Verwalter - hier werden die Personen gepflegt. Diese Verknüpfung führt direkt zu den Kontaktdaten – genau wenn Sie das Modul Kontakte > Personen öffnen.
+* **Personen** - Verwaltung der Personen. Ob Dienstleister oder Verwalter - hier werden die Personen gepflegt. Diese Verknüpfung führt direkt zu den Kontaktdaten – genau wenn Sie das Modul Kontakte > Personen öffnen.
 
-•          **Unternehmen** - Verwaltung der Unternehmer. 
+* **Unternehmen** - Verwaltung der Unternehmer. 
 
-•          **Räume** - Verwaltung der Räume. Über diese Maske können Sie auch die Räume verwalten (alphanumerisch), die im Projekt vorhanden sind. Die Anlagen sind sowieso in unterschiedlichen Räumen, die in unterschiedlichen Gebäuden sein können etc. Die Grafik ist hier vom großen Vorteil, da die Objekte grafisch besser zu erkennen sind und leichter verwaltet werden können.
+* **Räume** - Verwaltung der Räume. Über diese Maske können Sie auch die Räume verwalten (alphanumerisch), die im Projekt vorhanden sind. Die Anlagen sind sowieso in unterschiedlichen Räumen, die in unterschiedlichen Gebäuden sein können etc. Die Grafik ist hier vom großen Vorteil, da die Objekte grafisch besser zu erkennen sind und leichter verwaltet werden können.
 
-•          **Gebäude** - Verwaltung der Gebäude. Wie in dem Modul Flächenmanagement > Gebäude
+* **Gebäude** - Verwaltung der Gebäude. Wie in dem Modul Flächenmanagement > Gebäude
 
-•          **Liegenschaften** - Verwaltung der Liegenschaften.
+* **Liegenschaften** - Verwaltung der Liegenschaften.
 
 Mit Klick auf einen Button links wird die ausgewählte Objektgruppe angezeigt. Die Objekte selbst werden rechts in der Tabelle angezeigt. Die einzelnen Zeilen sind die Objekte und diese können Sie bearbeiten.
 
@@ -97,7 +131,7 @@ Mit Doppelklick auf dem Feld, dann mit rechter Maustaste **Neu** oder auf die Op
 
 Machen Sie die nötigen Angaben und speichern Sie den Artikel.
 
-**Beispiel**: Aufzug KONE Model AC123B098
+> **Beispiel**: Aufzug KONE Model AC123B098
 
 ![Beispiel Aufzug KONE](_images\maintenance\example_elevator-kone-01.png)
 
@@ -139,40 +173,40 @@ Wählen Sie den Typ aus:
 
 Wichtigste Eingaben:
 
-·     **Name** - Steht meistens als Vertragsname im Vertag
-·     **Kunde** - für wen ist diese Leistung erbracht? Meisten ist der Auftraggeber (nicht immer)
-·     **Wartungsfirma** – die Firma, die Wartung durchführt, meisten Auftragnehmer
-·     **Vertragsnummer** – steht im Vertrag (nicht immer)
-·     **Laufzeiten**
-o  *Beginndatum* – ab wann der Vertrag aktiv ist.
-o  *Enddatum* – bis wann der Vertrag gültig ist. Hier kommen auch Mechanismen bei Ablauf
-·     **Kündigung**
-o  *Kündigungsfrist* – Eingabe Tage, Monate, Jahre möglich.
-o  *Künd*i*gungsdatum* wird automatisch berechnet
-o  *Bei Ablauf* – Aktion, die beim Ablauf durchgeführt wird – z.B. automatische Verlängerung / Kündigung
-o  *Verlängerung um…* - falls automatische Verlängerung gewünscht ist, kann es hier definiert werden.
-·     **Dokumente** (optional, aber empfohlen) – es ist empfohlen den Vertrag als Dokument hochzuladen, dann haben Sie den Ursprungsvertrag auch im System und kann bei Bedarf aufgemacht werden.  
-·     **Positionen** – die wichtigsten Daten kommen in den Positionen – die so genannten Leistungen. Die Leistungen beinhalten die Wartungsintervalle, die Wartungstypen, die Checkprotokolle und die Wartungsdaten. Da unterschiedliche Wartungsleistungen an unterschiedlichen Tagen durchgeführt werden können, müssen die Leistungen aus dem Vertrag gut erfasst werden. Diese sind in den meisten Fällen separat im Vertrag beschrieben. 
-·     **Kosten** - die Kosten können Sie im Feld **Kosten** nur dann pauschal eingeben, falls Sie keine Positionen haben. Sobald es eine oder mehrere Positionen gibt, werden die Kosten aus diesen Positionen summiert. Das Feld ist dann nicht mehr zu ändern.
+* **Name** - Steht meistens als Vertragsname im Vertag
+* **Kunde** - für wen ist diese Leistung erbracht? Meisten ist der Auftraggeber (nicht immer)
+* **Wartungsfirma** – die Firma, die Wartung durchführt, meisten Auftragnehmer
+* **Vertragsnummer** – steht im Vertrag (nicht immer)
+* **Laufzeiten**
+	* *Beginndatum* – ab wann der Vertrag aktiv ist.
+	* *Enddatum* – bis wann der Vertrag gültig ist. Hier kommen auch Mechanismen bei Ablauf
+* **Kündigung**
+	* *Kündigungsfrist* – Eingabe Tage, Monate, Jahre möglich.
+	* *Kündigungsdatum* wird automatisch berechnet
+	* *Bei Ablauf* – Aktion, die beim Ablauf durchgeführt wird – z.B. automatische Verlängerung / Kündigung
+	* *Verlängerung um…* - falls automatische Verlängerung gewünscht ist, kann es hier definiert werden.
+* **Dokumente** (optional, aber empfohlen) – es ist empfohlen den Vertrag als Dokument hochzuladen, dann haben Sie den Ursprungsvertrag auch im System und kann bei Bedarf aufgemacht werden.  
+* **Positionen** – die wichtigsten Daten kommen in den Positionen – die so genannten Leistungen. Die Leistungen beinhalten die Wartungsintervalle, die Wartungstypen, die Checkprotokolle und die Wartungsdaten. Da unterschiedliche Wartungsleistungen an unterschiedlichen Tagen durchgeführt werden können, müssen die Leistungen aus dem Vertrag gut erfasst werden. Diese sind in den meisten Fällen separat im Vertrag beschrieben. 
+* **Kosten** - die Kosten können Sie im Feld **Kosten** nur dann pauschal eingeben, falls Sie keine Positionen haben. Sobald es eine oder mehrere Positionen gibt, werden die Kosten aus diesen Positionen summiert. Das Feld ist dann nicht mehr zu ändern.
 
-**Beispiel**: Wartungsvertrag für den Personenaufzug 123 von KONE
+> **Beispiel**:  Wartungsvertrag für den Personenaufzug 123 von KONE
 
 ![Beispiel Wartungsvertrag Aufzug KONE](_images\maintenance\contracts_example_elevator_kone.png)
 
-·     **Name** - Wartungsvertrag KONE Aufzüge, da zum Beispiel mehrere KONE Aufzüge von der Firma gewartet werden. 
-·     **Kunde** - Plan Vision GmbH
-·     **Wartungsfirma** – in dem Fall KONE, kann auch andere Firma sein. 
-·     **Vertragsnummer**
-·     **Beginn – und Enddatum**
-·     **Kündigungsfrist** – 3 Monate
-·     **Bei Ablauf** - automatische Verlängerung
-·     **Verlängerung um** - 1 Jahr
-·     **Positionen**
-		o  Sicherheitsprüfung Kabine und Antrieb - monatlich
-		o  Wartung Kabine –1 Mal jährlich
-		o  Wartung Maschine –1 Mal jede 2 Jahre
+* **Name** - Wartungsvertrag KONE Aufzüge, da zum Beispiel mehrere KONE Aufzüge von der Firma gewartet werden. 
+* **Kunde** - Plan Vision GmbH
+* **Wartungsfirma** – in dem Fall KONE, kann auch andere Firma sein. 
+* **Vertragsnummer**
+* **Beginn – und Enddatum**
+* **Kündigungsfrist** – 3 Monate
+* **Bei Ablauf** - automatische Verlängerung
+* **Verlängerung um** - 1 Jahr
+* **Positionen**
+	* Sicherheitsprüfung Kabine und Antrieb - monatlich
+	* Wartung Kabine –1 Mal jährlich
+	* Wartung Maschine –1 Mal jede 2 Jahre
 
-**Bemerkung**: *Wie die Positionen zu erstellen sind und was für Informationen Sie drin eingeben, schauen Sie den nächsten Abschnitt **Leistungen**. Die Leistungen können Sie direkt im Vertrag erstellen – Neues Objekt in der Tabelle Leistungen im Vertrag (Reiter „Positionen“) – dann wird die Leistung direkt mit diesem Vertrag verknüpft. Sie können die Leistungen separat erstellen und dann mit Vertrag verknüpfen.* 
+> **Bemerkung**: Wie die Positionen zu erstellen sind und was für Informationen Sie drin eingeben, schauen Sie den nächsten Abschnitt **Leistungen**. Die Leistungen können Sie direkt im Vertrag erstellen – Neues Objekt in der Tabelle Leistungen im Vertrag (Reiter „Positionen“) – dann wird die Leistung direkt mit diesem Vertrag verknüpft. Sie können die Leistungen separat erstellen und dann mit Vertrag verknüpfen.
 
 # Leistungen
 
@@ -180,24 +214,24 @@ Die Leistungen können Sie abrufen, indem Sie auf den Button **Leistungen** link
 
 ![Leistungen Überblick](_images\maintenance\activities_overview.png)
 
-**Bemerkung**: *Die Leistungen können Sie hier über die Applikationsmaske -> Leistungen erstellen oder Sie können die Leistungen direkt in der Registerkarte “Positionen“ bei den Verträgen erstellen. Unabhängig davon, werden sie hier auch aufgelistet. Damit aber die hier generierten Leistungen zu einem Vertrag gebunden werden, müssen diese in dem Vertrag selbst eingetragen oder bei der Erstellung / Bearbeitung der Leistung/en , mit den Vertrag verknüpft werden.*
+> **Bemerkung**: Die Leistungen können Sie hier über die Applikationsmaske -> Leistungen erstellen oder Sie können die Leistungen direkt in der Registerkarte “Positionen“ bei den Verträgen erstellen. Unabhängig davon, werden sie hier auch aufgelistet. Damit aber die hier generierten Leistungen zu einem Vertrag gebunden werden, müssen diese in dem Vertrag selbst eingetragen oder bei der Erstellung / Bearbeitung der Leistung/en , mit den Vertrag verknüpft werden.
 
 In der Tabelle klicken Sie mit der rechten Maustaste auf **Neu**. Alternativ über das Funktionsmenü. In dem angezeigten Fenster machen Sie Ihre Eingaben. Die *orange* gelisteten Felder unten sind noch leere Pflichtfelder, die Sie befüllen müssen.
 
 Wichtigste Eingaben:
-·     **Name** -  Kurze Name was die Leistung ist 
-·     **Vertrag** - Sie können hier direkt den Vertrag eingeben, falls er schon erstellt ist. 
-·     **Inventar** – die Technische Anlage, die mit dieser Leistung verknüpft wird
-·     **Leistungszeiten** – hier geben Sie den Wartungsintervall, das Beginndatum (falls der Vertrag verknüpft ist, wird das Datum aus dem Vertrag übernommen, kann aber im Nachhinein geändert werden). Die **Leistungszeiten** sind unbedingt einzutragen. In diesen Zeiten geben Sie wann die Leistung beginnt, *den* *Wartungsintervall*, *den Leistungstyp* (sehr wichtig), *Verantwortlicher* und *Workflow*.
-·     **Kosten** - die Kosten für diese Leistung – meistens im Vertrag angegeben. 
-·     **Zeiten** hier geben Sie die Zeitperiode für die die Wartungstermine generiert werden. Diese Zeiten können von den Vertragszeiten abweichend sein und sie geben exakt wann der erste Termin wird und bis wann Termine generelle für diese Leistung erstellt werden können. Diese Eingaben finden Sie im dem Reiter *Zeiten*.
-·     **Checklisten / Standardprüfprotokoll**
+* **Name** -  Kurze Name was die Leistung ist 
+* **Vertrag** - Sie können hier direkt den Vertrag eingeben, falls er schon erstellt ist. 
+* **Inventar** – die Technische Anlage, die mit dieser Leistung verknüpft wird
+* **Leistungszeiten** – hier geben Sie den Wartungsintervall, das Beginndatum (falls der Vertrag verknüpft ist, wird das Datum aus dem Vertrag übernommen, kann aber im Nachhinein geändert werden). Die **Leistungszeiten** sind unbedingt einzutragen. In diesen Zeiten geben Sie wann die Leistung beginnt, *den* *Wartungsintervall*, *den Leistungstyp* (sehr wichtig), *Verantwortlicher* und *Workflow*.
+* **Kosten** - die Kosten für diese Leistung – meistens im Vertrag angegeben. 
+* **Zeiten** hier geben Sie die Zeitperiode für die die Wartungstermine generiert werden. Diese Zeiten können von den Vertragszeiten abweichend sein und sie geben exakt wann der erste Termin wird und bis wann Termine generelle für diese Leistung erstellt werden können. Diese Eingaben finden Sie im dem Reiter *Zeiten*.
+* **Checklisten / Standardprüfprotokoll**
 
 ![Neue Leistung erstellen](_images\maintenance\activities_new.png)
 
 Falls der Vertrag verknüpft ist, wird die Leistung als Position zu diesem Vertrag hinzugefügt. So können Sie hier die Leistungen zu Verträgen zuordnen. Diese Zuordnung ist andersrum auch möglich – in dem Vertrag fügen Sie diese Leistung hinzu.
 
-**Bespiel**: 
+Bespiel: 
 
 ![Beispiel Leistung Aufzug KONE](_images\maintenance\activities_example_elevator_kone-1.png)
 
@@ -244,8 +278,9 @@ Ein **neues** Standard-Prüfprotokoll:
 ![Neue Checkliste erstellen](_images\maintenance\check_protocol_new.png)
 
 Eingaben:
-·     **Name** – benennen Sie das Protokoll vernünftig.
-·     **Fügen** Sie die einzelnen Einträge hinzu. 
+
+* **Name** – benennen Sie das Protokoll vernünftig.
+* **Fügen** Sie die einzelnen Einträge hinzu. 
 
 ![Positionen zu einer Checkliste hinzufügen](_images\maintenance\check_protocol-positions-1.png)
 
@@ -280,7 +315,7 @@ Die Prüfprotokolle werden dann gespeichert und als Prüfprotokolle für jede Pr
 
 So abarbeiten die Prüfer die Wartungen (Prüfungen). Nachdem sie alle Positionen abgehackt haben, kann die Tätigkeit (auch als Termin zu betrachten) abgeschlossen werden und dann wird das Protokoll auch als erledigt gesetzt. 
 
-###  Generierte Meldungen / Termine / Tätigkeiten
+##  Generierte Meldungen / Termine / Tätigkeiten
 
 **Die Meldungen** als Anbindestelle zwischen Leistung und Tätigkeit werden vom System generiert. 
 
@@ -292,7 +327,7 @@ Das System generiert Termine/Meldungen für eine gewisse Zeitperiode im Voraus, 
 
 Die Prüfer können die Leistungsdaten nicht ändern, dafür können aber die Tätigkeitsdaten abweichend bearbeiten. Ein Prüfprotokoll wird für jede Wartung/Prüfung/Tätigkeit hinterlegt und protokolliert. 
 
-### Manuell erstellte Meldungen / Termine / Tätigkeiten
+## Manuell erstellte Meldungen / Termine / Tätigkeiten
 
 **Meldungen** können manuell erstellt werden, wenn die Termine händisch zu generieren sind. Z.B. Extra Wartungstermine sind gewünscht, die nicht im dem Wartungsvertrag beschrieben sind. Diese Option ist in der Leistung zu finden:
 
@@ -314,8 +349,8 @@ Um Prüfmeldungen/Tätigkeiten zu generieren (nicht manuell erstellen), öffnen 
 
 Die Anzahl generierter Prüfmeldungen/Tätigkeiten ist von den folgenden Angaben abhängig:
 
-•          **Wartungsvertrag und Leistung** - ab wann und wie lange läuft der Vertrag
-•          **Leistungsdaten / Wartungsintervall und Wartungsintervall-Einheit** - wann und wie oft im Rahmen dieser Leistung die Tätigkeit ausgeführt wird.
+* **Wartungsvertrag und Leistung** - ab wann und wie lange läuft der Vertrag
+* **Leistungsdaten / Wartungsintervall und Wartungsintervall-Einheit** - wann und wie oft im Rahmen dieser Leistung die Tätigkeit ausgeführt wird.
 
 So, zum Beispiel, bei einem Vertrag (ab 01.01.2020 bis 01.01.2022- 2 Jahre), Leistung mit Wartungsintervall 1 Monat, werden 24 Meldungen und Tätigkeiten generiert, da der Vertrag erst in 2 Jahren abläuft und jeden Monat die Wartung durchzuführen ist. Das heißt für jeden Monat eine Prüfmeldung und Tätigkeit. Setzen wir das Intervall auf 3 Monate, werden dann insgesamt 8 Prüfmeldungen und Tätigkeiten erstellt.
 
@@ -383,7 +418,7 @@ So kann zum Beispiel das Wartungspersonal benachrichtigt werden, wann und welche
 
 Anlagen zu überprüfen sind. Auch können Termine festgelegt werden, die auch per E-Mail verschickt werden können.
 
-**Info:** *Mit der mobilen App kann die Arbeit von jedem Gerät auch unterwegs erledigt werden. So zum Beispiel kann das Wartungspersonal unterwegs nach dem Wartungstermin den Status ändern oder Bemerkung hinzufügen, sowie auch vor Ort alle Daten der Anlage aufrufen. Die Checklisten kann der Prüfer auch vor Ort direkt bearbeiten. Dazu besteht auch die Möglichkeit vor Ort eine Störmeldung zu erstellen, eine Bestellung zu fordern etc., falls nötig. Sogar mit Foto, Bemerkung, Dokument etc.. Dazu gibt es auch die Möglichkeit vor Ort nach Beheben einer Störung eine Benachrichtigung an den beteiligten zu verschicken.* 
+> **Info:** Mit der mobilen App kann die Arbeit von jedem Gerät auch unterwegs erledigt werden. So zum Beispiel kann das Wartungspersonal unterwegs nach dem Wartungstermin den Status ändern oder Bemerkung hinzufügen, sowie auch vor Ort alle Daten der Anlage aufrufen. Die Checklisten kann der Prüfer auch vor Ort direkt bearbeiten. Dazu besteht auch die Möglichkeit vor Ort eine Störmeldung zu erstellen, eine Bestellung zu fordern etc., falls nötig. Sogar mit Foto, Bemerkung, Dokument etc.. Dazu gibt es auch die Möglichkeit vor Ort nach Beheben einer Störung eine Benachrichtigung an den beteiligten zu verschicken.
 
 # Troubleshooting
 
