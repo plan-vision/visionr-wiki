@@ -41,11 +41,11 @@ Deutsch | [English](../../../en/modules/graphics) | *Sie sind hier: [Home](../..
 # Übersicht
 Öffnen Sie die das Web-CAD (Grafik) Modul.
 
-![image-20220705090004709](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\index_drawings.png)
+![image-20220705090004709](_images\graphics\index_drawings.png)
 
 Aus dem Baum wählen Sie den Standort / Gebäude aus und aus der Übersicht wählen Sie die gewünschte Zeichnung aus. Mit Doppelklick machen Sie die Zeichnung auf. 
 
-![image-20220704145300012](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_open_plan.png)
+![image-20220704145300012](_images\graphics\draw_open_plan.png)
 
 Mit Klick auf die Übersicht wird der Plan im **Lesemodus** aufgemacht. Mit Klick auf Bearbeiten wird der Plan im **Bearbeitungsmodus** aufgemacht.
 
@@ -57,11 +57,11 @@ Im Lesemodus können Sie den Plan ansehen, die Referenzobjekte bearbeiten, Plan 
 
 Die Ansichten wechseln Sie in dem Menü links oben. 
 
-![image-20220704111647509](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\drawing_overwiev_layer_groups.png)
+![image-20220704111647509](_images\graphics\drawing_overwiev_layer_groups.png)
 
 Auf der rechten Seite sind die Druck- und Export-Funktionen.
 
-![image-20220704111933500](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\drawing_overwiev_export.png)
+![image-20220704111933500](_images\graphics\drawing_overwiev_export.png)
 
 Diese Funktionen stehen auch in dem Bearbeitungsmodus zur Verfügung und werden dann separat in Details beschrieben. 
 
@@ -77,7 +77,7 @@ Die **Funktionsleiste** ist über dem Plan platziert und beinhaltet alle zeichne
 
 
 
-![image-20220704112820868](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\drawing_edit_toolbar.png)
+![image-20220704112820868](_images\graphics\drawing_edit_toolbar.png)
 
 
 
@@ -89,7 +89,7 @@ Die meistbenutzen Funktionen und Operationen haben auch Shortcuts, die rechts ne
 
 **Beispiel: **Die Shortcuts für Verschieben M, Kopieren C, Drehen R, Skalieren S, Spiegeln O.
 
-![image-20220704115700348](C:\Users\Alexander.Hristov\AppData\Roaming\Typora\typora-user-images\image-20220704115700348.png)
+![image-20220704115700348](_images\graphics\draw-shortcuts-example.png)
 
 
 
@@ -106,13 +106,13 @@ Hier kann der Benutzer zwischen unterschiedliche Auswahloptionen wählen
 * Einzelauswahl (Standardtool) - mit einem Klick wird das Objekt ausgewählt. Der Layer muss auswählbar sein. 
 * Auswahlrechteck - alle Objekte unter dem gezogenen Rechteck werden ausgewählt. Dieser Tool aktivieren Sie mit Klick auf dem Button rechts.
 
-![image-20220704114345580](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\select_recktangle.png)
+![image-20220704114345580](_images\graphics\select_recktangle.png)
 
 
 
 Falls die Option aktiv ist, werden mehrere Auswahlmöglichkeiten angezeigt, wie z.B. Auswahl nach Typ. Standardmäßig ist *Auswahl aller Geometrien* aktiv.
 
-![image-20220704114518482](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\select_recktangle_types.png)
+![image-20220704114518482](_images\graphics\select_recktangle_types.png)
 
 
 
@@ -120,7 +120,7 @@ Falls die Option aktiv ist, werden mehrere Auswahlmöglichkeiten angezeigt, wie 
 
 Mit dem ersten Klick setzen Sie den Anfangspunkt und mit dem zweiten Klick den Endpunkt. 
 
-![image-20220704114739691](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\select_recktangle_example.png)
+![image-20220704114739691](_images\graphics\select_recktangle_example.png)
 
 
 
@@ -128,7 +128,7 @@ Die Auswahl sieht folgendermaßen aus und der Benutzer kann z.B. die Objekte in 
 
 
 
-![image-20220704114831098](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\select_recktangle_example1.png)
+![image-20220704114831098](_images\graphics\select_recktangle_example1.png)
 
 
 
@@ -136,7 +136,7 @@ Die Auswahl sieht folgendermaßen aus und der Benutzer kann z.B. die Objekte in 
 
 Die zeichnerische Funktionen sind in diesem Menüpunkt aufgelistet und je nach vorhandenem Modul werden die Objekte ergänzt, damit der Benutzer direkt grafische Objekte erstellt, die direkt mit Referenzobjekten verknüpft werden. 
 
-![image-20220704120506950](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\toolbar_drawing_options.png)
+![image-20220704120506950](_images\graphics\toolbar_drawing_options.png)
 
 
 
@@ -152,47 +152,47 @@ Das Zeichnen ist abhängig von dem ausgewählten Objekttyp und Untertyp - zum Be
 
 Die Auswahl des Typs steht unten mittig und mit Klick kann der Benutzer die Form ändern oder direkt eine aus der Bibliothek eine gespeicherte Geometrie zeichnen. 
 
-![image-20220704122307858](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_object_form_select.png)
+![image-20220704122307858](_images\graphics\draw_object_form_select.png)
 
 
 
 **Beispiel: ** Ein freies Polygon
 
-![image-20220704122029224](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_free_polygon.png)
+![image-20220704122029224](_images\graphics\draw_free_polygon.png)
 
 
 
 **Beispiel: ** Ein Rechteck
 
-![image-20220704122120960](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_recktangle.png)
+![image-20220704122120960](_images\graphics\draw_recktangle.png)
 
 
 
 Nachdem das Objekt platziert ist, muss der Benutzer das Objekt bestätigen. 
 
-![image-20220704122544560](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_object_confirm.png)
+![image-20220704122544560](_images\graphics\draw_object_confirm.png)
 
 
 
 > **TIPP: ** Vor dem Bestätigen kann der Benutzer die Maßen, mit einfachem Klick auf die Maße, ändern oder das Objekt anpassen, z.B. zusätzlichen Punkt hinzufügen mit einfachem Klick und Ziehen der Linie - nur Objekte, die aus Polylinie bestehen. Zum Rechteck kann keinen Zusatzpunkt hinzugefügt werden.
 
-![image-20220704122750581](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_object_change_size.png)
+![image-20220704122750581](_images\graphics\draw_object_change_size.png)
 
 
 
-![image-20220704122848755](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_object_new_point.png)
+![image-20220704122848755](_images\graphics\draw_object_new_point.png)
 
 
 
 Am Ende muss der Benutzer das Objekt bestätigen und danach auch **Speichern**. Vor dem Speichern kann der Benutzer noch weitere Objekte zeichnen. 
 
-![image-20220704123032479](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_object_save.png)
+![image-20220704123032479](_images\graphics\draw_object_save.png)
 
 
 
 > **Bemerkung: **Beim Speichern wird das Erstellen eines Referenzobjektes angeboten, falls der Benutzer so ein Objekt aus dem Menü zum Zeichnen ausgewählt hat. 
 
-![image-20220704123201662](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_object_save_with_ref.png)
+![image-20220704123201662](_images\graphics\draw_object_save_with_ref.png)
 
 
 
@@ -208,7 +208,7 @@ In diesem Menü sind die Funktionen zum Transformieren grafischer Objekte vorhan
 
 Die Funktionen, die hier vorhanden sind, sind nur auf ausgewählte Objekte anwendbar. Der Benutzer soll zuerst mindestens ein Objekt auswählen und dann die Funktion klicken. 
 
-![image-20220704123852404](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_transformation.png)
+![image-20220704123852404](_images\graphics\draw_transformation.png)
 
 
 
@@ -218,13 +218,13 @@ Die restlichen Funktionen sind auch mehrfach anwendbar.
 
 **Beispiel Anpassen**. Die Punkte werden angezeigt und mit Ziehen kann der Benutzter die Punkte ändern oder neue Punkte hinzufügen. 
 
-![image-20220704124408906](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_transformation_adjust.png)
+![image-20220704124408906](_images\graphics\draw_transformation_adjust.png)
 
 
 
 **Beispiel Verschieben**
 
-![image-20220704124549635](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_transformation_move.png)
+![image-20220704124549635](_images\graphics\draw_transformation_move.png)
 
 
 
@@ -232,19 +232,19 @@ Die restlichen Funktionen sind auch mehrfach anwendbar.
 
 **Kombinieren** - falls mehrere Objekte gleiches Typs ausgewählt sind, kann der Benutzer diese kombinieren. Die Option wird erst dann angezeigt, sobald mindestens 2 Objekte ausgewählt sind.
 
-![image-20220704132025253](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_transformation_combi.png)
+![image-20220704132025253](_images\graphics\draw_transformation_combi.png)
 
 
 
 **Beispiel Subtraktion zweier Polygone ** 
 
-![image-20220704132200369](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_transformation_substraction.png)
+![image-20220704132200369](_images\graphics\draw_transformation_substraction.png)
 
 
 
 Von dem großen wird das kleine Polygon subtrahiert und das Ergebnis wird ein Polygon mit Ausschnitt sein.
 
-![image-20220704132319192](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_transformation_substraction_example.png)
+![image-20220704132319192](_images\graphics\draw_transformation_substraction_example.png)
 
 
 
@@ -252,13 +252,13 @@ Von dem großen wird das kleine Polygon subtrahiert und das Ergebnis wird ein Po
 
 Der Benutzer kann schnell Länge / Fläche oder Umfang abmessen. Dazu sind die folgenden Funktionen zur Verfügung.
 
-![image-20220704124938192](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_measure.png)
+![image-20220704124938192](_images\graphics\draw_measure.png)
 
 
 
 Mit dem ersten Klick wird der Startpunkt gesetzt und mit jedem weiteren Klick noch einen Zusatzpunkt bis der Benutzer nicht mit Enter die Messung beendet hat. 
 
-![image-20220704125156532](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_measure_points.png)
+![image-20220704125156532](_images\graphics\draw_measure_points.png)
 
 
 
@@ -266,7 +266,7 @@ Mit dem ersten Klick wird der Startpunkt gesetzt und mit jedem weiteren Klick no
 
 In dem letzten Menü sind die letzten 10 am meistgenutzten Operationen gepackt. Das System sammelt diese und nummeriert die automatisch von 0 bis 10 und der Benutzer kann mit den Zahltasten direkt die Operation aufrufen. 
 
-![image-20220704120151301](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\toolbar_last_actons.png)
+![image-20220704120151301](_images\graphics\toolbar_last_actons.png)
 
 
 
@@ -276,7 +276,7 @@ Die Fangoptionen werden angezeigt, sobald der Benutzer ein Objekt zeichnet oder 
 
 
 
-![image-20220704125413599](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_fang.png)
+![image-20220704125413599](_images\graphics\draw_fang.png)
 
 Diese werden oben mittig angezeigt und sind wie folgt definiert:
 
@@ -286,7 +286,7 @@ Diese werden oben mittig angezeigt und sind wie folgt definiert:
 * Winkelfang - der Winkel ist in den Einstellungen einzugeben.
 * Einstellungen - Anpassen der Länge und Winkel
 
-![image-20220704125820081](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_fang_options.png)
+![image-20220704125820081](_images\graphics\draw_fang_options.png)
 
 Diese Option ist sehr hilfreich für die saubere Bearbeitung und Erstellung von grafischen Objekten. 
 
@@ -296,13 +296,13 @@ Diese Option ist sehr hilfreich für die saubere Bearbeitung und Erstellung von 
 
 Die **Zusatzfunktionen** sind mit rechtem Mausklick aufrufbar und sind von der Auswahl abhängig. Falls Sie keine Objekte selektiert haben, sind dann einige Optionen wie *mehrfache Bearbeitung* nicht angeboten. 
 
-![image-20220704113137051](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\drawing_edit_mouse_menu.png) 
+![image-20220704113137051](_images\graphics\drawing_edit_mouse_menu.png) 
 
 
 
 Falls Sie Objekte ausgewählt sind:
 
-![image-20220704113305138](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\drawing_edit_mouse_menu_extended.png)
+![image-20220704113305138](_images\graphics\drawing_edit_mouse_menu_extended.png)
 
 
 
@@ -318,13 +318,13 @@ Diese Ansicht in Tabelle ist sehr hilfreich, falls nur bestimmte Objekte aus der
 
 
 
-![image-20220704130512626](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_multiple_edit.png)
+![image-20220704130512626](_images\graphics\draw_multiple_edit.png)
 
 
 
 **Beispiel: ** Mehrere Räume (Referenzobjekte) in Tabelle bearbeiten.
 
-![image-20220704130628477](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_multiple_edit_example.png)
+![image-20220704130628477](_images\graphics\draw_multiple_edit_example.png)
 
 
 
@@ -334,7 +334,7 @@ Die ausgewählte Objekte können auch in Formular zur Bearbeitung geöffnet werd
 
 Vor dem Speichern wird der Benutzer ausdrücklich danach gefragt. 
 
-![image-20220704130827563](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_multiple_edit_example_save.png)
+![image-20220704130827563](_images\graphics\draw_multiple_edit_example_save.png)
 
 
 
@@ -346,7 +346,7 @@ Hier kann der Benutzer ausgewählte Objekte Kopieren und Ausschneiden. Es gibt d
 
 ### Generieren
 
-![image-20220704132451421](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_generate.png)
+![image-20220704132451421](_images\graphics\draw_generate.png)
 
 
 
@@ -358,7 +358,7 @@ Hier kann der Benutzer z.B. eine neue Referenz zu einem grafischen Objekt erstel
 
 In diesem Menü sind Optionen wie Kopieren, Verschieben nach anderem Plan, Layer oder Speichern der Geometrie für spätere Wiedernutzung. 
 
-![image-20220704132804936](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_objects_save_menu)
+![image-20220704132804936](_images\graphics\draw_objects_save_menu)
 
 
 
@@ -366,9 +366,9 @@ Beim Speichern der Geometrie muss der Benutzer auch einen Namen vergeben. Beim K
 
 **Beispiel: ** Speichern einer Geometrie in der Bibliothek. 
 
-![image-20220704133014865](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_save_geometry1.png)
+![image-20220704133014865](_images\graphics\draw_save_geometry1.png)
 
-![image-20220704133129075](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_save_geometry2.png)
+![image-20220704133129075](_images\graphics\draw_save_geometry2.png)
 
 
 
@@ -378,7 +378,7 @@ Die gespeicherte Geometrien stehen zur Auswahl beim Zeichnen in dem Auswahlmenü
 
 ### Ausführen
 
-![image-20220704133303347](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_execute.png)
+![image-20220704133303347](_images\graphics\draw_execute.png)
 
 
 
@@ -391,7 +391,7 @@ In diesem Untermenü sind Druck und Export Funktionen vorhanden. Diese sind auch
 Die Layergruppe beinhaltet die Einstellungen der eingeschalteten Layer. Die Layer sind standardmäßig versteckt, können nach Bedarf sichtbar gemacht werden und ggf. bearbeitet. 
 Die vordefinierten Layergruppen sind nach Themen unterteilt, können aber immer wieder erweitert. 
 
-![image-20220704133529814](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_layer_groups.png)
+![image-20220704133529814](_images\graphics\draw_layer_groups.png)
 
 Auf die Abbildung ist die aktive Layergruppe *Raumnutzung nach DIN 277 (Vorgabe)* und die Räume sind nach den eingegebenen Nutzungen eingefärbt. Diese Layergruppe ist als Vorgabe gesetzt. 
 In dieser Layergruppe sind die **Räume** auswählbare Objekte, weil die Raumnutzungen in dem Raum festgelegt werden. 
@@ -407,13 +407,13 @@ Eine Layergruppe hat folgende Eigenschaften:
 
 Die Einstellungen sind ganz oben in der Layerliste als Button angezeigt. 
 
-![image-20220704133708538](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_layer_groups_properties.png)
+![image-20220704133708538](_images\graphics\draw_layer_groups_properties.png)
 
 
 
 Mit Klick drauf werden die Layer und die Einstellungen angezeigt..
 
-![image-20220704133811116](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_layer_groups_overview.png)
+![image-20220704133811116](_images\graphics\draw_layer_groups_overview.png)
 
 
 
@@ -421,7 +421,7 @@ Pro Layer kann der Benutzer die Eigenschaften mit einfachen Klicks ändern.
 
 Mehrfache Einstellung - wie z.B. mehrere Layer auswählbar machen - ist erst nach der Markierung der Layer möglich. 
 
-![image-20220704134018238](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_layer_groups_example1.png)
+![image-20220704134018238](_images\graphics\draw_layer_groups_example1.png)
 
 So kann in einem Schritt mehrfache Aktivierung / Deaktivierung der Eigenschaft gemacht werden. 
 
@@ -439,7 +439,7 @@ Mit Klick auf das Häkchen oben links werden alle Layer ausgewählt.
 
 > **CAD:** Hier werden nur die Objekte aus der importieren Zeichnung angezeigt. Die reine CAD Zeichnung ist ein bisschen bereinigt, um bessere Ansicht für ein CAFM System zu erzielen. Auf der Abbildung sind Bemaßungen, Achsen etc. ausgeblendet. Dies können jederzeit wieder eingeschaltet werden. Auf der linken Seite sind die Layer angezeigt. Alle *A-..* Layer sind in dieser Layergruppe sichtbar, auswählbar und editierbar. Das heißt, dass mit dem Auswahltool alle sichtbare Objekte ausgewählt und bearbeitet werden können. 
 
-![image-20220704134548887](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_layer_groups_example_CAD.png)
+![image-20220704134548887](_images\graphics\draw_layer_groups_example_CAD.png)
 
 > **BGF:** *Voraussetzung: Modul "Flächenmanagement"* 
 > Hier wird nur das Geschoss auswählbar und editierbar sein, das über die CAD Zeichnung gezeichnet sind. Das Geschosspolygon gibt uns die gesamte Geschossfläche und deshalb ist diese Layergruppe dafür vordefiniert. BGF - Brutto Geschoss Fläche. Das Geschosspolygon wird zuerst auf die Zeichnung gezeichnet, weil er den kompletten Plan umfasst. Die Räume, die auf das Geschosspolygon gezeichnet sind, werden automatisch zu dem Geschoss durch die Überlappung zugeordnet. 
@@ -451,7 +451,7 @@ Auf der linken Seite sind wieder die Layer angezeigt. Die Layer-Konfiguration is
 * **Fangmodus** - Alle Wände sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Geschoss-Polygones
 * **Layer aktiv** -  *FM-Polygon-BGF* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie BGF Polygon zeichnen.
 
-![image-20220704134659414](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_layer_groups_example_BGF.png)
+![image-20220704134659414](_images\graphics\draw_layer_groups_example_BGF.png)
 
 > **Raumnutzung nach DIN 277:** *Voraussetzung: Modul "Flächenmanagement"* 
 > Hier werden nur die Räume auswählbar und editierbar sein, die über die CAD Zeichnung gezeichnet sind. Diese Räume sind mit einem Raumdatensatz verknüpft. Die Räume werden hier "nach der Nutzungsfarbe des Raums" gefärbt, damit der Benutzer besseren Überblick hat, wo was für Räume sind. 
@@ -468,7 +468,7 @@ Auf der linken Seite sind wieder die Layer angezeigt. Die Layer-Konfiguration is
 * **Fangmodus** - Alle Möbel sind mit aktivem Fangmodus, weil nur diese spielen eine Rolle beim Zeichnen eines Arbeitsplatzes
 * **Layer aktiv** -  *FM-Arbeitsplatz* ist als aktiv gesetzt. Neu gezeichnete Objekte werden auf diesem Layer gespeichert. Deshalb ist diese Layergruppe die passende, wenn Sie Arbeitsplätze zeichnen.
 
-![image-20220704134848676](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_layer_groups_example_workplace.png)
+![image-20220704134848676](_images\graphics\draw_layer_groups_example_workplace.png)
 
 
 
@@ -483,7 +483,7 @@ Der Benutzer kann den Plan in Lese- und in Bearbeitungsmodus drucken. Es wird ta
 
 Beim Drucken wird ein Fenster mit Optionen zum Druck angezeigt. 
 
-![image-20220704135156166](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_print_pdf.png)
+![image-20220704135156166](_images\graphics\draw_print_pdf.png)
 
 
 
@@ -491,7 +491,7 @@ Die wichtigste Einstellung ist der Modus. Ob alles, Ausschnitt, Sichtfeld oder A
 
 ### Alles 
 
-![image-20220704135404350](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_print_all.png)
+![image-20220704135404350](_images\graphics\draw_print_all.png)
 
 
 
@@ -499,7 +499,7 @@ Die wichtigste Einstellung ist der Modus. Ob alles, Ausschnitt, Sichtfeld oder A
 
 Alles was sichtbar ist - abhängig vom Zoomfaktor. 
 
-![image-20220704135559513](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_print_all_view.png)
+![image-20220704135559513](_images\graphics\draw_print_all_view.png)
 
 
 
@@ -509,19 +509,19 @@ Ein Druckpolygon kann über einen Bereich gezogen und gespeichert werden. Dann k
 
 **Step 1** - Druckpolygon zeichnen
 
-![image-20220704135815585](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_print_area_step1.png)
+![image-20220704135815585](_images\graphics\draw_print_area_step1.png)
 
 
 
 **Step 2** - Druckpolygon speichern und benennen. 
 
-![image-20220704140035855](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_print_area_step2.png)
+![image-20220704140035855](_images\graphics\draw_print_area_step2.png)
 
 
 
 **Step 3** - in dem Feld Modus muss das Polygon ausgewählt werden und beim Ausdruck kommt nur diesen Ausschnitt aus. 
 
-![image-20220704140236693](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_print_area_step3.png)
+![image-20220704140236693](_images\graphics\draw_print_area_step3.png)
 
 > **TIPP: * Falls das Druckpolygon vor dem Druckfenster ausgewählt ist, wird es direkt beim Auswahl von *Ausschnitt* eingetragen.
 
@@ -537,7 +537,7 @@ Zusatzfunktion wie **Übernehmen von** ist für Übernahme eines gespeicherten D
 
 Die Exportfunktion ist wie Druck als PDF mit der freien Eingabe der Dateierweiterung. 
 
-![image-20220704140903737](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_export_menu.png)
+![image-20220704140903737](_images\graphics\draw_export_menu.png)
 
 
 
@@ -545,7 +545,7 @@ Die Exportfunktion ist wie Druck als PDF mit der freien Eingabe der Dateierweite
 
 Diese Funktion bietet die Möglichkeit eine Vorlage für Rahmen / Plankopf zu nutzen. Diese Vorlagen sind vordefiniert und können dynamisch angepasst oder sogar kundenspezifisch von dem Kundenadministrator angepasst werden. 
 
-![image-20220704141132069](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_export_with_template.png)
+![image-20220704141132069](_images\graphics\draw_export_with_template.png)
 
 
 
@@ -557,11 +557,11 @@ Die Vorlagen sind für die unterschiedlichen Papiergrößen und Ausrichtung unte
 
 **Beispiel Raumnutzungen DIN 277 - PDF / A3 / Querformat**
 
-![image-20220704141715753](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_export_with_template_example.png)
+![image-20220704141715753](_images\graphics\draw_export_with_template_example.png)
 
 Hier wäre A2 besser passend gewesen damit die Tabelle nicht den Plan bedeckt. 
 
-![image-20220704141922881](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_export_with_template_example1.png)
+![image-20220704141922881](_images\graphics\draw_export_with_template_example1.png)
 
 
 
@@ -576,19 +576,19 @@ Sehr oft muss eine Wand wegen einer Umbau hinzugefügt oder verschiben werden. D
 
 **Beispiel passender Ansicht**
 
-![image-20220704142840532](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_examples_edit_walls.png)
+![image-20220704142840532](_images\graphics\draw_examples_edit_walls.png)
 
 Die wände hier sind grün angezeigt und diese können ausgewählt werden. Dazu ist der aktive Layer "Wand-nicht-definiert".
 
 Eine neue Wand zeichnet man als 2 Linien. 
 
-![image-20220704143027895](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_examples_new_wall1.png) 
+![image-20220704143027895](_images\graphics\draw_examples_new_wall1.png) 
 
 
 
 **Beispiel**
 
-![image-20220704143153548](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_examples_new_wall2.png)
+![image-20220704143153548](_images\graphics\draw_examples_new_wall2.png)
 
 
 
@@ -602,21 +602,21 @@ Dann muss das Raumpolygon angepasst werden, damit zwei neue Räume entstehen. Da
 
 Eine richtige Ansicht wäre *Raum* oder *Raumnutzung nach DIN 277*.
 
-![image-20220704143521493](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_examples_space_transform.png)
+![image-20220704143521493](_images\graphics\draw_examples_space_transform.png)
 
 Mit rechter Maustaste kann der Benutzer Endpunkte entfernen oder neue hinzufügen. 
 
-![image-20220704143656349](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_examples_space_transform1.png)
+![image-20220704143656349](_images\graphics\draw_examples_space_transform1.png)
 
 
 
 Danach die Anpassung bestätigen und den neuen Raum zeichnen.
 
-![image-20220704143811404](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_examples_space_transform2.png)
+![image-20220704143811404](_images\graphics\draw_examples_space_transform2.png)
 
 
 
-![image-20220704143900931](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_examples_space_transform3.png)
+![image-20220704143900931](_images\graphics\draw_examples_space_transform3.png)
 
 Anschließend müssen die Änderungen gespeichert werden. 
 
@@ -638,7 +638,7 @@ Zuerst müssen die Linien angepasst werden, die die Möbel darstellen, danach da
 In einer passenden Ansicht wählen Sie den Arbeitsplatz und klicken Sie dann auf Transformieren -> Anpassen.
 
 
-![image-20220704144548373](E:\GitHub\visionr-wiki\de\user-guide\apps\_images\graphics\draw_examples_edit_workplace_polygon.png)
+![image-20220704144548373](_images\graphics\draw_examples_edit_workplace_polygon.png)
 
 Anschließend die Änderungen speichern.
 
