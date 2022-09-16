@@ -12,10 +12,11 @@
     <div style="height:200px"></div>
     <div style="color:#BBBBBB">
         <div style="font-size:14px">Erstellt von Plan-Vision GmbH</div>
-    	<div style="font-size:14px">Version 1.2 &bull; Stand 23.02.2022</div>
+    	<div style="font-size:14px">Version 1.3 &bull; Stand 04.07.2022</div>
     	<div style="font-size:14px">Plan-Vision GmbH &bull; E-Mail: support@plan-vision.com &bull; Web: https://plan-vision.com</div>
     </div>
 </div>
+
 
 
 
