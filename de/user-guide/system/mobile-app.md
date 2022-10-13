@@ -95,7 +95,7 @@ Nachdem Sie sich angemeldet haben können Sie zum gewünschten Modul und zur bev
 
 *Bild 3: Das Modul FlexiWorkplace als App speichern*
 
-Finden Sie den Eintrag **„Zum Startbildschirm zufügen“** und klicken Sie drauf:
+Finden Sie den Eintrag **„Zum Home-Bildschirm“** und klicken Sie drauf:
 
 ![iOS-App auf dem Home-Bildschirm speichern](_images\mobile-app\iOS-step-04.png)
 
