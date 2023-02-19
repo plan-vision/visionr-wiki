@@ -34,8 +34,8 @@ async function getFiles(dir) {
   var ver = JSON.parse(fs.readFileSync("package.json")).version;
   var mfile = 'target/VisionR-Wiki-'+ver+'.pdf';
   // cleanup on version change
-  if (!fs.existsSync(mfile))
-      fs.rmdirSync("target/", { recursive: true });
+  if (!fs.existsSync(mfile) && fs.existsSync("target/"))
+	  fs.rmSync("target/", { recursive: true });
   //-------------------------------------------
   var p = 0;
   var ofiles = [];
