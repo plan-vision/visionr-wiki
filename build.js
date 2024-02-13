@@ -1,8 +1,10 @@
-
+require("any-observable/register")('rxjs');
+ 
 const fs = require('fs');
 const { mdToPdf } = require('md-to-pdf');
 const { resolve,normalize } = require('path');
 const { readdir } = require('fs').promises;
+
 
 async function getFiles(dir) {
   const dirents = await readdir(dir, { withFileTypes: true });
