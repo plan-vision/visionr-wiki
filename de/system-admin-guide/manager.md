@@ -1,7 +1,7 @@
 <!-- TITLE: VisionR Manager-->
 <!-- SUBTITLE: Verwaltung von mehreren Instanzen im VisionR Manager -->
 
-*Sie sind hier: [Home](/home) > [Administratorenhandbuch](/de/admin-guide) > VisionR Manager
+*Sie sind hier: [Home](/home) > [Administratorenhandbuch](system-admin-guide) > VisionR Manager
 
 # Instancen
 Neue Instanz anlegen

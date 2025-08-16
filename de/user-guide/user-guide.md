@@ -6,7 +6,6 @@ Deutsch | [English](../../en/user-guide/user-guide) | *Sie sind hier: [Home](../
 # Allgemeine Bedienung
 
 * [Neue Oberflächen mit Forms](general/general) (ab Version 8)
-* [Alte Oberflächen](version7/general) (bis einschließlich Version 7)
 
 # VisionR Module
 
@@ -46,15 +45,3 @@ Deutsch | [English](../../en/user-guide/user-guide) | *Sie sind hier: [Home](../
 * Kommunikation
 * Skripte
 * Kern
-* Offline
-# Version 7 - alt
-
-## Module
-
-* [Kontakte](version7/contacts)
-* [Mietmanagement](version7/rentals)
-* [Raumbuchungen](version7/reservations)
-
-## Systemmodule
-
-* [Beutzerverwaltung](version7/user-management)

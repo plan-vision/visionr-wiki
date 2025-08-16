@@ -18,19 +18,19 @@ Die notwendige Schritte, um VisionR Server und/oder ein Kundenprojekt auf eine n
 # VisionR Skript ausführen
 VisionR Skripte im Format VSC oder VScript erlauben die Ausführung von verschiedenen administrativen Aufgaben: Datenbankänderungen, E-Mail-Zugriff, Berichte usw. 
 Sie können auf einem separaten Link (normalerweise http://serveradresse/vsc.vsp) Skripte zu Testzwecken ausführen und parallel die Ergebnisse im Instanz-Log betrachten.
-Mehr erfahren Sie [hier](/de-DE/admin-guide/vsc).
+Mehr erfahren Sie [hier](/en/developer-guide/vsc).
 # Schnittstellen
 ## LDAP
-* [LDAP Schnittstellen](/de/admin-guide/interfaces/ldap)
+* [LDAP Schnittstellen](/de/system-admin-guide/interfaces/ldap)
 ## Datenbank über JDBC
-* [Datenbankzugriff](/de/admin-guide/interfaces/database) - PostgreSQL, ORACLE, MSSQL Server usw.
+* [Datenbankzugriff](/de/system-admin-guide/interfaces/database) - PostgreSQL, ORACLE, MSSQL Server usw.
 ## E-Mail
-* [Termine synchronisieren](/de/admin-guide/interfaces/email/ics)
+* [Termine synchronisieren](/de/system-admin-guide/interfaces/ics)
 ## Dateien
-* [CSV](/de/admin-guide/interfaces/files/csv)
-* [Excel](/de/admin-guide/interfaces/files/excel)
+* [CSV](/de/system-admin-guide/interfaces/csv)
+* [Excel](/de/system-admin-guide/interfaces/excel)
 ## SAP
-* [SAP Schnittstelle](/de/admin-guide/interfaces/sap)
+* [SAP Schnittstelle](/de/system-admin-guide/interfaces/sap)
 
 # Benutzerverwaltung
-* [Benutzerverwaltung](/de/admin-guide/user-management)
+* [Benutzerverwaltung](/de/user-guide/system/user-management)

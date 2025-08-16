@@ -19,19 +19,14 @@
   },
   "homepage": "https://github.com/plan-vision/visionr-wiki#readme",
   "devDependencies": {
-    "any-observable": "^0.5.1",
     "md-to-pdf": "^5.2.4",
-    "pdf-merger-js": "^5.1.1",
-    "rxjs": "^7.8.1",
-    "rxjs-compat": "^6.6.7",
-	"pdfjs": "^2.5.3"
+    "pdf-merger-js": "^5.1.2",
+    "pdfjs": "^2.5.4"
   },
   "files": [
     "/*.md",
     "/*.txt",
     "target/pdf",
     "target/*.pdf"
-  ],
-  "dependencies": {
-  }
+  ]
 }
