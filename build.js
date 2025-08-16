@@ -42,14 +42,13 @@ async function getFiles(dir) {
   var ver = JSON.parse(fs.readFileSync("package.json")).version;
   var mfile = 'target/VisionR-Wiki-' + ver + '.pdf';
   // cleanup on version change
-  if (fs.existsSync("target")) 
-  {
+  if (fs.existsSync("target")) {
     if (!fs.existsSync(mfile)) 
         fs.rmSync("target/", { recursive: true });
     else {
         //console.warn("!!! TS CRR FS ",Math.floor(maxTSFiles),Math.floor(fs.statSync(mfile).mtimeMs));
         // cleanup temporary / outdated builds
-        if (Math.floor(fs.statSync(mfile).mtimeMs) != Math.floor(maxTSFiles))
+        if (Math.round(fs.statSync(mfile).mtimeMs/1000.0) != Math.round(maxTSFiles/1000.0))
             fs.rmSync("target/", { recursive: true });
         else { // UP TO DATE 
             console.info("Everything up to date in VisionR-Wiki, skipping rebuild!");
