@@ -53,7 +53,7 @@ Das Modul Inventar bietet Ihnen dafür vielfältige Möglichkeiten, zum Beispiel
 
 ## Administration
 
-Administrative Aufgaben sind im Abschnitt [Admin Flächenmanagement](../admin/invetoriy) beschrieben.
+Administrative Aufgaben sind im Abschnitt [Admin Flächenmanagement](../admin/inventory) beschrieben.
 
 # Übersicht
 

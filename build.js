@@ -1,7 +1,7 @@
 //require("any-observable/register")('rxjs');
 const fs = require('fs');
 const { mdToPdf } = require('md-to-pdf');
-const { resolve, normalize, relative, dirname, isAbsolute } = require('path');
+const { resolve, relative, dirname } = require('path');
 const { readdir } = require('fs').promises;
 
 async function getFiles(dir) {
@@ -12,7 +12,6 @@ async function getFiles(dir) {
   }));
   return Array.prototype.concat(...files);
 }
-
 (async () => {
   var root = [
     {
@@ -30,12 +29,34 @@ async function getFiles(dir) {
     f1 = [r.entry].concat(f1);
     files = files.concat(f1);
   }
-
+  var maxTSFiles = 0;
+  for (const file of files) {
+    const stat = fs.statSync(file);
+    const ts = stat.mtimeMs; // modification time in ms since epoch
+    if (ts > maxTSFiles) {
+      maxTSFiles = ts;
+    }
+  }
+  //maxTSFiles = Math.floor(maxTSFiles);
+  //---------------------------------------------------------
   var ver = JSON.parse(fs.readFileSync("package.json")).version;
   var mfile = 'target/VisionR-Wiki-' + ver + '.pdf';
   // cleanup on version change
-  if (!fs.existsSync(mfile) && fs.existsSync("target/"))
-    fs.rmSync("target/", { recursive: true });
+  if (fs.existsSync("target")) 
+  {
+    if (!fs.existsSync(mfile)) 
+        fs.rmSync("target/", { recursive: true });
+    else {
+        //console.warn("!!! TS CRR FS ",Math.floor(maxTSFiles),Math.floor(fs.statSync(mfile).mtimeMs));
+        // cleanup temporary / outdated builds
+        if (Math.floor(fs.statSync(mfile).mtimeMs) != Math.floor(maxTSFiles))
+            fs.rmSync("target/", { recursive: true });
+        else { // UP TO DATE 
+            console.info("Everything up to date in VisionR-Wiki, skipping rebuild!");
+            return; 
+        }
+    }
+  }
   //-------------------------------------------
   var crrpage = 1;
   var p = 0;
@@ -54,7 +75,7 @@ async function getFiles(dir) {
     const idst = tp + '/_images';
     const isrc = dirname(e) + '/_images';
     if (fs.existsSync(isrc) && !fs.existsSync(idst)) {
-      console.log("COPY ", isrc, idst);
+      //console.warn("COPY images :", isrc, idst);
       fs.cpSync(isrc, idst, { recursive: true });
     }
     console.log("[" + p + "] " + e);
@@ -103,7 +124,7 @@ async function getFiles(dir) {
     var basf = "target/tmp/" + e.substring(0, e.length - 3);
     var inpf =  basf + ".pdf";
     var outpf =  basf + ".PAGES.pdf";
-    if (0 == 0 || !fs.existsSync(outpf)) {
+    if (!fs.existsSync(outpf)) {
       let buf = fs.readFileSync(inpf);  
       buf = rewriteLocalhostUris(buf, (pth) => {
         while (pth.startsWith("/")) pth=pth.substring(1);
@@ -119,12 +140,21 @@ async function getFiles(dir) {
     }
     mfiles.push(outpf);
   }
-  console.log(" >>> Building bundle (" + mfiles.length + " files)", mfiles);
+  console.log(" >>> Building bundle (" + mfiles.length + " files)");//, mfiles);
   const PDFMerger = require('pdf-merger-js').default;
   var merger = new PDFMerger();
   for (var e of mfiles) await merger.add(e);
   console.log(" >>> Saving bundle", mfile);
   await merger.save(mfile);
+
+  // @END : SET FILE MTIME 
+  setMtime(mfile,maxTSFiles);
+  function setMtime(filePath, mtimeMs) {
+    const mtimeSec = mtimeMs / 1000; // utimesSync expects seconds
+    const atimeSec = fs.statSync(filePath).atimeMs / 1000; // preserve access time
+    fs.utimesSync(filePath, atimeSec, mtimeSec);
+  }
+
 })();
 
 
