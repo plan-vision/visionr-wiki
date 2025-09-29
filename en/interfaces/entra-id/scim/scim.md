@@ -5,19 +5,17 @@
 	<div style="font-size:45px;color:#777777">Data sync: Entra ID to VisionR</div>
     <div style="font-size:35px">setting up a VisionR SCIM endpoint</div>
     <div style="height:20px"></div>
-    <div style="height:160px"><img style="width:160px" src="_images/_title/visionr-logo-big.jpg"/></div>
+    <div style="height:120px"><img style="width:120px" src="_images/_title/visionr-logo-big.jpg"/></div>
     <div style="height:20px"></div>
     <div style="font-size:25px">Entra ID / SCIM / Person and Account data</div>
     <div style="font-size:25px">from version 9.17</div>
-    <div style="height:200px"></div>
+    <div style="height:280px"></div>
     <div style="color:#BBBBBB">
         <div style="font-size:14px">Created by Plan-Vision GmbH</div>
     	<div style="font-size:14px">Version 1.1 &bull; from 25.09.2025</div>
     	<div style="font-size:14px">Plan-Vision GmbH &bull; email: support@plan-vision.com &bull; web: https://plan-vision.com</div>
     </div>
 </div>
-
-
 
 
 
@@ -34,7 +32,7 @@ English| [Deutsch](../../../de/interfaces/entra-id/scim/scim) | *You are here: [
 
 **Current version:** 1.2
 
-**From:** 23.02.2022
+**From:** 25.09.2025
 
 **Author:** Plan-Vision GmbH
 
@@ -56,10 +54,87 @@ Use the following web link to go to the Entra ID portal an sign in:
 
 `https://entra.microsoft.com`
 
-![Entra ID index](_images/_scim/001_entra-id-index.jpg)
+Please perform these steps to set up the connection in Entra ID:
 
-*Picture 01: Entra ID index*
+### Entra ID index page
 
+Go to the Entra ID index page. You will have to log in with an administrative account to be able to perform the steps for registering an enterprise app
+
+![Entra ID index](_images/_scim/001_entra-id_index.png)*Picture 1: Entra ID index*
+
+### Enterpsise apps
+
+Click on the `Enterprise apps`-Button in the side navigation menu on the left hand side:
+
+![Enterpsise apps](_images/_scim/002_enterprise_apps_button.png)*Picture 2: "Enterprise app" button*
+
+### New enterprise application
+
+Click on the `New application`-Button to initiate the creation of a new enterprise app
+
+![New application](_images/_scim/003_new_application.png)*Picture 3: "New application" button*
+
+### Create own app
+
+Skip the list of recommended apps and create your own application
+
+![Create own app](_images/_scim/004_create_own_application.png)*Picture 4: Create own app*
+
+### Integrate other app
+
+![Integrate any other app](_images/_scim/005_integrate_any_other_app.png)*Picture 5: Integrate any other app*
+
+### Own app created
+
+![VisionR SCIM app](_images/_scim/006_visionr_scim_created.png)*Picture 6: Own app created*
+
+### Own application overview
+
+In the overview of the newly created enterprise app, e.g. "VisionR SCIM" you should click on the `Provisioning`-button to create a new configuration for data synchronization with the predefined VisionR end-point.
+
+![Provisioning button](_images/_scim/007_provisioning_button.png)*Picture 7: Application overview - click on "Provisioning"*
+
+### New provisioning configuration
+
+![New provisioning configuration](_images/_scim/008_provisioning_new_configuration.png)*Picture 8: Provisioning configuration*
+
+### Tenant URL with token
+
+To be able to proceed at this point you will need a valid tenant URL and a valid token, which will be provided to you by the Plan-Vision vendor network.
+
+![Tenant URL with token](_images/_scim/009_tenant.png)*Picture 9: Define end-point connection with tenant URL and token*
+
+### Test connection
+
+![Test connection](_images/_scim/010_test.png)*Picture 10: Test your connection*
+
+### Create after test success
+
+![Test success](_images/_scim/011_test_successful.png)*Picture 11: Create the own app after a successful connection test*
+
+### Provisioning overview
+
+![Provisioning created](_images/_scim/012_provisioning_created.png)*Picture 12: Overview of the newly created app*
+
+### Provisioning settings
+
+#### Add users and groups
+
+![Settings - users and groups](_images/_scim/020_settings_users_and_groups.png)*Picture 13: Provisioning settings - add users and groups*
+
+#### Attribute mappings
+
+![Settings - mappings](_images/_scim/021_settings_attribute_mappings.png)*Picture 14: Provisioning settings - add/remove mappings*
+
+#### Switch provisioning sync on/off
+
+![Settings - switch on provisioning](_images/_scim/022_settings_switch_on.png)*Picture 15: Switch a provisioning on/off*
+
+### Provisioning on demand
+
+After you have successfully created a connection to a predefined VisionR SCIM end point, you can begin testing the contents of the interface using single users or groups. Thus you will be able to match the mappings on both sides: in Entra ID and in VisionR also. At this pint the implementing partner should be contacted in order to perform simultaneous tests on both sides.
+
+![Settings - provisioning on demand](_images/_scim/030_provisioning_on_demand.png)*Picture 15: Provisioning on demand*
 
 # Set up VisionR
 
@@ -86,7 +161,7 @@ Following reports or alternative customized reports must be present:
 
 ## Settings in XCONF
 
-In order to enable SCIM in VisionR you must define a rest session for authentication withthe method **bearer**. Here an example definition from the XCONF-file:
+In order to enable SCIM in VisionR you must define a rest session for authentication featuring the method **bearer** (other methods are not needed by default). Here an example definition from the XCONF-file:
 
 ````xml
 <task name="setCoreProperties" description="Rest">
@@ -96,7 +171,7 @@ In order to enable SCIM in VisionR you must define a rest session for authentica
 			methods : basic and/or token, default is only token
 	-->
 	<param name="rest.sessions" type="string"><![CDATA[
-		XUtwIDIDXUtwIDIDXUtwIDIDXUtwIDIDXUtwIDID scim-demo basic+token+bearer
+		XUt12345XUt12345XUt12345XUt12345XUt12345XUt12345XUt1234 scim-demo basic+token+bearer
 	]]></param>
 	<param name="rest.auth.coookie" type="boolean">false</param>
 	<param name="rest.auth.strict" type="boolean">true</param>
