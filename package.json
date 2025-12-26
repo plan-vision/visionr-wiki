@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/plan-vision/visionr-wiki#readme",
   "devDependencies": {
-    "md-to-pdf": "^5.2.4",
+    "md-to-pdf": "^5.2.5",
     "pdf-merger-js": "^5.1.2",
     "pdfjs": "^2.5.4"
   },
