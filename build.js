@@ -1,180 +1,164 @@
-//require("any-observable/register")('rxjs');
-const fs = require('fs');
-const { mdToPdf } = require('md-to-pdf');
-const { resolve, relative, dirname } = require('path');
-const { readdir } = require('fs').promises;
+const fs = require('node:fs');
+const path = require('node:path');
+const { createHash } = require('node:crypto');
+const { PDFDocument, PDFName, PDFDict, PDFString, PDFHexString } = require('pdf-lib');
 
-async function getFiles(dir) {
-  const dirents = await readdir(dir, { withFileTypes: true });
-  const files = await Promise.all(dirents.map((dirent) => {
-    const res = dir + "/" + dirent.name;
-    return dirent.isDirectory() ? getFiles(res) : res;
-  }));
-  return Array.prototype.concat(...files);
+const roots = [{ dir: 'de', entry: 'home.md' }, { dir: 'en', entry: 'home-en.md' }];
+const pdfCss = `
+  pre, pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
+  table { display: table; table-layout: fixed; overflow: visible; }
+  table th, table td { overflow-wrap: anywhere; padding: 0.5em; }
+  table tr { break-inside: avoid; }
+  h1, h2, h3, h4, h5, h6 { break-after: avoid; }
+`;
+
+function getFiles(dir) {
+  return fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name, 'en')).flatMap(entry => {
+    const file = path.join(dir, entry.name);
+    return entry.isDirectory() ? getFiles(file) : [file];
+  });
 }
-(async () => {
-  var root = [
-    {
-      dir: "de",
-      entry: 'home.md'
-    },
-    {
-      dir: "en",
-      entry: 'home-en.md'
-    }
-  ];
-  var files = [];
-  for (var r of root) {
-    var f1 = await getFiles(r.dir);
-    f1 = [r.entry].concat(f1);
-    files = files.concat(f1);
-  }
-  var maxTSFiles = 0;
+
+function fingerprint(root, files) {
+  const hash = createHash('sha256').update(process.version);
   for (const file of files) {
-    const stat = fs.statSync(file);
-    const ts = stat.mtimeMs; // modification time in ms since epoch
-    if (ts > maxTSFiles) {
-      maxTSFiles = ts;
-    }
+    hash.update(JSON.stringify(file)).update(fs.readFileSync(path.join(root, file)));
   }
-  //maxTSFiles = Math.floor(maxTSFiles);
-  //---------------------------------------------------------
-  var ver = JSON.parse(fs.readFileSync("package.json")).version;
-  var mfile = 'target/VisionR-Wiki-' + ver + '.pdf';
-  // cleanup on version change
-  if (fs.existsSync("target")) {
-    if (!fs.existsSync(mfile)) 
-        fs.rmSync("target/", { recursive: true });
-    else {
-        //console.warn("!!! TS CRR FS ",Math.floor(maxTSFiles),Math.floor(fs.statSync(mfile).mtimeMs));
-        // cleanup temporary / outdated builds
-        if (Math.round(fs.statSync(mfile).mtimeMs/1000.0) != Math.round(maxTSFiles/1000.0))
-            fs.rmSync("target/", { recursive: true });
-        else { // UP TO DATE 
-            console.info("Everything up to date in VisionR-Wiki, skipping rebuild!");
-            return; 
-        }
-    }
-  }
-  //-------------------------------------------
-  var crrpage = 1;
-  var p = 0;
-  for (const e of files) if (e.endsWith(".md")) {
-    p++;
-    const tp = resolve("target/tmp/" + e + "/..");
-    const outf = "target/tmp/" + e;
-    fs.mkdirSync(tp, { recursive: true });
-    let newc = fs.readFileSync(e, "utf8");
-    let oc = ""; try { oc = fs.readFileSync(outf, "utf8"); } catch { }
-    let outfpdf = "target/tmp/" + e.substring(0, e.length - 3) + ".pdf";
-    if (fs.existsSync(outfpdf) && oc === newc) {
-      // up-to-date
-      continue;
-    }
-    const idst = tp + '/_images';
-    const isrc = dirname(e) + '/_images';
-    if (fs.existsSync(isrc) && !fs.existsSync(idst)) {
-      //console.warn("COPY images :", isrc, idst);
-      fs.cpSync(isrc, idst, { recursive: true });
-    }
-    console.log("[" + p + "] " + e);
-    fs.writeFileSync(outf, newc, "utf8");
-    await mdToPdf(
-      { path: outf },                // input markdown file
-      {
-        dest: "target/tmp/" + e.substring(0, e.length - 3) + ".pdf",
-        basedir: 'target/tmp'
+  return hash.digest('hex');
+}
+
+// Update PDF objects, then serialize normally so xref offsets remain valid.
+function rewriteLinks(doc, mapLink) {
+  for (const page of doc.getPages()) {
+    for (const ref of page.node.Annots()?.asArray() || []) {
+      const annotation = doc.context.lookup(ref, PDFDict);
+      const action = annotation.lookupMaybe(PDFName.of('A'), PDFDict);
+      const uri = action?.lookup(PDFName.of('URI'));
+      if (!(uri instanceof PDFString || uri instanceof PDFHexString)) continue;
+      let url;
+      try { url = new URL(uri.decodeText()); } catch { continue; }
+      if (url.hostname !== 'localhost' || !url.port || url.protocol !== 'http:') continue;
+      const result = mapLink(url);
+      if (typeof result === 'string') {
+        action.set(PDFName.of('URI'), PDFHexString.fromText(result));
+      } else if (result) {
+        annotation.delete(PDFName.of('A'));
+        annotation.set(PDFName.of('Dest'), doc.context.obj([result.ref, PDFName.of('Fit')]));
       }
-    );
-    // pageCount + link rewriting for the per-file PDF
-    let buf = fs.readFileSync(outfpdf);
-    const exd = require("pdfjs").ExternalDocument;
-    const doc = new exd(buf);
-    const nump = doc.pageCount;
-    fs.writeFileSync(
-      "target/tmp/" + e.substring(0, e.length - 3) + ".json",
-      JSON.stringify({ pageCount: nump })
-    );
-    const outDir = resolve("target/pdf/" + e + "/..");
-    fs.mkdirSync(outDir, { recursive: true });
-    outfpdf = "target/pdf/" + e.substring(0, e.length - 3) + ".pdf";
-    //--------------------------------------------------------------------------------------
-    const dir = dirname(e);
-    buf = rewriteLocalhostUris(buf, (pth) => {
-      var fp = '.' + pth;
-      var sfx = fs.existsSync(fp + '.md') ? '.pdf' : '';
-      return relative(dir, fp).replace(/\\/g, '/') + sfx;
-    });    
-    fs.writeFileSync(outfpdf, buf);
-  }
-  //---------------------------------------------------------------------------------------
-  console.log(" >>> Prepare bundle");
-  var crrpage = 1;
-  var file2page = [];
-  for (var e of files) if (e.endsWith(".md")) {
-    var key = e.substring(0, e.length - 3);
-    var jc = fs.readFileSync("target/tmp/" + e.substring(0, e.length - 3) + ".json", "utf8");
-    var pnum = JSON.parse(jc).pageCount;
-    file2page[key] = crrpage;
-    crrpage += pnum;
-  }
-  var mfiles = [];
-  for (var e of files) if (e.endsWith(".md")) {
-    var basf = "target/tmp/" + e.substring(0, e.length - 3);
-    var inpf =  basf + ".pdf";
-    var outpf =  basf + ".PAGES.pdf";
-    if (!fs.existsSync(outpf)) {
-      let buf = fs.readFileSync(inpf);  
-      buf = rewriteLocalhostUris(buf, (pth) => {
-        while (pth.startsWith("/")) pth=pth.substring(1);
-        if (pth.endsWith(".pdf")) 
-          pth=pth.substring(0,pth.length-4);
-        var p = file2page[pth];
-        if (p != undefined) 
-            return "#page="+p; 
-        console.warn("UNRESOLVED path in '"+e+"' : can not find page for ",pth);
-        return pth;
-      }); 
-      fs.writeFileSync(outpf, buf);
     }
-    mfiles.push(outpf);
   }
-  console.log(" >>> Building bundle (" + mfiles.length + " files)");//, mfiles);
-  const PDFMerger = require('pdf-merger-js').default;
-  var merger = new PDFMerger();
-  for (var e of mfiles) await merger.add(e);
-  console.log(" >>> Saving bundle", mfile);
-  await merger.save(mfile);
+}
 
-  // @END : SET FILE MTIME 
-  setMtime(mfile,maxTSFiles);
-  function setMtime(filePath, mtimeMs) {
-    const mtimeSec = mtimeMs / 1000; // utimesSync expects seconds
-    const atimeSec = fs.statSync(filePath).atimeMs / 1000; // preserve access time
-    fs.utimesSync(filePath, atimeSec, mtimeSec);
+function linkPath(url) {
+  return decodeURIComponent(url.pathname).replace(/^\/+/, '');
+}
+
+function pageKey(url, known) {
+  const key = linkPath(url).replace(/\/$/, '').replace(/\.(md|pdf)$/i, '');
+  // Wiki directory links, e.g. /de/user-guide, open their matching index page.
+  const index = `${key}/${path.posix.basename(key)}`;
+  return !known?.has(key) && known?.has(index) ? index : key;
+}
+
+async function build(root = __dirname) {
+  const files = roots.flatMap(({ dir, entry }) => [entry, ...getFiles(path.join(root, dir)).map(file => path.relative(root, file).split(path.sep).join('/'))]);
+  const markdown = files.filter(file => file.endsWith('.md'));
+  const version = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8')).version;
+  const bundleName = `VisionR-Wiki-${version}.pdf`;
+  const target = path.join(root, 'target');
+  const bundlePath = path.join(target, bundleName);
+  const manifestPath = path.join(target, 'build-manifest.json');
+  const inputHash = fingerprint(root, ['build.js', 'package.json', 'package-lock.json', ...files]);
+  let previous;
+  try { previous = JSON.parse(fs.readFileSync(manifestPath, 'utf8')); } catch { /* First or interrupted build. */ }
+  if (previous?.inputHash === inputHash && previous.outputs?.length &&
+      previous.outputs.every(file => fs.existsSync(path.join(target, file))) &&
+      previous.outputHash === fingerprint(target, previous.outputs)) {
+    console.log('Everything up to date in VisionR-Wiki, skipping rebuild!');
+    return;
   }
 
-})();
+  // target is always the generated directory beneath the project root.
+  fs.rmSync(target, { recursive: true, force: true });
+  fs.mkdirSync(path.join(target, 'tmp'), { recursive: true });
+  fs.mkdirSync(path.join(target, 'pdf'), { recursive: true });
+  const { mdToPdf } = require('md-to-pdf');
+  const bundle = await PDFDocument.create();
+  const file2page = new Map();
+  const outputs = [];
+  const report = { documents: [], unresolvedLinks: [] };
+  const known = new Set(markdown.map(file => file.slice(0, -3)));
+  const assets = new Set(files.filter(file => !file.endsWith('.md')));
+  const attachments = new Set();
+  const unresolved = new Set();
+  for (const [index, file] of markdown.entries()) {
+    console.log(`[${index + 1}/${markdown.length}] ${file}`);
+    const pdfFile = file.replace(/\.md$/, '.pdf');
+    const temporary = path.join(target, 'tmp', pdfFile);
+    fs.mkdirSync(path.dirname(temporary), { recursive: true });
+    await mdToPdf({ path: path.join(root, file) }, {
+      dest: temporary,
+      basedir: root,
+      css: pdfCss,
+    });
+    const source = await PDFDocument.load(fs.readFileSync(temporary));
+    const startPage = bundle.getPageCount();
+    const copied = await bundle.copyPages(source, source.getPageIndices());
+    copied.forEach(page => bundle.addPage(page));
+    file2page.set(file.slice(0, -3), startPage);
+    report.documents.push({ source: file, pdf: `pdf/${pdfFile}`, pageCount: source.getPageCount(), startPage: startPage + 1 });
 
+    rewriteLinks(source, url => {
+      const key = pageKey(url, known);
+      const destination = known.has(key) ? `${key}.pdf` : linkPath(url);
+      if (assets.has(destination)) attachments.add(destination);
+      if (!known.has(key) && !assets.has(destination)) {
+        const warning = `${file}: ${destination}`;
+        if (!unresolved.has(warning)) {
+          unresolved.add(warning);
+          report.unresolvedLinks.push({ source: file, target: destination });
+        }
+      }
+      return path.posix.relative(path.posix.dirname(file), destination) + url.search + url.hash;
+    });
+    const output = `pdf/${pdfFile}`;
+    fs.mkdirSync(path.dirname(path.join(target, output)), { recursive: true });
+    fs.writeFileSync(path.join(target, output), await source.save());
+    outputs.push(output);
+  }
 
-function rewriteLocalhostUris(buf, mapPathFn) {
-  const TKN = Buffer.from("/URI (http://localhost:");
-  let off = 0;
-  while (true) {
-    const i = buf.indexOf(TKN, off);
-    if (i < 0) break;
-    const portStart = i + TKN.length;
-    const slash = buf.indexOf(0x2f /* '/' */, portStart); // after port
-    if (slash < 0) break;
-    const close = buf.indexOf(0x29 /* ')' */, slash); // closing ')'
-    if (close < 0) break;
-    var absPath = buf.slice(slash, close).toString(); // e.g. "target/tmp/de/foo.md"
-    const targetPath = mapPathFn(absPath);
-    let toPath = targetPath.replace(/\\/g, '/'); // force forward slashes */
-    //console.warn(dir+" | REWRITE ", absPath, "->", toPath);
-    const replacement = Buffer.from(toPath);
-    buf = Buffer.concat([buf.slice(0, i + 6), replacement, buf.slice(close)]);
-    off = i + 6 + replacement.length; // continue after what we inserted
+  rewriteLinks(bundle, url => {
+    const start = file2page.get(pageKey(url, known));
+    if (start !== undefined) return bundle.getPage(start);
+    return `pdf/${linkPath(url)}` + url.search + url.hash;
+  });
+  bundle.setTitle(`VisionR Wiki ${version}`);
+  console.log(` >>> Saving bundle (${markdown.length} files, ${bundle.getPageCount()} pages): ${bundleName}`);
+  fs.writeFileSync(bundlePath, await bundle.save());
+  outputs.push(bundleName);
+
+  // Preserve local attachment targets for links in the standalone PDFs and bundle.
+  for (const file of attachments) {
+    const output = `pdf/${file}`;
+    fs.mkdirSync(path.dirname(path.join(target, output)), { recursive: true });
+    fs.copyFileSync(path.join(root, file), path.join(target, output));
+    outputs.push(output);
   }
-  return buf;
+  report.pageCount = bundle.getPageCount();
+  fs.writeFileSync(path.join(target, 'build-report.json'), JSON.stringify(report, null, 2) + '\n');
+  outputs.push('build-report.json');
+  fs.writeFileSync(manifestPath, JSON.stringify({ inputHash, outputs, outputHash: fingerprint(target, outputs) }, null, 2) + '\n');
+  if (report.unresolvedLinks.length) {
+    console.warn(`${report.unresolvedLinks.length} links point to missing wiki content; see target/build-report.json.`);
   }
+}
+
+if (require.main === module) {
+  build().catch(error => {
+    console.error('Wiki PDF build failed:', error);
+    // md-to-pdf can leave its HTTP server/browser alive after a conversion error.
+    process.exit(1);
+  });
+}
+
+module.exports = { build, fingerprint, rewriteLinks, pageKey, pdfCss };

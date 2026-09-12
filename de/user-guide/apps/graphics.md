@@ -359,7 +359,7 @@ Hier kann der Benutzer z.B. eine neue Referenz zu einem grafischen Objekt erstel
 
 In diesem Menü sind Optionen wie Kopieren, Verschieben nach anderem Plan, Layer oder Speichern der Geometrie für spätere Wiedernutzung. 
 
-![image-20220704132804936](_images\graphics\draw_objects_save_menu)
+![image-20220704132804936](_images/graphics/draw_objects_save_menu.png)
 
 
 
